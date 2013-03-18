@@ -128,4 +128,15 @@
     <string name="processor_info">Processor</string>
     <string name="mem_info">Memory</string>
 
+    <!-- Category title for Charging sounds -->
+    <string name="power_notifications_category_title">Charging sounds</string>
+    <string name="power_notifications_enable_title">Enable</string>
+    <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibrate</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Notification sound</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silent</string>
+
 </resources>
