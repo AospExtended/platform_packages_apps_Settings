@@ -100,6 +100,9 @@
         <intent android:action="com.android.settings.action.DEMO_MODE" />
     </PreferenceScreen>
 
+    <Preference android:key="restart_systemui"
+        android:title="@string/restart_systemui" />
+
     <PreferenceCategory android:key="debug_debugging_category"
             android:title="@string/debug_debugging_category">
 
