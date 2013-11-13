@@ -29,4 +29,10 @@
    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
    <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="enable_adb_custom">Android debugging</string>
+    <string name="enable_adb_summary_custom">Enable the Android Debug Bridge (adb) interface</string>
+    <string name="adb_notify">ADB notification</string>
+    <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
+
 </resources>
