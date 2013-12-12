@@ -1801,6 +1801,8 @@
             android:exported="false"
             android:theme="@style/SetupWizardTheme.Light" />
 
+        <activity android:name="ChooseLockPatternSize" android:exported="false"/>
+
         <activity android:name="SetupChooseLockPassword"
             android:exported="false"
             android:taskAffinity="com.android.wizard"
