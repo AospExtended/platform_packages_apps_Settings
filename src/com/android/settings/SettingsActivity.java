@@ -237,6 +237,8 @@ public class SettingsActivity extends SettingsDrawerActivity
     private static final String PROFILEMGR_MAIN_FRAGMENT = "com.android.settings.ProfileMgrMain";
     private static final String MOBILENETWORK_FRAGMENT = "com.android.settings.MobileNetworkMain";
     private static final String SYSTEM_UPDATE = "android.settings.SystemUpdateActivity";
+    private static final String SUPERSU_FRAGMENT = "com.android.settings.SuperSU";
+
     private String mFragmentClass;
     private String mActivityAction;
 
@@ -1057,6 +1059,14 @@ public class SettingsActivity extends SettingsDrawerActivity
             Intent newIntent = new Intent("android.settings.SETTINGS");
             newIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(newIntent);
+            finish();
+            return null;
+       }
+       
+        if (SUPERSU_FRAGMENT.equals(fragmentName)) {
+            Intent superSUIntent = new Intent();
+            superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
+            startActivity(superSUIntent);
             finish();
             return null;
         }
