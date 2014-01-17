@@ -164,4 +164,5 @@ public class Settings extends SettingsActivity {
 
     // JDCTeam Additions.
     public static class ExpandedDesktopSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class SuperSUActivity extends SettingsActivity { /* empty */ }
 }

@@ -28,6 +28,11 @@
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- Custom Settings -->   
+    <!-- Dashboard -->
+    <string name="header_category_custom">AOSP Settings</string>
+    <string name="supersu_title">SuperSU</string>
+
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
