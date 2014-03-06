@@ -99,6 +99,18 @@
                 android:title="@string/extended_version"
                 android:summary="@string/extended_version_default" />
 
+        <!-- Device hardware processor -->
+        <Preference android:key="device_processor"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/processor_info"
+                android:summary="@string/device_info_default"/> 
+
+	    <!-- Device mem info -->
+	    <Preference android:key="device_memory"
+	            style="?android:preferenceInformationStyle"
+		        android:title="@string/mem_info"
+		        android:summary="@string/device_info_default"/>
+
         <!-- Security patch level -->
         <PreferenceScreen android:key="security_patch"
                 android:title="@string/security_patch"
