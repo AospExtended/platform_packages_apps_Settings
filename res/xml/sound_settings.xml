@@ -73,6 +73,15 @@
                 android:title="@string/volume_steps_title"
                 android:fragment="com.android.settings.extended.VolumeSteps" />
 
+        <!-- Less notification sounds -->
+        <ListPreference
+                android:key="less_notification_sounds"
+                android:title="@string/less_notification_sounds_title"
+                android:summary="@string/less_notification_sounds_summary"
+                android:entries="@array/less_notification_sounds_entries"
+                android:entryValues="@array/less_notification_sounds_values"
+                android:persistent="false" />
+
         <!-- Interruptions -->
         <com.android.settingslib.RestrictedPreference
                 android:key="zen_mode"
