@@ -30,6 +30,10 @@
     <color name="condition_card_first_button_text_color">@*android:color/primary_text_material_dark</color>
     <color name="condition_card_second_button_text_color">@*android:color/primary_text_material_dark</color>
 
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
+    <drawable name="expanded_item_bg">@android:color/background_light</drawable>
+
     <!-- Storage Summary Title -->
     <color name="storage_summary_title_color">#ff607d8b</color>
 
