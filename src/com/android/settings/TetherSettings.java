@@ -302,6 +302,8 @@ public class TetherSettings extends RestrictedSettingsFragment
                     mWifiConfig.SSID,
                     mSecurityType[index]));
         }
+        // Init the switch to current state
+        mEnableWifiAp.setChecked(mWifiManager.isWifiApEnabled());
     }
 
     @Override
