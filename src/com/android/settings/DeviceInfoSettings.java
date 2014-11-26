@@ -116,7 +116,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL + DeviceInfoUtils.getMsvSuffix());
         setValueSummary(KEY_EQUIPMENT_ID, PROPERTY_EQUIPMENT_ID);
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
-        setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
+        setStringSummary(KEY_BUILD_NUMBER, Build.ID);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(DeviceInfoUtils.customizeFormatKernelVersion(
                 getResources().getBoolean(R.bool.def_hide_kernel_version_name)));
