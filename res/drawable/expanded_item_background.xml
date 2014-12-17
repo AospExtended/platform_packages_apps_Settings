@@ -18,4 +18,3 @@
     <item android:state_activated="true" android:drawable="@drawable/expanded_item_bg_activated" />
     <item android:state_activated="false" android:drawable="@drawable/expanded_item_bg" />
 </selector>
-
