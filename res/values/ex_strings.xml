@@ -52,5 +52,9 @@
       
     <!-- Volume settings - Volume adjustment sound -->
      <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+    
+    <!-- Keyboard and Input ASS methods -->
+    <string name="show_enter_key_title">Show enter key</string>
+    <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
 
 </resources>
