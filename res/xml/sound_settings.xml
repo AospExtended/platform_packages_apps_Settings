@@ -257,4 +257,9 @@
         android:fragment="com.android.settings.notification.SoundWorkSettings"
         android:order="100"
         settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
+
+    <!-- Screenshot sound -->
+    <SwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title" />
 </PreferenceScreen>
