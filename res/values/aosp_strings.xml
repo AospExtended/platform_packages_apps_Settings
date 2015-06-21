@@ -21,4 +21,10 @@
     <string name="sim_card_summary_empty">SIM not inserted</string>
     <string name="sim_mobile_network_settings_category_title">Mobile network settings</string>
     <string name="sim_mobile_network_settings_title">SIM %d settings</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">AOSP 5.1.1 changelog</string>
+    <string name="changelog_loading">Loading changelog\u2026</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>
