@@ -387,4 +387,5 @@
     <string name="always_on_display_schedule_sunrise">Sunrise</string>
     <string name="disabled">Disabled</string>
 
+    <string name="volumesteps_title">Volume Steps</string>
 </resources>
