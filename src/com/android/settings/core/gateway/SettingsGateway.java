@@ -164,6 +164,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.aospextended.extensions.Extensions;
 import org.aospextended.extensions.fragments.GamingMode;
+import org.aospextended.extensions.fragments.VolumeStepsFragment;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
@@ -320,6 +321,7 @@ public class SettingsGateway {
             Extensions.class.getName(),
             RunningServices.class.getName(),
             GamingMode.class.getName(),
+            VolumeStepsFragment.class.getName(),
 
             // LiveDisplay
             LiveDisplaySettings.class.getName()
@@ -365,6 +367,7 @@ public class SettingsGateway {
             // AEX additions
             Settings.ExtensionsSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
-            Settings.GamingModeActivity.class.getName()
+            Settings.GamingModeActivity.class.getName(),
+            Settings.VolumeStepsFragmentActivity.class.getName()
     };
 }
