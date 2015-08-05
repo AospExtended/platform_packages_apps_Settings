@@ -269,4 +269,19 @@
     <string name="battery_low_notif_title">Low battery notification</string>
     <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
 
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Dynamic notification title color</string>
+    <string name="notification_tint_summary_off">Title color on notification will be handled by the theme</string>
+    <string name="notification_tint_summary_on">Title color on notification will be taken from app icon color</string>
+
+    <!-- Doze invert -->
+    <string name="doze_notification_color_invert_title">Ambient notification inversion</string>
+    <string name="doze_notification_color_invert_summary_off">Ambient notifications will not be inverted</string>
+    <string name="doze_notification_color_invert_summary_on">Ambient notifications will be inverted</string>
+
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum overlays</string>
+    <string name="menu_show_substratum">Show overlays</string>
+    <string name="menu_hide_substratum">Hide overlays</string>
+
 </resources>
