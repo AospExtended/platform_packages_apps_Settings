@@ -33,18 +33,13 @@
             <intent android:action="android.settings.SHOW_MANUAL" />
         </PreferenceScreen>
 
-        <!-- Legal Information -->
-        <PreferenceScreen
-                android:key="container"
-                android:title="@string/legal_information"
-                android:fragment="com.android.settings.LegalSettings" />
 
 	<!-- About Devs -->
         <PreferenceScreen
 		android:key="dev_info"
 		android:title="@string/dev_info"
 		android:fragment="com.android.settings.aosprro.devs" />
-
+		
         <PreferenceScreen
                 android:key="regulatory_info"
                 android:title="@string/regulatory_information">
