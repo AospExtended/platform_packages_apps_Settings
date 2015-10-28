@@ -38,6 +38,11 @@
                 settings:keywords="@string/keywords_network_name_display"
                 android:summary="@string/network_name_displayed_summary"
                 android:persistent="false" />
+                
+        <Preference
+            android:key="expanded_desktop"
+            android:fragment="com.android.settings.extended.ExpandedDesktop"
+            android:title="@string/expanded_desktop_category" />
 
         <!-- Hide night mode for now
         <ListPreference
