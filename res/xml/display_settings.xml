@@ -60,9 +60,10 @@
         android:entries="@array/screen_timeout_entries"
         android:entryValues="@array/screen_timeout_values" />
 
-    <SwitchPreference
-        android:key="auto_rotate"
-        android:title="@string/accelerometer_title" />
+    <Preference
+        android:key="display_rotation"
+        android:fragment="com.android.settings.preference.DisplayRotation"
+        android:title="@string/display_rotation_title" />
 
     <Preference
         android:key="color_mode"
