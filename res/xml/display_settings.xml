@@ -55,6 +55,11 @@
                         android:targetClass="@string/config_wallpaper_picker_class" />
         </com.android.settingslib.RestrictedPreference>
 
+        <PreferenceScreen
+                android:key="display_rotation"
+                android:title="@string/display_rotation_title"
+                android:fragment="com.android.settings.nexus.DisplayRotation" />
+
         <com.android.settings.TimeoutListPreference
                 android:key="screen_timeout"
                 android:title="@string/screen_timeout"
@@ -96,11 +101,6 @@
                 android:key="screen_zoom"
                 android:title="@string/screen_zoom_title"
                 settings:keywords="@string/screen_zoom_keywords" />
-
-        <DropDownPreference
-                android:key="auto_rotate"
-                android:summary="%s"
-                android:title="@string/display_auto_rotate_title" />
 
         <PreferenceScreen
                 android:key="expanded_desktop"

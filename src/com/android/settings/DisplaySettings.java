@@ -30,7 +30,9 @@ import android.content.res.Resources;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.Build;
+import android.database.ContentObserver;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.os.UserManager;
@@ -43,6 +45,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceCategory;
+import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -52,6 +55,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.internal.view.RotationPolicy;
 import com.android.settings.accessibility.ToggleFontSizePreferenceFragment;
 import com.android.settings.dashboard.SummaryLoader;
+import com.android.settings.nexus.DisplayRotation;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.RestrictedLockUtils;
@@ -86,8 +90,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_DOZE = "doze";
     private static final String KEY_TAP_TO_WAKE = "tap_to_wake";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness";
-    private static final String KEY_AUTO_ROTATE = "auto_rotate";
     private static final String KEY_NIGHT_DISPLAY = "night_display";
+    private static final String KEY_DISPLAY_ROTATION = "display_rotation";
     private static final String KEY_NIGHT_MODE = "night_mode";
     private static final String KEY_CAMERA_GESTURE = "camera_gesture";
     private static final String KEY_WALLPAPER = "wallpaper";
@@ -98,11 +102,25 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private TimeoutListPreference mScreenTimeoutPreference;
     private ListPreference mNightModePreference;
     private Preference mScreenSaverPreference;
+    private PreferenceScreen mDisplayRotationPreference;
     private SwitchPreference mLiftToWakePreference;
     private SwitchPreference mDozePreference;
     private SwitchPreference mTapToWakePreference;
     private SwitchPreference mAutoBrightnessPreference;
     private SwitchPreference mCameraGesturePreference;
+
+    private static final String ROTATION_ANGLE_0 = "0";
+    private static final String ROTATION_ANGLE_90 = "90";
+    private static final String ROTATION_ANGLE_180 = "180";
+    private static final String ROTATION_ANGLE_270 = "270";
+
+    private ContentObserver mAccelerometerRotationObserver =
+            new ContentObserver(new Handler()) {
+        @Override
+        public void onChange(boolean selfChange) {
+            updateDisplayRotationPreferenceDescription();
+        }
+    };
 
     @Override
     protected int getMetricsCategory() {
@@ -177,47 +195,11 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 }
             }
 
-            DropDownPreference rotatePreference =
-                    (DropDownPreference) findPreference(KEY_AUTO_ROTATE);
-            if (rotatePreference != null) {
-                if (RotationPolicy.isRotationLockToggleVisible(activity)) {
-                    int rotateLockedResourceId;
-                    // The following block sets the string used when rotation is locked.
-                    // If the device locks specifically to portrait or landscape (rather than current
-                    // rotation), then we use a different string to include this information.
-                    if (allowAllRotations(activity)) {
-                        rotateLockedResourceId = R.string.display_auto_rotate_stay_in_current;
-                    } else {
-                        if (RotationPolicy.getRotationLockOrientation(activity)
-                                == Configuration.ORIENTATION_PORTRAIT) {
-                            rotateLockedResourceId =
-                                    R.string.display_auto_rotate_stay_in_portrait;
-                        } else {
-                            rotateLockedResourceId =
-                                    R.string.display_auto_rotate_stay_in_landscape;
-                        }
-                    }
-                    rotatePreference.setEntries(new CharSequence[] {
-                            activity.getString(R.string.display_auto_rotate_rotate),
-                            activity.getString(rotateLockedResourceId),
-                    });
-                    rotatePreference.setEntryValues(new CharSequence[] { "0", "1" });
-                    rotatePreference.setValueIndex(RotationPolicy.isRotationLocked(activity) ?
-                            1 : 0);
-                    rotatePreference.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
-                        @Override
-                        public boolean onPreferenceChange(Preference preference, Object newValue) {
-                            final boolean locked = Integer.parseInt((String) newValue) != 0;
-                            MetricsLogger.action(getActivity(), MetricsEvent.ACTION_ROTATION_LOCK,
-                                    locked);
-                            RotationPolicy.setRotationLock(activity, locked);
-                            return true;
-                        }
-                    });
-                } else {
-                    displayPrefs.removePreference(rotatePreference);
-                }
-            }
+        if (RotationPolicy.isRotationLockToggleVisible(activity)) {
+            mDisplayRotationPreference = (PreferenceScreen) findPreference(KEY_DISPLAY_ROTATION);
+        } else {
+            removePreference(KEY_DISPLAY_ROTATION);
+        }
 
             DropDownPreference vrDisplayPref =
                     (DropDownPreference) findPreference(KEY_VR_DISPLAY_PREF);
@@ -332,6 +314,50 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         preference.setSummary(summary);
     }
 
+    private void updateDisplayRotationPreferenceDescription() {
+        PreferenceScreen preference = mDisplayRotationPreference;
+        if (preference == null) {
+            return;
+        }
+        preference.setEnabled(RotationPolicy.isRotationLockToggleVisible(getActivity()));
+        StringBuilder summary = new StringBuilder();
+        Boolean rotationEnabled = Settings.System.getInt(getContentResolver(),
+                Settings.System.ACCELEROMETER_ROTATION, 0) != 0;
+        int mode = Settings.System.getInt(getContentResolver(),
+                Settings.System.ACCELEROMETER_ROTATION_ANGLES,
+                DisplayRotation.ROTATION_0_MODE|DisplayRotation.ROTATION_90_MODE
+                |DisplayRotation.ROTATION_270_MODE);
+
+        if (!rotationEnabled) {
+            summary.append(getString(R.string.display_rotation_disabled));
+        } else {
+            ArrayList<String> rotationList = new ArrayList<String>();
+            String delim = "";
+            if ((mode & DisplayRotation.ROTATION_0_MODE) != 0) {
+                rotationList.add(ROTATION_ANGLE_0);
+            }
+            if ((mode & DisplayRotation.ROTATION_90_MODE) != 0) {
+                rotationList.add(ROTATION_ANGLE_90);
+            }
+            if ((mode & DisplayRotation.ROTATION_180_MODE) != 0) {
+                rotationList.add(ROTATION_ANGLE_180);
+            }
+            if ((mode & DisplayRotation.ROTATION_270_MODE) != 0) {
+                rotationList.add(ROTATION_ANGLE_270);
+            }
+            for (int i = 0; i < rotationList.size(); i++) {
+                summary.append(delim).append(rotationList.get(i));
+                if ((rotationList.size() - i) > 2) {
+                    delim = ", ";
+                } else {
+                    delim = " & ";
+                }
+            }
+            summary.append(" " + getString(R.string.display_rotation_unit));
+        }
+        preference.setSummary(summary);
+    }
+
     @Override
     public void onResume() {
         super.onResume();
@@ -353,6 +379,15 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         updateTimeoutPreferenceDescription(currentTimeout);
 
         disablePreferenceIfManaged(KEY_WALLPAPER, UserManager.DISALLOW_SET_WALLPAPER);
+        getContentResolver().registerContentObserver(Settings.System.getUriFor(
+		    Settings.System.ACCELEROMETER_ROTATION), true, mAccelerometerRotationObserver);
+        updateDisplayRotationPreferenceDescription();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        getContentResolver().unregisterContentObserver(mAccelerometerRotationObserver);
     }
 
     private void updateState() {
@@ -550,9 +585,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     }
                     if (!isDozeAvailable(context)) {
                         result.add(KEY_DOZE);
-                    }
-                    if (!RotationPolicy.isRotationLockToggleVisible(context)) {
-                        result.add(KEY_AUTO_ROTATE);
                     }
                     if (!isTapToWakeAvailable(context.getResources())) {
                         result.add(KEY_TAP_TO_WAKE);
