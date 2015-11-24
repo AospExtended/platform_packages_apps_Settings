@@ -147,6 +147,11 @@
     <string name="force_allow_system_themes_summary">Allows you to use following themes and fonts options inspite of substratum installed.</string>
     <string name="force_theme_warning_title">Warning !</string>
     <string name="force_theme_warning_message">This could cause conflicts between substratum themes and system themes. We hope you know what are you getting into. #DontBlameUsLater :D</string>
+ 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 
 </resources>
 
