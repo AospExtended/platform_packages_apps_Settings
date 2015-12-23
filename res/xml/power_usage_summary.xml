@@ -25,6 +25,13 @@
             android:summary="@string/show_battery_percentage_summary"
             android:persistent="false" />
 
+        <!-- Bar color -->
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="battery_save_mode_color"
+            android:title="@string/battery_saver_color_title"
+            android:summary="@string/battery_saver_color_summary"
+            android:defaultValue="true" />
+
         <com.android.settings.fuelgauge.BatteryHistoryPreference
             android:key="battery_history" />
 

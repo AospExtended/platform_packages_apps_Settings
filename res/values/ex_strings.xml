@@ -250,5 +250,10 @@
     <string name="ambient_display_show_battery_title">Battery Status</string>
     <string name="ambient_display_show_battery_summary">Show battery indicator during pulse</string>
 
+    <!-- Battery Saver Settings -->
+    <!-- Disable Battery Saver Warning Color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable red status and navigation bars when battery saver is activated</string>
+
 </resources>
 
