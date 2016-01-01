@@ -218,4 +218,7 @@
     <string name="battery_light_title">Battery light</string>
     <string name="notification_light_title">Notification light</string>
 
+    <!-- Memory -->
+    <string name="memory_startup_apps_title">Apps started on boot</string>
+
 </resources>
