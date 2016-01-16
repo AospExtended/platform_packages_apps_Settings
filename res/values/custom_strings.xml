@@ -276,4 +276,9 @@
     <string name="maintainer_description">Maintains for %1$s</string>
     <string name="translators">Translators</string>
     <string name="translator_description">Translates to %1$s</string>
+
+<!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
 </resources>
