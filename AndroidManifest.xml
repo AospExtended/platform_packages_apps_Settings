@@ -2937,6 +2937,31 @@
                 android:value="true" />
         </activity>
 
+        <!-- Ambient Display settings activity. -->
+        <activity android:name="Settings$AmbientDisplaySettingsActivity"
+                android:label="@string/doze_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.extended.AmbientSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <activity-alias android:name=".extended.AmbientSettings"
+                  android:label="@string/doze_title"
+                  android:clearTaskOnLaunch="true"
+                  android:exported="true"
+                  android:targetActivity="Settings$AmbientDisplaySettingsActivity">
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.extended.AmbientSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity-alias>
+
         <activity android:name=".batterylight.NotificationLightSettings" />
         <activity android:name=".batterylight.BatteryLightSettings" />
 
