@@ -158,7 +158,7 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
             new SettingsContentObserver(mHandler) {
                 @Override
                 public void onChange(boolean selfChange, Uri uri) {
-                    updateServicesPreferences();
+                    updateAllPreferences();
                 }
             };
 
