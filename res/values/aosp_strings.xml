@@ -11,5 +11,8 @@
     <!-- Dashboard -->
     <string name="header_category_custom">AOSP Settings</string>
     <string name="custom_settings_title">JDCTeam Custom Settings</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
 </resources>
  
