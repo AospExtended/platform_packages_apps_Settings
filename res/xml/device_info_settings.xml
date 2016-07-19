@@ -136,6 +136,13 @@
                 android:title="@string/build_date"
                 android:summary="@string/build_date_default" />
 
+        <!-- Vendor Version -->
+        <Preference android:key="vendor_version"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:title="@string/vendor_version"
+                android:summary="@string/vendor_version_default" />
+
         <!-- Detailed build version -->
         <Preference android:key="build_number"
                 android:enabled="false"
