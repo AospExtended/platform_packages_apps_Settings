@@ -278,8 +278,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         boolean proximityCheckOnWake = getResources().getBoolean(
                 com.android.internal.R.bool.config_proximityCheckOnWake);
         if (!proximityCheckOnWake) {
-            if (mProximityCheckOnWakePreference != null) {
-                mWakeUpOptions.removePreference(mProximityCheckOnWakePreference);
+            if (mWakeUpOptions != null && mProximityCheckOnWakePreference != null) {
+                mWakeUpOptions.removePreference(findPreference(KEY_PROXIMITY_WAKE));
             }
             Settings.System.putInt(resolver, Settings.System.PROXIMITY_ON_WAKE, 0);
         }
