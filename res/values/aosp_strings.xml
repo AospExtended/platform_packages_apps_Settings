@@ -80,5 +80,7 @@
     <string name="hardware_keys_action_voice_search">Voice search</string>
     <string name="hardware_keys_action_in_app_search">In-app search</string>
     <string name="hardware_keys_action_sleep">Turn screen off</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
 </resources>
- 
