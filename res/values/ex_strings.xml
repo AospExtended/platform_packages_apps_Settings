@@ -85,4 +85,7 @@
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
 
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
+
 </resources>
