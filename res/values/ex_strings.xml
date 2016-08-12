@@ -28,4 +28,9 @@
    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
    <string name="local_backup_password_title">Desktop backup password</string>
 
+    <!-- About phone screen, Extended Developer -->
+    <string name="extended_dev_title">Extended by</string>
+    <!-- Do NOT translate this -->
+   <string name="extended_dev">Ishubhamsingh</string>
+
 </resources>
