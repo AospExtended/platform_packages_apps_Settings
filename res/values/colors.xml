@@ -124,4 +124,5 @@
     <!-- Gestures settings -->
     <color name="gestures_setting_background_color">#f5f5f5</color>
 
+    <color name="appops_accent_color">#ff7fcac3</color>
 </resources>
