@@ -310,17 +310,6 @@ public class DataUsageList extends DataUsageBase {
             } else {
                 mChart.setNetworkPolicy(policy);
             }
-            mHeader.findViewById(R.id.filter_settings).setVisibility(View.VISIBLE);
-            mHeader.findViewById(R.id.filter_settings).setOnClickListener(
-                    new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Bundle args = new Bundle();
-                    args.putParcelable(DataUsageList.EXTRA_NETWORK_TEMPLATE, mTemplate);
-                    startFragment(DataUsageList.this, BillingCycleSettings.class.getName(),
-                            R.string.billing_cycle, 0, args);
-                }
-            });
         } else {
             // controls are disabled; don't bind warning/limit sweeps
             if (mDataSelectionEnable) {
@@ -328,8 +317,6 @@ public class DataUsageList extends DataUsageBase {
             } else {
                 mChart.setNetworkPolicy(null);
             }
-
-            mHeader.findViewById(R.id.filter_settings).setVisibility(View.GONE);
         }
 
         if (refreshCycle) {
