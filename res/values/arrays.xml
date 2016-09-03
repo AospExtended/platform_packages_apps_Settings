@@ -39,6 +39,11 @@
         <item>All</item>
     </string-array>
 
+    <!-- There is a setting to control if an app is able to clear cache in settings::apps. -->
+    <string-array name="no_cache_clear_package_list" translatable="false">
+        <item></item>
+    </string-array>
+
     <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
     <string-array name="screen_timeout_entries">
         <item>15 seconds</item>
@@ -515,6 +520,8 @@
         <item>IMSI</item>
         <!-- Do not translate. -->
         <item>GID</item>
+        <!-- Do not translate. -->
+        <item>ICCID</item>
     </string-array>
 
     <string-array translatable="false" name="mvno_type_values">
@@ -526,6 +533,8 @@
         <item>imsi</item>
         <!-- Do not translate. -->
         <item>gid</item>
+        <!-- Do not translate. -->
+        <item>iccid</item>
     </string-array>
 
     <!-- Apps on SD installation location options in ApplicationSettings -->
@@ -1031,4 +1040,54 @@
         <item>Red</item>
     </string-array>
 
+    <!-- Wifi extension requirement -->
+    <string-array name="cellcular2wifi_entries">
+        <item>Automatically connect</item>
+        <item>Manually connect</item>
+        <item>Always ask</item>
+    </string-array>
+
+    <!-- Wifi extension requirement -->
+    <string-array name="cellcular2wifi_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- CT MCC-MNC-->
+    <string-array name="ct_mcc_mnc_list"  translatable="false">
+        <item>45507</item>
+        <item>46003</item>
+        <item>46011</item>
+        <item>46012</item>
+        <item>20404</item>
+        <item>45502</item>
+        <item>45403</item>
+        <item>45404</item>
+    </string-array>
+
+    <!-- dm plmn that need to be hidden -->
+    <string-array name="hidedm_plmn_list">
+        <item>46000</item>
+        <item>46002</item>
+        <item>46003</item>
+        <item>46007</item>
+    </string-array>
+
+    <!-- supl plmn list that need to be hidden -->
+    <string-array name="hidesupl_plmn_list">
+        <item>46001</item>
+        <item>46003</item>
+        <item>46011</item>
+        <item>46012</item>
+        <item>45502</item>
+        <item>45507</item>
+    </string-array>
+
+    <!-- Defined the hide accounts' type -->
+    <string-array name="hide_account_list">
+        <item>com.qualcomm.qti.RIDL</item>
+        <item>com.android.localphone</item>
+        <item>com.android.sim</item>
+    </string-array>
 </resources>
