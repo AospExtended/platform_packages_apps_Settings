@@ -1302,8 +1302,13 @@
 
         <activity android:name="Settings$AppOpsSummaryActivity"
                 android:label="@string/app_ops_settings"
+                android:icon="@drawable/ic_settings_appops"
                 android:taskAffinity=""
-                android:enabled="false">
+                android:enabled="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.applications.AppOpsSummary" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.settings.APP_OPS_SETTINGS" />
@@ -1311,8 +1316,15 @@
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
+            <intent-filter android:priority="9">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.AppOpsSummary" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/app_ops_settings_summary" />
         </activity>
 
         <activity android:name="Settings$BackgroundCheckSummaryActivity"
