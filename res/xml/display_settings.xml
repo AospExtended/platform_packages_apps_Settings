@@ -42,6 +42,11 @@
                 android:fragment="com.android.settings.display.NightDisplaySettings"
                 android:widgetLayout="@null"
                 settings:keywords="@string/keywords_display_night_display" />
+                
+        <Preference
+            android:key="expanded_desktop"
+            android:fragment="com.android.settings.extended.ExpandedDesktop"
+            android:title="@string/expanded_desktop_category" />
 
         <!-- Hide night mode for now
         <ListPreference
