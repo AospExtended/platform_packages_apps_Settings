@@ -89,10 +89,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_CAMERA_GESTURE = "camera_gesture";
     private static final String KEY_WALLPAPER = "wallpaper";
     private static final String KEY_VR_DISPLAY_PREF = "vr_display_pref";
-    private static final String KEY_NETWORK_NAME_DISPLAYED = "network_operator_display";
-    private static final String SHOW_NETWORK_NAME_MODE = "show_network_name_mode";
-    private static final int SHOW_NETWORK_NAME_ON = 1;
-    private static final int SHOW_NETWORK_NAME_OFF = 0;
 
     private Preference mFontSizePref;
 
