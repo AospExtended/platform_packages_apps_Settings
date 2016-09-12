@@ -143,6 +143,12 @@
                 android:summary="@string/disable_suggestions_summary"
                 android:defaultValue="false" />
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+                android:key="remove_settings_tile_summary"
+                android:title="@string/remove_tile_summaries_title"
+                android:summary="@string/remove_tile_summaries_summary"
+                android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
