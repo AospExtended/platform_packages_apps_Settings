@@ -120,6 +120,7 @@ import com.android.settings.search.Index;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.users.UserSettings;
+import com.android.settings.extended.SubstratumLaunch;
 import com.android.settings.vpn2.VpnSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.widget.SwitchBar;
@@ -386,7 +387,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+            SubstratumLaunch.class.getName()
     };
 
 
@@ -1257,6 +1259,10 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                 Settings.ProfileMgrMainActivity.class.getName()),
                 getResources().getBoolean(R.bool.config_profilemgrmain_enabled), isAdmin, pm);
+
+        setTileEnabled(new ComponentName(packageName,
+                Settings.SubstratumLaunchActivity.class.getName()),
+                pm.isPackageAvailable("projekt.substratum"), isAdmin, pm);
 
         final boolean showDev = mDevelopmentPreferences.getBoolean(
                     DevelopmentSettings.PREF_SHOW, android.os.Build.TYPE.equals("eng") || android.os.Build.TYPE.equals("userdebug"))

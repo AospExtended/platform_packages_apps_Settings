@@ -2542,6 +2542,23 @@
             android:launchMode="singleTop"
             android:theme="@style/CryptKeeperBlankTheme"
         />
+        
+        <activity android:name="Settings$SubstratumLaunchActivity"
+            android:label="@string/substratum_settings_title"
+            android:icon="@drawable/ic_settings_substratum"
+            android:taskAffinity=""
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.action.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.screwd" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.screwd.SubstratumLaunch" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
