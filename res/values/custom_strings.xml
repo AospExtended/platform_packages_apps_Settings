@@ -224,8 +224,9 @@
 
     <!-- Dashboard suggestions -->
     <string name="dashboard_category">Dashboard options</string>
-    <string name="disable_suggestions_title">Disable suggestions</string>
-    <string name="disable_suggestions_summary">Disable the suggestions that appear on top of the dashboard</string>
+    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
+    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
+    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
     <string name="remove_tile_summaries_title">Remove tile summaries</string>
     <string name="remove_tile_summaries_summary">Remove tiles summaries that display underneath tile titles</string>
 
