@@ -128,6 +128,18 @@
                 android:title="@string/build_number"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Device cpu info -->
+        <Preference android:key="device_cpu"
+		style="?android:preferenceInformationStyle"
+		android:title="@string/cpu_info"
+		android:summary="@string/device_info_default"/>
+
+	<!-- Device mem info -->
+	<Preference android:key="device_memory"
+		style="?android:preferenceInformationStyle"
+		android:title="@string/mem_info"
+		android:summary="@string/device_info_default"/>
+
         <!-- SELinux status information -->
         <Preference android:key="selinux_status"
                 android:enabled="false"
