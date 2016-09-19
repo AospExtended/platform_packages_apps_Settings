@@ -1256,6 +1256,16 @@ public class SettingsActivity extends SettingsDrawerActivity
                         Settings.DevelopmentSettingsActivity.class.getName()),
                 showDev, isAdmin, pm);
 
+        // Embedding into Settings is supported from SuperSU v1.85 and up
+        boolean suSupported = false;
+        try {
+            suSupported = (getPackageManager().getPackageInfo("eu.chainfire.supersu", 0).versionCode >= 185);
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.SuperSUActivity.class.getName()),
+                suSupported, isAdmin, pm);
+
         // Reveal development-only quick settings tiles
         DevelopmentTiles.setTilesEnabled(this, showDev);
 
