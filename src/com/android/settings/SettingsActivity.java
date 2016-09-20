@@ -142,6 +142,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import org.aospextended.extensions.PartsFragment;
+
 public class SettingsActivity extends SettingsDrawerActivity
         implements PreferenceManager.OnPreferenceTreeClickListener,
         PreferenceFragment.OnPreferenceStartFragmentCallback,
@@ -255,6 +257,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.RoamingSettingsActivity.class.getName(),
             Settings.SimSettingsActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
+            //custom_section
+            PartsFragment.class.getName(),
             //device_section
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
@@ -375,6 +379,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
+            PartsFragment.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName()
     };
 

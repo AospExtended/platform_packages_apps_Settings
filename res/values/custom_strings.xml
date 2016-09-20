@@ -21,6 +21,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 
+    <!-- General strings -->
+    <string name="header_category_custom">ROM control</string>
+
     <!-- Battery & notification light -->
     <string name="lights_label">Lights</string>
     <string name="battery_light_title">Battery light</string>
