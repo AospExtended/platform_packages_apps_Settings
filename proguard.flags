@@ -24,6 +24,8 @@
 -keep class com.android.settings.preference.*
 -keep class com.android.settings.extended.**
 
+-keep class org.aospextended.extensions.**
+
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
   *** onClick*(...);

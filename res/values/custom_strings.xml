@@ -28,6 +28,7 @@
     <string name="dev_info">AOSP-OMS Developers</string>
 
     <!-- General strings -->
+    <string name="header_category_custom">ROM control</string>
     <string name="ok">OK</string>
 
     <!-- Setting checkbox title for root access -->
