@@ -137,6 +137,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import org.aospextended.extensions.PartsFragment;
+
 public class SettingsActivity extends SettingsDrawerActivity
         implements PreferenceManager.OnPreferenceTreeClickListener,
         PreferenceFragment.OnPreferenceStartFragmentCallback,
@@ -253,6 +255,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.SimSettingsActivity.class.getName(),
             Settings.Lte4GEnableActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
+            //custom_section
+            PartsFragment.class.getName(),
             //device_section
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
@@ -371,6 +375,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             TestingSettings.class.getName(),
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
+            PartsFragment.class.getName(),
     };
 
 

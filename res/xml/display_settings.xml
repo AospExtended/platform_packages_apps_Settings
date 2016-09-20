@@ -136,20 +136,14 @@
         <!-- Battery light -->
         <PreferenceScreen
                 android:key="battery_light"
-                android:title="@string/battery_light_title">
-            <intent android:action="org.aospextended.extensions.PART">
-                <extra android:name="part" android:value="extensions:battery_lights" />
-            </intent>
-        </PreferenceScreen>
+                android:title="@string/battery_light_title"
+                android:fragment="org.aospextended.extensions.notificationlight.BatteryLightSettings" />
 
         <!-- Notification light -->
         <PreferenceScreen
                 android:key="notification_light"
-                android:title="@string/notification_light_title">
-            <intent android:action="org.aospextended.extensions.PART">
-                <extra android:name="part" android:value="extensions:notification_lights" />
-            </intent>
-        </PreferenceScreen>
+                android:title="@string/notification_light_title"
+                android:fragment="org.aospextended.extensions.notificationlight.NotificationLightSettings" />
 
     </PreferenceCategory>
 
