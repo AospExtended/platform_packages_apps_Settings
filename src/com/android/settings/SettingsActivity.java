@@ -138,6 +138,12 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 
 import java.net.URISyntaxException;
+
+import org.aospextended.extensions.dui.FlingSettings;
+import org.aospextended.extensions.dui.NavbarSettings;
+import org.aospextended.extensions.dui.SmartbarSettings;
+import org.aospextended.extensions.dui.PulseSettings;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -381,6 +387,10 @@ public class SettingsActivity extends SettingsDrawerActivity
             AutomaticStorageManagerSettings.class.getName(),
             PartsFragment.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName()
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 
