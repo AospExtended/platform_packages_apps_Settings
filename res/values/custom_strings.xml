@@ -119,4 +119,9 @@
     <string name="restart_systemui">Restart SystemUI</string>
 
     <string name="reset_wallpaper_notice">Default wallpaper restored</string>
+
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
 </resources>
