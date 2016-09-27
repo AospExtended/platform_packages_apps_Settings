@@ -548,3 +548,4 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 }
             };
 }
+

@@ -2892,6 +2892,9 @@
                 android:value="true" />
         </activity>
 
+        <activity android:name=".batterylight.NotificationLightSettings" />
+        <activity android:name=".batterylight.BatteryLightSettings" />
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
