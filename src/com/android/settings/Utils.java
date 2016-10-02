@@ -1224,6 +1224,7 @@ public final class Utils extends com.android.settingslib.Utils {
                     " with extra " + extra + ", " + extraVal);
             context.getApplicationContext().sendBroadcast(intent);
         }
+        }
 
     private static int getScreenType(Context con) {
         if (mDeviceType == -1) {
