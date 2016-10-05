@@ -492,6 +492,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         if (Settings.Secure.getInt(cr,
                 Settings.Secure.BUGREPORT_IN_POWER_MENU, 0) == 1) {
             Settings.Secure.putInt(cr, Settings.Secure.BUGREPORT_IN_POWER_MENU, 0);
+        }
 
         mRootAccess = (ListPreference) findPreference(ROOT_ACCESS_KEY);
         mRootAccess.setOnPreferenceChangeListener(this);
@@ -503,7 +504,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             mAllPrefs.add(mRootAccess);
             mAllPrefs.add(mRootAppops);
         }
-    }
+        }
 
     private ListPreference addListPreference(String prefKey) {
         ListPreference pref = (ListPreference) findPreference(prefKey);
@@ -2202,8 +2203,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
      * For Search.
      */
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
-
+                                       new BaseSearchIndexProvider() {
                 private boolean isShowingDeveloperOptions(Context context) {
                     return context.getSharedPreferences(DevelopmentSettings.PREF_FILE,
                             Context.MODE_PRIVATE).getBoolean(
