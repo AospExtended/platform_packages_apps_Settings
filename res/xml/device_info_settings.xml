@@ -19,6 +19,12 @@
         android:title="@string/about_settings">
 <PreferenceScreen android:layout="@layout/logo" android:key="aospextended_logo" />
 
+        <!-- Changelog -->
+        <PreferenceScreen
+            android:key="changelog"
+            android:title="@string/changelog_title"
+            android:fragment="com.android.settings.extended.Changelog" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
