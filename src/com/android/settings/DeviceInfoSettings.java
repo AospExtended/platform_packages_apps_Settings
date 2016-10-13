@@ -78,6 +78,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EXTENDED_VERSION = "extended_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
+    private static final String KEY_QGP_VERSION = "qgp_version";
+    private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -135,6 +137,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
+        setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
+        // Remove QGP Version if property is not present
+        removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
+                PROPERTY_QGP_VERSION);
         setValueSummary(KEY_MBN_VERSION, PROPERTY_MBN_VERSION);
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_MBN_VERSION,
                 PROPERTY_MBN_VERSION);
