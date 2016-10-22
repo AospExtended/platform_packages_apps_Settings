@@ -26,7 +26,7 @@
   <string name="dev2_description">Auxiliar, AOSP e Substratum e COMIDA &lt; 3LOVER, sempre com fome</string>
   <string name="dev_info">Desenvolvedores AOSP-OMS</string>
   <!-- General strings -->
-  <string name="header_category_custom">Controle da ROM</string>
+  <string name="header_category_custom">Personalização</string>
   <string name="ok">Ok</string>
   <!-- Setting checkbox title for root access -->
   <string name="root_access">Acesso root</string>
@@ -212,4 +212,15 @@
   <string name="notification_light_title">Luz de notificação</string>
   <!-- Memory -->
   <string name="memory_startup_apps_title">Aplicativos iniciados ao ligar o dispositivo</string>
+
+  <!-- Dashboard options -->
+  <string name="dashboard_category">Opções do painel de controle</string>
+  <string name="dashboard_suggestions_title">Sugestões de painel de controle</string>
+  <string name="summary_dashboard_suggestions_enabled">Sugestões do painel de controle estão habilitados</string>
+  <string name="summary_dashboard_suggestions_disabled">Sugestões do painel de controle estão desabilitados</string>
+  <string name="remove_tile_summaries_title">Remover subtítulo das tiles</string>
+  <string name="remove_tile_summaries_summary">Remover o texto exibido debaixo do título</string>
+  <string name="dashboard_conditions_title">Condições de painel</string>
+  <string name="summary_dashboard_conditions_enabled">Condições do painel estão habilitadas</string>
+  <string name="summary_dashboard_conditions_disabled">Condições do painel estão desabilitadas</string>
 </resources>
