@@ -69,4 +69,8 @@
   <string name="summary_heads_up_disabled">As notificações pop-up estão desativadas</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Informações do telefone</string>
+  
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/Senha correto é inserido</string>
 </resources>
