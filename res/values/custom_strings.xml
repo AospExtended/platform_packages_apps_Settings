@@ -22,7 +22,7 @@
 
 
     <!-- General strings -->
-    <string name="header_category_custom">ROM control</string>
+    <string name="header_category_custom">UI &#38; UX</string>
 
     <!-- Battery & notification light -->
     <string name="lights_label">Lights</string>
