@@ -25,15 +25,6 @@
     <!-- Strings for Dialog deny button -->
     <string name="deny">Deny</string>
 
-    <string name="wifiap_settings_desc">WLAN wifiap can share this phone\u2019s data Internet connection with other PC/mobile devices via WLAN.</string>
-    <string name="wifiap_settings_indication">After the WLAN wifiap is turned on, other PC/mobile devices can connect to it and start using the internet by following steps:</string>
-    <string name="wifiap_settings_indication_step1">1. Turn on WLAN on PC/Mobile device.</string>
-    <string name="wifiap_settings_indication_step2">2. Find \u201c<xliff:g id="ssid_name">%s</xliff:g>\u201d in the list of WLAN networks.</string>
-    <string name="wifiap_title">WLAN hotspot</string>
-    <string name="wifiap_configure_ap_text">Set up WLAN wifiap</string>
-    <string name="wifiap_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g><xliff:g id="network_security">%2$s</xliff:g> portable WLAN wifiap</string>
-    <string name="wifiap_turn_on_hint">To use WLAN wifiap, turn it on.</string>
-
     <!-- Strings for Dialog close button [CHAR LIMIT=20] -->
     <string name="dlg_close">Close</string>
     <!-- Strings for Dialog switch button [CHAR LIMIT=20] -->
@@ -7291,7 +7282,7 @@
     <!-- Content description used when collapsing a condition item to see less details -->
     <string name="condition_expand_hide">Hide</string>
 
-<!-- Title of condition that hotspot is on [CHAR LIMIT=30] -->
+    <!-- Title of condition that hotspot is on [CHAR LIMIT=30] -->
     <string name="condition_hotspot_title">Hotspot is on</string>
 
     <!-- Summary of condition that hotspot is on [CHAR LIMIT=NONE] -->
