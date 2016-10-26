@@ -233,7 +233,6 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String ACTION_TIMER_SWITCH = "qualcomm.intent.action.TIMER_SWITCH";
 
-    private static final String LTE_4G_FRAGMENT = "com.android.settings.Lte4GEnableSetting";
     private String mFragmentClass;
     private String mActivityAction;
 
@@ -248,7 +247,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.DataUsageSummaryActivity.class.getName(),
             Settings.RoamingSettingsActivity.class.getName(),
             Settings.SimSettingsActivity.class.getName(),
-            Settings.Lte4GEnableActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
             //custom_section
             JDCSettings.class.getName(),
@@ -1039,13 +1037,6 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
-        if (LTE_4G_FRAGMENT.equals(fragmentName)) {
-            Intent newIntent = new Intent("android.settings.SETTINGS");
-            newIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(newIntent);
-            finish();
-            return null;
-        }
 
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
@@ -1094,10 +1085,6 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                 Settings.BluetoothSettingsActivity.class.getName()),
                 pm.hasSystemFeature(PackageManager.FEATURE_BLUETOOTH), isAdmin, pm);
-
-        setTileEnabled(new ComponentName(packageName,
-                Settings.Lte4GEnableActivity.class.getName()),
-                getResources().getBoolean(R.bool.config_4gsettings_enabled), isAdmin, pm);
 
         setTileEnabled(new ComponentName(packageName,
                 Settings.DataUsageSummaryActivity.class.getName()),
