@@ -24,11 +24,6 @@
     <!-- General strings -->
     <string name="header_category_custom">UI &#38; UX</string>
 
-    <!-- Battery & notification light -->
-    <string name="lights_label">Lights</string>
-    <string name="battery_light_title">Battery light</string>
-    <string name="notification_light_title">Notification light</string>
-
     <!-- Dashboard options -->
     <string name="dashboard_category">Dashboard options</string>
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
