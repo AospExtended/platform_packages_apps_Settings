@@ -91,6 +91,13 @@
                 android:title="@string/doze_title"
                 android:summary="@string/doze_summary" />
 
+        <com.android.settings.preference.SecureSettingSwitchPreference
+                android:key="notification_title_tint"
+                android:title="@string/notification_tint_title"
+                android:summaryOn="@string/notification_tint_summary_on"
+                android:summaryOff="@string/notification_tint_summary_off"
+                android:defaultValue="true" />
+
         <SwitchPreference
                 android:key="tap_to_wake"
                 android:title="@string/tap_to_wake"
