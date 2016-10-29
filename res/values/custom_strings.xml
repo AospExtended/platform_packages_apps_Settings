@@ -214,11 +214,6 @@
     <!-- Privacy Guard -->
     <string name="privacy_guard_manager_title">Privacy Guard</string>
 
-    <!-- Battery & notification light -->
-    <string name="lights_label">Lights</string>
-    <string name="battery_light_title">Battery light</string>
-    <string name="notification_light_title">Notification light</string>
-
     <!-- Memory -->
     <string name="memory_startup_apps_title">Apps started on boot</string>
 
