@@ -159,22 +159,4 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
-            android:key="lights"
-            android:title="@string/lights_label">
-
-        <!-- Battery light -->
-        <PreferenceScreen
-                android:key="battery_light"
-                android:title="@string/battery_light_title"
-                android:fragment="org.aospextended.extensions.notificationlight.BatteryLightSettings" />
-
-        <!-- Notification light -->
-        <PreferenceScreen
-                android:key="notification_light"
-                android:title="@string/notification_light_title"
-                android:fragment="org.aospextended.extensions.notificationlight.NotificationLightSettings" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
