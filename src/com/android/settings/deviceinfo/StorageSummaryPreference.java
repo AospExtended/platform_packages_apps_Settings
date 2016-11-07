@@ -52,6 +52,7 @@ public class StorageSummaryPreference extends Preference {
         if (mPercent != -1) {
             progress.setVisibility(View.VISIBLE);
             progress.setProgress(mPercent);
+            progress.setScaleY(7f);
         } else {
             progress.setVisibility(View.GONE);
         }
