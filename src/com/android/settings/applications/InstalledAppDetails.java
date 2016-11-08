@@ -469,10 +469,6 @@ public class InstalledAppDetails extends AppInfoBase
             RestrictedLockUtils.setMenuItemAsDisabledByAdmin(getActivity(),
                     uninstallUpdatesItem, mAppsControlDisallowedAdmin);
         }
-        // Utils.isSystemPackage doesn't include all aosp built apps, like Contacts etc. Add them
-        // and grab the Google Play Store itself (com.android.vending) in the process
-        menu.findItem(PLAY_STORE).setVisible(!Utils.isSystemPackage(mPm, mPackageInfo)
-                && !isAospOrStore(mAppEntry.info.packageName));
     }
 
     @Override

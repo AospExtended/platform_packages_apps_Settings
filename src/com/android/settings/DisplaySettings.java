@@ -352,12 +352,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mAutoBrightnessPreference.setChecked(brightnessMode != SCREEN_BRIGHTNESS_MODE_MANUAL);
         }
 
-        if (mNetworkNameDisplayedPreference != null) {
-            int showNetworkNameMode = Settings.System.getInt(getContentResolver(),
-                    SHOW_NETWORK_NAME_MODE, SHOW_NETWORK_NAME_ON); //default is ON
-            mNetworkNameDisplayedPreference.setChecked(showNetworkNameMode != 0);
-        }
-
         // Update lift-to-wake if it is available.
         if (mLiftToWakePreference != null) {
             int value = Settings.Secure.getInt(getContentResolver(), WAKE_GESTURE_ENABLED, 0);
@@ -418,11 +412,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             boolean auto = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(), SCREEN_BRIGHTNESS_MODE,
                     auto ? SCREEN_BRIGHTNESS_MODE_AUTOMATIC : SCREEN_BRIGHTNESS_MODE_MANUAL);
-        }
-        if (preference == mNetworkNameDisplayedPreference) {
-            boolean isShow = (Boolean) objValue;
-            Settings.System.putInt(getContentResolver(), SHOW_NETWORK_NAME_MODE,
-                    isShow ? SHOW_NETWORK_NAME_ON : SHOW_NETWORK_NAME_OFF);
         }
         if (preference == mLiftToWakePreference) {
             boolean value = (Boolean) objValue;
