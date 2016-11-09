@@ -73,4 +73,12 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/Senha correto é inserido</string>
+     
+  <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Juntar volume de toque e notificação</string>
+  <string name="notification_volume_option_title">Volume de notificação</string>
+  <string name="ring_notification_volume_option_title">Volume de toque e notificação</string>
+
+  <!-- substratum dashboard tile title -->
+  <string name="substratum_settings_title">Substratum</string>
 </resources>
