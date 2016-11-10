@@ -3244,4 +3244,6 @@
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked" msgid="5884723935668892613">"请连接到互联网或与您的运营商联系"</string>
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device" msgid="4149387448213399630">"在与运营商绑定的设备上无法使用"</string>
     <string name="automatic_storage_manager_freed_bytes" msgid="7517560170441007788">"已释放共 <xliff:g id="SIZE">%1$s</xliff:g>\n\n上次运行日期：<xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="show_battery_percentage">显示电池电量百分比</string>
+    <string name="show_battery_percentage_summary">在状态栏中显示电池电量百分比</string>
 </resources>
