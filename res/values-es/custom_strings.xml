@@ -203,10 +203,6 @@
   <string name="app_ops_reset_confirm_mesg">¿Estás seguro de que deseas restablecer los contadores?</string>
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_title">Guardián de privacidad</string>
-  <!-- Battery & notification light -->
-  <string name="lights_label">Luces</string>
-  <string name="battery_light_title">Led de batería</string>
-  <string name="notification_light_title">Led notificación</string>
   <!-- Memory -->
   <string name="memory_startup_apps_title">Aplicaciones iniciadas en el arranque</string>
   <!-- Dashboard options -->
