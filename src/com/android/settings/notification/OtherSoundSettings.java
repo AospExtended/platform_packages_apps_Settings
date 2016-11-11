@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2014 The Android Open Source Project
  *
@@ -35,7 +36,7 @@ import android.provider.Settings.System;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.telephony.TelephonyManager;
-
+import android.os.SystemProperties;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -63,6 +64,7 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
     private static final int DOCK_AUDIO_MEDIA_DISABLED = 0;
     private static final int DOCK_AUDIO_MEDIA_ENABLED = 1;
     private static final int DEFAULT_DOCK_AUDIO_MEDIA = DOCK_AUDIO_MEDIA_DISABLED;
+    private static final int DLG_CAMERA_SOUND = 1;
 
     private static final String KEY_DIAL_PAD_TONES = "dial_pad_tones";
     private static final String KEY_SCREEN_LOCKING_SOUNDS = "screen_locking_sounds";
@@ -73,6 +75,10 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_VIBRATE_ON_TOUCH = "vibrate_on_touch";
     private static final String KEY_DOCK_AUDIO_MEDIA = "dock_audio_media";
     private static final String KEY_EMERGENCY_TONE = "emergency_tone";
+    private static final String KEY_CAMERA_SOUNDS = "camera_sounds";
+    private static final String PROP_CAMERA_SOUND = "persist.sys.camera-sound";
+
+    private SwitchPreference mCameraSounds;
 
     // Boot Sounds needs to be a system property so it can be accessed during boot.
     private static final String KEY_BOOT_SOUNDS = "boot_sounds";
@@ -224,6 +230,10 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         } else {
             removePreference(KEY_BOOT_SOUNDS);
         }
+
+        mCameraSounds = (SwitchPreference) findPreference(KEY_CAMERA_SOUNDS);
+        mCameraSounds.setChecked(SystemProperties.getBoolean(PROP_CAMERA_SOUND, true));
+        mCameraSounds.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -231,6 +241,18 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         super.onResume();
         mSettingsObserver.register(true);
     }
+
+     public boolean onPreferenceChange(Preference preference, Object objValue) {
+         final String key = preference.getKey();
+        if (KEY_CAMERA_SOUNDS.equals(key)) {
+           if ((Boolean) objValue) {
+               SystemProperties.set(PROP_CAMERA_SOUND, "1");
+           } else {
+              showDialogInner(DLG_CAMERA_SOUND);
+           }
+        }
+          return true;
+      }
 
     @Override
     public void onPause() {
@@ -247,6 +269,41 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
             return super.onPreferenceTreeClick(preference);
         }
     }
+
+         @Override
+         public Dialog onCreateDialog(Bundle savedInstanceState) {
+             int id = getArguments().getInt("id");
+               switch (id) {
+                case DLG_CAMERA_SOUND:
+                    return new AlertDialog.Builder(getActivity())
+                    .setTitle(R.string.attention)
+                    .setMessage(R.string.camera_sound_warning_dialog_text)
+                    .setPositiveButton(R.string.dlg_ok,
+                        new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            SystemProperties.set(PROP_CAMERA_SOUND, "0");
+                        }
+                    })
+                    .setNegativeButton(R.string.dlg_cancel,
+                        new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.cancel();
+                        }
+                    })
+                    .create();
+              }
+              throw new IllegalArgumentException("unknown id " + id);
+          }
+
+         @Override
+         public void onCancel(DialogInterface dialog) {
+             int id = getArguments().getInt("id");
+             switch (id) {
+               case DLG_CAMERA_SOUND:
+                    getOwner().mCameraSounds.setChecked(true);
+                    break;
+             }
+          }
 
     private static boolean hasDockSettings(Context context) {
         return context.getResources().getBoolean(R.bool.has_dock_settings);
