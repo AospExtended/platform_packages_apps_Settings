@@ -34,6 +34,13 @@
             android:key="charging_sounds"
             android:title="@string/charging_sounds_title" />
 
+    <!-- Camera Sounds -->
+    <SwitchPreference
+        android:key="camera_sounds"
+        android:title="@string/camera_sounds_title"
+        android:summary="@string/camera_sounds_summary"
+        android:defaultValue="true" />
+
     <!-- Docking sounds -->
     <SwitchPreference
             android:key="docking_sounds"
