@@ -2553,9 +2553,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.screwd" />
+                android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.screwd.SubstratumLaunch" />
+                android:value="com.android.settings.extendedd.SubstratumLaunch" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
