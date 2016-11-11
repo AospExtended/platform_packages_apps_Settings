@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">Versión de Aosp Extended</string>
+  <string name="extended_version">Versión de AOSP Extended</string>
   <string name="extended_version_default">Desconocida</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Fecha de compilación</string>
@@ -68,8 +68,15 @@
   <string name="summary_heads_up_enabled">Las notificaciones emergentes están habilitadas</string>
   <string name="summary_heads_up_disabled">Las notificaciones emergentes están deshabilitadas</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Información del teléfono</string>
+  <string name="device_info_title">Información del dispositivo</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN/clave correcto</string>
+  <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Unir volumen de tono y notificación</string>
+  <string name="notification_volume_option_title">Volumen de notificación</string>
+  <string name="ring_notification_volume_option_title">Volumen de tono y notificación</string>
+ 
+  <!-- substratum dashboard tile title -->
+  <string name="substratum_settings_title">Substratum</string>
 </resources>
