@@ -17,6 +17,12 @@
 
 package com.android.settings.notification;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
@@ -33,6 +39,11 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings.Global;
 import android.provider.Settings.System;
 import android.telephony.TelephonyManager;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.os.SystemProperties;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -48,7 +59,7 @@ import java.util.List;
 import static com.android.settings.notification.SettingPref.TYPE_GLOBAL;
 import static com.android.settings.notification.SettingPref.TYPE_SYSTEM;
 
-public class OtherSoundSettings extends SettingsPreferenceFragment implements Indexable {
+public class OtherSoundSettings extends SettingsPreferenceFragment implements Indexable, Preference.OnPreferenceChangeListener {
     private static final String TAG = "OtherSoundSettings";
 
     private static final int DEFAULT_ON = 1;
@@ -61,22 +72,19 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
     private static final int DOCK_AUDIO_MEDIA_DISABLED = 0;
     private static final int DOCK_AUDIO_MEDIA_ENABLED = 1;
     private static final int DEFAULT_DOCK_AUDIO_MEDIA = DOCK_AUDIO_MEDIA_DISABLED;
-    private static final int DLG_CAMERA_SOUND = 1;
 
     private static final String KEY_DIAL_PAD_TONES = "dial_pad_tones";
     private static final String KEY_SCREEN_LOCKING_SOUNDS = "screen_locking_sounds";
     private static final String KEY_CHARGING_SOUNDS = "charging_sounds";
     private static final String KEY_DOCKING_SOUNDS = "docking_sounds";
     private static final String KEY_VOLUME_ADJUST_SOUNDS = "volume_adjust_sounds";
+    private static final String KEY_CAMERA_SOUNDS = "camera_sounds";
+    private static final String PROP_CAMERA_SOUND = "persist.sys.camera-sound";
     private static final String KEY_TOUCH_SOUNDS = "touch_sounds";
     private static final String KEY_VIBRATE_ON_TOUCH = "vibrate_on_touch";
     private static final String KEY_DOCK_AUDIO_MEDIA = "dock_audio_media";
     private static final String KEY_EMERGENCY_TONE = "emergency_tone";
-    private static final String KEY_CAMERA_SOUNDS = "camera_sounds";
-    private static final String PROP_CAMERA_SOUND = "persist.sys.camera-sound";
-
     private SwitchPreference mCameraSounds;
-
     private static final SettingPref PREF_DIAL_PAD_TONES = new SettingPref(
             TYPE_SYSTEM, KEY_DIAL_PAD_TONES, System.DTMF_TONE_WHEN_DIALING, DEFAULT_ON) {
         @Override
@@ -213,8 +221,7 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
 
         for (SettingPref pref : PREFS) {
             pref.init(this);
-        }
-
+       }
         mCameraSounds = (SwitchPreference) findPreference(KEY_CAMERA_SOUNDS);
         mCameraSounds.setChecked(SystemProperties.getBoolean(PROP_CAMERA_SOUND, true));
         mCameraSounds.setOnPreferenceChangeListener(this);
@@ -226,58 +233,21 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         mSettingsObserver.register(true);
     }
 
-     public boolean onPreferenceChange(Preference preference, Object objValue) {
-         final String key = preference.getKey();
-        if (KEY_CAMERA_SOUNDS.equals(key)) {
-           if ((Boolean) objValue) {
-               SystemProperties.set(PROP_CAMERA_SOUND, "1");
-           } else {
-              showDialogInner(DLG_CAMERA_SOUND);
-           }
-        }
-          return true;
-      }
-
     @Override
     public void onPause() {
         super.onPause();
         mSettingsObserver.register(false);
     }
 
-         @Override
-         public Dialog onCreateDialog(Bundle savedInstanceState) {
-             int id = getArguments().getInt("id");
-               switch (id) {
-                case DLG_CAMERA_SOUND:
-                    return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.attention)
-                    .setMessage(R.string.camera_sound_warning_dialog_text)
-                    .setPositiveButton(R.string.dlg_ok,
-                        new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            SystemProperties.set(PROP_CAMERA_SOUND, "0");
-                        }
-                    })
-                    .setNegativeButton(R.string.dlg_cancel,
-                        new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.cancel();
-                        }
-                    })
-                    .create();
-              }
-              throw new IllegalArgumentException("unknown id " + id);
-          }
-
-         @Override
-         public void onCancel(DialogInterface dialog) {
-             int id = getArguments().getInt("id");
-             switch (id) {
-               case DLG_CAMERA_SOUND:
-                    getOwner().mCameraSounds.setChecked(true);
-                    break;
-             }
-          }
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        final String key = preference.getKey();
+        if (KEY_CAMERA_SOUNDS.equals(key)) {
+            SystemProperties.set(PROP_CAMERA_SOUND, (Boolean) objValue ? "1" : "0");
+            return true;
+        }
+        return false;
+    }
 
     private static boolean hasDockSettings(Context context) {
         return context.getResources().getBoolean(R.bool.has_dock_settings);
