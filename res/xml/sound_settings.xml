@@ -102,6 +102,12 @@
                         android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings" />
         </com.android.settingslib.RestrictedPreference>
 
+         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="battery_saver_notification"
+        android:title="@string/battery_saver_notif_title"
+        android:summary="@string/battery_saver_notif_summary"
+        android:defaultValue="true" />
+
         <!-- Other sounds -->
         <Preference
                 android:key="other_sounds"
