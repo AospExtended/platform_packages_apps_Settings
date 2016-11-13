@@ -79,4 +79,8 @@
  
   <!-- substratum dashboard tile title -->
   <string name="substratum_settings_title">Substratum</string>
+  <!-- Camera sound -->
+  <string name="camera_sounds_title">Sonido del obturador de la cámara</string>
+  <string name="camera_sounds_summary">Habilitar el sonido del obturador de la cámara</string>
+  <string name="camera_sound_warning_dialog_text">¡Deshabilitar el sonido del obturador de la cámara puede ser ilegal en algunos países! Por favor revisa las leyes de tu país</string>
 </resources>
