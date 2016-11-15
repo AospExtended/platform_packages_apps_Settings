@@ -40,6 +40,7 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.DropDownPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceCategory;
 import android.text.TextUtils;
