@@ -44,7 +44,7 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.preference.SystemSettingSwitchPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 
 public class AmbientSettings extends SettingsPreferenceFragment implements
