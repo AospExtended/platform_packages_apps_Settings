@@ -81,4 +81,8 @@
 
   <!-- substratum dashboard tile title -->
   <string name="substratum_settings_title">Substratum</string>
+  
+  <!-- Camera sound -->
+  <string name="camera_sounds_title">Som do obturador da câmera</string>
+
 </resources>
