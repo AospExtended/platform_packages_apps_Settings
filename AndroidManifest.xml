@@ -129,6 +129,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="org.aospextended.extensions.HAFRAppListActivity" />
+
         <activity android:name="Settings$CustomSettings"
             android:label="@string/header_category_custom">
             <intent-filter android:priority="4">
