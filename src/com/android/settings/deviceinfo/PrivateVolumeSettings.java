@@ -215,9 +215,7 @@ public class PrivateVolumeSettings extends SettingsPreferenceFragment {
 
         screen.removeAll();
 
-        if (getResources().getBoolean(R.bool.config_storage_manager_settings_enabled)) {
-            addPreference(screen, mAutomaticStorageManagement);
-        }
+        addPreference(screen, mAutomaticStorageManagement);
         addPreference(screen, mSummary);
 
         List<UserInfo> allUsers = mUserManager.getUsers();
@@ -407,8 +405,7 @@ public class PrivateVolumeSettings extends SettingsPreferenceFragment {
             mount.setVisible(false);
             unmount.setVisible(false);
             format.setVisible(false);
-            manage.setVisible(getResources().getBoolean(
-                    R.bool.config_storage_manager_settings_enabled));
+            manage.setVisible(true);
         } else {
             rename.setVisible(mVolume.getType() == VolumeInfo.TYPE_PRIVATE);
             mount.setVisible(mVolume.getState() == VolumeInfo.STATE_UNMOUNTED);
