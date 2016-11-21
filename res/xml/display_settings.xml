@@ -98,6 +98,12 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+                android:key="proximity_on_wake"
+                android:title="@string/proximity_wake_title"
+                android:summary="@string/proximity_wake_summary"
+                android:defaultValue="true" />
+
         <PreferenceScreen
                 android:key="font_size"
                 android:title="@string/title_font_size"
@@ -108,6 +114,7 @@
                 android:key="screen_zoom"
                 android:title="@string/screen_zoom_title"
                 settings:keywords="@string/screen_zoom_keywords" />
+
 
         <PreferenceScreen
                 android:key="expanded_desktop"

@@ -99,6 +99,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_CAMERA_GESTURE = "camera_gesture";
     private static final String KEY_WALLPAPER = "wallpaper";
     private static final String KEY_VR_DISPLAY_PREF = "vr_display_pref";
+    private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
 
     private static final String DASHBOARD_PORTRAIT_COLUMNS = "dashboard_portrait_columns";
     private static final String DASHBOARD_LANDSCAPE_COLUMNS = "dashboard_landscape_columns";
@@ -106,6 +107,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mDashboardPortraitColumns;
     private CustomSeekBarPreference mDashboardLandscapeColumns;
 
+    private PreferenceCategory mWakeUpOptions;
     private ListPreference mNightModePreference;
 
     private Preference mFontSizePref;
@@ -126,6 +128,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String ROTATION_ANGLE_270 = "270";
 
     private TimeoutListPreference mScreenTimeoutPreference;
+    private SwitchPreference mProximityCheckOnWakePreference;
 
     private ContentObserver mAccelerometerRotationObserver =
             new ContentObserver(new Handler()) {
@@ -150,6 +153,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         PreferenceCategory displayPrefs = (PreferenceCategory)
                 findPreference(KEY_CATEGORY_DISPLAY);
+
+	PreferenceScreen prefSet = getPreferenceScreen();
 
         mScreenSaverPreference = findPreference(KEY_SCREEN_SAVER);
         if (mScreenSaverPreference != null
@@ -267,6 +272,16 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             final int currentNightMode = uiManager.getNightMode();
             mNightModePreference.setValue(String.valueOf(currentNightMode));
             mNightModePreference.setOnPreferenceChangeListener(this);
+        }
+
+        mProximityCheckOnWakePreference = (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
+        boolean proximityCheckOnWake = getResources().getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWake);
+        if (!proximityCheckOnWake) {
+            if (mProximityCheckOnWakePreference != null) {
+                mWakeUpOptions.removePreference(mProximityCheckOnWakePreference);
+            }
+            Settings.System.putInt(resolver, Settings.System.PROXIMITY_ON_WAKE, 0);
         }
     }
 
