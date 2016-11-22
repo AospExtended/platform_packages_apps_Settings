@@ -56,7 +56,7 @@
     <string name="gesture_double_twist_sensor_vendor" translatable="false">Google</string>
 
     <!-- When true enable gesture setting. -->
-    <bool name="config_gesture_settings_enabled">false</bool>
+    <bool name="config_gesture_settings_enabled">true</bool>
 
     <bool name="config_video_call_datausage_enable">false</bool>
 
