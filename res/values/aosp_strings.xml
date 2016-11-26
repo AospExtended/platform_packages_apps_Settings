@@ -13,6 +13,7 @@
     <string name="custom_settings_title">JDCTeam Custom Settings</string>
     <string name="supersu_title">SuperSU</string>
     <string name="substratum_title">Substratum</string>
+    <string name="stweaks_title">STweaks</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>

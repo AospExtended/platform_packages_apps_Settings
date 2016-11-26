@@ -234,6 +234,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String ACTION_TIMER_SWITCH = "qualcomm.intent.action.TIMER_SWITCH";
 
+    private static final String STWEAKS_FRAGMENT = "com.android.settings.STweaks";
+
     private static final String SUPERSU_FRAGMENT = "com.android.settings.SuperSU";
 
     private static final String SUBSTRATUM_FRAGMENT = "com.android.settings.Substratum";
@@ -1044,6 +1046,13 @@ public class SettingsActivity extends SettingsDrawerActivity
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
 
+        if (STWEAKS_FRAGMENT.equals(fragmentName)) {
+            Intent stweaksIntent = new Intent();
+            stweaksIntent.setClassName("com.gokhanmoral.stweaks.app", "com.gokhanmoral.stweaks.app.MainActivity");
+            startActivity(stweaksIntent);
+            finish();
+            return null;
+        }
         if (SUPERSU_FRAGMENT.equals(fragmentName)) {
             Intent superSUIntent = new Intent();
             superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
@@ -1151,6 +1160,16 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                         Settings.DevelopmentSettingsActivity.class.getName()),
                 showDev, isAdmin, pm);
+
+        // STweaks
+        boolean stweaksSupported = false;
+        try {
+            stweaksSupported = (getPackageManager().getPackageInfo("com.gokhanmoral.stweaks.app", 0).versionCode > 0);
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.STweaksActivity.class.getName()),
+                stweaksSupported, isAdmin, pm);
 
         // Substratum
         boolean subSupported = false;
