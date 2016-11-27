@@ -26,6 +26,8 @@ import androidx.preference.SwitchPreference;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
+import android.os.SystemProperties;
+
 public class DisableAutomaticUpdatesPreferenceController extends
         DeveloperOptionsPreferenceController implements
         Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
@@ -76,6 +78,6 @@ public class DisableAutomaticUpdatesPreferenceController extends
 
     @Override
     public boolean isAvailable() {
-        return false;
+        return SystemProperties.getBoolean("ro.build.ab_update", false);
     }
 }
