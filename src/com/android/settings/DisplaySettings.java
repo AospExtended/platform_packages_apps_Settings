@@ -148,8 +148,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
 
         if (isDozeAvailable(activity)) {
-            mDozePreference = (SwitchPreference) findPreference(KEY_DOZE);
-            mDozePreference.setOnPreferenceChangeListener(this);
+            removePreference(KEY_DOZE);
         } else {
             removePreference(KEY_DOZE);
         }
