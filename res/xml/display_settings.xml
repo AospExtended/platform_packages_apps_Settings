@@ -117,19 +117,7 @@
                 android:title="@string/power_menu_expanded_desktop"
                 android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment"
                 settings:keywords="@string/keywords_expanded_desktop" />
-
-        <PreferenceScreen
-                android:fragment="com.android.settings.jdc.fragments.PowerMenuSettings"
-                android:key="powermenu_settings"
-                android:title="@string/powermenu_settings_title"
-                android:summary="@string/powermenu_settings_summary"/>
-
-         <PreferenceScreen
-                android:fragment="com.android.settings.jdc.fragments.ButtonSettings"
-                android:key="rebindings_settings"
-                android:title="@string/rebindings_settings_title"
-                android:summary="@string/rebindings_settings_summary"/>
-
+            
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"

@@ -126,16 +126,8 @@
 
         <activity android:name=".Settings$WirelessSettings"
             android:label="@string/header_category_wireless_networks">
-            <intent-filter android:priority="5">
-                <action android:name="com.android.settings.category.wireless" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name="Settings$CustomSettings"
-            android:label="@string/header_category_custom">
             <intent-filter android:priority="4">
-                <action android:name="com.android.settings.category.custom" />
+                <action android:name="com.android.settings.category.wireless" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -2796,27 +2788,6 @@
                 android:value="true" />
         </activity>
 
-        <activity android:name="Settings$STweaksActivity"
-            android:label="@string/stweaks_title"
-            android:icon="@drawable/ic_settings_stweaks"
-            android:taskAffinity="">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <intent-filter android:priority="3">
-                <action android:name="com.android.settings.action.SETTINGS" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.STweaks" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
-        </activity>
-
         <activity android:name="Settings$SubstratumActivity"
             android:label="@string/substratum_title"
             android:icon="@drawable/ic_settings_substratum"
@@ -2859,23 +2830,16 @@
                 android:value="true" />
         </activity>
 
-        <activity android:name="Settings$ToolboxActivity"
-            android:label="@string/toolbox_title"
-            android:icon="@drawable/ic_settings_toolbox"
-            android:taskAffinity="">
+        <!-- Expanded desktop settings activity. -->
+        <activity android:name="Settings$ExpandedDesktopSettingsActivity"
+                android:label="@string/power_menu_expanded_desktop"
+                android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-                <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="3">
-                <action android:name="com.android.settings.action.SETTINGS" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.Toolbox" />
+                android:value="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>

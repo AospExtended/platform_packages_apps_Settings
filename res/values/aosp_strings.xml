@@ -7,14 +7,9 @@
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
 
-    <!-- Custom Settings -->   
     <!-- Dashboard -->
-    <string name="header_category_custom">AOSP Settings</string>
-    <string name="buttons">Buttons</string>
     <string name="supersu_title">SuperSU</string>
     <string name="substratum_title">Substratum</string>
-    <string name="stweaks_title">STweaks</string>
-    <string name="toolbox_title">Toolbox</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
@@ -34,53 +29,6 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
-    <!-- JDCTeam Google+ Community shortcut -->
-    <string name="community">JDCTeam on Google+</string>
-    <string name="community_summary">Join our official community and keep yourself updated about the best software for your device</string>
-
-     <!-- Volume button track change -->
-    <string name="volbtn_music_controls_title">Music control</string>
-    <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
-
-    <!-- Power Menu fragment -->
-    <string name="powermenu_settings_title">PowerMenu</string>
-    <string name="powermenu_settings_summary">PowerMenu settings and customisations</string>
-
-    <!-- Power menu customization -->
-    <string name="power_menu_reboot_title">Restart</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenrecord_title">Screen record</string>
-    <string name="power_menu_torch_title">Flashlight</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_search_title">Search</string>
-    <string name="power_menu_voice_title">Voice search</string>
-    <string name="power_menu_settings_title">Settings shortcut</string>
-    <string name="power_menu_lockdown_title">Device lockdown</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_sound_title">Sound panel</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-
-    <!-- Button customisations fragment -->
-    <string name="rebindings_settings_title">HW button customisations</string>
-    <string name="rebindings_settings_summary">HW buttons settings and customisations</string>
-
-    <!-- Hardware Keys -->
-    <string name="button_pref_title">Buttons</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_appswitch_key_title">Recents button</string>
-    <string name="hardware_keys_short_press_title">Short press action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_action_nothing">No action</string>
-    <string name="hardware_keys_action_menu">Open/close menu</string>
-    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
-    <string name="hardware_keys_action_search">Search assistant</string>
-    <string name="hardware_keys_action_voice_search">Voice search</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
-    <string name="hardware_keys_action_sleep">Turn screen off</string>
-
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
@@ -92,4 +40,6 @@
     <string name="security_settings_fingerprint_sensor_location_front">front</string>
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+=======
+>>>>>>> parent of b5d11bf... Build JDCSettings into settings [2/3]
 </resources>

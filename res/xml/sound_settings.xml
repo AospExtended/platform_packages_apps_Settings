@@ -97,12 +97,6 @@
                 android:persistent="false"
                 android:fragment="com.android.settings.notification.OtherSoundSettings" />
 
-        <com.android.settings.preference.SystemSettingSwitchPreference
-                android:key="volbtn_music_controls"
-                android:title="@string/volbtn_music_controls_title"
-                android:summary="@string/volbtn_music_controls_summary"
-                android:defaultValue="false" />
-
         <!-- Cast -->
         <PreferenceScreen
                 android:key="wifi_display"
