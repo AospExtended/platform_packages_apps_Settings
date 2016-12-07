@@ -94,7 +94,7 @@
     <integer name="config_fingerprintSensorLocation">0</integer>
 
     <!-- If the Storage Manager settings are enabled. -->
-    <bool name="config_storage_manager_settings_enabled">false</bool>
+    <bool name="config_storage_manager_settings_enabled">true</bool>
 
     <!-- does the device have multi color led support or only
          a fixed set of led colors -->
