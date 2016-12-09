@@ -52,8 +52,8 @@
     <string name="config_backup_settings_intent" translatable="false"></string>
 
     <!-- Double twist sensor name and vendor used by gesture setting -->
-    <string name="gesture_double_twist_sensor_name" translatable="false"></string>
-    <string name="gesture_double_twist_sensor_vendor" translatable="false"></string>
+    <string name="gesture_double_twist_sensor_name" translatable="false">Double Twist</string>
+    <string name="gesture_double_twist_sensor_vendor" translatable="false">Google</string>
 
     <!-- When true enable gesture setting. -->
     <bool name="config_gesture_settings_enabled">false</bool>
