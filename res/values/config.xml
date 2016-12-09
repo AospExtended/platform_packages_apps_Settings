@@ -41,6 +41,10 @@
     <!-- When true enable color temperature setting. -->
     <bool name="config_enableColorTemperature">false</bool>
 
+    <!-- Double twist sensor name and vendor used by gesture setting -->
+    <string name="gesture_double_twist_sensor_name" translatable="false">Double Twist</string>
+    <string name="gesture_double_twist_sensor_vendor" translatable="false">Google</string>
+
     <!-- carrier tethering default ssid and password begin -->
     <bool name="use_empty_password_default">false</bool>
     <bool name="hotspot_default_ssid_with_imei_enable">false</bool>
