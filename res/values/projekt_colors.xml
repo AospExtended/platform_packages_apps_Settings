@@ -37,4 +37,9 @@
     <!-- Storage Summary Title -->
     <color name="storage_summary_title_color">#ff607d8b</color>
 
+    <!-- Linear color bar -->
+    <color name="linear_color_bar_left">@*android:color/accent_device_default_light</color>
+    <color name="linear_color_bar_middle">@*android:color/accent_device_default_light</color>
+    <color name="linear_color_bar_right">#ffced7db</color>
+
 </resources>
