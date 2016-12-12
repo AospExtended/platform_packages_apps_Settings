@@ -40,6 +40,4 @@
     <string name="security_settings_fingerprint_sensor_location_front">front</string>
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
-=======
->>>>>>> parent of b5d11bf... Build JDCSettings into settings [2/3]
 </resources>
