@@ -32,13 +32,6 @@
             <intent android:action="android.settings.SHOW_MANUAL" />
         </PreferenceScreen>
 
-        <!-- Change Log -->
-        <PreferenceScreen android:key="changelog"
-            android:title="@string/changelog_title"
-            android:summary="@string/changelog_summary"
-            android:fragment="com.android.settings.aosp.ChangeLog" >
-        </PreferenceScreen>
-        
         <!-- Legal Information -->
         <PreferenceScreen
                 android:key="container"

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Change Log strings -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">AOSP 7.1.0 changelog</string>
-    <string name="changelog_loading">Loading changelog\u2026</string>
-    <string name="changelog_error">Unable to load changelog</string>
-
     <!-- Dashboard -->
     <string name="supersu_title">SuperSU</string>
     <string name="substratum_title">Substratum</string>
