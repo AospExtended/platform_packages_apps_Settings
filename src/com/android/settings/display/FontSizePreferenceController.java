@@ -24,7 +24,7 @@ import com.android.settings.core.PreferenceController;
 
 public class FontSizePreferenceController extends PreferenceController {
 
-    private static final String KEY_FONT_SIZE = "font_size";
+    private static final String KEY_FONT_SIZE = "font_size_preference_screen";
 
     public FontSizePreferenceController(Context context) {
         super(context);
