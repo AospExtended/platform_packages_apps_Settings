@@ -101,7 +101,6 @@ import com.android.settings.inputmethod.SpellCheckersSettings;
 import com.android.settings.inputmethod.UserDictionaryList;
 import com.android.settings.localepicker.LocaleListEditor;
 import com.android.settings.location.LocationSettings;
-import com.android.settings.extended.AmbientSettings;
 import com.android.settings.nfc.AndroidBeam;
 import com.android.settings.nfc.PaymentSettings;
 import com.android.settings.notification.AppNotificationSettings;
@@ -387,12 +386,11 @@ public class SettingsActivity extends SettingsDrawerActivity
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             PartsFragment.class.getName(),
-            ExpandedDesktopPreferenceFragment.class.getName(),
+            ExpandedDesktopPreferenceFragment.class.getName()
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName(),
-            AmbientSettings.class.getName()
+            PulseSettings.class.getName()
     };
 
 
