@@ -85,4 +85,13 @@
     <string name="substratum_settings_summary">Theme engine</string>
     <string name="supersu_settings_summary">Root access</string>
 
+    <!-- Advanced night mode tile -->
+    <string name="night_display_category_advanced">Advanced</string>
+    <string name="qs_night_brightness_value_title">Automatic lower brightness</string>
+    <string name="qs_night_brightness_value_dialog">Automatically set low brightness value when enabling Night Light</string>
+    <string name="qs_night_bright_disabled">Don\'t change brightness</string>
+    <string name="qs_night_bright_less">Set low brightness</string>
+    <string name="qs_night_bright_medium">Set medium brightness</string>
+    <string name="qs_night_bright_min">Set minimum brightness</string>
+
 </resources>
