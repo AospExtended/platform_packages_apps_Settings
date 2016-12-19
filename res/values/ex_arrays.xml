@@ -23,4 +23,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>@string/volume_steps_5</item>
      </string-array>
 
+    <!-- Night mode tile brightness value  -->
+    <string-array name="qs_night_brightness_value_entries">
+        <item>@string/qs_night_bright_disabled</item>
+        <item>@string/qs_night_bright_less</item>
+        <item>@string/qs_night_bright_medium</item>
+        <item>@string/qs_night_bright_min</item>
+    </string-array>
+
+    <string-array name="qs_night_brightness_value_values" translatable="false">
+        <item>3</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
 </resources>

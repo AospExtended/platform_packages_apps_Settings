@@ -19,36 +19,48 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/night_display_title">
 
-    <PreferenceCategory
-            android:title="@string/night_display_category_schedule">
-
-        <DropDownPreference
-                android:key="night_display_auto_mode"
-                android:title="@string/night_display_auto_mode_title"
-                android:summary="%s" />
-
-        <Preference
-                android:key="night_display_start_time"
-                android:title="@string/night_display_start_time_title" />
-
-        <Preference
-                android:key="night_display_end_time"
-                android:title="@string/night_display_end_time_title" />
-
-    </PreferenceCategory>
+    <com.android.settings.fuelgauge.WallOfTextPreference
+        android:summary="@string/night_display_text"
+        android:selectable="false" />
 
     <PreferenceCategory
-            android:title="@string/night_display_category_status">
+        android:title="@string/night_display_category_status">
 
         <com.android.settings.display.NightDisplayPreference
-                android:key="night_display_activated"
-                android:title="@string/night_display_title" />
+            android:key="night_display_activated"
+            android:title="@string/night_display_title" />
 
     </PreferenceCategory>
 
-    <com.android.settings.fuelgauge.WallOfTextPreference
-            android:summary="@string/night_display_text"
-            android:selectable="false"
-            settings:allowDividerAbove="true" />
+    <PreferenceCategory
+        android:title="@string/night_display_category_schedule">
+
+        <DropDownPreference
+            android:key="night_display_auto_mode"
+            android:title="@string/night_display_auto_mode_title"
+            android:summary="%s" />
+
+        <Preference
+            android:key="night_display_start_time"
+            android:title="@string/night_display_start_time_title" />
+
+        <Preference
+            android:key="night_display_end_time"
+            android:title="@string/night_display_end_time_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/night_display_category_advanced">
+
+        <ListPreference
+            android:key="qs_night_brightness_value"
+            android:title="@string/qs_night_brightness_value_title"
+            android:dialogTitle="@string/qs_night_brightness_value_dialog"
+            android:entries="@array/qs_night_brightness_value_entries"
+            android:entryValues="@array/qs_night_brightness_value_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

@@ -19,8 +19,11 @@ package com.android.settings.display;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
+import android.content.ContentResolver;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v7.preference.DropDownPreference;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.TwoStatePreference;
 import android.widget.TimePicker;
@@ -31,7 +34,9 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.text.DateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.TimeZone;
 
 /**
@@ -44,14 +49,18 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
     private static final String KEY_NIGHT_DISPLAY_START_TIME = "night_display_start_time";
     private static final String KEY_NIGHT_DISPLAY_END_TIME = "night_display_end_time";
     private static final String KEY_NIGHT_DISPLAY_ACTIVATED = "night_display_activated";
+    private static final String QS_NIGHT_BRIGHTNESS_VALUE = "qs_night_brightness_value";
 
     private static final int DIALOG_START_TIME = 0;
     private static final int DIALOG_END_TIME = 1;
+
+    private int mNightBrightValueVal;
 
     private NightDisplayController mController;
     private DateFormat mTimeFormatter;
 
     private DropDownPreference mAutoModePreference;
+    private ListPreference mNightBrightValue;
     private Preference mStartTimePreference;
     private Preference mEndTimePreference;
     private TwoStatePreference mActivatedPreference;
@@ -61,10 +70,18 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
         super.onCreate(savedInstanceState);
 
         final Context context = getContext();
+        final ContentResolver resolver = getActivity().getContentResolver();
         mController = new NightDisplayController(context);
 
         mTimeFormatter = android.text.format.DateFormat.getTimeFormat(context);
         mTimeFormatter.setTimeZone(TimeZone.getTimeZone("UTC"));
+
+        mNightBrightValue = (ListPreference) findPreference(QS_NIGHT_BRIGHTNESS_VALUE);
+        mNightBrightValueVal = Settings.Secure.getInt(resolver,
+                Settings.Secure.QS_NIGHT_BRIGHTNESS_VALUE, 0);
+        mNightBrightValue.setValue(Integer.toString(mNightBrightValueVal));
+        mNightBrightValue.setSummary(mNightBrightValue.getEntry());
+        mNightBrightValue.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -191,10 +208,21 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+
+        int index;
+
         if (preference == mAutoModePreference) {
             return mController.setAutoMode(Integer.parseInt((String) newValue));
         } else if (preference == mActivatedPreference) {
             return mController.setActivated((Boolean) newValue);
+        } else if (preference == mNightBrightValue) {
+            mNightBrightValueVal = Integer.valueOf((String) newValue);
+            index = mNightBrightValue.findIndexOfValue((String) newValue);
+            mNightBrightValue.setSummary(
+                    mNightBrightValue.getEntries()[index]);
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.QS_NIGHT_BRIGHTNESS_VALUE, mNightBrightValueVal);
+            return true;
         }
         return false;
     }
