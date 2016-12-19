@@ -23,10 +23,10 @@
   <string name="dev_1">Sri Harsha [srisurya95]</string>
   <string name="dev1_description">Desarrollador en jefe, aspirante a medicina, amante de AOSP, creador de temas</string>
   <string name="dev_2">Akhil Narang [fat guy]</string>
-  <string name="dev2_description">Ayudante, amante de AOSP, Sustratum y la comida, siempre ambriento</string>
+  <string name="dev2_description">Ayudante, amante de AOSP, Sustratum y la comida, siempre hambriento</string>
   <string name="dev_info">Desarrolladores de AOSP-OMS</string>
   <!-- General strings -->
-  <string name="header_category_custom">UI &amp; UX</string>
+  <string name="header_category_custom">Interfaz de usuario</string>
   <string name="ok">De acuerdo</string>
   <!-- Setting checkbox title for root access -->
   <string name="root_access">Acceso root</string>
