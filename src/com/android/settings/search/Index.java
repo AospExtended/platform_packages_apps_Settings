@@ -216,11 +216,11 @@ public class Index {
     /**
      * A basic singleton
      */
-    public static Index getInstance(Context context) {
+    public static synchronized Index getInstance(Context context) {
         if (sInstance == null) {
             synchronized (Index.class) {
                 if (sInstance == null) {
-                    sInstance = new Index(context.getApplicationContext(), BASE_AUTHORITY);
+            sInstance = new Index(context, BASE_AUTHORITY);
                 }
             }
         }
@@ -228,7 +228,7 @@ public class Index {
     }
 
     private Index(Context context, String baseAuthority) {
-        mContext = context;
+        mContext = context.getApplicationContext();
         mBaseAuthority = baseAuthority;
     }
 
