@@ -79,6 +79,6 @@
 
     <!-- Custom tiles summary -->
     <string name="substratum_settings_summary">Theme engine</string>
-    <string name="superuser_settings_summary">Root access</string>
+    <string name="supersu_settings_summary">Root access</string>
 
 </resources>
