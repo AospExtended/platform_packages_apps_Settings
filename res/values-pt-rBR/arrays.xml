@@ -477,4 +477,10 @@
     <item msgid="2900554746706302178">"Mais de 60 dias"</item>
     <item msgid="5692284879054004388">"Mais de 90 dias"</item>
   </string-array>
+   <!-- Wifi extension requirement -->
+    <string-array name="cellcular2wifi_entries">
+        <item>Conectar automaticamente</item>
+        <item>Conectar manualmente</item>
+        <item>Sempre perguntar</item>
+    </string-array>
 </resources>
