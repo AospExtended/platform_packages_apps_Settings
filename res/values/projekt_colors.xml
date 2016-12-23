@@ -70,4 +70,7 @@
     <color name="text_color_black">@android:color/black</color>
     <color name="text_color_white">@android:color/white</color>
     <color name="background_color_white">@android:color/white</color>
+
+    <!-- External Icon Tint -->
+    <color name="external_tile_icon_tint_color">?android:attr/colorAccent</color>
 </resources>
