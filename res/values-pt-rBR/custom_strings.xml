@@ -20,11 +20,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="dev_1">Sri Harsha [srisurya95]</string>
-  <string name="dev1_description">Desenvolvedor líder, médico aspirante, amante da AOSP, desenvolvedor de Temas</string>
-  <string name="dev_2">Akhil Narang [gordo]</string>
-  <string name="dev2_description">Auxiliar, AOSP e Substratum e COMIDA &lt; 3LOVER, sempre com fome</string>
-  <string name="dev_info">Desenvolvedores AOSP-OMS</string>
+
   <!-- General strings -->
   <string name="header_category_custom">Personalização</string>
   <string name="ok">Ok</string>
@@ -206,10 +202,6 @@
   <string name="app_ops_reset_confirm_mesg">Tem certeza de que deseja resetar os contadores?</string>
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_title">Proteção à Privacidade</string>
-  <!-- Battery & notification light -->
-  <string name="lights_label">Luzes</string>
-  <string name="battery_light_title">Luz da bateria</string>
-  <string name="notification_light_title">Luz de notificação</string>
   <!-- Memory -->
   <string name="memory_startup_apps_title">Aplicativos iniciados ao ligar o dispositivo</string>
 
@@ -223,40 +215,6 @@
   <string name="dashboard_conditions_title">Condições de painel</string>
   <string name="summary_dashboard_conditions_enabled">Condições do painel estão habilitadas</string>
   <string name="summary_dashboard_conditions_disabled">Condições do painel estão desabilitadas</string>
-  
-  <!-- Display Settings -->
-  <!-- Doze pulse options -->
-  <string name="summary_doze_enabled">Ativado</string>
-  <string name="summary_doze_disabled">Desativado</string>
-  <string name="doze_overwrite_value_title">Substituir os padrões</string>
-  <string name="doze_overwrite_value_summary">Permitir a substituição de valores padrão com as configurações do usuário</string>
-  <string name="doze_pulse_title">Configurações de usuário</string>
-  <string name="doze_pulse_duration_in_title">Fade in</string>
-  <string name="doze_pulse_duration_in_summary"></string>
-  <string name="doze_pulse_duration_visible_title">Duração visível</string>
-  <string name="doze_pulse_duration_visible_summary"></string>
-  <string name="doze_pulse_duration_out_title">Fade out</string>
-  <string name="doze_pulse_duration_out_summary"></string>
-  <string name="doze_trigger_pickup_title">Acionar com movimentos</string>
-  <string name="doze_trigger_pickup_summary_on">Pulso do Doze será acionado com movimentos captados pelo sensor</string>
-  <string name="doze_trigger_pickup_summary_off">Sensor de captação de movimentos não será utilizado</string>
-  <string name="doze_trigger_notification_title">Acionar com notificação</string>
-  <string name="doze_trigger_notification_summary_on">Pulso do Doze será acionado com as notificações</string>
-  <string name="doze_trigger_notification_summary_off">As notificações não serão utilizadas como mecanismo de ativação</string>
-  <string name="doze_brightness_level_title">Nível de brilho</string>
-  <string name="onehundred_ms">100 ms</string>
-  <string name="twofifty_ms">250 ms</string>
-  <string name="fivehundred_ms_default">500 ms (padrão)</string>
-  <string name="sevenfifty_ms">750 ms</string>
-  <string name="one_second">1 s</string>
-  <string name="onehalf_second">1.5 s</string>
-  <string name="two_second">2 s</string>
-  <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (padrão)</string>
-  <string name="threehalf_second">3.5 s</string>
-  <string name="four_second">4 s</string>
-  <string name="fourhalf_second">4.5 s</string>
-  <string name="five_second">5 s</string>
 
   <!-- Battery saver notification toggle -->
   <string name="battery_saver_notif_title">Notificação de economia de bateria</string>
@@ -264,19 +222,4 @@
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Notificação de bateria fraca</string>
   <string name="battery_low_notif_summary">Mostrar notificação de bateria fraca quando habilitado</string>
-
-  <!-- Dynamic notification tint -->
-  <string name="notification_tint_title">Cor do título de notificação dinâmico</string>
-  <string name="notification_tint_summary_off">Cor do título na notificação será manipulado pelo tema</string>
-  <string name="notification_tint_summary_on">Cor do título na notificação será obtida pelo cor do ícone do app</string>
-
-  <!-- Doze invert -->
-  <string name="doze_notification_color_invert_title">Inversão de cor</string>
-  <string name="doze_notification_color_invert_summary_off">Notificações do ambient display não serão invertidas. Usar com temas escuros.</string>
-  <string name="doze_notification_color_invert_summary_on">Notificações do ambient display serão invertidas. Usar com temas claros/stock.</string>
-
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Sobreposições Substratum</string>
-  <string name="menu_show_substratum">Mostrar sobreposições</string>
-  <string name="menu_hide_substratum">Ocultar sobreposições</string>
 </resources>

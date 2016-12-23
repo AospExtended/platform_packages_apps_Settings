@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">Versão estendida</string>
+  <string name="extended_version">Versão da AOSP Extended</string>
   <string name="extended_version_default">Desconhecido</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Data da Build</string>
@@ -28,7 +28,7 @@
   <!-- About phone screen, Extended Developer -->
   <string name="extended_dev_title">Estendido por</string>
   <!-- Do NOT translate this -->
-  <string name="extended_dev">Ishubhamsingh</string>
+  <string name="extended_dev">ishubhamsingh</string>
   <!-- Expanded desktop -->
   <string name="expanded_desktop_category">Área de Trabalho Expandida</string>
   <string name="expanded_hide_nothing">Não ocultar nada</string>
@@ -51,8 +51,6 @@
   <string name="volume_steps_reset">Resetar</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Sons do ajuste de volume</string>
-  <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
-  <string name="supersu_title">SuperSU</string>
   <!-- Keyboard and Input ASS methods -->
   <string name="show_enter_key_title">Mostrar tecla Enter</string>
   <string name="show_enter_key_summary">Forçar exibição da tecla \"Enter\" no teclado em vez de tecla de emoticon</string>
@@ -62,13 +60,6 @@
   <!-- Changelog -->
   <string name="changelog_title">Lista de mudanças</string>
   <string name="changelog_error">Não foi possível carregar as mudanças</string>
-  <!-- Heads up -->
-  <string name="headsup_section_header">Notificações Heads Up</string>
-  <string name="heads_up_notifications">Notificações pop-up</string>
-  <string name="summary_heads_up_enabled">As notificações pop-up estão ativadas</string>
-  <string name="summary_heads_up_disabled">As notificações pop-up estão desativadas</string>
-  <!-- Phone info shortcut -->
-  <string name="device_info_title">Informações do telefone</string>
   
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
@@ -78,11 +69,12 @@
   <string name="link_volume_option_title">Juntar volume de toque e notificação</string>
   <string name="notification_volume_option_title">Volume de notificação</string>
   <string name="ring_notification_volume_option_title">Volume de toque e notificação</string>
-
-  <!-- substratum dashboard tile title -->
-  <string name="substratum_settings_title">Substratum</string>
   
   <!-- Camera sound -->
   <string name="camera_sounds_title">Som do obturador da câmera</string>
+
+  <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">Temas para seu dispositivo</string>
+  <string name="supersu_settings_summary">Acesso root</string>
 
 </resources>
