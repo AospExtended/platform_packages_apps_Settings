@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Dashboard -->
+  <string name="supersu_title">SuperSU</string>
+  <string name="substratum_title">Substratum</string>
+
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
+	
+  <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Desktop esteso</string>
+  <string name="keywords_expanded_desktop">Desktop esteso</string>
+  <string name="expanded_hide_nothing">Non nascondere nulla</string>
+  <string name="expanded_hide_status">Barra di stato nascosta</string>
+  <string name="expanded_hide_navigation">Barra di navigazione nascosta</string>
+  <string name="expanded_hide_both">Nascondi entrambi</string>
+  <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata per le app dello stato esteso, imposta "Abilitato per tutti" nella posizione spento</string>
+  <string name="expanded_desktop_state">Stato espansione</string>
+  <string name="expanded_enabled_for_all">Abilitato per tutti</string>
+  <string name="expanded_user_configurable">Configurabile dall\'utente</string>
+  <string name="expanded_desktop_style">Stile desktop esteso</string>
+  <string name="expanded_desktop_style_description">Scegli uno stile di desktop esteso predefinito</string>
+  <string name="expanded_desktop_title">Opzioni desktop esteso</string>
+  
+  <!-- Phone info shortcut -->
+  <string name="device_info_title">Informazioni telefono</string>
+  
+  <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individuare il sensore di impronte digitali sul <xliff:g id="sensor_location">%1$s</xliff:g> del telefono.</string>
+
+  <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">indietro</string>
+  <string name="security_settings_fingerprint_sensor_location_front">davanti</string>
+  <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
+  <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
+
+  <!-- Gesture Settings -->
+  <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+  <string name="double_twist_for_camera_mode_summary_pn">Per passare o uscire dalla modalità selfie in Google fotocamera, doppia torsione quando si è nell\'app</string>
+</resources>
