@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2016 The AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, Extended version -->
+    <string name="extended_version">Versione estesa</string>
+    <string name="extended_version_default">Sconosciuto</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Data di compilazione</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    
+    <!-- Vendor version -->
+    <string name="vendor_version">Versione produttore</string>
+    <string name="vendor_version_default">Sconosciuto</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+
+    <!-- About phone screen, Extended Developer -->
+    <string name="extended_dev_title">Estensione di</string>
+    <!-- Do NOT translate this -->
+    <string name="extended_dev">Ishubhamsingh</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_category">Schermo esteso</string>
+    <string name="expanded_hide_nothing">Non nascondere nulla</string>
+    <string name="expanded_hide_status">Nascondi la barra di stato</string>
+    <string name="expanded_hide_navigation">Nascondi la barra di navigazione</string>
+    <string name="expanded_hide_both">Nascondi entrambi</string>
+    <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata di schermo esteso per ogni app, disattiva \"Attivo per tutti\"</string>
+    <string name="expanded_desktop_state">Stato schermo esteso</string>
+    <string name="expanded_enabled_for_all">Attivo per tutti</string>
+    <string name="expanded_user_configurable">Configurabile dall\'utente</string>
+    
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Livelli volume</string>
+    <string name="volume_steps_alarm_title">Livelli volume: Sveglia</string>
+    <string name="volume_steps_dtmf_title">Livelli volume: DTMF</string>
+    <string name="volume_steps_music_title">Livelli volume: Musica</string>
+    <string name="volume_steps_notification_title">Livelli volume: Notifiche</string>
+    <string name="volume_steps_ring_title">Livelli volume: Suoneria</string>
+    <string name="volume_steps_system_title">Livelli volume: Sistema</string>
+    <string name="volume_steps_voice_call_title">Livelli volume: Chiamata</string>
+    <string name="volume_steps_reset">Ripristina</string>
+  
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Suono regolazione volume</string>
+     
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+    
+    <!-- Keyboard and Input ASS methods -->
+    <string name="show_enter_key_title">Mostra tasto invio</string>
+    <string name="show_enter_key_summary">Forza la tastiera a mostrare il tasto invio invece che il tasto delle emoticon</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Selettore notifica</string>
+    <string name="ime_switcher_notify_summary">Visualizza il metodo d\'ingresso del selettore notifica</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Modifiche</string>
+    <string name="changelog_error">Impossibile caricare l\'elenco delle modifiche</string>
+
+    <!-- Heads up -->
+    <string name="headsup_section_header">Notifiche Heads up</string>
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="summary_heads_up_enabled">Le notifiche pop-up dono abilitate</string>
+    <string name="summary_heads_up_disabled">Le notifiche pop-up dono disabilitate</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Informazioni telefonoPhone info</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Collegamento volume suoneria e notifica</string>
+    <string name="notification_volume_option_title">Volume notifica</string>
+    <string name="ring_notification_volume_option_title">Volume suoneria e notifica</string>
+
+    <!-- substratum dashboard tile title -->
+    <string name="substratum_settings_title">Substratum</string>
+
+    <!-- Camera sound -->
+    <string name="camera_sounds_title">Suono dell\'otturatore fotocamera</string>
+
+</resources>
