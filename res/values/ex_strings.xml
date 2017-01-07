@@ -19,6 +19,9 @@
     <string name="extended_version_default">Unknown</string>
     <string name="extensions_title">Extensions</string>
 
+<!-- AEX OTA -->
+    <string name="aex_ota_title">AEX Updates</string>
+
 <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
