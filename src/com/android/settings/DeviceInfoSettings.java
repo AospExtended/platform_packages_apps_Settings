@@ -77,6 +77,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_QGP_VERSION = "qgp_version";
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
 
+    private static final String KEY_AEX_OTA = "aex_ota";
     private static final String KEY_EXTENDED_VERSION = "extended_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
@@ -135,6 +136,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
         setStringSummary(KEY_BUILD_NUMBER, Build.ID);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
+        String buildtype = SystemProperties.get("ro.extended.releasetype","unofficial");
+        if (!buildtype.equalsIgnoreCase("official")) {
+        removePreference(KEY_AEX_OTA);
+        }
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
