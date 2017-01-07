@@ -17,6 +17,7 @@
 <!-- About phone screen, Extended version -->
     <string name="extended_version">Extended version</string>
     <string name="extended_version_default">Unknown</string>
+    <string name="extensions_title">Extensions</string>
 
 <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
