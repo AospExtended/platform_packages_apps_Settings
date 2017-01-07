@@ -19,6 +19,12 @@
         android:title="@string/about_settings">
 <PreferenceScreen android:layout="@layout/logo" android:key="aospextended_logo" />
 
+        <!-- About us -->
+        <PreferenceScreen
+        android:key="aex_about_info"
+        android:title="@string/aex_about_info"
+        android:fragment="com.android.settings.extended.about" />
+
         <!-- Changelog -->
         <PreferenceScreen
             android:key="changelog"
