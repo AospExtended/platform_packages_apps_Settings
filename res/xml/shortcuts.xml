@@ -18,7 +18,7 @@
     <shortcut
         android:shortcutId="manifest-shortcut-configurations"
         android:icon="@drawable/aex_conf_sc"
-        android:shortcutShortLabel="Extensions">
+        android:shortcutShortLabel="@string/extensions_title">
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.settings"
