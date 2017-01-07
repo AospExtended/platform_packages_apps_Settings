@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/aex_about_info">
+
+<PreferenceCategory
+              android:key="about"
+              android:title="@string/dev_info" >
+
+        <PreferenceScreen
+    android:summary="@string/aex_about_info_summary" >
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/communities/106726906578669931141" />
+      </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/github"
+    android:summary="@string/github_description"
+    android:icon="@drawable/ic_github" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/AospExtended" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/gplus"
+    android:summary="@string/gplus_description"
+    android:icon="@drawable/ic_gplus" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/communities/106726906578669931141" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/telegram"
+    android:summary="@string/telegram_description"
+    android:icon="@drawable/ic_telegram" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://telegram.me/aospextendedgroup" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="@string/web"
+    android:summary="@string/web"
+    android:icon="@drawable/ic_web" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://downloads.aospextended.com/" />
+        </PreferenceScreen>
+
+     </PreferenceCategory>
+
+<PreferenceCategory
+              android:key="leads"
+              android:title="@string/leads" >
+
+        <PreferenceScreen
+            android:title="@string/dev_1"
+    android:summary="@string/dev1_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/+shubhamsingh" />
+        </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_2"
+    android:summary="@string/dev2_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://forum.xda-developers.com/member.php?u=6257538" />
+        </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_3"
+    android:summary="@string/dev3_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/+AmolAmrit" />
+        </PreferenceScreen>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="translators"
+              android:title="@string/translators" >
+
+       <PreferenceScreen
+            android:title="@string/dev_4"
+    android:summary="@string/dev4_description"
+    android:icon="@drawable/ic_trans">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://forum.xda-developers.com/member.php?u=6519039" />
+      </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_8"
+    android:summary="@string/dev8_description"
+    android:icon="@drawable/ic_trans">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/100866392291383803831" />
+      </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_9"
+    android:summary="@string/dev9_description"
+    android:icon="@drawable/ic_trans">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/entony80" />
+      </PreferenceScreen>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="designers"
+              android:title="@string/designers" >
+
+       <PreferenceScreen
+            android:title="@string/dev_10"
+    android:summary="@string/dev10_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/Aliencreature7" />
+      </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_11"
+    android:summary="@string/dev11_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/Wizper99" />
+      </PreferenceScreen>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="maintainers"
+              android:title="@string/maintainers" >
+
+       <PreferenceScreen
+            android:title="@string/dev_5"
+    android:summary="@string/dev5_description"
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://forum.xda-developers.com/member.php?u=5696327" />
+      </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_6"
+    android:summary="@string/dev6_description"
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://forum.xda-developers.com/member.php?u=5964093" />
+      </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_7"
+    android:summary="@string/dev7_description"
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://forum.xda-developers.com/member.php?u=6797815" />
+      </PreferenceScreen>
+
+       <PreferenceScreen
+            android:title="@string/dev_12"
+    android:summary="@string/dev12_description"
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://forum.xda-developers.com/member.php?u=4665275" />
+      </PreferenceScreen>
+
+</PreferenceCategory>
+
+</PreferenceScreen>
