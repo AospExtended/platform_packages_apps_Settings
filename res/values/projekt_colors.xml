@@ -42,7 +42,6 @@
     <color name="linear_color_bar_left">@*android:color/accent_device_default_light</color>
     <color name="linear_color_bar_middle">@*android:color/accent_device_default_light</color>
     <color name="linear_color_bar_right">#ffced7db</color>
-    <color name="switchbar_background_color">#ff2a2c31</color>
 
     <!-- Bluetooth pairing pin confirm dialog -->
     <color name="bluetooth_pairing_caption">@*android:color/secondary_text_material_light</color>
@@ -73,4 +72,6 @@
 
     <!-- External Icon Tint -->
     <color name="external_tile_icon_tint_color">?android:attr/colorAccent</color>
+    <!-- Settings switchbar background -->
+    <color name="switchbar_background_color">?android:attr/colorSecondary</color>
 </resources>
