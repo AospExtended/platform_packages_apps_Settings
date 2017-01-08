@@ -18,6 +18,9 @@
     <string name="extended_version">Versione estesa</string>
     <string name="extended_version_default">Sconosciuto</string>
 
+    <!-- AEX OTA -->
+    <string name="aex_ota_title">Aggiornamento AEX</string>
+     
     <!-- About phone screen, build date -->
     <string name="build_date">Data di compilazione</string>
     <string name="build_date_default">2015-01-01-0000</string>
