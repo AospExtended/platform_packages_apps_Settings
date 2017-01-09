@@ -17,6 +17,7 @@
   <!-- About phone screen, Extended version -->
   <string name="extended_version">Versão da AOSP Extended</string>
   <string name="extended_version_default">Desconhecido</string>
+  <string name="extensions_title">Extensões</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Atualizações AEX</string>
   <!-- About phone screen, build date -->

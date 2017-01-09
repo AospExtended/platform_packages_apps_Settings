@@ -222,4 +222,57 @@
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Notificação de bateria fraca</string>
   <string name="battery_low_notif_summary">Mostrar notificação de bateria fraca quando habilitado</string>
+
+  <!-- Display Settings -->
+  <!-- Rotation Modes  -->
+  <string name="display_rotation_title">Rotação</string>
+  <string name="display_rotation_disabled">Desabilitada</string>
+  <string name="display_rotation_unit">graus</string>
+  <string name="display_lockscreen_rotation_title">Rotacionar tela de bloqueio</string>
+  <string name="display_rotation_category_title">Modos de rotação</string>
+  <string name="display_rotation_0_title">0 graus</string>
+  <string name="display_rotation_90_title">90 graus</string>
+  <string name="display_rotation_180_title">180 graus</string>
+  <string name="display_rotation_270_title">270 graus</string>
+  
+  <!-- About AospExtended -->
+  <string name="aex_about_info">Sobre a AospExtended</string>
+  <string name="aex_about_info_summary">AospExtended é uma rom com base AOSP que fornece a interface stock com vários recursos de customizações, juntamente com o motor de tema Substratum. O projeto consiste em várias funções de vários outros projetos. Sendo baseado na AOSP, fornecemos uma experiência suave e sem lags. Nós tentaremos constantemente adicionar mais recursos e tornar a ROM ainda melhor com futuras atualizações.&#35;SejaExtendido</string>
+  <string name="dev_info">Sobre a AospExtended</string>
+  <string name="leads">Equipe</string>
+  <string name="github">Github</string>
+  <string name="github_description">Veja nosso código fonte</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Participe da nossa comunidade no G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Participe do nosso grupo no Telegram</string>
+  <string name="web">Central de downloads</string>
+  <string name="web_description">Visite nossa central oficial de downloads</string>
+  <string name="Mantenedors">Mantenedores</string>
+  <string name="dev_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="dev1_description">Desenvolvedor Líder, Mantenedor do Osprey e Merlin</string>
+  <string name="dev_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="dev2_description">Desenvolvedor, Mantenedor do Angler</string>
+  <string name="dev_3">Amol Amrit</string>
+  <string name="dev3_description">Moderador Telegram/G+, Mantenedor do Kenzo</string>
+  <string name="dev_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="dev4_description">Desenvolvedor Web, Suporte OTA, Tradução para Português</string>
+  <string name="dev_5">Anderson Mendes</string>
+  <string name="dev5_description">Mantenedor do Victara e Condor</string>
+  <string name="dev_6">Valeriano &#40;jneto3000&#41;</string>
+  <string name="dev6_description">Mantenedor do D802</string>
+  <string name="dev_7">Hamza Badar</string>
+  <string name="dev7_description">Mantenedor do Otus e Surnia</string>
+  <string name="designers">Designers</string>
+  <string name="translators">Tradutores</string>
+  <string name="dev_8">Jesus R &#40;KrapK&#41;</string>
+  <string name="dev8_description">Papéis de parede, Bootanimations, Tradução para Espanhol</string>
+  <string name="dev_9">entony80</string>
+  <string name="dev9_description">Tradução para Italiano</string>
+  <string name="dev_10">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="dev10_description">Banners, Logos, Papéis de parede</string>
+  <string name="dev_11">Savio &#40;Wizper99&#41;</string>
+  <string name="dev11_description">Logos QS/Fling</string>
+  <string name="dev_12">Saket Sawrav</string>
+  <string name="dev12_description">Mantenedor do Wt88047</string>
 </resources>
