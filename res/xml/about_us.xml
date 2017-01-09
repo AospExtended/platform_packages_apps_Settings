@@ -56,7 +56,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <PreferenceScreen
             android:title="@string/web"
-    android:summary="@string/web"
+    android:summary="@string/web_description"
     android:icon="@drawable/ic_web" >
     <intent
                android:action="android.intent.action.VIEW"
