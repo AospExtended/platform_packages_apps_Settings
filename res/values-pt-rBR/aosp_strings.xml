@@ -38,4 +38,14 @@
     <!-- Gesture Settings -->
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
     <string name="double_twist_for_camera_mode_summary_pn">Para mudar a câmera do modo de selfie no Google câmera, usando o gesto de torcer duas vezes quando estiver no aplicativo</string>
+
+    <!-- Animation Scale -->
+    <string name="animation_off">Animação desligada</string>
+    <string name="animation_scale_0_5x">Animação 0,5x</string>
+    <string name="animation_scale_0_75x">Animação 0,75x</string>
+    <string name="animation_scale_1x">Animação 1x</string>
+    <string name="animation_scale_1_5x">Animação 1,5x</string>
+    <string name="animation_scale_2x">Animação 2x</string>
+    <string name="animation_scale_5x">Animação 5x</string>
+    <string name="animation_scale_10x">Animação 10x</string>
 </resources>
