@@ -14,14 +14,14 @@
 
      <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
     <string-array name="window_animation_scale_entries_aosp">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale .75x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>@string/animation_off</item>
+        <item>@string/animation_scale_0_5x</item>
+        <item>@string/animation_scale_0_75x</item>
+        <item>@string/animation_scale_1x</item>
+        <item>@string/animation_scale_1_5x</item>
+        <item>@string/animation_scale_2x</item>
+        <item>@string/animation_scale_5x</item>
+        <item>@string/animation_scale_10x</item>
     </string-array>
 
     <!-- Values for window animation scale preference. -->
@@ -38,14 +38,14 @@
 
     <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->
     <string-array name="transition_animation_scale_entries_aosp">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale .75x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>@string/animation_off</item>
+        <item>@string/animation_scale_0_5x</item>
+        <item>@string/animation_scale_0_75x</item>
+        <item>@string/animation_scale_1x</item>
+        <item>@string/animation_scale_1_5x</item>
+        <item>@string/animation_scale_2x</item>
+        <item>@string/animation_scale_5x</item>
+        <item>@string/animation_scale_10x</item>
     </string-array>
 
     <!-- Values for transition animation scale preference. -->
@@ -62,14 +62,14 @@
 
     <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->
     <string-array name="animator_duration_scale_entries_aosp">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale .75x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>@string/animation_off</item>
+        <item>@string/animation_scale_0_5x</item>
+        <item>@string/animation_scale_0_75x</item>
+        <item>@string/animation_scale_1x</item>
+        <item>@string/animation_scale_1_5x</item>
+        <item>@string/animation_scale_2x</item>
+        <item>@string/animation_scale_5x</item>
+        <item>@string/animation_scale_10x</item>
     </string-array>
 
     <!-- Values for animator duration scale preference. -->
