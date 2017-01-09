@@ -23,7 +23,7 @@
         <PreferenceScreen
         android:key="aex_about_info"
         android:title="@string/aex_about_info"
-        android:fragment="com.android.settings.extended.about" />
+        android:fragment="com.android.settings.extended.AboutUs" />
 
         <!-- Changelog -->
         <PreferenceScreen
