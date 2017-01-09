@@ -228,4 +228,16 @@
   <string name="battery_low_notif_title">Notifica batteria scarica</string>
   <string name="battery_low_notif_summary">Visualizza una notifica di batteria scarica quando è attivato</string>
   
+  <!-- Display Settings -->
+  <!-- Rotation Modes  -->
+  <string name="display_rotation_title">Rotazione</string>
+  <string name="display_rotation_disabled">Disabilitata</string>
+  <string name="display_rotation_unit">Gradi</string>
+  <string name="display_lockscreen_rotation_title">Ruota schermata di blocco</string>
+  <string name="display_rotation_category_title">Modalità rotazione</string>
+  <string name="display_rotation_0_title">0 gradi</string>
+  <string name="display_rotation_90_title">90 gradi</string>
+  <string name="display_rotation_180_title">180 gradi</string>
+  <string name="display_rotation_270_title">270 gradi</string>
+    
 </resources>
