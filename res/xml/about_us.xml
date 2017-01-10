@@ -111,24 +111,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <PreferenceCategory
               android:key="translators"
               android:title="@string/translators" >
-       <PreferenceScreen
-            android:title="@string/translator_1"
-    android:summary="@string/translator1_description"
-    android:icon="@drawable/ic_trans">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/100866392291383803831" />
-      </PreferenceScreen>
-
-       <PreferenceScreen
-            android:title="@string/translator_2"
-    android:summary="@string/translator2_description"
-    android:icon="@drawable/ic_trans">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://github.com/entony80" />
-      </PreferenceScreen>
-
 </PreferenceCategory>
 
 <PreferenceCategory
