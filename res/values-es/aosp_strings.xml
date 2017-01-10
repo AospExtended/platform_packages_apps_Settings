@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Dashboard -->
+    <string name="supersu_title">SuperSU</string>
+    <string name="substratum_title">Substratum</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Escritorio expandido</string>
+    <string name="keywords_expanded_desktop">Escritorio expandido</string>
+    <string name="expanded_hide_nothing">Sin ocultar nada</string>
+    <string name="expanded_hide_status">Ocultar la barra de estado</string>
+    <string name="expanded_hide_navigation">Ocultar la barra de navegación</string>
+    <string name="expanded_hide_both">Ocultar ambas</string>
+    <string name="expanded_nothing_to_show">Para agregar una configuración personalizada por cada aplicación para el escritorio expandido, deshabilita la opción \"Habilitado para todos\"</string>
+    <string name="expanded_desktop_state">Estado del escritorio expandido</string>
+    <string name="expanded_enabled_for_all">Habilitado para todos</string>
+    <string name="expanded_user_configurable">Configurable por el usuario</string>
+    <string name="expanded_desktop_style">Estilo del escritorio expandido</string>
+    <string name="expanded_desktop_style_description">Selecciona un estilo por defecto</string>
+    <string name="expanded_desktop_title">Opciones de escritorio expandido</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Información del dispositivo</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Localizar el sensor de huella dactilar en <xliff:g id="sensor_location">%1$s</xliff:g> de tu dispositivo.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">atrás</string>
+    <string name="security_settings_fingerprint_sensor_location_front">al frente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lado izquierdo</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lado derecho</string>
+
+    <!-- Gesture Settings -->
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary_pn">Para cambiar al modo selfie en la cámara de Google, doble giro cuando estes en la app</string>
+
+    <!-- Animation Scale -->
+    <string name="animation_off">Animación apagada</string>
+    <string name="animation_scale_0_5x">Animación 0,5x</string>
+    <string name="animation_scale_0_75x">Animación 0,75x</string>
+    <string name="animation_scale_1x">Animación 1x</string>
+    <string name="animation_scale_1_5x">Animación 1,5x</string>
+    <string name="animation_scale_2x">Animación 2x</string>
+    <string name="animation_scale_5x">Animación 5x</string>
+    <string name="animation_scale_10x">Animación 10x</string>
+</resources>
