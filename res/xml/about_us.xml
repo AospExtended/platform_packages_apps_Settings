@@ -96,21 +96,21 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="http://plus.google.com/+AmolAmrit" />
         </PreferenceScreen>
 
-</PreferenceCategory>
-
-<PreferenceCategory
-              android:key="translators"
-              android:title="@string/translators" >
-
        <PreferenceScreen
             android:title="@string/dev_4"
     android:summary="@string/dev4_description"
-    android:icon="@drawable/ic_trans">
+    android:icon="@drawable/ic_devs">
     <intent
                android:action="android.intent.action.VIEW"
                android:data="http://forum.xda-developers.com/member.php?u=6519039" />
       </PreferenceScreen>
 
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="translators"
+              android:title="@string/translators" >
        <PreferenceScreen
             android:title="@string/dev_8"
     android:summary="@string/dev8_description"
