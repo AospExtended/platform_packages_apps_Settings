@@ -70,8 +70,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:title="@string/leads" >
 
         <PreferenceScreen
-            android:title="@string/dev_1"
-    android:summary="@string/dev1_description"
+            android:title="@string/team_1"
+    android:summary="@string/team1_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
@@ -79,8 +79,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </PreferenceScreen>
 
        <PreferenceScreen
-            android:title="@string/dev_2"
-    android:summary="@string/dev2_description"
+            android:title="@string/team_2"
+    android:summary="@string/team2_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
@@ -88,8 +88,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </PreferenceScreen>
 
        <PreferenceScreen
-            android:title="@string/dev_3"
-    android:summary="@string/dev3_description"
+            android:title="@string/team2_description"
+    android:summary="@string/team3_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
@@ -97,8 +97,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </PreferenceScreen>
 
        <PreferenceScreen
-            android:title="@string/dev_4"
-    android:summary="@string/dev4_description"
+            android:title="@string/team_4"
+    android:summary="@string/team4_description"
     android:icon="@drawable/ic_devs">
     <intent
                android:action="android.intent.action.VIEW"
@@ -112,8 +112,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:key="translators"
               android:title="@string/translators" >
        <PreferenceScreen
-            android:title="@string/dev_8"
-    android:summary="@string/dev8_description"
+            android:title="@string/translator_1"
+    android:summary="@string/translator1_description"
     android:icon="@drawable/ic_trans">
     <intent
                android:action="android.intent.action.VIEW"
@@ -121,8 +121,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
       </PreferenceScreen>
 
        <PreferenceScreen
-            android:title="@string/dev_9"
-    android:summary="@string/dev9_description"
+            android:title="@string/translator_2"
+    android:summary="@string/translator2_description"
     android:icon="@drawable/ic_trans">
     <intent
                android:action="android.intent.action.VIEW"
@@ -136,8 +136,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:title="@string/designers" >
 
        <PreferenceScreen
-            android:title="@string/dev_10"
-    android:summary="@string/dev10_description"
+            android:title="@string/designer_1"
+    android:summary="@string/designer1_description"
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
@@ -145,8 +145,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
       </PreferenceScreen>
 
        <PreferenceScreen
-            android:title="@string/dev_11"
-    android:summary="@string/dev11_description"
+            android:title="@string/designer_2"
+    android:summary="@string/designer2_description"
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
@@ -166,33 +166,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <intent
                android:action="android.intent.action.VIEW"
                android:data="http://forum.xda-developers.com/member.php?u=5696327" />
-      </PreferenceScreen>
-
-       <PreferenceScreen
-            android:title="@string/dev_6"
-    android:summary="@string/dev6_description"
-    android:icon="@drawable/ic_devs_phone">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=5964093" />
-      </PreferenceScreen>
-
-       <PreferenceScreen
-            android:title="@string/dev_7"
-    android:summary="@string/dev7_description"
-    android:icon="@drawable/ic_devs_phone">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=6797815" />
-      </PreferenceScreen>
-
-       <PreferenceScreen
-            android:title="@string/dev_12"
-    android:summary="@string/dev12_description"
-    android:icon="@drawable/ic_devs_phone">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=4665275" />
       </PreferenceScreen>
 
 </PreferenceCategory>
