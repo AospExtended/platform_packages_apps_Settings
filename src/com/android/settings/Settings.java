@@ -174,4 +174,5 @@ public class Settings extends SettingsActivity {
     public static class DisplayRotationActivity extends SettingsActivity { /* empty */ }
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
+    public static class AmbientSettingsActivity extends SettingsActivity { /* empty */ }
 }
