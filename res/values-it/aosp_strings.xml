@@ -31,11 +31,21 @@
 
   <!-- Fingerprint sensor locations -->
   <string name="security_settings_fingerprint_sensor_location_back">indietro</string>
-  <string name="security_settings_fingerprint_sensor_location_front">davanti</string>
+  <string name="security_settings_fingerprint_sensor_location_front">avanti</string>
   <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
   <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
 
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Per passare o uscire dalla modalità selfie in Google fotocamera, doppia torsione quando si è nell\'app</string>
+    
+	<!-- Animation Scale -->
+    <string name="animation_off">Animazione spenta</string>
+    <string name="animation_scale_0_5x">Animazione 0,5x</string>
+    <string name="animation_scale_0_75x">Animazione 0,75x</string>
+    <string name="animation_scale_1x">Animazione 1x</string>
+    <string name="animation_scale_1_5x">Animazione 1,5x</string>
+    <string name="animation_scale_2x">Animazione 2x</string>
+    <string name="animation_scale_5x">Animazione 5x</string>
+    <string name="animation_scale_10x">Animazione 10x</string>
 </resources>
