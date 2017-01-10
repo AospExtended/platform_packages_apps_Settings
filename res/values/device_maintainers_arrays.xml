@@ -17,16 +17,22 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Maintainers -->
     <string-array name="maintainers_title">
-        <item>ishubham</item>
+        <item>ishubhamsingh</item>
+        <item>FireLord</item>
+        <item>AmolAmrit</item>
     </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices">
-        <item>osprey</item>
+        <item>osprey, merlin</item>
+        <item>angler</item>
+        <item>kenzo</item>
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
     <string-array name="maintainers_url">
-        <item>https://forum.xda-developers.com/member.php?u=5696327</item>
+        <item>https://forum.xda-developers.com/member.php?u=5566914</item>
+        <item>https://forum.xda-developers.com/member.php?u=6257538</item>
+        <item>https://forum.xda-developers.com/member.php?u=5615686</item>
     </string-array>
 </resources>
