@@ -88,7 +88,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </PreferenceScreen>
 
        <PreferenceScreen
-            android:title="@string/team2_description"
+            android:title="@string/team_3"
     android:summary="@string/team3_description"
     android:icon="@drawable/ic_devs" >
     <intent
@@ -149,16 +149,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <PreferenceCategory
               android:key="maintainers"
               android:title="@string/maintainers" >
-
-       <PreferenceScreen
-            android:title="@string/dev_5"
-    android:summary="@string/dev5_description"
-    android:icon="@drawable/ic_devs_phone">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=5696327" />
-      </PreferenceScreen>
-
 </PreferenceCategory>
 
 </PreferenceScreen>
