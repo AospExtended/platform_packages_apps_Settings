@@ -261,11 +261,6 @@
     <string name="team3_description">Telegram/G+ Moderator</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Web Developer, OTA Bringup,  Portuguese &#40;Brazilian&#41; Translator</string>
-    <string name="translators">Translators</string>
-    <string name="translator_1">Jesus R &#40;KrapK&#41;</string>
-    <string name="translator1_description">Wallapapers,Bootanimations ,Spanish Translator</string>
-    <string name="translator_2">entony80</string>
-    <string name="translator2_description">Italian Translator</string>
     <string name="designers">Designers</string>
     <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
     <string name="designer1_description">Thread Banners,Logos,Wallpapers</string>
@@ -273,4 +268,6 @@
     <string name="designer2_description">QS/Fling logos</string>
     <string name="maintainers">Maintainers</string>
     <string name="maintainer_description">Maintains for %1$s</string>
+    <string name="translators">Translators</string>
+    <string name="translator_description">Translates to %1$s</string>
 </resources>
