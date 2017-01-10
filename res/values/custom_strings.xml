@@ -254,11 +254,11 @@
     <string name="web_description">Visit our download portal</string>
     <string name="leads">Team Leads</string>
     <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
-    <string name="team1_description">Owner/Lead Developer, Osprey,Merlin Maintainer</string>
+    <string name="team1_description">Owner/Lead Developer</string>
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
-    <string name="team2_description">Developer, Angler Maintainer</string>
+    <string name="team2_description">Developer</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Telegram/G+ Moderator, Kenzo Maintainer</string>
+    <string name="team3_description">Telegram/G+ Moderator</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Web Developer, OTA Bringup,  Portuguese &#40;Brazilian&#41; Translator</string>
     <string name="translators">Translators</string>
@@ -272,5 +272,5 @@
     <string name="designer_2">Savio &#40;Wizper99&#41;</string>
     <string name="designer2_description">QS/Fling logos</string>
     <string name="maintainers">Maintainers</string>
-    <string name="maintainer_description">Maintains %1$s</string>
+    <string name="maintainer_description">Maintains for %1$s</string>
 </resources>
