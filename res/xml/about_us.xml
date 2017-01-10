@@ -135,6 +135,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="http://github.com/Wizper99" />
       </PreferenceScreen>
 
+       <PreferenceScreen
+            android:title="@string/designer_3"
+    android:summary="@string/designer3_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/100866392291383803831" />
+      </PreferenceScreen>
+
 </PreferenceCategory>
 
 <PreferenceCategory
