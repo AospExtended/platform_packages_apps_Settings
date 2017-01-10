@@ -222,51 +222,54 @@
   <string name="battery_low_notif_title">Notificación de batería baja</string>
   <string name="battery_low_notif_summary">Mostrar notificación de batería baja cuando está activado</string>
   <!-- Display Settings -->
-  <!-- Doze pulse options -->
-  <string name="summary_doze_enabled">Activado</string>
-  <string name="summary_doze_disabled">Desactivado</string>
-  <string name="doze_overwrite_value_title">Sobresescribir configuración por defecto</string>
-  <string name="doze_overwrite_value_summary">Permitir sobresescribir configuración por defecto</string>
-  <string name="doze_pulse_title">Configuración modificable por el usuario</string>
-  <string name="doze_pulse_duration_in_title">Fundirse</string>
-  <string name="doze_pulse_duration_in_summary"></string>
-  <string name="doze_pulse_duration_visible_title">Duración de encendido</string>
-  <string name="doze_pulse_duration_visible_summary"></string>
-  <string name="doze_pulse_duration_out_title">Desaparecer</string>
-  <string name="doze_pulse_duration_out_summary"></string>
-  <string name="doze_trigger_pickup_title">Activador de recogida</string>
-  <string name="doze_trigger_pickup_summary_on">Recoger el dispositivo encenderá la pantalla</string>
-  <string name="doze_trigger_pickup_summary_off">Recoger el dispositivo no encenderá la pantalla</string>
-  <string name="doze_trigger_notification_title">Activador de notificación</string>
-  <string name="doze_trigger_notification_summary_on">Las notificaciones encenderán la pantalla</string>
-  <string name="doze_trigger_notification_summary_off">Las notificaciones no encenderán la pantalla</string>
-  <string name="doze_brightness_level_title">Nivel de brillo</string>
-  <string name="onehundred_ms">100 ms</string>
-  <string name="twofifty_ms">250 ms</string>
-  <string name="fivehundred_ms_default">500 ms (por defecto)</string>
-  <string name="sevenfifty_ms">750 ms</string>
-  <string name="one_second">1 s</string>
-  <string name="onehalf_second">1.5 s</string>
-  <string name="two_second">2 s</string>
-  <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (por defecto)</string>
-  <string name="threehalf_second">3.5 s</string>
-  <string name="four_second">4 s</string>
-  <string name="fourhalf_second">4.5 s</string>
-  <string name="five_second">5 s</string>
-  <!-- Dynamic notification tint -->
-  <string name="notification_tint_title">Color de notificación dinámico</string>
-  <string name="notification_tint_summary_off">El color de la notificación será tomado del tema</string>
-  <string name="notification_tint_summary_on">El color de la notificación será tomado del color del icono</string>
- 
-  <!-- Doze invert -->
-  <string name="doze_notification_color_invert_title">Color de notificación invertido en la pantalla ambiente</string>
-  <string name="doze_notification_color_invert_summary_off">El color no será invertido</string>
-  <string name="doze_notification_color_invert_summary_on">El color será invertido</string>
- 
-  <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum overlays</string>
-  <string name="menu_show_substratum">Mostrar overlays</string>
-  <string name="menu_hide_substratum">Ocultar overlays</string>
-  
+  <!-- Rotation Modes  -->
+  <string name="display_rotation_title">Rotación</string>
+  <string name="display_rotation_disabled">Desactivada</string>
+  <string name="display_rotation_unit">grados</string>
+  <string name="display_lockscreen_rotation_title">Rotar pantalla de bloqueo</string>
+  <string name="display_rotation_category_title">Modos de rootación</string>
+  <string name="display_rotation_0_title">0 grados</string>
+  <string name="display_rotation_90_title">90 grados</string>
+  <string name="display_rotation_180_title">180 grados</string>
+  <string name="display_rotation_270_title">270 grados</string>
+  <!-- About AospExtended -->
+  <string name="aex_about_info">Acerca de nosotros</string>
+  <string name="aex_about_info_summary">AospExtended es una ROM basa en AOSP que proporciona una interfaz stock con varias opciones junto al motor de temas Substratum. Este projecto se ha realizado "cherry-picking" varias opciones diferentes proyectos. Siendo basada en AOSP, proporciona una experiencia fluida y sin lag . Notros constantemente intentaremos añadir nuevas opciones para hacer mejor este proyecto. &#35;BeExtended</string>
+  <string name="dev_info">Acerca de AOSP Extended</string>
+  <string name="leads">Equipo</string>
+  <string name="github">Github</string>
+  <string name="github_description">Ve nuestro código fuente</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Unete a nuestra comunidad de G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Unete a nuestro grupo de discución en Telegram</string>
+  <string name="web">Centro de descarga</string>
+  <string name="web_description">Visita nuestra página de descargas</string>
+  <string name="maintainers">Desarrolladores</string>
+  <string name="dev_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="dev1_description">Dueñp/Desarrollador en jefe, mantiene Osprey y Merlin.</string>
+  <string name="dev_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="dev2_description">Desarrollador, matiene Angler.</string>
+  <string name="dev_3">Amol Amrit</string>
+  <string name="dev3_description">Moderador de Telegram/G+, mantiene Kenzo.</string>
+  <string name="dev_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="dev4_description">Desarrollador WEB, brindó OTA,  Portugués &#40;Brasileño&#41; Traductor</string>
+  <string name="dev_5">Anderson Mendes</string>
+  <string name="dev5_description">Mantiene Victara y Condor.</string>
+  <string name="dev_6">Valeriano &#40;jneto3000&#41;</string>
+  <string name="dev6_description">Mantiene D802.</string>
+  <string name="dev_7">Hamza Badar</string>
+  <string name="dev7_description">Mantiene Otus y Surnia.</string>
+  <string name="designers">Diseñadores</string>
+  <string name="translators">Traductores</string>
+  <string name="dev_8">Jesus R &#40;KrapK&#41;</string>
+  <string name="dev8_description">Fondos de pantalla, animaciones de inicio, traductor al español.</string>
+  <string name="dev_9">entony80</string>
+  <string name="dev9_description">Traductor al italiano.</string>
+  <string name="dev_10">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="dev10_description">Banners de los hilos, Logos, Fondos de pantalla</string>
+  <string name="dev_11">Savio &#40;Wizper99&#41;</string>
+  <string name="dev11_description">QS/Fling logos</string>
+  <string name="dev_12">Saket Sawrav</string>
+  <string name="dev12_description">Mantiene Wt88047.</string>
 </resources>
