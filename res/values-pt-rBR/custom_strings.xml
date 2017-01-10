@@ -256,16 +256,15 @@
   <string name="team3_description">Moderador Telegram/G+, Mantenedor do Kenzo</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Desenvolvedor Web, Suporte OTA, Tradução para Português</string>
-  <string name="translators">Tradutores</string>
-  <string name="translator_1">Jesus R &#40;KrapK&#41;</string>
-  <string name="translator1_description">Papéis de parede, Bootanimations, Tradução para Espanhol</string>
-  <string name="translator_2">entony80</string>
-  <string name="translator2_description">Tradução para Italiano</string>
   <string name="designers">Designers</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">Banners, Logos, Papéis de parede</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">Logos QS/Fling</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Papéis de parede, Animações de boot</string>
   <string name="maintainers">Mantenedores</string>
   <string name="maintainer_description">Mantém para %1$s</string>
+  <string name="translators">Tradutores</string>
+  <string name="translator_description">Traduz para %1$s</string>
 </resources>
