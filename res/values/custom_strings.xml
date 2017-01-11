@@ -118,4 +118,5 @@
     <!-- Restart SystemUI -->
     <string name="restart_systemui">Restart SystemUI</string>
 
+    <string name="reset_wallpaper_notice">Default wallpaper restored</string>
 </resources>
