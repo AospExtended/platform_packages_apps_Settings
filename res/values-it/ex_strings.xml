@@ -74,7 +74,17 @@
     <!-- Camera sound -->
     <string name="camera_sounds_title">Suono dell\'otturatore fotocamera</string>
     
-  	<!-- Custom tiles summary -->
+    <!-- Custom tiles summary -->
     <string name="substratum_settings_summary">Tema engine</string>
     <string name="supersu_settings_summary">Accesso Root</string>
+     
+    <!-- Advanced night mode tile -->
+    <string name="night_display_category_advanced">Avanzate</string>
+    <string name="qs_night_brightness_value_title">Bassa luminosità automatica</string>
+    <string name="qs_night_brightness_value_dialog">Imposta automaticamente il valore di bassa luminosità quando si attiva la luce nottura</string>
+    <string name="qs_night_bright_disabled">Non modificare la luminosità</string>
+    <string name="qs_night_bright_less">Imposta la bassa luminosità</string>
+    <string name="qs_night_bright_medium">Imposta la media luminosità</string>
+    <string name="qs_night_bright_min">Imposta la minima luminosità</string>
+     
 </resources>
