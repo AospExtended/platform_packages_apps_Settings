@@ -1,6 +1,5 @@
-
 /*
- * Copyright (C) 2016 Cosmic-OS Project
+ * Copyright (C) 2016 AospExtended ROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +22,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import android.net.Uri;
 import java.util.Locale;
+import android.content.Intent;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -33,20 +35,20 @@ public class AboutUs extends SettingsPreferenceFragment {
        super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.about_us);
-		
-		PreferenceCategory maintainers = (PreferenceCategory)findPreference("maintainers");
-		PreferenceCategory translators = (PreferenceCategory)findPreference("translators");
-		
-		String[] maintainers_title = getResources().getStringArray(R.array.maintainers_title);
+
+        PreferenceCategory maintainers = (PreferenceCategory)findPreference("maintainers");
+        PreferenceCategory translators = (PreferenceCategory)findPreference("translators");
+
+        String[] maintainers_title = getResources().getStringArray(R.array.maintainers_title);
         String[] maintainers_devices = getResources().getStringArray(R.array.maintainers_devices);
         String[] maintainers_url = getResources().getStringArray(R.array.maintainers_url);
-		
-		String[] translators_title = getResources().getStringArray(R.array.translators_title);
+
+        String[] translators_title = getResources().getStringArray(R.array.translators_title);
         String[] translators_language = getResources().getStringArray(R.array.translators_language);
         String[] translators_url = getResources().getStringArray(R.array.translators_url);
 
         for (int i = 0; i < maintainers_title.length; i++) {
-            Preference maintainer = new Preference(this);
+            Preference maintainer = new Preference(getPrefContext());
             final String maintainer_url = maintainers_url[i];
             maintainer.setIcon(R.drawable.ic_devs_phone);
             maintainer.setTitle(maintainers_title[i]);
@@ -54,7 +56,7 @@ public class AboutUs extends SettingsPreferenceFragment {
             maintainer.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(maintainer_url)));
+                    getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(maintainer_url)));
                     return true;
                 }
             });
@@ -62,15 +64,15 @@ public class AboutUs extends SettingsPreferenceFragment {
         }
 
         for (int i = 0; i < translators_title.length; i++) {
-            Preference translator = new Preference(this);
+            Preference translator = new Preference(getPrefContext());
             final String translator_url = translators_url[i];
             translator.setIcon(R.drawable.ic_trans);
             translator.setTitle(translators_title[i]);
 			String displayName = "";
-			try {
+            try {
             Locale locale = new Locale.Builder().setLanguageTag(translators_language[i]).build();
             displayName = locale.getDisplayName();
-			}catch (Exception ex){
+            }catch (Exception ex){
             displayName = "";
             }
             if (!displayName.equals("")){
