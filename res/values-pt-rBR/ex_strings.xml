@@ -79,5 +79,14 @@
   <!-- Custom tiles summary -->
   <string name="substratum_settings_summary">Temas para seu dispositivo</string>
   <string name="supersu_settings_summary">Acesso root</string>
+  
+  <!-- Advanced night mode tile -->
+  <string name="night_display_category_advanced">Avançado</string>
+  <string name="qs_night_brightness_value_title">Brilho baixo automático</string>
+  <string name="qs_night_brightness_value_dialog">Automaticamente define o brilho mínimo quando habilitar o modo noturno</string>
+  <string name="qs_night_bright_disabled">Não alterar o brilho</string>
+  <string name="qs_night_bright_less">Definir brilho baixo</string>
+  <string name="qs_night_bright_medium">Definir brilho médio</string>
+  <string name="qs_night_bright_min">Definir brilho mínimo</string>
 
 </resources>
