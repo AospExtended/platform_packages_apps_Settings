@@ -3244,9 +3244,6 @@
     <string name="set_data_time_range">显示时间区间</string>
     <string name="app_ops_permiss_name">应用联网限制</string>
 
-    <!-- StorageCleaner Settings -->
-    <string name="storage_menu_cleanup">垃圾清理</string>
-
     <string name="mbn_version">MBN 版本</string>
     <string name="show_battery_percentage">显示电池电量百分比</string>
     <string name="show_battery_percentage_summary">在状态栏中显示电池电量百分比</string>
