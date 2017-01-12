@@ -239,5 +239,37 @@
   <string name="display_rotation_90_title">90 gradi</string>
   <string name="display_rotation_180_title">180 gradi</string>
   <string name="display_rotation_270_title">270 gradi</string>
-    
+   
+    <!-- About AospExtended -->
+    <string name="aex_about_info">Riguardo us</string>
+    <string name="aex_about_info_summary">AospExtended è una rom basata su AOSP che fornisce uno stock UI/UX con varie caratteristiche di personalizzazioni come il tema engine Substratum. Il progetto è stato realizzato da cherry-picking e da altri vari progetti. Essendo basato su AOSP fornisce un\'esperienza fluida e senza lag fuori dal box. Cerchiamo costantemente di aggiungere ulteriori funzionalità e renderla ancora megliore nei futuri aggiornamenti.&#35;BeExtended</string>
+    <string name="dev_info">Riguardo AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">Visualizza il nostro codice sorgente</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Unisciti alla nostra community su G+</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Unisciti al nostro gruppo di discussione su Telegram</string>
+    <string name="web">Centro download</string>
+    <string name="web_description">Visita il nostro portale di download</string>
+    <string name="leads">Responsabili del Team</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Proprietario/Responsabile Sviluppatore</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Sviluppatore</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderatore Telegram/G+</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Sviluppatore Web, OTA Bringup</string>
+    <string name="designers">Progettista</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Banner della discussione, loghi, sfondi</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">Loghi QS/Fling</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Sfondi, Animazione di avvio</string>
+    <string name="maintainers">Manutentori</string>
+    <string name="maintainer_description">Manutentore per %1$s</string>
+    <string name="translators">Traduttori</string>
+    <string name="translator_description">Traduce in %1$s</string>
 </resources>
