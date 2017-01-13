@@ -15,9 +15,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">Versione estesa</string>
+    <string name="extended_version">Versione Extended</string>
     <string name="extended_version_default">Sconosciuto</string>
-
+    <string name="extensions_title">Estensioni</string>
+     
     <!-- AEX OTA -->
     <string name="aex_ota_title">Aggiornamento AEX</string>
      
@@ -32,7 +33,7 @@
     <string name="local_backup_password_title">Desktop backup password</string>
 
     <!-- About phone screen, Extended Developer -->
-    <string name="extended_dev_title">Estensione di</string>
+    <string name="extended_dev_title">Extended di</string>
     <!-- Do NOT translate this -->
     <string name="extended_dev">Ishubhamsingh</string>
 
