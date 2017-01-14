@@ -25,7 +25,8 @@
         <item>Hamza Badar</item>
         <item>Saket Sawrav</item>
         <item>Nick van Bokhorst (GtrCraft)</item>
-    </string-array>
+        <item>Kranoner</item>
+     </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
@@ -37,7 +38,8 @@
         <item>Moto E 2015/LTE (otus/surnia)</item>
         <item>Redmi 2 (wt88047)</item>
         <item>Moto X Play (lux)</item>
-    </string-array>
+        <item>Moto G 2014 (titan)</item>
+     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
     <string-array name="maintainers_url" translatable="false">
@@ -49,5 +51,6 @@
         <item>http://forum.xda-developers.com/member.php?u=6797815</item>
         <item>http://forum.xda-developers.com/member.php?u=4665275</item>
         <item>http://forum.xda-developers.com/member.php?u=5293805</item>
-    </string-array>
+        <item>https://forum.xda-developers.com/member.php?u=7790189</item>
+     </string-array>
 </resources>
