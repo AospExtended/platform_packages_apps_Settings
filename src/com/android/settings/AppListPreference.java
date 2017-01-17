@@ -62,6 +62,8 @@ public class AppListPreference extends CustomListPreference {
     private Drawable[] mEntryDrawables;
     private boolean mShowItemNone = false;
     private CharSequence[] mSummaries;
+    private ComponentName defaultCoPN;
+    private int componentCount;
     private int mSystemAppIndex = -1;
     private int mType = TYPE_PACKAGE;
 
@@ -237,6 +239,38 @@ public class AppListPreference extends CustomListPreference {
         }
     }
 
+    public void setComponentOrPackageNames(CharSequence[] charCoPNs, CharSequence charDefaultCoPN,
+            CharSequence[] summaries) {
+        // Get possible ComponentNames back from CharSequence
+        ArrayList<ComponentName> componentOrPackageNames = new ArrayList<>();
+        for (int i = 0; i < charCoPNs.length; i++) {
+            componentOrPackageNames.add(ComponentName.unflattenFromString(charCoPNs[i].toString()));
+        }
+        // the default may not be set
+        if (charDefaultCoPN != null) {
+            defaultCoPN = ComponentName.unflattenFromString(charDefaultCoPN.toString());
+        }
+
+        // check if they are ComponentNames or packageNames
+        for (int i = 0; i < componentOrPackageNames.size(); i++) {
+            try {
+                ActivityInfo activityInfo = AppGlobals.getPackageManager().getActivityInfo(
+                        componentOrPackageNames.get(i), 0, mUserId);
+                if (activityInfo != null) {
+                    componentCount++;
+                }
+            } catch (RemoteException e) {
+                // Skip unknown packages.
+            }
+        }
+
+        if (componentCount > 0) {
+            setComponentNames(componentOrPackageNames.toArray(new ComponentName[0]), defaultCoPN, summaries);
+        } else {
+            setPackageNames(charCoPNs, charDefaultCoPN);
+        }
+    }
+
     protected ListAdapter createListAdapter() {
         final String selectedValue = getValue();
         final boolean selectedNone = selectedValue == null ||
@@ -275,6 +309,7 @@ public class AppListPreference extends CustomListPreference {
                 setComponentNames(entryValues,
                     ComponentName.unflattenFromString(savedState.value+""));
             }
+            setComponentOrPackageNames(savedState.entryValues, savedState.value, savedState.summaries);
             mSummaries = savedState.summaries;
             super.onRestoreInstanceState(savedState.superState);
         } else {
