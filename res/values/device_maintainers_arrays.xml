@@ -26,31 +26,42 @@
         <item>Saket Sawrav</item>
         <item>Nick van Bokhorst (GtrCraft)</item>
         <item>Kranoner</item>
+        <item>Rafael Marchetto (Marchetto96)</item>
+        <item>rahulsnair</item>
+        <item>Sanjay Varun</item>
+        <item>Subhrajyoti Sen</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
-        <item>Moto G 2015 (osprey), Moto G TE (merlin)</item>
-        <item>Nexus 6P (angler)</item>
-        <item>Redmi Note 3 (kenzo)</item>
-        <item>Moto X 2014 (victara), Moto E (condor)</item>
-        <item>LG G2 (D802)</item>
-        <item>Moto E 2015/LTE (otus/surnia)</item>
-        <item>Redmi 2 (wt88047)</item>
-        <item>Moto X Play (lux)</item>
-        <item>Moto G 2014 (titan)</item>
+        <item>Moto G 2015 (osprey), Moto G TE (merlin)</item> <!-- Maintainer: ishubhamsingh -->
+        <item>Nexus 6P (angler)</item> <!-- Maintainer: FireLord -->
+        <item>Redmi Note 3 (kenzo)</item> <!-- Maintainer: AmolAmrit -->
+        <item>Moto X 2014 (victara), Moto E (condor)</item> <!-- Maintainer: Anderson Mendes -->
+        <item>LG G2 (D802)</item> <!-- Maintainer: Valeriano (jneto3000) -->
+        <item>Moto E 2015/LTE (otus/surnia)</item> <!-- Maintainer: Hamza Badar -->
+        <item>Redmi 2 (wt88047)</item> <!-- Maintainer: Saket Sawrav -->
+        <item>Moto X Play (lux)</item> <!-- Maintainer: Nick van Bokhorst (GtrCraft) -->
+        <item>Moto G 2014 (titan)</item> <!-- Maintainer: Kranoner -->
+        <item>LG G3 (D855), Moto G (falcon)</item> <!-- Maintainer: Rafael Marchetto (Marchetto96) -->
+        <item>Moto G4/G4 Plus</item> <!-- Maintainer: rahulsnair -->
+        <item>OnePlus X</item> <!-- Maintainer: Sanjay Varun -->
+        <item>Moto G4 Play</item> <!-- Maintainer: Subhrajyoti Sen -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
     <string-array name="maintainers_url" translatable="false">
-        <item>http://forum.xda-developers.com/member.php?u=5566914</item>
-        <item>http://forum.xda-developers.com/member.php?u=6257538</item>
-        <item>http://forum.xda-developers.com/member.php?u=5615686</item>
-        <item>http://forum.xda-developers.com/member.php?u=5696327</item>
-        <item>http://forum.xda-developers.com/member.php?u=5964093</item>
-        <item>http://forum.xda-developers.com/member.php?u=6797815</item>
-        <item>http://forum.xda-developers.com/member.php?u=4665275</item>
-        <item>http://forum.xda-developers.com/member.php?u=5293805</item>
-        <item>https://forum.xda-developers.com/member.php?u=7790189</item>
+        <item>http://forum.xda-developers.com/member.php?u=5566914</item> <!-- Maintainer: ishubhamsingh -->
+        <item>http://forum.xda-developers.com/member.php?u=6257538</item> <!-- Maintainer: FireLord -->
+        <item>http://forum.xda-developers.com/member.php?u=5615686</item> <!-- Maintainer: AmolAmrit -->
+        <item>http://forum.xda-developers.com/member.php?u=5696327</item> <!-- Maintainer: Anderson Mendes -->
+        <item>http://forum.xda-developers.com/member.php?u=5964093</item> <!-- Maintainer: Hamza Badar -->
+        <item>http://forum.xda-developers.com/member.php?u=6797815</item> <!-- Maintainer: Saket Sawrav -->
+        <item>http://forum.xda-developers.com/member.php?u=4665275</item> <!-- Maintainer: Nick van Bokhorst (GtrCraft) -->
+        <item>http://forum.xda-developers.com/member.php?u=7790189</item> <!-- Maintainer: Kranoner -->
+        <item>http://forum.xda-developers.com/member.php?u=7366109</item> <!-- Maintainer: Rafael Marchetto (Marchetto96) -->
+        <item>http://forum.xda-developers.com/member.php?u=5253673</item> <!-- Maintainer: rahulsnair -->
+        <item>http://forum.xda-developers.com/member.php?u=5898022</item> <!-- Maintainer: Sanjay Varun -->
+        <item>http://forum.xda-developers.com/member.php?u=6623671</item> <!-- Maintainer: Subhrajyoti Sen -->
      </string-array>
 </resources>
