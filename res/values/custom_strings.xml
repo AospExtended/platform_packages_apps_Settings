@@ -250,6 +250,7 @@
     <string name="gplus_description">Join our G+ community</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Join our Telegram discussion group</string>
+    <string name="telegram_description">Subscribe to our Telegram channel</string>
     <string name="web">Download Center</string>
     <string name="web_description">Visit our download portal</string>
     <string name="leads">Team Leads</string>
@@ -263,11 +264,11 @@
     <string name="team4_description">Web Developer, OTA Bringup</string>
     <string name="designers">Designers</string>
     <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
-    <string name="designer1_description">Thread Banners,Logos,Wallpapers</string>
+    <string name="designer1_description">Thread Banners, Logos, Wallpapers</string>
     <string name="designer_2">Savio &#40;Wizper99&#41;</string>
     <string name="designer2_description">QS/Fling logos</string>
     <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-    <string name="designer3_description">Wallpapers,Bootanimations</string>
+    <string name="designer3_description">Wallpapers, Bootanimations</string>
     <string name="maintainers">Maintainers</string>
     <string name="maintainer_description">Maintains for %1$s</string>
     <string name="translators">Translators</string>
