@@ -132,6 +132,15 @@
             android:key="dashboard_category"
             android:title="@string/dashboard_category">
 
+        <ListPreference
+                android:key="dashboard_columns"
+                android:title="@string/dashboard_columns_title"
+                android:dialogTitle="@string/dashboard_columns_dialog_title"
+                android:entries="@array/dashboard_columns_entries"
+                android:entryValues="@array/dashboard_columns_values"
+                android:summary="@string/dashboard_columns_summary"
+                android:persistent="false" />
+
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
                 android:key="disable_settings_suggestions"
                 android:title="@string/dashboard_suggestions_title"
