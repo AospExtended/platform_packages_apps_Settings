@@ -43,4 +43,9 @@
     <color name="linear_color_bar_right">#ffced7db</color>
     <color name="switchbar_background_color">#ff2a2c31</color>
 
+    <!-- Bluetooth pairing pin confirm dialog -->
+    <color name="bluetooth_pairing_caption">@*android:color/secondary_text_material_light</color>
+    <color name="bluetooth_pairing_code_message">@*android:color/secondary_text_material_light</color>
+    <color name="bluetooth_phonebook_sharing_message_confirm_pin">@*android:color/secondary_text_material_light</color>
+
 </resources>
