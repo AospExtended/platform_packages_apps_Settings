@@ -132,13 +132,20 @@
             android:key="dashboard_category"
             android:title="@string/dashboard_category">
 
-        <ListPreference
-                android:key="dashboard_columns"
-                android:title="@string/dashboard_columns_title"
-                android:dialogTitle="@string/dashboard_columns_dialog_title"
-                android:entries="@array/dashboard_columns_entries"
-                android:entryValues="@array/dashboard_columns_values"
-                android:summary="@string/dashboard_columns_summary"
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
+                android:key="dashboard_portrait_columns"
+                android:title="@string/dashboard_columns_portrait_title"
+                settings:max="3"
+                settings:min="1"
+                settings:units=""
+                android:persistent="false" />
+
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
+                android:key="dashboard_landscape_columns"
+                android:title="@string/dashboard_columns_landscape_title"
+                settings:max="5"
+                settings:min="1"
+                settings:units=""
                 android:persistent="false" />
 
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
@@ -158,15 +165,9 @@
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
                 android:key="remove_settings_tile_summary"
                 android:title="@string/remove_tile_summaries_title"
-                android:summary="@string/remove_tile_summaries_summary"
-                android:defaultValue="false" />
-
-        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-                android:key="dashboard_summary_double_lines"
-                android:title="@string/dashboard_summary_double_lines_title"
-                android:summaryOn="@string/dashboard_summary_double_lines_summary_on"
-                android:summaryOff="@string/dashboard_summary_double_lines_summary_off"
-                android:defaultValue="false" />
+                android:summaryOn="@string/remove_tile_summaries_summary_enabled"
+                android:summaryOff="@string/remove_tile_summaries_summary_disabled"
+                android:defaultValue="true" />
 
         </PreferenceCategory>
 
