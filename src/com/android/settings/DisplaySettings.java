@@ -109,8 +109,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private ListPreference mNightModePreference;
 
-    private MultiSelectListPreference mRotationAnglesPreference;
-
     private Preference mFontSizePref;
     private Preference mScreenSaverPreference;
     private PreferenceScreen mDisplayRotationPreference;
