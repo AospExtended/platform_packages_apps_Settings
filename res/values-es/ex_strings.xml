@@ -66,4 +66,31 @@
   <!-- Custom tiles summary -->
   <string name="substratum_settings_summary">Motor de temas</string>
   <string name="supersu_settings_summary">Acceso root</string>
+  <!-- Advanced night mode tile -->
+  <string name="night_display_category_advanced">Avanzado</string>
+  <string name="qs_night_brightness_value_title">Brillo bajo automatico</string>
+  <string name="qs_night_brightness_value_dialog">Disminuir automaticamente el brillo cuando se activa la luz nocturna</string>
+  <string name="qs_night_bright_disabled">No cambiar el brillo</string>
+  <string name="qs_night_bright_less">Ajustar brillo bajo</string>
+  <string name="qs_night_bright_medium">Ajustar brillo medio</string>
+  <string name="qs_night_bright_min">Ajustar brillo minimo</string>
+
+  <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Volumen ascendente</string>
+  <string name="increasing_ring_min_volume_title">Volumen de inicio</string>
+  <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
+
+  <!-- Less Notification sounds -->
+  <string name="less_notification_sounds_title">Sonidos de notificación menos frecuentes</string>
+  <string name="less_notification_sounds_summary">Limitar las notificación de cada app durante el tiempo seleccionado</string>
+  <string name="less_notification_sounds_default">limite por defecto</string>
+  <string name="less_notification_sounds_3s">3 segundos</string>
+  <string name="less_notification_sounds_5s">5 segundos</string>
+  <string name="less_notification_sounds_10s">10 segundos</string>
+  <string name="less_notification_sounds_15s">15 segundos</string>
+  <string name="less_notification_sounds_30s">30 segundos</string>
+  <string name="less_notification_sounds_45s">45 segundos</string>
+  <string name="less_notification_sounds_1m">1 minutos</string>
+  <string name="less_notification_sounds_2m">2 minutos</string>
+  <string name="less_notification_sounds_5m">5 minutos</string>   
 </resources>
