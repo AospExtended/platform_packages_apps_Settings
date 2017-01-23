@@ -41,6 +41,6 @@
     <color name="linear_color_bar_left">@*android:color/accent_device_default_light</color>
     <color name="linear_color_bar_middle">@*android:color/accent_device_default_light</color>
     <color name="linear_color_bar_right">#ffced7db</color>
-    <color name="switchbar_background_color">#ff37474f</color>
+    <color name="switchbar_background_color">#ff2a2c31</color>
 
 </resources>
