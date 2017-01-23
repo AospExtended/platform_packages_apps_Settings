@@ -88,4 +88,22 @@
     <string name="qs_night_bright_medium">Imposta la media luminosità</string>
     <string name="qs_night_bright_min">Imposta la minima luminosità</string>
      
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Aumento del volume suoneria</string>
+    <string name="increasing_ring_min_volume_title">Volume di avvio</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo di accelerazione</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Suoni di notifica meno frequenti</string>
+    <string name="less_notification_sounds_summary">Limita i suoni di notifica di ogni app per suonare solo una volta e per il periodo di tempo impostato</string>
+    <string name="less_notification_sounds_default">Comportamento predefinito</string>
+    <string name="less_notification_sounds_3s">3 secondi</string>
+    <string name="less_notification_sounds_5s">5 secondi</string>
+    <string name="less_notification_sounds_10s">10 secondi</string>
+    <string name="less_notification_sounds_15s">15 secondi</string>
+    <string name="less_notification_sounds_30s">30 secondi</string>
+    <string name="less_notification_sounds_45s">45 secondi</string>
+    <string name="less_notification_sounds_1m">1 minuto</string>
+    <string name="less_notification_sounds_2m">2 minuti</string>
+    <string name="less_notification_sounds_5m">5 minuti</string>
 </resources>
