@@ -57,7 +57,7 @@
                 android:title="@string/vibrate_when_ringing_title" />
 
         <!-- Increasing ring -->
-        <com.dirtyunicorns.dutweaks.preference.SystemSettingSwitchPreference
+        <com.aospextended.extensions.preference.SystemSettingSwitchPreference
                 android:key="increasing_ring"
                 android:title="@string/increasing_ring_volume_option_title" />
 
