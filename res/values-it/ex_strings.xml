@@ -81,12 +81,12 @@
      
     <!-- Advanced night mode tile -->
     <string name="night_display_category_advanced">Avanzate</string>
-    <string name="qs_night_brightness_value_title">Bassa luminosità automatica</string>
-    <string name="qs_night_brightness_value_dialog">Imposta automaticamente il valore di bassa luminosità quando si attiva la luce nottura</string>
-    <string name="qs_night_bright_disabled">Non modificare la luminosità</string>
-    <string name="qs_night_bright_less">Imposta la bassa luminosità</string>
-    <string name="qs_night_bright_medium">Imposta la media luminosità</string>
-    <string name="qs_night_bright_min">Imposta la minima luminosità</string>
+    <string name="qs_night_brightness_value_title">Regolazione automatica della bassa luminosità</string>
+    <string name="qs_night_brightness_value_dialog">Imposta automaticamente un valore di bassa luminosità quando si attiva la luce nottura</string>
+    <string name="qs_night_bright_disabled">Luminosità invariata</string>
+    <string name="qs_night_bright_less">Luminosità bassa</string>
+    <string name="qs_night_bright_medium">Luminosità media</string>
+    <string name="qs_night_bright_min">Luminosità minima</string>
      
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Aumento del volume suoneria</string>
