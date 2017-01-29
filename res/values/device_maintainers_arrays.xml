@@ -31,6 +31,7 @@
         <item>Sanjay Varun</item>
         <item>Subhrajyoti Sen</item>
         <item>Kishan</item>
+        <item>shrukul</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -49,6 +50,7 @@
         <item>OnePlus X</item> <!-- Maintainer: Sanjay Varun -->
         <item>Moto G4 Play</item> <!-- Maintainer: Subhrajyoti Sen -->
         <item>OnePlus One (bacon)</item> <!-- Maintainer: Kishan -->
+        <item>Yu Yureka/Yureka+ (tomato)</item> <!-- Maintainer: shrukul -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -67,5 +69,6 @@
         <item>http://forum.xda-developers.com/member.php?u=5898022</item> <!-- Maintainer: Sanjay Varun -->
         <item>http://forum.xda-developers.com/member.php?u=6623671</item> <!-- Maintainer: Subhrajyoti Sen -->
         <item>http://forum.xda-developers.com/member.php?u=6859839</item> <!-- Maintainer: Kishan -->
+        <item>http://forum.xda-developers.com/member.php?u=5753279</item> <!-- Maintainer: shrukul -->
      </string-array>
 </resources>
