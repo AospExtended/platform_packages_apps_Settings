@@ -29,7 +29,7 @@
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Senha do backup local</string>
   <!-- About phone screen, Extended Developer -->
-  <string name="extended_dev_title">Estendido por</string>
+  <string name="extended_dev_title">Desenvolvido por</string>
   <!-- Do NOT translate this -->
   <string name="extended_dev">ishubhamsingh</string>
   <!-- Expanded desktop -->
@@ -88,5 +88,24 @@
   <string name="qs_night_bright_less">Definir brilho baixo</string>
   <string name="qs_night_bright_medium">Definir brilho médio</string>
   <string name="qs_night_bright_min">Definir brilho mínimo</string>
+
+  <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Aumentar o volume do toque</string>
+  <string name="increasing_ring_min_volume_title">Volume inicial</string>
+  <string name="increasing_ring_ramp_up_time_title">Tempo de aceleração</string>
+
+  <!-- Less Notification sounds -->
+  <string name="less_notification_sounds_title">Sons de notificação menos frequentes</string>
+  <string name="less_notification_sounds_summary">Limitar os sons de notificação de cada aplicação para tocar apenas uma vez por período de tempo definido</string>
+  <string name="less_notification_sounds_default">Comportamento padrão</string>
+  <string name="less_notification_sounds_3s">3 segundos</string>
+  <string name="less_notification_sounds_5s">5 segundos</string>
+  <string name="less_notification_sounds_10s">10 segundos</string>
+  <string name="less_notification_sounds_15s">15 segundos</string>
+  <string name="less_notification_sounds_30s">30 segundos</string>
+  <string name="less_notification_sounds_45s">45 segundos</string>
+  <string name="less_notification_sounds_1m">1 minuto</string>
+  <string name="less_notification_sounds_2m">2 minutos</string>
+  <string name="less_notification_sounds_5m">5 minutos</string>
 
 </resources>
