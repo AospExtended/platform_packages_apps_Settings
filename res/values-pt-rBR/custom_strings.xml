@@ -207,14 +207,17 @@
 
   <!-- Dashboard options -->
   <string name="dashboard_category">Opções do painel de controle</string>
-  <string name="dashboard_suggestions_title">Sugestões de painel de controle</string>
+  <string name="dashboard_suggestions_title">Sugestões</string>
   <string name="summary_dashboard_suggestions_enabled">Sugestões do painel de controle estão habilitados</string>
   <string name="summary_dashboard_suggestions_disabled">Sugestões do painel de controle estão desabilitados</string>
-  <string name="remove_tile_summaries_title">Remover subtítulo das tiles</string>
-  <string name="remove_tile_summaries_summary">Remover o texto exibido debaixo do título</string>
+  <string name="remove_tile_summaries_title">Sumários</string>
+  <string name="remove_tile_summaries_summary_enabled">Sumários do painel de controle do painel de controle estão habilitados</string>
+  <string name="remove_tile_summaries_summary_disabled">Sumários do painel de controle estão desabilitados</string>
   <string name="dashboard_conditions_title">Condições de painel</string>
-  <string name="summary_dashboard_conditions_enabled">Condições do painel estão habilitadas</string>
-  <string name="summary_dashboard_conditions_disabled">Condições do painel estão desabilitadas</string>
+  <string name="summary_dashboard_conditions_enabled">Condições do painel de controle estão habilitadas</string>
+  <string name="summary_dashboard_conditions_disabled">Condições do painel de controle estão desabilitadas</string>
+  <string name="dashboard_columns_portrait_title">Colunas (retrato)</string>
+  <string name="dashboard_columns_landscape_title">Colunas (paisagem)</string>
 
   <!-- Battery saver notification toggle -->
   <string name="battery_saver_notif_title">Notificação de economia de bateria</string>
