@@ -184,7 +184,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
                         tile.intent.getComponent().getPackageName())) {
                     // If this drawable is coming from outside Settings, tint it to match the
                     // color.
-                    tile.icon.setTint(tintColorValue.data).setTintMode(Mode.SRC_ATOP);
+                    tile.icon.setTint(tintColor.data).setTintMode(Mode.SRC_ATOP);
                 }
             }
         }
