@@ -289,6 +289,9 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>
 
 
