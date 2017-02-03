@@ -169,4 +169,7 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
