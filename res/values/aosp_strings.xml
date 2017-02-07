@@ -24,7 +24,6 @@
 
     <!-- Custom Settings -->   
     <!-- Dashboard -->
-    <string name="supersu_title">SuperSU</string>
     <string name="substratum_title">Substratum</string>
 
     <!-- App details: open play store link if app is user installed -->
