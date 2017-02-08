@@ -33,6 +33,7 @@
         <item>Kishan</item>
         <item>shrukul</item>
         <item>Subham (DerkLord)</item>
+        <item>Darshan M. (darshan1205)</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -53,6 +54,7 @@
         <item>OnePlus One (bacon)</item> <!-- Maintainer: Kishan -->
         <item>Yu Yureka/Yureka+ (tomato)</item> <!-- Maintainer: shrukul -->
         <item>OnePlus Two (op2)</item> <!-- Maintainer: Subham (DerkLord) -->
+        <item>YU Yuphoria</item> <!-- Maintainer: Darshan M. (darshan1205) -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -73,5 +75,6 @@
         <item>http://forum.xda-developers.com/member.php?u=6859839</item> <!-- Maintainer: Kishan -->
         <item>http://forum.xda-developers.com/member.php?u=5753279</item> <!-- Maintainer: shrukul -->
         <item>http://forum.xda-developers.com/member.php?u=7681940</item> <!-- Maintainer: Subham -->
+        <item>http://forum.xda-developers.com/member.php?u=6620830</item> <!-- Maintainer: Darshan M. (darshan1205) -->
      </string-array>
 </resources>
