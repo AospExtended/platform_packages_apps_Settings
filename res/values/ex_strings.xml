@@ -112,4 +112,8 @@
     <string name="less_notification_sounds_2m">2 minutes</string>
     <string name="less_notification_sounds_5m">5 minutes</string>
 
+    <!-- Magisk Manager -->
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Root management</string>
+
 </resources>
