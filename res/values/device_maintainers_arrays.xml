@@ -36,6 +36,7 @@
         <item>Darshan M. (darshan1205)</item>
         <item>Prateek Chaubey</item> 
         <item>Prasoon Mehra (phantom-1402)</item>
+	<item>Anand Roy</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -59,6 +60,7 @@
         <item>Oneplus 3/3T (oneplus3)</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
         <item>YU Yuphoria</item> <!-- Maintainer: Darshan M. (darshan1205) -->
         <item>YU Yunique</item> <!-- Maintainer: Prateek Chaubey --> 
+	<item>MI 4I</item> <!-- Maintainer: Anand Roy -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -82,5 +84,6 @@
         <item>http://forum.xda-developers.com/member.php?u=6620830</item> <!-- Maintainer: Darshan M. (darshan1205) -->
         <item>http://forum.xda-developers.com/member.php?u=5713232</item> <!-- Maintainer: Prateek Chaubey -->
         <item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) --> 
+	<item>http://forum.xda-developers.com/member.php?u=5362095</item> <!-- Maintainer: Anand Roy -->
      </string-array>
 </resources>
