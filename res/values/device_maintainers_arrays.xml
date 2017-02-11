@@ -35,6 +35,7 @@
         <item>Subham (DerkLord)</item>
         <item>Darshan M. (darshan1205)</item>
         <item>Prateek Chaubey</item> 
+        <item>Prasoon Mehra (phantom-1402)</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -55,6 +56,7 @@
         <item>OnePlus One (bacon)</item> <!-- Maintainer: Kishan -->
         <item>Yu Yureka/Yureka+ (tomato)</item> <!-- Maintainer: shrukul -->
         <item>OnePlus Two (op2)</item> <!-- Maintainer: Subham (DerkLord) -->
+        <item>Oneplus 3/3T (oneplus3)</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
         <item>YU Yuphoria</item> <!-- Maintainer: Darshan M. (darshan1205) -->
         <item>YU Yunique</item> <!-- Maintainer: Prateek Chaubey --> 
      </string-array>
@@ -78,6 +80,7 @@
         <item>http://forum.xda-developers.com/member.php?u=5753279</item> <!-- Maintainer: shrukul -->
         <item>http://forum.xda-developers.com/member.php?u=7681940</item> <!-- Maintainer: Subham -->
         <item>http://forum.xda-developers.com/member.php?u=6620830</item> <!-- Maintainer: Darshan M. (darshan1205) -->
-        <item>http://forum.xda-developers.com/member.php?u=5713232</item> <!-- Maintainer: Prateek Chaubey --> 
+        <item>http://forum.xda-developers.com/member.php?u=5713232</item> <!-- Maintainer: Prateek Chaubey -->
+        <item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) --> 
      </string-array>
 </resources>
