@@ -270,4 +270,8 @@
   <string name="maintainer_description">Mantém para %1$s</string>
   <string name="translators">Tradutores</string>
   <string name="translator_description">Traduz para %1$s</string>
+
+  <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Som ao capturar tela</string>
+  <string name="screenshot_sound_summary">Tocar um efeito de som ao capturar a tela</string>
 </resources>
