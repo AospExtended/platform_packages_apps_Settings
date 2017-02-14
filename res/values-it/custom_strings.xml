@@ -275,4 +275,9 @@
     <string name="maintainer_description">Manutentore per %1$s</string>
     <string name="translators">Traduttori</string>
     <string name="translator_description">Traduce in %1$s</string>
+    
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Suono screenshot</string>
+    <string name="screenshot_sound_summary">Riproduci un effetto sonoro quando si scatta uno screenshot</string>
+
 </resources>
