@@ -54,12 +54,6 @@
             <intent android:action="android.settings.SHOW_MANUAL" />
         </PreferenceScreen>
 
-        <!-- Extended Developer -->
-         <Preference android:key="extended_dev"
-                 style="?android:preferenceInformationStyle"
-                 android:title="@string/extended_dev_title"
-                 android:summary="@string/extended_dev"/>
-                 
         <PreferenceScreen
                 android:key="regulatory_info"
                 android:title="@string/regulatory_labels">
