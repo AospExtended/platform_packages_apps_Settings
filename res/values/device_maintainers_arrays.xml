@@ -56,12 +56,12 @@
         <item>OnePlus X</item> <!-- Maintainer: Sanjay Varun -->
         <item>Moto G4 Play</item> <!-- Maintainer: Subhrajyoti Sen -->
         <item>OnePlus One (bacon)</item> <!-- Maintainer: Kishan -->
-        <item>Yu Yureka/Yureka+ (tomato)</item> <!-- Maintainer: shrukul -->
+        <item>Yu Yureka/Yureka+ (tomato) </item> <!-- Maintainer: shrukul -->
         <item>OnePlus Two (op2)</item> <!-- Maintainer: Subham (DerkLord) -->
-        <item>Oneplus 3/3T (oneplus3)</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
-        <item>YU Yuphoria</item> <!-- Maintainer: Darshan M. (darshan1205) -->
-        <item>YU Yunique</item> <!-- Maintainer: Prateek Chaubey --> 
-	<item>Lenovo A6000</item><!-- Maintainer: Harshit Jain (dev_harsh1998) -->
+	<item>YU Yuphoria</item> <!-- Maintainer: Darshan M. (darshan1205) -->
+	<item>YU Yunique</item> <!-- Maintainer: Prateek Chaubey -->
+        <item>Oneplus 3/3T (oneplus3) </item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
+        <item>Lenovo A6000</item> <!-- Maintainer: Harshit Jain (dev_harsh1998) -->
 	<item>MI 4I</item> <!-- Maintainer: Anand Roy -->
      </string-array>
 
@@ -82,11 +82,11 @@
         <item>http://forum.xda-developers.com/member.php?u=6623671</item> <!-- Maintainer: Subhrajyoti Sen -->
         <item>http://forum.xda-developers.com/member.php?u=6859839</item> <!-- Maintainer: Kishan -->
         <item>http://forum.xda-developers.com/member.php?u=5753279</item> <!-- Maintainer: shrukul -->
-        <item>http://forum.xda-developers.com/member.php?u=7681940</item> <!-- Maintainer: Subham -->
+        <item>http://forum.xda-developers.com/member.php?u=7681940</item> <!-- Maintainer: Subham (DerkLord) -->
         <item>http://forum.xda-developers.com/member.php?u=6620830</item> <!-- Maintainer: Darshan M. (darshan1205) -->
         <item>http://forum.xda-developers.com/member.php?u=5713232</item> <!-- Maintainer: Prateek Chaubey -->
-	<item>https://forum.xda-developers.com/member.php?u=5835908</item><!-- Maintainer: Harshit Jain (dev_harsh1998) -->
-        <item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) --> 
+        <item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
+	<item>http://forum.xda-developers.com/member.php?u=5835908</item> <!-- Maintainer: Harshit Jain (dev_harsh1998) -->
 	<item>http://forum.xda-developers.com/member.php?u=5362095</item> <!-- Maintainer: Anand Roy -->
      </string-array>
 </resources>
