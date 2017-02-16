@@ -39,6 +39,7 @@
 	<item>Harshit Jain (dev_harsh1998)</item>
 	<item>Anand Roy</item>
 	<item>jsbeyond (KAOKAO)</item>
+	<item>Vedant Kamlaskar</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -65,6 +66,7 @@
         <item>Lenovo A6000</item> <!-- Maintainer: Harshit Jain (dev_harsh1998) -->
 	<item>MI 4I</item> <!-- Maintainer: Anand Roy -->
 	<item>Huawei kiwi</item> <!-- Maintainer: jsbeyond (KAOKAO) -->
+	<item>Xiaomi Redmi 1S(armani)</item> <!-- Maintainer: Vedant Kamlaskar -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -90,6 +92,7 @@
         <item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
 	<item>http://forum.xda-developers.com/member.php?u=5835908</item> <!-- Maintainer: Harshit Jain (dev_harsh1998) -->
 	<item>http://forum.xda-developers.com/member.php?u=5362095</item> <!-- Maintainer: Anand Roy -->
-	<item>http://forum.xda-developers.com/member.php?u=6674731</item> <!-- Maintainer: jsbeyond (KAOKAO) -->	    
-     </string-array>
+	<item>http://forum.xda-developers.com/member.php?u=6674731</item> <!-- Maintainer: jsbeyond (KAOKAO) -->
+	<item>http://forum.xda-developers.com/member.php?u=4333151</item> <!-- Maintainer: Vedant Kamlaskar -->
+	</string-array>
 </resources>
