@@ -93,4 +93,7 @@
   <string name="less_notification_sounds_1m">1 minutos</string>
   <string name="less_notification_sounds_2m">2 minutos</string>
   <string name="less_notification_sounds_5m">5 minutos</string>   
+  <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Revolver posición</string>
+  <string name="unlock_scramble_pin_layout_summary">Cambiar la posición de los números (PIN) al desbloquear el dispositivo.</string>   
 </resources>
