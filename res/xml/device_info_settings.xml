@@ -23,18 +23,21 @@
         <PreferenceScreen
         android:key="aex_about_info"
         android:title="@string/aex_about_info"
+	android:summary="@string/aex_about_summary"
         android:fragment="com.android.settings.extended.AboutUs" />
 
         <!-- Changelog -->
         <PreferenceScreen
             android:key="changelog"
             android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary"
             android:fragment="com.android.settings.extended.Changelog" />
 
         <!-- AEX OTA -->
         <PreferenceScreen
             android:key="aex_ota"
-            android:title="@string/aex_ota_title">
+            android:title="@string/aex_ota_title"
+	    android:summary="@string/aex_ota_summary">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.aospextended.ota"
                     android:targetClass="com.aospextended.ota.MainActivity" />
