@@ -21,9 +21,10 @@
      
     <!-- AEX OTA -->
     <string name="aex_ota_title">Aggiornamento AEX</string>
+    <string name="aex_ota_summary">Otteni la build più recente</string>
      
     <!-- About phone screen, build date -->
-    <string name="build_date">Data di compilazione</string>
+    <string name="build_date">Data build</string>
     <string name="build_date_default">2015-01-01-0000</string>
     
     <!-- Vendor version -->
@@ -57,7 +58,8 @@
     <!-- Changelog -->
     <string name="changelog_title">Modifiche</string>
     <string name="changelog_error">Impossibile caricare l\'elenco delle modifiche</string>
-
+    <string name="changelog_summary">Cambiamenti recenti</string>
+     
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
     <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
