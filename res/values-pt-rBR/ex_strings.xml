@@ -78,8 +78,10 @@
 
   <!-- Custom tiles summary -->
   <string name="substratum_settings_summary">Temas para seu dispositivo</string>
-  <string name="supersu_settings_summary">Acesso root</string>
-  
+  <!-- Root Management -->
+  <string name="rootmanagement_title">Acesso root</string>
+  <string name="rootmanagement_dashboard_summary">Gerenciar acesso superusuário</string>
+     
   <!-- Advanced night mode tile -->
   <string name="night_display_category_advanced">Avançado</string>
   <string name="qs_night_brightness_value_title">Brilho baixo automático</string>
@@ -107,5 +109,9 @@
   <string name="less_notification_sounds_1m">1 minuto</string>
   <string name="less_notification_sounds_2m">2 minutos</string>
   <string name="less_notification_sounds_5m">5 minutos</string>
+
+  <!-- Magisk Manager -->
+  <string name="magisk_title">Magisk</string>
+  <string name="magisk_summary">Gerenciar acesso superusuário</string>
 
 </resources>
