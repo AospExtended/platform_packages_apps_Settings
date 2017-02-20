@@ -20,6 +20,7 @@
   <string name="extensions_title">Extensões</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Atualizações AEX</string>
+  <string name="aex_ota_summary">Obter as últimas atualizações</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Data da Build</string>
   <string name="build_date_default">2015-01-01-0000</string>
@@ -63,6 +64,7 @@
   <!-- Changelog -->
   <string name="changelog_title">Lista de mudanças</string>
   <string name="changelog_error">Não foi possível carregar as mudanças</string>
+  <string name="changelog_summary">Mudanças recentes</string>
   
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
@@ -113,5 +115,9 @@
   <!-- Magisk Manager -->
   <string name="magisk_title">Magisk</string>
   <string name="magisk_summary">Gerenciar acesso superusuário</string>
+     
+  <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
 
 </resources>

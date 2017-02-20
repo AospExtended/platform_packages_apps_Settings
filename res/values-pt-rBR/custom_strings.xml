@@ -24,17 +24,6 @@
   <!-- General strings -->
   <string name="header_category_custom">Personalização</string>
   <string name="ok">Ok</string>
-  <!-- Setting checkbox title for root access -->
-  <string name="root_access">Acesso root</string>
-  <string name="root_access_warning_title">Permitir acesso Root?</string>
-  <string name="root_access_warning_message">Permitir aplicativos a solicitarem acesso superusuário é muito perigoso e pode comprometer a segurança do seus sistema!</string>
-  <string name="root_access_none">Desligado</string>
-  <string name="root_access_apps">Somente aplicativos</string>
-  <string name="root_access_adb">Somente ADB</string>
-  <string name="root_access_all">Aplicações e ADB</string>
-  <!-- Preference link for root appops -->
-  <string name="root_appops_title">Gerenciar acesso root</string>
-  <string name="root_appops_summary">Visualizar e controlar as regras de root para apps</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Local</string>
   <string name="app_ops_categories_personal">Pessoal</string>
@@ -240,6 +229,7 @@
   
   <!-- About AospExtended -->
   <string name="aex_about_info">Sobre a AospExtended</string>
+  <string name="aex_about_summary">Uma introdução sobre a ROM</string>
   <string name="aex_about_info_summary">AospExtended é uma rom com base AOSP que fornece a interface stock com vários recursos de customizações, juntamente com o motor de tema Substratum. O projeto consiste em várias funções de vários outros projetos. Sendo baseado na AOSP, fornecemos uma experiência suave e sem lags. Nós tentaremos constantemente adicionar mais recursos e tornar a ROM ainda melhor com futuras atualizações.&#35;SejaExtendido</string>
   <string name="dev_info">Sobre a AospExtended</string>
   <string name="github">Github</string>
