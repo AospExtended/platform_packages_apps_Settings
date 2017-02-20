@@ -40,6 +40,7 @@
 	<item>Anand Roy</item>
 	<item>jsbeyond (KAOKAO)</item>
 	<item>Vedant Kamlaskar</item>
+	<item>Devansh Bajaj</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -67,6 +68,7 @@
 	<item>MI 4I</item> <!-- Maintainer: Anand Roy -->
 	<item>Huawei kiwi</item> <!-- Maintainer: jsbeyond (KAOKAO) -->
 	<item>Xiaomi Redmi 1S(armani)</item> <!-- Maintainer: Vedant Kamlaskar -->
+	<item>Lenovo Vibe P1(P1A42)</item> <!-- Maintainer: Devansh Bajaj -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -94,5 +96,6 @@
 	<item>http://forum.xda-developers.com/member.php?u=5362095</item> <!-- Maintainer: Anand Roy -->
 	<item>http://forum.xda-developers.com/member.php?u=6674731</item> <!-- Maintainer: jsbeyond (KAOKAO) -->
 	<item>http://forum.xda-developers.com/member.php?u=4333151</item> <!-- Maintainer: Vedant Kamlaskar -->
+	<item>https://forum.xda-developers.com/member.php?u=7119290</item> <!-- Maintainer: Devansh Bajaj -->
 	</string-array>
 </resources>
