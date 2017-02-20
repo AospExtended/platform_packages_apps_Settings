@@ -24,15 +24,6 @@
   <string name="header_category_custom">UI &#38; UX</string>
   <string name="ok">OK</string>
 
-  <!-- Setting checkbox title for root access -->
-  <string name="root_access">Accesso root</string>
-  <string name="root_access_warning_title">Permetti l\'accesso come root?</string>
-  <string name="root_access_warning_message">Permettere alle app di richiedere i permessi di root è estremamente pericoloso e potrebbe compromettere la sicurezza del sistema!</string>
-  <string name="root_access_none">Disattivato</string>
-  <string name="root_access_apps">Solo app</string>
-  <string name="root_access_adb">Solo ADB</string>
-  <string name="root_access_all">App e ADB</string>
-
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Posizione</string>
   <string name="app_ops_categories_personal">Personale</string>
