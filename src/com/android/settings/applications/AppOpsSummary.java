@@ -178,8 +178,7 @@ public class AppOpsSummary extends InstrumentedFragment {
     private AppOpsState.OpsTemplate[] filterTemplates(AppOpsState.OpsTemplate[] templates) {
         List<AppOpsState.OpsTemplate> validTemplates = new ArrayList(templates.length);
         for (AppOpsState.OpsTemplate template : templates) {
-            if (template == AppOpsState.SU_TEMPLATE
-                    && !DevelopmentSettings.isRootForAppsEnabled()) {
+            if (template == AppOpsState.SU_TEMPLATE) {
                 continue;
             }
             validTemplates.add(template);
