@@ -21,6 +21,7 @@
 
 <!-- AEX OTA -->
     <string name="aex_ota_title">AEX Updates</string>
+    <string name="aex_ota_summary">Get latest build</string>
 
 <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
@@ -63,6 +64,7 @@
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_summary">Recent Changes</string>
 
    <!-- Quick unlock -->
    <string name="unlock_quick_unlock_control_title">Quick unlock</string>

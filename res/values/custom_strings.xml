@@ -245,6 +245,7 @@
 
     <!-- About AospExtended -->
     <string name="aex_about_info">About us</string>
+    <string name="aex_about_summary">Our introduction and our team</string>
     <string name="aex_about_info_summary">AospExtended is an AOSP based rom which provides stock UI/UX with various customisations features along with the Substratum theme engine. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.&#35;BeExtended</string>
     <string name="dev_info">About AospExtended</string>
     <string name="github">Github</string>
