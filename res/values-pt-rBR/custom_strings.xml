@@ -24,17 +24,6 @@
   <!-- General strings -->
   <string name="header_category_custom">Personalização</string>
   <string name="ok">Ok</string>
-  <!-- Setting checkbox title for root access -->
-  <string name="root_access">Acesso root</string>
-  <string name="root_access_warning_title">Permitir acesso Root?</string>
-  <string name="root_access_warning_message">Permitir aplicativos a solicitarem acesso superusuário é muito perigoso e pode comprometer a segurança do seus sistema!</string>
-  <string name="root_access_none">Desligado</string>
-  <string name="root_access_apps">Somente aplicativos</string>
-  <string name="root_access_adb">Somente ADB</string>
-  <string name="root_access_all">Aplicações e ADB</string>
-  <!-- Preference link for root appops -->
-  <string name="root_appops_title">Gerenciar acesso root</string>
-  <string name="root_appops_summary">Visualizar e controlar as regras de root para apps</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Local</string>
   <string name="app_ops_categories_personal">Pessoal</string>
