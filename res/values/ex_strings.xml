@@ -500,4 +500,8 @@
 
     <!-- LiveDisplay - Custom theme mode -->
     <string name="systemui_theme_time">Automatic (time of the day)</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>
