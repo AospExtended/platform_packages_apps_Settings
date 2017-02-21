@@ -110,6 +110,12 @@
                 android:summary="@string/wake_when_plugged_or_unplugged_summary"
                 android:defaultValue="true" />
 
+        <SwitchPreference
+                android:key="pocket_judge"
+                android:title="@string/pocket_judge_title"
+                android:summary="@string/pocket_judge_summary" />
+
+
         <PreferenceScreen
                 android:key="font_size"
                 android:title="@string/title_font_size"
