@@ -172,4 +172,8 @@
 
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
