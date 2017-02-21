@@ -202,16 +202,16 @@
   <string name="memory_startup_apps_title">App avviate all\'accensione</string>
 
   <!-- Dashboard options -->
-  <string name="dashboard_category">Opzioni pannello configurazioni</string>
-  <string name="dashboard_suggestions_title">Suggerimenti pannello configurazioni</string>
-  <string name="summary_dashboard_suggestions_enabled">Suggerimenti pannello configurazioni sono abilitati</string>
-  <string name="summary_dashboard_suggestions_disabled">Suggerimenti pannello configurazioni sono disabilitati</string>
+  <string name="dashboard_category">Opzioni pannello impostazioni</string>
+  <string name="dashboard_suggestions_title">Suggerimenti pannello impostazioni</string>
+  <string name="summary_dashboard_suggestions_enabled">Suggerimenti pannello impostazioni sono abilitati</string>
+  <string name="summary_dashboard_suggestions_disabled">Suggerimenti pannello impostazioni sono disabilitati</string>
   <string name="remove_tile_summaries_title">Rimuovi descrizione dei tile</string>
-  <string name="remove_tile_summaries_summary_enabled">Riepilogo pannello configurazioni sono abilitati</string>
+  <string name="remove_tile_summaries_summary_enabled">Riepilogo pannello impostazioni sono abilitati</string>
   <string name="remove_tile_summaries_summary">Rimuovi la descrizione visualizzata sotto i tile</string>
-  <string name="dashboard_conditions_title">Condizioni pannello configurazioni</string>
+  <string name="dashboard_conditions_title">Condizioni pannello impostazioni</string>
   <string name="summary_dashboard_conditions_enabled">Le condizioni del pannello impostazioni sono abilitate</string>
-  <string name="summary_dashboard_conditions_disabled">Le condizioni del pannello configurazioni sono disabilitate</string>
+  <string name="summary_dashboard_conditions_disabled">Le condizioni del pannello impostazioni sono disabilitate</string>
   <string name="dashboard_columns_portrait_title">Colonne (verticale)</string>
   <string name="dashboard_columns_landscape_title">Colonne (orizzontale)</string>
     
