@@ -108,6 +108,11 @@
             android:summary="@string/show_cpu_info_summary" 
             android:defaultValue="false" />
 
+        <SwitchPreference
+            android:key="force_authorize_substratum_packages"
+            android:title="@string/force_authorize_substratum_packages_title"
+            android:summary="@string/force_authorize_substratum_packages_summary" />
+
         <Preference
             android:key="demo_mode"
             android:title="@string/demo_mode">
