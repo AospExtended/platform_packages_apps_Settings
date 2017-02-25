@@ -151,4 +151,9 @@
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
 
+    <!-- Night Display -->
+    <string name="night_display_warning">Please note that Night Light may increase battery consumption.</string>
+    <string name="night_display_hide">Do not show this warning</string>
+    <string name="night_display_ok">Ok</string>
+
 </resources>
