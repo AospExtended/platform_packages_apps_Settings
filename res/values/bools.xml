@@ -105,4 +105,10 @@
     <bool name="hotspot_show_turn_off_wifi_dialog">false</bool>
     <!-- Whether to enable the default ipv4/v6 for creating new APN -->
     <bool name="config_default_apn_for_new">false</bool>
+
+    <!-- Whether to show a check box or switch for manual provision -->
+    <bool name="config_custom_multi_sim_checkbox">false</bool>
+
+    <!-- Whether notify user that switch data service -->
+    <bool name="confirm_to_switch_data_service">false</bool>
 </resources>
