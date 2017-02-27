@@ -70,6 +70,7 @@ public class PowerUsageSummary extends PowerUsageBase {
     private static final String KEY_BATTERY_PCT = "battery_pct";
 
     private static final int MENU_STATS_TYPE = Menu.FIRST;
+    private static final int MENU_BATTERY_SAVER = Menu.FIRST + 2;
     private static final int MENU_HIGH_POWER_APPS = Menu.FIRST + 3;
     private static final int MENU_HELP = Menu.FIRST + 4;
 
@@ -149,6 +150,9 @@ public class PowerUsageSummary extends PowerUsageBase {
                     .setAlphabeticShortcut('t');
         }
 
+        MenuItem batterySaver = menu.add(0, MENU_BATTERY_SAVER, 0, R.string.battery_saver);
+        batterySaver.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+
         menu.add(0, MENU_HIGH_POWER_APPS, 0, R.string.high_power_apps);
         super.onCreateOptionsMenu(menu, inflater);
     }
@@ -169,6 +173,10 @@ public class PowerUsageSummary extends PowerUsageBase {
                     mStatsType = BatteryStats.STATS_SINCE_CHARGED;
                 }
                 refreshStats();
+                return true;
+            case MENU_BATTERY_SAVER:
+                sa.startPreferencePanel(BatterySaverSettings.class.getName(), null,
+                        R.string.battery_saver, null, null, 0);
                 return true;
             case MENU_HIGH_POWER_APPS:
                 Bundle args = new Bundle();
