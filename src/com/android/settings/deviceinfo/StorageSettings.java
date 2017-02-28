@@ -26,6 +26,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.graphics.PorterDuff;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -191,7 +192,8 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
                 // TODO: add actual storage type to record
                 final Drawable icon = context.getDrawable(R.drawable.ic_sim_sd);
                 icon.mutate();
-                icon.setTint(COLOR_PUBLIC);
+                icon.setTint(getColorPublic(getResources()));
+                icon.setTintMode(PorterDuff.Mode.SRC_ATOP);
 
                 final Preference pref = new Preference(context);
                 pref.setKey(rec.getFsUuid());
