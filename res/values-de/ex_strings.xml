@@ -58,7 +58,7 @@
     <string name="show_enter_key_summary">Zwingt die Tastatur zur Darstellung der Eingabetaste anstelle der Emoticon-Taste</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Auswahlsymbol<</string>
+    <string name="ime_switcher_notify">Auswahlsymbol</string>
     <string name="ime_switcher_notify_summary">Symbol für Eingabemethodenauswahl anzeigen</string>
 
     <!-- Changelog -->
