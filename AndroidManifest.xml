@@ -3374,5 +3374,20 @@
             android:permission="android.permission.DUMP"
             android:enabled="@bool/config_has_help" />
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Quick settings -->
+        <activity android:name="Settings$QuickSettingsSettingsActivity"
+                android:label="@string/quick_settings_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.aospextended.extensions.statusbar.QuickSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/quick_settings_title" />
+        </activity>
+
     </application>
 </manifest>
