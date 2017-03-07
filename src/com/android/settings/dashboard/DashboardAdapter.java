@@ -15,13 +15,11 @@
  */
 package com.android.settings.dashboard;
 
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.Icon;
 import android.graphics.PorterDuff.Mode;
-import android.provider.Settings;
 import android.os.Bundle;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
@@ -115,22 +113,6 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     public void setCategoriesAndSuggestions(List<DashboardCategory> categories,
             List<Tile> suggestions) {
         mSuggestions = suggestions;
-        recountItems();
-    }
-
-    public Tile getTile(ComponentName component) {
-        for (int i = 0; i < mCategories.size(); i++) {
-            for (int j = 0; j < mCategories.get(i).tiles.size(); j++) {
-                Tile tile = mCategories.get(i).tiles.get(j);
-                if (component.equals(tile.intent.getComponent())) {
-                    return tile;
-                }
-            }
-        }
-        return null;
-    }
-
-    public void setCategories(List<DashboardCategory> categories) {
         mCategories = categories;
 
         TypedValue tintColorValue = new TypedValue();
