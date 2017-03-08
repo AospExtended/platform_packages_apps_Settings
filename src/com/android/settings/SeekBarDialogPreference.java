@@ -16,6 +16,7 @@
 
 package com.android.settings;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
@@ -27,7 +28,7 @@ import android.widget.SeekBar;
  * Based on frameworks/base/core/java/android/preference/SeekBarDialogPreference.java
  * except uses support lib preferences.
  */
-public class SeekBarDialogPreference extends CustomDialogPreference {
+public class SeekBarDialogPreference extends CustomDialogPreference<AlertDialog> {
     private final Drawable mMyIcon;
 
     public SeekBarDialogPreference(Context context, AttributeSet attrs) {

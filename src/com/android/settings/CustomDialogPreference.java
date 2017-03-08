@@ -20,12 +20,13 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v14.preference.PreferenceDialogFragment;
 import android.support.v7.preference.DialogPreference;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class CustomDialogPreference extends DialogPreference {
+public class CustomDialogPreference<T extends DialogInterface> extends DialogPreference {
 
     private CustomPreferenceDialogFragment mFragment;
 
@@ -47,11 +48,11 @@ public class CustomDialogPreference extends DialogPreference {
     }
 
     public boolean isDialogOpen() {
-        return getDialog() != null && getDialog().isShowing();
+        return getDialog() != null && getDialog() instanceof Dialog && ((Dialog)getDialog()).isShowing();
     }
 
-    public Dialog getDialog() {
-        return mFragment != null ? mFragment.getDialog() : null;
+    public T getDialog() {
+        return (T) (mFragment != null ? mFragment.getDialog() : null);
     }
 
     protected void onPrepareDialogBuilder(AlertDialog.Builder builder,
@@ -61,14 +62,26 @@ public class CustomDialogPreference extends DialogPreference {
     protected void onDialogClosed(boolean positiveResult) {
     }
 
-    protected void onClick(DialogInterface dialog, int which) {
+    protected void onClick(T dialog, int which) {
     }
 
     protected void onBindDialogView(View view) {
     }
 
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        return null;
+    }
+
+    protected View onCreateDialogView(Context context) {
+        return null;
+    }
+
     private void setFragment(CustomPreferenceDialogFragment fragment) {
         mFragment = fragment;
+    }
+
+    protected boolean onDismissDialog(T dialog, int which) {
+        return true;
     }
 
     public static class CustomPreferenceDialogFragment extends PreferenceDialogFragment {
@@ -83,6 +96,44 @@ public class CustomDialogPreference extends DialogPreference {
 
         private CustomDialogPreference getCustomizablePreference() {
             return (CustomDialogPreference) getPreference();
+        }
+
+        private class OnDismissListener implements View.OnClickListener {
+            private final int mWhich;
+            private final DialogInterface mDialog;
+
+            public OnDismissListener(DialogInterface dialog, int which) {
+                mWhich = which;
+                mDialog = dialog;
+            }
+
+            @Override
+            public void onClick(View view) {
+                CustomPreferenceDialogFragment.this.onClick(mDialog, mWhich);
+                if (getCustomizablePreference().onDismissDialog(mDialog, mWhich)) {
+                    mDialog.dismiss();
+                }
+            }
+        }
+
+        @Override
+        public void onStart() {
+            super.onStart();
+            if (getDialog() instanceof AlertDialog) {
+                AlertDialog a = (AlertDialog)getDialog();
+                if (a.getButton(Dialog.BUTTON_NEUTRAL) != null) {
+                    a.getButton(Dialog.BUTTON_NEUTRAL).setOnClickListener(
+                            new OnDismissListener(a, Dialog.BUTTON_NEUTRAL));
+                }
+                if (a.getButton(Dialog.BUTTON_POSITIVE) != null) {
+                    a.getButton(Dialog.BUTTON_POSITIVE).setOnClickListener(
+                            new OnDismissListener(a, Dialog.BUTTON_POSITIVE));
+                }
+                if (a.getButton(Dialog.BUTTON_NEGATIVE) != null) {
+                    a.getButton(Dialog.BUTTON_NEGATIVE).setOnClickListener(
+                            new OnDismissListener(a, Dialog.BUTTON_NEGATIVE));
+                }
+            }
         }
 
         @Override
@@ -107,6 +158,26 @@ public class CustomDialogPreference extends DialogPreference {
         public void onClick(DialogInterface dialog, int which) {
             super.onClick(dialog, which);
             getCustomizablePreference().onClick(dialog, which);
+        }
+
+        @NonNull
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            getCustomizablePreference().setFragment(this);
+            final Dialog sub = getCustomizablePreference().onCreateDialog(savedInstanceState);
+            if (sub == null) {
+                return super.onCreateDialog(savedInstanceState);
+            }
+            return sub;
+        }
+
+        @Override
+        protected View onCreateDialogView(Context context) {
+            final View v = getCustomizablePreference().onCreateDialogView(context);
+            if (v == null) {
+                return super.onCreateDialogView(context);
+            }
+            return v;
         }
     }
 }

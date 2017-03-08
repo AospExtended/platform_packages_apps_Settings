@@ -48,8 +48,6 @@ import com.android.settings.applications.LayoutPreference;
 import com.android.settings.widget.FloatingActionButton;
 import com.android.settingslib.HelpUtils;
 
-import com.android.settings.cyanogenmod.CustomDialogPreference;
-
 import java.util.UUID;
 
 /**

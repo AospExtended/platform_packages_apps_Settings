@@ -35,8 +35,8 @@ import android.widget.CompoundButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.android.settings.CustomDialogPreference;
 import com.android.settings.R;
-import com.android.settings.cyanogenmod.CustomDialogPreference;
 
 public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {
