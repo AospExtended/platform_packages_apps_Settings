@@ -131,4 +131,8 @@
   <string name="data_usage_app_restrict_all_wifi_title">Desabilitar todos os acessos de dados via Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <string name="data_usage_app_restrict_all_wifi_summary">Evitar qualquer acesso a dados através de redes Wi\u2011Fi</string>
+  
+  <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Duplo toque para acordar no modo doze</string>
+  <string name="double_tap_wake_doze_summary">Duplo toque para acordar o dispositivo na tela de pulso do modo doze</string>
 </resources>
