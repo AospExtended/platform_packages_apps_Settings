@@ -128,4 +128,50 @@
     <string name="data_usage_app_restrict_all_wifi_title">Disabilita tutti gli accessi tramite Wi\u2011Fi</string>
     <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_all_wifi_summary">Impedisci qualsiasi connessione tramite reti Wi\u2011Fi</string>
+     
+     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reimposta statistiche</string>
+    <string name="battery_stats_message">Le statistiche della storia della batteria stanno per essere reimpostate</string>
+    <string name="ok_string">Ok</string>
+
+    <!-- Doze pulse options -->
+    <string name="doze_settings">Impostazioni Doze</string>
+    <string name="summary_doze_enabled">Abilitato</string>
+    <string name="summary_doze_disabled">Disabilitato</string>
+    <string name="doze_overwrite_value_title">Sovrascrivi predefiniti</string>
+    <string name="doze_overwrite_value_summary">Consenti di sovrascrivere i valori predefiniti con configurazione utente</string>
+    <string name="doze_pulse_title">Impostazioni configurabili dall\'utente</string>
+    <string name="doze_pulse_duration_in_title">Dissolvenza in entrata</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">Durata visibilità</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">Dissolvenza in uscita</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_trigger_pickup_title">Attivazione gesto sollevamento</string>
+    <string name="doze_trigger_pickup_summary_on">Pulse sarà attivato dagli eventi del sensore di sollevamento</string>
+    <string name="doze_trigger_pickup_summary_off">Il sensore di sollevamento non sarà utilizzato come un meccanismo di attivazione</string>
+    <string name="doze_trigger_notification_title">Attivazione notifica</string>
+    <string name="doze_trigger_notification_summary_on">Pulse verrà attivato dalle notifiche</string>
+    <string name="doze_trigger_notification_summary_off">Le notifiche non saranno utilizzate come attivazione</string>
+    <string name="doze_brightness_level_title">Livello di luminosità</string>
+    <string name="onehundred_ms">100 ms</string>
+    <string name="twofifty_ms">250 ms</string>
+    <string name="fivehundred_ms_default">500 ms (predefinito)</string>
+    <string name="sevenfifty_ms">750 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second_default">3 s (predefinito)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+    <string name="doze_notification_color_invert_title">Inversione di notifica</string>
+    <string name="doze_notification_color_invert_summary_off">Le notifiche non saranno invertite. Usa per temi scuri.</string>
+    <string name="doze_notification_color_invert_summary_on">Le notifiche saranno invertite. Uso per temi luminosi/Stock.</string>
+
+    <!-- Double tap for doze -->
+    <string name="double_tap_wake_doze_title">Doppio tocco per riattivare doze</string>
+    <string name="double_tap_wake_doze_summary">Richiede un doppio tocco sullo schermo per riattivare il dispositivo da doze</string>
 </resources>
