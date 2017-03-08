@@ -268,4 +268,12 @@
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
   <string name="screenshot_sound_summary">Reproducir un sonido cuando se toma una captura de pantalla</string>
+  <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Brillo</string>
+  <string name="night_brightness_value_title">Brillo de luz nocturna</string>
+  <string name="night_brightness_text">Cuando la luz nocturna está activada, automaticamente se cambiara el brillo. Por defecto el brillo es minimo</string>
+  <string name="night_bright_disabled">Desactivado</string>
+  <string name="night_bright_min">Brillo minimo</string>
+  <string name="night_bright_low">Brillo bajo</string>
+  <string name="night_bright_medium">Brillo medio</string>
 </resources>
