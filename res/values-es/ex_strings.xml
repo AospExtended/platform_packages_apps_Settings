@@ -111,5 +111,44 @@
   <string name="magisk_summary">Acceso root</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Acceso root</string>
-  <string name="rootmanagement_dashboard_summary">Controlar el acceso root</string>   
+  <string name="rootmanagement_dashboard_summary">Controlar el acceso root</string> 
+  <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Doble toque para despertar en pantalla ambiente</string>
+  <string name="double_tap_wake_doze_summary">Requerir un doble toque para encender la pantalla en la pantalla ambiente</string>
+  <!-- Doze pulse options -->
+  <string name="doze_settings">Opciones de la pantalla ambiente</string>
+  <string name="summary_doze_enabled">Activada</string>
+  <string name="summary_doze_disabled">Desactivada</string>  
+  <string name="doze_overwrite_value_title">Sobreescribir por defecto</string> 
+  <string name="doze_overwrite_value_summary">Permitir el uso de las opciones definidas por el usuario</string>
+  <string name="doze_pulse_title">Opciones configurables por el usuario</string>
+  <string name="doze_pulse_duration_in_title">Mostar</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_title">Duración de visibilidad</string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_title">Ocultar</string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <string name="doze_trigger_pickup_title">Mostrar al levantar el dispositivo</string>
+  <string name="doze_trigger_pickup_summary_on">Se mostrará la pantalla ambiente al levantar el dispositivo</string>
+  <string name="doze_trigger_pickup_summary_off">Levantar el dispositivo no mostrará la pantalla ambiente</string>
+  <string name="doze_trigger_notification_title">Mostrar al recibir notificaciones</string>
+  <string name="doze_trigger_notification_summary_on">Se mostrará la pantalla ambiente al recibir notificaciones</string>
+  <string name="doze_trigger_notification_summary_off">Las notificaciones no mostrarán la pantalla ambiente</string>
+  <string name="doze_brightness_level_title">Nivel de brillo</string>
+  <string name="onehundred_ms">100 ms</string>
+  <string name="twofifty_ms">250 ms</string>
+  <string name="fivehundred_ms_default">500 ms (por defecto)</string>
+  <string name="sevenfifty_ms">750 ms</string>
+  <string name="one_second">1 s</string>
+  <string name="onehalf_second">1.5 s</string>
+  <string name="two_second">2 s</string>
+  <string name="twohalf_second">2.5 s</string>
+  <string name="three_second_default">3 s (por defecto)</string>
+  <string name="threehalf_second">3.5 s</string>
+  <string name="four_second">4 s</string>
+  <string name="fourhalf_second">4.5 s</string>
+  <string name="five_second">5 s</string>
+  <string name="doze_notification_color_invert_title">Notificaciones invertidas</string>
+  <string name="doze_notification_color_invert_summary_off">El color de las notificaciones no será invertido. Usar para temas oscuros.</string>
+  <string name="doze_notification_color_invert_summary_on">el color de las notificaciones será invertido. Usar para temas brillantes/stock.</string>   
 </resources>
