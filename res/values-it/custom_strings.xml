@@ -271,4 +271,12 @@
     <string name="screenshot_sound_title">Suono screenshot</string>
     <string name="screenshot_sound_summary">Riproduci un effetto sonoro quando si scatta uno screenshot</string>
 
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Luminosità</string>
+    <string name="night_brightness_value_title">Luminosità luce notturna</string>
+    <string name="night_brightness_text">Quando la luce notturna è attivata automaticamente verrà impostata la luminosità desiderata. La luminosità predefinita è impostata su luminosità bassa</string>
+    <string name="night_bright_disabled">Disabilitato</string>
+    <string name="night_bright_min">Luminosità minima</string>
+    <string name="night_bright_low">Luminosità bassa</string>
+    <string name="night_bright_medium">Luminosità media</string>
 </resources>
