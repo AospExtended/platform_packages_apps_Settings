@@ -131,6 +131,48 @@
   <string name="data_usage_app_restrict_all_wifi_title">Desabilitar todos os acessos de dados via Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <string name="data_usage_app_restrict_all_wifi_summary">Evitar qualquer acesso a dados através de redes Wi\u2011Fi</string>
+     
+  <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Resetar estatísticas</string>
+  <string name="battery_stats_message">Os históricos e estatísticas da bateria serão reiniciados</string>
+  <string name="ok_string">Ok</string>
+
+  <!-- Doze pulse options -->
+  <string name="doze_settings">Exibição de ambiente</string>
+  <string name="summary_doze_enabled">Habilitado</string>
+  <string name="summary_doze_disabled">Desligado</string>
+  <string name="doze_overwrite_value_title">Substituir os padrões</string>
+  <string name="doze_overwrite_value_summary">Permite a substituição do valor padrão pela configuração do usuário</string>
+  <string name="doze_pulse_title">Ajuste de configurações de usuário</string>
+  <string name="doze_pulse_duration_in_title">Desvanecer</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_title">Duração visível</string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_title">Esmaecer</string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <string name="doze_trigger_pickup_title">Ativação do gesto de pegar o dispositivo</string>
+  <string name="doze_trigger_pickup_summary_on">As pulsações irão ser acionadas pelos sensores de movimento</string>
+  <string name="doze_trigger_pickup_summary_off">O gesto de pegar o dispositivo não será utilizado como mecanismo de ativação</string>
+  <string name="doze_trigger_notification_title">Gatilho de notificação</string>
+  <string name="doze_trigger_notification_summary_on">As pulsações serão acionadas por notificações</string>
+  <string name="doze_trigger_notification_summary_off">As notificações não serão utilizadas como mecanismo acionador</string>
+  <string name="doze_brightness_level_title">Nível de brilho</string>
+  <string name="onehundred_ms">100 ms</string>
+  <string name="twofifty_ms">250 ms</string>
+  <string name="fivehundred_ms_default">500 ms (padrão)</string>
+  <string name="sevenfifty_ms">750 ms</string>
+  <string name="one_second">1 s</string>
+  <string name="onehalf_second">1.5 s</string>
+  <string name="two_second">2 s</string>
+  <string name="twohalf_second">2.5 s</string>
+  <string name="three_second_default">3 s (padrão)</string>
+  <string name="threehalf_second">3.5 s</string>
+  <string name="four_second">4 s</string>
+  <string name="fourhalf_second">4.5 s</string>
+  <string name="five_second">5 s</string>
+  <string name="doze_notification_color_invert_title">Inversão de cor</string>
+  <string name="doze_notification_color_invert_summary_off">Notificações do ambiente de exposição não irão ser invertidas. Use temas escuros.</string>
+  <string name="doze_notification_color_invert_summary_on">Notificações do ambiente de exposição não irão ser invertidas. Use temas claros/stock.</string>
   
   <!-- Double tap for doze -->
   <string name="double_tap_wake_doze_title">Duplo toque para acordar no modo doze</string>
