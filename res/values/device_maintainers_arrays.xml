@@ -43,6 +43,7 @@
 	<item>Vedant Kamlaskar</item>
 	<item>Devansh Bajaj</item>
 	<item>Alexander Gemsa</item>
+	<item>Keyvo97</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -73,6 +74,7 @@
 	<item>Xiaomi Redmi 1S(armani)</item> <!-- Maintainer: Vedant Kamlaskar -->
 	<item>Lenovo Vibe P1(p1a42)</item> <!-- Maintainer: Devansh Bajaj -->
 	<item>Samsung Galaxy S7 Flat/Edge, Galaxy TabS2 9.7 Wifi/Lte</item> <!-- Maintainer: Alexander Gemsa -->
+	<item>Moto MAXX (quark)</item> <!-- Maintainer: Keyvo97 -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -103,5 +105,6 @@
 	<item>http://forum.xda-developers.com/member.php?u=4333151</item> <!-- Maintainer: Vedant Kamlaskar -->
 	<item>https://forum.xda-developers.com/member.php?u=7119290</item> <!-- Maintainer: Devansh Bajaj -->
 	<item>https://forum.xda-developers.com/member.php?u=4873016</item> <!-- Maintainer: Alexander Gemsa -->
+	<item>https://forum.xda-developers.com/member.php?u=8045158</item> <!-- Maintainer: Keyvo97 -->
 	</string-array>
 </resources>
