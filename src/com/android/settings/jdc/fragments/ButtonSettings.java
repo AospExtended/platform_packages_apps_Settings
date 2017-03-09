@@ -52,6 +52,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_HOME_DOUBLE_TAP = "hardware_keys_home_double_tap";
     private static final String KEY_MENU_PRESS = "hardware_keys_menu_press";
     private static final String KEY_MENU_LONG_PRESS = "hardware_keys_menu_long_press";
+    private static final String KEY_ASSIST_PRESS = "hardware_keys_assist_press";
+    private static final String KEY_ASSIST_LONG_PRESS = "hardware_keys_assist_long_press";
     private static final String KEY_APP_SWITCH_PRESS = "hardware_keys_app_switch_press";
     private static final String KEY_APP_SWITCH_LONG_PRESS = "hardware_keys_app_switch_long_press";
 
@@ -75,8 +77,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final int ACTION_VOICE_SEARCH = 4;
     private static final int ACTION_IN_APP_SEARCH = 5;
     private static final int ACTION_LAUNCH_CAMERA = 6;
-    private static final int ACTION_LAST_APP = 7;
-    private static final int ACTION_SLEEP = 8;
+    private static final int ACTION_SLEEP = 7;
+    private static final int ACTION_LAST_APP = 8;
+    private static final int SPLIT_SCREEN = 9;
+    private static final int SINGLE_HAND_LEFT = 10;
+    private static final int SINGLE_HAND_RIGHT = 11;
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
