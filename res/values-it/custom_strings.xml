@@ -28,7 +28,7 @@
   <string name="app_ops_categories_location">Posizione</string>
   <string name="app_ops_categories_personal">Personale</string>
   <string name="app_ops_categories_messaging">Messaggistica</string>
-  <string name="app_ops_categories_media">Media</string>
+  <string name="app_ops_categories_media">Multimediale</string>
   <string name="app_ops_categories_device">Dispositivo</string>
   <string name="app_ops_categories_bootup">Avvio</string>
   <string name="app_ops_categories_su">Accesso root</string>
@@ -209,9 +209,9 @@
   <string name="remove_tile_summaries_title">Rimuovi descrizione dei tile</string>
   <string name="remove_tile_summaries_summary_enabled">Riepilogo pannello impostazioni sono abilitati</string>
   <string name="remove_tile_summaries_summary">Rimuovi la descrizione visualizzata sotto i tile</string>
-  <string name="dashboard_conditions_title">Stao pannello impostazioni</string>
-  <string name="summary_dashboard_conditions_enabled">Lo stato del pannello impostazioni sono abilitate</string>
-  <string name="summary_dashboard_conditions_disabled">Lo stato del pannello impostazioni sono disabilitate</string>
+  <string name="dashboard_conditions_title">Stato pannello impostazioni</string>
+  <string name="summary_dashboard_conditions_enabled">Lo stato del pannello impostazioni è abilitato</string>
+  <string name="summary_dashboard_conditions_disabled">Lo stato del pannello impostazioni è disabilitato</string>
   <string name="dashboard_columns_portrait_title">Colonne (verticale)</string>
   <string name="dashboard_columns_landscape_title">Colonne (orizzontale)</string>
     
@@ -236,7 +236,7 @@
    
     <!-- About AospExtended -->
     <string name="aex_about_info">Informazioni</string>
-    <string name="aex_about_info_summary">AospExtended è una rom basata su AOSP che fornisce uno stock UI/UX con varie caratteristiche di personalizzazioni come il tema engine Substratum. Il progetto è stato realizzato da cherry-picking e da altri vari progetti. Essendo basato su AOSP fornisce un\'esperienza fluida e senza lag fuori dal box. Cerchiamo costantemente di aggiungere ulteriori funzionalità e renderla ancora megliore nei futuri aggiornamenti.&#35;BeExtended</string>
+    <string name="aex_about_info_summary">AospExtended è una rom basata su AOSP e fornisce una UI/UX stock con varie caratteristiche di personalizzazioni come il tema engine Substratum. Il progetto è stato realizzato da cherry-picking e da altri vari progetti. Essendo basato su AOSP fornisce un\'esperienza fluida e senza lag fuori dal box. Cerchiamo costantemente di aggiungere ulteriori funzionalità e renderla ancora megliore nei futuri aggiornamenti.&#35;BeExtended</string>
     <string name="dev_info">Informazioni su AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Visualizza il nostro codice sorgente</string>
@@ -255,7 +255,7 @@
     <string name="team3_description">Moderatore Telegram/G+</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Sviluppatore Web, OTA Bringup</string>
-    <string name="designers">Progettista</string>
+    <string name="designers">Progettisti</string>
     <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
     <string name="designer1_description">Banner della discussione, loghi, sfondi</string>
     <string name="designer_2">Savio &#40;Wizper99&#41;</string>
