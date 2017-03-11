@@ -15,31 +15,31 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 <!-- About phone screen, Extended version -->
-    <string name="extended_version">Extended version</string>
+    <string name="extended_version">Extended-Version</string>
     <string name="extended_version_default">Unbekannt</string>
     <string name="extensions_title">Erweiterungen</string>
 
 <!-- AEX OTA -->
-    <string name="aex_ota_title">AEX Updates</string>
+    <string name="aex_ota_title">AEX-Updates</string>
     <string name="aex_ota_summary">Letztes Update laden</string>
 
 <!-- About phone screen, build date -->
-    <string name="build_date">Build Datum</string>
+    <string name="build_date">Build-Datum</string>
     <string name="build_date_default">2015-01-01-0000</string>
     
     <!-- Vendor version -->
-    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version">Vendor-Version</string>
     <string name="vendor_version_default">Unbekannt</string>
    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-   <string name="local_backup_password_title">Desktop backup Passwort</string>
+   <string name="local_backup_password_title">Desktopbackup Passwort</string>
 
     <!-- Volume Steps -->
      <string name="volume_steps_title">Lautstärke-Schritte</string>
      <string name="volume_steps_alarm_title">Lautstärkestufen: Wecker</string>
      <string name="volume_steps_dtmf_title">Lautstärkestufen: DTMF</string>
-     <string name="volume_steps_music_title">Volume steps: Music</string>
-     <string name="volume_steps_notification_title">Lautstärkestufen: Musik</string>
-     <string name="volume_steps_ring_title">Lautstärkestufen: Benachrichtigung</string>
+     <string name="volume_steps_music_title">Lautstärkestufen: Musik</string>
+     <string name="volume_steps_notification_title">Lautstärkestufen: Benachrichtigungen</string>
+     <string name="volume_steps_ring_title">Lautstärkestufen: Klingelton</string>
      <string name="volume_steps_system_title">Lautstärkestufen: System</string>
      <string name="volume_steps_voice_call_title">Lautstärkestufen: Anruf</string>
      <string name="volume_steps_reset">Zurücksetzen</string>
@@ -72,8 +72,8 @@
 
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Gleiche Lautstärke für Klingelton und Benachrichtigungen</string>
-    <string name="notification_volume_option_title">Benachrichtigungs-Lautstärke</string>
-    <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+    <string name="notification_volume_option_title">Benachrichtigungslautstärke</string>
+    <string name="ring_notification_volume_option_title">Klingel- und Benachrichtigungslautstärke</string>
 
     <!-- Camera sound -->
     <string name="camera_sounds_title">Kamera-Auslöserton</string>
@@ -81,19 +81,10 @@
     <!-- Custom tiles summary -->
     <string name="substratum_settings_summary">Theme engine</string>
     <!-- Root Management -->
-    <string name="rootmanagement_title">Root management</string>
-    <string name="rootmanagement_dashboard_summary">Manage root access</string>
+    <string name="rootmanagement_title">Rootzugriff</string>
+    <string name="rootmanagement_dashboard_summary">Verwalte Rootzugriff</string>
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
-
-    <!-- Advanced night mode tile -->
-    <string name="night_display_category_advanced">Erweitert</string>
-    <string name="qs_night_brightness_value_title">Automatic lower brightness</string>
-    <string name="qs_night_brightness_value_dialog">Automatically set low brightness value when enabling Night Light</string>
-    <string name="qs_night_bright_disabled">Don\'t change brightness</string>
-    <string name="qs_night_bright_less">Set low brightness</string>
-    <string name="qs_night_bright_medium">Set medium brightness</string>
-    <string name="qs_night_bright_min">Set minimum brightness</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
@@ -102,7 +93,7 @@
 
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Geringere Häufigkeit an Benachrichtigungstönen</string>
-    <string name="less_notification_sounds_summary">Die Benachrichtigungs-Töne jeder Anwendung nur einmal pro festgelegten Zeitraum wiedergeben</string>
+    <string name="less_notification_sounds_summary">Die Benachrichtigungstöne jeder Anwendung nur einmal pro festgelegtem Zeitraum wiedergeben</string>
     <string name="less_notification_sounds_default">Standardverhalten</string>
     <string name="less_notification_sounds_3s">3 Sekunden</string>
     <string name="less_notification_sounds_5s">5 Sekunden</string>
@@ -116,7 +107,7 @@
 
     <!-- Magisk Manager -->
     <string name="magisk_title">Magisk Manager</string>
-    <string name="magisk_summary">Root management</string>
+    <string name="magisk_summary"></string>
 
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
@@ -134,5 +125,50 @@
     <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_all_wifi_summary">Jegliche WLAN-Datenzugriffe verhindern</string>
 
-</resources>
+	 <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Setze Statistiken zurück</string>
+    <string name="battery_stats_message">Akkuverlauf wird zurückgesetzt</string>
+    <string name="ok_string">OK</string>
 
+    <!-- Doze pulse options -->
+    <string name="doze_settings">Doze-Einstellungen</string>
+    <string name="summary_doze_enabled">Aktiviert</string>
+    <string name="summary_doze_disabled">Deaktiviert</string>
+    <string name="doze_overwrite_value_title">Überschreibe Standardwerte</string>
+    <string name="doze_overwrite_value_summary">Erlaube das Überschreiben von Standardwerten, durch eine Benutzerconfig</string>
+    <string name="doze_pulse_title">Benutzerdefinierte Einstellungen</string>
+    <string name="doze_pulse_duration_in_title">Einblenden</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">Sichtbare Dauer</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">Ausblenden</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_trigger_pickup_title">Aufnehmen</string>
+    <string name="doze_trigger_pickup_summary_on">Doze wird beim Aufnehmen aktiviert</string>
+    <string name="doze_trigger_pickup_summary_off">Doze wird nicht beim Aufnehmen aktiviert</string>
+    <string name="doze_trigger_notification_title">Benachrichtigungsauslöser</string>
+    <string name="doze_trigger_notification_summary_on">Doze wird durch Benachrichtigungen ausgelöst</string>
+    <string name="doze_trigger_notification_summary_off">Doze wird nicht durch Benachrichtigungen ausgelöst</string>
+    <string name="doze_brightness_level_title">Helligkeitsstufe</string>
+    <string name="onehundred_ms">100 Millisekunden</string>
+    <string name="twofifty_ms">250 Millisekunden</string>
+    <string name="fivehundred_ms_default">500 Millisekunden (Standard)</string>
+    <string name="sevenfifty_ms">750 Millisekunden</string>
+    <string name="one_second">1 Sekunde</string>
+    <string name="onehalf_second">1.5 Sekunden</string>
+    <string name="two_second">2 Sekunden</string>
+    <string name="twohalf_second">2.5 Sekunden</string>
+    <string name="three_second_default">3 Sekunden (Standard)</string>
+    <string name="threehalf_second">3.5 Sekunden</string>
+    <string name="four_second">4 Sekunden</string>
+    <string name="fourhalf_second">4.5 Sekunden</string>
+    <string name="five_second">5 Sekunden</string>
+    <string name="doze_notification_color_invert_title">Benachrichtigungen umkehren</string>
+    <string name="doze_notification_color_invert_summary_off">Benachrichtigungen werden nicht umgekehrt. Bei dunklen Themes benutzen.</string>
+    <string name="doze_notification_color_invert_summary_on">Benachrichtigungen werden  umgekehrt. Bei hellen/stock Themes benutzen.</string>
+
+    <!-- Double tap for doze -->
+    <string name="double_tap_wake_doze_title">Zum Aktivieren tippen, bei Doze</string>
+    <string name="double_tap_wake_doze_summary">Macht einen Doppeltipp auf den Bildschirm nötig, um das Gerät zu aktivieren</string>
+
+</resources>

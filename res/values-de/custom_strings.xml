@@ -196,10 +196,10 @@
     <string name="app_ops_reset_confirm_mesg">Wollen Sie die Zähler wirklich zurücksetzen?</string>
 
     <!-- Privacy Guard -->
-    <string name="privacy_guard_manager_title">Privacy Guard</string>
+    <string name="privacy_guard_manager_title">Privatsphärenschutz</string>
 
     <!-- Memory -->
-    <string name="memory_startup_apps_title">Apps started on boot</string>
+    <string name="memory_startup_apps_title">Apps, die beim Start des Geräts gestartet werden</string>
 
     <!-- Dashboard options -->
     <string name="dashboard_category">Dashboard-Optionen</string>
@@ -216,61 +216,70 @@
     <string name="dashboard_columns_landscape_title">Spalten (Querformat)</string>
 
     <!-- Battery saver notification toggle -->
-    <string name="battery_saver_notif_title">Battery saver notification</string>
-    <string name="battery_saver_notif_summary">Show battery saver notification when enabled</string>
+    <string name="battery_saver_notif_title">Benachrichtigung für den Energiesparmodus</string>
+    <string name="battery_saver_notif_summary"></string>
     <!-- low battery notification toggle -->
-    <string name="battery_low_notif_title">Low battery notification</string>
-    <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
+    <string name="battery_low_notif_title">Benachrichtigung bei schwachen Akku</string>
+    <string name="battery_low_notif_summary"></string>
 
 <!-- Display Settings -->
     <!-- Rotation Modes  -->
     <string name="display_rotation_title">Rotation</string>
     <string name="display_rotation_disabled">Ausgeschaltet</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_unit">Grad</string>
+    <string name="display_lockscreen_rotation_title">Rotiere Sperrbildschirm</string>
+    <string name="display_rotation_category_title">Rotationsmodi</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
 
     <!-- About AospExtended -->
-    <string name="aex_about_info">About us</string>
-    <string name="aex_about_summary">Our introduction and our team</string>
-    <string name="aex_about_info_summary">AospExtended is an AOSP based rom which provides stock UI/UX with various customisations features along with the Substratum theme engine. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.&#35;BeExtended</string>
-    <string name="dev_info">About AospExtended</string>
+    <string name="aex_about_info">Über uns</string>
+    <string name="aex_about_summary">Unser Team und was wir machen</string>
+    <string name="aex_about_info_summary">AospExtended ist eine AOSP basierte Custom-Rom, welche die Stock UI/UX und dabei noch viele weitere Features, einschließlich der Substratum Theme Engine bietet. Das Projekt besteht größtenteils aus kleinen Teilen von anderen Projekten, die nun zusammen in eine Rom integriert wurden. Der Vorteil AOSP-basiert zu sein besteht darin, dass die Rom sehr performant und ohne Lags läuft. Wir werden in der Zunkunft weitere Features hinzufügen, um diese Rom weiter zu verbessern.&#35;BeExtended</string>
+    <string name="dev_info">Über AospExtended</string>
     <string name="github">Github</string>
-    <string name="github_description">View our source code</string>
+    <string name="github_description">Schau dir unseren Quellcode an!</string>
     <string name="gplus">Google+</string>
-    <string name="gplus_description">Join our G+ community</string>
+    <string name="gplus_description">Trete unserer G+ Community bei!</string>
     <string name="telegram">Telegram</string>
-    <string name="telegram_description">Join our Telegram discussion group</string>
-    <string name="telegram_description">Subscribe to our Telegram channel</string>
-    <string name="web">Download Center</string>
-    <string name="web_description">Visit our download portal</string>
-    <string name="leads">Team Leads</string>
+    <string name="telegram_description">Trete unserer Telegramgruppe bei!</string>
+    <string name="telegram_description"></string>
+    <string name="web">Downloads</string>
+    <string name="web_description">Besuche unsere Downloadseite!</string>
+    <string name="leads">Team-Führer</string>
     <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
-    <string name="team1_description">Owner/Lead Developer</string>
+    <string name="team1_description">Besitzer und führender Entwickler</string>
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
-    <string name="team2_description">Developer</string>
+    <string name="team2_description">Entwickler</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Telegram/G+ Moderator, Beginner and Amateur</string>
+    <string name="team3_description">Telegram/G+ Moderator, Anfänger</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
-    <string name="team4_description">Web Developer, OTA Bringup</string>
-    <string name="designers">Designers</string>
+    <string name="team4_description">Web-Entwickler und brachte OTA-Updates auf den Weg</string>
+    <string name="designers">Designer</string>
     <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
-    <string name="designer1_description">Thread Banners, Logos, Wallpapers</string>
+    <string name="designer1_description">Forumbanner, Logos, Hintergrundbilder</string>
     <string name="designer_2">Savio &#40;Wizper99&#41;</string>
-    <string name="designer2_description">QS/Fling logos</string>
+    <string name="designer2_description">QS/Fling Logos</string>
     <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-    <string name="designer3_description">Wallpapers, Bootanimations</string>
-    <string name="maintainers">Maintainers</string>
-    <string name="maintainer_description">Maintains for %1$s</string>
-    <string name="translators">Translators</string>
-    <string name="translator_description">Translates to %1$s</string>
+    <string name="designer3_description">Hintergrundbilder, Bootanimation</string>
+    <string name="maintainers">Versorger</string>
+    <string name="maintainer_description">Versorgt das %1$s</string>
+    <string name="translators">Übersetzer</string>
+    <string name="translator_description">Übersetzt %1$s</string>
 
 <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Bildschirfoto-Ton</string>
-    <string name="screenshot_sound_summary">spielt einen Ton ab sobal ein Bildschrimfoto aufegenommen wurde</string>
+    <string name="screenshot_sound_summary">Spielt einen Ton ab, sobal ein Bildschrimfoto aufegenommen wurde</string>
 
+	    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Helligkeit</string>
+    <string name="night_brightness_value_title">Helligkeit bei Nachtlicht</string>
+    <string name="night_brightness_text">Wenn Nachtlicht aktiviert ist, wird automatisch die gewählte Option aktiviert.</string>
+    <string name="night_bright_disabled">Deaktiviert</string>
+    <string name="night_bright_min">Minimale Helligkeit</string>
+    <string name="night_bright_low">Niedrige Helligkeit</string>
+    <string name="night_bright_medium">Mittlere Helligkeit</string>
+	
 </resources>
