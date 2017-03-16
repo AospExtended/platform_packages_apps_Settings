@@ -45,6 +45,7 @@
 	<item>Alexander Gemsa</item>
 	<item>Keyvo97</item>
 	<item>EsromG5</item>
+	<item>YoDevil</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -77,6 +78,7 @@
 	<item>Samsung Galaxy S7 Flat/Edge, Galaxy TabS2 9.7 Wifi/Lte</item> <!-- Maintainer: Alexander Gemsa -->
 	<item>Moto MAXX (quark)</item> <!-- Maintainer: Keyvo97 -->
 	<item>Samsung Galaxy J5</item> <!-- Maintainer: EsromG5 -->
+	<item>LG G2 (D802)</item> <!-- Maintainer: YoDevil -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -109,5 +111,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=4873016</item> <!-- Maintainer: Alexander Gemsa -->
 	<item>https://forum.xda-developers.com/member.php?u=8045158</item> <!-- Maintainer: Keyvo97 -->
 	<item>https://forum.xda-developers.com/member.php?u=4730968</item> <!-- Maintainer: EsromG5 -->
+	<item>https://forum.xda-developers.com/member.php?u=4742143</item> <!-- Maintainer: YoDevil -->
 	</string-array>
 </resources>
