@@ -21,7 +21,7 @@
      
     <!-- AEX OTA -->
     <string name="aex_ota_title">Aggiornamento AEX</string>
-    <string name="aex_ota_summary">Otteni la build più recente</string>
+    <string name="aex_ota_summary">Otteni l\'aggiornamento più recente</string>
      
     <!-- About phone screen, build date -->
     <string name="build_date">Data build</string>
@@ -76,7 +76,7 @@
     <string name="substratum_settings_summary">Tema engine</string>
     <!-- Root Management -->
     <string name="rootmanagement_title">Gestione root</string>
-    <string name="rootmanagement_dashboard_summary">Gestione acccesso root</string>
+    <string name="rootmanagement_dashboard_summary">Gestione accesso root</string>
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
      
@@ -172,6 +172,6 @@
     <string name="doze_notification_color_invert_summary_on">Le notifiche saranno invertite. Uso per temi luminosi/Stock.</string>
 
     <!-- Double tap for doze -->
-    <string name="double_tap_wake_doze_title">Doppio tocco per riattivare doze</string>
-    <string name="double_tap_wake_doze_summary">Richiede un doppio tocco sullo schermo per riattivare il dispositivo da doze</string>
+    <string name="double_tap_wake_doze_title">Doppio tocco per riattivare</string>
+    <string name="double_tap_wake_doze_summary">Richiede un doppio tocco sullo schermo per riattivare il dispositivo</string>
 </resources>
