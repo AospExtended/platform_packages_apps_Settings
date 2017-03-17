@@ -22,8 +22,6 @@
 -keep class com.android.settings.display.*FragmentForSetupWizard
 -keep class com.android.settings.display.NightDisplaySettings
 -keep class com.android.settings.preference.*
--keep class com.android.settings.cyanogenmod*
--keep class com.android.settings.jdc.*
 
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
