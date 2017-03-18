@@ -106,7 +106,4 @@
         <item>@string/security_settings_fingerprint_sensor_location_right</item>
     </string-array>
 
-=======
-    
->>>>>>> parent of 13ad99f... Settings: removed JDCSettings
 </resources> 
