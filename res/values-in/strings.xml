@@ -1809,7 +1809,7 @@
     <string name="print_service_disabled" msgid="7739452396114245222">"Layanan dinonaktifkan"</string>
     <string name="print_print_jobs" msgid="3582094777756968793">"Tugas pencetakan"</string>
     <string name="print_print_job" msgid="7563741676053287211">"Tugas pencetakan"</string>
-    <string name="print_restart" msgid="8373999687329384202">"Mulai Ulang"</string>
+    <string name="print_restart" msgid="8373999687329384202">"Mulai ulang"</string>
     <string name="print_cancel" msgid="3621199386568672235">"Batal"</string>
     <string name="print_job_summary" msgid="8472427347192930694">"<xliff:g id="PRINTER">%1$s</xliff:g>\n<xliff:g id="TIME">%2$s</xliff:g>"</string>
     <string name="print_printing_state_title_template" msgid="5736107667714582025">"Mencetak <xliff:g id="PRINT_JOB_NAME">%1$s</xliff:g>"</string>
