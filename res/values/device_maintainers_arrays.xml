@@ -46,6 +46,7 @@
 	<item>Keyvo97</item>
 	<item>EsromG5</item>
 	<item>YoDevil</item>
+        <item>Prasoon Mehra (phantom-1402)</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -79,6 +80,7 @@
 	<item>Moto MAXX (quark)</item> <!-- Maintainer: Keyvo97 -->
 	<item>Samsung Galaxy J5</item> <!-- Maintainer: EsromG5 -->
 	<item>LG G2 (D802)</item> <!-- Maintainer: YoDevil -->
+	<item>Redmi 3S/3X (land) </item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->     
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -112,5 +114,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=8045158</item> <!-- Maintainer: Keyvo97 -->
 	<item>https://forum.xda-developers.com/member.php?u=4730968</item> <!-- Maintainer: EsromG5 -->
 	<item>https://forum.xda-developers.com/member.php?u=4742143</item> <!-- Maintainer: YoDevil -->
+	<item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->    
 	</string-array>
 </resources>
