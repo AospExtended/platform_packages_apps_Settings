@@ -30,6 +30,7 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
+import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
@@ -53,6 +54,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
+
+import com.android.internal.util.du.DuUtils;
 
 public class DeviceInfoSettings extends SettingsPreferenceFragment implements Indexable {
 
@@ -82,8 +85,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EXTENDED_VERSION = "extended_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
+    private static final String KEY_AEXOTA_PACKAGE_NAME = "com.aospextended.ota";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
+    
+    private PreferenceScreen mAexOta;
 
     long[] mHits = new long[3];
     int mDevHitCountdown;
@@ -115,6 +121,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         setStringSummary(KEY_FIRMWARE_VERSION, Build.VERSION.RELEASE);
         findPreference(KEY_FIRMWARE_VERSION).setEnabled(true);
+        
+        final PreferenceScreen prefScreen = getPreferenceScreen();
 
         final String patch = DeviceInfoUtils.getSecurityPatch();
         if (!TextUtils.isEmpty(patch)) {
@@ -136,6 +144,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_EQUIPMENT_ID, PROPERTY_EQUIPMENT_ID);
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
         setStringSummary(KEY_BUILD_NUMBER, Build.ID);
+        // Remove AEXOTA if releasetype is not official
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         String buildtype = SystemProperties.get("ro.extended.releasetype","unofficial");
         if (!buildtype.equalsIgnoreCase("official")) {
@@ -162,6 +171,12 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         } else if (!SELinux.isSELinuxEnforced()) {
             String status = getResources().getString(R.string.selinux_status_permissive);
             setStringSummary(KEY_SELINUX_STATUS, status);
+        }
+        
+        // Remove AEXOTA if package is not found
+        mAexOta = (PreferenceScreen) findPreference(KEY_AEX_OTA);
+        if (!DuUtils.isPackageInstalled(getActivity(), KEY_AEXOTA_PACKAGE_NAME)) {
+            prefScreen.removePreference(mAexOta);
         }
 
         // Remove selinux information if property is not present
