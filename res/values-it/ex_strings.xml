@@ -174,4 +174,81 @@
     <!-- Double tap for doze -->
     <string name="double_tap_wake_doze_title">Doppio tocco per riattivare</string>
     <string name="double_tap_wake_doze_summary">Richiede un doppio tocco sullo schermo per riattivare il dispositivo</string>
+     
+     <!-- App Ops Settings -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">App ops</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">Opzioni avanzate per app</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Posizione</string>
+    <string name="app_ops_cat_personal">Personale</string>
+    <string name="app_ops_cat_messaging">Messaggistica</string>
+    <string name="app_ops_cat_media">Multimediale</string>
+    <string name="app_ops_cat_device">Dispositivo</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">camera</string>
+    <string name="app_ops_access_location">posizione</string>
+    <string name="app_ops_access_notifications">notifiche</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">avvio automatico</string>
+    <string name="app_ops_delete_call_log">elimina registro chiamate</string>
+    <string name="app_ops_delete_contacts">elimina contatti</string>
+    <string name="app_ops_delete_mms">elimina MMS</string>
+    <string name="app_ops_delete_sms">elimina SMS</string>
+    <string name="app_ops_draw_on_top">disegna sulla parte superiore</string>
+    <string name="app_ops_get_usage_stats">otteni le statistiche di utilizzo</string>
+    <string name="app_ops_keep_device_awake">tieni sveglio</string>
+    <string name="app_ops_make_phone_call">fai una chiamata</string>
+    <string name="app_ops_modify_calendar">aggiornamento del calendario</string>
+    <string name="app_ops_modify_call_log">aggiornamento registro chiamate</string>
+    <string name="app_ops_modify_clipboard">modifica appunti</string>
+    <string name="app_ops_modify_contacts">aggiornamento contatti</string>
+    <string name="app_ops_modify_settings">aggiornamento impostazioni</string>
+    <string name="app_ops_mute_unmute_microphone">muto/non muto</string>
+    <string name="app_ops_play_audio">play audio</string>
+    <string name="app_ops_post_notification">posticipa notifica</string>
+    <string name="app_ops_project_media">progetto multimediale</string>
+    <string name="app_ops_read_calendar">leggi calendario</string>
+    <string name="app_ops_read_call_log">leggi registro chiamate</string>
+    <string name="app_ops_read_clipboard">leggi appunti</string>
+    <string name="app_ops_read_contacts">leggi contatti</string>
+    <string name="app_ops_read_mms">leggi MMS</string>
+    <string name="app_ops_read_sms">leggi SMS</string>
+    <string name="app_ops_receive_sms">ricevere SMS</string>
+    <string name="app_ops_record_audio">registra audio</string>
+    <string name="app_ops_send_mms">invia MMS</string>
+    <string name="app_ops_send_sms">invia SMS</string>
+    <string name="app_ops_toast_window">messaggi toast</string>
+    <string name="app_ops_use_alarm_volume">volume allarmi</string>
+    <string name="app_ops_use_audio_focus">audio focus</string>
+    <string name="app_ops_use_bluetooth_volume">volume Bluetooth</string>
+    <string name="app_ops_use_master_volume">volume master</string>
+    <string name="app_ops_use_media_buttons">pulsanti multimediali</string>
+    <string name="app_ops_use_media_volume">volume multimediale</string>
+    <string name="app_ops_use_notification_volume">volume notifica</string>
+    <string name="app_ops_use_ring_volume">volume suoneria</string>
+    <string name="app_ops_use_vibrate">feedback tattile</string>
+    <string name="app_ops_use_voice_volume">volume chiamata vocale</string>
+    <string name="app_ops_write_mms">scrivi MMS</string>
+    <string name="app_ops_write_sms">scrivi SMS</string>
+    <string name="app_ops_use_fingerprint">impronta digitale</string>
+    <string name="app_ops_add_voicemail">segreteria telefonica</string>
+    <string name="app_ops_read_phone_state">accesso stato telefono</string>
+    <string name="app_ops_scan_wifi">scansione reti WiFi</string>
+    <string name="app_ops_change_wallpaper">cambia sfondo</string>
+    <string name="app_ops_assist_structure">assiste struttura</string>
+    <string name="app_ops_assist_screenshot">screenshot</string>
+    <string name="app_ops_use_body_sensors">sensori corporei</string>
+    <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
+    <string name="app_ops_mock_location">simulazione posizione</string>
+    <string name="app_ops_read_external_storage">leggi ext. stor.</string>
+    <string name="app_ops_write_external_storage">scrivi ext. stor.</string>
+    <string name="app_ops_turn_on_screen">attiva schermata</string>
+    <string name="app_ops_get_accounts">account dispositivo</string>
+    <string name="app_ops_run_in_background">eseguito in background</string>
+
 </resources>
