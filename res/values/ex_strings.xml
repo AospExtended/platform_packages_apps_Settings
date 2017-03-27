@@ -247,5 +247,8 @@
     <string name="app_ops_get_accounts">device accounts</string>
     <string name="app_ops_run_in_background">run in background</string>
 
+    <string name="ambient_display_show_battery_title">Battery Status</string>
+    <string name="ambient_display_show_battery_summary">Show battery indicator during pulse</string>
+
 </resources>
 
