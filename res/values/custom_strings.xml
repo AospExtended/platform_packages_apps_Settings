@@ -71,6 +71,8 @@
     <string name="telegram_description">Subscribe to our Telegram channel</string>
     <string name="web">Download Center</string>
     <string name="web_description">Visit our download portal</string>
+    <string name="walls">Wallpapers</string>
+    <string name="walls_description">Get wallpapers contributed by various users</string>
     <string name="leads">Team Leads</string>
     <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
     <string name="team1_description">Owner/Lead Developer</string>

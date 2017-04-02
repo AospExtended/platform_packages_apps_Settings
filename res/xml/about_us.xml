@@ -63,6 +63,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="http://downloads.aospextended.com/" />
         </PreferenceScreen>
 
+        <PreferenceScreen
+            android:title="@string/walls"
+    android:summary="@string/walls_description"
+    android:icon="@drawable/ic_walls" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://aospextended.imgur.com/" />
+        </PreferenceScreen>
+
      </PreferenceCategory>
 
 <PreferenceCategory
