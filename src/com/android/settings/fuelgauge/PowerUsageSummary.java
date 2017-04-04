@@ -29,6 +29,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.Process;
 import android.os.UserHandle;
+import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
 import android.support.v14.preference.SwitchPreference;
@@ -48,6 +49,7 @@ import com.android.settings.Settings.HighPowerApplicationsActivity;
 import com.android.settings.SettingsActivity;
 import com.android.settings.applications.ManageApplications;
 import com.android.settings.dashboard.SummaryLoader;
+import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.BatteryInfo;
 
 import java.util.ArrayList;
@@ -76,7 +78,9 @@ public class PowerUsageSummary extends PowerUsageBase {
     private static final int MENU_STATS_RESET = Menu.FIRST + 2;
     private static final int MENU_BATTERY_SAVER = Menu.FIRST + 3;
     private static final int MENU_HIGH_POWER_APPS = Menu.FIRST + 4;
-    private static final int MENU_HELP = Menu.FIRST + 5;
+    @VisibleForTesting
+    static final int MENU_ADDITIONAL_BATTERY_INFO = Menu.FIRST + 5;
+    private static final int MENU_HELP = Menu.FIRST + 6;
 
     private BatteryHistoryPreference mHistPref;
     private PreferenceGroup mAppListGroup;
@@ -149,7 +153,7 @@ public class PowerUsageSummary extends PowerUsageBase {
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         if (DEBUG) {
-            menu.add(0, MENU_STATS_TYPE, 0, R.string.menu_stats_total)
+            menu.add(Menu.NONE, MENU_STATS_TYPE, Menu.NONE, R.string.menu_stats_total)
                     .setIcon(com.android.internal.R.drawable.ic_menu_info_details)
                     .setAlphabeticShortcut('t');
         }
@@ -162,7 +166,15 @@ public class PowerUsageSummary extends PowerUsageBase {
         MenuItem batterySaver = menu.add(0, MENU_BATTERY_SAVER, 0, R.string.battery_saver);
         batterySaver.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
 
-        menu.add(0, MENU_HIGH_POWER_APPS, 0, R.string.high_power_apps);
+        menu.add(Menu.NONE, MENU_HIGH_POWER_APPS, Menu.NONE, R.string.high_power_apps);
+
+        PowerUsageFeatureProvider powerUsageFeatureProvider =
+                FeatureFactory.getFactory(getContext()).getPowerUsageFeatureProvider(getContext());
+        if (powerUsageFeatureProvider != null &&
+                powerUsageFeatureProvider.isAdditionalBatteryInfoEnabled()) {
+            menu.add(Menu.NONE, MENU_ADDITIONAL_BATTERY_INFO,
+                    Menu.NONE, R.string.additional_battery_info);
+        }
         super.onCreateOptionsMenu(menu, inflater);
     }
 
@@ -213,6 +225,11 @@ public class PowerUsageSummary extends PowerUsageBase {
                         HighPowerApplicationsActivity.class.getName());
                 sa.startPreferencePanel(ManageApplications.class.getName(), args,
                         R.string.high_power_apps, null, null, 0);
+                return true;
+            case MENU_ADDITIONAL_BATTERY_INFO:
+                startActivity(FeatureFactory.getFactory(getContext())
+                        .getPowerUsageFeatureProvider(getContext())
+                        .getAdditionalBatteryInfoIntent());
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
