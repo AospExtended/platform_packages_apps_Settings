@@ -101,4 +101,8 @@
     <string name="night_bright_min">Luminosità minima</string>
     <string name="night_bright_low">Luminosità bassa</string>
     <string name="night_bright_medium">Luminosità media</string>
+    
+    <!-- setting: show CPU info-->
+    <string name="show_cpu_info">Mostra info CPU</string>
+    <string name="show_cpu_info_summary">Sovrapposizione dello schermo mostrando l\'attuale info della CPU</string>
 </resources>
