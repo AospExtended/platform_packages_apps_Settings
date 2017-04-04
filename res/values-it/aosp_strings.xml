@@ -71,4 +71,11 @@
     <string name="sub_activate_failed">Attivazione fallita.</string>
     <string name="sub_deactivate_success">SIM disattivata.</string>
     <string name="sub_deactivate_failed">Disattivazione fallita.</string>
+	
+    <!-- Wi-Fi region code -->
+    <string name="wifi_setting_countrycode_title">Wi\u2011Fi codice di regione</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">Specificare il codice regionale per Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">C\'era un problema di impostazione del codice di regione.</string>
 </resources>
