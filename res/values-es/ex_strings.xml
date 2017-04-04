@@ -150,5 +150,19 @@
   <string name="five_second">5 s</string>
   <string name="doze_notification_color_invert_title">Notificaciones invertidas</string>
   <string name="doze_notification_color_invert_summary_off">El color de las notificaciones no será invertido. Usar para temas oscuros.</string>
-  <string name="doze_notification_color_invert_summary_on">el color de las notificaciones será invertido. Usar para temas brillantes/stock.</string>   
+  <string name="doze_notification_color_invert_summary_on">el color de las notificaciones será invertido. Usar para temas brillantes/stock.</string>
+  <string name="ambient_display_show_battery_title">Estado de la batería</string>
+  <string name="ambient_display_show_battery_summary">Mostar el indicador de batería en pantalla ambiente</string>
+  <!-- App Ops Settings -->
+  <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">App ops</string>
+  <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">Ver o cambiar permisos de aplicaciones</string>   
+  <!-- setting: show CPU info-->
+  <string name="show_cpu_info">Mostrar información del CPU</string>
+  <string name="show_cpu_info_summary">Mostrando la información actual del CPU</string>   
+  <!-- Battery Saver Settings -->
+  <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Color de aviso</string>
+  <string name="battery_saver_color_summary">Mostrar el color rojo en la barra de estado y barra de navegación cuando el modo ahorro de batería está activado</string>   
 </resources>
