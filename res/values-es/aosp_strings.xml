@@ -48,4 +48,23 @@
     <string name="animation_scale_2x">Animación 2x</string>
     <string name="animation_scale_5x">Animación 5x</string>
     <string name="animation_scale_10x">Animación 10x</string>
+    
+    <string name="sim_enabler_summary">" está %1$s"</string>
+    <string name="sim_enabled">activada</string>
+    <string name="sim_disabled">desactivada</string>
+    <string name="sim_missing">no disponible o error</string>
+    <string name="sim_enabler_need_enable_sim">Activando tarjeta SIM, ¿está seguro?</string>
+    <string name="sim_enabler_need_disable_sim">Desactivando tarjeta SIM, ¿está seguro?</string>
+    <string name="sim_enabler_will_disable_sim_title">Atención</string>
+    <string name="sim_enabler_need_switch_data_service">Desactivará esta tarjeta SIM y se usará<xliff:g id="slotid">%1$s</xliff:g> para servicios móviles, ¿está seguro?</string>
+    <string name="sim_enabler_airplane_on">ERROR, modo avión está activado!</string>
+    <string name="sim_enabler_in_call">ERROR, en llamada!</string>
+    <string name="sim_enabler_both_inactive">"Error, no se pueden desactivar todas las tarjetas SIM"</string>
+    <string name="sim_enabler_enabling">Activando...</string>
+    <string name="sim_enabler_disabling">Deactivando...</string>
+    <string name="sub_activate_success">Activada correctamente.</string>
+    <string name="sub_activate_failed">Activación fallida.</string>
+    <string name="sub_deactivate_success">Desactivada correctamente.</string>
+    <string name="sub_deactivate_failed">Desactivación fallida.</string>
+    <string name="primary_sub_select_title">Suscripción 3G/4G por defecto</string>
 </resources>
