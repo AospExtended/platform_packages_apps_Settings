@@ -1594,8 +1594,8 @@
     <string name="runningservicedetails_stop_dlg_title" msgid="4253292537154337233">"Hentikan layanan sistem?"</string>
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="3371302398335665793">"Jika Anda menghentikan layanan ini, beberapa fitur tablet mungkin tidak bekerja dengan semestinya sampai Anda mematikan dan menghidupkannya lagi."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="3920243762189484756">"Jika Anda menghentikan layanan ini, beberapa fitur ponsel mungkin tidak bekerja dengan semestinya sampai Anda mematikan dan menyalakannya lagi."</string>
-    <string name="language_settings" msgid="8758655933029560944">"Bahasa &amp; masukan"</string>
-    <string name="language_keyboard_settings_title" msgid="3709159207482544398">"Bahasa &amp; masukan"</string>
+    <string name="language_settings" msgid="8758655933029560944">"Bahasa &amp; masukan"</string>
+    <string name="language_keyboard_settings_title" msgid="3709159207482544398">"Bahasa &amp; masukan"</string>
     <string name="keyboard_settings_category" msgid="8275523930352487827">"Keyboard &amp; metode masukan"</string>
     <string name="phone_language" msgid="7116581601133118044">"Bahasa"</string>
     <string name="phone_language_summary" msgid="3871309445655554211"></string>
@@ -1809,7 +1809,7 @@
     <string name="print_service_disabled" msgid="7739452396114245222">"Layanan dinonaktifkan"</string>
     <string name="print_print_jobs" msgid="3582094777756968793">"Tugas pencetakan"</string>
     <string name="print_print_job" msgid="7563741676053287211">"Tugas pencetakan"</string>
-    <string name="print_restart" msgid="8373999687329384202">"Mulai Ulang"</string>
+    <string name="print_restart" msgid="8373999687329384202">"Mulai ulang"</string>
     <string name="print_cancel" msgid="3621199386568672235">"Batal"</string>
     <string name="print_job_summary" msgid="8472427347192930694">"<xliff:g id="PRINTER">%1$s</xliff:g>\n<xliff:g id="TIME">%2$s</xliff:g>"</string>
     <string name="print_printing_state_title_template" msgid="5736107667714582025">"Mencetak <xliff:g id="PRINT_JOB_NAME">%1$s</xliff:g>"</string>
@@ -2809,7 +2809,7 @@
     <string name="notifications_redacted" msgid="4493588975742803160">"Konten sensitif jangan di layar kunci"</string>
     <string name="notifications_hidden" msgid="3619610536038757468">"Jangan di layar kunci"</string>
     <string name="notifications_priority" msgid="1066342037602085552">"Mode Jangan Ganggu diganti"</string>
-    <string name="notifications_summary_divider" msgid="9013807608804041387">" / "</string>
+    <string name="notifications_summary_divider" msgid="9013807608804041387">" / "</string>
     <string name="notification_summary_level" msgid="2726571692704140826">"Level %d"</string>
     <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
       <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> izin diberikan</item>
