@@ -107,8 +107,7 @@ public abstract class PowerUsageBase extends SettingsPreferenceFragment {
         MenuItem refresh = menu.add(0, MENU_STATS_REFRESH, 0, R.string.menu_stats_refresh)
                 .setIcon(com.android.internal.R.drawable.ic_menu_refresh)
                 .setAlphabeticShortcut('r');
-        refresh.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
-                MenuItem.SHOW_AS_ACTION_WITH_TEXT);
+        refresh.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
