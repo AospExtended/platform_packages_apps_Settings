@@ -19,7 +19,6 @@
     <string-array name="maintainers_title" translatable="false">
         <item>ishubhamsingh</item>
         <item>FireLord</item>
-        <item>Henrique Silva (jhenrique09)</item>
         <item>AmolAmrit</item>
         <item>Anderson Mendes</item>
         <item>Mahmod Ayyash(PS-DEV)</item>
@@ -53,7 +52,6 @@
     <string-array name="maintainers_devices" translatable="false">
         <item>Moto G 2015 (osprey), Moto G TE (merlin)</item> <!-- Maintainer: ishubhamsingh -->
         <item>Nexus 6P (angler)</item> <!-- Maintainer: FireLord -->
-        <item>Vibe K5 (A6020)</item> <!-- Maintainer: Henrique Silva (jhenrique09) -->
         <item>Redmi Note 3 (kenzo)</item> <!-- Maintainer: AmolAmrit -->
         <item>Moto X 2014 (victara), Moto E (condor)</item> <!-- Maintainer: Anderson Mendes -->
         <item>Wileyfox storn (kipper)</item> <!-- Maintainer: Mahmod Ayyash (PS-DEV) -->
@@ -87,7 +85,6 @@
     <string-array name="maintainers_url" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=5566914</item> <!-- Maintainer: ishubhamsingh -->
         <item>http://forum.xda-developers.com/member.php?u=6257538</item> <!-- Maintainer: FireLord -->
-        <item>http://forum.xda-developers.com/member.php?u=6519039</item> <!-- Maintainer: Henrique Silva (jhenrique09) -->
         <item>http://forum.xda-developers.com/member.php?u=5615686</item> <!-- Maintainer: AmolAmrit -->
         <item>http://forum.xda-developers.com/member.php?u=5696327</item> <!-- Maintainer: Anderson Mendes -->
 	<item>http://forum.xda-developers.com/member.php?u=6277086</item> <!-- Maintainer: Mahmod Ayyash (PS-DEV) -->
