@@ -276,4 +276,6 @@
   <string name="night_bright_min">Brillo minimo</string>
   <string name="night_bright_low">Brillo bajo</string>
   <string name="night_bright_medium">Brillo medio</string>
+  <string name="walls">Fondos de pantalla</string>
+  <string name="walls_description">Obtener fondos de pantalla de varios usuarios</string>
 </resources>
