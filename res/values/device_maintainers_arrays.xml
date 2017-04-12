@@ -46,6 +46,7 @@
 	<item>EsromG5</item>
 	<item>YoDevil</item>
         <item>Tirth Patel (thp@1997)</item>
+	<item>Mihir Kalra</item>
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -79,6 +80,7 @@
 	<item>Samsung Galaxy J5</item> <!-- Maintainer: EsromG5 -->
 	<item>LG G2 (D802)</item> <!-- Maintainer: YoDevil -->
         <item>Redmi Note 4 (mido)</item> <!-- Maintainer: Tirth Patel (thp@1997) -->
+	<item>Moto Z Play (addison)</item> <!-- Maintainer: Mihir Kalra -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -112,5 +114,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=4730968</item> <!-- Maintainer: EsromG5 -->
 	<item>https://forum.xda-developers.com/member.php?u=4742143</item> <!-- Maintainer: YoDevil -->
         <item>https://forum.xda-developers.com/member.php?u=7354828</item> <!-- Maintainer: Tirth Patel (thp@1997) -->
+	<item>https://forum.xda-developers.com/member.php?u=7318228</item> <!-- Maintainer: Mihir Kalra -->
 	</string-array>
 </resources>
