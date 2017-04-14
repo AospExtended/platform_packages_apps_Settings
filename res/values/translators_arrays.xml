@@ -20,6 +20,7 @@
         <item>jhenrique09</item>
         <item>KrapK</item>
         <item>entony80</item>
+        <item>Miyaku</item>
     </string-array>
 
     <!-- Languages -->
@@ -27,6 +28,7 @@
         <item>pt-BR</item>
         <item>es</item>
         <item>it</item>
+        <item>in</item>
     </string-array>
 
     <!-- Github/XDA profile URL of translator -->
@@ -34,5 +36,6 @@
         <item>http://forum.xda-developers.com/member.php?u=6519039</item>
         <item>http://plus.google.com/100866392291383803831</item>
         <item>http://github.com/entony80</item>
+        <item>https://miyaku.github.io</item>
     </string-array>
 </resources>
