@@ -46,8 +46,9 @@
 	<item>EsromG5</item>
 	<item>YoDevil</item>
         <item>Tirth Patel (thp@1997)</item>
-	<item>Mihir Kalra</item>
-     </string-array>
+     	<item>Mihir Kalra</item>
+        <item>Prakharluv</item>   
+  </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
@@ -81,6 +82,7 @@
 	<item>LG G2 (D802)</item> <!-- Maintainer: YoDevil -->
         <item>Redmi Note 4 (mido)</item> <!-- Maintainer: Tirth Patel (thp@1997) -->
 	<item>Moto Z Play (addison)</item> <!-- Maintainer: Mihir Kalra -->
+        <item>Asus ZenFone 2 Laser (Z00L)</item> <!-- Maintainer: Prakharluv -->
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -115,5 +117,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=4742143</item> <!-- Maintainer: YoDevil -->
         <item>https://forum.xda-developers.com/member.php?u=7354828</item> <!-- Maintainer: Tirth Patel (thp@1997) -->
 	<item>https://forum.xda-developers.com/member.php?u=7318228</item> <!-- Maintainer: Mihir Kalra -->
+        <item>https://forum.xda-developers.com/member.php?u=5783424</item> <!-- Maintainer: Prakharluv -->
 	</string-array>
 </resources>
