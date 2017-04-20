@@ -51,6 +51,7 @@
 	<item>Rygebin</item>
 	<item>Hassan Sardar (Has.007)</item>
 	<item>Mohan Cm (mohancm)</item>
+	<item>Allurba</item>    
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -89,6 +90,7 @@
         <item>Android One 3\'rd Device (shamrock)</item> 
 	<item>Samsung Galaxy Grand Prime</item> <!-- Maintainer: Hassan Sardar (Has.007) -->
 	<item>Lenovo Vibe K4 Note</item> <!-- Maintainer: Mohan Cm (mohancm) -->
+	<item>Huawei GX8</item> <!-- Maintainer: allurba -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -127,5 +129,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=6922118</item> <!-- Maintainer: Rygebin -->
 	<item>https://forum.xda-developers.com/member.php?u=6940293</item> <!-- Maintainer: Hassan Sardar (Has.007) -->
 	<item>https://forum.xda-developers.com/member.php?u=7471004</item> <!-- Maintainer: Mohan Cm (mohancm) -->
+	<item>https://forum.xda-developers.com/member.php?u=4387106</item> <!-- Maintainer: Allurba -->
 	</string-array>
 </resources>
