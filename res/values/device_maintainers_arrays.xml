@@ -52,6 +52,7 @@
 	<item>Incredible,EypCnn</item>
 	<item>Hassan Sardar (Has.007)</item>
 	<item>Mohan Cm (mohancm)</item>
+	<item>Allurba</item>    
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -91,6 +92,7 @@
   <item>Lenovo P2 (p2a42)</item> <!-- Maintainer: Incredible,EypCnn -->
 	<item>Samsung Galaxy Grand Prime</item> <!-- Maintainer: Hassan Sardar (Has.007) -->
 	<item>Lenovo Vibe K4 Note</item> <!-- Maintainer: Mohan Cm (mohancm) -->
+	<item>Huawei GX8</item> <!-- Maintainer: Allurba -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -130,5 +132,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=6810779</item> <!-- Maintainer: Incredible,EypCnn -->
 	<item>https://forum.xda-developers.com/member.php?u=6940293</item> <!-- Maintainer: Hassan Sardar (Has.007) -->
 	<item>https://forum.xda-developers.com/member.php?u=7471004</item> <!-- Maintainer: Mohan Cm (mohancm) -->
+	<item>https://forum.xda-developers.com/member.php?u=4387106</item> <!-- Maintainer: Allurba -->
 	</string-array>
 </resources>
