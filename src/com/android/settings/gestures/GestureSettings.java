@@ -41,6 +41,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.android.internal.util.du.DuUtils;
+import android.support.v7.preference.PreferenceScreen;
+
 /**
  * Top level fragment for gesture settings.
  * This will create individual switch preference for each gesture and handle updates when each
@@ -57,9 +60,18 @@ public class GestureSettings extends SettingsPreferenceFragment implements
     private static final String PREF_KEY_DOUBLE_TAP_SCREEN = "gesture_double_tap_screen";
     private static final String DEBUG_DOZE_COMPONENT = "debug.doze.component";
 
+    private static final String PREF_KEY_DEVICE_GESTURES = "device_gestures";
+    private static final String DEVICE_GESTURES_PACKAGE_NAME = "com.cyanogenmod.settings.device";
+
+    private static final String PREF_KEY_DEVICE_DOZE = "device_doze";
+    private static final String DEVICE_DOZE_PACKAGE_NAME = "com.cyanogenmod.settings.doze";
+
     private List<GesturePreference> mPreferences;
 
     private AmbientDisplayConfiguration mAmbientConfig;
+
+    private PreferenceScreen mDeviceDoze;
+    private PreferenceScreen mDeviceGestures;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -106,6 +118,16 @@ public class GestureSettings extends SettingsPreferenceFragment implements
             addPreference(PREF_KEY_DOUBLE_TWIST, doubleTwistEnabled != 0);
         } else {
             removePreference(PREF_KEY_DOUBLE_TWIST);
+        }
+
+        mDeviceGestures = (PreferenceScreen) findPreference(PREF_KEY_DEVICE_GESTURES);
+        if (!DuUtils.isAvailableApp(DEVICE_GESTURES_PACKAGE_NAME,context)) {
+            removePreference(PREF_KEY_DEVICE_GESTURES);
+        }
+
+        mDeviceDoze = (PreferenceScreen) findPreference(PREF_KEY_DEVICE_DOZE);
+        if (!DuUtils.isAvailableApp(DEVICE_DOZE_PACKAGE_NAME,context)) {
+            removePreference(PREF_KEY_DEVICE_DOZE);
         }
 
     }

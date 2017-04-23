@@ -54,4 +54,26 @@
         settings:animation="@raw/gesture_ambient_lift"
         settings:preview="@drawable/gesture_ambient_lift"/>
 
+    <PreferenceScreen
+        android:key="device_gestures"
+        android:icon="@drawable/ic_settings_gestures"
+        android:title="@string/device_gestures_title"
+        android:summary="@string/device_gestures_summary">
+        <intent
+            android:action="com.android.settings.action.EXTRA_SETTINGS"
+            android:targetPackage="com.cyanogenmod.settings.device"
+            android:targetClass="com.cyanogenmod.settings.device.TouchscreenGestureSettings" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="device_doze"
+        android:icon="@drawable/ic_settings_doze"
+        android:title="@string/device_doze_title"
+        android:summary="@string/device_doze_summary">
+        <intent
+            android:action="com.android.settings.action.EXTRA_SETTINGS"
+            android:targetPackage="com.cyanogenmod.settings.doze"
+            android:targetClass="com.cyanogenmod.settings.doze.DozeSettings" />
+    </PreferenceScreen>
+
 </PreferenceScreen>

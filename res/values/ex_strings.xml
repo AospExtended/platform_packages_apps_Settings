@@ -261,5 +261,10 @@
     <string name="restarting_ui">Restarting UI\u2026</string>
     <string name="print_restart">Restart</string>
 
+    <string name="device_gestures_title">Device gestures</string>
+    <string name="device_gestures_summary">Set up extra gestures for your device</string>
+
+    <string name="device_doze_title">Ambient display gestures</string>
+    <string name="device_doze_summary">Set up extra gestures for ambient display mode</string>
 </resources>
 
