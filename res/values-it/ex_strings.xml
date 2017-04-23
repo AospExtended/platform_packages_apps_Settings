@@ -24,7 +24,7 @@
     <string name="aex_ota_summary">Otteni l\'aggiornamento più recente</string>
      
     <!-- About phone screen, build date -->
-    <string name="build_date">Data build</string>
+    <string name="build_date">Data di costruzione</string>
     <string name="build_date_default">2015-01-01-0000</string>
     
     <!-- Vendor version -->
@@ -259,4 +259,7 @@
     <string name="battery_saver_color_title">Colore avviso</string>
     <string name="battery_saver_color_summary">Colora di rosso la barra di stato e di navigazione quando viene attivato il risparmio batteria</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevenire il risveglio accidentale</string>
+    <string name="proximity_wake_summary">Verifica il sensore di prossimità prima della riattivazione dello schermo</string>
 </resources>
