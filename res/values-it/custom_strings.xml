@@ -32,8 +32,8 @@
   <string name="remove_tile_summaries_summary_enabled">Riepilogo pannello impostazioni abilitati</string>
   <string name="remove_tile_summaries_summary_disabled">Riepilogo pannello impostazioni disabilitati</string>
   <string name="dashboard_conditions_title">Condizioni</string>
-  <string name="summary_dashboard_conditions_enabled">Le condizioni del pannello impostazioni sono abilitate</string>
-  <string name="summary_dashboard_conditions_disabled">Le condizioni del pannello configurazioni sono disabilitate</string>
+  <string name="summary_dashboard_conditions_enabled">Condizioni pannello impostazioni abilitati</string>
+  <string name="summary_dashboard_conditions_disabled">Condizioni pannello impostazioni disabilitati</string>
   <string name="dashboard_columns_portrait_title">Colonne (verticale)</string>
   <string name="dashboard_columns_landscape_title">Colonne (orizzontale)</string>
     
@@ -58,7 +58,8 @@
    
     <!-- About AospExtended -->
     <string name="aex_about_info">Informazioni</string>
-    <string name="aex_about_info_summary">AospExtended è una rom basata su AOSP e fornisce una UI/UX stock con varie caratteristiche di personalizzazioni come il tema engine Substratum. Il progetto è stato realizzato da cherry-picking e da altri vari progetti. Essendo basato su AOSP fornisce un\'esperienza fluida e senza lag fuori dal box. Cerchiamo costantemente di aggiungere ulteriori funzionalità e renderla ancora megliore nei futuri aggiornamenti.&#35;BeExtended</string>
+    <string name="aex_about_summary">La nostra introduzione e il nostro team</string>
+    <string name="aex_about_info_summary">AospExtended è una rom basata su AOSP e fornisce una UI/UX stock con varie caratteristiche di personalizzazioni come il tema engine Substratum. Il progetto è stato realizzato da cherry-picking e da altri vari progetti. Essendo basato su AOSP, fornisce un\'esperienza fluida e senza ritardi. Cerchiamo costantemente di aggiungere ulteriori funzionalità e renderla ancora megliore nei futuri aggiornamenti.&#35;BeExtended</string>
     <string name="dev_info">Informazioni su AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Visualizza il nostro codice sorgente</string>
@@ -66,8 +67,11 @@
     <string name="gplus_description">Unisciti alla nostra community su G+</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Unisciti al nostro gruppo di discussione su Telegram</string>
+    <string name="telegram_description">Iscriviti al nostro canale su Telegram</string>
     <string name="web">Centro download</string>
     <string name="web_description">Visita il nostro portale di download</string>
+    <string name="walls">Sfondi</string>
+    <string name="walls_description">Ottieni sfondi condivisi da vari utenti</string>
     <string name="leads">Responsabili del Team</string>
     <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
     <string name="team1_description">Proprietario/Responsabile Sviluppatore</string>
@@ -105,4 +109,33 @@
     <!-- setting: show CPU info-->
     <string name="show_cpu_info">Mostra info CPU</string>
     <string name="show_cpu_info_summary">Sovrapposizione dello schermo mostrando l\'attuale info della CPU</string>
+    
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene inserito il PIN corretto\nNota: funziona solo con PIN a 4 cifre!</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Riavvia SystemUI</string>
+
+    <string name="reset_wallpaper_notice">Sfondo predefinito ripristinato</string>
+
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Risveglio dispositivo</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando si collega o scollega ad una fonte di alimentazione</string>
+
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">Processore</string>
+    <string name="mem_info">Memoria</string>
+
+    <!-- Category title for Charging sounds -->
+    <string name="power_notifications_category_title">Suono di ricarica</string>
+    <string name="power_notifications_enable_title">Abilita</string>
+    <string name="power_notifications_enable_summary">Riproduci un suono quando si collega o scollega il caricabatterie</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibrazione</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Suono di notifica</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Silenzioso</string>
+    
 </resources>
