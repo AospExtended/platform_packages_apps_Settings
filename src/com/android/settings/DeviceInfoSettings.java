@@ -19,6 +19,9 @@ package com.android.settings;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.SELinux;
@@ -146,6 +149,20 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         if (!buildtype.equalsIgnoreCase("official")) {
         removePreference(KEY_AEX_OTA);
         }
+
+        //If user uninstalls AEXOTA remove preference
+
+        boolean supported = false;    
+        try {
+            supported = (getPackageManager().getPackageInfo("org.aospextended.ota", 0).versionCode >= 0);
+        } catch (NameNotFoundException e) {
+ 
+        } if (!supported) {
+            findPreference(KEY_AEX_OTA).setEnabled(false);    
+        } else {
+            findPreference(KEY_AEX_OTA).setEnabled(true);
+        }
+
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
