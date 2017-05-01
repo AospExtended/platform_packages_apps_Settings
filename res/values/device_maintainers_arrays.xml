@@ -54,6 +54,7 @@
 	<item>Mohan Cm (mohancm)</item>
 	<item>Allurba</item>
 	<item>Rohan Taneja</item>
+	<item>EypCnn, Kerem Erkaplan (hd)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -95,6 +96,7 @@
 	<item>Lenovo Vibe K4 Note</item> <!-- Maintainer: Mohan Cm (mohancm) -->
 	<item>Huawei GX8</item> <!-- Maintainer: Allurba -->
 	<item>Lenovo A7000-a</item> <!-- Maintainer: Rohan Taneja -->
+	<item>Android One 2\'rd Device (seed)</item> <!-- Maintainer: EypCnn, Kerem Erkaplan (hd) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -136,5 +138,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=7471004</item> <!-- Maintainer: Mohan Cm (mohancm) -->
 	<item>https://forum.xda-developers.com/member.php?u=4387106</item> <!-- Maintainer: Allurba -->
 	<item>https://forum.xda-developers.com/member.php?u=5138268</item> <!-- Maintainer: Rohan Taneja -->
+	<item>https://forum.xda-developers.com/member.php?u=7046303</item> <!-- Maintainer: EypCnn, Kerem Erkaplan (hd) -->
 	</string-array>
 </resources>
