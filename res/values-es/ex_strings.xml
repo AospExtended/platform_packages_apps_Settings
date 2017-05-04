@@ -183,7 +183,7 @@
 
     <!-- [CHAR LIMIT=NONE] App ops labels -->
     <string name="app_ops_access_camera">cámara</string>
-    <string name="app_ops_access_location">unicación</string>
+    <string name="app_ops_access_location">úbicación</string>
     <string name="app_ops_access_notifications">notificaciones</string>
     <string name="app_ops_activate_vpn">VPN</string>
     <string name="app_ops_auto_start">inicio automatico</string>
