@@ -115,9 +115,6 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN is entered\nNote: will only work for 4 digit PIN !</string>
 
-    <!-- Restart SystemUI -->
-    <string name="restart_systemui">Restart SystemUI</string>
-
     <string name="reset_wallpaper_notice">Default wallpaper restored</string>
 
     <!-- Wake on Plug -->
