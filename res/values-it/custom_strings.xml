@@ -114,9 +114,6 @@
     <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
     <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene inserito il PIN corretto\nNota: funziona solo con PIN a 4 cifre!</string>
 
-    <!-- Restart SystemUI -->
-    <string name="restart_systemui">Riavvia SystemUI</string>
-
     <string name="reset_wallpaper_notice">Sfondo predefinito ripristinato</string>
 
     <!-- Wake on Plug -->
