@@ -33,6 +33,7 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
+import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
@@ -54,6 +55,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import com.android.internal.util.du.DuUtils;
 
 import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 
@@ -89,6 +91,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EXTENDED_VERSION = "extended_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
+    private static final String KEY_AEXOTA_PACKAGE_NAME = "org.aospextended.ota";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -97,6 +100,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     Toast mDevHitToast;
 
     private UserManager mUm;
+    private PreferenceScreen mAexOta;
 
     private EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
@@ -123,6 +127,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_FIRMWARE_VERSION, Build.VERSION.RELEASE);
         findPreference(KEY_FIRMWARE_VERSION).setEnabled(true);
 
+       final PreferenceScreen prefScreen = getPreferenceScreen();
+
         final String patch = DeviceInfoUtils.getSecurityPatch();
         if (!TextUtils.isEmpty(patch)) {
             setStringSummary(KEY_SECURITY_PATCH, patch);
@@ -145,22 +151,17 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
         setStringSummary(KEY_BUILD_NUMBER, Build.ID);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
+        // Remove AEXOTA if releasetype is not official
         String buildtype = SystemProperties.get("ro.extended.releasetype","unofficial");
         if (!buildtype.equalsIgnoreCase("official")) {
         removePreference(KEY_AEX_OTA);
         }
 
         //If user uninstalls AEXOTA remove preference
-
-        boolean supported = false;    
-        try {
-            supported = (getPackageManager().getPackageInfo("org.aospextended.ota", 0).versionCode >= 0);
-        } catch (NameNotFoundException e) {
- 
-        } if (!supported) {
-            findPreference(KEY_AEX_OTA).setEnabled(false);    
-        } else {
-            findPreference(KEY_AEX_OTA).setEnabled(true);
+        // Remove AEXOTA if package is not found
+        mAexOta = (PreferenceScreen) findPreference(KEY_AEX_OTA);
+        if (!DuUtils.isPackageInstalled(getActivity(), KEY_AEXOTA_PACKAGE_NAME)) {
+            prefScreen.removePreference(mAexOta);
         }
 
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
