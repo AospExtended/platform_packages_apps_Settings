@@ -155,7 +155,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         String buildtype = SystemProperties.get("ro.extended.releasetype","unofficial");
         if (!buildtype.equalsIgnoreCase("official")) {
         removePreference(KEY_AEX_OTA);
-        }
+        } else {
 
         //If user uninstalls AEXOTA remove preference
         // Remove AEXOTA if package is not found
@@ -163,6 +163,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         if (!DuUtils.isPackageInstalled(getActivity(), KEY_AEXOTA_PACKAGE_NAME)) {
             prefScreen.removePreference(mAexOta);
         }
+
+  }
 
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
         // Remove QGP Version if property is not present
