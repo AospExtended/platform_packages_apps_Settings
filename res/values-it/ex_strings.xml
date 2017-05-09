@@ -31,7 +31,7 @@
     <string name="vendor_version">Versione produttore</string>
     <string name="vendor_version_default">Sconosciuto</string>
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-    <string name="local_backup_password_title">Desktop backup password</string>
+    <string name="local_backup_password_title">Password di backup del desktop</string>
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Livelli del volume</string>
@@ -45,7 +45,7 @@
     <string name="volume_steps_reset">Ripristina</string>
 
     <!-- Volume settings - Volume adjustment sound -->
-    <string name="volume_adjust_sounds_title">Suono regolazione volume</string>
+    <string name="volume_adjust_sounds_title">Suono di regolazione volume</string>
          
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Mostra tasto invio</string>
@@ -53,17 +53,13 @@
 
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Selettore notifica</string>
-    <string name="ime_switcher_notify_summary">Visualizza il metodo d\'ingresso del selettore notifica</string>
+    <string name="ime_switcher_notify_summary">Visualizza il metodo d\'ingresso del selettore della notifica</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Modifiche</string>
     <string name="changelog_error">Impossibile caricare l\'elenco delle modifiche</string>
     <string name="changelog_summary">Cambiamenti recenti</string>
      
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
-    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
-
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Collegamento volume suoneria e notifica</string>
     <string name="notification_volume_option_title">Volume notifica</string>
@@ -79,17 +75,7 @@
     <string name="rootmanagement_dashboard_summary">Gestione accesso root</string>
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
-     
-     
-    <!-- Advanced night mode tile -->
-    <string name="night_display_category_advanced">Avanzate</string>
-    <string name="qs_night_brightness_value_title">Regolazione automatica della bassa luminosità</string>
-    <string name="qs_night_brightness_value_dialog">Imposta automaticamente un valore di bassa luminosità quando si attiva la luce nottura</string>
-    <string name="qs_night_bright_disabled">Luminosità invariata</string>
-    <string name="qs_night_bright_less">Luminosità bassa</string>
-    <string name="qs_night_bright_medium">Luminosità media</string>
-    <string name="qs_night_bright_min">Luminosità minima</string>
-     
+          
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Aumento del volume suoneria</string>
     <string name="increasing_ring_min_volume_title">Volume di avvio</string>
@@ -260,6 +246,13 @@
     <string name="battery_saver_color_summary">Colora di rosso la barra di stato e di navigazione quando viene attivato il risparmio batteria</string>
 
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevenire il risveglio accidentale</string>
+    <string name="proximity_wake_title">Evitare il risveglio accidentale</string>
     <string name="proximity_wake_summary">Verifica il sensore di prossimità prima della riattivazione dello schermo</string>
+     
+    <!-- SystemUI restart prompt -->
+    <string name="systemui_restart_title">AVVISO</string>
+    <string name="systemui_restart_message">Il SystemUI verrà riavviato affinché l\'impostazione selezionata può essere applicata correttamente.</string>
+    <string name="restarting_ui">Riavvio UI\u2026</string>
+    <string name="print_restart">Riavviare</string>
+     
 </resources>
