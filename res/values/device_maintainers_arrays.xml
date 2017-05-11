@@ -97,7 +97,8 @@
 	<item>Huawei GX8</item> <!-- Maintainer: Allurba -->
 	<item>Lenovo A7000-a</item> <!-- Maintainer: Rohan Taneja -->
 	<item>Android One 2\'nd Device (seed)</item> <!-- Maintainer: EypCnn, Kerem Erkaplan (hd) -->
-    </string-array>
+    <item>Coolpad Note 3</item> <!-- Maintainer: Mohan Cm (mohancm) -->
+	</string-array>
 
     <!-- XDA Profile URL of maintainer -->
     <string-array name="maintainers_url" translatable="false">
