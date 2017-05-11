@@ -93,11 +93,11 @@
         <item>Android One 3\'rd Device (shamrock)</item> 
         <item>Lenovo P2 (p2a42)</item> <!-- Maintainer: Incredible,EypCnn -->
 	<item>Samsung Galaxy Grand Prime</item> <!-- Maintainer: Hassan Sardar (Has.007) -->
-	<item>Lenovo Vibe K4 Note</item> <!-- Maintainer: Mohan Cm (mohancm) -->
+	<item>Lenovo Vibe K4 Note(A7010a48)</item> <!-- Maintainer: Mohan Cm (mohancm) -->
 	<item>Huawei GX8</item> <!-- Maintainer: Allurba -->
 	<item>Lenovo A7000-a</item> <!-- Maintainer: Rohan Taneja -->
 	<item>Android One 2\'nd Device (seed)</item> <!-- Maintainer: EypCnn, Kerem Erkaplan (hd) -->
-    <item>Coolpad Note 3</item> <!-- Maintainer: Mohan Cm (mohancm) -->
+    <item>Coolpad Note 3(CP8676_I02)</item> <!-- Maintainer: Mohan Cm (mohancm) -->
 	</string-array>
 
     <!-- XDA Profile URL of maintainer -->
