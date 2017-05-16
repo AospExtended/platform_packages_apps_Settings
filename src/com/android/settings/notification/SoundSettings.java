@@ -371,7 +371,11 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
                     mRingerMode == AudioManager.RINGER_MODE_VIBRATE, muted);
             mNotificationPreference.showIcon(iconId);
             if (mVoiceCapable) {
-                mNotificationPreference.setEnabled(mRingerMode == AudioManager.RINGER_MODE_NORMAL);
+                try {
+                    mNotificationPreference.setEnabled(mRingerMode == AudioManager.RINGER_MODE_NORMAL);
+                } catch (IllegalStateException ignored) {
+                    // Ignore
+                }
             }
         }
     }
