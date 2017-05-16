@@ -109,7 +109,6 @@ public class ExpandedDesktopPreferenceFragment extends SettingsPreferenceFragmen
                     Settings.Global.POLICY_CONTROL);
         }
         mAllPackagesAdapter = new AllPackagesAdapter(getActivity());
-        mAllPackagesAdapter.notifyDataSetChanged();
 
         setHasOptionsMenu(true);
     }
@@ -262,7 +261,7 @@ public class ExpandedDesktopPreferenceFragment extends SettingsPreferenceFragmen
 
     @Override
     public void onRebuildComplete(ArrayList<ApplicationsState.AppEntry> entries) {
-        handleAppEntries(entries);
+        rebuild();
     }
 
     @Override
@@ -605,4 +604,10 @@ public class ExpandedDesktopPreferenceFragment extends SettingsPreferenceFragmen
             return show;
         }
     }
+
+    @Override
+    public void onLoadEntriesCompleted() {
+        rebuild();
+    }
+
 }
