@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2016 The AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- About phone screen, Extended version -->
+    <string name="extended_version">Extended version</string>
+    <string name="extended_version_default">Unknown</string>
+    <string name="extensions_title">Extensions</string>
+
+<!-- AEX OTA -->
+    <string name="aex_ota_title">AEX Updates</string>
+    <string name="aex_ota_summary">Get latest build</string>
+
+<!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Unknown</string>
+   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+   <string name="local_backup_password_title">Desktop backup password</string>
+
+    <!-- Volume Steps -->
+     <string name="volume_steps_title">Volume steps</string>
+     <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+     <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+     <string name="volume_steps_music_title">Volume steps: Music</string>
+     <string name="volume_steps_notification_title">Volume steps: Notification</string>
+     <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+     <string name="volume_steps_system_title">Volume steps: System</string>
+     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+     <string name="volume_steps_reset">Reset</string>
+     <string name="volume_steps_60" translatable="false">60</string>
+     <string name="volume_steps_45" translatable="false">45</string>
+     <string name="volume_steps_30" translatable="false">30</string>
+     <string name="volume_steps_15" translatable="false">15</string>
+     <string name="volume_steps_7" translatable="false">7</string>
+     <string name="volume_steps_5" translatable="false">5</string>
+      
+    <!-- Volume settings - Volume adjustment sound -->
+     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+    
+    <!-- Keyboard and Input ASS methods -->
+    <string name="show_enter_key_title">Show enter key</string>
+    <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Selector notification</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_summary">Recent Changes</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+    <string name="notification_volume_option_title">Notification volume</string>
+    <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+
+    <!-- Camera sound -->
+    <string name="camera_sounds_title">Camera shutter sound</string>
+
+    <!-- Custom tiles summary -->
+    <string name="substratum_settings_summary">Theme engine</string>
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Root management</string>
+    <string name="rootmanagement_dashboard_summary">Manage root access</string>
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Less frequent notification sounds</string>
+    <string name="less_notification_sounds_summary">Limit the notification sounds of each app to only play once per set time period</string>
+    <string name="less_notification_sounds_default">Default Behavior</string>
+    <string name="less_notification_sounds_3s">3 seconds</string>
+    <string name="less_notification_sounds_5s">5 seconds</string>
+    <string name="less_notification_sounds_10s">10 seconds</string>
+    <string name="less_notification_sounds_15s">15 seconds</string>
+    <string name="less_notification_sounds_30s">30 seconds</string>
+    <string name="less_notification_sounds_45s">45 seconds</string>
+    <string name="less_notification_sounds_1m">1 minute</string>
+    <string name="less_notification_sounds_2m">2 minutes</string>
+    <string name="less_notification_sounds_5m">5 minutes</string>
+
+    <!-- Magisk Manager -->
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Root management</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data_category_title">Cellular data access</string>
+    <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi data access</string>
+    <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+    <string name="data_usage_app_restrict_all_data_title">Disable all cellular data access</string>
+    <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_all_data_summary">Prevent any use of data access via cellular networks</string>
+    <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+    <string name="data_usage_app_restrict_all_wifi_title">Disable all Wi\u2011Fi data access</string>
+    <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_all_wifi_summary">Prevent any use of data access via Wi\u2011Fi networks</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
+
+    <!-- Doze pulse options -->
+    <string name="doze_settings">Doze settings</string>
+    <string name="summary_doze_enabled">Enabled</string>
+    <string name="summary_doze_disabled">Disabled</string>
+    <string name="doze_overwrite_value_title">Overwrite defaults</string>
+    <string name="doze_overwrite_value_summary">Allow override of default values with user config</string>
+    <string name="doze_pulse_title">User configurable settings</string>
+    <string name="doze_pulse_duration_in_title">Fade in</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">Visible duration</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">Fade out</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_trigger_pickup_title">Pick up sensor trigger</string>
+    <string name="doze_trigger_pickup_summary_on">Pulse will be triggered by pick up sensor</string>
+    <string name="doze_trigger_pickup_summary_off">Pick up sensor will not be utilized as a trigger</string>
+    <string name="doze_trigger_notification_title">Notification trigger</string>
+    <string name="doze_trigger_notification_summary_on">Pulse will be triggered by notifications</string>
+    <string name="doze_trigger_notification_summary_off">Notifications will not be utilized as a trigger</string>
+    <string name="doze_brightness_level_title">Brightness level</string>
+    <string name="onehundred_ms">100 ms</string>
+    <string name="twofifty_ms">250 ms</string>
+    <string name="fivehundred_ms_default">500 ms (default)</string>
+    <string name="sevenfifty_ms">750 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second_default">3 s (default)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+    <string name="doze_notification_color_invert_title">Notification inversion</string>
+    <string name="doze_notification_color_invert_summary_off">Notifications will not be inverted. Use for dark themes.</string>
+    <string name="doze_notification_color_invert_summary_on">Notifications will be inverted. Use for light/stock theme.</string>
+
+    <!-- Double tap for doze -->
+    <string name="double_tap_wake_doze_title">Double-tap to wake on doze</string>
+    <string name="double_tap_wake_doze_summary">Require a double-tap to wake the device on a doze pulse screen</string>
+
+    <!-- App Ops Settings -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">App ops</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">Advanced per-app options</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Location</string>
+    <string name="app_ops_cat_personal">Personal</string>
+    <string name="app_ops_cat_messaging">Messaging</string>
+    <string name="app_ops_cat_media">Media</string>
+    <string name="app_ops_cat_device">Device</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">camera</string>
+    <string name="app_ops_access_location">location</string>
+    <string name="app_ops_access_notifications">notifications</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">autostart</string>
+    <string name="app_ops_delete_call_log">delete call log</string>
+    <string name="app_ops_delete_contacts">delete contacts</string>
+    <string name="app_ops_delete_mms">delete MMS</string>
+    <string name="app_ops_delete_sms">delete SMS</string>
+    <string name="app_ops_draw_on_top">draw on top</string>
+    <string name="app_ops_get_usage_stats">get usage stats</string>
+    <string name="app_ops_keep_device_awake">keep awake</string>
+    <string name="app_ops_make_phone_call">make call</string>
+    <string name="app_ops_modify_calendar">update calendar</string>
+    <string name="app_ops_modify_call_log">update call log</string>
+    <string name="app_ops_modify_clipboard">modify clipboard</string>
+    <string name="app_ops_modify_contacts">update contacts</string>
+    <string name="app_ops_modify_settings">update settings</string>
+    <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
+    <string name="app_ops_play_audio">play audio</string>
+    <string name="app_ops_post_notification">post notification</string>
+    <string name="app_ops_project_media">project media</string>
+    <string name="app_ops_read_calendar">read calendar</string>
+    <string name="app_ops_read_call_log">read call log</string>
+    <string name="app_ops_read_clipboard">read clipboard</string>
+    <string name="app_ops_read_contacts">read contacts</string>
+    <string name="app_ops_read_mms">read MMS</string>
+    <string name="app_ops_read_sms">read SMS</string>
+    <string name="app_ops_receive_sms">receive SMS</string>
+    <string name="app_ops_record_audio">record audio</string>
+    <string name="app_ops_send_mms">send MMS</string>
+    <string name="app_ops_send_sms">send SMS</string>
+    <string name="app_ops_toast_window">toast messages</string>
+    <string name="app_ops_use_alarm_volume">alarm volume</string>
+    <string name="app_ops_use_audio_focus">audio focus</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
+    <string name="app_ops_use_master_volume">master volume</string>
+    <string name="app_ops_use_media_buttons">media buttons</string>
+    <string name="app_ops_use_media_volume">media volume</string>
+    <string name="app_ops_use_notification_volume">notification volume</string>
+    <string name="app_ops_use_ring_volume">ringtone volume</string>
+    <string name="app_ops_use_vibrate">haptic feedback</string>
+    <string name="app_ops_use_voice_volume">voice call volume</string>
+    <string name="app_ops_write_mms">write MMS</string>
+    <string name="app_ops_write_sms">write SMS</string>
+    <string name="app_ops_use_fingerprint">fingerprint</string>
+    <string name="app_ops_add_voicemail">voicemail</string>
+    <string name="app_ops_read_phone_state">access phone state</string>
+    <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
+    <string name="app_ops_change_wallpaper">change wallpaper</string>
+    <string name="app_ops_assist_structure">assist structure</string>
+    <string name="app_ops_assist_screenshot">screenshot</string>
+    <string name="app_ops_use_body_sensors">body sensors</string>
+    <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
+    <string name="app_ops_mock_location">mock location</string>
+    <string name="app_ops_read_external_storage">read ext. stor.</string>
+    <string name="app_ops_write_external_storage">write ext. stor.</string>
+    <string name="app_ops_turn_on_screen">turn screen on</string>
+    <string name="app_ops_get_accounts">device accounts</string>
+    <string name="app_ops_run_in_background">run in background</string>
+
+    <string name="ambient_display_show_battery_title">Battery Status</string>
+    <string name="ambient_display_show_battery_summary">Show battery indicator during pulse</string>
+
+    <!-- Battery Saver Settings -->
+    <!-- Disable Battery Saver Warning Color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable red status and navigation bars when battery saver is activated</string>
+
+ <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- SystemUI restart prompt -->
+    <string name="systemui_restart_title">WARNING</string>
+    <string name="systemui_restart_message">SystemUI will be restarted so that selected setting can be applied correctly.</string>
+    <string name="restarting_ui">Restarting UI\u2026</string>
+    <string name="print_restart">Restart</string>
+
+</resources>
