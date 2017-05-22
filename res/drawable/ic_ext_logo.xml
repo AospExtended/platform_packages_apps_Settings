@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2017 The AospExtended ROM
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1280dp"
+    android:height="510dp"
+    android:viewportWidth="1280"
+    android:viewportHeight="510">
+
+    <path
+        android:strokeColor="?android:attr/textColorPrimary"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 433.7 317 L 510 193" />
+    <path
+        android:strokeColor="?android:attr/textColorPrimary"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 583.3 317 L 507 193" />
+    <path
+        android:fillColor="?android:attr/textColorPrimary"
+        android:pathData="M 506 190.4 H 511.1 V 199.1 H 506 V 190.4 Z" />
+    <path
+        android:strokeColor="?android:attr/textColorPrimary"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 701.4 314.8 L 579.2 314.8" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 701.1 254.8 L 578.9 254.8" />
+    <path
+        android:strokeColor="?android:attr/textColorPrimary"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 701.1 195.3 L 578.9 195.3" />
+    <path
+        android:strokeColor="?android:attr/textColorPrimary"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 698 316.1 L 848.6 194.8" />
+    <path
+        android:strokeColor="?android:attr/textColorPrimary"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 847.7 315.4 L 697.9 194.2" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="9.6448"
+        android:strokeMiterLimit="10"
+        android:pathData="M 640 37.9 C 759.790562238 37.9 856.9 135.098980812 856.9 255 C 856.9 374.901019188 759.790562238 472.1 640 472.1 C 520.209437762 472.1 423.1 374.901019188 423.1 255 C 423.1 135.098980812 520.209437762 37.9 640 37.9 Z" />
+</vector>
