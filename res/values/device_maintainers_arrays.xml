@@ -56,6 +56,7 @@
 	    <item>Rohan Taneja</item>
 	    <item>EypCnn, Kerem Erkaplan (hd)</item>
         <item>Ajdin Kuduzovic (AjdinK)</item>
+	<item>Rohan Khurana</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -99,6 +100,7 @@
 	    <item>Lenovo A7000-a</item> <!-- Maintainer: Rohan Taneja -->
 	    <item>Android One 2\'nd Device (seed)</item> <!-- Maintainer: EypCnn, Kerem Erkaplan (hd) -->
         <item>Google Nexus 6 (Shamu)</item> <!-- Ajdin Kuduzovic (AjdinK) -->
+	<item>Xiaomi Mi5 (Gemini)</item> <!-- Rohan Khurana -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
