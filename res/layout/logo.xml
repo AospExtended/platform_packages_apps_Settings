@@ -16,10 +16,9 @@
 	android:layout_height="wrap_content">
 
 <ImageView
-	android:layout_width="625dp"
- 	android:layout_height="100dp"
+	android:layout_width="match_parent"
+ 	android:layout_height="match_parent"
 	android:src="@drawable/ic_ext_logo"
 	android:adjustViewBounds="true"
-	android:scaleType="centerInside"
-	android:tint="?android:attr/colorAccent" />
+	android:scaleType="centerInside" />
 </LinearLayout>
