@@ -52,7 +52,7 @@
 	<item>Incredible,EypCnn</item>
 	<item>Hassan Sardar (Has.007)</item>
 	<item>Mohan Cm (mohancm)</item>
-	<item>Allurba</item>
+	<item>Albert Llurba (allurba)</item>
 	<item>Rohan Taneja</item>
 	<item>EypCnn, Kerem Erkaplan (hd)</item>
         <item>Ajdin Kuduzovic (AjdinK)</item>
@@ -96,11 +96,12 @@
         <item>Lenovo P2 (p2a42)</item> <!-- Maintainer: Incredible,EypCnn -->
 	<item>Samsung Galaxy Grand Prime</item> <!-- Maintainer: Hassan Sardar (Has.007) -->
 	<item>Lenovo Vibe K4 Note(A7010a48),Coolpad Note 3(CP8676_I02)</item> <!-- Maintainer: Mohan Cm (mohancm) -->
-	<item>Huawei GX8</item> <!-- Maintainer: Allurba -->
+	<item>Huawei GX8</item> <!-- Maintainer: Albert Llurba (allurba) -->
 	<item>Lenovo A7000-a</item> <!-- Maintainer: Rohan Taneja -->
 	<item>Android One 2\'nd Device (seed)</item> <!-- Maintainer: EypCnn, Kerem Erkaplan (hd) -->
         <item>Google Nexus 6 (Shamu)</item> <!-- Ajdin Kuduzovic (AjdinK) -->
 	<item>Xiaomi Mi5 (Gemini)</item> <!-- Rohan Khurana -->
+	<item>Bq Aquaris X5 Plus (gohan)</item> <!-- Maintainer: Albert Llurba (allurba) -->  
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -140,7 +141,7 @@
 	<item>https://forum.xda-developers.com/member.php?u=6810779</item> <!-- Maintainer: Incredible,EypCnn -->
 	<item>https://forum.xda-developers.com/member.php?u=6940293</item> <!-- Maintainer: Hassan Sardar (Has.007) -->
 	<item>https://forum.xda-developers.com/member.php?u=7471004</item> <!-- Maintainer: Mohan Cm (mohancm) -->
-	<item>https://forum.xda-developers.com/member.php?u=4387106</item> <!-- Maintainer: Allurba -->
+	<item>https://forum.xda-developers.com/member.php?u=4387106</item> <!-- Maintainer: Albert Llurba (allurba) -->
 	<item>https://forum.xda-developers.com/member.php?u=5138268</item> <!-- Maintainer: Rohan Taneja -->
 	<item>https://forum.xda-developers.com/member.php?u=7046303</item> <!-- Maintainer: EypCnn, Kerem Erkaplan (hd) -->
 	<item>https://forum.xda-developers.com/member.php?u=7345383</item> <!-- Maintainer: Ajdin Kuduzovic (AjdinK) -->
