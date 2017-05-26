@@ -593,4 +593,8 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="reset">Reset</string>
 
+    <!-- Development Settings summary-->
+    <string name="adb_enabled">ADB Enabled</string>
+    <string name="adb_disabled">ADB Disabled</string>
+
 </resources>
