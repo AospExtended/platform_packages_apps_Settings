@@ -47,6 +47,7 @@
 	<item>EsromG5</item>
 	<item>YoDevil</item>
         <item>Prasoon Mehra (phantom-1402)</item>
+	<item>Ninad Patil (PainKiller3)</item>     
      </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -81,6 +82,7 @@
 	<item>Samsung Galaxy J5</item> <!-- Maintainer: EsromG5 -->
 	<item>LG G2 (D802)</item> <!-- Maintainer: YoDevil -->
 	<item>Redmi 3S/3X (land) </item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->     
+	<item>Lenovo K3 Note (aio_otfp) </item> <!-- Maintainer: Ninad Patil (PainKiller3) -->     
      </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -114,6 +116,7 @@
 	<item>https://forum.xda-developers.com/member.php?u=8045158</item> <!-- Maintainer: Keyvo97 -->
 	<item>https://forum.xda-developers.com/member.php?u=4730968</item> <!-- Maintainer: EsromG5 -->
 	<item>https://forum.xda-developers.com/member.php?u=4742143</item> <!-- Maintainer: YoDevil -->
-	<item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->    
+	<item>http://forum.xda-developers.com/member.php?u=5947980</item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
+	<iteam>https://forum.xda-developers.com/member.php?u=6549853</iteam> <!-- Maintainer: Ninad Patil (PainKiller3) -->     
 	</string-array>
 </resources>
