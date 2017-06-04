@@ -57,7 +57,8 @@
 	<item>EypCnn, Kerem Erkaplan (hd)</item>
         <item>Ajdin Kuduzovic (AjdinK)</item>
 	<item>Rohan Khurana</item>
-	<item>redbeard1083</item>  
+	<item>redbeard1083</item>
+	<item>Ninad Patil (PainKiller3)</item>     
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -103,6 +104,7 @@
         <item>Google Nexus 6 (Shamu)</item> <!-- Ajdin Kuduzovic (AjdinK) -->
 	<item>Xiaomi Mi5 (Gemini)</item> <!-- Rohan Khurana -->
 	<item>Huawei GX8 (rio)</item> <!-- Maintainer: redbeard1083 --> 
+	<item>Lenovo K3 Note (aio_otfp) </item> <!-- Maintainer: Ninad Patil (PainKiller3) -->     
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -148,5 +150,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=7345383</item> <!-- Maintainer: Ajdin Kuduzovic (AjdinK) -->
 	<item>https://forum.xda-developers.com/member.php?u=7526018</item> <!-- Maintainer: Rohan Khurana -->
 	<item>https://forum.xda-developers.com/member.php?u=5399951</item> <!-- Maintainer: redbeard1083 -->
+	<iteam>https://forum.xda-developers.com/member.php?u=6549853</iteam> <!-- Maintainer: Ninad Patil (PainKiller3) -->     
     </string-array>
 </resources>
