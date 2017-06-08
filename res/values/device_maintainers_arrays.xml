@@ -60,7 +60,7 @@
 	<item>Rohan Khurana</item>
 	<item>redbeard1083</item>
  	<item>Ninad Patil (PainKiller3)</item>    
-        <item>Rohit Jaiswal (rohitjaiswal)</item>
+        <item>Rohit Jaiswal, Shiva Teja</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -108,7 +108,7 @@
 	<item>Xiaomi Mi5 (Gemini)</item> <!-- Rohan Khurana -->
 	<item>Huawei GX8 (rio)</item> <!-- Maintainer: redbeard1083 --> 
 	<item>Lenovo K3 Note (aio_otfp),Asus Zenfone Max (Z010D) </item> <!-- Maintainer: Ninad Patil (PainKiller3) -->
-        <item>LeEco Le 2 (s2)</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) --> 
+        <item>LeEco Le 2 (s2), LeEco Le Max 2 (x2)</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
