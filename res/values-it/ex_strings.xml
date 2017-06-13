@@ -260,4 +260,9 @@
  
      <string name="device_doze_title">Gesti ambient display</string>
      <string name="device_doze_summary">Imposta ulteriori gesti aggiuntivi per la modalità ambient display</string>
+     
+     <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">Volume dell\'auricolare sicuro</string>
+    <string name="safe_headset_volume_summary">Evita i livelli di volume elevati quando l\'auricolare viene collegato per la prima volta</string>
+    <string name="safe_headset_volume_warning_dialog_text">L\'ascolto ad alto volume per lunghi periodi può danneggiare l\'udito. Disattivarlo con cautela.</string>
 </resources>
