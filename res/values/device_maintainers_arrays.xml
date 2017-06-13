@@ -60,7 +60,7 @@
 	<item>Rohan Khurana</item>
 	<item>redbeard1083</item>
  	<item>Ninad Patil (PainKiller3)</item>    
-        <item>Rohit Jaiswal (rohitjaiswal)</item>
+        <item>Rohit Jaiswal, Shiva Teja</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -74,7 +74,7 @@
         <item>Moto E 2015/3g (otus)</item> <!-- Maintainer: Hamza Badar -->
         <item>Mote E 2015/Lte (surnia)</item> <!-- Maintainer: Hernán Figueroa (El Dainosor) -->
         <item>Redmi 2 (wt88047)</item> <!-- Maintainer: Saket Sawrav -->
-        <item>Moto X Play (lux)</item> <!-- Maintainer: Nick van Bokhorst (GtrCraft) -->
+        <item>Moto G5 Plus (potter), Moto X Play (lux)</item> <!-- Maintainer: Nick van Bokhorst (GtrCraft) -->
         <item>Moto G 2014 (titan), Vibe K5 (A6020)</item> <!-- Maintainer: Demetris Ierokipides -->
         <item>Moto G4/G4 Plus</item> <!-- Maintainer: rahulsnair -->
         <item>OnePlus X</item> <!-- Maintainer: Sanjay Varun -->
@@ -108,7 +108,7 @@
 	<item>Xiaomi Mi5 (Gemini)</item> <!-- Rohan Khurana -->
 	<item>Huawei GX8 (rio)</item> <!-- Maintainer: redbeard1083 --> 
 	<item>Lenovo K3 Note (aio_otfp),Asus Zenfone Max (Z010D) </item> <!-- Maintainer: Ninad Patil (PainKiller3) -->
-        <item>LeEco Le 2 (s2)</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) --> 
+        <item>LeEco Le 2 (s2), LeEco Le Max 2 (x2)</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->

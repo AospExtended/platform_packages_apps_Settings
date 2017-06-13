@@ -266,5 +266,10 @@
 
     <string name="device_doze_title">Ambient display gestures</string>
     <string name="device_doze_summary">Set up extra gestures for ambient display mode</string>
+
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">Safe headset volume</string>
+    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
+    <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
 </resources>
 
