@@ -61,6 +61,7 @@
 	<item>redbeard1083</item>
  	<item>Ninad Patil (PainKiller3)</item>    
         <item>Rohit Jaiswal, Shiva Teja</item>
+	<item>Prajapati PRAViN (Harvey_Spectar)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -109,6 +110,7 @@
 	<item>Huawei GX8 (rio)</item> <!-- Maintainer: redbeard1083 --> 
 	<item>Lenovo K3 Note (aio_otfp),Asus Zenfone Max (Z010D) </item> <!-- Maintainer: Ninad Patil (PainKiller3) -->
         <item>LeEco Le 2 (s2), LeEco Le Max 2 (x2)</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) -->
+	<item>Samsung Galaxy S4 Mini</item> <!-- Maintainer: Prajapati PRAViN (Harvey_Spectar) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -157,5 +159,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=5399951</item> <!-- Maintainer: redbeard1083 -->
 	<item>https://forum.xda-developers.com/member.php?u=6549853</item> <!-- Maintainer: Ninad Patil (PainKiller3) -->
         <item>https://forum.xda-developers.com/member.php?u=5173116</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) -->   
+	<item>https://forum.xda-developers.com/member.php?u=7722532</item> <!-- Maintainer: Prajapati PRAViN (Harvey_spectar) -->
     </string-array>
 </resources>
