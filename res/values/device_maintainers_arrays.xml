@@ -63,6 +63,7 @@
         <item>Rohit Jaiswal, Shiva Teja</item>
 	<item>Prajapati PRAViN (Harvey_Spectar)</item>
 	<item>argraur</item>
+	<item>Giuseppe Barillari (joe2k01)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -93,6 +94,7 @@
 	<item>Xiaomi Redmi 1S(armani)</item> <!-- Maintainer: Vedant Kamlaskar -->
 	<item>Lenovo Vibe P1(p1a42)</item> <!-- Maintainer: Devansh Bajaj -->
 	<item>Samsung Galaxy S7 Flat/Edge, Galaxy TabS2 9.7 Wifi/Lte</item> <!-- Maintainer: Alexander Gemsa -->
+	<item>Samsung Galaxy Tab S2 9.7 Wifi 2016 (gts210vewifi)</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
         <item>Moto MAXX (quark)</item> <!-- Maintainer: Dev Marsh -->
 	<item>Samsung Galaxy J5, Xiaomi Redmi 3 </item> <!-- Maintainer: EsromG5 -->
 	<item>LG G2 (D802)</item> <!-- Maintainer: YoDevil -->
@@ -163,5 +165,6 @@
         <item>https://forum.xda-developers.com/member.php?u=5173116</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) --> 
 	<item>https://forum.xda-developers.com/member.php?u=7722532</item> <!-- Maintainer: Prajapati PRAViN (Harvey_spectar) -->
 	<item>https://forum.xda-developers.com/member.php?u=6881528</item> <!-- Maintainer: argraur -->    
+	<item>https://forum.xda-developers.com/member.php?u=7137962</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
      </string-array>
 </resources>
