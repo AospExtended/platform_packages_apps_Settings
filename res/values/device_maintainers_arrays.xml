@@ -94,7 +94,6 @@
 	<item>Xiaomi Redmi 1S(armani)</item> <!-- Maintainer: Vedant Kamlaskar -->
 	<item>Lenovo Vibe P1(p1a42)</item> <!-- Maintainer: Devansh Bajaj -->
 	<item>Samsung Galaxy S7 Flat/Edge, Galaxy TabS2 9.7 Wifi/Lte</item> <!-- Maintainer: Alexander Gemsa -->
-	<item>Samsung Galaxy Tab S2 9.7 Wifi 2016 (gts210vewifi)</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
         <item>Moto MAXX (quark)</item> <!-- Maintainer: Dev Marsh -->
 	<item>Samsung Galaxy J5, Xiaomi Redmi 3 </item> <!-- Maintainer: EsromG5 -->
 	<item>LG G2 (D802)</item> <!-- Maintainer: YoDevil -->
@@ -115,6 +114,7 @@
         <item>LeEco Le 2 (s2), LeEco Le Max 2 (x2)</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) -->
 	<item>Samsung Galaxy S4 Mini</item> <!-- Maintainer: Prajapati PRAViN (Harvey_Spectar) -->
 	<item>Nexus 5X (bullhead)</item> <!-- Maintainer: argraur -->
+	<item>Samsung Galaxy Tab S2 9.7 Wifi 2016 (gts210vewifi)</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
