@@ -65,12 +65,13 @@
 	<item>argraur</item>
 	<item>Giuseppe Barillari (joe2k01)</item>
 	<item>Davide Della Maddalena (davidevinavil)</item>
+	<item>Amy-Clara-Rose (minidude2012)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
         <item>Moto G 2015 (osprey), Moto G TE (merlin)</item> <!-- Maintainer: ishubhamsingh -->
-        <item>Nexus 6P (angler)</item> <!-- Maintainer: FireLord -->
+        <item>Nexus 6P (angler)</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
         <item>Redmi Note 3 (kenzo)</item> <!-- Maintainer: AmolAmrit -->
         <item>Moto X 2014 (victara), Moto E (condor)</item> <!-- Maintainer: Anderson Mendes -->
         <item>Wileyfox storm (kipper)</item> <!-- Maintainer: Mahmod Ayyash (PS-DEV) -->
@@ -169,5 +170,6 @@
 	<item>https://forum.xda-developers.com/member.php?u=6881528</item> <!-- Maintainer: argraur -->    
 	<item>https://forum.xda-developers.com/member.php?u=7137962</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
 	<item>https://forum.xda-developers.com/member.php?u=2823824</item> <!-- Maintainer: davidevinavil -->
+	<item>https://forum.xda-developers.com/member.php?u=5545311</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
      </string-array>
 </resources>
