@@ -18,7 +18,6 @@
     <!-- Maintainers -->
     <string-array name="maintainers_title" translatable="false">
         <item>ishubhamsingh</item>
-        <item>FireLord</item>
         <item>AmolAmrit</item>
         <item>Anderson Mendes</item>
         <item>Mahmod Ayyash(PS-DEV)</item>
@@ -61,12 +60,16 @@
 	<item>redbeard1083</item>
  	<item>Ninad Patil (PainKiller3)</item>    
         <item>Rohit Jaiswal, Shiva Teja</item>
+	<item>Prajapati PRAViN (Harvey_Spectar)</item>
+	<item>argraur</item>
+	<item>Giuseppe Barillari (joe2k01)</item>
+	<item>Davide Della Maddalena (davidevinavil)</item>
+	<item>Amy-Clara-Rose (minidude2012)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
         <item>Moto G 2015 (osprey), Moto G TE (merlin)</item> <!-- Maintainer: ishubhamsingh -->
-        <item>Nexus 6P (angler)</item> <!-- Maintainer: FireLord -->
         <item>Redmi Note 3 (kenzo)</item> <!-- Maintainer: AmolAmrit -->
         <item>Moto X 2014 (victara), Moto E (condor)</item> <!-- Maintainer: Anderson Mendes -->
         <item>Wileyfox storm (kipper)</item> <!-- Maintainer: Mahmod Ayyash (PS-DEV) -->
@@ -109,6 +112,11 @@
 	<item>Huawei GX8 (rio)</item> <!-- Maintainer: redbeard1083 --> 
 	<item>Lenovo K3 Note (aio_otfp),Asus Zenfone Max (Z010D) </item> <!-- Maintainer: Ninad Patil (PainKiller3) -->
         <item>LeEco Le 2 (s2), LeEco Le Max 2 (x2)</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) -->
+	<item>Samsung Galaxy S4 Mini</item> <!-- Maintainer: Prajapati PRAViN (Harvey_Spectar) -->
+	<item>Nexus 5X (bullhead)</item> <!-- Maintainer: argraur -->
+	<item>Samsung Galaxy Tab S2 9.7 Wifi 2016 (gts210vewifi)</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
+	<item>Zuk Z2 plus</item> <!-- Maintainer: davidevinavil -->
+	<item>Nexus 6P (angler)</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -156,6 +164,11 @@
 	<item>https://forum.xda-developers.com/member.php?u=7526018</item> <!-- Maintainer: Rohan Khurana -->
 	<item>https://forum.xda-developers.com/member.php?u=5399951</item> <!-- Maintainer: redbeard1083 -->
 	<item>https://forum.xda-developers.com/member.php?u=6549853</item> <!-- Maintainer: Ninad Patil (PainKiller3) -->
-        <item>https://forum.xda-developers.com/member.php?u=5173116</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) -->   
-    </string-array>
+        <item>https://forum.xda-developers.com/member.php?u=5173116</item> <!-- Maintainer: Rohit Jaiswal (rohitjaiswal) --> 
+	<item>https://forum.xda-developers.com/member.php?u=7722532</item> <!-- Maintainer: Prajapati PRAViN (Harvey_spectar) -->
+	<item>https://forum.xda-developers.com/member.php?u=6881528</item> <!-- Maintainer: argraur -->    
+	<item>https://forum.xda-developers.com/member.php?u=7137962</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
+	<item>https://forum.xda-developers.com/member.php?u=2823824</item> <!-- Maintainer: davidevinavil -->
+	<item>https://forum.xda-developers.com/member.php?u=5545311</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
+     </string-array>
 </resources>

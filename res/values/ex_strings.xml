@@ -180,6 +180,7 @@
     <string name="app_ops_cat_messaging">Messaging</string>
     <string name="app_ops_cat_media">Media</string>
     <string name="app_ops_cat_device">Device</string>
+    <string name="app_ops_cat_bootup">Bootup</string>
 
     <!-- [CHAR LIMIT=NONE] App ops labels -->
     <string name="app_ops_access_camera">camera</string>
@@ -241,7 +242,10 @@
     <string name="app_ops_write_external_storage">write ext. stor.</string>
     <string name="app_ops_turn_on_screen">turn screen on</string>
     <string name="app_ops_get_accounts">device accounts</string>
+    <string name="app_ops_wifi_change">change WiFI state</string>
+    <string name="app_ops_toggle_bluetooth">toggle Bluetooth</string>
     <string name="app_ops_run_in_background">run in background</string>
+    <string name="app_ops_boot_completed">auto start</string>
 
     <string name="ambient_display_show_battery_title">Battery Status</string>
     <string name="ambient_display_show_battery_summary">Show battery indicator during pulse</string>

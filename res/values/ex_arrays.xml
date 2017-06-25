@@ -104,6 +104,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>@string/app_ops_cat_messaging</item>
         <item>@string/app_ops_cat_media</item>
         <item>@string/app_ops_cat_device</item>
+        <item>@string/app_ops_cat_bootup</item>
     </string-array>
 
     <!-- User display names for app ops codes -->
@@ -236,6 +237,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>@string/app_ops_get_accounts</item>
         <!--OP_RUN_IN_BACKGROUND -->
         <item>@string/app_ops_run_in_background</item>
+        <!-- OP_CHANGE_WIFI_STATE -->
+        <item>@string/app_ops_wifi_change</item>
+        <!-- OP_BLUETOOTH_ADMIN -->
+        <item>@string/app_ops_toggle_bluetooth</item>
+        <!-- OP_BOOT_COMPLETED -->
+        <item>@string/app_ops_boot_completed</item>
     </string-array>
 
 </resources>
