@@ -174,7 +174,8 @@
     <string name="app_ops_cat_messaging">Messaggistica</string>
     <string name="app_ops_cat_media">Multimediale</string>
     <string name="app_ops_cat_device">Dispositivo</string>
-
+    <string name="app_ops_cat_bootup">Avviare</string>
+     
     <!-- [CHAR LIMIT=NONE] App ops labels -->
     <string name="app_ops_access_camera">camera</string>
     <string name="app_ops_access_location">posizione</string>
@@ -235,9 +236,12 @@
     <string name="app_ops_write_external_storage">scrivi ext. stor.</string>
     <string name="app_ops_turn_on_screen">attiva schermata</string>
     <string name="app_ops_get_accounts">account dispositivo</string>
+    <string name="app_ops_wifi_change">modifica stato Wi-Fi</string>
+    <string name="app_ops_toggle_bluetooth">toggle Bluetooth</string>
     <string name="app_ops_run_in_background">eseguito in background</string>
-
-    <string name="ambient_display_show_battery_title">Stato batteria</string>
+    <string name="app_ops_boot_completed">avvio auto</string>
+    
+     <string name="ambient_display_show_battery_title">Stato batteria</string>
     <string name="ambient_display_show_battery_summary">Mostra l\'indicatore della batteria durante il lampeggio</string>
 
     <!-- Battery Saver Settings -->
