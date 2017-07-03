@@ -149,4 +149,9 @@
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Vibrazione</string>
     <string name="lockscreen_vibrate_enabled_head">Vibra quando si sblocca</string>
+    
+    <!-- Night Display -->
+    <string name="night_display_warning">Considera che la luce notturna può aumentare il consumo di batteria.</string>
+    <string name="night_display_hide">Non mostrare questo avviso</string>
+    <string name="night_display_ok">Ok</string>
 </resources>
