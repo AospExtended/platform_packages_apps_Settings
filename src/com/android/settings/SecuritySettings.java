@@ -830,9 +830,20 @@ public class SecuritySettings extends SettingsPreferenceFragment
                 setNonMarketAppsAllowed(false);
             }
         } else if (KEY_LOCKSCREEN_QUICK_UNLOCK_CONTROL.equals(key)) {
+            Boolean newValue = (Boolean) value;
+            if (newValue) {
+                new AlertDialog.Builder(getActivity())
+                .setTitle(R.string.quick_unlock_alert_title)
+                .setMessage(R.string.quick_unlock_alert_msg)
+                .setPositiveButton(getString(R.string.ok), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                    }
+                }).create().show();
+            }
             Settings.Secure.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.Secure.LOCKSCREEN_QUICK_UNLOCK_CONTROL,
-                    (Boolean) value ? 1 : 0);
+                    newValue ? 1 : 0);
         }
         return result;
     }
