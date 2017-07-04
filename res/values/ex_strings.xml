@@ -429,6 +429,8 @@
     <string name="telegram_description">Subscribe to our Telegram channel</string>
     <string name="web">Download Center</string>
     <string name="web_description">Visit our download portal</string>
+    <string name="help_translate">Translations</string>
+    <string name="help_translate_description">Translate to your language, visit our Crowdin</string>
     <string name="walls">Wallpapers</string>
     <string name="walls_description">Get wallpapers contributed by various users</string>
     <string name="leads">Team Leads</string>
@@ -449,8 +451,6 @@
     <string name="designer3_description">Wallpapers, Bootanimations</string>
     <string name="maintainers">Maintainers</string>
     <string name="maintainer_description">Maintains for %1$s</string>
-    <string name="translators">Translators</string>
-    <string name="translator_description">Translates to %1$s</string>
 
 <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>

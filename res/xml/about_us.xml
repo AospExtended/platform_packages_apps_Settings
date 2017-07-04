@@ -64,6 +64,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </PreferenceScreen>
 
         <PreferenceScreen
+            android:title="@string/help_translate"
+    android:summary="@string/help_translate_description"
+    android:icon="@drawable/ic_trans" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://translate.aospextended.com/" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
             android:title="@string/walls"
     android:summary="@string/walls_description"
     android:icon="@drawable/ic_walls" >
@@ -115,11 +124,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
       </PreferenceScreen>
 
 
-</PreferenceCategory>
-
-<PreferenceCategory
-              android:key="translators"
-              android:title="@string/translators" >
 </PreferenceCategory>
 
 <PreferenceCategory

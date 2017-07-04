@@ -21,7 +21,6 @@ import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import android.net.Uri;
-import java.util.Locale;
 import android.content.Intent;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
@@ -37,15 +36,10 @@ public class AboutUs extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.about_us);
 
         PreferenceCategory maintainers = (PreferenceCategory)findPreference("maintainers");
-        PreferenceCategory translators = (PreferenceCategory)findPreference("translators");
 
         String[] maintainers_title = getResources().getStringArray(R.array.maintainers_title);
         String[] maintainers_devices = getResources().getStringArray(R.array.maintainers_devices);
         String[] maintainers_url = getResources().getStringArray(R.array.maintainers_url);
-
-        String[] translators_title = getResources().getStringArray(R.array.translators_title);
-        String[] translators_language = getResources().getStringArray(R.array.translators_language);
-        String[] translators_url = getResources().getStringArray(R.array.translators_url);
 
         for (int i = 0; i < maintainers_title.length; i++) {
             Preference maintainer = new Preference(getPrefContext());
@@ -61,31 +55,6 @@ public class AboutUs extends SettingsPreferenceFragment {
                 }
             });
             maintainers.addPreference(maintainer);
-        }
-
-        for (int i = 0; i < translators_title.length; i++) {
-            Preference translator = new Preference(getPrefContext());
-            final String translator_url = translators_url[i];
-            translator.setIcon(R.drawable.ic_trans);
-            translator.setTitle(translators_title[i]);
-			String displayName = "";
-            try {
-            Locale locale = new Locale.Builder().setLanguageTag(translators_language[i]).build();
-            displayName = locale.getDisplayName();
-            }catch (Exception ex){
-            displayName = "";
-            }
-            if (!displayName.equals("")){
-            translator.setSummary(String.format(getString(R.string.translator_description), displayName));
-            }
-            translator.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(translator_url)));
-                    return true;
-                }
-            });
-            translators.addPreference(translator);
         }
     }
 
