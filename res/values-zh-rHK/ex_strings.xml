@@ -19,12 +19,11 @@
   <!-- About phone screen, Extended version -->
   <string name="extended_version">Extended版本</string>
   <string name="extended_version_default">未知</string>
-  <string name="extensions_title">擴展</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">AEX更新</string>
   <string name="aex_ota_summary">下載最新版</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">編譯日期</string>
+  <string name="build_date">版本日期</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
   <string name="vendor_version">廠商版本</string>
@@ -32,14 +31,14 @@
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">桌面備份密碼</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">音量調整步進</string>
-  <string name="volume_steps_alarm_title">音量調整步進：鬧鐘</string>
-  <string name="volume_steps_dtmf_title">音量步進等級：DTMF</string>
-  <string name="volume_steps_music_title">音量調整步進：音樂</string>
-  <string name="volume_steps_notification_title">音量調整步進：通知</string>
-  <string name="volume_steps_ring_title">音量調整步進：鈴聲</string>
-  <string name="volume_steps_system_title">音量調整步進：系統</string>
-  <string name="volume_steps_voice_call_title">音量調整步進：語音通話</string>
+  <string name="volume_steps_title">音量調整等級</string>
+  <string name="volume_steps_alarm_title">音量等級：鬧鐘</string>
+  <string name="volume_steps_dtmf_title">音量等級：雙音多頻 DTMF</string>
+  <string name="volume_steps_music_title">音量等級：音樂</string>
+  <string name="volume_steps_notification_title">音量等級：通知</string>
+  <string name="volume_steps_ring_title">音量等級：鈴聲</string>
+  <string name="volume_steps_system_title">音量等級：系統</string>
+  <string name="volume_steps_voice_call_title">音量等級：語音通話</string>
   <string name="volume_steps_reset">重設</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">音量調整音效</string>
@@ -50,8 +49,8 @@
   <string name="ime_switcher_notify">選擇通知</string>
   <string name="ime_switcher_notify_summary">顯示輸入法選擇通知</string>
   <!-- Changelog -->
-  <string name="changelog_title">更新日誌</string>
-  <string name="changelog_error">無法載入更新日誌</string>
+  <string name="changelog_title">修改記錄</string>
+  <string name="changelog_error">無法讀取修改記錄</string>
   <string name="changelog_summary">最近更新</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">合併鈴聲及通知音量</string>
@@ -103,37 +102,37 @@
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">重設統計數據</string>
   <string name="battery_stats_message">電池統計數據將會重設</string>
-  <string name="ok_string">確定</string>
+  <string name="ok_string">OK</string>
   <!-- Doze pulse options -->
   <string name="doze_settings">doze設定</string>
-  <string name="summary_doze_enabled">啟用</string>
-  <string name="summary_doze_disabled">禁用</string>
-  <string name="doze_overwrite_value_title">覆寫預設值</string>
-  <string name="doze_overwrite_value_summary">允許使用者覆寫預設數值</string>
-  <string name="doze_pulse_title">使用者可配置的設定</string>
+  <string name="summary_doze_enabled">已啟用</string>
+  <string name="summary_doze_disabled">已停用</string>
+  <string name="doze_overwrite_value_title">覆蓋預設值</string>
+  <string name="doze_overwrite_value_summary">允許以使用者配置覆蓋預設值</string>
+  <string name="doze_pulse_title">使用者可配置的設置</string>
   <string name="doze_pulse_duration_in_title">淡入</string>
   <string name="doze_pulse_duration_visible_title">可見的持續時間</string>
   <string name="doze_pulse_duration_out_title">淡出</string>
   <string name="doze_trigger_pickup_title">感應器觸發</string>
-  <string name="doze_trigger_pickup_summary_on">當手勢被拿起時將觸發呼吸燈</string>
+  <string name="doze_trigger_pickup_summary_on">當手勢被拿起時將觸發自動顯示</string>
   <string name="doze_trigger_pickup_summary_off">拿起感應器不會用做觸發器</string>
   <string name="doze_trigger_notification_title">通知觸發</string>
-  <string name="doze_trigger_notification_summary_on">呼吸燈將被通知觸發</string>
-  <string name="doze_trigger_notification_summary_off">通知不會被用作觸發器</string>
-  <string name="doze_brightness_level_title">亮度等級</string>
-  <string name="onehundred_ms">100 毫秒</string>
-  <string name="twofifty_ms">250 毫秒</string>
-  <string name="fivehundred_ms_default">500 毫秒 (預設)</string>
-  <string name="sevenfifty_ms">750 毫秒</string>
-  <string name="one_second">1 秒</string>
-  <string name="onehalf_second">1.5 秒</string>
-  <string name="two_second">2 秒</string>
-  <string name="twohalf_second">2.5秒</string>
-  <string name="three_second_default">3 秒 (預設)</string>
-  <string name="threehalf_second">3.5 秒</string>
-  <string name="four_second">4 秒</string>
-  <string name="fourhalf_second">4.5 秒</string>
-  <string name="five_second">5 秒</string>
+  <string name="doze_trigger_notification_summary_on">將由通知觸發脈衝</string>
+  <string name="doze_trigger_notification_summary_off">通知不會用作觸發器</string>
+  <string name="doze_brightness_level_title">亮度級別</string>
+  <string name="onehundred_ms">100ms</string>
+  <string name="twofifty_ms">250 ms</string>
+  <string name="fivehundred_ms_default">500 ms (預設)</string>
+  <string name="sevenfifty_ms">750 ms</string>
+  <string name="one_second">1 s</string>
+  <string name="onehalf_second">1.5 s</string>
+  <string name="two_second">2 s</string>
+  <string name="twohalf_second">2.5 s</string>
+  <string name="three_second_default">3 s (預設)</string>
+  <string name="threehalf_second">3.5 s</string>
+  <string name="four_second">4 s</string>
+  <string name="fourhalf_second">4.5 s</string>
+  <string name="five_second">5 s</string>
   <string name="doze_notification_color_invert_title">通知反轉</string>
   <string name="doze_notification_color_invert_summary_off">通知不會被反轉。 用於黑暗的主題。</string>
   <string name="doze_notification_color_invert_summary_on">通知將反轉。 用於淡色/原始主題。</string>
@@ -150,7 +149,6 @@
   <string name="app_ops_cat_location">位置</string>
   <string name="app_ops_cat_personal">個人</string>
   <string name="app_ops_cat_messaging">簡訊</string>
-  <string name="app_ops_cat_media">媒體</string>
   <string name="app_ops_cat_device">裝置</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">相機</string>
@@ -214,11 +212,11 @@
   <string name="app_ops_get_accounts">手機帳號</string>
   <string name="app_ops_run_in_background">後台運行</string>
   <string name="ambient_display_show_battery_title">電池狀態</string>
-  <string name="ambient_display_show_battery_summary">在充電時顯示電池電量指示器</string>
+  <string name="ambient_display_show_battery_summary">在充電時顯示電池電量</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">警告色</string>
-  <string name="battery_saver_color_summary">在省電模式啟動時，啟用橙色的狀態和導航列</string>
+  <string name="battery_saver_color_summary">在省電模式啟動時，啟用橙色的狀態和導覽列</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">預防意外喚醒</string>
   <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
@@ -226,7 +224,6 @@
   <string name="systemui_restart_title">警告</string>
   <string name="systemui_restart_message">將重新啟動使用者介面，以便可以正確套用所選設定。</string>
   <string name="restarting_ui">正在重新啟動使用者介面\u2026</string>
-  <string name="print_restart">重新啟動</string>
   <string name="device_gestures_title">裝置手勢</string>
   <string name="device_gestures_summary">為你的裝置新增額外的手勢</string>
   <string name="device_doze_title">環境顯示手勢</string>
@@ -251,8 +248,8 @@
   <string name="keywords_expanded_desktop">擴展桌面</string>
   <string name="expanded_hide_nothing">不隱藏</string>
   <string name="expanded_hide_status">隱藏狀態列</string>
-  <string name="expanded_hide_navigation">隱藏導航列</string>
-  <string name="expanded_hide_both">兩者都隱藏</string>
+  <string name="expanded_hide_navigation">隱藏導覽列</string>
+  <string name="expanded_hide_both">兩者皆隱藏</string>
   <string name="expanded_nothing_to_show">若要為特定的應用程式設定延伸狀態，請關閉「全部延伸」的選項</string>
   <string name="expanded_desktop_state">延伸狀態</string>
   <string name="expanded_enabled_for_all">全部延伸</string>
@@ -389,7 +386,7 @@
   <string name="screenshot_sound_title">螢幕擷取音效</string>
   <string name="screenshot_sound_summary">螢幕截圖時播放音效</string>
   <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">亮度</string>
+  <string name="night_brightness_category">光暗度</string>
   <string name="night_brightness_value_title">夜間模式亮度</string>
   <string name="night_brightness_text">啟用夜間模式時，自動設定所需的亮度。</string>
   <string name="night_bright_disabled">已停用</string>
@@ -397,8 +394,8 @@
   <string name="night_bright_low">低亮度</string>
   <string name="night_bright_medium">中等亮度</string>
   <!-- setting: show CPU info-->
-  <string name="show_cpu_info">顯示處理器資訊</string>
-  <string name="show_cpu_info_summary">目前的處理器資訊重疊在螢幕上</string>
+  <string name="show_cpu_info">顯示CPU資訊</string>
+  <string name="show_cpu_info_summary">當前的CPU資訊覆蓋在螢幕上</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">快速解鎖</string>
   <string name="unlock_quick_unlock_control_summary">當正確的 PIN 碼/密碼被輸入時自動解鎖</string>
@@ -414,7 +411,7 @@
   <string name="power_notifications_enable_title">啟用</string>
   <string name="power_notifications_enable_summary">在連接/斷開電源時播放音效</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-  <string name="power_notifications_vibrate_title">震動</string>
+  <string name="power_notifications_vibrate_title">振動</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">通知音效</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
@@ -429,9 +426,9 @@
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <string name="lockpattern_settings_enable_dots_title">顯示圖形節點</string>
   <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">震動</string>
+  <string name="lockscreen_vibrate_enabled_title">振動</string>
   <string name="lockscreen_vibrate_enabled_head">解鎖時震動</string>
   <!-- Night Display -->
-  <string name="night_display_ok">確定</string>
+  <string name="night_display_ok">OK</string>
   <!-- Quick unlock information -->
 </resources>
