@@ -249,5 +249,191 @@
     <string name="systemui_restart_message">SystemUI will be restarted so that selected setting can be applied correctly.</string>
     <string name="restarting_ui">Restarting UI\u2026</string>
     <string name="print_restart">Restart</string>
+	
+	<!-- General strings -->
+    <string name="header_category_custom">UI &#38; UX</string>
+
+    <!-- Dashboard options -->
+    <string name="dashboard_category">Опции главного меню</string>
+    <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
+    <string name="remove_tile_summaries_title">Информация под пунктом меню</string>
+    <string name="remove_tile_summaries_summary_enabled">Показывать информацию под пунктом главного меню</string>
+    <string name="remove_tile_summaries_summary_disabled">Не показывать информацию под пунктом главного меню</string>
+    <string name="dashboard_conditions_title">Уведомления в главном меню</string>
+    <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
+    <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+    <string name="dashboard_columns_portrait_title">Столбцы (в портретной)</string>
+    <string name="dashboard_columns_landscape_title">Столбцы (в альбомной)</string>
+
+    <!-- Battery saver notification toggle -->
+    <string name="battery_saver_notif_title">Уведомление о режие энергосбережения</string>
+    <string name="battery_saver_notif_summary">Уведомлять при переходе в режим энергосбережения</string>
+    <!-- low battery notification toggle -->
+    <string name="battery_low_notif_title">Low battery notification</string>
+    <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
+
+<!-- Display Settings -->
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_lockscreen_rotation_title">Поворот экрана блокировки</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
+    <!-- About AospExtended -->
+    <string name="aex_about_info">О нас</string>
+    <string name="aex_about_summary">Our introduction and our team</string>
+    <string name="aex_about_info_summary">AospExtended is an AOSP based rom which provides stock UI/UX with various customisations features along with the Substratum theme engine. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.&#35;BeExtended</string>
+    <string name="dev_info">Об AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">Посмотрите наш исходный код</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Вступите в наше G+ сообщество</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Вступите в группу обсуждений в Telegram</string>
+    <string name="telegram_description">Подпишитесь на наш канал в Telegram</string>
+    <string name="web">Центр Загрузок</string>
+    <string name="web_description">Visit our download portal</string>
+    <string name="walls">Wallpapers</string>
+    <string name="walls_description">Get wallpapers contributed by various users</string>
+    <string name="leads">Team Leads</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Owner/Lead Developer</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Developer</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Telegram/G+ Moderator, Beginner and Amateur</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Web Developer, OTA Bringup</string>
+    <string name="designers">Designers</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Thread Banners, Logos, Wallpapers</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">QS/Fling logos</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Wallpapers, Bootanimations</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="maintainer_description">Maintains for %1$s</string>
+    <string name="translators">Translators</string>
+    <string name="translator_description">Translates to %1$s</string>
+
+<!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при снятии скриншота</string>
+    <string name="screenshot_sound_summary">Воспроизводит звуковой эффект при снятии скриншота</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Яркость</string>
+    <string name="night_brightness_value_title">Яркость в ночном режиме</string>
+    <string name="night_brightness_text">При включении ночного режима изменяется яркость экрана. По умолчанию яркость - низкая</string>
+    <string name="night_bright_disabled">Выключено</string>
+    <string name="night_bright_min">Минимальная</string>
+    <string name="night_bright_low">Низкая</string>
+    <string name="night_bright_medium">Средняя</string>
+
+   <!-- setting: show CPU info-->
+    <string name="show_cpu_info">Показать информацию о процессоре</string>
+    <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK)\nПрим.: только для 4-значного PIN !</string>
+
+    <string name="reset_wallpaper_notice">Восстановлены обои по умолчанию</string>
+
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Пробудить при зарядке</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включить экран при подключении или отключении зарядки</string>
+
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">Процессор</string>
+    <string name="mem_info">Оперативная память</string>
+
+    <!-- Category title for Charging sounds -->
+    <string name="power_notifications_category_title">Звук при зарядке</string>
+    <string name="power_notifications_enable_title">Включить</string>
+    <string name="power_notifications_enable_summary">Звук при подключении или отключении зарядки</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Вибрация</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Звуковое уведомление</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Тишина</string>
+	
+    <!-- Dashboard -->
+    <string name="substratum_title">Substratum</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Расширенный экран</string>
+    <string name="keywords_expanded_desktop">Расширенный экран</string>
+    <string name="expanded_hide_nothing">Ничего не скрывать</string>
+    <string name="expanded_hide_status">Скрыть строку состояния</string>
+    <string name="expanded_hide_navigation">Скрыть панель навигации</string>
+    <string name="expanded_hide_both">Скрыть оба</string>
+    <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений, переведите переключатель «Включено для всех» в отключенное состояние.</string>
+    <string name="expanded_desktop_state">Расширенное состояние</string>
+    <string name="expanded_enabled_for_all">Включено для всех</string>
+    <string name="expanded_user_configurable">Настраивается пользователем</string>
+    <string name="expanded_desktop_style">Стиль расширенного экрана</string>
+    <string name="expanded_desktop_style_description">Выбрать режим расширенного экрана по умолчанию</string>
+    <string name="expanded_desktop_title">Настройки расширенного экрана</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Информация о телефоне</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">back</string>
+    <string name="security_settings_fingerprint_sensor_location_front">front</string>
+    <string name="security_settings_fingerprint_sensor_location_left">left side</string>
+    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+
+    <!-- Gesture Settings -->
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
+
+    <!-- Animation Scale -->
+    <string name="animation_off">Animation off</string>
+    <string name="animation_scale_0_5x">Animation 0.5x</string>
+    <string name="animation_scale_0_75x">Animation 0.75x</string>
+    <string name="animation_scale_1x">Animation 1x</string>
+    <string name="animation_scale_1_5x">Animation 1.5x</string>
+    <string name="animation_scale_2x">Animation 2x</string>
+    <string name="animation_scale_5x">Animation 5x</string>
+    <string name="animation_scale_10x">Animation 10x</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">enabled</string>
+    <string name="sim_disabled">disabled</string>
+    <string name="sim_missing">missing or faulty</string>
+    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+    <string name="sim_enabler_will_disable_sim_title">Attention</string>
+    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
+    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
+    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
+    <string name="sim_enabler_enabling">Activating\u2026</string>
+    <string name="sim_enabler_disabling">Deactivating\u2026</string>
+    <string name="sub_activate_success">SIM activated.</string>
+    <string name="sub_activate_failed">Activation failed.</string>
+    <string name="sub_deactivate_success">SIM deactivated.</string>
+    <string name="sub_deactivate_failed">Deactivation failed.</string>
+
+    <!-- Wi-Fi region code -->
+    <string name="wifi_setting_countrycode_title">Wi\u2011Fi region code</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">Specify the region code for Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
 
 </resources>

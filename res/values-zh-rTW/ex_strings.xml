@@ -271,5 +271,236 @@
     <string name="safe_headset_volume_title">安全耳機音量</string>
     <string name="safe_headset_volume_summary">預防在首次連接耳機時音量過高</string>
     <string name="safe_headset_volume_warning_dialog_text">長時間聆聽高音量的音樂會損害你的聽力。 停用請謹慎行事。</string>
+
+   <!-- Manage applications: show substratum overlays -->
+	<string name="filter_substratum_apps">Substratum疊加層</string>
+	<string name="menu_show_substratum">顯示叠加層</string>
+	<string name="menu_hide_substratum">隱藏叠加層</string>
+
+   <!-- Manage applications: show substratum icon overlays -->
+	<string name="filter_substratum_icons">Substratum圖標叠加層</string>
+	<string name="menu_show_substratum_icons">顯示圖標叠加層</string>
+	<string name="menu_hide_substratum_icons">隱藏圖標叠加層</string>
+
+   <!-- Force authorize substratum packages -->
+	<string name="force_authorize_substratum_packages_title">強制授權每一個主題應用</string>
+	<string name="force_authorize_substratum_packages_summary">允許來源不明的主題應用</string>
+
+    <!-- ADB debugging notifications -->
+	<string name="enable_adb_custom">Android偵錯</string>
+	<string name="enable_adb_summary_custom">啟用Android偵錯（adb）介面</string>
+	<string name="adb_notify">ADB通知</string>
+	<string name="adb_notify_summary">啟用Android偵錯後顯示通知</string>
+	
+	
+    <!-- General strings -->
+    <string name="header_category_custom">UI &amp; UX</string>
+
+    <!-- Dashboard options -->
+	<string name="dashboard_category">控制面板選項</string>
+	<string name="dashboard_suggestions_title">建議</string>
+	<string name="summary_dashboard_suggestions_enabled">控制面板建議已啟用</string>
+	<string name="summary_dashboard_suggestions_disabled">控制面板建議已停用</string>
+	<string name="remove_tile_summaries_title">摘要</string>
+	<string name="remove_tile_summaries_summary_enabled">控制面板摘要已啟用</string>
+	<string name="remove_tile_summaries_summary_disabled">控制面板摘要已停用</string>
+	<string name="dashboard_conditions_title">狀態</string>
+	<string name="summary_dashboard_conditions_enabled">控制面板狀態已啟用</string>
+	<string name="summary_dashboard_conditions_disabled">控制面板狀態已停用</string>
+	<string name="dashboard_columns_portrait_title">列（直）</string>
+	<string name="dashboard_columns_landscape_title">列（橫）</string>
+
+    <!-- Battery saver notification toggle -->
+	<string name="battery_saver_notif_title">節電通知</string>
+	<string name="battery_saver_notif_summary">啟用後顯示節電通知</string>
+    <!-- low battery notification toggle -->
+	<string name="battery_low_notif_title">低電量通知</string>
+	<string name="battery_low_notif_summary">啟用後顯示低電量通知</string>
+
+<!-- Display Settings --> 
+	<!-- Rotation Modes  -->
+	<string name="display_rotation_title">旋轉</string>
+	<string name="display_rotation_disabled">停用</string>
+	<string name="display_rotation_unit">度</string>
+	<string name="display_lockscreen_rotation_title">旋轉鎖定螢幕</string>
+	<string name="display_rotation_category_title">旋轉模式</string>
+	<string name="display_rotation_0_title">0度</string>
+	<string name="display_rotation_90_title">90度</string>
+	<string name="display_rotation_180_title">180度</string>
+	<string name="display_rotation_270_title">270度</string>
+
+    <!-- About AospExtended -->
+	<string name="aex_about_info">關於我們</string>
+	<string name="aex_about_summary">項目及團隊簡介</string>
+	<string name="aex_about_info_summary">AospExtended是一個基於AOSP的rom，並提供原生UI/UX及各種自訂義功能和Substratum主題引擎。此項目是透過cherry-pick以及其他各個項目的各種commit完成的。由於是基於AOSP，rom可以提供現成流暢、無卡頓的Android體驗。我們將在未來的更新中，努力添加更多功能，並使其更加完善。#BeExtended</string>
+	<string name="dev_info">關於AospExtended</string>
+	<string name="github">Github</string>
+	<string name="github_description">查看我們的源碼</string>
+	<string name="gplus">Google+</string>
+	<string name="gplus_description">加入我們的G+社區</string>
+	<string name="telegram">Telegram</string>
+	<string name="telegram_description">加入我們的Telegram討論組</string>
+	<string name="telegram_description">訂閱我們的Telegram頻道</string>
+	<string name="web">下載中心</string>
+	<string name="web_description">拜訪我們的下載頁面</string>
+	<string name="walls">桌布</string>
+	<string name="walls_description">下載用戶分享的桌布</string>
+	<string name="leads">主創人員</string>
+	<string name="team_1">Shubham Singh (ishubhamsingh)</string>
+	<string name="team1_description">所有人/首席開發</string>
+	<string name="team_2">Aman Kumar (FireLord)</string>
+	<string name="team2_description">開發</string>
+	<string name="team_3">Amol Amrit</string>
+	<string name="team3_description">Telegram/G+版主，初學兼業餘愛好</string>
+	<string name="team_4">Henrique Silva (jhenrique09)</string>
+	<string name="team4_description">網站開發，OTA實現</string>
+	<string name="designers">設計</string>
+	<string name="designer_1">Yasan (AlienCreature7)</string>
+	<string name="designer1_description">討論區橫幅、標誌、圖片</string>
+	<string name="designer_2">Savio (Wizper99)</string>
+	<string name="designer2_description">快速設定/快速滑動標誌</string>
+	<string name="designer_3">Jesus R (KrapK)</string>
+	<string name="designer3_description">桌布、開機動畫</string>
+	<string name="maintainers">維護</string>
+	<string name="maintainer_description">維護%1$s</string>
+	<string name="translators">翻譯</string>
+	<string name="translator_description">翻譯%1$s</string>
+
+<!-- Screenshot sound -->
+	<string name="screenshot_sound_title">螢幕截圖音效</string>
+	<string name="screenshot_sound_summary">螢幕截圖時播放音效</string>
+
+    <!-- Advanced night mode brightness -->
+	<string name="night_brightness_category">亮度</string>
+	<string name="night_brightness_value_title">夜间模式</string>
+	<string name="night_brightness_text">啟用夜間模式後，自動設定想要的亮度。預設亮度設定為低亮度</string>
+	<string name="night_bright_disabled">停用</string>
+	<string name="night_bright_min">最低亮度</string>
+	<string name="night_bright_low">低亮度</string>
+	<string name="night_bright_medium">中等亮度</string>
+
+   <!-- setting: show CPU info-->
+	<string name="show_cpu_info">顯示CPU資訊</string>
+	<string name="show_cpu_info_summary">螢幕叠加層顯示目前CPU資訊</string>
+	
+	<!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當輸入正確的PIN碼後自動解鎖\n備註: 在4位數的PIN上才有用 !</string>
+
+    <string name="reset_wallpaper_notice">已回復為預設的桌布</string>
+
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">連接時喚醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">在連接/斷開電源時打開螢幕</string>
+
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">處理器</string>
+    <string name="mem_info">記憶體</string>
+
+    <!-- Category title for Charging sounds -->
+    <string name="power_notifications_category_title">充電音效</string>
+    <string name="power_notifications_enable_title">啟用</string>
+    <string name="power_notifications_enable_summary">在連接/斷開電源時播放音效</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">震動</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">通知音效</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">靜音</string>
+
+    <!-- Sizes for pattern lockscreen -->
+    <string name="lock_pattern_size_3">3x3</string>
+    <string name="lock_pattern_size_4">4x4</string>
+    <string name="lock_pattern_size_5">5x5</string>
+    <string name="lock_pattern_size_6">6x6</string>
+
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">顯示圖形錯誤</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">顯示圖形節點</string>
+
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">震動</string>
+    <string name="lockscreen_vibrate_enabled_head">解鎖時震動</string>
+	
+	 <!-- MSIM SIM status -->
+	<string name="sim_card_status_title">SIM卡%d狀態</string>
+	<string name="sim_card_lock_settings_title">SIM卡%d鎖定設定</string>
+	<string name="sim_card_summary_empty">SIM卡未插入</string>
+	<string name="sim_mobile_network_settings_category_title">移動網絡設定</string>
+	<string name="sim_mobile_network_settings_title">SIM卡%d設定</string>
+
+    <!-- Custom Settings --> 
+	<!-- Dashboard -->
+	<string name="substratum_title">Substratum</string>
+
+    <!-- App details: open play store link if app is user installed -->
+	<string name="app_play_store">Google Play</string>
+
+    <!-- Expanded desktop -->
+	<string name="power_menu_expanded_desktop">擴展桌面</string>
+	<string name="keywords_expanded_desktop">擴展桌面</string>
+	<string name="expanded_hide_nothing">無隱藏</string>
+	<string name="expanded_hide_status">隱藏狀態欄</string>
+	<string name="expanded_hide_navigation">隱藏導航欄</string>
+	<string name="expanded_hide_both">隱藏兩者</string>
+	<string name="expanded_nothing_to_show">要添加個別應用程式自定義擴展狀態配置，將“全部啟用”開關設置到關閉位置</string>
+	<string name="expanded_desktop_state">擴展狀態</string>
+	<string name="expanded_enabled_for_all">全部啟用</string>
+	<string name="expanded_user_configurable">用戶配置</string>
+	<string name="expanded_desktop_style">擴展桌面樣式</string>
+	<string name="expanded_desktop_style_description">選擇預設擴展桌面樣式</string>
+	<string name="expanded_desktop_title">擴展桌面選項</string>
+
+    <!-- Phone info shortcut -->
+	<string name="device_info_title">手機資訊</string>
+
+    <!-- Format string for fingerprint location message -->
+	<string name="security_settings_fingerprint_enroll_find_sensor_message_cm">確定手機<xliff:g id="sensor_location">%1$s</xliff:g>的指紋傳感器。</string>
+
+    <!-- Fingerprint sensor locations -->
+	<string name="security_settings_fingerprint_sensor_location_back">背面</string>
+	<string name="security_settings_fingerprint_sensor_location_front">前面</string>
+	<string name="security_settings_fingerprint_sensor_location_left">左面</string>
+	<string name="security_settings_fingerprint_sensor_location_right">右面</string>
+
+    <!-- Gesture Settings --> 
+	<!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+	<string name="double_twist_for_camera_mode_summary_pn">要在Google相機中進入或退出自拍模式時，在應用內進行雙扭操作</string>
+
+    <!-- Animation Scale -->
+	<string name="animation_off">動畫關閉</string>
+	<string name="animation_scale_0_5x">動畫0.5x</string>
+	<string name="animation_scale_0_75x">動畫0.75x</string>
+	<string name="animation_scale_1x">動畫1x</string>
+	<string name="animation_scale_1_5x">動畫1.5x</string>
+	<string name="animation_scale_2x">動畫2x</string>
+	<string name="animation_scale_5x">動畫5x</string>
+	<string name="animation_scale_10x">動畫10x</string>
+
+	<string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>已<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+	<string name="sim_enabled">啟用</string>
+	<string name="sim_disabled">停用</string>
+	<string name="sim_missing">遺失或故障</string>
+	<string name="sim_enabler_need_disable_sim">SIM卡將停用。是否繼續？</string>
+	<string name="sim_enabler_will_disable_sim_title">註意</string>
+	<string name="sim_enabler_need_switch_data_service">該SIM卡將被禁用，而SIM卡 <xliff:g id="slotid">%1$s</xliff:g>將用於數據服務。您確定要繼續嗎？</string>
+	<string name="sim_enabler_airplane_on">打開飛行模式時無法執行該操作。</string>
+	<string name="sim_enabler_in_call">通話期間無法執行該操作。</string>
+	<string name="sim_enabler_both_inactive">不能禁用所有的SIM卡</string>
+	<string name="sim_enabler_enabling">啟用\u2026</string>
+	<string name="sim_enabler_disabling">停用\u2026</string>
+	<string name="sub_activate_success">SIM卡已啟用。</string>
+	<string name="sub_activate_failed">啟用失敗。</string>
+	<string name="sub_deactivate_success">SIM卡已停用。</string>
+	<string name="sub_deactivate_failed">停用失敗。</string>
+
+    <!-- Wi-Fi region code -->
+	<string name="wifi_setting_countrycode_title">Wi\u2011Fi地區碼</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+	<string name="wifi_setting_countrycode_summary">規定Wi\u2011Fi地區碼</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+	<string name="wifi_setting_countrycode_error">設置地區碼期間出現問題。</string>
+	
 </resources>
 
