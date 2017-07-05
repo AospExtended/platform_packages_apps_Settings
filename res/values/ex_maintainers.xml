@@ -64,6 +64,7 @@
         <item>Giuseppe Barillari (joe2k01)</item>
         <item>Davide Della Maddalena (davidevinavil)</item>
         <item>Amy-Clara-Rose (minidude2012)</item>
+        <item>Yu Zhu (viscropst)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -115,6 +116,7 @@
         <item>Samsung Galaxy Tab S2 9.7 Wifi 2016 (gts210vewifi)</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
         <item>Zuk Z2 plus</item> <!-- Maintainer: davidevinavil -->
         <item>Nexus 6P (angler)</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
+        <item>Xiaomi Mi 4c (libra)</item> <!-- Maintainer: Yu Zhu (viscropst) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -167,5 +169,6 @@
         <item>https://forum.xda-developers.com/member.php?u=7137962</item> <!-- Maintainer: Giuseppe Barillari (joe2k01) -->
         <item>https://forum.xda-developers.com/member.php?u=2823824</item> <!-- Maintainer: davidevinavil -->
         <item>https://forum.xda-developers.com/member.php?u=5545311</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
+        <item>https://forum.xda-developers.com/member.php?u=8142767</item> <!-- Maintainer: Yu Zhu (viscropst) -->
      </string-array>
 </resources>
