@@ -440,4 +440,8 @@
   <string name="night_display_hide">Non mostrare questo avviso</string>
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Avviso</string>
+  <string name="quick_unlock_alert_msg">Questa caratteristica funziona solo se si utilizza un codice PIN a 4 cifre, altrimenti potrebbero verificarsi effetti indesiderati con il dispositivo.</string>
+  <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Non c'è bisogno, le impostazioni di sviluppo sono abilitate per impostazione predefinita.</string>
 </resources>
