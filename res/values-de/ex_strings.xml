@@ -40,27 +40,27 @@
   <string name="volume_steps_ring_title">Lautstärkestufen: Klingelton</string>
   <string name="volume_steps_system_title">Lautstärkestufen: System</string>
   <string name="volume_steps_voice_call_title">Lautstärkestufen: Anruf</string>
-  <string name="volume_steps_reset">Rücksetzen</string>
+  <string name="volume_steps_reset">Zurücksetzen</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Ton bei Lautstärkenänderung</string>
+  <string name="volume_adjust_sounds_title">Ton bei Lautstärkeänderung</string>
   <!-- Keyboard and Input ASS methods -->
   <string name="show_enter_key_title">Eingabetaste anzeigen</string>
-  <string name="show_enter_key_summary">Zwingt die Tastatur zur Darstellung der Eingabetaste anstelle der Emoticon-Taste</string>
+  <string name="show_enter_key_summary">Zwingt die Tastatur zur Darstellung der Eingabetaste, anstelle der Emoticon-Taste</string>
   <!-- Whether to display IME switcher notifcation -->
   <string name="ime_switcher_notify">Auswahlsymbol</string>
   <string name="ime_switcher_notify_summary">Symbol für Eingabemethodenauswahl anzeigen</string>
   <!-- Changelog -->
   <string name="changelog_title">Änderungsprotokoll</string>
-  <string name="changelog_error">Laden des Changelogs fehlgeschlagen</string>
+  <string name="changelog_error">Konnte Änderungen nicht laden</string>
   <string name="changelog_summary">Letzte Änderungen</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Gleiche Lautstärke für Klingelton und Benachrichtigungen</string>
   <string name="notification_volume_option_title">Benachrichtigungslautstärke</string>
   <string name="ring_notification_volume_option_title">Klingel- und Benachrichtigungslautstärke</string>
   <!-- Camera sound -->
-  <string name="camera_sounds_title">Kamera-Auslöserton</string>
+  <string name="camera_sounds_title">Kamera-Auslöseton</string>
   <!-- Custom tiles summary -->
-  <string name="substratum_settings_summary">Theme engine</string>
+  <string name="substratum_settings_summary">Theme-Engine</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Rootzugriff</string>
   <string name="rootmanagement_dashboard_summary">Verwalte Rootzugriff</string>
@@ -72,7 +72,7 @@
   <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Geringere Häufigkeit an Benachrichtigungstönen</string>
-  <string name="less_notification_sounds_summary">Die Benachrichtigungs-Töne jeder Anwendung nur einmal pro festgelegten Zeitraum wiedergeben</string>
+  <string name="less_notification_sounds_summary">Die Benachrichtigungstöne jeder Anwendung nur einmal pro festgelegten Zeitraum wiedergeben</string>
   <string name="less_notification_sounds_default">Standardverhalten</string>
   <string name="less_notification_sounds_3s">3 Sekunden</string>
   <string name="less_notification_sounds_5s">5 Sekunden</string>
@@ -110,41 +110,49 @@
   <string name="summary_doze_disabled">Deaktiviert</string>
   <string name="doze_overwrite_value_title">Standardwerte überschreiben</string>
   <string name="doze_overwrite_value_summary">Zulassen dass die Standardwerte mit Benutzereinstellungen überschrieben wird</string>
-  <string name="doze_pulse_title">Benutzer konfigurierbare Einstellungen</string>
+  <string name="doze_pulse_title">Benutzerdefinierte Einstellungen</string>
   <string name="doze_pulse_duration_in_title">Einblenden</string>
   <string name="doze_pulse_duration_visible_title">Sichtbarkeitsdauer</string>
   <string name="doze_pulse_duration_out_title">Ausblenden</string>
-  <string name="doze_trigger_pickup_title">Hochheben-Geste als Auslöser</string>
-  <string name="doze_trigger_pickup_summary_on">Pulse wird durch den Hochhebesensor ausgelöst</string>
-  <string name="doze_trigger_pickup_summary_off">Hochhebe-Sensor wird nicht als Auslöser benutzt</string>
+  <string name="doze_trigger_pickup_title">Aufnehmen</string>
+  <string name="doze_trigger_pickup_summary_on">Doze wird beim Aufnehmen aktiviert</string>
+  <string name="doze_trigger_pickup_summary_off">Doze wird nicht beim Aufnehmen aktiviert</string>
   <string name="doze_trigger_notification_title">Benachrichtigungen als Auslöser</string>
-  <string name="doze_trigger_notification_summary_on">Pulse wird durch Benachrichtigungen ausgelöst</string>
-  <string name="doze_trigger_notification_summary_off">Benachrichtigungen werden nicht als Auslöser verwendet</string>
+  <string name="doze_trigger_notification_summary_on">Doze wird durch Benachrichtigungen ausgelöst</string>
+  <string name="doze_trigger_notification_summary_off">Doze wird nicht durch Benachrichtigungen ausgelöst</string>
   <string name="doze_brightness_level_title">Helligkeitsstufe</string>
-  <string name="onehundred_ms">100 ms</string>
-  <string name="twofifty_ms">250 ms</string>
-  <string name="fivehundred_ms_default">500 ms (Standard)</string>
-  <string name="sevenfifty_ms">750 ms</string>
-  <string name="one_second">1 s</string>
-  <string name="onehalf_second">1.5 s</string>
-  <string name="two_second">2 s</string>
-  <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (Standard)</string>
-  <string name="threehalf_second">3.5 s</string>
-  <string name="four_second">4 s</string>
-  <string name="fourhalf_second">4.5 s</string>
-  <string name="five_second">5 s</string>
-  <string name="doze_notification_color_invert_title">Benachrichtigungen invertieren</string>
-  <string name="doze_notification_color_invert_summary_off">Benachrichtigungen werden nicht invertiert. Für dunkle Themen verwenden.</string>
+  <string name="onehundred_ms">100 Millisekunden</string>
+  <string name="twofifty_ms">250 Millisekunden</string>
+  <string name="fivehundred_ms_default">500 Millisekunden (Standard)</string>
+  <string name="sevenfifty_ms">750 Millisekunden</string>
+  <string name="one_second">1 Sekunde</string>
+  <string name="onehalf_second">1.5 Sekunden</string>
+  <string name="two_second">2 Sekunden</string>
+  <string name="twohalf_second">2.5 Sekunden</string>
+  <string name="three_second_default">3 Sekunden (Standard)</string>
+  <string name="threehalf_second">3.5 Sekunden</string>
+  <string name="four_second">4 Sekunden</string>
+  <string name="fourhalf_second">4.5 Sekunden</string>
+  <string name="five_second">5 Sekunden</string>
+  <string name="doze_notification_color_invert_title">Benachrichtigungen umkehren</string>
+  <string name="doze_notification_color_invert_summary_off">Benachrichtigungen werden nicht umgekehrt. Bei dunklen Themes benutzen.</string>
   <string name="doze_notification_color_invert_summary_on">Benachrichtigungen werden invertiert. Für helle Themen verwenden.</string>
   <!-- Double tap for doze -->
   <string name="double_tap_wake_doze_title">Zum Aktivieren tippen, bei Doze</string>
   <string name="double_tap_wake_doze_summary">Macht einen Doppeltipp auf den Bildschirm nötig, um das Gerät zu aktivieren</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">App-Vorgänge</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">Erweiterte per-App Optionen</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Ort</string>
+  <string name="app_ops_cat_personal">Eigene</string>
+  <string name="app_ops_cat_messaging">Messaging</string>
+  <string name="app_ops_cat_media">Medien</string>
+  <string name="app_ops_cat_device">Gerät</string>
+  <string name="app_ops_cat_bootup">Systemstart</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">auf die Kamera zuzugreifen</string>
   <string name="app_ops_access_location">den Standort abzurufen</string>
@@ -184,7 +192,7 @@
   <string name="app_ops_use_bluetooth_volume">die Bluetooth-Laustärke zu ändern</string>
   <string name="app_ops_use_master_volume">die Gesamtlautstärke zu ändern</string>
   <string name="app_ops_use_media_buttons">die Medienschaltflächen zu nutzen</string>
-  <string name="app_ops_use_media_volume">die Medienlautstärke zu ändern</string>
+  <string name="app_ops_use_media_volume">die Medienlautstärke ändern</string>
   <string name="app_ops_use_notification_volume">die Benachrichtigungslautstärke zu ändern</string>
   <string name="app_ops_use_ring_volume">die Klingeltonlautstärke zu ändern</string>
   <string name="app_ops_use_vibrate">den Vibrationsalarm zu steuern</string>
@@ -208,6 +216,7 @@
   <string name="app_ops_wifi_change">WLAN-Status zu ändern</string>
   <string name="app_ops_toggle_bluetooth">Bluetooth ein-/auszuschalten</string>
   <string name="app_ops_run_in_background">im Hintergrund ausgeführt zu werden</string>
+  <string name="app_ops_boot_completed">automatisch starten</string>
   <string name="ambient_display_show_battery_title">Akkustatus</string>
   <string name="ambient_display_show_battery_summary">Akkustatus während Puls anzeigen</string>
   <!-- Battery Saver Settings -->
@@ -215,13 +224,27 @@
   <string name="battery_saver_color_title">Warnungsfarbe</string>
   <string name="battery_saver_color_summary">Aktiviere orangene Status-/Navigationsleiste bei aktiviertem Energiesparmodus</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+  <string name="proximity_wake_summary">Vor dem Aktivieren des Displays den Näherungssensor überprüfen</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">WARNUNG</string>
   <string name="systemui_restart_message">Die Benutzeroberfläche wird neu gestartet, damit die gewählten Einstellungen korrekt angewandt werden können.</string>
   <string name="restarting_ui">Starte Benutzeroberfläche neu\u2026</string>
   <string name="print_restart">Neu starten</string>
+  <string name="device_gestures_title">Gesten</string>
+  <string name="device_gestures_summary">Zusätzliche Gesten für ihr Gerät einrichten</string>
+  <string name="device_doze_title">Inaktivitätsbildschirm Einstellungen</string>
+  <string name="device_doze_summary">Zusätzliche Gesten für Inaktivitätsmodus Modus einrichten</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">Speichere Kopfhörerlautstärke</string>
+  <string name="safe_headset_volume_summary">Verhindere zu hohe Lautstärke, wenn der Kopfhörer erstmalig eingesteckt wird</string>
+  <string name="safe_headset_volume_warning_dialog_text">Hören mit hoher Lautstärke kann ihr Gehör schädigen. Deaktivierung mit Vorsicht.</string>
   <!-- MSIM SIM status -->
+  <string name="sim_card_status_title">SIM Status</string>
+  <string name="sim_card_lock_settings_title">SIM Sperreinstellungen</string>
+  <string name="sim_card_summary_empty">SIM Karte nicht eingelegt</string>
+  <string name="sim_mobile_network_settings_category_title">Mobilfunknetz-Einstellungen</string>
+  <string name="sim_mobile_network_settings_title">SIM Karte Einstellungen</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="substratum_title">Substratum</string>
@@ -242,7 +265,7 @@
   <string name="expanded_desktop_style_description">Standardaussehen des erweiterten Desktop wählen</string>
   <string name="expanded_desktop_title">Optionen des erweiterten Desktops</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Geräte Info</string>
+  <string name="device_info_title">Über das Telefon</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
   <!-- Fingerprint sensor locations -->
@@ -252,7 +275,7 @@
   <string name="security_settings_fingerprint_sensor_location_right">Rechte Seite</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
-  <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
+  <string name="double_twist_for_camera_mode_summary_pn">Handgelenk zweimal drehen, um in der Kamera den Selfie-Modus ein- oder auszuschalten</string>
   <!-- Animation Scale -->
   <string name="animation_off">Animationen ausschalten</string>
   <string name="animation_scale_0_5x">Animation 0.5x</string>
@@ -262,9 +285,28 @@
   <string name="animation_scale_2x">Animation 2x</string>
   <string name="animation_scale_5x">Animation 5x</string>
   <string name="animation_scale_10x">Animation 10x</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> ist <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">Aktiviert</string>
+  <string name="sim_disabled">Deaktiviert</string>
+  <string name="sim_missing">fehlt oder ist defekt</string>
+  <string name="sim_enabler_need_disable_sim">SIM-Karte wird deaktiviert. Möchten Sie fortfahren?</string>
+  <string name="sim_enabler_will_disable_sim_title">Achtung</string>
+  <string name="sim_enabler_need_switch_data_service">Diese SIM-Karte wird deaktiviert und SIM-Karte <xliff:g id="slotid">%1$s</xliff:g> wird für Datendienste weiterverwendet. Sind Sie sicher, dass Sie fortfahren möchten?</string>
+  <string name="sim_enabler_airplane_on">Vorgang kann nicht im Flugmodus durchgeführt werden.</string>
+  <string name="sim_enabler_in_call">Vorgang kann nicht während eines Anrufs durchgeführt werden.</string>
+  <string name="sim_enabler_both_inactive">Es können nicht alle SIM-Karten deaktiviert werden</string>
+  <string name="sim_enabler_enabling">Aktivieren\u2026</string>
+  <string name="sim_enabler_disabling">Deaktivieren\u2026</string>
+  <string name="sub_activate_success">SIM-Karte aktiviert.</string>
+  <string name="sub_activate_failed">Aktivierung fehlgeschlagen.</string>
+  <string name="sub_deactivate_success">SIM-Karte deaktiviert.</string>
+  <string name="sub_deactivate_failed">Deaktivierung fehlgeschlagen.</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">WLAN-Ländercode</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">WLAN-Ländercode festlegen</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Beim Festlegen des Ländercodes ist ein Problem aufgetreten.</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum Overlays</string>
   <string name="menu_show_substratum">Overlays anzeigen</string>
@@ -274,13 +316,16 @@
   <string name="menu_show_substratum_icons">Overlay-Icons zeigen</string>
   <string name="menu_hide_substratum_icons">Overlay-Icons ausblenden</string>
   <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">Erlaube Theme Apps von unbekannten Quellen</string>
-  <string name="force_authorize_substratum_packages_summary">Zwinge eine Authorisierung aller Theme Apps</string>
+  <string name="force_authorize_substratum_packages_title">Erlaube Theme-Apps aus unbekannten Quellen</string>
+  <string name="force_authorize_substratum_packages_summary">Zwinge eine Authorisierung aller Theme-Apps</string>
   <!-- ADB debugging notifications -->
-  <string name="enable_adb_custom">Android debugging</string>
+  <string name="enable_adb_custom">Android-Debugging</string>
   <string name="enable_adb_summary_custom">Aktiviere USB-Debugging</string>
   <string name="adb_notify">ADB Benachrichtigung</string>
-  <string name="adb_notify_summary">Blende eine Benachrichtigung ein wenn USB-Debugging aktiviert ist.</string>
+  <string name="adb_notify_summary">Eine Benachrichtigung anzeigen, wenn USB- oder Netzwerkdebugging aktiviert ist</string>
+  <string name="adb_over_network">ADB über Netzwerk</string>
+  <string name="adb_over_network_summary">TCP/IP-Debugging über Netzwerkschnittstellen (WLAN, USB-Netzwerke) aktivieren. Diese Einstellung wird beim Neustarten zurückgesetzt</string>
+  <string name="adb_over_network_warning">WARNUNG: Wenn ADB übers Netzwerk aktiviert ist, kann auf Ihr Gerät von jedem verbundenen Netzwerk zugegriffen werden!\n\nDiese Funktion sollte nur verwendet werden, wenn Sie sich in einem vertrauenswürdigen Netzwerk befinden.\n\nMöchten Sie diese Funktion trotzdem aktivieren?</string>
   <!-- General strings -->
   <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
@@ -298,15 +343,17 @@
   <string name="dashboard_columns_landscape_title">Spalten (Querformat)</string>
   <!-- Battery saver notification toggle -->
   <string name="battery_saver_notif_title">Benachrichtigung für den Energiesparmodus</string>
+  <string name="battery_saver_notif_summary">Zeigt eine Benachrichtigung an, wenn der Energiesparmodus aktiv ist</string>
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Benachrichtigung bei schwachen Akku</string>
+  <string name="battery_low_notif_summary">Zeigt eine Benachrichtigung an, wenn der Akkustand niedrig ist</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
   <string name="display_rotation_title">Rotation</string>
   <string name="display_rotation_disabled">Deaktiviert</string>
   <string name="display_rotation_unit">Grad</string>
   <string name="display_lockscreen_rotation_title">Rotiere Sperrbildschirm</string>
-  <string name="display_rotation_category_title">Rotationsmodi</string>
+  <string name="display_rotation_category_title">Rotationsmodus</string>
   <string name="display_rotation_0_title">0 Grad</string>
   <string name="display_rotation_90_title">90 Grad</string>
   <string name="display_rotation_180_title">180 Grad</string>
@@ -325,13 +372,17 @@
   <string name="telegram_description">Trete unserer Telegramgruppe bei!</string>
   <string name="web">Downloads</string>
   <string name="web_description">Besuche unsere Downloadseite!</string>
-  <string name="leads">Team-Führer</string>
+  <string name="help_translate">Übersetzungen</string>
+  <string name="help_translate_description">Besuche Crowdin, um in deine Sprache zu übersetzen</string>
+  <string name="walls">Hintergrundbilder</string>
+  <string name="walls_description">Die Hintergrundbilder sind von unterschiedlichen Benutzern erstellt worden</string>
+  <string name="leads">Teamleiter</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
   <string name="team1_description">Besitzer und führender Entwickler</string>
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Entwickler</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Telegram/G+ Moderator, Anfänger</string>
+  <string name="team3_description">Moderator und ein Amateur-Entwickler</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Entwickler</string>
   <string name="designers">Designer</string>
@@ -344,11 +395,11 @@
   <string name="maintainers">Versorger</string>
   <string name="maintainer_description">Versorgt das %1$s</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot-Auslöserton</string>
-  <string name="screenshot_sound_summary">Spielt einen Ton ab, sobal ein Bildschrimfoto aufegenommen wurde</string>
+  <string name="screenshot_sound_title">Bildschirfoto-Ton</string>
+  <string name="screenshot_sound_summary">Spielt einen Ton ab, sobald ein Bildschirmfoto aufgenommen wurde</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Helligkeit</string>
-  <string name="night_brightness_value_title">Nachtlicht Helligkeit</string>
+  <string name="night_brightness_value_title">Helligkeit bei Nachtlicht</string>
   <string name="night_brightness_text">Bei aktiviertem Nachtlicht, wird automatisch die gewünschte Helligkeit eingestellt.</string>
   <string name="night_bright_disabled">Deaktiviert</string>
   <string name="night_bright_min">Minimale Helligkeit</string>
@@ -357,25 +408,46 @@
   <string name="night_bright_medium">Mittlere Helligkeit</string>
   <!-- setting: show CPU info-->
   <string name="show_cpu_info">CPU-Info anzeigen</string>
-  <string name="show_cpu_info_summary">Bildschirm-Overlay einblenden, welches Informationen über den aktuelle CPU-Status anzeigt</string>
+  <string name="show_cpu_info_summary">Einblendung aktueller CPU-Informationen auf dem Bildschirm</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
   <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, sobald die PIN-/Passwort-Anfrage korrekt beantwortet wurde</string>
+  <string name="reset_wallpaper_notice">Standard-Hintergrundbild wiederhergestellt</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Beim Laden aufwecken</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
-  <string name="mem_info">RAM</string>
+  <string name="processor_info">Prozessor</string>
+  <string name="mem_info">Arbeitsspeicher</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Ladetöne</string>
   <string name="power_notifications_enable_title">Aktiviert</string>
+  <string name="power_notifications_enable_summary">Beim Anschließen oder Trennen des Ladegerätes einen Ton abspielen</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrieren</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Benachrichtigungston</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Lautlos</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Fehlerhaftes Entsperrmuster anzeigen</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Entsperrmuster-Punkte anzeigen</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibrieren</string>
+  <string name="lockscreen_vibrate_enabled_head">Beim Entsperren vibrieren</string>
   <!-- Night Display -->
+  <string name="night_display_warning">Bitte beachten Sie, dass Nachtlicht den Batterieverbrauch erhöhen kann.</string>
+  <string name="night_display_hide">Diese Warnung nicht anzeigen</string>
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Warnung</string>
+  <string name="quick_unlock_alert_msg">Dieses Feature funktioniert nur, wenn Sie einen 4-stelligen PIN verwenden.</string>
+  <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nicht benötigt, da die Entwickleroptionen standardmäßig aktiviert sind.</string>
 </resources>

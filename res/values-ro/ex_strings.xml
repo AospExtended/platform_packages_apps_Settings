@@ -172,4 +172,5 @@
   <string name="lockscreen_vibrate_enabled_title">Vibrare</string>
   <!-- Night Display -->
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>

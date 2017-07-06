@@ -323,6 +323,9 @@
   <string name="enable_adb_summary_custom">Attivare l\'interfaccia di Android Debug Bridge (adb)</string>
   <string name="adb_notify">Notifica ADB</string>
   <string name="adb_notify_summary">Visualizza una notifica quando il debug di Android è abilitato</string>
+  <string name="adb_over_network">ADB via rete</string>
+  <string name="adb_over_network_summary">Attiva il debug TCP/IP tramite interfacce di rete (Wi-Fi, reti USB). Questa impostazione è ripristinata al riavvio</string>
+  <string name="adb_over_network_warning">ATTENZIONE: quando è attivo l\'ADB tramite rete, il telefono è vulnerabile a intrusioni da parte di tutte le reti dati connesse!\n\nUsare questa funzionalità esclusivamente se si è connessi a reti affidabili.\n\nAttivare questa funzione?</string>
   <!-- General strings -->
   <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
@@ -369,6 +372,8 @@
   <string name="telegram_description">Iscriviti al nostro canale su Telegram</string>
   <string name="web">Centro download</string>
   <string name="web_description">Visita il nostro portale di download</string>
+  <string name="help_translate">Traduzioni</string>
+  <string name="help_translate_description">Traduci nella tua lingua, visita il nostro sito Crowdin</string>
   <string name="walls">Sfondi</string>
   <string name="walls_description">Ottieni sfondi condivisi da vari utenti</string>
   <string name="leads">Responsabili del Team</string>
@@ -377,7 +382,7 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Sviluppatore</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderatore Telegram/G+</string>
+  <string name="team3_description">Moderatore e sviluppatore amatoriale</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Sviluppatore</string>
   <string name="designers">Progettisti</string>
@@ -418,7 +423,7 @@
   <string name="power_notifications_enable_title">Abilita</string>
   <string name="power_notifications_enable_summary">Riproduci un suono quando si collega o scollega il caricabatterie</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-  <string name="power_notifications_vibrate_title">Vibra</string>
+  <string name="power_notifications_vibrate_title">Vibrazione</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">Suono di notifica</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
@@ -433,11 +438,15 @@
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <string name="lockpattern_settings_enable_dots_title">Visualizza i punti della sequenza</string>
   <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">Vibra</string>
+  <string name="lockscreen_vibrate_enabled_title">Vibrazione</string>
   <string name="lockscreen_vibrate_enabled_head">Vibra quando si sblocca</string>
   <!-- Night Display -->
   <string name="night_display_warning">Considera che la luce notturna può aumentare il consumo di batteria.</string>
   <string name="night_display_hide">Non mostrare questo avviso</string>
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Avviso</string>
+  <string name="quick_unlock_alert_msg">Questa caratteristica funziona solo se si utilizza il PIN di 4 cifre, altrimenti potrebbero verificarsi effetti indesiderati con il dispositivo.</string>
+  <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Non è necessario, le opzioni sviluppatore sono attive per impostazione predefinita.</string>
 </resources>

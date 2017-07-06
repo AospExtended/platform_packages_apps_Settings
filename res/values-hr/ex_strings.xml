@@ -216,4 +216,5 @@
   <!-- Night Display -->
   <string name="night_display_ok">U redu</string>
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>

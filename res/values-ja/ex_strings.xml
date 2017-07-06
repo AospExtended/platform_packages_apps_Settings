@@ -208,4 +208,5 @@
   <!-- Night Display -->
   <string name="night_display_ok">はい</string>
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>

@@ -104,4 +104,5 @@
   <string name="lockscreen_vibrate_enabled_title">สั่น</string>
   <!-- Night Display -->
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>

@@ -161,4 +161,5 @@
   <!-- Night Display -->
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>

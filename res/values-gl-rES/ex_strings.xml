@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extensions_title">Extensións</string>
   <!-- AEX OTA -->
   <!-- About phone screen, build date -->
   <!-- Vendor version -->
@@ -42,23 +43,29 @@
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <!-- Battery stats reset -->
   <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Habilitado</string>
+  <string name="summary_doze_disabled">Deshabilitado</string>
   <!-- Double tap for doze -->
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">Arquivos multimedia</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <!-- Proximity wake -->
   <!-- SystemUI restart prompt -->
+  <string name="print_restart">Reiniciar</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <!-- App details: open play store link if app is user installed -->
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Escritorio expandido</string>
+  <string name="keywords_expanded_desktop">Escritorio expandido</string>
   <!-- Phone info shortcut -->
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
@@ -78,22 +85,27 @@
   <!-- low battery notification toggle -->
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
+  <string name="display_rotation_disabled">Deshabilitado</string>
   <!-- About AospExtended -->
   <!-- Screenshot sound -->
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brillo</string>
+  <string name="night_bright_disabled">Deshabilitado</string>
   <!-- setting: show CPU info-->
   <!-- Quick unlock -->
   <!-- Wake on Plug -->
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
   <!-- Category title for Charging sounds -->
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <!-- Sizes for pattern lockscreen -->
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
   <!-- Night Display -->
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>

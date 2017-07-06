@@ -158,4 +158,5 @@
   <string name="lockscreen_vibrate_enabled_title">Вибрирање</string>
   <!-- Night Display -->
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>

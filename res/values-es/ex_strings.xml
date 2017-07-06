@@ -152,6 +152,7 @@
   <string name="app_ops_cat_messaging">Mensajes</string>
   <string name="app_ops_cat_media">Multimedia</string>
   <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">cámara</string>
   <string name="app_ops_access_location">úbicación</string>
@@ -212,7 +213,10 @@
   <string name="app_ops_write_external_storage">escribir ext. stor.</string>
   <string name="app_ops_turn_on_screen">apagar la pantalla</string>
   <string name="app_ops_get_accounts">cuentas del dispositivo</string>
+  <string name="app_ops_wifi_change">Cambiar el estado del WiFi</string>
+  <string name="app_ops_toggle_bluetooth">Alternar Bluetooth</string>
   <string name="app_ops_run_in_background">correr en el fondo</string>
+  <string name="app_ops_boot_completed">Arranque automático</string>
   <string name="ambient_display_show_battery_title">Estado de la batería</string>
   <string name="ambient_display_show_battery_summary">Mostrar indicador de la batería durante el pulso</string>
   <!-- Battery Saver Settings -->
@@ -227,7 +231,14 @@
   <string name="systemui_restart_message">SystemUI se reiniciará para que se pueda aplicar la configuración seleccionada correctamente.</string>
   <string name="restarting_ui">Reiniciando UI\u2026</string>
   <string name="print_restart">Reiniciar</string>
+  <string name="device_gestures_title">Gestos del dispositivo</string>
+  <string name="device_gestures_summary">Configurar gestos adicionales para tu dispositivo</string>
+  <string name="device_doze_title">Gestos de la pantalla ambiente</string>
+  <string name="device_doze_summary">Configurar gestos adicionales para la pantalla ambiente</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">Volumen de auriculares seguro</string>
+  <string name="safe_headset_volume_summary">Al conectar los auriculares por primera vez, previene que el volumen no sea demasiado elevado</string>
+  <string name="safe_headset_volume_warning_dialog_text">Escuchar a un volumen elevado durante períodos prolongados puede dañar el oído. Desactívelo con precaución.</string>
   <!-- MSIM SIM status -->
   <string name="sim_card_status_title">SIM %d estado</string>
   <string name="sim_card_lock_settings_title">SIM %d ajustes de bloqueo</string>
@@ -266,7 +277,14 @@
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <string name="double_twist_for_camera_mode_summary_pn">Para cambiar al modo selfie en la cámara, agita dos veces en la app de cámara</string>
   <!-- Animation Scale -->
+  <string name="animation_off">Animación desactivada</string>
+  <string name="animation_scale_0_5x">Escala de animación 0.5x</string>
   <string name="animation_scale_0_75x">Animación 0.75x</string>
+  <string name="animation_scale_1x">Escala de animación 1x</string>
+  <string name="animation_scale_1_5x">Escala de animación 1.5x</string>
+  <string name="animation_scale_2x">Escala de animación 2x</string>
+  <string name="animation_scale_5x">Escala de animación 5x</string>
+  <string name="animation_scale_10x">Escala de animación 10x</string>
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> está <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">activado</string>
   <string name="sim_disabled">desactivado</string>
@@ -305,6 +323,9 @@
   <string name="enable_adb_summary_custom">Activar ADB</string>
   <string name="adb_notify">Notificación de ADB</string>
   <string name="adb_notify_summary">Mostrar una notificación cuando ADB esté activo</string>
+  <string name="adb_over_network">ADB sobre red</string>
+  <string name="adb_over_network_summary">Habilitar la depuración TCP/IP vía interfaces de red (Wi\u2011Fi, redes USB). Esta configuración se restablece al reiniciar</string>
+  <string name="adb_over_network_warning">ADVERTENCIA: Cuando se activa ADB sobre red, su teléfono está expuesto a acceso no autorizado en todas las redes conectadas!!\n\n Sólo use esta función en redes en las que confía.\n\n Está seguro de activar esta función?</string>
   <!-- General strings -->
   <string name="header_category_custom">Interfaz de usuario</string>
   <!-- Dashboard options -->
@@ -351,6 +372,8 @@
   <string name="telegram_description">Suscríbete a nuestro canal</string>
   <string name="web">Centro de descargas (Inglés)</string>
   <string name="web_description">Visita nuestro portal de descargas</string>
+  <string name="help_translate">Traducciones</string>
+  <string name="help_translate_description">Para traducir a tu lenguaje, visita nuestro Crowdin</string>
   <string name="walls">Fondos de pantalla</string>
   <string name="walls_description">Consigue varios fondos de pantalla hechos por nuestros usuarios</string>
   <string name="leads">Lideres de equipo</string>
@@ -359,7 +382,7 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Desarrollador</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderador de Telegram/G+, Aprendíz y Amateur</string>
+  <string name="team3_description">Moderador y desarrollador amateur</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Desarrollador</string>
   <string name="designers">Diseñadores</string>
@@ -393,7 +416,7 @@
   <string name="wake_when_plugged_or_unplugged_title">Encender al conectar</string>
   <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar/desconectar el cargador</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
-  <string name="processor_info">Procesadorr</string>
+  <string name="processor_info">Procesador</string>
   <string name="mem_info">RAM</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Sonido de carga</string>
@@ -406,11 +429,24 @@
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <string name="power_notifications_ringtone_silent">Silencio</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Mostrar patrón erróneo</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Mostrar puntos de patrón</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
+  <string name="lockscreen_vibrate_enabled_head">Vibrar al desbloquear</string>
   <!-- Night Display -->
+  <string name="night_display_warning">Tenga en cuenta que la luz nocturna puede incrementar el consumo de batería.</string>
+  <string name="night_display_hide">No mostrar esta advertencia</string>
   <string name="night_display_ok">Aceptar</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Alerta</string>
+  <string name="quick_unlock_alert_msg">Esta característica funcionará solo si usas un PIN de 4 dígitos, de otra manera algunos efectos no deseados pueden ocurrir con tu dispositivo.</string>
+  <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">No es necesario, Opciones del programador ya están activadas por defecto.</string>
 </resources>

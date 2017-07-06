@@ -382,7 +382,7 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Desenvolvedor</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderador Telegram/G+</string>
+  <string name="team3_description">Moderador e desenvolvedor amador</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Desenvolvedor</string>
   <string name="designers">Designers</string>
@@ -447,4 +447,6 @@
   <!-- Quick unlock information -->
   <string name="quick_unlock_alert_title">Alerta</string>
   <string name="quick_unlock_alert_msg">Esse recurso só irá funcionar se você usar um PIN de 4 dígitos, caso contrário poderá ocorrer efeitos indesejados com seu dispositivo.</string>
+  <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Não há necessidade, as configurações de desenvolvimento são ativadas por padrão.</string>
 </resources>

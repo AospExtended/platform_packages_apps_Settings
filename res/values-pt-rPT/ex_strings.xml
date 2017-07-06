@@ -17,10 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version_default">Desconhecido</string>
+  <string name="extensions_title">Extensões</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">Atualizações AEX</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Data da compilação</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Versão do fornecedor</string>
+  <string name="vendor_version_default">Desconhecido</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- Volume Steps -->
   <string name="volume_steps_title">Níveis de volume</string>
@@ -111,6 +117,7 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">Mídia</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="ambient_display_show_battery_title">Estado da bateria</string>
   <string name="ambient_display_show_battery_summary">Mostra indicador de bateria ao ativar</string>
@@ -123,6 +130,7 @@
   <string name="systemui_restart_title">AVISO</string>
   <string name="systemui_restart_message">A interface do sistema será reiniciada para que a configuração selecionada possa ser aplicada corretamente.</string>
   <string name="restarting_ui">A reiniciar a IU\u2026</string>
+  <string name="print_restart">Reiniciar</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->
@@ -216,4 +224,5 @@
   <!-- Night Display -->
   <string name="night_display_ok">OK</string>
   <!-- Quick unlock information -->
+  <!-- Dev Options Enabled by Default -->
 </resources>
