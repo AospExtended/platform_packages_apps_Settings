@@ -518,4 +518,7 @@
     <string name="quick_unlock_alert_title">Alert</string>
     <string name="quick_unlock_alert_msg">This feature will only work if you use 4-digit PIN\'s, otherwise unwanted effects may occur with your device.</string>
 
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
 </resources>
