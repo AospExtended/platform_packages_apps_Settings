@@ -17,12 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Versi Extended</string>
+  <string name="extended_version_default">Tidak diketahui</string>
   <string name="extensions_title">Ekstensi</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">Update AEX</string>
+  <string name="aex_ota_summary">Dapatkan versi terbaru</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Tanggal pembuatan</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Versi vendor</string>
+  <string name="vendor_version_default">Tidak diketahui</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Password cadangan desktop</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Atur Volume</string>
   <string name="volume_steps_alarm_title">Atur Volume: Alarm</string>
@@ -39,16 +47,29 @@
   <string name="show_enter_key_title">Tampilkan tombol Enter</string>
   <string name="show_enter_key_summary">Memaksa papan ketik menampilkan tombol Enter menggantikan tombol Emoticon</string>
   <!-- Whether to display IME switcher notifcation -->
+  <string name="ime_switcher_notify">Pemilih pemberitahuan</string>
+  <string name="ime_switcher_notify_summary">Tampilkan pemberitahuan pilihan metode masukan</string>
   <!-- Changelog -->
   <string name="changelog_title">Log perubahan</string>
   <string name="changelog_error">Tidak dapat memuat log perubahan</string>
+  <string name="changelog_summary">Perubahan terbaru</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Hubungkan volume nada dering dan pemberitahuan</string>
+  <string name="notification_volume_option_title">Volume pemberitahuan</string>
+  <string name="ring_notification_volume_option_title">Volume dering dan pemberitahuan</string>
   <!-- Camera sound -->
   <string name="camera_sounds_title">Suara rana kamera</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">Theme engine</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Pengelolaan Root</string>
+  <string name="rootmanagement_dashboard_summary">Kelola akses root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
+  <string name="increasing_ring_min_volume_title">Volume awal</string>
+  <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Kurangi frekuensi suara pemberitahuan</string>
   <string name="less_notification_sounds_summary">Batasi notifikasi suara tiap aplikasi, hanya sekali pemberitahuan setiap periode waktu</string>
@@ -64,17 +85,27 @@
   <string name="less_notification_sounds_5m">5 menit</string>
   <!-- Magisk Manager -->
   <string name="magisk_title">Pengelolaan Magisk</string>
+  <string name="magisk_summary">Pengelolaan Root</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
+  <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Akses data seluler</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Akses data Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Nonaktifkan semua akses data seluler</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Mencegah penggunaan akses data melalui jaringan seluler</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Matikan semua akses data Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Mencegah penggunaan akses data melalui jaringan Wi\u2011Fi</string>
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">Atur ulang statistik</string>
   <string name="battery_stats_message">Statistik penggunaan baterai akan di atur ulang</string>
   <string name="ok_string">Oke</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">Pengaturan doze</string>
   <string name="summary_doze_enabled">Diaktifkan</string>
   <string name="summary_doze_disabled">Tidak non aktifkan</string>
   <string name="doze_overwrite_value_title">Menimpa standar</string>
@@ -107,13 +138,35 @@
   <string name="doze_notification_color_invert_summary_off">Pemberitahuan tidak akan terinversi. Gunakan untuk tema gelap.</string>
   <string name="doze_notification_color_invert_summary_on">Pemberitahuan akan terinversi. Gunakan untuk tema cerah/bawaan.</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Dua kali tap untuk membangunkan perangkat</string>
+  <string name="double_tap_wake_doze_summary">Diperlukan tap dua kali untuk membangunkan perangkat pada layar berdenyut doze</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">App ops</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">Setelan lanjutan setiap app</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Lokasi</string>
+  <string name="app_ops_cat_personal">Personal</string>
+  <string name="app_ops_cat_messaging">Pesan</string>
   <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Perangkat</string>
+  <string name="app_ops_cat_bootup">Bootup</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">kamera</string>
+  <string name="app_ops_access_location">lokasi</string>
+  <string name="app_ops_access_notifications">pemberitahuan</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start"> mulai otomatis</string>
+  <string name="app_ops_delete_call_log">hapus daftar panggilan</string>
+  <string name="app_ops_delete_contacts">hapus kontak</string>
+  <string name="app_ops_delete_mms">hapus MMS</string>
+  <string name="app_ops_delete_sms">hapus SMS</string>
+  <string name="app_ops_draw_on_top">gambar di atas</string>
+  <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
+  <string name="app_ops_keep_device_awake">tetap terjaga</string>
+  <string name="app_ops_boot_completed">mulai otomatis</string>
   <string name="ambient_display_show_battery_title">Status baterai</string>
   <string name="ambient_display_show_battery_summary">Menampilkan indikator baterai selama berkedip</string>
   <!-- Battery Saver Settings -->
@@ -121,16 +174,32 @@
   <string name="battery_saver_color_title">Warna peringatan</string>
   <string name="battery_saver_color_summary">Aktifkan oranye status - navigation bar saat penghemat daya diaktifkan</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
+  <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">PERINGATAN</string>
   <string name="systemui_restart_message">SystemUI akan direstart sehingga pilihan pengaturan dapat diterapkan dengan benar.</string>
   <string name="restarting_ui">Memulai ulang UI\u2026</string>
   <string name="print_restart">Mulai Ulang</string>
+  <string name="device_gestures_title">Gerakan perangkat</string>
+  <string name="device_gestures_summary">Mengatur gerakan tambahan untuk perangkat Anda</string>
+  <string name="device_doze_title">Opsi tampilan ambient</string>
+  <string name="device_doze_summary">Mengatur gerakan tambahan untuk mode tampilan ambien</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">Suara aman headset</string>
+  <string name="safe_headset_volume_summary">Mencegah suara keras ketika headset dipasang terlebih dahulu</string>
+  <string name="safe_headset_volume_warning_dialog_text">Mendengarkan pada volume tinggi untuk waktu yang lama dapat merusak pendengaran Anda. Nonaktifkan dengan hati-hati.</string>
   <!-- MSIM SIM status -->
+  <string name="sim_card_status_title">Status SIM %d</string>
+  <string name="sim_card_lock_settings_title">Pengaturan kunci SIM %d</string>
+  <string name="sim_card_summary_empty">SIM tidak dimasukkan</string>
+  <string name="sim_mobile_network_settings_category_title">Pengaturan jaringan seluler</string>
+  <string name="sim_mobile_network_settings_title">Pengaturan SIM %d</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
+  <string name="substratum_title">Substratum</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Perluas desktop</string>
   <string name="keywords_expanded_desktop">Perluas desktop</string>
@@ -146,13 +215,46 @@
   <string name="expanded_desktop_style_description">Pilih standar gaya dekstop diperluas</string>
   <string name="expanded_desktop_title">Pilihan desktop diperluas</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">Info Perangkat</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Tempatkan sensor sidik jari pada <xliff:g id="sensor_location">%1$s</xliff:g> telepon anda.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">kembali</string>
+  <string name="security_settings_fingerprint_sensor_location_front">depan</string>
+  <string name="security_settings_fingerprint_sensor_location_left">sisi kiri</string>
+  <string name="security_settings_fingerprint_sensor_location_right">sisi kanan</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+  <string name="double_twist_for_camera_mode_summary_pn">Untuk beralih masuk dan keluar dari modus selfie di Google kamera, double-twist ketika Anda di app</string>
   <!-- Animation Scale -->
+  <string name="animation_off">Animasi tidak aktif</string>
+  <string name="animation_scale_0_5x">Animasi 0,5 x</string>
+  <string name="animation_scale_0_75x">Animasi 0,75 x</string>
+  <string name="animation_scale_1x">Animasi 1 x</string>
+  <string name="animation_scale_1_5x">Animasi 1.5 x</string>
+  <string name="animation_scale_2x">Animasi 2 x</string>
+  <string name="animation_scale_5x">Animasi 5 x</string>
+  <string name="animation_scale_10x">Animasi 10 x</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">diaktifkan</string>
+  <string name="sim_disabled">dinonaktifkan</string>
+  <string name="sim_missing">hilang atau rusak</string>
+  <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah Anda ingin melanjutkan?</string>
+  <string name="sim_enabler_will_disable_sim_title">Perhatian</string>
+  <string name="sim_enabler_need_switch_data_service">SIM ini akan dinonaktifkan dan SIM <xliff:g id="slotid">%1$s </xliff:g> akan digunakan untuk layanan data. Apakah Anda yakin ingin melanjutkan?</string>
+  <string name="sim_enabler_airplane_on">Tidak dapat melakukan operasi saat modus pesawat aktif.</string>
+  <string name="sim_enabler_in_call">Tidak dapat melakukan operasi saat dalam panggilan.</string>
+  <string name="sim_enabler_both_inactive">Tidak dapat menonaktifkan semua kartu SIM</string>
+  <string name="sim_enabler_enabling">Mengaktifkan\u2026</string>
+  <string name="sim_enabler_disabling">Menonaktifkan\u2026</string>
+  <string name="sub_activate_success">SIM diaktifkan.</string>
+  <string name="sub_activate_failed">Aktivasi gagal.</string>
+  <string name="sub_deactivate_success">SIM dinonaktifkan.</string>
+  <string name="sub_deactivate_failed">Penonaktifan gagal.</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Kode wilayah Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Tentukan kode wilayah untuk Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum overlay</string>
@@ -186,8 +288,12 @@
   <!-- Rotation Modes  -->
   <string name="display_rotation_disabled">Tidak non aktifkan</string>
   <!-- About AospExtended -->
+  <string name="designer_3">Jesus R &#40; KrapK &#41;</string>
+  <string name="designer3_description">Wallpaper, Bootanimasi</string>
+  <string name="maintainers">Pengelola</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Suara tangkapan layar</string>
+  <string name="screenshot_sound_summary">Bersuara saat mengambil tangkapan layar</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Kecerahan</string>
   <string name="night_brightness_value_title">Kecerahan Cahaya Malam</string>
@@ -202,22 +308,42 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Buka cepat</string>
   <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN /password yang dimasukkan benar</string>
+  <string name="reset_wallpaper_notice">Wallpaper standar dipulihkan</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Bangun saat pengisi daya di pasang</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan sumber daya</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Prosesor</string>
   <string name="mem_info">RAM</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Suara pengisian daya</string>
   <string name="power_notifications_enable_title">Aktif</string>
+  <string name="power_notifications_enable_summary">Putar suara ketika menghubungkan atau melepaskan sumber daya</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Getar</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Suara pemberitahuan</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Senyap</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Tunjukkan galat pola</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Tunjukkan titik-titik pola</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Getar</string>
+  <string name="lockscreen_vibrate_enabled_head">Bergetar saat membuka</string>
   <!-- Night Display -->
+  <string name="night_display_warning">Harap diingat bahwa lampu malam dapat meningkatkan konsumsi baterai.</string>
+  <string name="night_display_hide">Jangan Tampilkan peringatan ini lagi</string>
   <string name="night_display_ok">Oke</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Peringatan</string>
+  <string name="quick_unlock_alert_msg">Fitur ini hanya akan bekerja jika Anda menggunakan PIN 4 digit, sebaliknya efek yang tidak diinginkan dapat terjadi dengan perangkat Anda.</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Tidak perlu, pengaturan pengembang diaktifkan secara bawaan.</string>
 </resources>

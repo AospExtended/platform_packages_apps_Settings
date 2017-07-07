@@ -123,6 +123,7 @@
   <string name="systemui_restart_title">WAARSCHUWING</string>
   <string name="systemui_restart_message">SystemUI zal opnieuw worden opgestart zodat de geselecteerde instelling correct kan worden toegepast.</string>
   <string name="restarting_ui">UI Herstarten\u2026</string>
+  <string name="print_restart">Herstarten</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->

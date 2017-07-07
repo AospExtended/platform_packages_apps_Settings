@@ -421,7 +421,7 @@
   <string name="mem_info">Arbeitsspeicher</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Ladetöne</string>
-  <string name="power_notifications_enable_title">Aktiviert</string>
+  <string name="power_notifications_enable_title">Aktivieren</string>
   <string name="power_notifications_enable_summary">Beim Anschließen oder Trennen des Ladegerätes einen Ton abspielen</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrieren</string>

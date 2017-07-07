@@ -17,10 +17,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Versão extendida</string>
   <string name="extended_version_default">Desconhecido</string>
   <string name="extensions_title">Extensões</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Atualizações AEX</string>
+  <string name="aex_ota_summary">Obtenha a compilação mais recente</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Data da compilação</string>
   <string name="build_date_default">2015-01-01-0000</string>
@@ -28,6 +30,7 @@
   <string name="vendor_version">Versão do fornecedor</string>
   <string name="vendor_version_default">Desconhecido</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Palavra-passe da cópia de segurança do ecrã principal</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Níveis de volume</string>
   <string name="volume_steps_alarm_title">Níveis de volume: Alarme</string>
@@ -44,16 +47,28 @@
   <string name="show_enter_key_title">Mostrar a tecla Enter</string>
   <string name="show_enter_key_summary">Forçar teclado a apresentar a tecla Enter em vez da tecla de emoticons</string>
   <!-- Whether to display IME switcher notifcation -->
+  <string name="ime_switcher_notify">Selecionador de notificações</string>
+  <string name="ime_switcher_notify_summary">Exibir notificação do selecionador de método de entrada</string>
   <!-- Changelog -->
   <string name="changelog_title">Lista de alterações</string>
   <string name="changelog_error">Não foi possível carregar a lista de alterações</string>
+  <string name="changelog_summary">Alterações recentes</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Associar volumes de toque e notificação</string>
+  <string name="notification_volume_option_title">Volume de notificações</string>
+  <string name="ring_notification_volume_option_title">Volume do toque e notificações</string>
   <!-- Camera sound -->
   <string name="camera_sounds_title">Som de captura da câmara</string>
   <!-- Custom tiles summary -->
   <!-- Root Management -->
+  <string name="rootmanagement_title">Gestão de root</string>
+  <string name="rootmanagement_dashboard_summary">Gerir acesso root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Aumentar volume de toque</string>
+  <string name="increasing_ring_min_volume_title">Volume inicial</string>
+  <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Sons de notificação menos frequentes</string>
   <string name="less_notification_sounds_summary">Limitar os sons de notificação de cada aplicação para tocar apenas uma vez por período de tempo definido</string>
@@ -69,7 +84,9 @@
   <string name="less_notification_sounds_5m">5 minutos</string>
   <!-- Magisk Manager -->
   <string name="magisk_title">Gestor Magisk</string>
+  <string name="magisk_summary">Gestão de root</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Disposição aleatória</string>
   <!-- Per-app data restrictions -->
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
