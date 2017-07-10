@@ -17,11 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Wersja rozszerzona</string>
+  <string name="extended_version_default">Nieznany</string>
   <string name="extensions_title">Rozszerzenia</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX aktualizacje</string>
+  <string name="aex_ota_summary">Pobierz najnowszą kompilację</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Data kompilacji</string>
   <!-- Vendor version -->
+  <string name="vendor_version_default">Nieznany</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- Volume Steps -->
   <string name="volume_steps_title">Kroki poziomów głośności</string>
@@ -42,13 +47,21 @@
   <!-- Changelog -->
   <string name="changelog_title">Lista zmian</string>
   <string name="changelog_error">Nie można załadować listy zmian</string>
+  <string name="changelog_summary">Ostatnie zmiany</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="notification_volume_option_title">Głośność powiadomień</string>
   <!-- Camera sound -->
   <string name="camera_sounds_title">Dźwięk migawki aparatu</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">Tematu silnika</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Zarządzanie rootem</string>
+  <string name="rootmanagement_dashboard_summary">Zarządzanie uprawnieniami root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
+  <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Rzadsze dźwięki powiadomień</string>
   <string name="less_notification_sounds_summary">Ogranicz dźwięki powiadomień aplikacji do jednego razu na określony czas</string>
@@ -64,9 +77,11 @@
   <string name="less_notification_sounds_5m">5 minut</string>
   <!-- Magisk Manager -->
   <string name="magisk_title">Menedżer Magisk</string>
+  <string name="magisk_summary">Zarządzanie rootem</string>
   <!-- PIN scramble -->
   <!-- Per-app data restrictions -->
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Wyłącz dostęp do wszystkich danych w sieci komórkowej</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
@@ -75,6 +90,7 @@
   <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
   <string name="ok_string">Ok</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">Doze ustawienia</string>
   <string name="summary_doze_enabled">Włączona</string>
   <string name="summary_doze_disabled">Wyłączone</string>
   <string name="doze_overwrite_value_title">Nadpisz domyślne</string>
@@ -112,8 +128,11 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Lokalizacja</string>
   <string name="app_ops_cat_media">Media</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_delete_mms">usuń MMS</string>
+  <string name="app_ops_delete_sms">usuń SMS</string>
   <string name="ambient_display_show_battery_title">Status baterii</string>
   <string name="ambient_display_show_battery_summary">Pokaż wskaźnik baterii podczas pulsu</string>
   <!-- Battery Saver Settings -->

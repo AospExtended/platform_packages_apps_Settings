@@ -382,6 +382,7 @@
   <string name="team_2">Аман Кумар &#40;FireLord&#41;</string>
   <string name="team2_description">Розробник</string>
   <string name="team_3">Амол Амріт</string>
+  <string name="team3_description">Модератор та розробник-аматор</string>
   <string name="team_4">Енріке Сілва &#40;jhenrique09&#41;</string>
   <string name="team4_description">Розробник</string>
   <string name="designers">Дизайнери</string>
@@ -447,4 +448,5 @@
   <string name="quick_unlock_alert_title">Попередження</string>
   <string name="quick_unlock_alert_msg">УВАГА!!! Ця функція працюватиме лише якщо Ви встановити ПІН з 4 цифр, у іншому випадку можуть бути небажані наслідки для Вашого притрою.</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Немає необхідності, настройки для розробників включені за замовчуванням.</string>
 </resources>

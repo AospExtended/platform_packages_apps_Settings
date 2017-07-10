@@ -118,7 +118,7 @@
   <string name="doze_trigger_pickup_summary_on">Pulsování se spustí pomocí čidel pohybu</string>
   <string name="doze_trigger_pickup_summary_off">Senzory pohybu nebudou použity ke spuštění</string>
   <string name="doze_trigger_notification_title">Spouštěč upozornění</string>
-  <string name="doze_trigger_notification_summary_on">Pulsováním dojde ke spuštění oznámení</string>
+  <string name="doze_trigger_notification_summary_on">Pulzování bude spuštěno upozorněními</string>
   <string name="doze_trigger_notification_summary_off">Oznámení nebudou použity ke spuštění</string>
   <string name="doze_brightness_level_title">Úroveň jasu</string>
   <string name="onehundred_ms">100 ms</string>

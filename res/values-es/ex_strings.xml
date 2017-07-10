@@ -45,7 +45,7 @@
   <string name="volume_adjust_sounds_title">Ajuste de volumen sonido</string>
   <!-- Keyboard and Input ASS methods -->
   <string name="show_enter_key_title">Mostrar la tecla \"Intro\"</string>
-  <string name="show_enter_key_summary">Forzar que el teclado muestre la tecla \"Intro\" en lugar de la tecla de emoticonos</string>
+  <string name="show_enter_key_summary">Forzar el teclado para que muestre la tecla \"Intro\" en lugar de la tecla de emoticones</string>
   <!-- Whether to display IME switcher notifcation -->
   <string name="ime_switcher_notify">Notificación de selección</string>
   <string name="ime_switcher_notify_summary">Mostrar notificación para elegir teclado</string>
@@ -147,7 +147,7 @@
   <string name="app_ops_settings_summary">Permisos avanzados por aplicación</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Ubinación</string>
+  <string name="app_ops_cat_location">Ubicación</string>
   <string name="app_ops_cat_personal">Personal</string>
   <string name="app_ops_cat_messaging">Mensajes</string>
   <string name="app_ops_cat_media">Multimedia</string>
@@ -158,7 +158,7 @@
   <string name="app_ops_access_location">úbicación</string>
   <string name="app_ops_access_notifications">notificaciones</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">inicio automatico</string>
+  <string name="app_ops_auto_start">inicio automático</string>
   <string name="app_ops_delete_call_log">eliminar historial de llamadas</string>
   <string name="app_ops_delete_contacts">eliminar contactos</string>
   <string name="app_ops_delete_mms">eliminar MMS</string>
@@ -172,7 +172,7 @@
   <string name="app_ops_modify_clipboard">modificar portapapeles</string>
   <string name="app_ops_modify_contacts">actualizar contactos</string>
   <string name="app_ops_modify_settings">actualizar ajustes</string>
-  <string name="app_ops_mute_unmute_microphone">silenciar microfono</string>
+  <string name="app_ops_mute_unmute_microphone">silenciar micrófono</string>
   <string name="app_ops_play_audio">reproducir sonidos</string>
   <string name="app_ops_post_notification">mandar notificaciones</string>
   <string name="app_ops_project_media">proyectar multimedia</string>
@@ -186,8 +186,8 @@
   <string name="app_ops_record_audio">grabar audio</string>
   <string name="app_ops_send_mms">mandar MMS</string>
   <string name="app_ops_send_sms">mandar SMS</string>
-  <string name="app_ops_toast_window">mensjes toast</string>
-  <string name="app_ops_use_alarm_volume">volumende alarma</string>
+  <string name="app_ops_toast_window">mensajes toast</string>
+  <string name="app_ops_use_alarm_volume">volumen de alarma</string>
   <string name="app_ops_use_audio_focus">concentración de audio</string>
   <string name="app_ops_use_bluetooth_volume">volumen Bluetooth</string>
   <string name="app_ops_use_master_volume">volumen general</string>
@@ -222,7 +222,7 @@
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Color de advertencia</string>
-  <string name="battery_saver_color_summary">Activar barra de estado naranja y barra de navegación naranja cuando se activa el ahorro de batería</string>
+  <string name="battery_saver_color_summary">Activar el color rojo a la barra de estado y a la barra de navegación cuando se activa el ahorro de batería</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Prevenir encendido accidental</string>
   <string name="proximity_wake_summary">Revisar el sensor para encender la pantalla</string>
@@ -279,7 +279,7 @@
   <!-- Animation Scale -->
   <string name="animation_off">Animación desactivada</string>
   <string name="animation_scale_0_5x">Escala de animación 0.5x</string>
-  <string name="animation_scale_0_75x">Animación 0.75x</string>
+  <string name="animation_scale_0_75x">Escala de animación 0.75x</string>
   <string name="animation_scale_1x">Escala de animación 1x</string>
   <string name="animation_scale_1_5x">Escala de animación 1.5x</string>
   <string name="animation_scale_2x">Escala de animación 2x</string>
@@ -300,13 +300,13 @@
   <string name="sub_activate_success">SIM activada.</string>
   <string name="sub_activate_failed">Activación fallida.</string>
   <string name="sub_deactivate_success">SIM desactivada.</string>
-  <string name="sub_deactivate_failed">Desctivación fallida.</string>
+  <string name="sub_deactivate_failed">Desactivación fallida.</string>
   <!-- Wi-Fi region code -->
   <string name="wifi_setting_countrycode_title">Código de región para WiFi</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
   <string name="wifi_setting_countrycode_summary">Cambiar el código de región</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
-  <string name="wifi_setting_countrycode_error">No se aplicó el código</string>
+  <string name="wifi_setting_countrycode_error">Se ha producido un problema al establecer el código de región.</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Capas de Substratum</string>
   <string name="menu_show_substratum">Mostrar capas</string>
@@ -317,7 +317,7 @@
   <string name="menu_hide_substratum_icons">Ocultar capa de iconos</string>
   <!-- Force authorize substratum packages -->
   <string name="force_authorize_substratum_packages_title">Permitir temas de origen desconocido</string>
-  <string name="force_authorize_substratum_packages_summary">Fuerza de autorizar la aplicación de cada tema</string>
+  <string name="force_authorize_substratum_packages_summary">Permitir temas de aplicaciones de origen desconocido</string>
   <!-- ADB debugging notifications -->
   <string name="enable_adb_custom">Depuración USB</string>
   <string name="enable_adb_summary_custom">Activar ADB</string>
@@ -378,7 +378,7 @@
   <string name="walls_description">Consigue varios fondos de pantalla hechos por nuestros usuarios</string>
   <string name="leads">Lideres de equipo</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
-  <string name="team1_description">Dueño/Desarrollador en jefe</string>
+  <string name="team1_description">Dueño/Desarrollador principal</string>
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Desarrollador</string>
   <string name="team_3">Amol Amrit</string>
@@ -411,7 +411,7 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN o contraseña correctos</string>
-  <string name="reset_wallpaper_notice">Fando de pantalla restaurado</string>
+  <string name="reset_wallpaper_notice">Fondo de pantalla restaurado</string>
   <!-- Wake on Plug -->
   <string name="wake_when_plugged_or_unplugged_title">Encender al conectar</string>
   <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar/desconectar el cargador</string>

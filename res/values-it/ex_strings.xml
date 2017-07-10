@@ -400,10 +400,10 @@
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Luminosità</string>
   <string name="night_brightness_value_title">Luminosità luce notturna</string>
-  <string name="night_brightness_text">Attivando la funzione luce notturna, si imposta automaticamente la luminosità desiderata.</string>
+  <string name="night_brightness_text">Quando la luce notturna è attivata automaticamente verrà impostata la luminosità desiderata. La luminosità predefinita è impostata su luminosità bassa</string>
   <string name="night_bright_disabled">Disabilitato</string>
   <string name="night_bright_min">Luminosità minima</string>
-  <string name="night_bright_low">Bassa luminosità</string>
+  <string name="night_bright_low">Luminosità bassa</string>
   <string name="night_bright_medium">Luminosità media</string>
   <!-- setting: show CPU info-->
   <string name="show_cpu_info">Mostra informazioni CPU</string>

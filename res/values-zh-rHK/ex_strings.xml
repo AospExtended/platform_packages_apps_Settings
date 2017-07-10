@@ -19,6 +19,7 @@
   <!-- About phone screen, Extended version -->
   <string name="extended_version">Extended版本</string>
   <string name="extended_version_default">未知</string>
+  <string name="extensions_title">擴展</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">AEX更新</string>
   <string name="aex_ota_summary">下載最新版</string>
@@ -149,7 +150,9 @@
   <string name="app_ops_cat_location">位置</string>
   <string name="app_ops_cat_personal">個人</string>
   <string name="app_ops_cat_messaging">簡訊</string>
+  <string name="app_ops_cat_media">媒體</string>
   <string name="app_ops_cat_device">裝置</string>
+  <string name="app_ops_cat_bootup">啟動</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">相機</string>
   <string name="app_ops_access_location">位置</string>
@@ -210,7 +213,10 @@
   <string name="app_ops_write_external_storage">寫入外部儲存空間</string>
   <string name="app_ops_turn_on_screen">開啟螢幕</string>
   <string name="app_ops_get_accounts">手機帳號</string>
+  <string name="app_ops_wifi_change">變更 Wi-Fi 狀態</string>
+  <string name="app_ops_toggle_bluetooth">切換藍牙</string>
   <string name="app_ops_run_in_background">後台運行</string>
+  <string name="app_ops_boot_completed">自動啟動</string>
   <string name="ambient_display_show_battery_title">電池狀態</string>
   <string name="ambient_display_show_battery_summary">在充電時顯示電池電量</string>
   <!-- Battery Saver Settings -->
@@ -224,6 +230,7 @@
   <string name="systemui_restart_title">警告</string>
   <string name="systemui_restart_message">將重新啟動使用者介面，以便可以正確套用所選設定。</string>
   <string name="restarting_ui">正在重新啟動使用者介面\u2026</string>
+  <string name="print_restart">重新啟動</string>
   <string name="device_gestures_title">裝置手勢</string>
   <string name="device_gestures_summary">為你的裝置新增額外的手勢</string>
   <string name="device_doze_title">環境顯示手勢</string>
@@ -316,6 +323,9 @@
   <string name="enable_adb_summary_custom">啟用Android偵錯（adb）介面</string>
   <string name="adb_notify">ADB通知</string>
   <string name="adb_notify_summary">啟用Android偵錯後顯示通知</string>
+  <string name="adb_over_network">ADB 通過網路</string>
+  <string name="adb_over_network_summary">啟用 TCP/IP 偵錯調試網路介面（Wi\u2011Fi、USB 網路）。重新啟動後，會重設本設定</string>
+  <string name="adb_over_network_warning">警告：當啟用網路 ADB 時，您的手機將開放於所有已連接的網路！\n\n建議您已連接到信任的網路才使用此功能。\n\n您確定你想啟用此功能嗎？</string>
   <!-- General strings -->
   <string name="header_category_custom">UI &amp; UX</string>
   <!-- Dashboard options -->
@@ -362,6 +372,8 @@
   <string name="telegram_description">訂閱我們的Telegram頻道</string>
   <string name="web">下載中心</string>
   <string name="web_description">拜訪我們的下載頁面</string>
+  <string name="help_translate">翻譯</string>
+  <string name="help_translate_description">翻譯成你所使用的語言，請訪問我們的Crowdin</string>
   <string name="walls">桌布</string>
   <string name="walls_description">下載用戶分享的桌布</string>
   <string name="leads">主創人員</string>
@@ -370,6 +382,7 @@
   <string name="team_2">Aman Kumar (FireLord)</string>
   <string name="team2_description">開發</string>
   <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">管理者和一位業餘開發人員</string>
   <string name="team_4">Henrique Silva (jhenrique09)</string>
   <string name="team4_description">開發</string>
   <string name="designers">設計</string>
@@ -428,7 +441,12 @@
   <string name="lockscreen_vibrate_enabled_title">振動</string>
   <string name="lockscreen_vibrate_enabled_head">解鎖時震動</string>
   <!-- Night Display -->
+  <string name="night_display_warning">請注意，夜燈可能會增加電池消耗。</string>
+  <string name="night_display_hide">不再顯示這則警告</string>
   <string name="night_display_ok">OK</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">警告</string>
+  <string name="quick_unlock_alert_msg">此功能只會在你使用4位數的PIN密碼時工作，否則可能會對你的裝置造成副作用</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">不需要了，開發人員選項預設已經是開啟的了</string>
 </resources>

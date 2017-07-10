@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extensions_title">Додаци</string>
   <!-- AEX OTA -->
   <!-- About phone screen, build date -->
   <string name="build_date">Датум израде</string>
@@ -92,6 +93,7 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">Медија</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="ambient_display_show_battery_title">Статус батерије</string>
   <string name="ambient_display_show_battery_summary">Приказује индикатор батерије током пулса</string>
@@ -101,6 +103,7 @@
   <string name="battery_saver_color_summary">Омогућите наранџасту боју статусне и навигационе траке, када је укључен мод штедње батерије</string>
   <!-- Proximity wake -->
   <!-- SystemUI restart prompt -->
+  <string name="print_restart">Поново покрени</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->

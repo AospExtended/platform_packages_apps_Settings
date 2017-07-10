@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extensions_title">Phần mở rộng</string>
   <!-- AEX OTA -->
   <!-- About phone screen, build date -->
   <string name="build_date">Ngày dựng</string>
@@ -111,6 +112,7 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">Đa phương tiện</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="ambient_display_show_battery_title">Tình trạng pin</string>
   <string name="ambient_display_show_battery_summary">Hiển thị chỉ số pin trong khi màn hình tự bật sáng</string>
@@ -123,6 +125,7 @@
   <string name="systemui_restart_title">CẢNH BÁO</string>
   <string name="systemui_restart_message">SystemUI sẽ được khởi động lại để cài đặt đã chọn có thể được áp dụng một cách chính xác.</string>
   <string name="restarting_ui">Đang khởi động lại UI\u2026</string>
+  <string name="print_restart">Khởi động lại</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->

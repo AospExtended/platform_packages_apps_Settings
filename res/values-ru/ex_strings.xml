@@ -40,7 +40,7 @@
   <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
   <string name="volume_steps_system_title">Уровень громкости: Система</string>
   <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
-  <string name="volume_steps_reset">Сбросить</string>
+  <string name="volume_steps_reset">Сброс</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
   <!-- Keyboard and Input ASS methods -->
@@ -85,7 +85,7 @@
   <string name="less_notification_sounds_5m">5 минут</string>
   <!-- Magisk Manager -->
   <string name="magisk_title">Менеджер Magisk</string>
-  <string name="magisk_summary">Root management</string>
+  <string name="magisk_summary">Управление root-правами</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Перемешать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
@@ -106,8 +106,8 @@
   <string name="ok_string">ОК</string>
   <!-- Doze pulse options -->
   <string name="doze_settings">Настройки Doze</string>
-  <string name="summary_doze_enabled">Enabled</string>
-  <string name="summary_doze_disabled">Disabled</string>
+  <string name="summary_doze_enabled">Включено</string>
+  <string name="summary_doze_disabled">Отключено</string>
   <string name="doze_overwrite_value_title">Перезаписать значения по умолчанию</string>
   <string name="doze_overwrite_value_summary">Разрешить изменение пользователем настроек по умолчанию</string>
   <string name="doze_pulse_title">Параметры, настраиваемые пользователем</string>
@@ -159,22 +159,22 @@
   <string name="app_ops_access_notifications">уведомления</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">автозапуск</string>
-  <string name="app_ops_delete_call_log">удалить журнал звонков</string>
-  <string name="app_ops_delete_contacts">удалить контакты</string>
-  <string name="app_ops_delete_mms">удалить MMS</string>
-  <string name="app_ops_delete_sms">удалить SMS</string>
-  <string name="app_ops_draw_on_top">отображать поверх</string>
-  <string name="app_ops_get_usage_stats">статистика использования</string>
-  <string name="app_ops_keep_device_awake">не выключать</string>
-  <string name="app_ops_make_phone_call">звонить</string>
-  <string name="app_ops_modify_calendar">изменять календарь</string>
-  <string name="app_ops_modify_call_log">изменять журнал звонков</string>
-  <string name="app_ops_modify_clipboard">изменять буфер обмена</string>
-  <string name="app_ops_modify_contacts">изменять контакты</string>
-  <string name="app_ops_modify_settings">изменять настройки</string>
-  <string name="app_ops_mute_unmute_microphone">выкл/вкл микрофон</string>
-  <string name="app_ops_play_audio">воспроизводить аудио</string>
-  <string name="app_ops_post_notification">показывать уведомление</string>
+  <string name="app_ops_delete_call_log">удаление журнала вызовов</string>
+  <string name="app_ops_delete_contacts">удаление контактов</string>
+  <string name="app_ops_delete_mms">удаление MMS</string>
+  <string name="app_ops_delete_sms">удаление SMS</string>
+  <string name="app_ops_draw_on_top">отображение поверх других элементов</string>
+  <string name="app_ops_get_usage_stats">получение статистики использования</string>
+  <string name="app_ops_keep_device_awake">активный режим</string>
+  <string name="app_ops_make_phone_call">осуществление вызова</string>
+  <string name="app_ops_modify_calendar">изменение данных календаря</string>
+  <string name="app_ops_modify_call_log">изменение журнала звонков</string>
+  <string name="app_ops_modify_clipboard">изменение буфера обмена</string>
+  <string name="app_ops_modify_contacts">изменить данные контактов</string>
+  <string name="app_ops_modify_settings">изменение настроек</string>
+  <string name="app_ops_mute_unmute_microphone">включение/выключение микрофона</string>
+  <string name="app_ops_play_audio">воспроизведение аудио</string>
+  <string name="app_ops_post_notification">выведение уведомлений</string>
   <string name="app_ops_project_media">трансляция контента</string>
   <string name="app_ops_read_calendar">чтение данных календаря</string>
   <string name="app_ops_read_call_log">просмотр журнала вызовов</string>
@@ -186,7 +186,7 @@
   <string name="app_ops_record_audio">запись аудио</string>
   <string name="app_ops_send_mms">отправка MMS</string>
   <string name="app_ops_send_sms">отправка SMS</string>
-  <string name="app_ops_toast_window">всплывающие уведомления</string>
+  <string name="app_ops_toast_window">тост-уведомления</string>
   <string name="app_ops_use_alarm_volume">громкость будильника</string>
   <string name="app_ops_use_audio_focus">аудиофокус</string>
   <string name="app_ops_use_bluetooth_volume">громкость Bluetooth-устройств</string>
@@ -230,15 +230,15 @@
   <string name="systemui_restart_title">ВНИМАНИЕ</string>
   <string name="systemui_restart_message">Системный интерфейс будет перезапущен, для того чтобы выбранная настройка могла правильно примениться.</string>
   <string name="restarting_ui">Перезапуск пользовательского интерфейса\u2026</string>
-  <string name="print_restart">Restart</string>
+  <string name="print_restart">Перезапуск</string>
   <string name="device_gestures_title">Свайп-жесты</string>
   <string name="device_gestures_summary">Настройка дополнительных жестов для вашего устройства</string>
   <string name="device_doze_title">Жесты Ambient Display</string>
   <string name="device_doze_summary">Дополнительные настройки жестов для Ambient Display</string>
   <!-- Safe headset volume restore checkbox -->
   <string name="safe_headset_volume_title">Безопасная громкость гарнитуры</string>
-  <string name="safe_headset_volume_summary">Снижать громкость наушников при их подключении</string>
-  <string name="safe_headset_volume_warning_dialog_text">Длительное прослушивание музыки на большой громкости может повредить слух. Пользуйтесь с осторожностью.</string>
+  <string name="safe_headset_volume_summary">Предотвращать чрезмерную громкость при первом подключении гарнитуры</string>
+  <string name="safe_headset_volume_warning_dialog_text">Прослушивание на большой громкости длительное время может повредить слух. Отключайте это с осторожностью.</string>
   <!-- MSIM SIM status -->
   <string name="sim_card_status_title">Состояние SIM %d</string>
   <string name="sim_card_lock_settings_title">Параметры блокировки SIM %d</string>
@@ -327,7 +327,7 @@
   <string name="adb_over_network_summary">Включить TCP/IP отладку через сетевые интерфейсы (Wi\u2011Fi и USB-сети). Отладка отключится после перезагрузки</string>
   <string name="adb_over_network_warning">Внимание! При включении отладки по сети, возможен неконтролируемый доступ к вашему устройству. Вы уверены что хотите включить?</string>
   <!-- General strings -->
-  <string name="header_category_custom">UI &#38; UX</string>
+  <string name="header_category_custom">Кастомизация</string>
   <!-- Dashboard options -->
   <string name="dashboard_category">Опции меню настроек</string>
   <string name="dashboard_suggestions_title">Подсказки</string>
@@ -350,7 +350,7 @@
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
   <string name="display_rotation_title">Поворот экрана</string>
-  <string name="display_rotation_disabled">Выключено</string>
+  <string name="display_rotation_disabled">Отключено</string>
   <string name="display_rotation_unit">градусов</string>
   <string name="display_lockscreen_rotation_title">Поворот экрана блокировки</string>
   <string name="display_rotation_category_title">Режимы вращения</string>
@@ -401,7 +401,7 @@
   <string name="night_brightness_category">Яркость</string>
   <string name="night_brightness_value_title">Яркость в ночном режиме</string>
   <string name="night_brightness_text">При включении ночного режима изменяется яркость экрана. По умолчанию яркость - низкая</string>
-  <string name="night_bright_disabled">Выключено</string>
+  <string name="night_bright_disabled">Отключено</string>
   <string name="night_bright_min">Минимальная яркость</string>
   <string name="night_bright_low">Низкая яркость</string>
   <string name="night_bright_medium">Средняя яркость</string>

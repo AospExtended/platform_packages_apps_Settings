@@ -24,7 +24,7 @@
   <string name="aex_ota_title">Aktualizácia AEX</string>
   <string name="aex_ota_summary">Získať najnovšiu verziu</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Dátum zostavy</string>
+  <string name="build_date">Dátum zostavenia</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
   <string name="vendor_version">Dodávateľ verzie</string>
@@ -42,10 +42,10 @@
   <string name="volume_steps_voice_call_title">Úrovne hlasitosti: Hlasový hovor</string>
   <string name="volume_steps_reset">Resetovať</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Zvuk pri úprave hlasitosti</string>
+  <string name="volume_adjust_sounds_title">Zvuk pri zmene hlasitosti</string>
   <!-- Keyboard and Input ASS methods -->
   <string name="show_enter_key_title">Zobraziť klávesu Enter</string>
-  <string name="show_enter_key_summary">Vynúti zobrazenie klávesy Enter namiesto klávesy emotikony</string>
+  <string name="show_enter_key_summary">Vynútiť zobrazenie klávesy Enter namiesto klávesy emotikony</string>
   <!-- Whether to display IME switcher notifcation -->
   <string name="ime_switcher_notify">Výber upozornenia</string>
   <string name="ime_switcher_notify_summary">Pri písaní zobrazovať upozornenia systému s výberom metódy vstupu</string>
@@ -54,7 +54,7 @@
   <string name="changelog_error">Nie je možné načítať zoznam zmien</string>
   <string name="changelog_summary">Najnovšie zmeny</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Prepojiť hlasitosti zvonenia a upozornení</string>
+  <string name="link_volume_option_title">Prepojiť hlasitosť zvonenia a upozornení</string>
   <string name="notification_volume_option_title">Hlasitosť upozornení</string>
   <string name="ring_notification_volume_option_title">Hlasitosť vyzvaňania a upozornení</string>
   <!-- Camera sound -->
@@ -71,7 +71,7 @@
   <string name="increasing_ring_min_volume_title">Počiatočná hlasitosť</string>
   <string name="increasing_ring_ramp_up_time_title">Doba zvyšovania</string>
   <!-- Less Notification sounds -->
-  <string name="less_notification_sounds_title">Zvuky menej častých oznámení</string>
+  <string name="less_notification_sounds_title">Zvuky menej častých upozornení</string>
   <string name="less_notification_sounds_summary">Obmedziť počet prehratí zvuku upozornenia každej aplikácie iba raz za nastavené časové obdobie</string>
   <string name="less_notification_sounds_default">Predvolené správanie</string>
   <string name="less_notification_sounds_3s">3 sekundy</string>
@@ -84,7 +84,7 @@
   <string name="less_notification_sounds_2m">2 minúty</string>
   <string name="less_notification_sounds_5m">5 minút</string>
   <!-- Magisk Manager -->
-  <string name="magisk_title">Správca Magisk</string>
+  <string name="magisk_title">Magisk manažér</string>
   <string name="magisk_summary">Správca Root oprávnení</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Pomiešať rozloženie</string>
@@ -116,8 +116,8 @@
   <string name="doze_pulse_duration_out_title">Postupné stmavnutie</string>
   <string name="doze_trigger_pickup_title">Vyberte senzor aktivácie</string>
   <string name="doze_trigger_pickup_summary_on">Pulzovanie sa spustí pomocou snímača pohybu</string>
-  <string name="doze_trigger_pickup_summary_off">Senzory pohybu nebudú použité k spusteniu</string>
-  <string name="doze_trigger_notification_title">Upozornenie</string>
+  <string name="doze_trigger_pickup_summary_off">Senzory pohybu nebudú použité pre spustenie</string>
+  <string name="doze_trigger_notification_title">Spúšťač upozornení</string>
   <string name="doze_trigger_notification_summary_on">Pulzovanie bude spustené upozorneniami</string>
   <string name="doze_trigger_notification_summary_off">Upozornenia nebudú použité k spusteniu</string>
   <string name="doze_brightness_level_title">Úroveň jasu</string>
@@ -134,7 +134,7 @@
   <string name="four_second">4 s</string>
   <string name="fourhalf_second">4.5 s</string>
   <string name="five_second">5 s</string>
-  <string name="doze_notification_color_invert_title">Inverzia upozornenia</string>
+  <string name="doze_notification_color_invert_title">Inverzia upozornení</string>
   <string name="doze_notification_color_invert_summary_off">Farby upozornení sa nezmenia (doporučené pre tmavé motívy).</string>
   <string name="doze_notification_color_invert_summary_on">Farby upozornení sa zmenia (doporučené pre svetlé motívy).</string>
   <!-- Double tap for doze -->
@@ -156,7 +156,7 @@
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">fotoaparát</string>
   <string name="app_ops_access_location">poloha</string>
-  <string name="app_ops_access_notifications">oznámenia</string>
+  <string name="app_ops_access_notifications">upozornenia</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">automatické spustenie</string>
   <string name="app_ops_delete_call_log">vymazať denník hovorov</string>
@@ -172,7 +172,7 @@
   <string name="app_ops_modify_clipboard">meniť údaje v schránke</string>
   <string name="app_ops_modify_contacts">aktualizovať kontakty</string>
   <string name="app_ops_modify_settings">aktualizovať nastavenia</string>
-  <string name="app_ops_mute_unmute_microphone">stíšiť/pridať mikrofón</string>
+  <string name="app_ops_mute_unmute_microphone">stíšiť/zosiliť mikrofón</string>
   <string name="app_ops_play_audio">prehrávať zvuk</string>
   <string name="app_ops_post_notification">posielať upozornenia</string>
   <string name="app_ops_project_media">premietať médiá</string>
@@ -234,11 +234,11 @@
   <string name="device_gestures_title">Gestá</string>
   <string name="device_gestures_summary">Nastaviť ďalšie gestá pre vaše zariadenie</string>
   <string name="device_doze_title">Gestá ambientneho displeja</string>
-  <string name="device_doze_summary">Nastaviť ďalšie gestá pre ambiéntny displej</string>
+  <string name="device_doze_summary">Nastaviť ďalšie gestá pre ambientny displej</string>
   <!-- Safe headset volume restore checkbox -->
   <string name="safe_headset_volume_title">Bezpečná hlasitosť slúchadiel</string>
   <string name="safe_headset_volume_summary">Zabráni vysokej hlasitosti pri prvom pripojení slúchadiel</string>
-  <string name="safe_headset_volume_warning_dialog_text">Počúvanie pri vysokej hlasitosti po dlhšiu dobu môže poškodiť Váš sluch. Zakážte ju s opatrnnosťou.</string>
+  <string name="safe_headset_volume_warning_dialog_text">Počúvanie pri vysokej hlasitosti po dlhšiu dobu môže poškodiť Váš sluch. Buďte opatrní pri zrušení tejto voľby.</string>
   <!-- MSIM SIM status -->
   <string name="sim_card_status_title">Stav SIM %d</string>
   <string name="sim_card_lock_settings_title">Nastavenia zámku SIM %d</string>
@@ -257,20 +257,20 @@
   <string name="expanded_hide_status">Skryť stavový riadok</string>
   <string name="expanded_hide_navigation">Skryť navigačný panel</string>
   <string name="expanded_hide_both">Skryť oba</string>
-  <string name="expanded_nothing_to_show">Pre pridanie vlastného nastavenia rozšíreného stavu pre každú aplikáciu musíte zakázať \'Povolené pre všetky\'</string>
-  <string name="expanded_desktop_state">Rozšírený stav</string>
-  <string name="expanded_enabled_for_all">Povolené pre všetky</string>
+  <string name="expanded_nothing_to_show">Pre pridanie vlastného nastavenia rozšíreného stavu pre každú aplikáciu musíte zakázať \'Povolené pre všetky aplikácie\'</string>
+  <string name="expanded_desktop_state">Rozšírená obrazovka</string>
+  <string name="expanded_enabled_for_all">Povolené pre všetky aplikácie</string>
   <string name="expanded_user_configurable">Nastaviteľné používateľom</string>
-  <string name="expanded_desktop_style">Rozšírený štýl plochy</string>
+  <string name="expanded_desktop_style">Vzhľad rozšírenej plochy</string>
   <string name="expanded_desktop_style_description">Vyberte predvolený štýl rozšírenej plochy</string>
-  <string name="expanded_desktop_title">Rozšírené možnosti plochy</string>
+  <string name="expanded_desktop_title">Možnosti rozšírenej plochy</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Informácie o telefóne</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Vyhľadajte snímač odtlačkov prstov <xliff:g id="sensor_location">%1$s</xliff:g> na telefóne.</string>
   <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">späť</string>
-  <string name="security_settings_fingerprint_sensor_location_front">predný</string>
+  <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
+  <string name="security_settings_fingerprint_sensor_location_front">vpredu</string>
   <string name="security_settings_fingerprint_sensor_location_left">ľavá strana</string>
   <string name="security_settings_fingerprint_sensor_location_right">pravá strana</string>
   <!-- Gesture Settings -->
@@ -292,7 +292,7 @@
   <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivovaná. Chcete pokračovať?</string>
   <string name="sim_enabler_will_disable_sim_title">Upozornenie</string>
   <string name="sim_enabler_need_switch_data_service">Táto SIM karta bude zakázaná a SIM karta <xliff:g id="slotid">%1$s</xliff:g> bude použitá pre dátové služby. Naozaj chcete pokračovať?</string>
-  <string name="sim_enabler_airplane_on">Akciu nie je možné vykonať, pokiaľ je aktivovaný režim lietadlo.</string>
+  <string name="sim_enabler_airplane_on">Akciu nie je možné vykonať, pokiaľ je aktivovaný režim v lietadle.</string>
   <string name="sim_enabler_in_call">Počas prebiehajúceho hovoru nie je možné vykonať túto akciu.</string>
   <string name="sim_enabler_both_inactive">Nemožno zakázať všetky karty SIM</string>
   <string name="sim_enabler_enabling">Aktivovanie\u2026</string>
@@ -312,9 +312,9 @@
   <string name="menu_show_substratum">Zobraziť prekrytia</string>
   <string name="menu_hide_substratum">Skryť prekrytia</string>
   <!-- Manage applications: show substratum icon overlays -->
-  <string name="filter_substratum_icons">Ikona Substratum prekrytia</string>
-  <string name="menu_show_substratum_icons">Zobraziť ikonu prekrytia</string>
-  <string name="menu_hide_substratum_icons">Skryť ikonu prekrytia</string>
+  <string name="filter_substratum_icons">Ikona Substratum prekrytí</string>
+  <string name="menu_show_substratum_icons">Zobraziť ikonu prekrytí</string>
+  <string name="menu_hide_substratum_icons">Skryť ikonu prekrytí</string>
   <!-- Force authorize substratum packages -->
   <string name="force_authorize_substratum_packages_title">Povoliť inštaláciu tém z neznámych zdrojov</string>
   <string name="force_authorize_substratum_packages_summary">Vyžadovať povolenie pre každú tému</string>
@@ -322,9 +322,9 @@
   <string name="enable_adb_custom">Ladenie systému Android</string>
   <string name="enable_adb_summary_custom">Povoliť rozhranie Android Debug Bridge (adb)</string>
   <string name="adb_notify">ADB oznámenia</string>
-  <string name="adb_notify_summary">Zobraziť oznámenie, ak je povolené ladenie cez USB alebo sieť</string>
+  <string name="adb_notify_summary">Zobraziť upozornenie, ak je povolené ladenie cez USB alebo sieť</string>
   <string name="adb_over_network">ADB cez sieť</string>
-  <string name="adb_over_network_summary">Povoliť TCP/IP ladenie cez sieť (Wi-Fi alebo USB sieť). Toto nastavenie bude obnovené po reštarte</string>
+  <string name="adb_over_network_summary">Povoliť TCP/IP ladenie cez sieť (Wi-Fi alebo USB). Toto nastavenie bude obnovené po reštarte</string>
   <string name="adb_over_network_warning">VAROVANIE: Ak je povolené ADB cez sieť, zariadenie je otvorené pre pokusy o prieniky na všetkých pripojených sieťach, vrátane GSM dátových sieťach!\n\nPoužite túto funkciu iba ak ste pripojení k dôveryhodnej sieti.\n\nChcete povoliť túto funkciu?</string>
   <!-- General strings -->
   <string name="header_category_custom">UI &#38; UX</string>
@@ -346,7 +346,7 @@
   <string name="battery_saver_notif_summary">Zobraziť upozornenie, keď je povolený šetrič batérie</string>
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Upozornenie na vybitie batérie</string>
-  <string name="battery_low_notif_summary">Zobraziť oznámenie o nízkom stave batérie</string>
+  <string name="battery_low_notif_summary">Zobraziť upozornenie o nízkom stave nabitia batérie</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
   <string name="display_rotation_title">Rotácia</string>
@@ -371,7 +371,7 @@
   <string name="telegram_description">Pripojte sa k našej diskusnej skupine na Telegrame</string>
   <string name="telegram_description">Pripojte sa k našej diskusnej skupine na Telegrame</string>
   <string name="web">Centrum sťahovania</string>
-  <string name="web_description">Navštívte náš portál pre sľahovánie</string>
+  <string name="web_description">Navštívte náš portál pre sťahovanie</string>
   <string name="help_translate">Preklady</string>
   <string name="help_translate_description">Preložte do svojho jazyka, navštívte náš Crowdin</string>
   <string name="walls">Tapety</string>
@@ -391,9 +391,9 @@
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">Logá QS/Fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-  <string name="designer3_description">Tapety, spúšťacie animácei</string>
+  <string name="designer3_description">Tapety, spúšťacie animácie</string>
   <string name="maintainers">Správcovia</string>
-  <string name="maintainer_description">Spravuje pre %1$s</string>
+  <string name="maintainer_description">Správca pre %1$s</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Zvuk pri snímke obrazovky</string>
   <string name="screenshot_sound_summary">Prehrá zvukový efekt pri fotke obrazovky</string>
@@ -417,7 +417,7 @@
   <string name="wake_when_plugged_or_unplugged_summary">Zapnúť obrazovku pri pripojení alebo odpojení zdroja nabíjania</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
   <string name="processor_info">Procesor</string>
-  <string name="mem_info">RAM</string>
+  <string name="mem_info">Pamäť RAM</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Zvuky pri nabíjaní</string>
   <string name="power_notifications_enable_title">Zapnúť</string>

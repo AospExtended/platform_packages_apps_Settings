@@ -166,6 +166,16 @@
   <string name="app_ops_draw_on_top">gambar di atas</string>
   <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
   <string name="app_ops_keep_device_awake">tetap terjaga</string>
+  <string name="app_ops_make_phone_call">membuat panggilan</string>
+  <string name="app_ops_modify_calendar">memperbaiki kalender</string>
+  <string name="app_ops_modify_call_log">perbaharui riwayat panggilan</string>
+  <string name="app_ops_modify_clipboard">ubah clipboard</string>
+  <string name="app_ops_modify_contacts">perbaharui kontak</string>
+  <string name="app_ops_read_sms">baca sms</string>
+  <string name="app_ops_receive_sms">menerima sms</string>
+  <string name="app_ops_record_audio">rekam audio</string>
+  <string name="app_ops_send_mms">kirim MMS</string>
+  <string name="app_ops_send_sms">kirim SMS</string>
   <string name="app_ops_boot_completed">mulai otomatis</string>
   <string name="ambient_display_show_battery_title">Status baterai</string>
   <string name="ambient_display_show_battery_summary">Menampilkan indikator baterai selama berkedip</string>

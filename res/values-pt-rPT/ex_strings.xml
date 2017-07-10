@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">Versão extendida</string>
+  <string name="extended_version">Versão da AOSP Extended</string>
   <string name="extended_version_default">Desconhecido</string>
   <string name="extensions_title">Extensões</string>
   <!-- AEX OTA -->
@@ -60,6 +60,7 @@
   <!-- Camera sound -->
   <string name="camera_sounds_title">Som de captura da câmara</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">Gestor de Temas</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Gestão de root</string>
   <string name="rootmanagement_dashboard_summary">Gerir acesso root</string>
@@ -87,16 +88,24 @@
   <string name="magisk_summary">Gestão de root</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Disposição aleatória</string>
+  <string name="unlock_scramble_pin_layout_summary">Apresentar aleatoriamente a disposição do teclado numérico, quando desbloquear com PIN</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Acesso a dados móveis</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Acesso a dados Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Desativar todos os acessos a dados móveis</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Evitar qualquer acesso a dados através de redes celulares</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Desativar todos os acessos a dados Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Evitar qualquer acesso a dados através de redes Wi\u2011Fi</string>
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">Repor estatísticas</string>
   <string name="battery_stats_message">O histórico de estatísticas da bateria vai ser apagado</string>
   <string name="ok_string">OK</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">Definições do modo Doze</string>
   <string name="summary_doze_enabled">Ativada</string>
   <string name="summary_doze_disabled">Desativada</string>
   <string name="doze_overwrite_value_title">Valores personalizados</string>
@@ -129,13 +138,85 @@
   <string name="doze_notification_color_invert_summary_off">As notificações não serão invertidas. Usar em temas escuros.</string>
   <string name="doze_notification_color_invert_summary_on">As cores das notificações serão invertidas. Usar em temas claros ou de origem.</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Toque duplo para acordar o dispositivo</string>
+  <string name="double_tap_wake_doze_summary">Requerer duplo toque para ativar o ecrã durante o modo doze</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">Utilizações da aplicação</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">Opções avançadas por aplicação</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Localização</string>
+  <string name="app_ops_cat_personal">Pessoal</string>
+  <string name="app_ops_cat_messaging">Mensagens</string>
   <string name="app_ops_cat_media">Mídia</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">câmara</string>
+  <string name="app_ops_access_location">localização</string>
+  <string name="app_ops_access_notifications">notificações</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">inicio automático</string>
+  <string name="app_ops_delete_call_log">eliminar registo de chamadas</string>
+  <string name="app_ops_delete_contacts">eliminar contactos</string>
+  <string name="app_ops_delete_mms">eliminar MMS</string>
+  <string name="app_ops_delete_sms">eliminar SMS</string>
+  <string name="app_ops_draw_on_top">desenhar na parte superior</string>
+  <string name="app_ops_get_usage_stats">obter estatísticas de utilização</string>
+  <string name="app_ops_keep_device_awake">manter o ecrã ligado</string>
+  <string name="app_ops_make_phone_call">fazer uma chamada</string>
+  <string name="app_ops_modify_calendar">atualizar calendário</string>
+  <string name="app_ops_modify_call_log">atualizar registo de chamadas</string>
+  <string name="app_ops_modify_clipboard">modificar área de transferência</string>
+  <string name="app_ops_modify_contacts">atualizar contactos</string>
+  <string name="app_ops_modify_settings">atualizar definições</string>
+  <string name="app_ops_mute_unmute_microphone">ligar/desligar microfone</string>
+  <string name="app_ops_play_audio">reproduzir áudio</string>
+  <string name="app_ops_post_notification">publicar uma notificação</string>
+  <string name="app_ops_project_media">projetar multimédia</string>
+  <string name="app_ops_read_calendar">ler calendário</string>
+  <string name="app_ops_read_call_log">ler registo de chamadas</string>
+  <string name="app_ops_read_clipboard">ler área de transferência</string>
+  <string name="app_ops_read_contacts">ler contactos</string>
+  <string name="app_ops_read_mms">ler MMS</string>
+  <string name="app_ops_read_sms">ler SMS</string>
+  <string name="app_ops_receive_sms">receber SMS</string>
+  <string name="app_ops_record_audio">gravar áudio</string>
+  <string name="app_ops_send_mms">enviar MMS</string>
+  <string name="app_ops_send_sms">enviar SMS</string>
+  <string name="app_ops_toast_window">mensagens de aviso</string>
+  <string name="app_ops_use_alarm_volume">volume do alarme</string>
+  <string name="app_ops_use_audio_focus">foco de Áudio</string>
+  <string name="app_ops_use_bluetooth_volume">Volume de Bluetooth</string>
+  <string name="app_ops_use_master_volume">volume principal</string>
+  <string name="app_ops_use_media_buttons">botões multimédia</string>
+  <string name="app_ops_use_media_volume">volume de multimédia</string>
+  <string name="app_ops_use_notification_volume">volume das notificações</string>
+  <string name="app_ops_use_ring_volume">volume do toque</string>
+  <string name="app_ops_use_vibrate">vibrar ao tocar</string>
+  <string name="app_ops_use_voice_volume">volume de voz</string>
+  <string name="app_ops_write_mms">escrever MMS</string>
+  <string name="app_ops_write_sms">escrever SMS</string>
+  <string name="app_ops_use_fingerprint">impressão digital</string>
+  <string name="app_ops_add_voicemail">correio de voz</string>
+  <string name="app_ops_read_phone_state">aceder ao estado do telefone</string>
+  <string name="app_ops_scan_wifi">Procurar Redes Wi-Fi</string>
+  <string name="app_ops_change_wallpaper">alterar imagem de fundo</string>
+  <string name="app_ops_assist_structure">estrutura auxiliar</string>
+  <string name="app_ops_assist_screenshot">captura de ecrã</string>
+  <string name="app_ops_use_body_sensors">sensores de corpo</string>
+  <string name="app_ops_read_cell_broadcasts">transmissões móveis</string>
+  <string name="app_ops_mock_location">simular localização</string>
+  <string name="app_ops_read_external_storage">ler armazenamento externo</string>
+  <string name="app_ops_write_external_storage">escrever no armazenamento externo</string>
+  <string name="app_ops_turn_on_screen">ligar o ecrã</string>
+  <string name="app_ops_get_accounts">contas do dispositivo</string>
+  <string name="app_ops_wifi_change">alterar o estado do Wi-Fi</string>
+  <string name="app_ops_toggle_bluetooth">alternar Bluetooth</string>
+  <string name="app_ops_run_in_background">executar em segundo plano</string>
+  <string name="app_ops_boot_completed">início automático</string>
   <string name="ambient_display_show_battery_title">Estado da bateria</string>
   <string name="ambient_display_show_battery_summary">Mostra indicador de bateria ao ativar</string>
   <!-- Battery Saver Settings -->
@@ -143,16 +224,32 @@
   <string name="battery_saver_color_title">Cor do modo Poupança de bateria</string>
   <string name="battery_saver_color_summary">Ativar as barras de estado e navegação laranja quando o modo de Poupança de bateria é ativado</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Impedir que o ecrã se ligue acidentalmente</string>
+  <string name="proximity_wake_summary">Verifique o sensor de proximidade antes de ligar o ecrã</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">AVISO</string>
   <string name="systemui_restart_message">A interface do sistema será reiniciada para que a configuração selecionada possa ser aplicada corretamente.</string>
   <string name="restarting_ui">A reiniciar a IU\u2026</string>
   <string name="print_restart">Reiniciar</string>
+  <string name="device_gestures_title">Gestos do dispositivo</string>
+  <string name="device_gestures_summary">Configurar gestos extras para o seu dispositivo</string>
+  <string name="device_doze_title">Gestos do modo ambiente</string>
+  <string name="device_doze_summary">Configurar gestos extras para modo de exibição de ambiente</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">Proteção de volume nos auriculares</string>
+  <string name="safe_headset_volume_summary">Evitar níveis de volume alto quando o auricular é ligado pela primeira vez</string>
+  <string name="safe_headset_volume_warning_dialog_text">Ouvir com o volume alto por longos períodos pode prejudicar a sua audição. Desative-o com cuidado.</string>
   <!-- MSIM SIM status -->
+  <string name="sim_card_status_title">Estado do cartão SIM %d</string>
+  <string name="sim_card_lock_settings_title">Definições de bloqueio do SIM %d</string>
+  <string name="sim_card_summary_empty">Cartão SIM não inserido</string>
+  <string name="sim_mobile_network_settings_category_title">Definições de rede móvel</string>
+  <string name="sim_mobile_network_settings_title">Definições do cartão SIM %d</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
+  <string name="substratum_title">Substratum</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Área de trabalho expandida</string>
   <string name="keywords_expanded_desktop">Área de trabalho expandida</string>
@@ -168,14 +265,48 @@
   <string name="expanded_desktop_style_description">Escolher um estilo padrão para a área de trabalho expandida</string>
   <string name="expanded_desktop_title">Opções da área de trabalho expandida</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">Informações do telefone</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Localize o sensor de impressões digitais na <xliff:g id="sensor_location">%1$s</xliff:g> do seu telefone.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">voltar</string>
+  <string name="security_settings_fingerprint_sensor_location_front">frente</string>
+  <string name="security_settings_fingerprint_sensor_location_left">no lado esquerdo</string>
+  <string name="security_settings_fingerprint_sensor_location_right">no lado direito</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+  <string name="double_twist_for_camera_mode_summary_pn">Para mudar a câmara do modo de selfie no Google Camera, usando o gesto de torcer duas vezes quando estiver na aplicação</string>
   <!-- Animation Scale -->
+  <string name="animation_off">Animação desativada</string>
+  <string name="animation_scale_0_5x">Animação 0.5x</string>
+  <string name="animation_scale_0_75x">Animação 0.75x</string>
+  <string name="animation_scale_1x">Animação 1x</string>
+  <string name="animation_scale_1_5x">Animação 1.5x</string>
+  <string name="animation_scale_2x">Animação 2x</string>
+  <string name="animation_scale_5x">Animação 5x</string>
+  <string name="animation_scale_10x">Animação 10x</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> está <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">ativado</string>
+  <string name="sim_disabled">desativado</string>
+  <string name="sim_missing">em falta ou com defeito</string>
+  <string name="sim_enabler_need_disable_sim">O cartão SIM será desativado. Quer continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Aviso</string>
+  <string name="sim_enabler_need_switch_data_service">Este cartão SIM será desativado e o cartão SIM <xliff:g id="slotid">%1$s</xliff:g> será usado para os serviços de dados. Tem a certeza que deseja continuar?</string>
+  <string name="sim_enabler_airplane_on">Não é possível executar a operação enquanto o modo de voo estiver ativado.</string>
+  <string name="sim_enabler_in_call">Não é possível executar a operação enquanto estiver numa chamada.</string>
+  <string name="sim_enabler_both_inactive">Não é possível desativar todos os cartões SIM</string>
+  <string name="sim_enabler_enabling">A ativar\u2026</string>
+  <string name="sim_enabler_disabling">A desativar\u2026</string>
+  <string name="sub_activate_success">SIM ativado.</string>
+  <string name="sub_activate_failed">Ativação falhou.</string>
+  <string name="sub_deactivate_success">SIM desativado.</string>
+  <string name="sub_deactivate_failed">Desativação falhou.</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Código de região Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Especificar o código de região para Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Ocorreu um problema a definir o código de região.</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Camadas do Substratum</string>
   <string name="menu_show_substratum">Mostrar camadas</string>
@@ -188,7 +319,15 @@
   <string name="force_authorize_substratum_packages_title">Permitir aplicações de temas de fontes desconhecidas</string>
   <string name="force_authorize_substratum_packages_summary">Forçar autorização de todas as aplicações de temas</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">Depuração Android</string>
+  <string name="enable_adb_summary_custom">Ativar a interface \"Android Debug Bridge\" (adb)</string>
+  <string name="adb_notify">Notificação de ADB</string>
+  <string name="adb_notify_summary">Mostrar uma notificação quando a depuração USB ou através da rede estiver ativada</string>
+  <string name="adb_over_network">ADB através da rede</string>
+  <string name="adb_over_network_summary">Ativar a depuração TCP/IP sobre as interfaces de rede (Wi\u2011Fi, USB). Esta definição é restaurada ao reiniciar</string>
+  <string name="adb_over_network_warning">Aviso: Quando o ADB através da rede está ativado, o telefone fica desprotegido e pode facilitar invasões em todas as redes ligadas!\n\nUsar esta funcionalidade apenas quando estiver ligado a redes de confiança.\n\nQuer mesmo ativar esta função?</string>
   <!-- General strings -->
+  <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
   <string name="dashboard_category">Opções do Painel de definições</string>
   <string name="dashboard_suggestions_title">Mostrar sugestões</string>
@@ -203,13 +342,61 @@
   <string name="dashboard_columns_portrait_title">Colunas (em retrato)</string>
   <string name="dashboard_columns_landscape_title">Colunas (em paisagem)</string>
   <!-- Battery saver notification toggle -->
+  <string name="battery_saver_notif_title">Notificação de poupança de energia</string>
+  <string name="battery_saver_notif_summary">Mostrar notificação de poupança de bateria quando ativado</string>
   <!-- low battery notification toggle -->
+  <string name="battery_low_notif_title">Notificação de bateria fraca</string>
+  <string name="battery_low_notif_summary">Mostrar notificação de bateria fraca quando ativado</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
+  <string name="display_rotation_title">Rotação</string>
   <string name="display_rotation_disabled">Desativada</string>
+  <string name="display_rotation_unit">graus</string>
+  <string name="display_lockscreen_rotation_title">Rodar o ecrã de bloqueio</string>
+  <string name="display_rotation_category_title">Modos de rotação</string>
+  <string name="display_rotation_0_title">0 graus</string>
+  <string name="display_rotation_90_title">90 graus</string>
+  <string name="display_rotation_180_title">180 graus</string>
+  <string name="display_rotation_270_title">270 graus</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Sobre nós</string>
+  <string name="aex_about_summary">Uma introdução e a nossa equipa</string>
+  <string name="aex_about_info_summary">AospExtended é uma rom com base AOSP que fornece uma interface stock com várias opções de personalização, juntamente com o gestor de tema Substratum. O projeto consiste em várias funções de vários outros projetos. Sendo baseado na AOSP, fornecemos uma experiência suave e sem lags. Nós tentaremos constantemente adicionar mais funcionalidades e tornar a ROM ainda melhor com atualizações futuras.&#35;BeExtended</string>
+  <string name="dev_info">Sobre AospExtended</string>
+  <string name="github">GitHub</string>
+  <string name="github_description">Veja nosso código fonte</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Junte-se à nossa comunidade no G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Participe do nosso grupo no Telegram</string>
+  <string name="telegram_description">Participe do nosso grupo no Telegram</string>
+  <string name="web">Central de transferências</string>
+  <string name="web_description">Visite o nosso portal de transferências</string>
+  <string name="help_translate">Traduções</string>
+  <string name="help_translate_description">Ajude a traduzir para o seu idioma, visite nosso Crowdin</string>
+  <string name="walls">Imagens de fundo</string>
+  <string name="walls_description">Obter imagens de fundo criados por vários utilizadores</string>
+  <string name="leads">Equipa</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Criador/Programador Líder</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Programador</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderador e um programador amador</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Programador</string>
+  <string name="designers">Designers</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Banners, Logos, Imagens de fundo</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Logos QS/Fling</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Imagens de Fundo, Animações de boot</string>
+  <string name="maintainers">Mantido por</string>
+  <string name="maintainer_description">Gere %1$s</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Som da captura de ecrã</string>
+  <string name="screenshot_sound_summary">Tocar som quando é realizada uma captura de ecrã</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brilho</string>
   <string name="night_brightness_value_title">Brilho da Luz Noturna</string>
@@ -224,22 +411,42 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida</string>
+  <string name="reset_wallpaper_notice">Imagem de fundo padrão restaurada</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Acordar ao ligar</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Liga o ecrã quando ligar ou desligar um carregador</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Processador</string>
   <string name="mem_info">RAM</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Sons de carregamento</string>
   <string name="power_notifications_enable_title">Ativar</string>
+  <string name="power_notifications_enable_summary">Tocar um som quando ligar ou desligar o carregador</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibração</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Som de notificação</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Silencioso</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Mostrar erro padrão</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Mostrar pontos padrão</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibração</string>
+  <string name="lockscreen_vibrate_enabled_head">Vibrar ao desbloquear</string>
   <!-- Night Display -->
+  <string name="night_display_warning">Atenção que a luz noturna pode aumentar o consumo de bateria.</string>
+  <string name="night_display_hide">Não mostrar este aviso novamente</string>
   <string name="night_display_ok">OK</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Aviso</string>
+  <string name="quick_unlock_alert_msg">Esta funcionalidade só irá funcionar se usar um PIN de 4 dígitos, caso contrário poderá ocorrer efeitos indesejados com seu dispositivo.</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Desnecessário, Configurações de desenvolvimento estão ativadas por padrão.</string>
 </resources>
