@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extensions_title">Extensies</string>
   <!-- AEX OTA -->
   <!-- About phone screen, build date -->
   <string name="build_date">Build-datum</string>
@@ -111,6 +112,7 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">Media</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="ambient_display_show_battery_title">Accustatus</string>
   <string name="ambient_display_show_battery_summary">Toon accupictogram bij Pulse</string>

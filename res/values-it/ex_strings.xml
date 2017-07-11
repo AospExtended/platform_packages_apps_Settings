@@ -24,7 +24,7 @@
   <string name="aex_ota_title">Aggiornamento AEX</string>
   <string name="aex_ota_summary">Otteni l\'aggiornamento più recente</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Data build</string>
+  <string name="build_date">Data di costruzione</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
   <string name="vendor_version">Versione produttore</string>
@@ -50,8 +50,8 @@
   <string name="ime_switcher_notify">Selettore notifica</string>
   <string name="ime_switcher_notify_summary">Visualizza il metodo d\'ingresso del selettore della notifica</string>
   <!-- Changelog -->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_error">Impossibile caricare il changelog</string>
+  <string name="changelog_title">Modifiche</string>
+  <string name="changelog_error">Impossibile caricare l\'elenco delle modifiche</string>
   <string name="changelog_summary">Cambiamenti recenti</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Collegamento volume suoneria e notifica</string>
@@ -72,7 +72,7 @@
   <string name="increasing_ring_ramp_up_time_title">Tempo di accelerazione</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Suoni di notifica meno frequenti</string>
-  <string name="less_notification_sounds_summary">Limita i suoni di notifica di ogni app per suonare solo una volta e per il periodo di tempo impostato</string>
+  <string name="less_notification_sounds_summary">Limita i suoni di notifica di ogni app in modo che si attivino solo una volta per ogni periodo di tempo impostato</string>
   <string name="less_notification_sounds_default">Comportamento predefinito</string>
   <string name="less_notification_sounds_3s">3 secondi</string>
   <string name="less_notification_sounds_5s">5 secondi</string>
@@ -84,7 +84,7 @@
   <string name="less_notification_sounds_2m">2 minuti</string>
   <string name="less_notification_sounds_5m">5 minuti</string>
   <!-- Magisk Manager -->
-  <string name="magisk_title">Magisk Manager</string>
+  <string name="magisk_title">Gestione Magisk</string>
   <string name="magisk_summary">Gestione Root</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Cambia disposizione grafica</string>
@@ -166,14 +166,14 @@
   <string name="app_ops_draw_on_top">disegna sulla parte superiore</string>
   <string name="app_ops_get_usage_stats">otteni le statistiche di utilizzo</string>
   <string name="app_ops_keep_device_awake">tieni sveglio</string>
-  <string name="app_ops_make_phone_call">fai una chiamata</string>
+  <string name="app_ops_make_phone_call">effettua una chiamata</string>
   <string name="app_ops_modify_calendar">aggiornamento del calendario</string>
   <string name="app_ops_modify_call_log">aggiornamento registro chiamate</string>
   <string name="app_ops_modify_clipboard">modifica appunti</string>
   <string name="app_ops_modify_contacts">aggiornamento contatti</string>
   <string name="app_ops_modify_settings">aggiornamento impostazioni</string>
   <string name="app_ops_mute_unmute_microphone">muto/non muto</string>
-  <string name="app_ops_play_audio">play audio</string>
+  <string name="app_ops_play_audio">riproduzione audio</string>
   <string name="app_ops_post_notification">posticipa notifica</string>
   <string name="app_ops_project_media">progetto multimediale</string>
   <string name="app_ops_read_calendar">leggi calendario</string>
@@ -182,15 +182,15 @@
   <string name="app_ops_read_contacts">leggi contatti</string>
   <string name="app_ops_read_mms">leggi MMS</string>
   <string name="app_ops_read_sms">leggi SMS</string>
-  <string name="app_ops_receive_sms">ricevere SMS</string>
+  <string name="app_ops_receive_sms">ricezione SMS</string>
   <string name="app_ops_record_audio">registra audio</string>
   <string name="app_ops_send_mms">invia MMS</string>
   <string name="app_ops_send_sms">invia SMS</string>
   <string name="app_ops_toast_window">messaggi toast</string>
   <string name="app_ops_use_alarm_volume">volume allarmi</string>
   <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">volume Bluetooth</string>
-  <string name="app_ops_use_master_volume">volume master</string>
+  <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
+  <string name="app_ops_use_master_volume">volume principale</string>
   <string name="app_ops_use_media_buttons">pulsanti multimediali</string>
   <string name="app_ops_use_media_volume">volume multimediale</string>
   <string name="app_ops_use_notification_volume">volume notifica</string>
@@ -204,7 +204,7 @@
   <string name="app_ops_read_phone_state">accesso stato telefono</string>
   <string name="app_ops_scan_wifi">scansione reti WiFi</string>
   <string name="app_ops_change_wallpaper">cambia sfondo</string>
-  <string name="app_ops_assist_structure">assiste struttura</string>
+  <string name="app_ops_assist_structure">assistenza struttura</string>
   <string name="app_ops_assist_screenshot">screenshot</string>
   <string name="app_ops_use_body_sensors">sensori corporei</string>
   <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
@@ -289,9 +289,9 @@
   <string name="sim_enabled">abilita</string>
   <string name="sim_disabled">disabilita</string>
   <string name="sim_missing">mancante o difettoso</string>
-  <string name="sim_enabler_need_disable_sim">La scheda SIM viene disattivata. Vuoi continuare?</string>
+  <string name="sim_enabler_need_disable_sim">La scheda SIM sarà disattivata. Vuoi continuare?</string>
   <string name="sim_enabler_will_disable_sim_title">Attenzione</string>
-  <string name="sim_enabler_need_switch_data_service">Questa SIM verrà disabilita e la SIM <xliff:g id="slotid">%1$s</xliff:g> saranno utilizzati per i servizi dati. Sei sicuro di voler continuare?</string>
+  <string name="sim_enabler_need_switch_data_service">Questa SIM sarà disattivata e la SIM <xliff:g id="slotid">%1$s</xliff:g> sarà utilizzata per la connessione dati. Vuoi procedere?</string>
   <string name="sim_enabler_airplane_on">Impossibile eseguire l\'operazione mentre la modalità aereo è attiva.</string>
   <string name="sim_enabler_in_call">Impossibile eseguire l\'operazione durante una chiamata.</string>
   <string name="sim_enabler_both_inactive">Non è possibile disattivare tutte le carte SIM</string>
@@ -302,9 +302,9 @@
   <string name="sub_deactivate_success">SIM disattivata.</string>
   <string name="sub_deactivate_failed">Disattivazione fallita.</string>
   <!-- Wi-Fi region code -->
-  <string name="wifi_setting_countrycode_title">Wi\u2011Fi codice di regione</string>
+  <string name="wifi_setting_countrycode_title">Codice regione Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
-  <string name="wifi_setting_countrycode_summary">Specificare il codice regionale per Wi\u2011Fi</string>
+  <string name="wifi_setting_countrycode_summary">Specificare il codice regione per il Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
   <string name="wifi_setting_countrycode_error">C\'era un problema di impostazione del codice di regione.</string>
   <!-- Manage applications: show substratum overlays -->
@@ -316,8 +316,8 @@
   <string name="menu_show_substratum_icons">Mostra icona overlay</string>
   <string name="menu_hide_substratum_icons">Nascondi icona overlay</string>
   <!-- Force authorize substratum packages -->
-  <string name="force_authorize_substratum_packages_title">Consenti l\'installazione di temi da fonti sconosciute</string>
-  <string name="force_authorize_substratum_packages_summary">Forza l\'autorizzazione ad ogni applicazione del tema</string>
+  <string name="force_authorize_substratum_packages_title">Forza l\'autorizzazione ad ogni applicazione del tema</string>
+  <string name="force_authorize_substratum_packages_summary">Consenti le applicazioni a tema provenienti da fonti sconosciute</string>
   <!-- ADB debugging notifications -->
   <string name="enable_adb_custom">Android debugging</string>
   <string name="enable_adb_summary_custom">Attivare l\'interfaccia di Android Debug Bridge (adb)</string>
@@ -400,7 +400,7 @@
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Luminosità</string>
   <string name="night_brightness_value_title">Luminosità luce notturna</string>
-  <string name="night_brightness_text">Quando la luce notturna è attivata automaticamente verrà impostata la luminosità desiderata. La luminosità predefinita è impostata su luminosità bassa</string>
+  <string name="night_brightness_text">Quando la luce notturna è attivata, automaticamente verrà impostata la luminosità desiderata. La luminosità predefinita è impostata su luminosità bassa</string>
   <string name="night_bright_disabled">Disabilitato</string>
   <string name="night_bright_min">Luminosità minima</string>
   <string name="night_bright_low">Luminosità bassa</string>

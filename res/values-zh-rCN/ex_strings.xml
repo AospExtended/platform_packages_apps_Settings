@@ -152,6 +152,7 @@
   <string name="app_ops_cat_messaging">短信</string>
   <string name="app_ops_cat_media">媒体</string>
   <string name="app_ops_cat_device">设备</string>
+  <string name="app_ops_cat_bootup">启动</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">相机</string>
   <string name="app_ops_access_location">位置</string>
@@ -212,7 +213,10 @@
   <string name="app_ops_write_external_storage">写入外置卡</string>
   <string name="app_ops_turn_on_screen">亮屏</string>
   <string name="app_ops_get_accounts">手机帐号</string>
+  <string name="app_ops_wifi_change">更改 WiFI 状态</string>
+  <string name="app_ops_toggle_bluetooth">开启 / 关闭蓝牙</string>
   <string name="app_ops_run_in_background">后台运行</string>
+  <string name="app_ops_boot_completed">自动启动</string>
   <string name="ambient_display_show_battery_title">电池状态</string>
   <string name="ambient_display_show_battery_summary">在充电时显示电池电量指示器</string>
   <!-- Battery Saver Settings -->
@@ -402,6 +406,10 @@
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->

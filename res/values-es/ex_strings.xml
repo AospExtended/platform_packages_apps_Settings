@@ -72,7 +72,7 @@
   <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Disminuir frecuencia de sonido de notificaciones</string>
-  <string name="less_notification_sounds_summary">Limitar los sonidos de notificacion de cada aplicacion para que suenen una vez cada cierto tiempo</string>
+  <string name="less_notification_sounds_summary">Limitar los sonidos de notificación de cada aplicación para que suenen una vez cada cierto tiempo</string>
   <string name="less_notification_sounds_default">Comportamiento por defecto</string>
   <string name="less_notification_sounds_3s">3 segundos</string>
   <string name="less_notification_sounds_5s">5 segundos</string>
@@ -383,7 +383,7 @@
   <string name="team2_description">Desarrollador</string>
   <string name="team_3">Amol Amrit</string>
   <string name="team3_description">Moderador y desarrollador amateur</string>
-  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team_4">Henrique Silva &#40;Adrian Rojas&#41;</string>
   <string name="team4_description">Desarrollador</string>
   <string name="designers">Diseñadores</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
