@@ -368,11 +368,11 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">Вступите в наше G+ сообщество</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Вступите в группу обсуждений в Telegram</string>
-  <string name="telegram_description">Вступите в группу обсуждений в Telegram</string>
+  <string name="telegram_description">Вступите в нашу группу обсуждений в Telegram</string>
+  <string name="telegram_description">Вступите в нашу группу обсуждений в Telegram</string>
   <string name="web">Центр Загрузок</string>
   <string name="web_description">Посетите наш центр загрузок</string>
-  <string name="help_translate">﻿Переводы</string>
+  <string name="help_translate">﻿Перевод</string>
   <string name="help_translate_description">Посетите наш Crowdin для перевода на ваш язык</string>
   <string name="walls">Обои</string>
   <string name="walls_description">Загрузить обои от разных пользователей</string>
