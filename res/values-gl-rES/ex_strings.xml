@@ -108,4 +108,28 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Cor</string>
+  <string name="battery_light_list_title">Cores</string>
+  <string name="notification_light_general_title">Xeral</string>
+  <string name="led_color_green">Verde</string>
+  <string name="led_color_red">Vermello</string>
+  <string name="led_color_blue">Azul</string>
+  <string name="ok">Aceptar</string>
+  <string name="advanced">Avanzado</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normal</string>
+  <string name="dialog_delete_title">Borrar</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_speed_fast">Rápido</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Xeral</string>
+  <string name="notification_light_applist_title">Aplicativos</string>
+  <string name="notification_light_default_value">Por defecto</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Escolle aplicativo</string>
+  <!-- Development Settings summary-->
 </resources>

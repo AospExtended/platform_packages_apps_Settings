@@ -209,4 +209,27 @@
   <string name="night_display_ok">はい</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">色</string>
+  <string name="battery_light_enable">有効</string>
+  <string name="battery_light_list_title">カラー</string>
+  <string name="led_color_green">緑</string>
+  <string name="led_color_red">赤</string>
+  <string name="led_color_blue">青</string>
+  <string name="ok">はい</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">標準</string>
+  <string name="custom_time">カスタム</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">標準</string>
+  <string name="pulse_speed_fast">速い</string>
+  <string name="pulse_speed_normal">標準</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">電話</string>
+  <string name="notification_light_default_value">デフォルト</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">アプリを選択</string>
+  <string name="reset">リセット</string>
+  <!-- Development Settings summary-->
 </resources>

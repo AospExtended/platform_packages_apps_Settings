@@ -98,4 +98,15 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="led_color_green">പച്ച</string>
+  <string name="led_color_red">ചുവപ്പ്</string>
+  <string name="led_color_blue">നീല</string>
+  <!-- Notification light dialogs -->
+  <!-- Values for the notification light pulse spinners -->
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_default_value">സാധാ ഗതിയിലേക്ക്</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <!-- Development Settings summary-->
 </resources>

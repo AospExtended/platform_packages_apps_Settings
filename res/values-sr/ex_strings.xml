@@ -162,4 +162,27 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Боја</string>
+  <string name="led_color_green">Зелена</string>
+  <string name="led_color_red">Црвена</string>
+  <string name="led_color_blue">Плава</string>
+  <string name="ok">У реду</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Нормална</string>
+  <string name="custom_time">Прилагођено</string>
+  <string name="dialog_delete_title">Избриши</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Нормална</string>
+  <string name="pulse_speed_fast">Брзо</string>
+  <string name="pulse_speed_normal">Нормална</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">Апликације</string>
+  <string name="notification_light_phonelist_title">Телефон</string>
+  <string name="notification_light_default_value">Подразумевано</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Изаберите апликацију</string>
+  <string name="reset">Поништи</string>
+  <!-- Development Settings summary-->
 </resources>

@@ -449,4 +449,70 @@
   <string name="quick_unlock_alert_msg">Tato funkce bude fungovat pouze v případě, že používáte čtyřmístný kód PIN, jinak se může objevit nežádoucí chování zařízení.</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Není třeba, možnosti vývojáře jsou ve výchozím nastavení povolena.</string>
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Barva</string>
+  <string name="omni_battery_light_settings">Kontrolka nabíjení baterie</string>
+  <string name="omni_notification_light_settings">LED oznámení</string>
+  <string name="omni_leds">Kontrolka LED</string>
+  <string name="batterylight_title">Nastavení LED indikátoru baterie</string>
+  <string name="battery_light_enable">Povolit</string>
+  <string name="battery_low_pulse_title">Blikat, když je baterie téměř vybitá</string>
+  <string name="battery_light_list_title">Barvy</string>
+  <string name="battery_light_low_color_title">Nízký stav baterie</string>
+  <string name="battery_light_medium_color_title">Nabíjení</string>
+  <string name="battery_light_full_color_title">Nabitá (90%)</string>
+  <string name="battery_light_really_full_color_title">Nabitá (100%)</string>
+  <string name="edit_battery_settings">Změnit nastavení baterie</string>
+  <string name="notification_light_general_title">Obecné</string>
+  <string name="led_color_green">Zelená</string>
+  <string name="led_color_red">Červená</string>
+  <string name="led_color_blue">Modrá</string>
+  <string name="ok">OK</string>
+  <string name="advanced">Pokročilé</string>
+  <string name="profiles_add">Přidat...</string>
+  <!-- Notification light dialogs -->
+  <string name="edit_light_settings">Upravit světelnou signalizaci</string>
+  <string name="pulse_speed_title">Délka a rychlost pulsu</string>
+  <string name="default_time">Normální</string>
+  <string name="custom_time">Vlastní</string>
+  <string name="dialog_delete_title">Smazat</string>
+  <string name="dialog_delete_message">Odstranit vybranou položku?</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Trvale svítící</string>
+  <string name="pulse_length_very_short">Velmi krátce</string>
+  <string name="pulse_length_short">Krátce</string>
+  <string name="pulse_length_normal">Normální</string>
+  <string name="pulse_length_long">Dlouze</string>
+  <string name="pulse_length_very_long">Velmi dlouze</string>
+  <string name="pulse_speed_very_fast">Velmi rychlá</string>
+  <string name="pulse_speed_fast">Rychlá</string>
+  <string name="pulse_speed_normal">Normální</string>
+  <string name="pulse_speed_slow">Pomalá</string>
+  <string name="pulse_speed_very_slow">Velmi pomalá</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">LED oznámení</string>
+  <string name="notificationlight_title">Nastavení oznámení LED</string>
+  <string name="notification_light_general_title">Obecné</string>
+  <string name="notification_light_applist_title">Aplikace</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_use_custom">Použít vlastní hodnoty</string>
+  <string name="notification_light_default_value">Výchozí</string>
+  <string name="notification_light_missed_call_title">Zmeškaný hovor</string>
+  <string name="notification_light_voicemail_title">Hlasová zpráva</string>
+  <string name="notification_light_screen_on">Světelná signalizace při zapnuté obrazovce</string>
+  <string name="notification_light_zen_mode">Světelná signalizace v režimu „Nerušit“</string>
+  <string name="notification_light_use_multiple_leds">Více LED</string>
+  <string name="keywords_lights_brightness_level">ztlumit jas LED diod</string>
+  <string name="notification_light_automagic">Automaticky zvolit barvy</string>
+  <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Nastavení LED</string>
+  <string name="led_notification_text">LED světlo povolené v nastavení</string>
+  <string name="notification_light_no_apps_summary">Chcete-li přidat řízení jednotlivých aplikací, aktivujte „%1$s“ a použijte tlačítko „\u002b“ v panelu nabídky</string>
+  <string name="notification_light_automagic">Automaticky zvolit barvy</string>
+  <string name="notification_light_automagic_summary">Automaticky nastaví správnou barvu LED oznámení, pokud aplikace nemá žádné vlastní hodnoty</string>
+  <string name="font_sample_text">11:57</string>
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Vybrat aplikaci</string>
+  <string name="reset">Obnovit</string>
+  <!-- Development Settings summary-->
 </resources>

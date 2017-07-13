@@ -217,4 +217,27 @@
   <string name="night_display_ok">확인</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">색</string>
+  <string name="battery_light_enable">활성화</string>
+  <string name="battery_light_list_title">색</string>
+  <string name="led_color_green">녹색</string>
+  <string name="led_color_red">빨간색</string>
+  <string name="led_color_blue">파란색</string>
+  <string name="ok">확인</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">일반 모드</string>
+  <string name="custom_time">사용자 지정</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">일반 모드</string>
+  <string name="pulse_speed_fast">빠름</string>
+  <string name="pulse_speed_normal">일반 모드</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">전화</string>
+  <string name="notification_light_default_value">기본값</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">애플리케이션 선택</string>
+  <string name="reset">초기화</string>
+  <!-- Development Settings summary-->
 </resources>

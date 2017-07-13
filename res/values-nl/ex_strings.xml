@@ -219,4 +219,29 @@
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Kleur</string>
+  <string name="battery_light_enable">Inschakelen</string>
+  <string name="battery_light_list_title">Kleuren</string>
+  <string name="led_color_green">Groen</string>
+  <string name="led_color_red">Rood</string>
+  <string name="led_color_blue">Blauw</string>
+  <string name="ok">OK</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normaal</string>
+  <string name="custom_time">Aangepast</string>
+  <string name="dialog_delete_title">Verwijder</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normaal</string>
+  <string name="pulse_speed_fast">Snel</string>
+  <string name="pulse_speed_normal">Normaal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">Applicaties</string>
+  <string name="notification_light_phonelist_title">Telefoon</string>
+  <string name="notification_light_default_value">Standaard</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Kies applicatie</string>
+  <string name="reset">Terug naar standaard</string>
+  <!-- Development Settings summary-->
 </resources>

@@ -356,4 +356,32 @@
   <string name="quick_unlock_alert_msg">Fitur ini hanya akan bekerja jika Anda menggunakan PIN 4 digit, sebaliknya efek yang tidak diinginkan dapat terjadi dengan perangkat Anda.</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Tidak perlu, pengaturan pengembang diaktifkan secara bawaan.</string>
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Warna</string>
+  <string name="battery_light_enable">Aktif</string>
+  <string name="battery_light_list_title">Warna</string>
+  <string name="notification_light_general_title">Umum</string>
+  <string name="led_color_green">Hijau</string>
+  <string name="led_color_red">Merah</string>
+  <string name="led_color_blue">Biru</string>
+  <string name="ok">Oke</string>
+  <string name="advanced">Lanjutan</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Kustom</string>
+  <string name="dialog_delete_title">Hapus</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_speed_fast">Cepat</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Umum</string>
+  <string name="notification_light_applist_title">Daftar aplikasi</string>
+  <string name="notification_light_phonelist_title">Ponsel</string>
+  <string name="notification_light_default_value">Bawaan</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Pilih aplikasi</string>
+  <string name="reset">Setel ulang</string>
+  <!-- Development Settings summary-->
 </resources>

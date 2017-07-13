@@ -25,6 +25,7 @@
   <string name="aex_ota_summary">Pobierz najnowszą kompilację</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Data kompilacji</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
   <string name="vendor_version_default">Nieznany</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -130,6 +131,8 @@
   <!-- App Ops Categories -->
   <string name="app_ops_cat_location">Lokalizacja</string>
   <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Urządzenie</string>
+  <string name="app_ops_cat_bootup">Rozruch</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_delete_mms">usuń MMS</string>
   <string name="app_ops_delete_sms">usuń SMS</string>
@@ -239,4 +242,32 @@
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Kolor</string>
+  <string name="battery_light_enable">Włącz</string>
+  <string name="battery_light_list_title">Kolory</string>
+  <string name="notification_light_general_title">Główny</string>
+  <string name="led_color_green">Zielony</string>
+  <string name="led_color_red">Czerwony</string>
+  <string name="led_color_blue">Niebieski</string>
+  <string name="ok">OK</string>
+  <string name="advanced">Zaawansowane</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normalny</string>
+  <string name="custom_time">Niestandardowe</string>
+  <string name="dialog_delete_title">Usuń</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normalny</string>
+  <string name="pulse_speed_fast">Szybko</string>
+  <string name="pulse_speed_normal">Normalny</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Główny</string>
+  <string name="notification_light_applist_title">Aplikacje</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">Domyślne</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Wybierz aplikację</string>
+  <string name="reset">Resetuj</string>
+  <!-- Development Settings summary-->
 </resources>

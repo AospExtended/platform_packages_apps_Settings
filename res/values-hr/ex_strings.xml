@@ -217,4 +217,27 @@
   <string name="night_display_ok">U redu</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Boja</string>
+  <string name="battery_light_enable">Omogući</string>
+  <string name="battery_light_list_title">Boje</string>
+  <string name="led_color_green">Zelena</string>
+  <string name="led_color_red">Crvena</string>
+  <string name="led_color_blue">Plava</string>
+  <string name="ok">U redu</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normalno</string>
+  <string name="custom_time">Prilagođeno</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normalno</string>
+  <string name="pulse_speed_fast">Brzo</string>
+  <string name="pulse_speed_normal">Normalno</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">Zadano</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Odaberite aplikaciju</string>
+  <string name="reset">Poništi</string>
+  <!-- Development Settings summary-->
 </resources>

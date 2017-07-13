@@ -418,4 +418,32 @@
   <string name="night_display_ok">确定</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">颜色</string>
+  <string name="battery_light_enable">启用</string>
+  <string name="battery_light_list_title">颜色</string>
+  <string name="notification_light_general_title">一般</string>
+  <string name="led_color_green">绿色</string>
+  <string name="led_color_red">红色</string>
+  <string name="led_color_blue">蓝色</string>
+  <string name="ok">确定</string>
+  <string name="advanced">高级</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">正常</string>
+  <string name="custom_time">自定义</string>
+  <string name="dialog_delete_title">删除</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">正常</string>
+  <string name="pulse_speed_fast">快</string>
+  <string name="pulse_speed_normal">正常</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">一般</string>
+  <string name="notification_light_applist_title">应用程序</string>
+  <string name="notification_light_phonelist_title">电话</string>
+  <string name="notification_light_default_value">默认</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">选择应用程序</string>
+  <string name="reset">重置</string>
+  <!-- Development Settings summary-->
 </resources>

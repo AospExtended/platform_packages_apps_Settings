@@ -326,4 +326,32 @@
   <!-- Quick unlock information -->
   <string name="quick_unlock_alert_title">Varning</string>
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Färg</string>
+  <string name="battery_light_enable">Aktivera</string>
+  <string name="battery_light_list_title">Färger</string>
+  <string name="notification_light_general_title">Allmänt</string>
+  <string name="led_color_green">Grön</string>
+  <string name="led_color_red">Röd</string>
+  <string name="led_color_blue">Blå</string>
+  <string name="ok">OK</string>
+  <string name="advanced">Avancerat</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Anpassad</string>
+  <string name="dialog_delete_title">Ta bort</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_speed_fast">Snabb</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Allmänt</string>
+  <string name="notification_light_applist_title">Appar</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">Standard</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Välj applikation</string>
+  <string name="reset">Nollställ</string>
+  <!-- Development Settings summary-->
 </resources>

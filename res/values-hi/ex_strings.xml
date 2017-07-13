@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extensions_title">विस्तार</string>
   <!-- AEX OTA -->
   <!-- About phone screen, build date -->
   <string name="build_date">निर्माण दिनांक</string>
@@ -53,6 +54,7 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">मीडिया</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
@@ -109,4 +111,22 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">रंग</string>
+  <string name="led_color_green">हरा</string>
+  <string name="led_color_red">लाल</string>
+  <string name="led_color_blue">नीला</string>
+  <string name="ok">ठीक है</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">सामान्य</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">सामान्य</string>
+  <string name="pulse_speed_normal">सामान्य</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">ऐप्स</string>
+  <string name="notification_light_default_value">डिफ़ाल्ट</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">एप्लीकेशन को चुनें</string>
+  <!-- Development Settings summary-->
 </resources>

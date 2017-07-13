@@ -173,4 +173,25 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Culoare</string>
+  <string name="led_color_green">Verde</string>
+  <string name="led_color_red">Roșu</string>
+  <string name="led_color_blue">Albastru</string>
+  <string name="ok">OK</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Personalizat</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_speed_fast">Rapid</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">Implicit</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Alegeți aplicația</string>
+  <string name="reset">Resetaţi</string>
+  <!-- Development Settings summary-->
 </resources>

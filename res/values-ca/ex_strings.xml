@@ -106,4 +106,19 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="led_color_green">Verd</string>
+  <string name="led_color_red">Vermell</string>
+  <string name="led_color_blue">Blau</string>
+  <string name="ok">Acceptar</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normal</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_default_value">Per defecte</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <!-- Development Settings summary-->
 </resources>

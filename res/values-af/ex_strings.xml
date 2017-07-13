@@ -104,4 +104,20 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="led_color_green">Groen</string>
+  <string name="led_color_red">Rooi</string>
+  <string name="led_color_blue">Blou</string>
+  <string name="ok">OK</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normaal</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normaal</string>
+  <string name="pulse_speed_normal">Normaal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">Programme</string>
+  <string name="notification_light_default_value">Verstek</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <!-- Development Settings summary-->
 </resources>

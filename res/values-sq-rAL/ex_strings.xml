@@ -97,4 +97,14 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="led_color_green">E gjelbër</string>
+  <string name="led_color_red">E kuqe</string>
+  <string name="led_color_blue">E kaltër</string>
+  <!-- Notification light dialogs -->
+  <!-- Values for the notification light pulse spinners -->
+  <!-- Lights settings screen, notification light settings -->
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <!-- Development Settings summary-->
 </resources>

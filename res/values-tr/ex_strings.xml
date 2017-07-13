@@ -348,4 +348,32 @@
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Gerek yok, Geliştirme ayarları varsayılan olarak etkinleştirildi.</string>
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Renk</string>
+  <string name="battery_light_enable">Etkinleştir</string>
+  <string name="battery_light_list_title">Renkler</string>
+  <string name="notification_light_general_title">Genel</string>
+  <string name="led_color_green">Yeşil</string>
+  <string name="led_color_red">Kırmızı</string>
+  <string name="led_color_blue">Mavi</string>
+  <string name="ok">TAMAM</string>
+  <string name="advanced">Gelişmiş</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Standart</string>
+  <string name="custom_time">Özel</string>
+  <string name="dialog_delete_title">Sil</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Standart</string>
+  <string name="pulse_speed_fast">Hızlı</string>
+  <string name="pulse_speed_normal">Standart</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Genel</string>
+  <string name="notification_light_applist_title">Uygulamalar</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">Sıfırla</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Uygulama seçin</string>
+  <string name="reset">Sıfırla</string>
+  <!-- Development Settings summary-->
 </resources>

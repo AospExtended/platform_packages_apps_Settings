@@ -100,4 +100,15 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="led_color_green">Vihreä</string>
+  <string name="led_color_red">Punainen</string>
+  <string name="led_color_blue">Sininen</string>
+  <!-- Notification light dialogs -->
+  <!-- Values for the notification light pulse spinners -->
+  <!-- Lights settings screen, notification light settings -->
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Valitse sovellus</string>
+  <!-- Development Settings summary-->
 </resources>

@@ -449,4 +449,32 @@
   <string name="quick_unlock_alert_msg">Esta característica funcionará solo si usas un PIN de 4 dígitos, de otra manera algunos efectos no deseados pueden ocurrir con tu dispositivo.</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">No es necesario, Opciones del programador ya están activadas por defecto.</string>
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Color</string>
+  <string name="battery_light_enable">Activar</string>
+  <string name="battery_light_list_title">Colores</string>
+  <string name="notification_light_general_title">General</string>
+  <string name="led_color_green">Verde</string>
+  <string name="led_color_red">Rojo</string>
+  <string name="led_color_blue">Azul</string>
+  <string name="ok">Aceptar</string>
+  <string name="advanced">Avanzado</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Personalizado</string>
+  <string name="dialog_delete_title">Borrar</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_speed_fast">Rápido</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">General</string>
+  <string name="notification_light_applist_title">Aplicaciones</string>
+  <string name="notification_light_phonelist_title">Teléfono</string>
+  <string name="notification_light_default_value">Por defecto</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Selecciona aplicación</string>
+  <string name="reset">Restablecer</string>
+  <!-- Development Settings summary-->
 </resources>

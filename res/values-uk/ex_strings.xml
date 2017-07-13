@@ -449,4 +449,32 @@
   <string name="quick_unlock_alert_msg">УВАГА!!! Ця функція працюватиме лише якщо Ви встановити ПІН з 4 цифр, у іншому випадку можуть бути небажані наслідки для Вашого притрою.</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Немає необхідності, настройки для розробників включені за замовчуванням.</string>
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Колір</string>
+  <string name="battery_light_enable">Увімкнути</string>
+  <string name="battery_light_list_title">Кольори</string>
+  <string name="notification_light_general_title">Основні</string>
+  <string name="led_color_green">Зелений</string>
+  <string name="led_color_red">Червоний</string>
+  <string name="led_color_blue">Синій</string>
+  <string name="ok">OK</string>
+  <string name="advanced">Додаткові</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Нормальний</string>
+  <string name="custom_time">Налаштувати</string>
+  <string name="dialog_delete_title">Видалити</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Нормальний</string>
+  <string name="pulse_speed_fast">Швидка</string>
+  <string name="pulse_speed_normal">Нормальний</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Основні</string>
+  <string name="notification_light_applist_title">Додатки</string>
+  <string name="notification_light_phonelist_title">Телефон</string>
+  <string name="notification_light_default_value">За замовчуванням</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Виберіть додаток</string>
+  <string name="reset">Скидання</string>
+  <!-- Development Settings summary-->
 </resources>

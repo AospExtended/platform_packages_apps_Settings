@@ -235,4 +235,32 @@
   <string name="night_display_ok">OK</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Színek</string>
+  <string name="battery_light_enable">Engedélyez</string>
+  <string name="battery_light_list_title">Színek</string>
+  <string name="notification_light_general_title">Általános</string>
+  <string name="led_color_green">Zöld</string>
+  <string name="led_color_red">Piros</string>
+  <string name="led_color_blue">Kék</string>
+  <string name="ok">OK</string>
+  <string name="advanced">Speciális</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normál</string>
+  <string name="custom_time">Egyedi</string>
+  <string name="dialog_delete_title">Törlés</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normál</string>
+  <string name="pulse_speed_fast">Gyors</string>
+  <string name="pulse_speed_normal">Normál</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Általános</string>
+  <string name="notification_light_applist_title">Alkalmazások</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">Alapértelmezett</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Alkalmazás választása</string>
+  <string name="reset">Alaphelyzet</string>
+  <!-- Development Settings summary-->
 </resources>

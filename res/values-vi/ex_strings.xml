@@ -220,4 +220,32 @@
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Màu sắc</string>
+  <string name="battery_light_enable">Bật</string>
+  <string name="battery_light_list_title">Màu</string>
+  <string name="notification_light_general_title">Tổng quát</string>
+  <string name="led_color_green">Lục</string>
+  <string name="led_color_red">Đỏ</string>
+  <string name="led_color_blue">Lam</string>
+  <string name="ok">Đồng ý</string>
+  <string name="advanced">Nâng cao</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Bình Thường</string>
+  <string name="custom_time">Tuỳ chỉnh</string>
+  <string name="dialog_delete_title">Xoá</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Bình Thường</string>
+  <string name="pulse_speed_fast">Nhanh</string>
+  <string name="pulse_speed_normal">Bình Thường</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Tổng quát</string>
+  <string name="notification_light_applist_title">Ứng dụng</string>
+  <string name="notification_light_phonelist_title">Điện thoại</string>
+  <string name="notification_light_default_value">Mặc định</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Chọn ứng dụng</string>
+  <string name="reset">Thiết lập lại</string>
+  <!-- Development Settings summary-->
 </resources>

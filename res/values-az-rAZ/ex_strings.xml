@@ -176,4 +176,25 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Rəng</string>
+  <string name="led_color_green">Yaşıl</string>
+  <string name="led_color_red">Qırmızı</string>
+  <string name="led_color_blue">Göy</string>
+  <string name="ok">TAMAM</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Xüsusi</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_speed_fast">Sürətli</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_default_value">İlkin</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Tətbiq seçin</string>
+  <string name="reset">Yenidən başla</string>
+  <!-- Development Settings summary-->
 </resources>

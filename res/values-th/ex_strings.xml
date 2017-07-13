@@ -105,4 +105,18 @@
   <!-- Night Display -->
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
+  <!-- LED notifications -->
+  <string name="led_color_green">เขียว</string>
+  <string name="led_color_red">แดง</string>
+  <string name="led_color_blue">น้ำเงิน</string>
+  <!-- Notification light dialogs -->
+  <string name="default_time">ปกติ</string>
+  <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">ปกติ</string>
+  <string name="pulse_speed_normal">ปกติ</string>
+  <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_default_value">ปกติ</string>
+  <!-- Lights settings, LED notification -->
+  <!-- Add application dialog box title -->
+  <!-- Development Settings summary-->
 </resources>
