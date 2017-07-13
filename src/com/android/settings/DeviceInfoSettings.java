@@ -37,6 +37,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
+import android.content.ContentResolver;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.SummaryLoader;
@@ -311,6 +312,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                     Index.getInstance(
                             getActivity().getApplicationContext()).updateFromClassNameResource(
                                     DevelopmentSettings.class.getName(), true, true);
+
+                    // Enable switch inside development settings
+                    Settings.Global.putInt(getActivity().getContentResolver(),
+                        Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 1);
 
                 } else if (mDevHitCountdown > 0
                         && mDevHitCountdown < (TAPS_TO_BE_A_DEVELOPER-2)) {
