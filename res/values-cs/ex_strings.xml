@@ -515,4 +515,6 @@
   <string name="profile_choose_app">Vybrat aplikaci</string>
   <string name="reset">Obnovit</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB povoleno</string>
+  <string name="adb_disabled">ADB zakázáno</string>
 </resources>

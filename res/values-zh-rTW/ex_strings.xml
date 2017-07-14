@@ -515,4 +515,6 @@
   <string name="profile_choose_app">選擇應用</string>
   <string name="reset">重設</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB 已啟用</string>
+  <string name="adb_disabled">ADB 已停用</string>
 </resources>

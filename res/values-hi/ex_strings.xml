@@ -119,6 +119,7 @@
   <string name="ok">ठीक है</string>
   <!-- Notification light dialogs -->
   <string name="default_time">सामान्य</string>
+  <string name="dialog_delete_title">मिटाए</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_normal">सामान्य</string>
   <string name="pulse_speed_normal">सामान्य</string>

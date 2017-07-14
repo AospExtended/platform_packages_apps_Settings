@@ -54,16 +54,16 @@
   <string name="changelog_error">Невозможно загрузить список изменений</string>
   <string name="changelog_summary">С момента последнего обновления</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
+  <string name="link_volume_option_title">Связать громкости звонка и уведом.</string>
   <string name="notification_volume_option_title">Громкость уведомлений</string>
   <string name="ring_notification_volume_option_title">Громкость звонка и уведомлений</string>
   <!-- Camera sound -->
   <string name="camera_sounds_title">Звук затвора камеры</string>
   <!-- Custom tiles summary -->
-  <string name="substratum_settings_summary">Настройки тем</string>
+  <string name="substratum_settings_summary">Изменить интерфейс устройства</string>
   <!-- Root Management -->
-  <string name="rootmanagement_title">Управление root-правами</string>
-  <string name="rootmanagement_dashboard_summary">Управление root-доступом</string>
+  <string name="rootmanagement_title">Управление правами суперпользователя</string>
+  <string name="rootmanagement_dashboard_summary">Управление правами суперпользователя</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
@@ -105,7 +105,7 @@
   <string name="battery_stats_message">История использования батареи будет сброшена</string>
   <string name="ok_string">ОК</string>
   <!-- Doze pulse options -->
-  <string name="doze_settings">Настройки Doze</string>
+  <string name="doze_settings">Ambient Display</string>
   <string name="summary_doze_enabled">Включено</string>
   <string name="summary_doze_disabled">Отключено</string>
   <string name="doze_overwrite_value_title">Перезаписать значения по умолчанию</string>
@@ -115,11 +115,11 @@
   <string name="doze_pulse_duration_visible_title">Время видимости</string>
   <string name="doze_pulse_duration_out_title">Затухание</string>
   <string name="doze_trigger_pickup_title">Запуск жестами</string>
-  <string name="doze_trigger_pickup_summary_on">Индикация Doze будет запускаться жестами</string>
-  <string name="doze_trigger_pickup_summary_off">Жесты не будут использованы для запуска Doze</string>
+  <string name="doze_trigger_pickup_summary_on">Ambient Display будет запускаться жестами</string>
+  <string name="doze_trigger_pickup_summary_off">Жесты не будут использованы для запуска Ambient Display</string>
   <string name="doze_trigger_notification_title">Запуск уведомлениями</string>
-  <string name="doze_trigger_notification_summary_on">Индикация Doze будет запускаться уведомлениями</string>
-  <string name="doze_trigger_notification_summary_off">Уведомления не будут использованы для запуска Doze</string>
+  <string name="doze_trigger_notification_summary_on">Ambient Display будет запускаться уведомлениями</string>
+  <string name="doze_trigger_notification_summary_off">Уведомления не будут использованы для запуска Ambient Display</string>
   <string name="doze_brightness_level_title">Уровень яркости</string>
   <string name="onehundred_ms">100 мс</string>
   <string name="twofifty_ms">250 мс</string>
@@ -138,8 +138,8 @@
   <string name="doze_notification_color_invert_summary_off">Уведомления не будут инвертированы. Используйте для темных тем.</string>
   <string name="doze_notification_color_invert_summary_on">Уведомления будут инвертированы. Используйте для светлых и стандартной тем.</string>
   <!-- Double tap for doze -->
-  <string name="double_tap_wake_doze_title">Двойное нажатие для пробуждения устройства</string>
-  <string name="double_tap_wake_doze_summary">Требовать двойное нажатие, чтобы разбудить устройство при индикации Doze</string>
+  <string name="double_tap_wake_doze_title">Двойное нажатие для пробуждения</string>
+  <string name="double_tap_wake_doze_summary">Требовать двойного нажатия, чтобы разбудить устройство в режиме Ambient Display</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <string name="app_ops_settings">Операции в приложениях</string>
@@ -339,10 +339,10 @@
   <string name="dashboard_conditions_title">Уведомления</string>
   <string name="summary_dashboard_conditions_enabled">Уведомления в меню настроек включены</string>
   <string name="summary_dashboard_conditions_disabled">Уведомления в меню настроек выключены</string>
-  <string name="dashboard_columns_portrait_title">Колонки (портрет)</string>
-  <string name="dashboard_columns_landscape_title">Строки (ландшафт)</string>
+  <string name="dashboard_columns_portrait_title">Столбцы (портрет)</string>
+  <string name="dashboard_columns_landscape_title">Столбцы (ландшафт)</string>
   <!-- Battery saver notification toggle -->
-  <string name="battery_saver_notif_title">Уведомление о режие энергосбережения</string>
+  <string name="battery_saver_notif_title">Уведомление о режиме энергосбер.</string>
   <string name="battery_saver_notif_summary">Уведомлять при переходе в режим энергосбережения</string>
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Уведомление о низком уровне заряда</string>
@@ -368,8 +368,8 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">Вступите в наше G+ сообщество</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Вступите в нашу группу обсуждений в Telegram</string>
-  <string name="telegram_description">Вступите в нашу группу обсуждений в Telegram</string>
+  <string name="telegram_description">Подпишитесь на наш канал в Telegram</string>
+  <string name="telegram_description">Подпишитесь на наш канал в Telegram</string>
   <string name="web">Центр Загрузок</string>
   <string name="web_description">Посетите наш центр загрузок</string>
   <string name="help_translate">﻿Перевод</string>
@@ -410,7 +410,7 @@
   <string name="show_cpu_info_summary">Накладываемый слой, показывающий текущую информацию о процессоре</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-  <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK)\nПрим.: только для 4-значного PIN !</string>
+  <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK\nПримечание : только для 4-значного PIN!</string>
   <string name="reset_wallpaper_notice">Восстановлены обои по умолчанию</string>
   <!-- Wake on Plug -->
   <string name="wake_when_plugged_or_unplugged_title">Включение при зарядке</string>
@@ -451,30 +451,70 @@
   <string name="show_dev_already_enabled">Не нужно, настройки для разработчиков включены по умолчанию.</string>
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">Цвет</string>
+  <string name="omni_battery_light_settings">Индикация зарядки батареи</string>
+  <string name="omni_notification_light_settings">Индикация уведомлений</string>
+  <string name="omni_leds">Индикация</string>
+  <string name="batterylight_title">Настройки индикации батареи</string>
   <string name="battery_light_enable">Включить</string>
+  <string name="battery_low_pulse_title">Мигать при низком уровне заряда батареи</string>
   <string name="battery_light_list_title">Цвета</string>
+  <string name="battery_light_low_color_title">Низкий заряд батареи</string>
+  <string name="battery_light_medium_color_title">Зарядка</string>
+  <string name="battery_light_full_color_title">Батарея заряжена на 90%</string>
+  <string name="battery_light_really_full_color_title">Батарея заряжена</string>
+  <string name="edit_battery_settings">Изменить настройки батареи</string>
   <string name="notification_light_general_title">Общие</string>
   <string name="led_color_green">Зеленый</string>
   <string name="led_color_red">Красный</string>
   <string name="led_color_blue">Синий</string>
   <string name="ok">ОК</string>
   <string name="advanced">Дополнительно</string>
+  <string name="profiles_add">Добавить...</string>
   <!-- Notification light dialogs -->
+  <string name="edit_light_settings">Изменить настройки индикатора</string>
+  <string name="pulse_speed_title">Частота и длительность мигания</string>
   <string name="default_time">Обычный</string>
   <string name="custom_time">Настроить</string>
   <string name="dialog_delete_title">Удалить</string>
+  <string name="dialog_delete_message">Удалить выбранный элемент?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Всегда вкл.</string>
+  <string name="pulse_length_very_short">Очень коротко</string>
+  <string name="pulse_length_short">Коротко</string>
   <string name="pulse_length_normal">Обычный</string>
-  <string name="pulse_speed_fast">Быстро</string>
+  <string name="pulse_length_long">Долго</string>
+  <string name="pulse_length_very_long">Очень долго</string>
+  <string name="pulse_speed_very_fast">Очень быстро</string>
+  <string name="pulse_speed_fast">Быстрая</string>
   <string name="pulse_speed_normal">Обычный</string>
+  <string name="pulse_speed_slow">Медленно</string>
+  <string name="pulse_speed_very_slow">Очень медленно</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Индикация уведомлений</string>
+  <string name="notificationlight_title">Настройка индикатора уведомлений</string>
   <string name="notification_light_general_title">Общие</string>
   <string name="notification_light_applist_title">Приложения</string>
   <string name="notification_light_phonelist_title">Телефон</string>
+  <string name="notification_light_use_custom">Собственные значения</string>
   <string name="notification_light_default_value">По умолчанию</string>
+  <string name="notification_light_missed_call_title">Пропущенный вызов</string>
+  <string name="notification_light_voicemail_title">Голосовая почта</string>
+  <string name="notification_light_screen_on">Индикация при вкл. экране</string>
+  <string name="notification_light_zen_mode">Индикация в режиме «Не беспокоить»</string>
+  <string name="notification_light_use_multiple_leds">Несколько светодиодов</string>
+  <string name="keywords_lights_brightness_level">уменьшить яркость</string>
+  <string name="notification_light_automagic">Подбирать цвета автоматически</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Настройки индикации</string>
+  <string name="led_notification_text">Светодиод включен в настройках</string>
+  <string name="notification_light_no_apps_summary">Чтобы добавить приложение, активируйте \'%1$s\' и нажмите \'\u002b\' в меню</string>
+  <string name="notification_light_automagic">Подбирать цвета автоматически</string>
+  <string name="notification_light_automagic_summary">Если приложение не имеет пользовательских значений, то цвет индикации уведомлений устанавливается автоматически</string>
+  <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Выбрать приложение</string>
   <string name="reset">Сброс</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">Отладка включена</string>
+  <string name="adb_disabled">Отладка отключена</string>
 </resources>
