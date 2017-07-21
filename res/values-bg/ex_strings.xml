@@ -102,6 +102,7 @@
   <string name="led_color_red">Червено</string>
   <string name="led_color_blue">Синьо</string>
   <!-- Notification light dialogs -->
+  <string name="dialog_delete_title">Изтриване</string>
   <!-- Values for the notification light pulse spinners -->
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->

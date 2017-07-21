@@ -53,6 +53,7 @@
   <!-- Disable Battery Saver Warning Color -->
   <!-- Proximity wake -->
   <!-- SystemUI restart prompt -->
+  <string name="print_restart">மறு தொடக்கம்</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->
@@ -104,6 +105,7 @@
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_default_value">இயல்புநிலை</string>
   <!-- Lights settings, LED notification -->
   <!-- Add application dialog box title -->
   <!-- Development Settings summary-->

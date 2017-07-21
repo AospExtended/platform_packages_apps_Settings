@@ -368,8 +368,7 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">加入我們的G+社區</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">加入我們的Telegram討論群組</string>
-  <string name="telegram_description">加入我們的Telegram討論群組</string>
+  <string name="telegram_description">訂閱我們的Telegram頻道</string>
   <string name="web">下載中心</string>
   <string name="web_description">拜訪我們的下載頁面</string>
   <string name="help_translate">翻譯</string>
@@ -382,7 +381,6 @@
   <string name="team_2">Aman Kumar (FireLord)</string>
   <string name="team2_description">開發</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">管理者和一位業餘開發人員</string>
   <string name="team_4">Henrique Silva (jhenrique09)</string>
   <string name="team4_description">開發</string>
   <string name="designers">設計</string>

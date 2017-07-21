@@ -84,7 +84,7 @@
   <string name="less_notification_sounds_2m">2 minutos</string>
   <string name="less_notification_sounds_5m">5 Minutos</string>
   <!-- Magisk Manager -->
-  <string name="magisk_title">Gestor de Magisk</string>
+  <string name="magisk_title">Magisk</string>
   <string name="magisk_summary">Control root</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Revolver</string>
@@ -368,8 +368,7 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">Únete a nuestra comunidad</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Suscríbete a nuestro canal</string>
-  <string name="telegram_description">Suscríbete a nuestro canal</string>
+  <string name="telegram_description">Suscríbete a nuestro canal de Telegram</string>
   <string name="web">Centro de descargas (Inglés)</string>
   <string name="web_description">Visita nuestro portal de descargas</string>
   <string name="help_translate">Traducciones</string>
@@ -382,7 +381,6 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Desarrollador</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderador y desarrollador amateur</string>
   <string name="team_4">Henrique Silva &#40;Adrian Rojas&#41;</string>
   <string name="team4_description">Desarrollador</string>
   <string name="designers">Diseñadores</string>

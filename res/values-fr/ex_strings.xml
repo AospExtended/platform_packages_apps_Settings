@@ -218,7 +218,7 @@
   <string name="app_ops_run_in_background">exécuter en arrière-plan</string>
   <string name="app_ops_boot_completed">démarre automatiquement</string>
   <string name="ambient_display_show_battery_title">État de la batterie</string>
-  <string name="ambient_display_show_battery_summary">Afficher l\'icône de la batterie pendant la pulsation</string>
+  <string name="ambient_display_show_battery_summary">Afficher l\'icône de la batterie pendant le réveil de l\'affichage</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Alerte visuelle</string>
@@ -233,8 +233,8 @@
   <string name="print_restart">Redémarrer</string>
   <string name="device_gestures_title">Gestes de glissement</string>
   <string name="device_gestures_summary">Mettre en place des gestes supplémentaires pour votre appareil</string>
-  <string name="device_doze_title">Gestes pour la luminosité adaptative</string>
-  <string name="device_doze_summary">Mettre en place des gestes supplémentaires pour la luminosité adaptative</string>
+  <string name="device_doze_title">Gestes pour les options de réveil de l\'affichage en mode veille</string>
+  <string name="device_doze_summary">Mettre en place des gestes supplémentaires pour les options de réveil de l\'affichage en mode veille</string>
   <!-- Safe headset volume restore checkbox -->
   <string name="safe_headset_volume_title">Volume de sécurité du casque</string>
   <string name="safe_headset_volume_summary">Empêcher un volume sonore trop élevé lorsque le casque est branché pour la première fois</string>
@@ -368,8 +368,7 @@
   <string name="gplus">Google +</string>
   <string name="gplus_description">Rejoignez notre communauté G +</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Rejoignez notre groupe de discussion Telegram</string>
-  <string name="telegram_description">Rejoignez notre groupe de discussion Telegram</string>
+  <string name="telegram_description">Abonnez-vous à notre chaîne Telegram</string>
   <string name="web">Centre de téléchargement</string>
   <string name="web_description">Visitez notre portail de téléchargement</string>
   <string name="help_translate">Traductions</string>
@@ -472,6 +471,7 @@
   <string name="profiles_add">Ajouter...</string>
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">Editer les paramètre du voyant</string>
+  <string name="pulse_speed_title">Vitesse et durée du réveil de l\'affichage</string>
   <string name="default_time">Normal</string>
   <string name="custom_time">Personnalisé</string>
   <string name="dialog_delete_title">Supprimer</string>
@@ -498,11 +498,22 @@
   <string name="notification_light_default_value">Par défaut</string>
   <string name="notification_light_missed_call_title">Appel manqué</string>
   <string name="notification_light_voicemail_title">Messagerie vocale</string>
+  <string name="notification_light_screen_on">Voyants avec écran allumé</string>
+  <string name="notification_light_zen_mode">Voyants en mode « Ne pas déranger »</string>
+  <string name="notification_light_use_multiple_leds">Voyant multiple</string>
+  <string name="keywords_lights_brightness_level">atténuer la luminosité des Led</string>
+  <string name="notification_light_automagic">Choix des couleurs automatique</string>
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">Paramètres du voyant</string>
+  <string name="led_notification_text">Luminosité du voyant activé dans les paramètres</string>
+  <string name="notification_light_no_apps_summary">Pour ajouter la gestion par application, activer \'%1$s\' et appuyer sur \'\u002b\' dans la barre de menu</string>
+  <string name="notification_light_automagic">Choix des couleurs automatique</string>
+  <string name="notification_light_automagic_summary">Définir automatiquement une couleur appropriée pour la notification led si l’app n’a aucune valeur personnalisée</string>
   <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Choisir une application</string>
   <string name="reset">Réinitialiser</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB activé</string>
+  <string name="adb_disabled">ADB désactivé</string>
 </resources>

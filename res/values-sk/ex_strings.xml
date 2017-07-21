@@ -368,8 +368,7 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">Pripojte sa k našej komunite G+</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Pripojte sa k našej diskusnej skupine na Telegrame</string>
-  <string name="telegram_description">Pripojte sa k našej diskusnej skupine na Telegrame</string>
+  <string name="telegram_description">Odoberajte náš Telegram kanál</string>
   <string name="web">Centrum sťahovania</string>
   <string name="web_description">Navštívte náš portál pre sťahovanie</string>
   <string name="help_translate">Preklady</string>
@@ -382,7 +381,6 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Vývojár</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderátor a amatérsky vývojár</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Vývojár</string>
   <string name="designers">Dizajnéri</string>

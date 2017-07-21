@@ -368,8 +368,7 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">Junte-se à nossa comunidade no G+</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Participe do nosso grupo no Telegram</string>
-  <string name="telegram_description">Participe do nosso grupo no Telegram</string>
+  <string name="telegram_description">Subscreva o nosso canal no Telegram</string>
   <string name="web">Centro de transferências</string>
   <string name="web_description">Visite o nosso portal de transferências</string>
   <string name="help_translate">Traduções</string>
@@ -382,7 +381,6 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Programador</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderador e um programador amador</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Programador</string>
   <string name="designers">Designers</string>
@@ -451,30 +449,70 @@
   <string name="show_dev_already_enabled">Desnecessário, Configurações de desenvolvimento estão ativadas por padrão.</string>
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">Cor</string>
+  <string name="omni_battery_light_settings">Luz de carregamento de bateria</string>
+  <string name="omni_notification_light_settings">Luz de notificações</string>
+  <string name="omni_leds">Luzes LED</string>
+  <string name="batterylight_title">Definições de LED da bateria</string>
   <string name="battery_light_enable">Ativar</string>
+  <string name="battery_low_pulse_title">Piscar se a bateria estiver fraca</string>
   <string name="battery_light_list_title">Cores</string>
+  <string name="battery_light_low_color_title">Bateria fraca</string>
+  <string name="battery_light_medium_color_title">A carregar</string>
+  <string name="battery_light_full_color_title">Carregado (90%)</string>
+  <string name="battery_light_really_full_color_title">Carregado (100%)</string>
+  <string name="edit_battery_settings">Editar definições de bateria</string>
   <string name="notification_light_general_title">Geral</string>
   <string name="led_color_green">Verde</string>
   <string name="led_color_red">Vermelho</string>
   <string name="led_color_blue">Azul</string>
   <string name="ok">OK</string>
   <string name="advanced">Avançado</string>
+  <string name="profiles_add">Adicionar...</string>
   <!-- Notification light dialogs -->
+  <string name="edit_light_settings">Editar definições de luz</string>
+  <string name="pulse_speed_title">Duração e velocidade do Led ao piscar</string>
   <string name="default_time">Normal</string>
   <string name="custom_time">Personalizado</string>
   <string name="dialog_delete_title">Eliminar</string>
+  <string name="dialog_delete_message">Remover o item selecionado?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Sempre ligado</string>
+  <string name="pulse_length_very_short">Muito curto</string>
+  <string name="pulse_length_short">Curto</string>
   <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_length_long">Longo</string>
+  <string name="pulse_length_very_long">Muito longo</string>
+  <string name="pulse_speed_very_fast">Muito rápida</string>
   <string name="pulse_speed_fast">Rápida</string>
   <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Lento</string>
+  <string name="pulse_speed_very_slow">Muito lento</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Luz de notificação</string>
+  <string name="notificationlight_title">Definições de LED de notificação</string>
   <string name="notification_light_general_title">Geral</string>
   <string name="notification_light_applist_title">Aplicações</string>
   <string name="notification_light_phonelist_title">Telemóvel</string>
+  <string name="notification_light_use_custom">Usar valores personalizados</string>
   <string name="notification_light_default_value">Predefinida</string>
+  <string name="notification_light_missed_call_title">Chamada não atendida</string>
+  <string name="notification_light_voicemail_title">Correio de voz</string>
+  <string name="notification_light_screen_on">Luzes com o ecrã ligado</string>
+  <string name="notification_light_zen_mode">Luzes no modo Não Incomodar</string>
+  <string name="notification_light_use_multiple_leds">LEDs múltiplos</string>
+  <string name="keywords_lights_brightness_level">diminuir o brilho do Led</string>
+  <string name="notification_light_automagic">Escolha automática das cores</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Definições de luz</string>
+  <string name="led_notification_text">Luz do LED ativada pelas definições</string>
+  <string name="notification_light_no_apps_summary">Para configurar as luzes de notificação para uma aplicação específica, ative \"%1$s\" e toque em \"\u002b\" na barra de menu</string>
+  <string name="notification_light_automagic">Escolha automática das cores</string>
+  <string name="notification_light_automagic_summary">Definir automaticamente uma cor adequada para a notificação de led se o app não tiver valores personalizados</string>
+  <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Escolher aplicação</string>
   <string name="reset">Repor</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB Activado</string>
+  <string name="adb_disabled">ADB Desativado</string>
 </resources>

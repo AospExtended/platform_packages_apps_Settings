@@ -369,8 +369,7 @@
   <string name="gplus">جوجل+</string>
   <string name="gplus_description">إنضم إلى مجتمعنا على +G</string>
   <string name="telegram">تليجرام</string>
-  <string name="telegram_description">انضم إلى مجموعتنا النقاشية على تليجرام</string>
-  <string name="telegram_description">انضم إلى مجموعتنا النقاشية على تليجرام</string>
+  <string name="telegram_description">اشترك في قناتنا على تليجرام</string>
   <string name="web">مركز التحميلات</string>
   <string name="web_description">قم بزيارة موقع التحميلات الخاص بنا</string>
   <string name="help_translate">الترجمات</string>
@@ -383,7 +382,6 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">المطور</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">مدير ومطور هاوٍ</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">المطور</string>
   <string name="designers">مصمم</string>

@@ -171,11 +171,49 @@
   <string name="app_ops_modify_call_log">perbaharui riwayat panggilan</string>
   <string name="app_ops_modify_clipboard">ubah clipboard</string>
   <string name="app_ops_modify_contacts">perbaharui kontak</string>
+  <string name="app_ops_modify_settings">update pengaturan</string>
+  <string name="app_ops_mute_unmute_microphone">matikan/hidupkan mic</string>
+  <string name="app_ops_play_audio">putar audio</string>
+  <string name="app_ops_post_notification">mengirim pemberitahuan</string>
+  <string name="app_ops_project_media">proyek media</string>
+  <string name="app_ops_read_calendar">membaca kalender</string>
+  <string name="app_ops_read_call_log">membaca catatan panggilan</string>
+  <string name="app_ops_read_clipboard">membaca clipboard</string>
+  <string name="app_ops_read_contacts">membaca kontak</string>
+  <string name="app_ops_read_mms">membaca MMS</string>
   <string name="app_ops_read_sms">baca sms</string>
   <string name="app_ops_receive_sms">menerima sms</string>
   <string name="app_ops_record_audio">rekam audio</string>
   <string name="app_ops_send_mms">kirim MMS</string>
   <string name="app_ops_send_sms">kirim SMS</string>
+  <string name="app_ops_toast_window">pesan toast</string>
+  <string name="app_ops_use_alarm_volume">volume alarm</string>
+  <string name="app_ops_use_audio_focus">fokus suara</string>
+  <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
+  <string name="app_ops_use_master_volume">volume utama</string>
+  <string name="app_ops_use_media_buttons">tombol media</string>
+  <string name="app_ops_use_media_volume">volume media</string>
+  <string name="app_ops_use_notification_volume">volume pemberitahuan</string>
+  <string name="app_ops_use_ring_volume">volume nada dering</string>
+  <string name="app_ops_use_voice_volume">volume suara</string>
+  <string name="app_ops_write_mms">menulis MMS</string>
+  <string name="app_ops_write_sms">menulis SMS</string>
+  <string name="app_ops_use_fingerprint">sidik Jari</string>
+  <string name="app_ops_add_voicemail">pesan suara</string>
+  <string name="app_ops_read_phone_state">akses status ponsel</string>
+  <string name="app_ops_scan_wifi">Memindai jaringan Wifi</string>
+  <string name="app_ops_change_wallpaper">ganti Wallpaper</string>
+  <string name="app_ops_assist_screenshot">tangkapan layar</string>
+  <string name="app_ops_use_body_sensors">sensor badan</string>
+  <string name="app_ops_read_cell_broadcasts">baca siaran seluler</string>
+  <string name="app_ops_mock_location">lokasi palsu</string>
+  <string name="app_ops_read_external_storage">membaca penyimpanan tambahan.</string>
+  <string name="app_ops_write_external_storage">menulis penyimpanan tambahan.</string>
+  <string name="app_ops_turn_on_screen">menghidupkan layar</string>
+  <string name="app_ops_get_accounts">akun perangkat</string>
+  <string name="app_ops_wifi_change">ubah status Wi-Fi</string>
+  <string name="app_ops_toggle_bluetooth">hidup/matikan Bluetooth</string>
+  <string name="app_ops_run_in_background">berjalan dilatar belakang</string>
   <string name="app_ops_boot_completed">mulai otomatis</string>
   <string name="ambient_display_show_battery_title">Status baterai</string>
   <string name="ambient_display_show_battery_summary">Menampilkan indikator baterai selama berkedip</string>
@@ -266,6 +304,7 @@
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
   <string name="wifi_setting_countrycode_summary">Tentukan kode wilayah untuk Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Ada masalah di pengaturan kode wilayah.</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum overlay</string>
   <string name="menu_show_substratum">Tampilkan overlay</string>
@@ -278,7 +317,15 @@
   <string name="force_authorize_substratum_packages_title">Memungkinkan aplikasi tema dari sumber tak dikenal</string>
   <string name="force_authorize_substratum_packages_summary">Paksa otorisasi setiap aplikasi tema</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">Android Debugging</string>
+  <string name="enable_adb_summary_custom">Mengaktifkan antarmuka Android Debug Bridge (adb)</string>
+  <string name="adb_notify">Pemberitahuan ADB</string>
+  <string name="adb_notify_summary">Tampilkan pemberitahuan bila USB atau jaringan debugging diaktifkan</string>
+  <string name="adb_over_network">ADB melalui Jaringan</string>
+  <string name="adb_over_network_summary">Aktifkan TCP/IP debug melalui antarmuka jaringan (Wi-Fi, jaringan USB). Pengaturan ini direset pada saat dinyalakan ulang</string>
+  <string name="adb_over_network_warning">PERINGATAN: Ketika ADB melalui jaringan diaktifkan, ponsel Anda terbuka terhadap intrusi pada semua jaringan yang terhubung!\n\nHanya gunakan fitur ini ketika Anda terhubung pada jaringan tepercaya\n\nApakah Anda benar-benar ingin mengaktifkan fungsi ini?</string>
   <!-- General strings -->
+  <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
   <string name="dashboard_category">Opsi Dasbor</string>
   <string name="dashboard_suggestions_title">Saran</string>
@@ -293,11 +340,51 @@
   <string name="dashboard_columns_portrait_title">Kolom (potret)</string>
   <string name="dashboard_columns_landscape_title">Kolom (mendatar)</string>
   <!-- Battery saver notification toggle -->
+  <string name="battery_saver_notif_title">Pemberitahuan penghemat baterai</string>
+  <string name="battery_saver_notif_summary">Tampilkan pemberitahuan penghemat baterai bila diaktifkan</string>
   <!-- low battery notification toggle -->
+  <string name="battery_low_notif_title">Pemberitahuan baterai lemah</string>
+  <string name="battery_low_notif_summary">Tampilkan pemberitahuan penghemat baterai bila diaktifkan</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
+  <string name="display_rotation_title">Rotasi</string>
   <string name="display_rotation_disabled">Tidak non aktifkan</string>
+  <string name="display_rotation_unit">derajat</string>
+  <string name="display_lockscreen_rotation_title">Rotasi layar kunci</string>
+  <string name="display_rotation_category_title">Mode rotasi</string>
+  <string name="display_rotation_0_title">0 derajat</string>
+  <string name="display_rotation_90_title">90 derajat</string>
+  <string name="display_rotation_180_title">180 derajat</string>
+  <string name="display_rotation_270_title">270 derajat</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Tentang kami</string>
+  <string name="aex_about_summary">Pengantar kami dan tim kami</string>
+  <string name="aex_about_info_summary">AospExtended adalah AOSP berbasis rom yang menyediakan stok UI/UX dengan berbagai fitur penyesuaian dengan mesin tema Substratum. Proyek telah dibuat oleh cherry-picking berbagai komit dari berbagai proyek lain. Berdasarkan AOSP ini memberikan pengalaman yang halus dan bebas lag. Kami akan terus mencoba untuk menambahkan lebih banyak fitur dan membuatnya bahkan lebih baik di masa depan pembaruan. &#35; BeExtended</string>
+  <string name="dev_info">Tentang AospExtended</string>
+  <string name="github">Github</string>
+  <string name="github_description">Lihat sumber kode kami</string>
+  <string name="gplus">Google +</string>
+  <string name="gplus_description">Gabung komunitas G+ kami</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Berlangganan ke saluran Telegram kami</string>
+  <string name="web">Pusat Download</string>
+  <string name="web_description">Kunjungi portal download kami</string>
+  <string name="help_translate">Terjemahan</string>
+  <string name="help_translate_description">Terjemahkan ke bahasa Anda, kunjungi Crowdin kami</string>
+  <string name="walls">Wallpaper</string>
+  <string name="walls_description">Dapatkan wallpaper yang disumbangkan oleh berbagai pengguna</string>
+  <string name="leads">Pemimpin tim</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Pemilik/Pemimpin Pengembang</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Pengembang</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Pengembang</string>
+  <string name="designers">Desainer</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Thread Banner, Logo, Wallpaper</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer_3">Jesus R &#40; KrapK &#41;</string>
   <string name="designer3_description">Wallpaper, Bootanimasi</string>
   <string name="maintainers">Pengelola</string>
@@ -358,30 +445,69 @@
   <string name="show_dev_already_enabled">Tidak perlu, pengaturan pengembang diaktifkan secara bawaan.</string>
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">Warna</string>
+  <string name="omni_battery_light_settings">Lampu pengisian baterai</string>
+  <string name="omni_notification_light_settings">Lampu pemberitahuan</string>
+  <string name="omni_leds">Lampu LED</string>
+  <string name="batterylight_title">Pengaturan bateri LED</string>
   <string name="battery_light_enable">Aktif</string>
+  <string name="battery_low_pulse_title">Kedip jika baterai lemah</string>
   <string name="battery_light_list_title">Warna</string>
+  <string name="battery_light_low_color_title">Baterai Lemah</string>
+  <string name="battery_light_medium_color_title">Mengisi Daya</string>
+  <string name="battery_light_full_color_title">Pengisian Daya (90%)</string>
+  <string name="battery_light_really_full_color_title">Pengisian Daya (100%)</string>
+  <string name="edit_battery_settings">Merubah pengaturan baterai</string>
   <string name="notification_light_general_title">Umum</string>
   <string name="led_color_green">Hijau</string>
   <string name="led_color_red">Merah</string>
   <string name="led_color_blue">Biru</string>
   <string name="ok">Oke</string>
   <string name="advanced">Lanjutan</string>
+  <string name="profiles_add">Tambah...</string>
   <!-- Notification light dialogs -->
+  <string name="edit_light_settings">Ubah setelan lampu</string>
+  <string name="pulse_speed_title">Lama dan kecepatan kedipan</string>
   <string name="default_time">Normal</string>
   <string name="custom_time">Kustom</string>
   <string name="dialog_delete_title">Hapus</string>
+  <string name="dialog_delete_message">Hapus item terpilih?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Selalu Aktif</string>
+  <string name="pulse_length_very_short">Sangat singkat</string>
+  <string name="pulse_length_short">Singkat</string>
   <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_length_long">Panjang</string>
+  <string name="pulse_length_very_long">Sangat panjang</string>
+  <string name="pulse_speed_very_fast">Sangat cepat</string>
   <string name="pulse_speed_fast">Cepat</string>
   <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Lambat</string>
+  <string name="pulse_speed_very_slow">Sangat lambat</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Lampu notifikasi</string>
+  <string name="notificationlight_title">Pengaturan LED notifikasi</string>
   <string name="notification_light_general_title">Umum</string>
   <string name="notification_light_applist_title">Daftar aplikasi</string>
   <string name="notification_light_phonelist_title">Ponsel</string>
+  <string name="notification_light_use_custom">Gunakan nilai kustom</string>
   <string name="notification_light_default_value">Bawaan</string>
+  <string name="notification_light_missed_call_title">Panggilan tidak terjawab</string>
+  <string name="notification_light_voicemail_title">Pesan suara</string>
+  <string name="notification_light_screen_on">Lampu dengan layar yang menyala</string>
+  <string name="notification_light_zen_mode">Lampu di mode Jangan Ganggu</string>
+  <string name="notification_light_use_multiple_leds">Beberapa LED</string>
+  <string name="keywords_lights_brightness_level">kecerahan Led redup</string>
+  <string name="notification_light_automagic">Memilih warna otomatis</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">Setelan lampu</string>
+  <string name="led_notification_text">Lampu LED diaktifkan oleh pengaturan</string>
+  <string name="notification_light_no_apps_summary">Untuk menambahkan kontrol pada setiap aplikasi, aktifkan \'%1$s\' dan tekan \'\u002b\' pada bilah menu</string>
+  <string name="notification_light_automagic">Memilih warna otomatis</string>
+  <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Pilih aplikasi</string>
   <string name="reset">Setel ulang</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB dihidupkan</string>
+  <string name="adb_disabled">ADB dimatikan</string>
 </resources>

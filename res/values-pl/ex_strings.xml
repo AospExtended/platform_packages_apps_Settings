@@ -54,7 +54,7 @@
   <!-- Camera sound -->
   <string name="camera_sounds_title">Dźwięk migawki aparatu</string>
   <!-- Custom tiles summary -->
-  <string name="substratum_settings_summary">Tematu silnika</string>
+  <string name="substratum_settings_summary">Silnik motywów</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Zarządzanie rootem</string>
   <string name="rootmanagement_dashboard_summary">Zarządzanie uprawnieniami root</string>
@@ -193,8 +193,18 @@
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <!-- Animation Scale -->
+  <string name="animation_off">Animacje wyłączone</string>
   <string name="animation_scale_0_5x">Animacja 0,5x</string>
   <string name="animation_scale_0_75x">Animacja 0,75x</string>
+  <string name="animation_scale_1x">Animacje 1x</string>
+  <string name="animation_scale_1_5x">Animacje 1.5x</string>
+  <string name="animation_scale_2x">Animacje 2x</string>
+  <string name="animation_scale_5x">Animacje 5x</string>
+  <string name="animation_scale_10x">Animacja 10x</string>
+  <string name="sim_enabled">włączone</string>
+  <string name="sim_disabled">wyłączone</string>
+  <string name="sim_enabler_will_disable_sim_title">Uwaga</string>
+  <string name="sim_enabler_both_inactive">Nie można wyłączyć wszystkich kart SIM</string>
   <!-- Wi-Fi region code -->
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
@@ -229,16 +239,28 @@
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
   <string name="display_rotation_disabled">Wyłączone</string>
+  <string name="display_rotation_0_title">0 stopni</string>
+  <string name="display_rotation_90_title">90 stopni</string>
+  <string name="display_rotation_180_title">180 stopni</string>
+  <string name="display_rotation_270_title">270 stopni</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">O nas</string>
+  <string name="dev_info">O AospExtended</string>
   <string name="github">GitHub</string>
+  <string name="github_description">Zobacz nasz kod źródłowy</string>
   <string name="gplus">Google+</string>
   <string name="gplus_description">Dołącz do naszej społeczności na G+</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Dołącz do naszej grupy dyskusyjnej na Telegramie</string>
-  <string name="telegram_description">Dołącz do naszej grupy dyskusyjnej na Telegramie</string>
+  <string name="telegram_description">Subskrybuj nasz kanał na Telegramie</string>
   <string name="web">Centrum pobierania</string>
+  <string name="web_description">Odwiedź nasz portal pobierania</string>
   <string name="help_translate">Tłumaczenia</string>
   <string name="walls">Tapety</string>
+  <string name="team2_description">Deweloper</string>
+  <string name="team4_description">Deweloper</string>
+  <string name="designers">Projektanci</string>
+  <string name="designer3_description">Tapety, Animacje startowe</string>
+  <string name="maintainers">Opiekunowie</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
   <!-- Advanced night mode brightness -->
@@ -255,16 +277,20 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
   <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy wprowadzony zostanie poprawny PIN/hasło</string>
+  <string name="reset_wallpaper_notice">Domyślna tapeta przywrócona</string>
   <!-- Wake on Plug -->
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
   <string name="processor_info">Procesor</string>
   <string name="mem_info">Pamięć RAM</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Dźwięk ładowania</string>
   <string name="power_notifications_enable_title">Włącz</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Wibracje</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Dźwięk powiadomienia</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Cichy</string>
   <!-- Sizes for pattern lockscreen -->
   <string name="lock_pattern_size_3">3x3</string>
   <string name="lock_pattern_size_4">4x4</string>
@@ -277,9 +303,11 @@
   <!-- Night Display -->
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Ostrzeżenie</string>
   <!-- Dev Options Enabled by Default -->
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">Kolor</string>
+  <string name="omni_notification_light_settings">Dioda powiadomień</string>
   <string name="battery_light_enable">Włącz</string>
   <string name="battery_light_list_title">Kolory</string>
   <string name="battery_light_low_color_title">Bateria jest na wyczerpaniu</string>
@@ -315,9 +343,13 @@
   <string name="notification_light_applist_title">Aplikacje</string>
   <string name="notification_light_phonelist_title">Telefon</string>
   <string name="notification_light_default_value">Domyślne</string>
+  <string name="notification_light_missed_call_title">Nieodebrane połączenie</string>
   <!-- Lights settings, LED notification -->
+  <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Wybierz aplikację</string>
   <string name="reset">Resetuj</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB włączone</string>
+  <string name="adb_disabled">ADB wyłączone</string>
 </resources>

@@ -17,68 +17,308 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">גירסה מורחבת</string>
+  <string name="extended_version_default">לא ידוע</string>
+  <string name="extensions_title">הרחבות</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">עדכוני AEX</string>
+  <string name="aex_ota_summary">קבל את הגרסה האחרונה</string>
   <!-- About phone screen, build date -->
   <string name="build_date">תאריך בנייה</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">גירסת ספק</string>
+  <string name="vendor_version_default">לא ידוע</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">סיסמת גיבוי בשולחן עבודה</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">צעדי עוצמת קול</string>
+  <string name="volume_steps_alarm_title">צעדי עוצמת קול: שעון מעורר</string>
+  <string name="volume_steps_dtmf_title">צעדי עוצמת קול: DTMF</string>
+  <string name="volume_steps_music_title">צעדי עוצמת קול: מדיה</string>
+  <string name="volume_steps_notification_title">צעדי עוצמת קול: התראות</string>
+  <string name="volume_steps_ring_title">צעדי עוצמת קול: צלצול</string>
+  <string name="volume_steps_system_title">צעדי עוצמת קול: מערכת</string>
+  <string name="volume_steps_voice_call_title">צעדי עוצמת קול: שיחות</string>
+  <string name="volume_steps_reset">אפס</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">צליל שינוי עוצמת קול</string>
   <!-- Keyboard and Input ASS methods -->
+  <string name="show_enter_key_title">הצג מקש אנטר</string>
+  <string name="show_enter_key_summary">גורם למקלדת להציג את מקש Enter במקום סמיילים</string>
   <!-- Whether to display IME switcher notifcation -->
+  <string name="ime_switcher_notify">התראת בוחר מקלדות</string>
+  <string name="ime_switcher_notify_summary">הצגת התראה עבור הגדרת שיטת קלט</string>
   <!-- Changelog -->
   <string name="changelog_title">לוג שינויים</string>
   <string name="changelog_error">אין אפשרות לטעון את רשימת שינויים</string>
+  <string name="changelog_summary">שינויים אחרונים</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">קשר את עוצמת הצלצול וההתראות</string>
+  <string name="notification_volume_option_title">עוצמת הקול של התראות</string>
+  <string name="ring_notification_volume_option_title">עוצמת הקול של צלצול והתראות</string>
   <!-- Camera sound -->
+  <string name="camera_sounds_title">צליל צמצם המצלמה</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">מנוע ערכות נושא</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">ניהול הרשאות Root</string>
+  <string name="rootmanagement_dashboard_summary">נהל הרשאות Root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">עוצמת צלצול מתגברת</string>
+  <string name="increasing_ring_min_volume_title">עוצמת צלצול התחלתית</string>
+  <string name="increasing_ring_ramp_up_time_title">אורך זמן ההגברה</string>
   <!-- Less Notification sounds -->
+  <string name="less_notification_sounds_title">התראות בתדירות נמוכה יותר</string>
+  <string name="less_notification_sounds_summary">הגבל את צליל ההתראות לכל יישום לצליל אחד בכל פרק זמן</string>
+  <string name="less_notification_sounds_default">אפשרות ברירת מחדל</string>
+  <string name="less_notification_sounds_3s">3 שניות</string>
+  <string name="less_notification_sounds_5s">5 שניות</string>
+  <string name="less_notification_sounds_10s">10 שניות</string>
+  <string name="less_notification_sounds_15s">15 שניות</string>
+  <string name="less_notification_sounds_30s">30 שניות</string>
+  <string name="less_notification_sounds_45s">45 שניות</string>
+  <string name="less_notification_sounds_1m">דקה אחת</string>
+  <string name="less_notification_sounds_2m">2 דקות</string>
+  <string name="less_notification_sounds_5m">5 דקות</string>
   <!-- Magisk Manager -->
+  <string name="magisk_title">Magisk – מנהל הרשאות Root</string>
+  <string name="magisk_summary">ניהול הרשאות Root</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">ערבב פריסה</string>
+  <string name="unlock_scramble_pin_layout_summary">ערבב את סדר לוח המקשים של הקוד בפתיחת המכשיר</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">גישה לאינטרנט סלולרי</string>
+  <string name="data_usage_app_restrict_wifi_category_title">גישה ל־Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">השבת כל גישה לנתונים סלולרים</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">מנע כל שימוש בגישה לאינטרנט דרך הרשתות סלולריות</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">השבת כל גישה ל־Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">מנע כל שימוש בגישה לאינטרנט דרך האינטרנט האלחוטי</string>
   <!-- Battery stats reset -->
+  <string name="battery_stats_reset">אפס סטטיסטיקה</string>
+  <string name="battery_stats_message">היסטורית השימוש בסוללה הולכת להתאפס</string>
+  <string name="ok_string">אישור</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">הגדרות שינה עמוקה Doze</string>
   <string name="summary_doze_enabled">אפשר</string>
   <string name="summary_doze_disabled">בטל</string>
+  <string name="doze_overwrite_value_title">עקוף ברירת מחדל</string>
+  <string name="doze_overwrite_value_summary">אפשר החלפת ערך ברירת מחדל עם הגדרת המשתמש</string>
+  <string name="doze_pulse_title">הגדרות להגדרה של המשתמש</string>
+  <string name="doze_pulse_duration_in_title">עמעום כניסה</string>
+  <string name="doze_pulse_duration_visible_title">משך זמן נראה</string>
+  <string name="doze_pulse_duration_out_title">עמעום יציאה</string>
+  <string name="doze_trigger_pickup_title">הפעלה עם חיישן הרמה</string>
+  <string name="doze_trigger_pickup_summary_on">Pulse יופעל על ידי חיישן ההרמה</string>
+  <string name="doze_trigger_pickup_summary_off">Pulse לא יופעל על ידי חיישן ההרמה</string>
+  <string name="doze_trigger_notification_title">התרעות מפעילות</string>
+  <string name="doze_trigger_notification_summary_on">Pulse יופעל על ידי התראות</string>
+  <string name="doze_brightness_level_title">רמת בהירות</string>
+  <string name="onehundred_ms">100 מילישניות</string>
+  <string name="twofifty_ms">250 מילישניות</string>
+  <string name="fivehundred_ms_default">500 מילישניות (ברירת מחדל)</string>
+  <string name="sevenfifty_ms">750 מילישניות</string>
+  <string name="one_second">שניה</string>
+  <string name="onehalf_second">1.5 שניות</string>
+  <string name="two_second">2 שניות</string>
+  <string name="twohalf_second">2.5 שניות</string>
+  <string name="three_second_default">3 שניות (ברירת מחדל)</string>
+  <string name="threehalf_second">3.5 שניות</string>
+  <string name="four_second">4 שניות</string>
+  <string name="fourhalf_second">4.5 שניות</string>
+  <string name="five_second">5 שניות</string>
+  <string name="doze_notification_color_invert_title">היפוך צבעי התראות</string>
+  <string name="doze_notification_color_invert_summary_off">צבע ההתראות לא הפוכים. השתמש בערכות נושא כהות.</string>
+  <string name="doze_notification_color_invert_summary_on">צבע ההתראות הפוכים. השתמש בערכות נושא בהירות או ללא ערכת נושא.</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">לחיצה כפולה להפעלה בשינה עמוקה</string>
+  <string name="double_tap_wake_doze_summary">דרוש לחיצה כפולה להערת המכשיר בעת שינה עמוקה (doze)</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">הרשאות יישומים מתקדמות</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">אפשרות להרשאות מתקדמות לכל יישום בנפרד</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">מיקום</string>
+  <string name="app_ops_cat_personal">אישי</string>
+  <string name="app_ops_cat_messaging">הודעות</string>
+  <string name="app_ops_cat_media">מדיה</string>
+  <string name="app_ops_cat_device">מכשיר</string>
+  <string name="app_ops_cat_bootup">אתחול</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">מצלמה</string>
+  <string name="app_ops_access_location">מיקום</string>
+  <string name="app_ops_access_notifications">התראות</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">הפעלה אוטומטית</string>
+  <string name="app_ops_delete_call_log">מחיקת יומן השיחות</string>
+  <string name="app_ops_delete_contacts">מחיקת אנשי קשר</string>
+  <string name="app_ops_delete_mms">מחיקת הודעות MMS</string>
+  <string name="app_ops_delete_sms">מחיקת הודעות טקסט</string>
+  <string name="app_ops_draw_on_top">הצגה על יישומים אחרים</string>
+  <string name="app_ops_get_usage_stats">קבל סטטיסטיקות שימוש</string>
+  <string name="app_ops_keep_device_awake">שמור את המכשיר ער</string>
+  <string name="app_ops_make_phone_call">הוצאת שיחה</string>
+  <string name="app_ops_modify_calendar">שינוי לוח שנה</string>
+  <string name="app_ops_modify_call_log">שינוי יומן השיחות</string>
+  <string name="app_ops_modify_clipboard">שינוי לוח העתקה</string>
+  <string name="app_ops_modify_contacts">שינוי אנשי קשר</string>
+  <string name="app_ops_modify_settings">שינוי הגדרות</string>
+  <string name="app_ops_mute_unmute_microphone">השתקת או ביטול השתקת המיקרופון</string>
+  <string name="app_ops_play_audio">ניגון שמע</string>
+  <string name="app_ops_post_notification">הצגת התראה</string>
+  <string name="app_ops_project_media">הצגת מדיה</string>
+  <string name="app_ops_read_calendar">קריאת יומן</string>
+  <string name="app_ops_read_call_log">קריאת יומן שיחות</string>
+  <string name="app_ops_read_clipboard">קריאת לוח העתקה</string>
+  <string name="app_ops_read_contacts">קריאת אנשי קשר</string>
+  <string name="app_ops_read_mms">קריאת הודעות MMS</string>
+  <string name="app_ops_read_sms">‏קריאת הודעות טקסט</string>
+  <string name="app_ops_receive_sms">‏קבלת הודעות טקסט</string>
+  <string name="app_ops_record_audio">הקלטת קול</string>
+  <string name="app_ops_send_mms">שלח הודעת MMS</string>
+  <string name="app_ops_send_sms">שליחת הודעת טקסט</string>
+  <string name="app_ops_toast_window">הודעות קופצות</string>
+  <string name="app_ops_use_alarm_volume">עוצמת קול של שעון מעורר</string>
+  <string name="app_ops_use_audio_focus">מיקוד שמע</string>
+  <string name="app_ops_use_bluetooth_volume">עוצמת קול של Bluetooth</string>
+  <string name="app_ops_use_master_volume">שליטה ראשית בעוצמת הקול</string>
+  <string name="app_ops_use_media_buttons">לחצני המדיה</string>
+  <string name="app_ops_use_media_volume">עוצמת קול של מדיה</string>
+  <string name="app_ops_use_notification_volume">עוצמת קול של התראות</string>
+  <string name="app_ops_use_ring_volume">עוצמת קול של צלצול</string>
+  <string name="app_ops_use_vibrate">משוב ברטט</string>
+  <string name="app_ops_use_voice_volume">עוצמת קול של שיחה</string>
+  <string name="app_ops_write_mms">שליחת הודעת MMS</string>
+  <string name="app_ops_write_sms">שליחת הודעת טקסט</string>
+  <string name="app_ops_use_fingerprint">טביעת אצבע</string>
+  <string name="app_ops_add_voicemail">דואר קולי</string>
+  <string name="app_ops_read_phone_state">גישה למצב המכשיר</string>
+  <string name="app_ops_scan_wifi">סריקת רשתות WiFi</string>
+  <string name="app_ops_change_wallpaper">החלפת תמונת רקע</string>
+  <string name="app_ops_assist_screenshot">צילום מסך</string>
+  <string name="app_ops_use_body_sensors">חיישני המכשיר</string>
+  <string name="app_ops_read_cell_broadcasts">שידורים סלולרים</string>
+  <string name="app_ops_mock_location">מיקום מדומה</string>
+  <string name="app_ops_read_external_storage">קריאת אחסון חיצוני.</string>
+  <string name="app_ops_write_external_storage">כתיבה לאחסון חיצוני.</string>
+  <string name="app_ops_turn_on_screen">הפעלת המסך</string>
+  <string name="app_ops_get_accounts">חשבונות המכשיר</string>
+  <string name="app_ops_wifi_change">‏שינוי מצב WiFi</string>
+  <string name="app_ops_toggle_bluetooth">הפעלת/כיבוי Bluetooth</string>
+  <string name="app_ops_run_in_background">ריצה ברקע</string>
+  <string name="app_ops_boot_completed">הפעלה אוטומטית</string>
+  <string name="ambient_display_show_battery_title">מצב סוללה</string>
+  <string name="ambient_display_show_battery_summary">הראה מצב סוללה תוך כדי pulse</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">צבע אזהרה</string>
+  <string name="battery_saver_color_summary">אפשר צביעת שורת המצב וסרגל הניווט באדום כשחיסכון בסוללה מופעל</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">מנע התעוררות מקרית</string>
+  <string name="proximity_wake_summary">בדוק את חיישן הקירבה לפני התעוררות המסך</string>
   <!-- SystemUI restart prompt -->
+  <string name="systemui_restart_title">אזהרה</string>
+  <string name="systemui_restart_message">ממשק המשתמש יופעל מחדש בשביל שההגדרה ששונתה תופעל ללא בעיות.</string>
+  <string name="restarting_ui">מפעיל מחדש את ממשק המשתמש\u2026</string>
+  <string name="print_restart">הפעלה מחדש</string>
+  <string name="device_gestures_title">מחוות מכשיר</string>
+  <string name="device_gestures_summary">הגדרת מחוות נוספות להתקן שלך</string>
+  <string name="device_doze_title">מחוות תצוגת התראות עמומה</string>
+  <string name="device_doze_summary">הגדרת מחוות נוספות עבור תצוגת התראות עמומה</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">עוצמת שמע בטוחה באוזניות</string>
+  <string name="safe_headset_volume_summary">מנע רמות ווליום גבוהות כשהאוזניות מחוברות לראשונה</string>
+  <string name="safe_headset_volume_warning_dialog_text">האזנה בעוצמה גבוהה לזמן ממושך עשויה לפגוע בשמיעתך. השבת זאת בזהירות.</string>
   <!-- MSIM SIM status -->
+  <string name="sim_card_status_title">מצב כרטיס SIM ‏%d</string>
+  <string name="sim_card_lock_settings_title">הגדרות נעילת SIM ‏%d</string>
+  <string name="sim_card_summary_empty">לא הוכנס SIM</string>
+  <string name="sim_mobile_network_settings_category_title">הגדרות רשת סלולרית</string>
+  <string name="sim_mobile_network_settings_title">הגדרות SIM ‏%d</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
+  <string name="substratum_title">מנהל ערכות נושא Substratum</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">חנות היישומים של Google</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">שולחן עבודה מורחב</string>
   <string name="keywords_expanded_desktop">שולחן עבודה מורחב</string>
+  <string name="expanded_hide_nothing">אל תסתיר כלום</string>
+  <string name="expanded_hide_status">הסתר את שורת המצב</string>
+  <string name="expanded_hide_navigation">הפעל את סרגל הניווט</string>
+  <string name="expanded_hide_both">הסתר את שניהם</string>
+  <string name="expanded_nothing_to_show">כדי להוסיף תצורה מותאמת אישית לכל אפליקציה למצב מורחב, הגדר \"מופעל בכל המכשיר\" למצב כבוי</string>
+  <string name="expanded_desktop_state">מצב מורחב</string>
+  <string name="expanded_enabled_for_all">מופעל בכל המכשיר</string>
+  <string name="expanded_user_configurable">הגדרות משתמש</string>
+  <string name="expanded_desktop_style">סגנון הרחבת מסך</string>
+  <string name="expanded_desktop_style_description">בחר בצורת ברירת המחדל להרחבת המסך</string>
+  <string name="expanded_desktop_title">אפשרויות הרחבת מסך</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">מידע על הטלפון</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">אתר את חיישן טביעות האצבע הנמצא <xliff:g id="sensor_location">%1$s</xliff:g> המכשיר שלך.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">מאחורי</string>
+  <string name="security_settings_fingerprint_sensor_location_front">בחזית</string>
+  <string name="security_settings_fingerprint_sensor_location_left">בצד שמאל של</string>
+  <string name="security_settings_fingerprint_sensor_location_right">בצד ימין של</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <!-- Animation Scale -->
+  <string name="animation_off">הנפשה כבויה</string>
+  <string name="animation_scale_0_5x">הנפשה במהירות 0.5x</string>
+  <string name="animation_scale_0_75x">הנפשה במהירות 0.75x</string>
+  <string name="animation_scale_1x">הנפשה במהירות רגילה</string>
+  <string name="animation_scale_1_5x">הנפשה במהירות 1.5x</string>
+  <string name="animation_scale_2x">הנפשה במהירות 2x</string>
+  <string name="animation_scale_5x">הנפשה במהירות 5x</string>
+  <string name="animation_scale_10x">הנפשה במהירות 10x</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">מופעל</string>
+  <string name="sim_disabled">מושבת</string>
+  <string name="sim_missing">חסר או פגום</string>
+  <string name="sim_enabler_need_disable_sim">כרטיס ה־SIM יושבת. להמשיך?</string>
+  <string name="sim_enabler_will_disable_sim_title">לידיעתך</string>
+  <string name="sim_enabler_need_switch_data_service">SIM זה יהפוך ללא זמין ו-SIM <xliff:g id="slotid">%1$s</xliff:g> ישמש לשירותי נתונים. אתה בטוח שברצונך להמשיך?</string>
+  <string name="sim_enabler_airplane_on">אין אפשרות לבצע את הפעולה כשמצב טיסה מופעל.</string>
+  <string name="sim_enabler_in_call">אין אפשרות לבצע את הפעולה בזמן השיחה.</string>
+  <string name="sim_enabler_both_inactive">אין אפשרות להשבית את כל כרטיסי ה־SIM</string>
+  <string name="sim_enabler_enabling">מפעיל\u2026</string>
+  <string name="sim_enabler_disabling">מכבה\u2026</string>
+  <string name="sub_activate_success">כרטיס ה־SIM הופעל.</string>
+  <string name="sub_activate_failed">ההפעלה נכשלה.</string>
+  <string name="sub_deactivate_success">כרטיס ה־SIM כובה.</string>
+  <string name="sub_deactivate_failed">הכיבוי נכשל.</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">קוד Wi-Fi אזורי</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">ציין את קוד אזור של ה־Wi\u2011Fi</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">אירעה שגיאה בהגדרת הקוד האזורי.</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">שכבות Substratum</string>
+  <string name="menu_show_substratum">הראה שכבות</string>
+  <string name="menu_hide_substratum">הסתר שכבות</string>
   <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">שכבות סמלים של Substratum</string>
+  <string name="menu_show_substratum_icons">הראה שכבות סמלים</string>
+  <string name="menu_hide_substratum_icons">הסתר שכבות סמלים</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">חייב אישור לכל חבילת ערכות נושא</string>
+  <string name="force_authorize_substratum_packages_summary">אפשר התקנת חבילות ערכות נושא ממקורות לא ידועים</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">איתור באגים של אנדרואיד</string>
+  <string name="enable_adb_summary_custom">הפעל את ממשק ניקוי באגים של אנדרואיד (ADB)</string>
+  <string name="adb_notify">התראת ADB</string>
   <!-- General strings -->
   <!-- Dashboard options -->
   <!-- Battery saver notification toggle -->
@@ -87,42 +327,100 @@
   <!-- Rotation Modes  -->
   <string name="display_rotation_disabled">בטל</string>
   <!-- About AospExtended -->
+  <string name="help_translate_description">תרגם לשפה שלך, בקר בפורטל התרגום שלנו באתר Crowdin</string>
+  <string name="walls">רקעים</string>
+  <string name="walls_description">קבל רקעים שנתרמו על ידי משתמשים שונים</string>
+  <string name="leads">צוותים</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">בעלים\מפתח ראשי</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">מפתח</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">מפתח</string>
+  <string name="designers">מעצב</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">תמונות, סמלים ורקעים</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">סמלים של QS/Fling</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">רקעים ואנימציות הפעלה</string>
+  <string name="maintainers">מתחזקים</string>
+  <string name="maintainer_description">מתחזק של %1$s</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">צליל צילום מסך</string>
+  <string name="screenshot_sound_summary">השמע צליל צילום מסך בעת הצילום</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">בהירות</string>
+  <string name="night_brightness_value_title">בהירות מצב לילה</string>
+  <string name="night_brightness_text">שנה לבהירות הרצויה אוטומטית במצב לילה. ברירת המחדל היא בהירות נמוכה</string>
   <string name="night_bright_disabled">בטל</string>
+  <string name="night_bright_min">בהירות מינימלית</string>
+  <string name="night_bright_low">בהירות נמוכה</string>
+  <string name="night_bright_medium">בהירות בינונית</string>
   <!-- setting: show CPU info-->
+  <string name="show_cpu_info">הצג את פרטי המעבד</string>
+  <string name="show_cpu_info_summary">שכבת המסך מראה את נתוני המעבד הנוכחיים</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">פתיחה מהירה</string>
+  <string name="unlock_quick_unlock_control_summary">בטל נעילה מיידית כשמוזן הקוד הנכון\nשים לב: הגדרה זו עובדת רק בקוד של 4 ספרות.</string>
+  <string name="reset_wallpaper_notice">רקע ברירת המחדל שוחזר</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">הער מסך בעת חיבור</string>
+  <string name="wake_when_plugged_or_unplugged_summary">הדלק את המסך כאשר המכשיר מתחבר ומתנתק ממקור חשמל</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">מעבד</string>
+  <string name="mem_info">זיכרון</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">צלילי טעינה</string>
+  <string name="power_notifications_enable_summary">השמע צליל בעת חיבור או ניתוק מטען</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">רטט</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">צליל התראה</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">שקט</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">הצג שגיאות דפוס</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">הצג נקודות דפוס</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">רטט</string>
+  <string name="lockscreen_vibrate_enabled_head">רטוט בפתיחת מסך</string>
   <!-- Night Display -->
+  <string name="night_display_warning">שים לב שמצב לילה אולי יגביר את צריכת הסוללה.</string>
+  <string name="night_display_hide">אל תציג אזהרה זו שוב</string>
+  <string name="night_display_ok">אישור</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">התראה</string>
   <!-- Dev Options Enabled by Default -->
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">צבע</string>
+  <string name="battery_light_list_title">צבעים</string>
+  <string name="notification_light_general_title">כללי</string>
   <string name="led_color_green">ירוק</string>
   <string name="led_color_red">אדום</string>
   <string name="led_color_blue">כחול</string>
   <string name="ok">אישור</string>
+  <string name="advanced">מתקדם</string>
   <!-- Notification light dialogs -->
   <string name="default_time">רגיל</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_normal">רגיל</string>
+  <string name="pulse_speed_fast">מהר</string>
   <string name="pulse_speed_normal">רגיל</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">כללי</string>
+  <string name="notification_light_applist_title">יישומים</string>
   <string name="notification_light_default_value">ברירת מחדל</string>
   <!-- Lights settings, LED notification -->
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">בחר יישום</string>
+  <string name="reset">אפס</string>
   <!-- Development Settings summary-->
 </resources>

@@ -368,8 +368,7 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">Unisciti alla nostra community su G+</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Iscriviti al nostro canale su Telegram</string>
-  <string name="telegram_description">Iscriviti al nostro canale su Telegram</string>
+  <string name="telegram_description">Iscriviti al nostro canale Telegram</string>
   <string name="web">Centro download</string>
   <string name="web_description">Visita il nostro portale di download</string>
   <string name="help_translate">Traduzioni</string>
@@ -382,7 +381,6 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Sviluppatore</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderatore e sviluppatore amatoriale</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Sviluppatore</string>
   <string name="designers">Progettisti</string>

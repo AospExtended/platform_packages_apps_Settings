@@ -17,42 +17,184 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Versión de AOSP extendida</string>
+  <string name="extended_version_default">Descoñecido</string>
   <string name="extensions_title">Extensións</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">Actualizacións de AEX</string>
+  <string name="aex_ota_summary">Obter a última versión</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Data da versión</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Versión do vendedor</string>
+  <string name="vendor_version_default">Descoñecido</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Contrasinal de backup do escritorio</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Niveis de volume</string>
+  <string name="volume_steps_alarm_title">Niveis de volume: Alarma</string>
+  <string name="volume_steps_dtmf_title">Niveis de volume: DTMF</string>
+  <string name="volume_steps_music_title">Niveis de volume: Música</string>
+  <string name="volume_steps_notification_title">Niveis de volume: Notificación</string>
+  <string name="volume_steps_ring_title">Niveis de volume: Timbre</string>
+  <string name="volume_steps_system_title">Niveis de volume: Sistema</string>
+  <string name="volume_steps_voice_call_title">Niveis de volume: Chamada de voz</string>
+  <string name="volume_steps_reset">Restablecer</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Axuste do volume dos sons</string>
   <!-- Keyboard and Input ASS methods -->
+  <string name="show_enter_key_title">Amosar tecla Enter</string>
+  <string name="show_enter_key_summary">Forzar o teclado para que amose enter en lugar da tecla dos emoticonos</string>
   <!-- Whether to display IME switcher notifcation -->
+  <string name="ime_switcher_notify">Selector de notificacións</string>
+  <string name="ime_switcher_notify_summary">Amosar a notificación do selector do método de entrada</string>
   <!-- Changelog -->
+  <string name="changelog_title">Rexistro de cambios</string>
+  <string name="changelog_error">Incapaz de cargar o rexistro de cambios</string>
+  <string name="changelog_summary">Cambios recentes</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Asociar o volume do tono e das notificacións</string>
+  <string name="notification_volume_option_title">Volume das notificacións</string>
+  <string name="ring_notification_volume_option_title">Volumen de tono e notificación</string>
   <!-- Camera sound -->
+  <string name="camera_sounds_title">Son do obturador da cámara</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">Motor do tema</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Xestión de root</string>
+  <string name="rootmanagement_dashboard_summary">Xestionar o acceso root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Incrementando o volume do tono</string>
+  <string name="increasing_ring_min_volume_title">Volume inicial</string>
+  <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
   <!-- Less Notification sounds -->
+  <string name="less_notification_sounds_title">Sons das notificacións menos frecuentes</string>
+  <string name="less_notification_sounds_summary">Limita os sons das notificacións de cada aplicativo para só reproducir un son por cada periodo de tempo</string>
+  <string name="less_notification_sounds_default">Comportamento por defecto</string>
+  <string name="less_notification_sounds_3s">3 segundos</string>
+  <string name="less_notification_sounds_5s">5 segundos</string>
+  <string name="less_notification_sounds_10s">10 segundos</string>
+  <string name="less_notification_sounds_15s">15 segundos</string>
+  <string name="less_notification_sounds_30s">30 segundos</string>
+  <string name="less_notification_sounds_45s">45 segundos</string>
+  <string name="less_notification_sounds_1m">1 minuto</string>
+  <string name="less_notification_sounds_2m">2 minutos</string>
+  <string name="less_notification_sounds_5m">5 Minutos</string>
   <!-- Magisk Manager -->
+  <string name="magisk_title">Magisk Manager</string>
+  <string name="magisk_summary">Xestión de root</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Mesturar a disposición</string>
+  <string name="unlock_scramble_pin_layout_summary">Mesturar a disposición do PIN cando se desbloquea o dispositivo</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Acceso a datos móbiles</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Acceso a Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Deshabilitar todo tipo de accesos a datos</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Evita calquer uso de datos mediante as redes móbiles</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Deshabilita todo o acceso a Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Evita calquer uso de datos vía redes Wi\u2011Fi</string>
   <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Reiniciar as estatísticas</string>
+  <string name="battery_stats_message">As estatísticas da batería van ser reiniciadas</string>
+  <string name="ok_string">Aceptar</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">Axustes de Doze</string>
   <string name="summary_doze_enabled">Habilitado</string>
   <string name="summary_doze_disabled">Deshabilitado</string>
+  <string name="doze_overwrite_value_title">Sobrescribir os valores por defecto</string>
+  <string name="doze_overwrite_value_summary">Permitir a sobrescritura dos valores por defecto cos axustes do usuario</string>
+  <string name="doze_pulse_title">Axustes configurable do usuario</string>
+  <string name="doze_pulse_duration_in_title">Desvanecemento de entrada</string>
+  <string name="doze_pulse_duration_visible_title">Tempo de visibilidade</string>
+  <string name="doze_pulse_duration_out_title">Desvanecemento de saída</string>
+  <string name="doze_trigger_pickup_title">Accionador do sensor de recogida</string>
+  <string name="doze_trigger_pickup_summary_on">As pulsacións serán accionadas polo sensor de recogida</string>
+  <string name="doze_trigger_pickup_summary_off">O sensor de recogida non se usará como accionador</string>
+  <string name="doze_trigger_notification_title">Accionador de notificacións</string>
+  <string name="doze_trigger_notification_summary_on">Pulse será accionado polas notificacións</string>
+  <string name="doze_trigger_notification_summary_off">As notificacións non se usarán como accionadores</string>
+  <string name="doze_brightness_level_title">Nivel de brillo</string>
+  <string name="onehundred_ms">100 ms</string>
+  <string name="twofifty_ms">250 ms</string>
+  <string name="fivehundred_ms_default">500 ms (por defecto)</string>
+  <string name="sevenfifty_ms">750 ms</string>
+  <string name="one_second">1 s</string>
+  <string name="onehalf_second">1.5 s</string>
+  <string name="two_second">2 s</string>
+  <string name="twohalf_second">2.5 s</string>
+  <string name="three_second_default">3 s (por defecto)</string>
+  <string name="threehalf_second">3.5 s</string>
+  <string name="four_second">4 s</string>
+  <string name="fourhalf_second">4.5 s</string>
+  <string name="five_second">5 s</string>
+  <string name="doze_notification_color_invert_title">Inversión da notificación</string>
+  <string name="doze_notification_color_invert_summary_off">As notificacións non serán invertidas. Useo para temas oscuros.</string>
+  <string name="doze_notification_color_invert_summary_on">As notificación serán invertidas. Useo para temas oscuros/por defecto.</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Dobre toque para espertar en modo doze</string>
+  <string name="double_tap_wake_doze_summary">Require un toque dobre para espertar o dispositivo no modo de pantalla doze</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">Permisos do aplicativo</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">Permisos avanzados por aplicativo</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
-  <string name="app_ops_cat_media">Arquivos multimedia</string>
+  <string name="app_ops_cat_location">Ubicación</string>
+  <string name="app_ops_cat_personal">Persoal</string>
+  <string name="app_ops_cat_messaging">Mensaxes</string>
+  <string name="app_ops_cat_media">Multimedia</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">cámara</string>
+  <string name="app_ops_access_location">ubicación</string>
+  <string name="app_ops_access_notifications">notificacións</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">comezo automático</string>
+  <string name="app_ops_delete_call_log">borrar o rexistro de chamadas</string>
+  <string name="app_ops_delete_contacts">borrar os contactos</string>
+  <string name="app_ops_delete_mms">borrar MMS</string>
+  <string name="app_ops_delete_sms">borrar SMS</string>
+  <string name="app_ops_draw_on_top">debuxar na parte superior</string>
+  <string name="app_ops_get_usage_stats">obter datos de uso</string>
+  <string name="app_ops_keep_device_awake">manter acendido</string>
+  <string name="app_ops_make_phone_call">facer chamadas</string>
+  <string name="app_ops_modify_calendar">actualizar o calendario</string>
+  <string name="app_ops_modify_call_log">actualizar o rexistro de chamadas</string>
+  <string name="app_ops_modify_clipboard">modificar o portapapeis</string>
+  <string name="app_ops_modify_contacts">actualizar os contactos</string>
+  <string name="app_ops_modify_settings">actualizar os axustes</string>
+  <string name="app_ops_mute_unmute_microphone">silenciar/non silenciar o micrófono</string>
+  <string name="app_ops_play_audio">reproducir sons</string>
+  <string name="app_ops_post_notification">mandar notificacións</string>
+  <string name="app_ops_project_media">proyectar multimedia</string>
+  <string name="app_ops_read_calendar">ler o calendario</string>
+  <string name="app_ops_read_call_log">ler o historial de chamadas</string>
+  <string name="app_ops_read_clipboard">ler o portapapeis</string>
+  <string name="app_ops_read_contacts">ler os contactos</string>
+  <string name="app_ops_read_mms">ler os MMS</string>
+  <string name="app_ops_read_sms">ler os SMS</string>
+  <string name="app_ops_receive_sms">recibir SMS</string>
+  <string name="app_ops_record_audio">grabar sons</string>
+  <string name="app_ops_send_mms">enviar MMS</string>
+  <string name="app_ops_send_sms">enviar SMS</string>
+  <string name="app_ops_toast_window">mensaxes toast</string>
+  <string name="app_ops_use_alarm_volume">volume da alarma</string>
+  <string name="app_ops_use_audio_focus">concentración de sons</string>
+  <string name="app_ops_use_bluetooth_volume">Volume do Bluetooth</string>
+  <string name="app_ops_use_master_volume">volume xeral</string>
+  <string name="app_ops_use_media_buttons">botóns multimedia</string>
+  <string name="app_ops_use_media_volume">volume multimedia</string>
+  <string name="app_ops_use_notification_volume">volume de notificación</string>
+  <string name="app_ops_use_ring_volume">volumen do ton</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <!-- Proximity wake -->
@@ -99,13 +241,16 @@
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Son de notificación</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Silencio</string>
   <!-- Sizes for pattern lockscreen -->
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
   <!-- Night Display -->
+  <string name="night_display_ok">Aceptar</string>
   <!-- Quick unlock information -->
   <!-- Dev Options Enabled by Default -->
   <!-- LED notifications -->
@@ -131,5 +276,6 @@
   <!-- Lights settings, LED notification -->
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Escolle aplicativo</string>
+  <string name="reset">Restablecer</string>
   <!-- Development Settings summary-->
 </resources>
