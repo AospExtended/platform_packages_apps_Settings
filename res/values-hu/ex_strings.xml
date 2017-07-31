@@ -17,14 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Extended verzió</string>
   <string name="extended_version_default">Ismeretlen</string>
   <string name="extensions_title">Bővítmények</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX frissítések</string>
+  <string name="aex_ota_summary">Legutolsó verzió beszerzése</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Készítés dátuma</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Vendor verzió</string>
   <string name="vendor_version_default">Ismeretlen</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Asztali mentés jelszava</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Hangerő léptetések</string>
   <string name="volume_steps_alarm_title">Hangerő lépésköz: Ébresztő</string>
@@ -41,18 +47,29 @@
   <string name="show_enter_key_title">Enter gomb megjelenítése</string>
   <string name="show_enter_key_summary">A billentyűzet kényszerítése az Enter gomb mutatására a hangulatjelek helyett</string>
   <!-- Whether to display IME switcher notifcation -->
+  <string name="ime_switcher_notify">Billentyűzetváltó értesítés</string>
+  <string name="ime_switcher_notify_summary">Beviteli mód választó megjelenítése az értesítési sávon</string>
   <!-- Changelog -->
   <string name="changelog_title">Változáslista</string>
   <string name="changelog_error">Nem lehet betölteni a változáslistát</string>
+  <string name="changelog_summary">Legutóbbi változások</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Csengetési és értesítési hangerő összevonása</string>
+  <string name="notification_volume_option_title">Értesítés hangereje</string>
+  <string name="ring_notification_volume_option_title">Csengetés és értesítés hangereje</string>
   <!-- Camera sound -->
   <string name="camera_sounds_title">Kamera zárhang</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">Témamotor</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Root kezelés</string>
+  <string name="rootmanagement_dashboard_summary">Root hozzáférés kezelése</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
   <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
+  <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Kevésbé gyakori értesítési hangok</string>
   <string name="less_notification_sounds_summary">Korlátozza az értesítési hangokat, hogy minden alkalmazás csak egyszer jelezhessen a megadott időn belül</string>
@@ -68,18 +85,27 @@
   <string name="less_notification_sounds_5m">5 perc</string>
   <!-- Magisk Manager -->
   <string name="magisk_title">Magisk kezelő</string>
+  <string name="magisk_summary">Root kezelés</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
   <string name="unlock_scramble_pin_layout_summary">PIN elrendezés szétszórása az eszköz feloldásakor</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Hálózati adatelérés</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi adatelérés</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">Minden hálózati adat tiltása</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Megakadályozza a mobilhálózatokon keresztüli bármilyen adathozzáférést</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Minden Wi\u2011Fi adat tiltása</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Megakadályozza a Wi\u2011Fi hálózatokon keresztüli bármilyen adathozzáférést</string>
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">Statisztika törlése</string>
   <string name="battery_stats_message">Akkumulátor használati statisztika törlésre kerül</string>
   <string name="ok_string">OK</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">Környezeti kijelző beállításai</string>
   <string name="summary_doze_enabled">Engedélyezve</string>
   <string name="summary_doze_disabled">Letiltva</string>
   <string name="doze_overwrite_value_title">Alapértékek felülírása</string>
@@ -112,10 +138,13 @@
   <string name="doze_notification_color_invert_summary_off">Értesítések nem lesznek invertálva. Sötét téma esetén használja.</string>
   <string name="doze_notification_color_invert_summary_on">Értesítések invertálva lesznek. Világos/gyári téma esetén használja.</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Dupla érintés a környezeti kijelzőn az ébresztéshez</string>
+  <string name="double_tap_wake_doze_summary">Dupla érintés kérése az eszköz felébresztéséhez a pulzáló képernyőn</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <string name="app_ops_settings">Alkalmazásműveletek</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">Haladó alkalmazásonkénti beállítások</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <string name="app_ops_cat_location">Hely</string>
@@ -123,12 +152,70 @@
   <string name="app_ops_cat_messaging">Üzenetküldés</string>
   <string name="app_ops_cat_media">Média</string>
   <string name="app_ops_cat_device">Eszköz</string>
+  <string name="app_ops_cat_bootup">Rendszerindítás</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">kamera</string>
+  <string name="app_ops_access_location">hely</string>
   <string name="app_ops_access_notifications">értesítések</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">automatikus indítás</string>
   <string name="app_ops_delete_call_log">hívásnaplók törlése</string>
+  <string name="app_ops_delete_contacts">névjegyek törlése</string>
+  <string name="app_ops_delete_mms">MMS törlése</string>
+  <string name="app_ops_delete_sms">SMS törlése</string>
+  <string name="app_ops_draw_on_top">megjelenítés alkalmazások felett</string>
+  <string name="app_ops_get_usage_stats">használati statisztika lekérése</string>
+  <string name="app_ops_keep_device_awake">ébren tartás</string>
+  <string name="app_ops_make_phone_call">hívás kezdeményezése</string>
+  <string name="app_ops_modify_calendar">naptár frissítése</string>
+  <string name="app_ops_modify_call_log">hívásnapló frissítése</string>
+  <string name="app_ops_modify_clipboard">vágólap módosítása</string>
+  <string name="app_ops_modify_contacts">névjegyek frissítése</string>
+  <string name="app_ops_modify_settings">beállítások frissítése</string>
+  <string name="app_ops_play_audio">hang lejátszása</string>
+  <string name="app_ops_post_notification">értesítés küldése</string>
+  <string name="app_ops_project_media">média vetítése</string>
+  <string name="app_ops_read_calendar">naptár olvasása</string>
+  <string name="app_ops_read_call_log">hívásnapló olvasása</string>
+  <string name="app_ops_read_clipboard">vágólap olvasása</string>
+  <string name="app_ops_read_contacts">névjegyek olvasása</string>
+  <string name="app_ops_read_mms">MMS olvasása</string>
+  <string name="app_ops_read_sms">SMS olvasása</string>
+  <string name="app_ops_receive_sms">SMS fogadása</string>
+  <string name="app_ops_record_audio">hang rögzítése</string>
+  <string name="app_ops_send_mms">MMS küldése</string>
+  <string name="app_ops_send_sms">SMS küldése</string>
+  <string name="app_ops_toast_window">buborékszövegek</string>
+  <string name="app_ops_use_alarm_volume">ébresztési hangerő</string>
+  <string name="app_ops_use_audio_focus">audiofókusz</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetooth hangerő</string>
+  <string name="app_ops_use_master_volume">fő hangerő</string>
+  <string name="app_ops_use_media_buttons">média gombok</string>
+  <string name="app_ops_use_media_volume">média hangerő</string>
+  <string name="app_ops_use_notification_volume">értesítési hangerő</string>
+  <string name="app_ops_use_ring_volume">csengő hangerő</string>
+  <string name="app_ops_use_vibrate">rezgő visszajelzés</string>
+  <string name="app_ops_use_voice_volume">beszédhangerő</string>
+  <string name="app_ops_write_mms">MMS írása</string>
+  <string name="app_ops_write_sms">SMS írása</string>
+  <string name="app_ops_use_fingerprint">ujjlenyomat</string>
+  <string name="app_ops_add_voicemail">hangposta</string>
+  <string name="app_ops_read_phone_state">hozzáférés telefon állapotához</string>
+  <string name="app_ops_scan_wifi">WiFi hálózat keresése</string>
+  <string name="app_ops_change_wallpaper">háttérkép megváltoztatása</string>
+  <string name="app_ops_assist_structure">struktúra asszisztens</string>
+  <string name="app_ops_assist_screenshot">képernyőkép</string>
+  <string name="app_ops_use_body_sensors">testérzékelők</string>
+  <string name="app_ops_read_cell_broadcasts">cellán belüli adások</string>
+  <string name="app_ops_mock_location">helyutánzatok</string>
+  <string name="app_ops_read_external_storage">külső tárh. olvasása</string>
+  <string name="app_ops_write_external_storage">külső tárh. írása</string>
+  <string name="app_ops_turn_on_screen">képernyő bekapcsolása</string>
+  <string name="app_ops_get_accounts">eszköz fiókok</string>
+  <string name="app_ops_wifi_change">Wi-Fi állapotának módosítása</string>
+  <string name="app_ops_toggle_bluetooth">Bluetooth kapcsolása</string>
+  <string name="app_ops_run_in_background">futtatás a háttérben</string>
+  <string name="app_ops_boot_completed">automatikus indítás</string>
   <string name="ambient_display_show_battery_title">Akkumulátor állapota</string>
   <string name="ambient_display_show_battery_summary">Akkumulátor ikon megjelenítése pulzálás során</string>
   <!-- Battery Saver Settings -->
@@ -136,16 +223,32 @@
   <string name="battery_saver_color_title">Figyelmeztetés színe</string>
   <string name="battery_saver_color_summary">Narancs állapot és navigációs sáv engedélyezése, ha a takarékos üzemmód aktív</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
+  <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">FIGYELEM!</string>
   <string name="systemui_restart_message">SystemUI újraindítása szükséges, hogy a kiválasztott beállítás megfelelően alkalmazásra kerülhessen.</string>
   <string name="restarting_ui">Felhasználói felület újraindítása\u2026</string>
   <string name="print_restart">Újraindítás</string>
+  <string name="device_gestures_title">Készülék mozdulatai</string>
+  <string name="device_gestures_summary">Extra gesztusok beállítása az eszközén</string>
+  <string name="device_doze_title">Környezeti kijelző mozdulatok</string>
+  <string name="device_doze_summary">Extra gesztusok beállítása a környezeti kijelzőhöz</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">Biztonságos fejhallgató hangerő</string>
+  <string name="safe_headset_volume_summary">Megakadályozza a nagy hangerőt a fülhallgató első csatlakoztatásakor</string>
+  <string name="safe_headset_volume_warning_dialog_text">A hosszú ideig nagy hangerőn való zenehallgatás károsíthatja a hallását. Vegye figyelembe a funkció kikapcsolásánál.</string>
   <!-- MSIM SIM status -->
+  <string name="sim_card_status_title">SIM %d állapota</string>
+  <string name="sim_card_lock_settings_title">SIM %d zárolási beállításai</string>
+  <string name="sim_card_summary_empty">SIM nincs behelyezve</string>
+  <string name="sim_mobile_network_settings_category_title">Mobilhálózati beállítások</string>
+  <string name="sim_mobile_network_settings_title">SIM %d beállításai</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
+  <string name="substratum_title">Substratum</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Kiterjesztett képernyő</string>
   <string name="keywords_expanded_desktop">Kiterjesztett képernyő</string>
@@ -161,14 +264,48 @@
   <string name="expanded_desktop_style_description">Válasszon egy alapértelmezett kiterjesztett asztal stílust</string>
   <string name="expanded_desktop_title">Kiterjesztett asztal beállítások</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">Telefon adatai</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Keresse meg az ujjlenyomat érzékelőt a telefon <xliff:g id="sensor_location">%1$s</xliff:g>.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">hátulján</string>
+  <string name="security_settings_fingerprint_sensor_location_front">elején</string>
+  <string name="security_settings_fingerprint_sensor_location_left">bal oldalán</string>
+  <string name="security_settings_fingerprint_sensor_location_right">jobb oldalán</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+  <string name="double_twist_for_camera_mode_summary_pn">A Google Kamera szelfi módba lépéséhez és abból való kilépéshez, duplán forgassa meg az eszközt az alkalmazásban</string>
   <!-- Animation Scale -->
+  <string name="animation_off">Animáció ki</string>
+  <string name="animation_scale_0_5x">Animáció 0.5x</string>
+  <string name="animation_scale_0_75x">Animáció 0.75x</string>
+  <string name="animation_scale_1x">Animáció 1x</string>
+  <string name="animation_scale_1_5x">Animáció 1.5x</string>
+  <string name="animation_scale_2x">Animáció 2x</string>
+  <string name="animation_scale_5x">Animáció 5x</string>
+  <string name="animation_scale_10x">Animáció 10x</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">engedélyezve</string>
+  <string name="sim_disabled">letiltva</string>
+  <string name="sim_missing">hiányzik vagy hibás</string>
+  <string name="sim_enabler_need_disable_sim">SIM-kártya deaktiválva lesz. Szeretné folytatni?</string>
+  <string name="sim_enabler_will_disable_sim_title">Figyelem</string>
+  <string name="sim_enabler_need_switch_data_service">Ez a SIM tiltásra kerül és a SIM <xliff:g id="slotid">%1$s</xliff:g> lesz adatszolgáltatáshoz használva. Biztosan folytatni kívánja?</string>
+  <string name="sim_enabler_airplane_on">Nem lehet végrehajtani a műveletet amíg a repülőgép üzemmód aktív.</string>
+  <string name="sim_enabler_in_call">Nem lehet végrehajtani a műveletet hívás közben.</string>
+  <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
+  <string name="sim_enabler_enabling">Aktiválás\u2026</string>
+  <string name="sim_enabler_disabling">Deaktiválás\u2026</string>
+  <string name="sub_activate_success">SIM aktiválva.</string>
+  <string name="sub_activate_failed">Sikertelen aktiválás.</string>
+  <string name="sub_deactivate_success">SIM deaktiválva.</string>
+  <string name="sub_deactivate_failed">Sikertelen deaktiválás.</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Wi\u2011Fi régiókód</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Wi\u2011Fi régiókód megadása</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Hiba történt a régiókód beállítása közben.</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum fedvények</string>
   <string name="menu_show_substratum">Fedvények megjelenítése</string>
@@ -181,7 +318,15 @@
   <string name="force_authorize_substratum_packages_title">Az ismeretlen forrásból származó témák telepítésének engedélyezése</string>
   <string name="force_authorize_substratum_packages_summary">Minden téma alkalmazás engedélyezésének kényszerítése</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">Android hibakeresés</string>
+  <string name="enable_adb_summary_custom">Engedélyezze az Android Debug Bridge (ADB) felületet</string>
+  <string name="adb_notify">ADB értesítés</string>
+  <string name="adb_notify_summary">Értesítés megjelenítése, amikor az USB vagy hálózati hibakereső engedélyezve van</string>
+  <string name="adb_over_network">ADB hálózaton keresztül</string>
+  <string name="adb_over_network_summary">Engedélyezi a TCP/IP hibakeresést hálózati eszközön keresztül (Wi\u2011Fi, USB hálózatok). Újraindítás után alaphelyzetbe áll vissza</string>
+  <string name="adb_over_network_warning">VIGYÁZAT: Ha a funkció engedélyezve van, az eszköz nyitva áll bármilyen behatolásra az összes kapcsolódó hálózaton keresztül!\n\nCsak biztonságos hálózatra csatlakozva érdemes engedélyezni.\n\nBiztosan engedélyezni szeretné?</string>
   <!-- General strings -->
+  <string name="header_category_custom">Felhasználói felület és élmény</string>
   <!-- Dashboard options -->
   <string name="dashboard_category">Irányítópult beállítások</string>
   <string name="dashboard_suggestions_title">Javaslatok</string>
@@ -196,13 +341,60 @@
   <string name="dashboard_columns_portrait_title">Oszlopok (álló)</string>
   <string name="dashboard_columns_landscape_title">Oszlopok (fekvő)</string>
   <!-- Battery saver notification toggle -->
+  <string name="battery_saver_notif_title">Energiatakarékos mód értesítés</string>
+  <string name="battery_saver_notif_summary">Energiatakarékos mód értesítés megjelenítése, ha engedélyezve van</string>
   <!-- low battery notification toggle -->
+  <string name="battery_low_notif_title">Értesítés alacsony töltöttségről</string>
+  <string name="battery_low_notif_summary">Alacsony töltöttségi értesítés megjelenítése, ha engedélyezve van</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
+  <string name="display_rotation_title">Elforgatás</string>
   <string name="display_rotation_disabled">Letiltva</string>
+  <string name="display_rotation_unit">fok</string>
+  <string name="display_lockscreen_rotation_title">Képernyőzár elforgatása</string>
+  <string name="display_rotation_category_title">Forgatás módja</string>
+  <string name="display_rotation_0_title">0 fok</string>
+  <string name="display_rotation_90_title">90 fok</string>
+  <string name="display_rotation_180_title">180 fok</string>
+  <string name="display_rotation_270_title">270 fok</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Rólunk</string>
+  <string name="aex_about_summary">Bemutatkozás és a csapatunk</string>
+  <string name="aex_about_info_summary">Az AospExtended egy AOSP alapú ROM, ami gyári kinézetet kínál különféle testreszabási opciókkal és Substratum témamotorral. A Projekt más projektekből való válogatással jött létre. Az AOSP alapnak köszönhetően már a dobozból kivéve folyamatos és akadásmentes élményt nyújt. Folyamatosan bővítjük és még jobbá tesszük majd a jövőbeli frissítésekben. &#35;LégyExtended</string>
+  <string name="dev_info">Az AospExtendedről</string>
+  <string name="github">Github</string>
+  <string name="github_description">Forráskód megtekintése</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Csatlakozzon a G+ közösségünkhöz</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Iratkozzon fel a Telegram csatornánkra</string>
+  <string name="web">Letöltőközpont</string>
+  <string name="web_description">Látogasson el a letöltőoldalunkra</string>
+  <string name="help_translate">Fordítások</string>
+  <string name="help_translate_description">Segítsen a fordításban Crowdinen</string>
+  <string name="walls">Háttérképek</string>
+  <string name="walls_description">Felhasználók által feltöltött háttérképek beszerzése</string>
+  <string name="leads">Csapatvezetők</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Tulajdonos/Vezető fejlesztő</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Fejlesztő</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderátor és amatőr fejlesztő</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Fejlesztő</string>
+  <string name="designers">Dizájnerek</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Fórum-bannerek, Logók, Háttérképek</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Gyorsbeállítások/Fling logók</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Háttérképek, Indítási animációk</string>
+  <string name="maintainers">Karbantartók</string>
+  <string name="maintainer_description">%1$s karbantartója</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Képernyőmentés hang</string>
+  <string name="screenshot_sound_summary">Hang lejátszása képernyőkép készítésekor</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Fényerő</string>
   <string name="night_brightness_value_title">Éjszakai fény fényerő</string>
@@ -217,50 +409,110 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
   <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadásakor</string>
+  <string name="reset_wallpaper_notice">Alapértelmezett háttérkép visszaállítva</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Felébredés töltő csatlakoztatásakor</string>
+  <string name="wake_when_plugged_or_unplugged_summary">A képernyő bekapcsolása a töltő csatlakoztatása/eltávolítása után</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Processzor</string>
   <string name="mem_info">RAM</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Töltéshangok</string>
   <string name="power_notifications_enable_title">Engedélyez</string>
+  <string name="power_notifications_enable_summary">Hangjelzés töltő csatlakoztatása vagy leválasztása esetén</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Rezgés</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Értesítési hang</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Néma</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Hibás minta megjelenítése</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Feloldási pontok megjelenítése</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">Rezgés</string>
+  <string name="lockscreen_vibrate_enabled_head">Rezgés feloldáskor</string>
   <!-- Night Display -->
+  <string name="night_display_warning">Kérjük, vegye figyelembe, hogy az Éjszakai fény növelheti az akkumulátorfogyasztást.</string>
+  <string name="night_display_hide">Ne jelenjen meg többször</string>
   <string name="night_display_ok">OK</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Figyelmeztetés</string>
+  <string name="quick_unlock_alert_msg">Ez a funkció csak akkor működik, ha 4 számjegyű PIN-kódot használ, máskülönben nemkívánatos hatások fordulhatnak elő.</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nem szükséges, a fejlesztői beállítások engedélyezve vannak.</string>
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">Színek</string>
+  <string name="omni_battery_light_settings">Akkumulátor töltési jelzőfény</string>
+  <string name="omni_notification_light_settings">Értesítési fény</string>
+  <string name="omni_leds">LED fények</string>
+  <string name="batterylight_title">Akkumulátor LED beállítások</string>
   <string name="battery_light_enable">Engedélyez</string>
+  <string name="battery_low_pulse_title">Villogás alacsony töltottség esetén</string>
   <string name="battery_light_list_title">Színek</string>
+  <string name="battery_light_low_color_title">Alacsony akkumulátorszint</string>
+  <string name="battery_light_medium_color_title">Töltés</string>
+  <string name="battery_light_full_color_title">Feltöltve (90%)</string>
+  <string name="battery_light_really_full_color_title">Feltöltve (100%)</string>
+  <string name="edit_battery_settings">Akkumulátorbeállítások szerkesztése</string>
   <string name="notification_light_general_title">Általános</string>
   <string name="led_color_green">Zöld</string>
   <string name="led_color_red">Piros</string>
   <string name="led_color_blue">Kék</string>
   <string name="ok">OK</string>
   <string name="advanced">Speciális</string>
+  <string name="profiles_add">Hozzáadás...</string>
   <!-- Notification light dialogs -->
+  <string name="edit_light_settings">Értesítési fény beállításai</string>
+  <string name="pulse_speed_title">Villogás hossza és sebessége</string>
   <string name="default_time">Normál</string>
   <string name="custom_time">Egyedi</string>
   <string name="dialog_delete_title">Törlés</string>
+  <string name="dialog_delete_message">Eltávolítja a kijelölt elemet?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Mindig bekapcsolva</string>
+  <string name="pulse_length_very_short">Nagyon rövid</string>
+  <string name="pulse_length_short">Rövid</string>
   <string name="pulse_length_normal">Normál</string>
+  <string name="pulse_length_long">Hosszan</string>
+  <string name="pulse_length_very_long">Nagyon hosszú</string>
+  <string name="pulse_speed_very_fast">Nagyon gyors</string>
   <string name="pulse_speed_fast">Gyors</string>
   <string name="pulse_speed_normal">Normál</string>
+  <string name="pulse_speed_slow">Lassú</string>
+  <string name="pulse_speed_very_slow">Nagyon lassú</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Értesítési fény</string>
+  <string name="notificationlight_title">Értesítési LED beállítások</string>
   <string name="notification_light_general_title">Általános</string>
   <string name="notification_light_applist_title">Alkalmazások</string>
   <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_use_custom">Egyéni értékek használata</string>
   <string name="notification_light_default_value">Alapértelmezett</string>
+  <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
+  <string name="notification_light_voicemail_title">Hangposta</string>
+  <string name="notification_light_screen_on">Értesítési LED bekapcsolt képernyőnél</string>
+  <string name="notification_light_zen_mode">Fények a Ne zavarjanak módban</string>
+  <string name="notification_light_use_multiple_leds">Több LED</string>
+  <string name="keywords_lights_brightness_level">LED fényerő halványítása</string>
+  <string name="notification_light_automagic">Színek automatikus választása</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">LED beállítások</string>
+  <string name="led_notification_text">LED engedélyezve a beállítások által</string>
+  <string name="notification_light_no_apps_summary">Alkalmazásonkénti vezérléshez aktiválja ezt: \"%1$s\" és nyomja meg a \"\u002b\" jelet a menüsávon</string>
+  <string name="notification_light_automagic">Színek automatikus választása</string>
+  <string name="notification_light_automagic_summary">Automatikusan beállítja a LED megfelelő színét, ha az alkalmazás nem rendelkezik egyéni értékekkel</string>
+  <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Alkalmazás választása</string>
   <string name="reset">Alaphelyzet</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB engedélyezve</string>
+  <string name="adb_disabled">ADB letiltva</string>
 </resources>

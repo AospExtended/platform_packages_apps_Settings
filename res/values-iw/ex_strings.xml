@@ -84,7 +84,7 @@
   <string name="less_notification_sounds_2m">2 דקות</string>
   <string name="less_notification_sounds_5m">5 דקות</string>
   <!-- Magisk Manager -->
-  <string name="magisk_title">Magisk – מנהל הרשאות Root</string>
+  <string name="magisk_title">מנהל הרשאות Root – ‏Magisk</string>
   <string name="magisk_summary">ניהול הרשאות Root</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">ערבב פריסה</string>
@@ -171,7 +171,6 @@
   <string name="app_ops_modify_clipboard">שינוי לוח העתקה</string>
   <string name="app_ops_modify_contacts">שינוי אנשי קשר</string>
   <string name="app_ops_modify_settings">שינוי הגדרות</string>
-  <string name="app_ops_mute_unmute_microphone">השתקת או ביטול השתקת המיקרופון</string>
   <string name="app_ops_play_audio">ניגון שמע</string>
   <string name="app_ops_post_notification">הצגת התראה</string>
   <string name="app_ops_project_media">הצגת מדיה</string>
@@ -319,14 +318,56 @@
   <string name="enable_adb_custom">איתור באגים של אנדרואיד</string>
   <string name="enable_adb_summary_custom">הפעל את ממשק ניקוי באגים של אנדרואיד (ADB)</string>
   <string name="adb_notify">התראת ADB</string>
+  <string name="adb_notify_summary">הצג התראה כשאיתור באגים דרך הרשת או USB פעיל</string>
+  <string name="adb_over_network">ADB דרך הרשת</string>
+  <string name="adb_over_network_summary">אפשר איתור באגים TCP/IP דרך הרשת (Wi-Fi, רשתות USB). אפשרות זו מאופסת בהפעלה</string>
+  <string name="adb_over_network_warning">אזהרה: כאשר ADB דרך הרשת מופעל, הטלפון שלך חדיר מכל הרשתות המחוברות!\n\nיש להשתמש באפשרות זו רק כשאתה מחובר לרשת שניתן לסמוך עליה.\n\nהאם ברצונך להפעיל את אפשרות זו?</string>
   <!-- General strings -->
+  <string name="header_category_custom">ממשק משתמש וחוויות משתמש</string>
   <!-- Dashboard options -->
+  <string name="dashboard_category">אפשרויות יישום ההגדרות</string>
+  <string name="dashboard_suggestions_title">הצעות</string>
+  <string name="summary_dashboard_suggestions_enabled">הצעות מוצגות בהגדרות</string>
+  <string name="summary_dashboard_suggestions_disabled">הצעות מוסתרות בהגדרות</string>
+  <string name="remove_tile_summaries_title">תקצירים</string>
+  <string name="remove_tile_summaries_summary_enabled">תקצירים מאופשרים בהגדרות</string>
+  <string name="remove_tile_summaries_summary_disabled">תקצירים מוסתרים בהגדרות</string>
+  <string name="dashboard_conditions_title">תנאים</string>
+  <string name="summary_dashboard_conditions_enabled">תנאים מאופשרים בהגדרות</string>
+  <string name="summary_dashboard_conditions_disabled">תנאים מוסתרים בהגדרות</string>
+  <string name="dashboard_columns_portrait_title">עמודות (לאורך)</string>
+  <string name="dashboard_columns_landscape_title">עמודות (לרוחב)</string>
   <!-- Battery saver notification toggle -->
+  <string name="battery_saver_notif_title">התראת חיסכון בסוללה</string>
+  <string name="battery_saver_notif_summary">מראה התראה כשחיסכון בסוללה מופעל</string>
   <!-- low battery notification toggle -->
+  <string name="battery_low_notif_title">התראת סוללה חלשה</string>
+  <string name="battery_low_notif_summary">מראה התראה שהסוללה חלשה</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
+  <string name="display_rotation_title">סיבוב</string>
   <string name="display_rotation_disabled">בטל</string>
+  <string name="display_rotation_unit">מעלות</string>
+  <string name="display_lockscreen_rotation_title">סובב גם את מסך הנעילה</string>
+  <string name="display_rotation_category_title">מצבי סיבוב</string>
+  <string name="display_rotation_0_title">0 מעלות</string>
+  <string name="display_rotation_90_title">90 מעלות</string>
+  <string name="display_rotation_180_title">180 מעלות</string>
+  <string name="display_rotation_270_title">270 מעלות</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">אודותינו</string>
+  <string name="aex_about_summary">מי אנחנו ומי הם חברי הקבוצה שלנו</string>
+  <string name="aex_about_info_summary">‏AospExtended זהו רום מבוסס AOSP שמספק ממשק וחווית משתמש מקורים עם אפשרות התאמה אישית רבות לצד מנוע ערכות הנושא Substratum. הפרויקט נוצר על ידי איסוף תכונות שונות מפרויקטים אחרים. עצם היותו מבוסס AOSP מספק חוויה חלקה ישר מההתחלה. אנחנו כל הזמן מנסים להוסיף תכונות חדשות כדי להפוך את הרום לטוב יותר בעדכוני העתיד. &#35;BeExtended</string>
+  <string name="dev_info">אודות AospExtended</string>
+  <string name="github">Github</string>
+  <string name="github_description">דפדף בקוד המקור</string>
+  <string name="gplus">גוגל+</string>
+  <string name="gplus_description">הצטרף לקהילת Google+ שלנו</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">הצטרף לערוץ הטלגרם שלנו</string>
+  <string name="web">מרכז הורדות</string>
+  <string name="web_description">בקר במרכז ההורדות שלנו</string>
+  <string name="help_translate">תרגומים</string>
   <string name="help_translate_description">תרגם לשפה שלך, בקר בפורטל התרגום שלנו באתר Crowdin</string>
   <string name="walls">רקעים</string>
   <string name="walls_description">קבל רקעים שנתרמו על ידי משתמשים שונים</string>
@@ -373,6 +414,7 @@
   <string name="mem_info">זיכרון</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">צלילי טעינה</string>
+  <string name="power_notifications_enable_title">אפשר</string>
   <string name="power_notifications_enable_summary">השמע צליל בעת חיבור או ניתוק מטען</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">רטט</string>
@@ -398,10 +440,23 @@
   <string name="night_display_ok">אישור</string>
   <!-- Quick unlock information -->
   <string name="quick_unlock_alert_title">התראה</string>
+  <string name="quick_unlock_alert_msg">תכונה זו תעבוד רק אם אתה משתמש בקוד של 4 ספרות. אחרת האפקט הרצוי לא יעבוד במכשירך.</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">אין צורך, אפשרות מפתח כבר מופעלות כברירת המחדל.</string>
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">צבע</string>
+  <string name="omni_battery_light_settings">הדלק נורית בעת טעינת הסוללה</string>
+  <string name="omni_notification_light_settings">התראות בנורית ההתראות</string>
+  <string name="omni_leds">אורות LED</string>
+  <string name="batterylight_title">הגדרות נורית סוללה</string>
+  <string name="battery_light_enable">אפשר</string>
+  <string name="battery_low_pulse_title">הבהב כאשר הסוללה חלשה</string>
   <string name="battery_light_list_title">צבעים</string>
+  <string name="battery_light_low_color_title">סוללה חלשה</string>
+  <string name="battery_light_medium_color_title">טוען</string>
+  <string name="battery_light_full_color_title">טעון (90%)</string>
+  <string name="battery_light_really_full_color_title">טעון (100%)</string>
+  <string name="edit_battery_settings">ערוך הגדרות סוללה</string>
   <string name="notification_light_general_title">כללי</string>
   <string name="led_color_green">ירוק</string>
   <string name="led_color_red">אדום</string>

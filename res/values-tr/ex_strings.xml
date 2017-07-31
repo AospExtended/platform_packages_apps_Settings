@@ -172,7 +172,6 @@
   <string name="app_ops_modify_clipboard">panoyu düzenle</string>
   <string name="app_ops_modify_contacts">kişileri güncelle</string>
   <string name="app_ops_modify_settings">Ayarları güncelle</string>
-  <string name="app_ops_mute_unmute_microphone">mikrofon sesini kapat/aç</string>
   <string name="app_ops_play_audio">ses çal</string>
   <string name="app_ops_post_notification">bildirim gönder</string>
   <string name="app_ops_read_calendar">takvimi oku</string>

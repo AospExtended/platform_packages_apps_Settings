@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Extended version</string>
   <string name="extended_version_default">Άγνωστο</string>
   <string name="extensions_title">Επεκτάσεις</string>
   <!-- AEX OTA -->

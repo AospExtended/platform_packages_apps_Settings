@@ -21,11 +21,11 @@
   <string name="extended_version_default">Tidak diketahui</string>
   <string name="extensions_title">Ekstensi</string>
   <!-- AEX OTA -->
-  <string name="aex_ota_title">Update AEX</string>
+  <string name="aex_ota_title">Pembaruan AEX</string>
   <string name="aex_ota_summary">Dapatkan versi terbaru</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Tanggal pembuatan</string>
-  <string name="build_date_default">2015-01-01-0000</string>
+  <string name="build_date_default">2012-01-01-0000</string>
   <!-- Vendor version -->
   <string name="vendor_version">Versi vendor</string>
   <string name="vendor_version_default">Tidak diketahui</string>
@@ -84,8 +84,8 @@
   <string name="less_notification_sounds_2m">2 menit</string>
   <string name="less_notification_sounds_5m">5 menit</string>
   <!-- Magisk Manager -->
-  <string name="magisk_title">Pengelolaan Magisk</string>
-  <string name="magisk_summary">Pengelolaan Root</string>
+  <string name="magisk_title">Magisk Manajer</string>
+  <string name="magisk_summary">Manajemen akses root</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
   <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
@@ -172,7 +172,6 @@
   <string name="app_ops_modify_clipboard">ubah clipboard</string>
   <string name="app_ops_modify_contacts">perbaharui kontak</string>
   <string name="app_ops_modify_settings">update pengaturan</string>
-  <string name="app_ops_mute_unmute_microphone">matikan/hidupkan mic</string>
   <string name="app_ops_play_audio">putar audio</string>
   <string name="app_ops_post_notification">mengirim pemberitahuan</string>
   <string name="app_ops_project_media">proyek media</string>
@@ -195,6 +194,7 @@
   <string name="app_ops_use_media_volume">volume media</string>
   <string name="app_ops_use_notification_volume">volume pemberitahuan</string>
   <string name="app_ops_use_ring_volume">volume nada dering</string>
+  <string name="app_ops_use_vibrate">umpan balik haptic</string>
   <string name="app_ops_use_voice_volume">volume suara</string>
   <string name="app_ops_write_mms">menulis MMS</string>
   <string name="app_ops_write_sms">menulis SMS</string>
@@ -203,6 +203,7 @@
   <string name="app_ops_read_phone_state">akses status ponsel</string>
   <string name="app_ops_scan_wifi">Memindai jaringan Wifi</string>
   <string name="app_ops_change_wallpaper">ganti Wallpaper</string>
+  <string name="app_ops_assist_structure">struktur pembantu</string>
   <string name="app_ops_assist_screenshot">tangkapan layar</string>
   <string name="app_ops_use_body_sensors">sensor badan</string>
   <string name="app_ops_read_cell_broadcasts">baca siaran seluler</string>
@@ -226,9 +227,9 @@
   <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">PERINGATAN</string>
-  <string name="systemui_restart_message">SystemUI akan direstart sehingga pilihan pengaturan dapat diterapkan dengan benar.</string>
+  <string name="systemui_restart_message">SystemUI akan dimulai ulang sehingga pilihan setelan dapat diterapkan dengan benar.</string>
   <string name="restarting_ui">Memulai ulang UI\u2026</string>
-  <string name="print_restart">Mulai Ulang</string>
+  <string name="print_restart">Mulai ulang</string>
   <string name="device_gestures_title">Gerakan perangkat</string>
   <string name="device_gestures_summary">Mengatur gerakan tambahan untuk perangkat Anda</string>
   <string name="device_doze_title">Opsi tampilan ambient</string>
@@ -322,7 +323,7 @@
   <string name="adb_notify">Pemberitahuan ADB</string>
   <string name="adb_notify_summary">Tampilkan pemberitahuan bila USB atau jaringan debugging diaktifkan</string>
   <string name="adb_over_network">ADB melalui Jaringan</string>
-  <string name="adb_over_network_summary">Aktifkan TCP/IP debug melalui antarmuka jaringan (Wi-Fi, jaringan USB). Pengaturan ini direset pada saat dinyalakan ulang</string>
+  <string name="adb_over_network_summary">Aktifkan TCP/IP debug melalui antarmuka jaringan (Wi-Fi, jaringan USB). Pengaturan ini dikembalikan standar saat dihidupkan ulang</string>
   <string name="adb_over_network_warning">PERINGATAN: Ketika ADB melalui jaringan diaktifkan, ponsel Anda terbuka terhadap intrusi pada semua jaringan yang terhubung!\n\nHanya gunakan fitur ini ketika Anda terhubung pada jaringan tepercaya\n\nApakah Anda benar-benar ingin mengaktifkan fungsi ini?</string>
   <!-- General strings -->
   <string name="header_category_custom">UI &#38; UX</string>
@@ -379,15 +380,18 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Pengembang</string>
   <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderator dan Pengembang Amatir</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Pengembang</string>
   <string name="designers">Desainer</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">Thread Banner, Logo, Wallpaper</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">QS/Lemparan Logo</string>
   <string name="designer_3">Jesus R &#40; KrapK &#41;</string>
   <string name="designer3_description">Wallpaper, Bootanimasi</string>
   <string name="maintainers">Pengelola</string>
+  <string name="maintainer_description">Maintains untuk %1$s</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Suara tangkapan layar</string>
   <string name="screenshot_sound_summary">Bersuara saat mengambil tangkapan layar</string>
@@ -487,7 +491,7 @@
   <string name="notification_light_title">Lampu notifikasi</string>
   <string name="notificationlight_title">Pengaturan LED notifikasi</string>
   <string name="notification_light_general_title">Umum</string>
-  <string name="notification_light_applist_title">Daftar aplikasi</string>
+  <string name="notification_light_applist_title">Aplikasi</string>
   <string name="notification_light_phonelist_title">Ponsel</string>
   <string name="notification_light_use_custom">Gunakan nilai kustom</string>
   <string name="notification_light_default_value">Bawaan</string>
@@ -503,6 +507,7 @@
   <string name="led_notification_text">Lampu LED diaktifkan oleh pengaturan</string>
   <string name="notification_light_no_apps_summary">Untuk menambahkan kontrol pada setiap aplikasi, aktifkan \'%1$s\' dan tekan \'\u002b\' pada bilah menu</string>
   <string name="notification_light_automagic">Memilih warna otomatis</string>
+  <string name="notification_light_automagic_summary">Secara otomatis mengatur warna yang tepat untuk led notifikasi jika aplikasi tidak memiliki nilai kostum</string>
   <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Pilih aplikasi</string>

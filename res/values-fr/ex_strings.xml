@@ -172,7 +172,6 @@
   <string name="app_ops_modify_clipboard">modifier le presse-papiers</string>
   <string name="app_ops_modify_contacts">mise à jour des contacts</string>
   <string name="app_ops_modify_settings">mettre à jour les paramètres</string>
-  <string name="app_ops_mute_unmute_microphone">couper/rebrancher le micro</string>
   <string name="app_ops_play_audio">lire le fichier audio</string>
   <string name="app_ops_post_notification">afficher une notification</string>
   <string name="app_ops_project_media">projet multimédia</string>

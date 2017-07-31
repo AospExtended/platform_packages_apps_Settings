@@ -172,7 +172,6 @@
   <string name="app_ops_modify_clipboard">تعديل حافظة المنسوخات</string>
   <string name="app_ops_modify_contacts">تعديل جهات الاتصال</string>
   <string name="app_ops_modify_settings">تعديل الإعدادات</string>
-  <string name="app_ops_mute_unmute_microphone">كتم/تفعيل الميكروفون</string>
   <string name="app_ops_play_audio">تشغيل الصوت</string>
   <string name="app_ops_post_notification">إصدار الإشعارات</string>
   <string name="app_ops_project_media">إصدار الوسائط</string>

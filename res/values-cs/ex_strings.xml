@@ -172,7 +172,6 @@
   <string name="app_ops_modify_clipboard">měnit schránku</string>
   <string name="app_ops_modify_contacts">aktualizovat kontakty</string>
   <string name="app_ops_modify_settings">aktualizovat nastavení</string>
-  <string name="app_ops_mute_unmute_microphone">ztišit/zesílit mikrofon</string>
   <string name="app_ops_play_audio">přehrávat zvuk</string>
   <string name="app_ops_post_notification">posílat upozornění</string>
   <string name="app_ops_project_media">promítání médií</string>
@@ -381,6 +380,7 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Vývojář</string>
   <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderátor a amatérský vývojář</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Vývojář</string>
   <string name="designers">Designéři</string>
@@ -398,7 +398,7 @@
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jas</string>
   <string name="night_brightness_value_title">Jas nočního osvětlení</string>
-  <string name="night_brightness_text">Při automatickém nastavení nočního světla nastavte požadovaný jas. Výchozí nastavení pro jas je nastaven na nízkou hodnotu</string>
+  <string name="night_brightness_text">Při automatickém nastavení nočního světla nastavte požadovaný jas. Výchozí nastavení pro jas je nastaveno na nízkou hodnotu</string>
   <string name="night_bright_disabled">Zakázáno</string>
   <string name="night_bright_min">Minimální jas</string>
   <string name="night_bright_low">Nízký jas</string>

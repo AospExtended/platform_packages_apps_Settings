@@ -172,7 +172,6 @@
   <string name="app_ops_modify_clipboard">змінювати буфер обміну</string>
   <string name="app_ops_modify_contacts">оновити контакт</string>
   <string name="app_ops_modify_settings">оновити налаштування</string>
-  <string name="app_ops_mute_unmute_microphone">вимкнути/увімкнути мікрофон</string>
   <string name="app_ops_play_audio">програвати аудіо</string>
   <string name="app_ops_post_notification">виводити сповіщення</string>
   <string name="app_ops_project_media">проеціювати медіа</string>

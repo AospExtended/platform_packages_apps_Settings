@@ -108,7 +108,7 @@
   <string name="doze_settings">Impostazioni Doze</string>
   <string name="summary_doze_enabled">Abilitato</string>
   <string name="summary_doze_disabled">Disabilitato</string>
-  <string name="doze_overwrite_value_title">Sovrascrivi le impostazioni predefinite</string>
+  <string name="doze_overwrite_value_title">Sovrascrivi impostazioni predefinite</string>
   <string name="doze_overwrite_value_summary">Consenti la sostituzione dei valori predefiniti con quelli dell\'utente</string>
   <string name="doze_pulse_title">Impostazioni configurabili dall\'utente</string>
   <string name="doze_pulse_duration_in_title">Dissolvenza in entrata</string>
@@ -142,7 +142,7 @@
   <string name="double_tap_wake_doze_summary">Richiede un doppio tocco sullo schermo per riattivare il dispositivo</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-  <string name="app_ops_settings">App ops</string>
+  <string name="app_ops_settings">Op app</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <string name="app_ops_settings_summary">Opzioni avanzate per app</string>
   <!-- App Ops Settings -->
@@ -152,9 +152,9 @@
   <string name="app_ops_cat_messaging">Messaggistica</string>
   <string name="app_ops_cat_media">Multimediale</string>
   <string name="app_ops_cat_device">Dispositivo</string>
-  <string name="app_ops_cat_bootup">Avviare</string>
+  <string name="app_ops_cat_bootup">Avvio</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">camera</string>
+  <string name="app_ops_access_camera">fotocamera</string>
   <string name="app_ops_access_location">posizione</string>
   <string name="app_ops_access_notifications">notifiche</string>
   <string name="app_ops_activate_vpn">VPN</string>
@@ -172,7 +172,6 @@
   <string name="app_ops_modify_clipboard">modifica appunti</string>
   <string name="app_ops_modify_contacts">aggiornamento contatti</string>
   <string name="app_ops_modify_settings">aggiornamento impostazioni</string>
-  <string name="app_ops_mute_unmute_microphone">muto/non muto</string>
   <string name="app_ops_play_audio">riproduzione audio</string>
   <string name="app_ops_post_notification">posticipa notifica</string>
   <string name="app_ops_project_media">progetto multimediale</string>
@@ -207,28 +206,28 @@
   <string name="app_ops_assist_structure">assistenza struttura</string>
   <string name="app_ops_assist_screenshot">screenshot</string>
   <string name="app_ops_use_body_sensors">sensori corporei</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
+  <string name="app_ops_read_cell_broadcasts">trasmissioni cella</string>
   <string name="app_ops_mock_location">simulazione posizione</string>
-  <string name="app_ops_read_external_storage">leggi ext. stor.</string>
-  <string name="app_ops_write_external_storage">scrivi ext. stor.</string>
-  <string name="app_ops_turn_on_screen">attiva schermata</string>
+  <string name="app_ops_read_external_storage">leggi mem. est.</string>
+  <string name="app_ops_write_external_storage">scrivi mem. est.</string>
+  <string name="app_ops_turn_on_screen">attiva schermo</string>
   <string name="app_ops_get_accounts">account dispositivo</string>
   <string name="app_ops_wifi_change">modifica stato Wi-Fi</string>
   <string name="app_ops_toggle_bluetooth">toggle Bluetooth</string>
-  <string name="app_ops_run_in_background">eseguito in background</string>
-  <string name="app_ops_boot_completed">avvio auto</string>
+  <string name="app_ops_run_in_background">esegui in background</string>
+  <string name="app_ops_boot_completed">avvio automatico</string>
   <string name="ambient_display_show_battery_title">Stato Batteria</string>
   <string name="ambient_display_show_battery_summary">Mostra l\'indicatore della batteria durante il lampeggio</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Colore avviso</string>
-  <string name="battery_saver_color_summary">Colora di arancione la barra di stato e di navigazione quando viene attivato il risparmio batteria</string>
+  <string name="battery_saver_color_summary">Colora di rosso la barra di stato e di navigazione quando viene attivato il risparmio batteria</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Evitare il risveglio accidentale</string>
+  <string name="proximity_wake_title">Previeni i risvegli accidentali</string>
   <string name="proximity_wake_summary">Verifica il sensore di prossimità prima della riattivazione dello schermo</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">ATTENZIONE</string>
-  <string name="systemui_restart_message">SystemUI verrà riavviato affinché le impostazioni vengano applicate correttamente.</string>
+  <string name="systemui_restart_message">Il SystemUI verrà riavviato affinché l\'impostazione selezionata potrà essere applicata correttamente.</string>
   <string name="restarting_ui">Riavvio UI\u2026</string>
   <string name="print_restart">Riavvia</string>
   <string name="device_gestures_title">Gesti del dispositivo</string>
@@ -257,9 +256,9 @@
   <string name="expanded_hide_status">Nascondi la barra di stato</string>
   <string name="expanded_hide_navigation">Nascondi la barra di navigazione</string>
   <string name="expanded_hide_both">Nascondi entrambi</string>
-  <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata di schermo esteso per ogni app, disattiva \"Attivo per tutti\"</string>
+  <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata per le app dello stato esteso, imposta \"Abilitato per tutti\" nella posizione spento</string>
   <string name="expanded_desktop_state">Stato schermo esteso</string>
-  <string name="expanded_enabled_for_all">Attivo per tutti</string>
+  <string name="expanded_enabled_for_all">Abilitato per tutti</string>
   <string name="expanded_user_configurable">Configurabile dall\'utente</string>
   <string name="expanded_desktop_style">Stile schermo esteso</string>
   <string name="expanded_desktop_style_description">Scegli lo stile predefinito dello schermo esteso</string>
@@ -320,7 +319,7 @@
   <string name="force_authorize_substratum_packages_summary">Consenti le applicazioni a tema provenienti da fonti sconosciute</string>
   <!-- ADB debugging notifications -->
   <string name="enable_adb_custom">Android debugging</string>
-  <string name="enable_adb_summary_custom">Attivare l\'interfaccia di Android Debug Bridge (adb)</string>
+  <string name="enable_adb_summary_custom">Attiva l\'interfaccia di Android Debug Bridge (adb)</string>
   <string name="adb_notify">Notifica ADB</string>
   <string name="adb_notify_summary">Visualizza una notifica quando il debug di Android è abilitato</string>
   <string name="adb_over_network">ADB via rete</string>
@@ -329,7 +328,7 @@
   <!-- General strings -->
   <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
-  <string name="dashboard_category">Opzioni pannello configurazioni</string>
+  <string name="dashboard_category">Opzioni pannello impostazioni</string>
   <string name="dashboard_suggestions_title">Suggerimenti</string>
   <string name="summary_dashboard_suggestions_enabled">Suggerimenti pannello impostazioni abilitati</string>
   <string name="summary_dashboard_suggestions_disabled">Suggerimenti pannello impostazioni disabilitati</string>
@@ -381,6 +380,7 @@
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Sviluppatore</string>
   <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderatore e sviluppatore amatoriale</string>
   <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Sviluppatore</string>
   <string name="designers">Progettisti</string>
@@ -394,7 +394,7 @@
   <string name="maintainer_description">Manutentore per %1$s</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Suono screenshot</string>
-  <string name="screenshot_sound_summary">Riproduci un effetto sonoro quando si scatta uno screenshot</string>
+  <string name="screenshot_sound_summary">Riproduci un suono quando si effettua uno screenshot</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Luminosità</string>
   <string name="night_brightness_value_title">Luminosità luce notturna</string>
@@ -408,14 +408,14 @@
   <string name="show_cpu_info_summary">Sovrapponi sullo schermo le informazioni attuali della CPU</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Sblocco veloce</string>
-  <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
+  <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene inserito il PIN corretto\nNota: funziona solo con PIN a 4 cifre!</string>
   <string name="reset_wallpaper_notice">Sfondo predefinito ripristinato</string>
   <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Risveglio dispositivo</string>
+  <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
   <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando si collega o scollega ad una fonte di alimentazione</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
   <string name="processor_info">Processore</string>
-  <string name="mem_info">RAM</string>
+  <string name="mem_info">Memoria</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Suono di ricarica</string>
   <string name="power_notifications_enable_title">Abilita</string>
@@ -440,7 +440,7 @@
   <string name="lockscreen_vibrate_enabled_head">Vibra quando si sblocca</string>
   <!-- Night Display -->
   <string name="night_display_warning">Considera che la luce notturna può aumentare il consumo di batteria.</string>
-  <string name="night_display_hide">Non mostrare questo avviso</string>
+  <string name="night_display_hide">Non mostrare più questo avviso</string>
   <string name="night_display_ok">Ok</string>
   <!-- Quick unlock information -->
   <string name="quick_unlock_alert_title">Avviso</string>
@@ -510,7 +510,7 @@
   <string name="notification_light_automagic_summary">Imposta automaticamente un colore adatto per la notifica del led se l\'applicazione non ha alcun valore personalizzato</string>
   <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
-  <string name="profile_choose_app">Scegli applicazione</string>
+  <string name="profile_choose_app">Scegli l\'applicazione</string>
   <string name="reset">Ripristina</string>
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB abilitato</string>
