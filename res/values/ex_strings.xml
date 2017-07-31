@@ -203,7 +203,7 @@
     <string name="app_ops_modify_clipboard">modify clipboard</string>
     <string name="app_ops_modify_contacts">update contacts</string>
     <string name="app_ops_modify_settings">update settings</string>
-    <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
+    <string name="app_ops_mute_unmute_microphone">mute/unmute mic</string>
     <string name="app_ops_play_audio">play audio</string>
     <string name="app_ops_post_notification">post notification</string>
     <string name="app_ops_project_media">project media</string>
