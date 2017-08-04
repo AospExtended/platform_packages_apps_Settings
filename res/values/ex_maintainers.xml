@@ -121,8 +121,8 @@
         <item>Zuk Z2 plus, Zuk Z2 pro</item> <!-- Maintainer: davidevinavil -->
         <item>Nexus 6P (angler)</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
         <item>Xiaomi Mi 4c (libra)</item> <!-- Maintainer: Yu Zhu (viscropst) -->
-        <item>Moto E3 Power (taido_row)</item> <!-- Maintainer: Samar Vispute (SamarV-121) --> 
-	<item>YU Yureka Black (garlic)</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->         
+        <item>Moto E3 Power (taido_row),Google Android One (1st gen.) (sprout4),Google Android One (1st gen.) (sprout8)</item> <!-- Maintainer: Samar Vispute (SamarV-121) --> 
+	<item>YU Yureka Black (garlic)</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->          
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
