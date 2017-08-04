@@ -123,6 +123,8 @@
         <item>Xiaomi Mi 4c (libra)</item> <!-- Maintainer: Yu Zhu (viscropst) -->
         <item>Moto E3 Power (taido_row)</item> <!-- Maintainer: Samar Vispute (SamarV-121) --> 
 	<item>YU Yureka Black (garlic)</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->         
+        <item>Google Android One (1st gen.) (sprout4)</item> <!-- Maintainer: Samar Vispute (SamarV-121) -->  
+        <item>Google Android One (1st gen.) (sprout8)</item> <!-- Maintainer: Samar Vispute (SamarV-121) -->  
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
