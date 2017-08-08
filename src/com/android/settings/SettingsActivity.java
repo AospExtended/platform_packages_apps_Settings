@@ -141,6 +141,7 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 
 import org.aospextended.extensions.statusbar.QuickSettings;
+import org.aospextended.extensions.PieSettings;
 import java.net.URISyntaxException;
 
 import org.aospextended.extensions.dui.FlingSettings;
@@ -405,7 +406,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             DisplayRotation.class.getName(),
             RunningServices.class.getName(),
             AmbientSettings.class.getName(),
-            QuickSettings.class.getName()
+            QuickSettings.class.getName(),
+            PieSettings.class.getName()
     };
 
 

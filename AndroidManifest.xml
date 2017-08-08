@@ -3411,5 +3411,20 @@
                 android:resource="@string/quick_settings_title" />
         </activity>
 
+        <!-- Pie settings activity. -->
+        <activity android:name="Settings$PieControlSettingsActivity"
+                android:label="@string/pie_settings"
+                android:excludeFromRecents="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.PIE_SETTINGS" />
+                <action android:name="android.settings.PIE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.aospextended.extensions.PieSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/pie_settings" />
+        </activity>
+
     </application>
 </manifest>
