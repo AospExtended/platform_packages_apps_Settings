@@ -137,6 +137,12 @@
         android:title="@string/proximity_wake_title"
         android:summary="@string/proximity_wake_summary" />
 
+    <org.aospextended.extensions.preferences.SystemSettingSwitchPreference
+        android:key="anbi_enabled"
+        android:title="@string/anbi_title"
+        android:summary="@string/anbi_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"
