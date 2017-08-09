@@ -68,6 +68,7 @@
         <item>Yu Zhu (viscropst)</item>
         <item>Samar Vispute (SamarV-121)</item>
 	<item>Saikat Halder (Saikatrockz)</item>
+        <item>Darshan M. (darshan1205)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -90,7 +91,7 @@
         <item>YU Yuphoria</item> <!-- Maintainer: teja.k -->
         <item>YU Yunique</item> <!-- Maintainer: Prateek Chaubey -->
         <item>Lenovo K6/Power</item> <!-- Maintainer: Karthick Mostwanted (karthick111) -->
-        <item>Oneplus 3/3T (oneplus3), Oneplus 2 (oneplus2), Xiaomi Redmi 3s/Prime (land) </item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
+        <item>Oneplus 3/3T (oneplus3), Oneplus 2 (oneplus2), Xiaomi Redmi 3S/Prime/3X (land) </item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
         <item>Lenovo A6000</item> <!-- Maintainer: Harshit Jain (dev_harsh1998) -->
         <item>MI 4I</item> <!-- Maintainer: Anand Roy -->
         <item>Huawei kiwi,Xiaomi Max(hydrogen)</item> <!-- Maintainer: jsbeyond (KAOKAO) -->  
@@ -122,7 +123,8 @@
         <item>Nexus 6P (angler)</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
         <item>Xiaomi Mi 4c (libra)</item> <!-- Maintainer: Yu Zhu (viscropst) -->
         <item>Moto E3 Power (taido_row),Google Android One (1st gen.) (sprout4),Google Android One (1st gen.) (sprout8)</item> <!-- Maintainer: Samar Vispute (SamarV-121) --> 
-	<item>YU Yureka Black (garlic)</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->          
+	<item>YU Yureka Black (garlic)</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->
+        <item>Xiaomi Redmi 4[4X] (santoni) </item> <!-- Maintainer: Darshan M. (darshan1205) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -178,7 +180,8 @@
         <item>https://forum.xda-developers.com/member.php?u=5545311</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
         <item>https://forum.xda-developers.com/member.php?u=8142767</item> <!-- Maintainer: Yu Zhu (viscropst) -->
         <item>https://forum.xda-developers.com/member.php?u=6868004</item> <!-- Maintainer: Samar Vispute (SamarV-121) -->     
-	<item>https://forum.xda-developers.com/member.php?u=5942628</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->    
+	<item>https://forum.xda-developers.com/member.php?u=5942628</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->
+        <item>https://forum.xda-developers.com/member.php?u=6620830</item> <!-- Maintainer: Darshan M. (darshan1205) -->
      </string-array>
 </resources>
 
