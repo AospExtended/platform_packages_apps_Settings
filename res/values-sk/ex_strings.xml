@@ -172,6 +172,7 @@
   <string name="app_ops_modify_clipboard">meniť údaje v schránke</string>
   <string name="app_ops_modify_contacts">aktualizovať kontakty</string>
   <string name="app_ops_modify_settings">aktualizovať nastavenia</string>
+  <string name="app_ops_mute_unmute_microphone">stíšiť/zosiliť mikrofón</string>
   <string name="app_ops_play_audio">prehrávať zvuk</string>
   <string name="app_ops_post_notification">posielať upozornenia</string>
   <string name="app_ops_project_media">premietať médiá</string>
@@ -515,4 +516,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB povolené</string>
   <string name="adb_disabled">ADB zakázané</string>
+  <!-- Pocket judge -->
 </resources>

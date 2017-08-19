@@ -45,7 +45,7 @@
   <string name="volume_adjust_sounds_title">Axuste do volume dos sons</string>
   <!-- Keyboard and Input ASS methods -->
   <string name="show_enter_key_title">Amosar tecla Enter</string>
-  <string name="show_enter_key_summary">Forzar o teclado para que amose enter en lugar da tecla dos emoticonos</string>
+  <string name="show_enter_key_summary">Forzar o teclado para que amose Enter en lugar da tecla dos emoticonos</string>
   <!-- Whether to display IME switcher notifcation -->
   <string name="ime_switcher_notify">Selector de notificacións</string>
   <string name="ime_switcher_notify_summary">Amosar a notificación do selector do método de entrada</string>
@@ -54,7 +54,7 @@
   <string name="changelog_error">Incapaz de cargar o rexistro de cambios</string>
   <string name="changelog_summary">Cambios recentes</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Asociar o volume do tono e das notificacións</string>
+  <string name="link_volume_option_title">Asociar o volume do tono e o das notificacións</string>
   <string name="notification_volume_option_title">Volume das notificacións</string>
   <string name="ring_notification_volume_option_title">Volumen de tono e notificación</string>
   <!-- Camera sound -->
@@ -69,7 +69,7 @@
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Incrementando o volume do tono</string>
   <string name="increasing_ring_min_volume_title">Volume inicial</string>
-  <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
+  <string name="increasing_ring_ramp_up_time_title">Tempo de incremento</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">Sons das notificacións menos frecuentes</string>
   <string name="less_notification_sounds_summary">Limita os sons das notificacións de cada aplicativo para só reproducir un son por cada periodo de tempo</string>
@@ -101,8 +101,8 @@
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <string name="data_usage_app_restrict_all_wifi_summary">Evita calquer uso de datos vía redes Wi\u2011Fi</string>
   <!-- Battery stats reset -->
-  <string name="battery_stats_reset">Reiniciar as estatísticas</string>
-  <string name="battery_stats_message">As estatísticas da batería van ser reiniciadas</string>
+  <string name="battery_stats_reset">Restablecer as estatísticas</string>
+  <string name="battery_stats_message">As estatísticas da batería van ser restablecidas</string>
   <string name="ok_string">Aceptar</string>
   <!-- Doze pulse options -->
   <string name="doze_settings">Axustes de Doze</string>
@@ -110,13 +110,13 @@
   <string name="summary_doze_disabled">Deshabilitado</string>
   <string name="doze_overwrite_value_title">Sobrescribir os valores por defecto</string>
   <string name="doze_overwrite_value_summary">Permitir a sobrescritura dos valores por defecto cos axustes do usuario</string>
-  <string name="doze_pulse_title">Axustes configurable do usuario</string>
+  <string name="doze_pulse_title">Axustes configurables do usuario</string>
   <string name="doze_pulse_duration_in_title">Desvanecemento de entrada</string>
   <string name="doze_pulse_duration_visible_title">Tempo de visibilidade</string>
   <string name="doze_pulse_duration_out_title">Desvanecemento de saída</string>
-  <string name="doze_trigger_pickup_title">Accionador do sensor de recogida</string>
-  <string name="doze_trigger_pickup_summary_on">As pulsacións serán accionadas polo sensor de recogida</string>
-  <string name="doze_trigger_pickup_summary_off">O sensor de recogida non se usará como accionador</string>
+  <string name="doze_trigger_pickup_title">Accionador do sensor de recollida</string>
+  <string name="doze_trigger_pickup_summary_on">As pulsacións serán accionadas polo sensor de recollida</string>
+  <string name="doze_trigger_pickup_summary_off">O sensor de recollida non se usará como accionador</string>
   <string name="doze_trigger_notification_title">Accionador de notificacións</string>
   <string name="doze_trigger_notification_summary_on">Pulse será accionado polas notificacións</string>
   <string name="doze_trigger_notification_summary_off">As notificacións non se usarán como accionadores</string>
@@ -139,7 +139,7 @@
   <string name="doze_notification_color_invert_summary_on">As notificación serán invertidas. Useo para temas oscuros/por defecto.</string>
   <!-- Double tap for doze -->
   <string name="double_tap_wake_doze_title">Dobre toque para espertar en modo doze</string>
-  <string name="double_tap_wake_doze_summary">Require un toque dobre para espertar o dispositivo no modo de pantalla doze</string>
+  <string name="double_tap_wake_doze_summary">Require un toque dobre para espertar o dispositivo no modo doze</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <string name="app_ops_settings">Permisos do aplicativo</string>
@@ -158,7 +158,7 @@
   <string name="app_ops_access_location">ubicación</string>
   <string name="app_ops_access_notifications">notificacións</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">comezo automático</string>
+  <string name="app_ops_auto_start">incio automático</string>
   <string name="app_ops_delete_call_log">borrar o rexistro de chamadas</string>
   <string name="app_ops_delete_contacts">borrar os contactos</string>
   <string name="app_ops_delete_mms">borrar MMS</string>
@@ -172,6 +172,7 @@
   <string name="app_ops_modify_clipboard">modificar o portapapeis</string>
   <string name="app_ops_modify_contacts">actualizar os contactos</string>
   <string name="app_ops_modify_settings">actualizar os axustes</string>
+  <string name="app_ops_mute_unmute_microphone">silenciar/non silenciar o micrófono</string>
   <string name="app_ops_play_audio">reproducir sons</string>
   <string name="app_ops_post_notification">mandar notificacións</string>
   <string name="app_ops_project_media">proyectar multimedia</string>
@@ -182,12 +183,12 @@
   <string name="app_ops_read_mms">ler os MMS</string>
   <string name="app_ops_read_sms">ler os SMS</string>
   <string name="app_ops_receive_sms">recibir SMS</string>
-  <string name="app_ops_record_audio">grabar sons</string>
+  <string name="app_ops_record_audio">gravar sons</string>
   <string name="app_ops_send_mms">enviar MMS</string>
   <string name="app_ops_send_sms">enviar SMS</string>
   <string name="app_ops_toast_window">mensaxes toast</string>
   <string name="app_ops_use_alarm_volume">volume da alarma</string>
-  <string name="app_ops_use_audio_focus">concentración de sons</string>
+  <string name="app_ops_use_audio_focus">enfocar os sons</string>
   <string name="app_ops_use_bluetooth_volume">Volume do Bluetooth</string>
   <string name="app_ops_use_master_volume">volume xeral</string>
   <string name="app_ops_use_media_buttons">botóns multimedia</string>
@@ -210,14 +211,14 @@
   <string name="app_ops_mock_location">simular a ubicación</string>
   <string name="app_ops_read_external_storage">ler o almacenamento externo</string>
   <string name="app_ops_write_external_storage">escribir no almacenamento externo</string>
-  <string name="app_ops_turn_on_screen">apagar a pantalla</string>
+  <string name="app_ops_turn_on_screen">acender a pantalla</string>
   <string name="app_ops_get_accounts">contas do dispositivo</string>
   <string name="app_ops_wifi_change">cambiar o estado do WiFi</string>
   <string name="app_ops_toggle_bluetooth">alternar o bluetooth</string>
-  <string name="app_ops_run_in_background">executar no fondo</string>
+  <string name="app_ops_run_in_background">executarse no fondo</string>
   <string name="app_ops_boot_completed">arranque automático</string>
   <string name="ambient_display_show_battery_title">Estado da batería</string>
-  <string name="ambient_display_show_battery_summary">Mostrar o indicador da batería mentras pulse estea activo</string>
+  <string name="ambient_display_show_battery_summary">Amosar o indicador da batería mentras pulse está activo</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
   <string name="battery_saver_color_title">Cor de advertencia</string>
@@ -250,19 +251,19 @@
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Escritorio expandido</string>
-  <string name="keywords_expanded_desktop">Escritorio expandido</string>
+  <string name="power_menu_expanded_desktop">Escritorio estendido</string>
+  <string name="keywords_expanded_desktop">Escritorio estendido</string>
   <string name="expanded_hide_nothing">Non agochar nada</string>
   <string name="expanded_hide_status">Agochar a barra de estado</string>
   <string name="expanded_hide_navigation">Agochar a barra de navegación</string>
   <string name="expanded_hide_both">Agochar ambos</string>
-  <string name="expanded_nothing_to_show">Para engadir unha configuración por aplicativo para o estado expandido, deshabilita a opción \"Habilitado para todas\"</string>
-  <string name="expanded_desktop_state">Estado expandido</string>
+  <string name="expanded_nothing_to_show">Para engadir unha configuración por aplicativo para o estado estendido, deshabilita a opción \"Habilitado para todos\"</string>
+  <string name="expanded_desktop_state">Estado estendido</string>
   <string name="expanded_enabled_for_all">Habilitado para todos</string>
   <string name="expanded_user_configurable">Configurable polo usuario</string>
-  <string name="expanded_desktop_style">Estilo do escritorio extendido</string>
-  <string name="expanded_desktop_style_description">Escolle un estilo de escritorio extendido</string>
-  <string name="expanded_desktop_title">Opcións do escritorio extendido</string>
+  <string name="expanded_desktop_style">Estilo do escritorio estendido</string>
+  <string name="expanded_desktop_style_description">Escolle un estilo de escritorio estendido</string>
+  <string name="expanded_desktop_title">Opcións do escritorio estendido</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Información do teléfono</string>
   <!-- Format string for fingerprint location message -->
@@ -324,7 +325,7 @@
   <string name="adb_notify_summary">Amosar unha notificación cando o USB ou a depuración por rede está habilitada</string>
   <string name="adb_over_network">ADB sobre rede</string>
   <string name="adb_over_network_summary">Habilitar a depuración TCP/IP via interfaces de rede (Wi\u2011Fi, Redes USB). Este axuste restablecese o reiniciar</string>
-  <string name="adb_over_network_warning">ADVERTENCIA: Cando a ADB vía rede está habilitada, o teu teléfono está exposto a intrusións en todas as redes conectadas!\n\nUse solo está característica cando esté conectado a unha rede de confianza.\n\nDe verdade queres habilitar esta función?</string>
+  <string name="adb_over_network_warning">ADVERTENCIA: Cando a ADB vía rede está habilitada, o teu teléfono está exposto a intrusións en todas as redes conectadas!\n\nUse só está característica cando esté conectado a unha rede de confianza.\n\nDe verdade queres habilitar esta función?</string>
   <!-- General strings -->
   <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
@@ -363,7 +364,7 @@
   <string name="aex_about_info_summary">AOSPExtended é unha ROM basada en AOSP que ofrece a interface por defecto con varias características de personalización xunto co motor de temas Substratum. O proxecto foi realizado manipulando commits de outros proxectos varios. Estando basada en AOSP ofrece unha experiencia suave e libre de tiróns listo para ser usado. Nos intentaremos constantemente en engadir mais funcións e facelo mellor en actualizacións venideiras.&#35;BeExtended</string>
   <string name="dev_info">Sobre AospExtended</string>
   <string name="github">GitHub</string>
-  <string name="github_description">Ver o noso codigo fonte</string>
+  <string name="github_description">Ver o noso código fonte</string>
   <string name="gplus">Google+</string>
   <string name="gplus_description">Únete a nosa comunidade de G+</string>
   <string name="telegram">Telegram</string>
@@ -387,7 +388,7 @@
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">Pancartas dos hilos, Logos, Fondos de pantalla</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
-  <string name="designer2_description">Logos de FLing/QS</string>
+  <string name="designer2_description">Logos de Fling/QS</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Fondos de pantalla, Animacións de inicio</string>
   <string name="maintainers">Mantedores</string>
@@ -418,6 +419,7 @@
   <string name="mem_info">Memoria RAM</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Sons de carga</string>
+  <string name="power_notifications_enable_title">Habilitar</string>
   <string name="power_notifications_enable_summary">Reproducir un son cando se conecta ou desconecta o cargador</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Vibrar</string>
@@ -443,15 +445,16 @@
   <string name="night_display_ok">Aceptar</string>
   <!-- Quick unlock information -->
   <string name="quick_unlock_alert_title">Alerta</string>
-  <string name="quick_unlock_alert_msg">Esta característica solo funcionará se usas un PIN de 4 díxitos, senon outros efectos non desexados poden ocurrir co teu dispositivo.</string>
+  <string name="quick_unlock_alert_msg">Esta característica só funcionará se usas un PIN de 4 díxitos, senon outros efectos non desexados poden ocurrir co teu dispositivo.</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Non é necesario, os axustes de desenvolmento están habilitadas por defecto.</string>
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">Cor</string>
   <string name="omni_battery_light_settings">Luz de carga da batería</string>
-  <string name="omni_notification_light_settings">Luz das notificacións</string>
+  <string name="omni_notification_light_settings">Luz de notificacións</string>
   <string name="omni_leds">Luces LED</string>
   <string name="batterylight_title">Axustes do LED de batería</string>
+  <string name="battery_light_enable">Habilitar</string>
   <string name="battery_low_pulse_title">Modo Pulse en batería baixa</string>
   <string name="battery_light_list_title">Cores</string>
   <string name="battery_light_low_color_title">Batería baixa</string>
@@ -490,6 +493,7 @@
   <string name="notificationlight_title">Axustes do LED de notificacións</string>
   <string name="notification_light_general_title">Xeral</string>
   <string name="notification_light_applist_title">Aplicativos</string>
+  <string name="notification_light_phonelist_title">Teléfono</string>
   <string name="notification_light_use_custom">Usar valores personalizados</string>
   <string name="notification_light_default_value">Por defecto</string>
   <string name="notification_light_missed_call_title">Chamada perdida</string>
@@ -497,7 +501,7 @@
   <string name="notification_light_screen_on">Luces coa pantalla acesa</string>
   <string name="notification_light_zen_mode">Luces en modo Non molestar</string>
   <string name="notification_light_use_multiple_leds">Múltiples LEDs</string>
-  <string name="keywords_lights_brightness_level">dimunuír o brillo dos leds</string>
+  <string name="keywords_lights_brightness_level">diminuír o brillo dos leds</string>
   <string name="notification_light_automagic">Escoller as cores automáticamente</string>
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">Axustes da luz</string>
@@ -512,4 +516,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB habilitado</string>
   <string name="adb_disabled">ADB Deshabilitado</string>
+  <!-- Pocket judge -->
 </resources>

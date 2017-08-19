@@ -515,4 +515,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB dihidupkan</string>
   <string name="adb_disabled">ADB dimatikan</string>
+  <!-- Pocket judge -->
 </resources>

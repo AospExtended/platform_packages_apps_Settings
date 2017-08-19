@@ -172,6 +172,7 @@
   <string name="app_ops_modify_clipboard">vágólap módosítása</string>
   <string name="app_ops_modify_contacts">névjegyek frissítése</string>
   <string name="app_ops_modify_settings">beállítások frissítése</string>
+  <string name="app_ops_mute_unmute_microphone">mikrofon némítása</string>
   <string name="app_ops_play_audio">hang lejátszása</string>
   <string name="app_ops_post_notification">értesítés küldése</string>
   <string name="app_ops_project_media">média vetítése</string>
@@ -515,4 +516,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB engedélyezve</string>
   <string name="adb_disabled">ADB letiltva</string>
+  <!-- Pocket judge -->
 </resources>

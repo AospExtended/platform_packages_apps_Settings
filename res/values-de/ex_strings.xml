@@ -172,6 +172,7 @@
   <string name="app_ops_modify_clipboard">die Zwischenablage zu ändern</string>
   <string name="app_ops_modify_contacts">Kontakte zu ändern</string>
   <string name="app_ops_modify_settings">Einstellungen zu ändern</string>
+  <string name="app_ops_mute_unmute_microphone">das Mikrofon zu aktivieren/deaktivieren</string>
   <string name="app_ops_play_audio">Audio wiederzugeben</string>
   <string name="app_ops_post_notification">eine Benachrichtigung zu erstellen</string>
   <string name="app_ops_project_media">Medien zu projizieren</string>
@@ -516,4 +517,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB aktiviert</string>
   <string name="adb_disabled">ADB deaktiviert</string>
+  <!-- Pocket judge -->
 </resources>

@@ -105,7 +105,7 @@
   <string name="battery_stats_message">电池的历史统计将被重置</string>
   <string name="ok_string">确定</string>
   <!-- Doze pulse options -->
-  <string name="doze_settings">doze设置</string>
+  <string name="doze_settings">Doze设置</string>
   <string name="summary_doze_enabled">启用</string>
   <string name="summary_doze_disabled">禁用</string>
   <string name="doze_overwrite_value_title">覆盖默认设置</string>
@@ -138,8 +138,8 @@
   <string name="doze_notification_color_invert_summary_off">使用暗色主题时，通知将不会反转颜色。</string>
   <string name="doze_notification_color_invert_summary_on">使用亮色主题时，通知将会反转颜色。</string>
   <!-- Double tap for doze -->
-  <string name="double_tap_wake_doze_title">doze下双击唤醒</string>
-  <string name="double_tap_wake_doze_summary">doze下显示pulse屏幕时，手机需双击唤醒</string>
+  <string name="double_tap_wake_doze_title">Doze下双击唤醒</string>
+  <string name="double_tap_wake_doze_summary">Doze下显示Pulse屏幕时，手机需双击唤醒</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <string name="app_ops_settings">权限管理</string>
@@ -172,6 +172,7 @@
   <string name="app_ops_modify_clipboard">修改剪贴板</string>
   <string name="app_ops_modify_contacts">更新通讯录</string>
   <string name="app_ops_modify_settings">更新设置</string>
+  <string name="app_ops_mute_unmute_microphone">麦克风静音/取消静音</string>
   <string name="app_ops_play_audio">播放音频</string>
   <string name="app_ops_post_notification">发布通知</string>
   <string name="app_ops_project_media">投影媒体</string>
@@ -515,4 +516,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB 已启用</string>
   <string name="adb_disabled">ADB 已停用</string>
+  <!-- Pocket judge -->
 </resources>

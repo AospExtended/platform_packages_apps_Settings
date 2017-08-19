@@ -35,7 +35,7 @@
   <string name="volume_steps_title">Kroky hlasitosti</string>
   <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
   <string name="volume_steps_dtmf_title">Kroky hlasitosti: DTMF</string>
-  <string name="volume_steps_music_title">Počet kroků: Hudba</string>
+  <string name="volume_steps_music_title">Kroky hlasitosti: Hudba</string>
   <string name="volume_steps_notification_title">Kroky hlasitosti: Upozornění</string>
   <string name="volume_steps_ring_title">Kroky hlasitosti: Vyzvánění</string>
   <string name="volume_steps_system_title">Kroky hlasitosti: Systém</string>
@@ -172,6 +172,7 @@
   <string name="app_ops_modify_clipboard">měnit schránku</string>
   <string name="app_ops_modify_contacts">aktualizovat kontakty</string>
   <string name="app_ops_modify_settings">aktualizovat nastavení</string>
+  <string name="app_ops_mute_unmute_microphone">ztišit/zesílit mikrofon</string>
   <string name="app_ops_play_audio">přehrávat zvuk</string>
   <string name="app_ops_post_notification">posílat upozornění</string>
   <string name="app_ops_project_media">promítání médií</string>
@@ -515,4 +516,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB povoleno</string>
   <string name="adb_disabled">ADB zakázáno</string>
+  <!-- Pocket judge -->
 </resources>

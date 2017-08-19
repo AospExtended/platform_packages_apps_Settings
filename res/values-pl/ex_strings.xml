@@ -27,8 +27,10 @@
   <string name="build_date">Data kompilacji</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Wersja dostawcy</string>
   <string name="vendor_version_default">Nieznany</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Hasło do tworzenia kopii zapasowych na komputerze</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Kroki poziomów głośności</string>
   <string name="volume_steps_alarm_title">Kroki głośności: Alarm</string>
@@ -143,6 +145,8 @@
   <string name="app_ops_auto_start">autostart</string>
   <string name="app_ops_delete_mms">usuń MMS</string>
   <string name="app_ops_delete_sms">usuń SMS</string>
+  <string name="app_ops_keep_device_awake">Nie usypiaj</string>
+  <string name="app_ops_modify_calendar">Aktualizacja kalendarza</string>
   <string name="app_ops_send_mms">wyślij MMS</string>
   <string name="app_ops_send_sms">wyślij SMS</string>
   <string name="app_ops_use_notification_volume">głośność powiadomień</string>
@@ -150,6 +154,9 @@
   <string name="app_ops_use_voice_volume">głośność rozmów głosowych</string>
   <string name="app_ops_write_mms">napisz MMS</string>
   <string name="app_ops_write_sms">napisz SMS</string>
+  <string name="app_ops_use_fingerprint">Odcisk palca</string>
+  <string name="app_ops_add_voicemail">poczta głosowa</string>
+  <string name="app_ops_change_wallpaper">Zmiana tapety</string>
   <string name="app_ops_assist_screenshot">zrzut ekranu</string>
   <string name="app_ops_boot_completed">auto start</string>
   <string name="ambient_display_show_battery_title">Status baterii</string>
@@ -166,6 +173,8 @@
   <string name="print_restart">Uruchom ponownie</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
+  <string name="sim_mobile_network_settings_category_title">Ustawienia sieci komórkowej</string>
+  <string name="sim_mobile_network_settings_title">Ustawienia karty SIM </string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <string name="substratum_title">Substratum</string>
@@ -256,6 +265,7 @@
   <string name="web_description">Odwiedź nasz portal pobierania</string>
   <string name="help_translate">Tłumaczenia</string>
   <string name="walls">Tapety</string>
+  <string name="team1_description">Właściciel/główny programista</string>
   <string name="team2_description">Deweloper</string>
   <string name="team4_description">Deweloper</string>
   <string name="designers">Projektanci</string>
@@ -308,6 +318,8 @@
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">Kolor</string>
   <string name="omni_notification_light_settings">Dioda powiadomień</string>
+  <string name="omni_leds">Dioda LED</string>
+  <string name="batterylight_title">Ustawienia diody LED dla baterii</string>
   <string name="battery_light_enable">Włącz</string>
   <string name="battery_light_list_title">Kolory</string>
   <string name="battery_light_low_color_title">Bateria jest na wyczerpaniu</string>
@@ -339,6 +351,7 @@
   <string name="pulse_speed_slow">Wolno</string>
   <string name="pulse_speed_very_slow">Bardz wolno</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Dioda powiadomień</string>
   <string name="notification_light_general_title">Główny</string>
   <string name="notification_light_applist_title">Aplikacje</string>
   <string name="notification_light_phonelist_title">Telefon</string>
@@ -352,4 +365,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB włączone</string>
   <string name="adb_disabled">ADB wyłączone</string>
+  <!-- Pocket judge -->
 </resources>

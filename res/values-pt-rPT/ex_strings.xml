@@ -172,6 +172,7 @@
   <string name="app_ops_modify_clipboard">modificar área de transferência</string>
   <string name="app_ops_modify_contacts">atualizar contactos</string>
   <string name="app_ops_modify_settings">atualizar definições</string>
+  <string name="app_ops_mute_unmute_microphone">ligar/desligar microfone</string>
   <string name="app_ops_play_audio">reproduzir áudio</string>
   <string name="app_ops_post_notification">publicar uma notificação</string>
   <string name="app_ops_project_media">projetar multimédia</string>
@@ -515,4 +516,5 @@
   <!-- Development Settings summary-->
   <string name="adb_enabled">ADB Activado</string>
   <string name="adb_disabled">ADB Desativado</string>
+  <!-- Pocket judge -->
 </resources>
