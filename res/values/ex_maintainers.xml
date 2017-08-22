@@ -131,8 +131,8 @@
 	<item>Sony Xperia SP (huashan)</item> <!-- Maintainer: Aditya Vipin (AdiV1899) -->
 	<item>Samsung Galaxy S5 (k3gxx)</item> <!-- Maintainer: Som Adsul (somadsul) -->
 	<item>Xiaomi Mi 3/4 (cancro)</item> <!-- Maintainer: Rizky Benggolo (travarilo) -->
-	<item>LG-D851</item> <!-- Maintainer: Jesus Acosta -->
 	<item>LG-D855</item> <!-- Maintainer: Traian Simedru -->
+	<item>LG-D851</item> <!-- Maintainer: Jesus Acosta -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
