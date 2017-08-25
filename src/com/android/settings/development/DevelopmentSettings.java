@@ -354,8 +354,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private Dialog mLogpersistClearDialog;
     private DashboardFeatureProvider mDashboardFeatureProvider;
     private DevelopmentSettingsEnabler mSettingsEnabler;
-    private BugReportPreferenceController mBugReportController;
-    private BugReportInPowerPreferenceController mBugReportInPowerController;
     private TelephonyMonitorPreferenceController mTelephonyMonitorController;
 
     public DevelopmentSettings() {
@@ -390,8 +388,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
         mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
 
-        mBugReportController = new BugReportPreferenceController(getActivity());
-        mBugReportInPowerController = new BugReportInPowerPreferenceController(getActivity());
         mTelephonyMonitorController = new TelephonyMonitorPreferenceController(getActivity());
         mWebViewAppPrefController = new WebViewAppPreferenceController(getActivity());
         mVerifyAppsOverUsbController = new VerifyAppsOverUsbPreferenceController(getActivity());
@@ -423,8 +419,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             mEnableTerminal = null;
         }
 
-        mBugReportController.displayPreference(getPreferenceScreen());
-        mBugReportInPowerController.displayPreference(getPreferenceScreen());
         mTelephonyMonitorController.displayPreference(getPreferenceScreen());
         mWebViewAppPrefController.displayPreference(getPreferenceScreen());
 
@@ -584,6 +578,11 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             mOtaDisabledOnce = true;
         }
 
+        if (Settings.Secure.getInt(cr,
+                Settings.Secure.BUGREPORT_IN_POWER_MENU, 0) == 1) {
+            Settings.Secure.putInt(cr, Settings.Secure.BUGREPORT_IN_POWER_MENU, 0);
+        }
+
         addDashboardCategoryPreferences();
     }
 
@@ -658,7 +657,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             Preference pref = mAllPrefs.get(i);
             pref.setEnabled(enabled && !mDisabledPrefs.contains(pref));
         }
-        mBugReportInPowerController.enablePreference(enabled);
         mTelephonyMonitorController.enablePreference(enabled);
         mWebViewAppPrefController.enablePreference(enabled);
         updateAllOptions();
@@ -777,7 +775,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                     context.getPackageManager().getApplicationEnabledSetting(TERMINAL_APP_PACKAGE)
                             == PackageManager.COMPONENT_ENABLED_STATE_ENABLED);
         }
-        mHaveDebugSettings |= mBugReportInPowerController.updatePreference();
         mHaveDebugSettings |= mTelephonyMonitorController.updatePreference();
         updateSwitchPreference(mKeepScreenOn, Settings.Global.getInt(cr,
                 Settings.Global.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
@@ -811,7 +808,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         updateShowAllANRsOptions();
         updateShowNotificationChannelWarningsOptions();
         mVerifyAppsOverUsbController.updatePreference();
-        updateBugreportOptions();
         updateForceRtlOptions();
         updateLogdSizeValues();
         updateLogpersistValues();
@@ -844,7 +840,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 onPreferenceTreeClick(cb);
             }
         }
-        mBugReportInPowerController.resetPreference();
         resetDebuggerOptions();
         writeLogpersistOption(null, true);
         writeLogdSizeOption(null);
@@ -1032,11 +1027,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 mEnableOemUnlock.checkRestrictionAndSetDisabled(UserManager.DISALLOW_OEM_UNLOCK);
             }
         }
-    }
-
-    private void updateBugreportOptions() {
-        mBugReportController.enablePreference(true);
-        mBugReportInPowerController.updateBugreportOptions();
     }
 
     // Returns the current state of the system property that controls
@@ -2386,10 +2376,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             return false;
         }
 
-        if (mBugReportInPowerController.handlePreferenceTreeClick(preference)) {
-            return true;
-        }
-
         if (mTelephonyMonitorController.handlePreferenceTreeClick(preference)) {
             return true;
         }
@@ -2417,7 +2403,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 Settings.Global.putInt(getActivity().getContentResolver(),
                         Settings.Global.ADB_ENABLED, 0);
                 mVerifyAppsOverUsbController.updatePreference();
-                updateBugreportOptions();
             }
         } else if (preference == mClearAdbKeys) {
             if (mAdbKeysDialog != null) dismissDialogs();
@@ -2616,7 +2601,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 Settings.Global.putInt(getActivity().getContentResolver(),
                         Settings.Global.ADB_ENABLED, 1);
                 mVerifyAppsOverUsbController.updatePreference();
-                updateBugreportOptions();
             } else {
                 // Reset the toggle
                 mEnableAdb.setChecked(false);
