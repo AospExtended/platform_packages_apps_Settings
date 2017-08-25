@@ -33,13 +33,13 @@
   <string name="local_backup_password_title">Parolă copie rez. desktop</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Trepte Volum</string>
-  <string name="volume_steps_alarm_title">Treaptă volmum: Alarmă</string>
-  <string name="volume_steps_dtmf_title">Treaptă volmum: DTMF</string>
-  <string name="volume_steps_music_title">Pași volum: Muzică</string>
-  <string name="volume_steps_notification_title">Pași volum: Notificații</string>
-  <string name="volume_steps_ring_title">Pași volum: Alarmă</string>
-  <string name="volume_steps_system_title">Pași volum: Sistem</string>
-  <string name="volume_steps_voice_call_title">Pași volum: Apel voce</string>
+  <string name="volume_steps_alarm_title">Alarmă</string>
+  <string name="volume_steps_dtmf_title">DTMF</string>
+  <string name="volume_steps_music_title">Muzică</string>
+  <string name="volume_steps_notification_title">Notificări</string>
+  <string name="volume_steps_ring_title">Sonerie</string>
+  <string name="volume_steps_system_title">Sistem</string>
+  <string name="volume_steps_voice_call_title">Apel vocal</string>
   <string name="volume_steps_reset">Resetaţi</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Sunete ajustare volum</string>
@@ -114,9 +114,9 @@
   <string name="doze_pulse_duration_in_title">Atenuare graduală</string>
   <string name="doze_pulse_duration_visible_title">Durata vizibilitate</string>
   <string name="doze_pulse_duration_out_title">Dispariţie graduală</string>
-  <string name="doze_trigger_pickup_title">Ridica senzor de declanşare</string>
-  <string name="doze_trigger_pickup_summary_on">Modul Pulse va fi declansat prin ridicarea senzorului</string>
-  <string name="doze_trigger_pickup_summary_off">Senzorul de ridicare nu va fi utilizat ca declanșator</string>
+  <string name="doze_trigger_pickup_title">Senzor detectare ridicare</string>
+  <string name="doze_trigger_pickup_summary_on">Modul Pulse va fi declanşat prin detectarea ridicării</string>
+  <string name="doze_trigger_pickup_summary_off">Senzorul de detectare ridicare nu va fi utilizat ca declanșator</string>
   <string name="doze_trigger_notification_title">Declanșator notificare</string>
   <string name="doze_trigger_notification_summary_on">Puls va fi declanşat de notificări</string>
   <string name="doze_trigger_notification_summary_off">Notificările nu vor fi utilizate ca declanșator</string>
@@ -142,9 +142,9 @@
   <string name="double_tap_wake_doze_summary">Necesită o atingere dublă pentru a trezi dispozitivul în modul doze</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-  <string name="app_ops_settings">App ops</string>
+  <string name="app_ops_settings">Permisiuni aplicații</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-  <string name="app_ops_settings_summary">Opțiuni avansate per-aplicație</string>
+  <string name="app_ops_settings_summary">Opțiuni avansate pentru aplicaţii</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <string name="app_ops_cat_location">Locaţie</string>
@@ -154,69 +154,69 @@
   <string name="app_ops_cat_device">Dispozitiv</string>
   <string name="app_ops_cat_bootup">Pornire</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">cameră</string>
-  <string name="app_ops_access_location">locaţie</string>
-  <string name="app_ops_access_notifications">notificare</string>
+  <string name="app_ops_access_camera">Cameră</string>
+  <string name="app_ops_access_location">Locaţie</string>
+  <string name="app_ops_access_notifications">Notificări</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">şterge lista de apeluri</string>
-  <string name="app_ops_delete_contacts">şterge contacte</string>
-  <string name="app_ops_delete_mms">şterge MMS</string>
-  <string name="app_ops_delete_sms">şterge SMS</string>
-  <string name="app_ops_draw_on_top">afișează deasupra</string>
-  <string name="app_ops_get_usage_stats">obține statistici de utilizare</string>
-  <string name="app_ops_keep_device_awake">ține treaz</string>
-  <string name="app_ops_make_phone_call">apelează</string>
-  <string name="app_ops_modify_calendar">actualizare calendar</string>
-  <string name="app_ops_modify_call_log">actualizează jurnalul de apeluri</string>
-  <string name="app_ops_modify_clipboard">modifică clipboard</string>
-  <string name="app_ops_modify_contacts">actualizează contacte</string>
-  <string name="app_ops_modify_settings">actualizare setări</string>
-  <string name="app_ops_mute_unmute_microphone">pornire/oprire microfon</string>
-  <string name="app_ops_play_audio">redare sunet</string>
-  <string name="app_ops_post_notification">trimite o notificare</string>
-  <string name="app_ops_project_media">proiectează media</string>
-  <string name="app_ops_read_calendar">citește calendarul</string>
-  <string name="app_ops_read_call_log">citeşte jurnalul de apeluri</string>
-  <string name="app_ops_read_clipboard">citește clipboard</string>
-  <string name="app_ops_read_contacts">citește contactele</string>
-  <string name="app_ops_read_mms">citește MMS</string>
-  <string name="app_ops_read_sms">citește SMS</string>
-  <string name="app_ops_receive_sms">primește SMS</string>
-  <string name="app_ops_record_audio">înregistrare audio</string>
-  <string name="app_ops_send_mms">trimite MMS</string>
-  <string name="app_ops_send_sms">trimite SMS</string>
-  <string name="app_ops_toast_window">arată notificări toast</string>
-  <string name="app_ops_use_alarm_volume">volum alarmă</string>
-  <string name="app_ops_use_audio_focus">focalizare audio</string>
+  <string name="app_ops_auto_start">Pornire automată</string>
+  <string name="app_ops_delete_call_log">Ştergere listă de apeluri</string>
+  <string name="app_ops_delete_contacts">Ştergere contacte</string>
+  <string name="app_ops_delete_mms">Ştergere MMS</string>
+  <string name="app_ops_delete_sms">Ştergere SMS</string>
+  <string name="app_ops_draw_on_top">Afișare deasupra</string>
+  <string name="app_ops_get_usage_stats">Obținere statistici de utilizare</string>
+  <string name="app_ops_keep_device_awake">Ţine treaz</string>
+  <string name="app_ops_make_phone_call">Apelare</string>
+  <string name="app_ops_modify_calendar">Actualizare calendar</string>
+  <string name="app_ops_modify_call_log">Actualizare jurnal de apeluri</string>
+  <string name="app_ops_modify_clipboard">Modificare clipboard</string>
+  <string name="app_ops_modify_contacts">Actualizare contacte</string>
+  <string name="app_ops_modify_settings">Actualizare setări</string>
+  <string name="app_ops_mute_unmute_microphone">Pornire/oprire microfon</string>
+  <string name="app_ops_play_audio">Redare sunet</string>
+  <string name="app_ops_post_notification">Trimitere notificare</string>
+  <string name="app_ops_project_media">Proiectare media</string>
+  <string name="app_ops_read_calendar">Citire calendar</string>
+  <string name="app_ops_read_call_log">Citire jurnal de apeluri</string>
+  <string name="app_ops_read_clipboard">Citire clipboard</string>
+  <string name="app_ops_read_contacts">Citire contacte</string>
+  <string name="app_ops_read_mms">Citire MMS</string>
+  <string name="app_ops_read_sms">Citire SMS</string>
+  <string name="app_ops_receive_sms">Recepţionare SMS</string>
+  <string name="app_ops_record_audio">Înregistrare audio</string>
+  <string name="app_ops_send_mms">Trimitere MMS</string>
+  <string name="app_ops_send_sms">Trimitere SMS</string>
+  <string name="app_ops_toast_window">Mesaje toast</string>
+  <string name="app_ops_use_alarm_volume">Volum alarmă</string>
+  <string name="app_ops_use_audio_focus">Focalizare audio</string>
   <string name="app_ops_use_bluetooth_volume">Volum bluetooth</string>
-  <string name="app_ops_use_master_volume">volum principal</string>
-  <string name="app_ops_use_media_buttons">butoane media</string>
-  <string name="app_ops_use_media_volume">volum media</string>
-  <string name="app_ops_use_notification_volume">volum notificare</string>
-  <string name="app_ops_use_ring_volume">volumul tonului de apel</string>
-  <string name="app_ops_use_vibrate">vibraţii la atingere</string>
-  <string name="app_ops_use_voice_volume">volum apel vocal</string>
-  <string name="app_ops_write_mms">scrie MMS</string>
-  <string name="app_ops_write_sms">scrie SMS</string>
-  <string name="app_ops_use_fingerprint">amprentă</string>
-  <string name="app_ops_add_voicemail">mesagerie vocală</string>
-  <string name="app_ops_read_phone_state">citește starea telefonului</string>
+  <string name="app_ops_use_master_volume">Volum principal</string>
+  <string name="app_ops_use_media_buttons">Butoane media</string>
+  <string name="app_ops_use_media_volume">Volum media</string>
+  <string name="app_ops_use_notification_volume">Volum notificare</string>
+  <string name="app_ops_use_ring_volume">Volumul tonului de apel</string>
+  <string name="app_ops_use_vibrate">Vibraţii la atingere</string>
+  <string name="app_ops_use_voice_volume">Volum apel vocal</string>
+  <string name="app_ops_write_mms">Scriere MMS</string>
+  <string name="app_ops_write_sms">Scriere SMS</string>
+  <string name="app_ops_use_fingerprint">Amprentă</string>
+  <string name="app_ops_add_voicemail">Mesagerie vocală</string>
+  <string name="app_ops_read_phone_state">Accesare stare telefon</string>
   <string name="app_ops_scan_wifi">Scanare reţele WiFi</string>
-  <string name="app_ops_change_wallpaper">schimbă imaginea de fundal</string>
-  <string name="app_ops_assist_structure">structura de asistență</string>
-  <string name="app_ops_assist_screenshot">captură de ecran</string>
-  <string name="app_ops_use_body_sensors">senzori corporali</string>
-  <string name="app_ops_read_cell_broadcasts">transmisii celulare</string>
-  <string name="app_ops_mock_location">locație simulată (falsă)</string>
-  <string name="app_ops_read_external_storage">citire stoc. ext.</string>
-  <string name="app_ops_write_external_storage">scriere stoc. ext.</string>
-  <string name="app_ops_turn_on_screen">pornește ecranul</string>
-  <string name="app_ops_get_accounts">conturile dispozitivului</string>
-  <string name="app_ops_wifi_change">schimbă starea Wi-Fi</string>
-  <string name="app_ops_toggle_bluetooth">comută Bluetooth</string>
-  <string name="app_ops_run_in_background">rulare în fundal</string>
-  <string name="app_ops_boot_completed">pornire automată</string>
+  <string name="app_ops_change_wallpaper">Schimbare imagine de fundal</string>
+  <string name="app_ops_assist_structure">Structură de asistență</string>
+  <string name="app_ops_assist_screenshot">Captură de ecran</string>
+  <string name="app_ops_use_body_sensors">Senzori corporali</string>
+  <string name="app_ops_read_cell_broadcasts">Transmisii celulare</string>
+  <string name="app_ops_mock_location">Locație simulată (falsă)</string>
+  <string name="app_ops_read_external_storage">Citire stoc. ext.</string>
+  <string name="app_ops_write_external_storage">Scriere stoc. ext.</string>
+  <string name="app_ops_turn_on_screen">Pornire ecran</string>
+  <string name="app_ops_get_accounts">Conturile dispozitivului</string>
+  <string name="app_ops_wifi_change">Schimbare stare Wi-Fi</string>
+  <string name="app_ops_toggle_bluetooth">Comutare Bluetooth</string>
+  <string name="app_ops_run_in_background">Rulare în fundal</string>
+  <string name="app_ops_boot_completed">Pornire automată</string>
   <string name="ambient_display_show_battery_title">Stare baterie</string>
   <string name="ambient_display_show_battery_summary">Arată indicator baterie în mod pulse</string>
   <!-- Battery Saver Settings -->
@@ -267,7 +267,7 @@
   <!-- Phone info shortcut -->
   <string name="device_info_title">Informații telefon</string>
   <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Localizați senzorul de amprentă pe <xliff:g id="sensor_location">%1$s</xliff:g> telefonului dvs.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Localizați senzorul de amprentă în <xliff:g id="sensor_location">%1$s</xliff:g> telefonului dvs.</string>
   <!-- Fingerprint sensor locations -->
   <string name="security_settings_fingerprint_sensor_location_back">spatele</string>
   <string name="security_settings_fingerprint_sensor_location_front">faţa</string>
@@ -327,7 +327,7 @@
   <string name="adb_over_network_summary">Activarea depanării TCP/IP prin interfața de rețea (WiFi, rețele USB). Această setare se resetează la repornire</string>
   <string name="adb_over_network_warning">Avertisment: Când ADB prin reţea este activat, telefonul este deschis pentru intruziuni de pe toate reţelele conectate! \n\nUtilizaţi această caracteristică doar atunci când sunteţi conectat pe retele de incredere.\n\nDoriţi cu adevărat să activaţi această funcţie?</string>
   <!-- General strings -->
-  <string name="header_category_custom">UI &#38; UX</string>
+  <string name="header_category_custom">Personalizare</string>
   <!-- Dashboard options -->
   <string name="dashboard_category">Opţiuni tablou de bord</string>
   <string name="dashboard_suggestions_title">Sugestii</string>
@@ -361,7 +361,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Despre noi</string>
   <string name="aex_about_summary">Introducerea noastră şi echipa noastră</string>
-  <string name="aex_about_info_summary">AospExtended este un ROM bazat pe AOSP care oferă interfaţă stoc cu diferite caracteristici personalizate, împreună cu motorul de teme Substratum. Proiectul a fost realizat prin cherry-picking a diferitor comitt-uri de la diverse alte proiecte. Bazându-se pe AOSP, acesta oferă o experiență fără probleme și fără întârziere. Vom încerca în mod constant să adăugăm mai multe funcții și să le facem chiar mai bune în viitoarele actualizări..&#35;BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended este un ROM bazat pe AOSP care oferă interfaţă stoc cu diferite caracteristici personalizate, împreună cu motorul de teme Substratum. Proiectul a fost realizat prin cherry-picking a diferitor commit-uri de la diverse alte proiecte. Bazându-se pe AOSP, acesta oferă o experiență fără probleme și fără întârziere. Vom încerca în mod constant să adăugăm mai multe funcții și să le facem chiar mai bune în viitoarele actualizări.&#35;BeExtended</string>
   <string name="dev_info">Despre AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">Vizualizaţi codul sursă</string>
@@ -459,8 +459,8 @@
   <string name="battery_light_list_title">Culori</string>
   <string name="battery_light_low_color_title">Baterie slabă</string>
   <string name="battery_light_medium_color_title">Se încarcă</string>
-  <string name="battery_light_full_color_title">Încărcat (90%)</string>
-  <string name="battery_light_really_full_color_title">Încărcat (100%)</string>
+  <string name="battery_light_full_color_title">Încărcată (90%)</string>
+  <string name="battery_light_really_full_color_title">Încărcată (100%)</string>
   <string name="edit_battery_settings">Editaţi setările de baterie</string>
   <string name="notification_light_general_title">General</string>
   <string name="led_color_green">Verde</string>
@@ -490,7 +490,7 @@
   <string name="pulse_speed_very_slow">Foarte încet</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">Lumină de notificare</string>
-  <string name="notificationlight_title">Setări de notificare LED</string>
+  <string name="notificationlight_title">Setări de notificare cu LED</string>
   <string name="notification_light_general_title">General</string>
   <string name="notification_light_applist_title">Aplicaţii</string>
   <string name="notification_light_phonelist_title">Telefon</string>
@@ -501,7 +501,7 @@
   <string name="notification_light_screen_on">Lumini cu ecranul aprins</string>
   <string name="notification_light_zen_mode">Lumini în modul Nu Deranjați</string>
   <string name="notification_light_use_multiple_leds">LED-uri multiple</string>
-  <string name="keywords_lights_brightness_level">diminuați luminozitatea led-urilor</string>
+  <string name="keywords_lights_brightness_level">diminuare luminozitate led-uri</string>
   <string name="notification_light_automagic">Se aleg culorile automat</string>
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">Setări de lumină</string>
@@ -517,4 +517,6 @@
   <string name="adb_enabled">ADB activat</string>
   <string name="adb_disabled">ADB dezactivat</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Detectare buzunar</string>
+  <string name="pocket_judge_summary">Blocare ecran și butoane atunci când dispozitivul este în buzunar</string>
 </resources>

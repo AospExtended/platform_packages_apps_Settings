@@ -45,8 +45,11 @@
   <!-- Camera sound -->
   <string name="camera_sounds_title">カメラのシャッター音</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">テーマエンジン</string>
   <!-- Root Management -->
+  <string name="rootmanagement_dashboard_summary">ルートアクセスを管理</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">より頻度の低い通知音</string>
@@ -122,10 +125,12 @@
   <string name="systemui_restart_title">警告</string>
   <string name="systemui_restart_message">SystemUI は、選択した設定を正しく適用できるように、再起動します。</string>
   <string name="restarting_ui">UI\u2026を再起動します</string>
+  <string name="print_restart">再起動</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->
   <!-- Dashboard -->
+  <string name="substratum_title">Substratum</string>
   <!-- App details: open play store link if app is user installed -->
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
@@ -151,14 +156,15 @@
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
   <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">下地のオーバーレイ</string>
+  <string name="filter_substratum_apps">Substratum オーバーレイ</string>
   <string name="menu_show_substratum">オーバーレイを表示</string>
   <string name="menu_hide_substratum">オーバーレイを非表示</string>
   <!-- Manage applications: show substratum icon overlays -->
-  <string name="filter_substratum_icons">下地アイコンをオーバーレイ</string>
-  <string name="menu_show_substratum_icons">オーバーレイアイコンを表示します。</string>
+  <string name="filter_substratum_icons">Substratum アイコンオーバーレイ</string>
+  <string name="menu_show_substratum_icons">オーバーレイアイコンを表示する</string>
   <string name="menu_hide_substratum_icons">オーバーレイアイコンを非表示</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_summary">提供元不明のテーマアプリのインストールを許可する</string>
   <!-- ADB debugging notifications -->
   <!-- General strings -->
   <!-- Dashboard options -->
@@ -220,11 +226,13 @@
   <!-- Notification light dialogs -->
   <string name="default_time">標準</string>
   <string name="custom_time">カスタム</string>
+  <string name="dialog_delete_title">削除</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_normal">標準</string>
   <string name="pulse_speed_fast">速い</string>
   <string name="pulse_speed_normal">標準</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">アプリ</string>
   <string name="notification_light_phonelist_title">電話</string>
   <string name="notification_light_default_value">デフォルト</string>
   <!-- Lights settings, LED notification -->

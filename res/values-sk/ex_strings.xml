@@ -517,4 +517,6 @@
   <string name="adb_enabled">ADB povolené</string>
   <string name="adb_disabled">ADB zakázané</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Detekcia režimu Vo vrecku</string>
+  <string name="pocket_judge_summary">Blokovať obrazovku a hardvérové tlačidlá, keď je zariadenie vo vrecku</string>
 </resources>

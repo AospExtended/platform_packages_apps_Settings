@@ -517,4 +517,6 @@
   <string name="adb_enabled">ADB Activado</string>
   <string name="adb_disabled">ADB Desativado</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Deteção de bolso</string>
+  <string name="pocket_judge_summary">Bloquear o ecrã e os botões enquanto o dispositivo estiver no bolso</string>
 </resources>

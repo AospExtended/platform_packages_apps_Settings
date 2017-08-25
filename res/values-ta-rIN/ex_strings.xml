@@ -48,6 +48,7 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">ஊடகம்</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
@@ -102,9 +103,11 @@
   <string name="led_color_green">பச்சை</string>
   <string name="led_color_red">சிவப்பு</string>
   <string name="led_color_blue">நீலம்</string>
+  <string name="ok">சரி</string>
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">பயன்பாடுகள்</string>
   <string name="notification_light_default_value">இயல்புநிலை</string>
   <!-- Lights settings, LED notification -->
   <!-- Add application dialog box title -->

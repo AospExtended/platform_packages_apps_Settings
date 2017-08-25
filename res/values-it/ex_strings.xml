@@ -517,4 +517,6 @@
   <string name="adb_enabled">ADB abilitato</string>
   <string name="adb_disabled">ADB disabilitato</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Rilevamento in tasca</string>
+  <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
 </resources>

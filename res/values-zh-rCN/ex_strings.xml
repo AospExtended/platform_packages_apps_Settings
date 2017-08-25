@@ -517,4 +517,6 @@
   <string name="adb_enabled">ADB 已启用</string>
   <string name="adb_disabled">ADB 已停用</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">检测设备是否在口袋中</string>
+  <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
 </resources>
