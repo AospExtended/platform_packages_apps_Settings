@@ -74,6 +74,7 @@
 	<item>Traian Simedru</item>
 	<item>Jesus Acosta</item>
 	<item>Aayush Gupta (Impulse)</item>
+	<item>Lorenzo Cano (Lordinal82)</item>
   </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -135,6 +136,7 @@
 	<item>LG-D855</item> <!-- Maintainer: Traian Simedru -->
 	<item>LG-D851</item> <!-- Maintainer: Jesus Acosta -->
 	<item>Asus Zenfone 2 Laser/Selfie</item> <!-- Maintainer: Impulse -->
+	<item>BQ Aquaris E5 4G</item> <!-- Maintainer: Lorenzo Cano (Lordinal82) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -196,6 +198,7 @@
 	<item>https://forum.xda-developers.com/member.php?u=8076012</item> <!-- Traian Simedru -->
 	<item>https://forum.xda-developers.com/member.php?u=7713645</item> <!-- Jesus Acosta -->
 	<item>https://forum.xda-developers.com/member.php?u=6042178</item> <!-- Impulse -->
+	<item>hhttps://forum.xda-developers.com/member.php?u=6849806</item> <!-- Maintainer: Lorenzo Cano (Lordinal82) -->
      </string-array>
 </resources>
 
