@@ -87,9 +87,12 @@ import static org.mockito.Mockito.when;
         })
 public class PowerUsageSummaryTest {
     private static final String[] PACKAGE_NAMES = {"com.app1", "com.app2"};
+    private static final String TIME_LEFT = "2h30min";
     private static final String STUB_STRING = "stub_string";
+    private static final int BATTERY_LEVEL = 55;
     private static final int UID = 123;
     private static final int POWER_MAH = 100;
+    private static final long REMAINING_TIME_US = 100000;
     private static final long TIME_SINCE_LAST_FULL_CHARGE_MS = 120 * 60 * 1000;
     private static final long TIME_SINCE_LAST_FULL_CHARGE_US =
             TIME_SINCE_LAST_FULL_CHARGE_MS * 1000;
@@ -125,9 +128,9 @@ public class PowerUsageSummaryTest {
     @Mock
     private LayoutPreference mBatteryLayoutPref;
     @Mock
-    private TextView mBatteryPercentText;
-    @Mock
     private TextView mSummary1;
+    @Mock
+    private BatteryInfo mBatteryInfo;
     @Mock(answer = Answers.RETURNS_DEEP_STUBS)
     private BatteryStatsHelper mBatteryHelper;
     @Mock
@@ -137,6 +140,7 @@ public class PowerUsageSummaryTest {
     @Mock
     private PreferenceScreen mPreferenceScreen;
 
+    private TextView mBatteryPercentText;
     private List<BatterySipper> mUsageList;
     private Context mRealContext;
     private TestFragment mFragment;
@@ -160,7 +164,7 @@ public class PowerUsageSummaryTest {
         mLastFullChargePref = new PowerGaugePreference(mRealContext);
         mFragment = spy(new TestFragment(mContext));
         mFragment.initFeatureProvider();
-        mBatteryMeterView = new BatteryMeterView(mRealContext);
+        mBatteryMeterView = spy(new BatteryMeterView(mRealContext));
         mBatteryMeterView.mDrawable = new BatteryMeterView.BatteryMeterDrawable(mRealContext, 0);
         doNothing().when(mFragment).restartBatteryStatsLoader();
 
@@ -183,6 +187,7 @@ public class PowerUsageSummaryTest {
         mCellBatterySipper.drainType = BatterySipper.DrainType.CELL;
         mCellBatterySipper.totalPowerMah = POWER_MAH;
 
+        mBatteryPercentText = new TextView(mRealContext);
         when(mBatteryLayoutPref.findViewById(R.id.summary1)).thenReturn(mSummary1);
         when(mBatteryLayoutPref.findViewById(R.id.battery_percent)).thenReturn(mBatteryPercentText);
         when(mBatteryLayoutPref.findViewById(R.id.battery_header_icon))
@@ -202,6 +207,8 @@ public class PowerUsageSummaryTest {
         mFragment.mScreenUsagePref = mScreenUsagePref;
         mFragment.mLastFullChargePref = mLastFullChargePref;
         mFragment.mBatteryUtils = spy(new BatteryUtils(mRealContext));
+
+        mBatteryInfo.batteryLevel = BATTERY_LEVEL;
     }
 
     @Test
@@ -274,6 +281,50 @@ public class PowerUsageSummaryTest {
     }
 
     @Test
+    public void testInitHeaderPreference_initCorrectly() {
+        mFragment.mBatteryLevel = 100;
+
+        mFragment.initHeaderPreference();
+
+        assertThat(mBatteryMeterView.getBatteryLevel()).isEqualTo(100);
+        assertThat(mBatteryPercentText.getText().toString()).isEqualTo("100%");
+    }
+
+    @Test
+    public void testStartBatteryHeaderAnimationIfNecessary_batteryLevelChanged_animationStarted() {
+        final int prevLevel = 100;
+        final int curLevel = 80;
+
+        mFragment.startBatteryHeaderAnimationIfNecessary(mBatteryMeterView, mBatteryPercentText,
+                prevLevel, curLevel);
+
+        assertThat(mBatteryMeterView.getBatteryLevel()).isEqualTo(curLevel);
+        assertThat(mBatteryPercentText.getText().toString()).isEqualTo("80%");
+    }
+
+    @Test
+    public void testOnSaveInstanceState_saveBatteryLevel() {
+        Bundle bundle = new Bundle();
+        mFragment.mBatteryLevel = BATTERY_LEVEL;
+        // mock it to stop crash in getPreferenceScreen
+        doReturn(null).when(mFragment).getPreferenceScreen();
+
+        mFragment.onSaveInstanceState(bundle);
+
+        assertThat(bundle.getInt(PowerUsageSummary.ARG_BATTERY_LEVEL)).isEqualTo(BATTERY_LEVEL);
+    }
+
+    @Test
+    public void testOnActivityCreated_setBatteryLevel() {
+        Bundle bundle = new Bundle();
+        bundle.putInt(PowerUsageSummary.ARG_BATTERY_LEVEL, BATTERY_LEVEL);
+
+        mFragment.onActivityCreated(bundle);
+
+        assertThat(mFragment.mBatteryLevel).isEqualTo(BATTERY_LEVEL);
+    }
+
+    @Test
     public void testExtractKeyFromSipper_typeAPPUidObjectNull_returnPackageNames() {
         mNormalBatterySipper.uidObj = null;
         mNormalBatterySipper.drainType = BatterySipper.DrainType.APP;
@@ -331,6 +382,45 @@ public class PowerUsageSummaryTest {
         mFragment.setUsageSummary(mPreference, mNormalBatterySipper);
 
         assertThat(mPreference.getSummary().toString()).isEqualTo(expectedSummary);
+    }
+
+    @Test
+    public void testUpdatePreference_hasRemainingTime_showRemainingLabel() {
+        mBatteryInfo.remainingLabel = TIME_LEFT;
+
+        mFragment.updateHeaderPreference(mBatteryInfo);
+
+        verify(mSummary1).setText(mBatteryInfo.remainingLabel);
+    }
+
+    @Test
+    public void testUpdatePreference_updateBatteryInfo() {
+        mBatteryInfo.remainingLabel = TIME_LEFT;
+        mBatteryInfo.batteryLevel = BATTERY_LEVEL;
+        mBatteryInfo.discharging = true;
+
+        mFragment.updateHeaderPreference(mBatteryInfo);
+
+        assertThat(mBatteryMeterView.mDrawable.getBatteryLevel()).isEqualTo(BATTERY_LEVEL);
+        assertThat(mBatteryMeterView.mDrawable.getCharging()).isEqualTo(false);
+    }
+
+    @Test
+    public void testUpdatePreference_noRemainingTime_showStatusLabel() {
+        mBatteryInfo.remainingLabel = null;
+
+        mFragment.updateHeaderPreference(mBatteryInfo);
+
+        verify(mSummary1).setText(mBatteryInfo.statusLabel);
+    }
+
+    @Test
+    public void testUpdateHeaderPreference_asyncUpdate_shouldNotCrash() {
+        when(mFragment.getContext()).thenReturn(null);
+        mBatteryInfo.remainingTimeUs = REMAINING_TIME_US;
+
+        //Should not crash
+        mFragment.updateHeaderPreference(mBatteryInfo);
     }
 
     private void testToggleAllApps(final boolean isShowApps) {
