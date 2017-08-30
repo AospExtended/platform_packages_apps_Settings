@@ -180,17 +180,17 @@
     </style>
 
     <style name="Theme.ActionBar.SubSettings" parent="Theme.ActionBar">
-        <item name="android:contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart</item>
+        <item name="android:contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart_custom</item>
     </style>
 
     <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.ActionBar">
-        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
+        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start_custom</item>
         <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
         <item name="switchBarBackgroundColor">?android:attr/colorSecondary</item>
     </style>
 
     <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.ActionBar">
-        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
+        <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start_custom</item>
         <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
         <item name="switchBarBackgroundColor">?android:attr/colorSecondary</item>
     </style>
