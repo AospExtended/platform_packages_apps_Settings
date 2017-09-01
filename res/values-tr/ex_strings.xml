@@ -208,6 +208,10 @@
   <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
   <string name="app_ops_use_body_sensors">vücut Sensörleri</string>
   <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
+  <string name="app_ops_wifi_change">WiFI durumunu değiştir</string>
+  <string name="app_ops_toggle_bluetooth">Bluetooth\'u aç/kapa</string>
+  <string name="app_ops_run_in_background">arkaplanda çalıştır</string>
+  <string name="app_ops_boot_completed">otomatik başlat</string>
   <string name="ambient_display_show_battery_title">Pil Durumu</string>
   <string name="ambient_display_show_battery_summary">Yanma sırasında pil göstergesini göster</string>
   <!-- Battery Saver Settings -->
@@ -215,11 +219,15 @@
   <string name="battery_saver_color_title">Uyarı rengi</string>
   <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda, turuncu durum ve gezinme çubuklarını etkinleştirin</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Kazara ekranın açılmasını önle</string>
+  <string name="proximity_wake_summary">Ekranı açmadan önce yakınlık sensörünü kontrol et</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">UYARI</string>
   <string name="systemui_restart_message">Seçilen ayarın doğru uygulanabilmesi için Sistem arayüzü yeniden başlatılacaktır.</string>
   <string name="restarting_ui">Yeniden Başlatılıyor\u2026</string>
   <string name="print_restart">Yeniden başlat</string>
+  <string name="device_gestures_title">Cihaz hareketleri</string>
+  <string name="device_gestures_summary">Cihazınız için ekstra hareketler ayarlayın</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->
