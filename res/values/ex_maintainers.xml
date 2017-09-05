@@ -16,8 +16,7 @@
 -->
     <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Maintainers -->
-    <string-array name="maintainers_title" translatable="false">
-	<item>Davehimself</item>   
+    <string-array name="maintainers_title" translatable="false">  
         <item>ishubhamsingh</item>
         <item>AmolAmrit</item>
         <item>Anderson Mendes</item>
@@ -67,22 +66,21 @@
         <item>Amy-Clara-Rose (minidude2012)</item>
         <item>Yu Zhu (viscropst)</item>
         <item>Samar Vispute (SamarV-121)</item>
-	      <item>Saikat Halder (Saikatrockz)</item>
+	<item>Saikat Halder (Saikatrockz)</item>
         <item>Isaac Chen (TingyiChen)</item>
-	      <item>Aditya Vipin (AdiV1899)</item>
+	<item>Aditya Vipin (AdiV1899)</item>
         <item>Som Adsul (somadsul)</item>
         <item>Rizky Benggolo (travarilo)</item>
-	      <item>Traian Simedru</item>
-	      <item>Jesus Acosta</item>
-	      <item>Aayush Gupta (Impulse)</item>
-	      <item>Lorenzo Cano (Lordinal82)</item>
+	<item>Traian Simedru</item>
+	<item>Jesus Acosta</item>
+	<item>Aayush Gupta (Impulse)</item>
+	<item>Lorenzo Cano (Lordinal82)</item>
         <item>Subham Padhi (Derklord)</item>
+	<item>Davehimself</item> 
    </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
-	<item>Xiaomi Max(hydrogen)</item> <!-- Maintainer: Davehimself -->
-	<item>Xiaomi Max(helium)</item> <!-- Maintainer: Davehimself -->
         <item>Moto G 2015 (osprey), Moto G TE (merlin)</item> <!-- Maintainer: ishubhamsingh -->
         <item>Redmi Note 3 (kenzo)</item> <!-- Maintainer: AmolAmrit -->
         <item>Moto X 2014 (victara), Moto E (condor)</item> <!-- Maintainer: Anderson Mendes -->
@@ -132,21 +130,21 @@
         <item>Nexus 6P (angler)</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
         <item>Xiaomi Mi 4c (libra)</item> <!-- Maintainer: Yu Zhu (viscropst) -->
         <item>Moto E3 Power (taido_row),Google Android One (1st gen.) (sprout4),Google Android One (1st gen.) (sprout8)</item> <!-- Maintainer: Samar Vispute (SamarV-121) --> 
-	      <item>YU Yureka Black (garlic)</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->
+	<item>YU Yureka Black (garlic)</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->
         <item>Xiaomi Redmi 4[4X] (santoni) </item> <!-- Maintainer: Isaac Chen (TingyiChen) -->
-	      <item>Sony Xperia SP (huashan)</item> <!-- Maintainer: Aditya Vipin (AdiV1899) -->
-	      <item>Samsung Galaxy S5 (k3gxx)</item> <!-- Maintainer: Som Adsul (somadsul) -->
-	      <item>Xiaomi Mi 3/4 (cancro)</item> <!-- Maintainer: Rizky Benggolo (travarilo) -->
-	      <item>LG-D855</item> <!-- Maintainer: Traian Simedru -->
-	      <item>LG-D851</item> <!-- Maintainer: Jesus Acosta -->
-	      <item>Asus Zenfone 2 Laser/Selfie</item> <!-- Maintainer: Impulse -->
-	      <item>BQ Aquaris E5 4G</item> <!-- Maintainer: Lorenzo Cano (Lordinal82) -->
+	<item>Sony Xperia SP (huashan)</item> <!-- Maintainer: Aditya Vipin (AdiV1899) -->
+	<item>Samsung Galaxy S5 (k3gxx)</item> <!-- Maintainer: Som Adsul (somadsul) -->
+	<item>Xiaomi Mi 3/4 (cancro)</item> <!-- Maintainer: Rizky Benggolo (travarilo) -->
+	<item>LG-D855</item> <!-- Maintainer: Traian Simedru -->
+	<item>LG-D851</item> <!-- Maintainer: Jesus Acosta -->
+	<item>Asus Zenfone 2 Laser/Selfie</item> <!-- Maintainer: Impulse -->
+	<item>BQ Aquaris E5 4G</item> <!-- Maintainer: Lorenzo Cano (Lordinal82) -->
         <item>Lenovo P2 (Kuntao)</item> <!-- Maintainer: Subham Padhi (DerkLord) -->
+	<item>Xiaomi Max(helium),Xiaomi Max(hydrogen)</item> <!-- Maintainer: Davehimself -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
     <string-array name="maintainers_url" translatable="false">   
-	<item>https://forum.xda-developers.com/member.php?u=8001680</item> <!-- Maintainer: Davehimself -->
         <item>https://forum.xda-developers.com/member.php?u=5566914</item> <!-- Maintainer: ishubhamsingh -->
         <item>https://forum.xda-developers.com/member.php?u=5615686</item> <!-- Maintainer: AmolAmrit -->
         <item>https://forum.xda-developers.com/member.php?u=5696327</item> <!-- Maintainer: Anderson Mendes -->
@@ -196,16 +194,17 @@
         <item>https://forum.xda-developers.com/member.php?u=5545311</item> <!-- Maintainer: Amy-Clara-Rose (minidude2012) -->
         <item>https://forum.xda-developers.com/member.php?u=8142767</item> <!-- Maintainer: Yu Zhu (viscropst) -->
         <item>https://forum.xda-developers.com/member.php?u=6868004</item> <!-- Maintainer: Samar Vispute (SamarV-121) -->     
-	      <item>https://forum.xda-developers.com/member.php?u=5942628</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->
+	<item>https://forum.xda-developers.com/member.php?u=5942628</item> <!-- Maintainer: Saikat Halder (Saikatrockz) -->
         <item>https://forum.xda-developers.com/member.php?u=7500669</item> <!-- Maintainer: Isaac Chen (TingyiChen) -->
-	      <item>https://forum.xda-developers.com/member.php?u=5824779</item> <!-- Maintainer: Aditya Vipin (AdiV1899) -->
-	      <item>https://forum.xda-developers.com/member.php?u=5693847</item> <!-- Maintainer: Som Adsul (somadsul) -->
-	      <item>https://forum.xda-developers.com/member.php?u=6331651</item> <!-- Maintainer: Rizky Benggolo (travarilo) -->
-	      <item>https://forum.xda-developers.com/member.php?u=8076012</item> <!-- Traian Simedru -->
-	      <item>https://forum.xda-developers.com/member.php?u=7713645</item> <!-- Jesus Acosta -->
-	      <item>https://forum.xda-developers.com/member.php?u=6042178</item> <!-- Impulse -->
-	      <item>https://forum.xda-developers.com/member.php?u=6849806</item> <!-- Maintainer: Lorenzo Cano (Lordinal82) -->
-        <item>https://forum.xda-developers.com/member.php?u=7681940</item> <!-- Maintainer: Subham Padhi (Derklord) --> 
+	<item>https://forum.xda-developers.com/member.php?u=5824779</item> <!-- Maintainer: Aditya Vipin (AdiV1899) -->
+	<item>https://forum.xda-developers.com/member.php?u=5693847</item> <!-- Maintainer: Som Adsul (somadsul) -->
+	<item>https://forum.xda-developers.com/member.php?u=6331651</item> <!-- Maintainer: Rizky Benggolo (travarilo) -->
+	<item>https://forum.xda-developers.com/member.php?u=8076012</item> <!-- Traian Simedru -->
+	<item>https://forum.xda-developers.com/member.php?u=7713645</item> <!-- Jesus Acosta -->
+	<item>https://forum.xda-developers.com/member.php?u=6042178</item> <!-- Impulse -->
+	<item>https://forum.xda-developers.com/member.php?u=6849806</item> <!-- Maintainer: Lorenzo Cano (Lordinal82) -->
+        <item>https://forum.xda-developers.com/member.php?u=7681940</item> <!-- Maintainer: Subham Padhi (Derklord) -->
+	<item>https://forum.xda-developers.com/member.php?u=8001680</item> <!-- Maintainer: Davehimself -->
      </string-array>
 </resources>
 
