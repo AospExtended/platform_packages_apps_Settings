@@ -17,6 +17,7 @@
     <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Maintainers -->
     <string-array name="maintainers_title" translatable="false">
+	<item>Davehimself</item>   
         <item>ishubhamsingh</item>
         <item>AmolAmrit</item>
         <item>Anderson Mendes</item>
@@ -80,6 +81,8 @@
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
+	<item>Xiaomi Max(hydrogen)</item> <!-- Maintainer: Davehimself -->
+	<item>Xiaomi Max(helium)</item> <!-- Maintainer: Davehimself -->
         <item>Moto G 2015 (osprey), Moto G TE (merlin)</item> <!-- Maintainer: ishubhamsingh -->
         <item>Redmi Note 3 (kenzo)</item> <!-- Maintainer: AmolAmrit -->
         <item>Moto X 2014 (victara), Moto E (condor)</item> <!-- Maintainer: Anderson Mendes -->
@@ -101,7 +104,7 @@
         <item>Oneplus 3/3T (oneplus3), Oneplus 2 (oneplus2), Xiaomi Redmi 3S/Prime/3X (land) </item> <!-- Maintainer: Prasoon Mehra (phantom-1402) -->
         <item>Lenovo A6000</item> <!-- Maintainer: Harshit Jain (dev_harsh1998) -->
         <item>MI 4I</item> <!-- Maintainer: Anand Roy -->
-        <item>Huawei kiwi,Xiaomi Max(hydrogen)</item> <!-- Maintainer: jsbeyond (KAOKAO) -->  
+        <item>Huawei kiwi</item> <!-- Maintainer: jsbeyond (KAOKAO) -->  
         <item>Xiaomi Redmi 1S(armani)</item> <!-- Maintainer: Vedant Kamlaskar -->
         <item>Lenovo Vibe P1(p1a42), OnePlus 5 (cheeseburger) </item> <!-- Maintainer: Devansh Bajaj -->
         <item>Samsung Galaxy S7 Flat/Edge, Galaxy TabS2 8.0 Wifi/Lte, Galaxy TabS2 9.7 Wifi/Lte</item> <!-- Maintainer: Alexander Gemsa -->
@@ -142,7 +145,8 @@
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
-    <string-array name="maintainers_url" translatable="false">
+    <string-array name="maintainers_url" translatable="false">   
+	<item>https://forum.xda-developers.com/member.php?u=8001680</item> <!-- Maintainer: Davehimself -->
         <item>https://forum.xda-developers.com/member.php?u=5566914</item> <!-- Maintainer: ishubhamsingh -->
         <item>https://forum.xda-developers.com/member.php?u=5615686</item> <!-- Maintainer: AmolAmrit -->
         <item>https://forum.xda-developers.com/member.php?u=5696327</item> <!-- Maintainer: Anderson Mendes -->
