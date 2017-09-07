@@ -27,7 +27,17 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: [
+        "src/**/*.java",
+        "Extensions/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages org.aospextended.extensions"],
+
+    resource_dirs: [
+        "res",
+        "Extensions/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
