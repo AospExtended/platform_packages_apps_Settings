@@ -240,4 +240,7 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    // AospExtended Additions.
+    public static class ExtensionsSettingsActivity extends SettingsActivity {}
+
 }
