@@ -178,4 +178,7 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class SupportDashboardActivity extends SettingsActivity {}
 
+    // AospExtended Additions.
+    public static class ExtensionsSettingsActivity extends SettingsActivity {}
+
 }
