@@ -80,7 +80,7 @@ public class BuildNumberPreferenceController extends PreferenceController
         final Preference preference = screen.findPreference(KEY_BUILD_NUMBER);
         if (preference != null) {
             try {
-                preference.setSummary(Build.DISPLAY);
+                preference.setSummary(Build.ID);
                 preference.setEnabled(true);
             } catch (Exception e) {
                 preference.setSummary(R.string.device_info_default);
