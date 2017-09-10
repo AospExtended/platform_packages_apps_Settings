@@ -31,4 +31,36 @@
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- About AospExtended -->
+    <string name="aex_about_info">About us</string>
+    <string name="aex_about_summary">Our introduction and our team</string>
+    <string name="aex_about_info_summary">AospExtended is an AOSP based rom which provides stock UI/UX with various customisations features along with the Substratum theme engine. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.&#35;BeExtended</string>
+    <string name="dev_info">About AospExtended</string>
+    <string name="leads">Team Leads</string>
+    <string name="github">Github</string>
+    <string name="github_description">View our source code</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Join our G+ community</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Join out Telegram discussion group</string>
+    <string name="web">Download Center</string>
+    <string name="web_description">Visit our download portal</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="dev_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="dev1_description">Owner/Lead Developer, Osprey,Merlin Maintainer</string>
+    <string name="dev_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="dev2_description">Developer</string>
+    <string name="dev_3">Amol Amrit</string>
+    <string name="dev3_description">Telegram/G+ Moderator, Kenzo Maintainer</string>
+    <string name="dev_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="dev4_description">Developer</string>
+    <string name="designers">Designers</string>
+    <string name="translators">Translators</string>
+    <string name="dev_5">Jesus R &#40;KrapK&#41;</string>
+    <string name="dev5_description">Wallapapers,Bootanimations</string>
+    <string name="dev_6">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="dev6_description">Thread Banners,Logos,Wallpapers</string>
+    <string name="dev_7">Savio &#40;Wizper99&#41;</string>
+    <string name="dev7_description">QS/Fling logos</string>
+
 </resources>
