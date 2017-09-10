@@ -97,6 +97,12 @@
         android:title="@string/ambient_display_screen_title"
         android:fragment="com.android.settings.display.AmbientDisplaySettings" />
 
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="doze_always_on"
+        android:title="@string/doze_always_on_title"
+        android:summary="@string/doze_always_on_summary"
+        android:defaultValue="false" />
+
     <!-- Hide night mode for now
     <ListPreference
         android:key="night_mode"
