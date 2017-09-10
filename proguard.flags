@@ -69,3 +69,5 @@
 
 # Custom rules
 -keep class com.google.android.settings.** { *; }
+
+-dontwarn okio.**
