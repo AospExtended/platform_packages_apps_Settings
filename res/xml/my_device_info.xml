@@ -21,6 +21,14 @@
     android:key="my_device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <!-- About us -->
+    <Preference
+        android:key="aex_about_info"
+        android:order="1"
+        android:title="@string/aex_about_info"
+        android:summary="@string/aex_about_summary"
+        android:fragment="com.android.settings.AboutUs" />
+
     <PreferenceCategory
         android:key="basic_info_category"
         android:selectable="false"
@@ -29,7 +37,7 @@
         <!-- Device name -->
         <com.android.settings.widget.ValidatedEditTextPreference
             android:key="device_name"
-            android:order="1"
+            android:order="2"
             android:title="@string/my_device_info_device_name_preference_title"
             android:summary="@string/summary_placeholder"
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
@@ -38,7 +46,7 @@
         <!-- Account name -->
         <Preference
             android:key="branded_account"
-            android:order="2"
+            android:order="3"
             android:title="@string/my_device_info_account_preference_title"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
@@ -47,7 +55,7 @@
         <!-- Phone number
         <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
             android:key="phone_number"
-            android:order="3"
+            android:order="4"
             android:title="@string/status_number"
             android:summary="@string/summary_placeholder"
             android:selectable="false"
@@ -59,12 +67,13 @@
         android:title="@string/my_device_info_legal_category_title">
 
         <!-- Legal information -->
+<!--
         <Preference
             android:key="legal_container"
             android:order="15"
             android:title="@string/legal_information"
             android:fragment="com.android.settings.LegalSettings"/>
-
+-->
         <!-- Regulatory labels -->
         <Preference
             android:key="regulatory_info"
