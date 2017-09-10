@@ -74,6 +74,8 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "VendorSupport-Libs",
+        "okhttpcustom",
+        "okio",
     ],
 
     libs: [
@@ -129,4 +131,14 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+java_import {
+    name: "okhttpcustom",
+    jars: ["libs/okhttp-3.8.1.jar"],
+}
+
+java_import {
+    name: "okio",
+    jars: ["libs/okio-1.13.0.jar"],
 }
