@@ -23,7 +23,7 @@
         android:key="aex_about_info"
         android:title="@string/aex_about_info"
 	android:summary="@string/aex_about_summary"
-        android:fragment="com.android.settings.extended.AboutUs" />
+        android:fragment="com.android.settings.AboutUs" />
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
