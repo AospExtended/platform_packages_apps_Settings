@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/aex_about_info">
+
+<PreferenceCategory
+              android:key="about"
+              android:title="@string/dev_info" >
+
+        <Preference
+    android:summary="@string/aex_about_info_summary" >
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://www.aospextended.com/" />
+      </Preference>
+
+        <Preference
+            android:title="@string/github"
+    android:summary="@string/github_description"
+    android:icon="@drawable/ic_github" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://github.com/AospExtended" />
+        </Preference>
+
+        <Preference
+            android:title="@string/telegram"
+    android:summary="@string/telegram_description"
+    android:icon="@drawable/ic_telegram" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://telegram.me/aospextended" />
+        </Preference>
+
+        <Preference
+            android:title="@string/web"
+    android:summary="@string/web_description"
+    android:icon="@drawable/ic_web" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://downloads.aospextended.com/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/help_translate"
+    android:summary="@string/help_translate_description"
+    android:icon="@drawable/ic_trans" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://translate.aospextended.com/" />
+        </Preference>
+
+     </PreferenceCategory>
+
+<PreferenceCategory
+              android:key="leads"
+              android:title="@string/leads" >
+
+        <Preference
+            android:title="@string/team_1"
+    android:summary="@string/team1_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/ishubhamsingh" />
+        </Preference>
+
+       <Preference
+            android:title="@string/team_2"
+    android:summary="@string/team2_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/FireLord" />
+        </Preference>
+
+       <Preference
+            android:title="@string/team_3"
+    android:summary="@string/team3_description"
+    android:icon="@drawable/ic_devs" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/AmolAmrit" />
+        </Preference>
+
+       <Preference
+            android:title="@string/team_4"
+    android:summary="@string/team4_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/jhenrique09" />
+      </Preference>
+      
+     <Preference
+            android:title="@string/team_5"
+    android:summary="@string/team5_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/allstargaurav" />
+      </Preference>
+
+     <Preference
+            android:title="@string/team_6"
+    android:summary="@string/team6_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/arghyac35" />
+      </Preference>
+
+     <Preference
+            android:title="@string/team_7"
+    android:summary="@string/team7_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/sb6596" />
+      </Preference>
+
+     <Preference
+            android:title="@string/team_8"
+    android:summary="@string/team8_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/theimpulson" />
+      </Preference>
+
+     <Preference
+        android:title="@string/team_9"
+        android:summary="@string/team9_description"
+        android:icon="@drawable/ic_devs">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://github.com/SagarMakhar" />
+     </Preference>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="designers"
+              android:title="@string/designers" >
+
+       <Preference
+            android:title="@string/designer_1"
+    android:summary="@string/designer1_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://github.com/Aliencreature7" />
+      </Preference>
+
+       <Preference
+            android:title="@string/designer_2"
+    android:summary="@string/designer2_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://github.com/Wizper99" />
+      </Preference>
+
+       <Preference
+            android:title="@string/designer_3"
+    android:summary="@string/designer3_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://plus.google.com/100866392291383803831" />
+      </Preference>
+
+      <Preference
+            android:title="@string/designer_4"
+    android:summary="@string/designer4_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/+HarshV23" />
+     </Preference>
+
+
+      <Preference
+            android:title="@string/designer_5"
+    android:summary="@string/designer5_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/allstargaurav" />
+     </Preference>
+
+     <Preference
+           android:title="@string/designer_6"
+           android:summary="@string/designer6_description"
+           android:icon="@drawable/ic_design">
+     <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://github.com/AndroBuddy" />
+     </Preference>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="maintainers"
+              android:title="@string/maintainers" >
+
+        <Preference
+        android:key="maintainers_fragment"
+        android:title="@string/maintainers_title"
+ 	android:summary="@string/maintainers_summary"
+        android:fragment="com.android.settings.Maintainers" />
+
+</PreferenceCategory>
+
+</PreferenceScreen>
