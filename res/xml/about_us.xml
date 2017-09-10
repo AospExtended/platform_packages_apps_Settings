@@ -1,14 +1,12 @@
-
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 AospExtended ROM Project
+<!-- Copyright (C) 2017 AospExtended ROM Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
           http://www.apache.org/licenses/LICENSE-2.0
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-implied.
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
@@ -25,7 +23,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:summary="@string/aex_about_info_summary" >
             <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/communities/106726906578669931141" />
+               android:data="http://plus.google.com/communities/106726906578669931141" />
       </Preference>
 
         <Preference
@@ -34,7 +32,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_github" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://github.com/AospExtended" />
+               android:data="http://github.com/AospExtended" />
         </Preference>
 
         <Preference
@@ -43,7 +41,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_gplus" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/communities/106726906578669931141" />
+               android:data="http://plus.google.com/communities/106726906578669931141" />
         </Preference>
 
         <Preference
@@ -52,16 +50,34 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_telegram" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://telegram.me/aospextendedgroup" />
+               android:data="http://telegram.me/aospextended" />
         </Preference>
 
         <Preference
             android:title="@string/web"
-    android:summary="@string/web"
+    android:summary="@string/web_description"
     android:icon="@drawable/ic_web" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://downloads.aospextended.com/" />
+               android:data="http://downloads.aospextended.com/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/help_translate"
+    android:summary="@string/help_translate_description"
+    android:icon="@drawable/ic_trans" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://translate.aospextended.com/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/walls"
+    android:summary="@string/walls_description"
+    android:icon="@drawable/ic_walls" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://aospextended.imgur.com/" />
         </Preference>
 
      </PreferenceCategory>
@@ -71,31 +87,41 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:title="@string/leads" >
 
         <Preference
-            android:title="@string/dev_1"
-    android:summary="@string/dev1_description"
+            android:title="@string/team_1"
+    android:summary="@string/team1_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/+shubhamsingh" />
+               android:data="http://plus.google.com/+shubhamsingh" />
         </Preference>
 
        <Preference
-            android:title="@string/dev_2"
-    android:summary="@string/dev2_description"
+            android:title="@string/team_2"
+    android:summary="@string/team2_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://forum.xda-developers.com/member.php?u=6257538" />
+               android:data="http://forum.xda-developers.com/member.php?u=6257538" />
         </Preference>
 
        <Preference
-            android:title="@string/dev_3"
-    android:summary="@string/dev3_description"
+            android:title="@string/team_3"
+    android:summary="@string/team3_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/+AmolAmrit" />
+               android:data="http://plus.google.com/+AmolAmrit" />
         </Preference>
+
+       <Preference
+            android:title="@string/team_4"
+    android:summary="@string/team4_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://forum.xda-developers.com/member.php?u=6519039" />
+      </Preference>
+
 
 </PreferenceCategory>
 
@@ -104,30 +130,30 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:title="@string/designers" >
 
        <Preference
-            android:title="@string/dev_5"
-    android:summary="@string/dev5_description"
+            android:title="@string/designer_1"
+    android:summary="@string/designer1_description"
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/100866392291383803831" />
+               android:data="http://github.com/Aliencreature7" />
       </Preference>
 
        <Preference
-            android:title="@string/dev_6"
-    android:summary="@string/dev6_description"
+            android:title="@string/designer_2"
+    android:summary="@string/designer2_description"
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://github.com/Aliencreature7" />
+               android:data="http://github.com/Wizper99" />
       </Preference>
 
        <Preference
-            android:title="@string/dev_7"
-    android:summary="@string/dev7_description"
+            android:title="@string/designer_3"
+    android:summary="@string/designer3_description"
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://github.com/Wizper99" />
+               android:data="http://plus.google.com/100866392291383803831" />
       </Preference>
 
 </PreferenceCategory>
@@ -135,7 +161,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <PreferenceCategory
               android:key="maintainers"
               android:title="@string/maintainers" >
-
 </PreferenceCategory>
 
 </PreferenceScreen>
