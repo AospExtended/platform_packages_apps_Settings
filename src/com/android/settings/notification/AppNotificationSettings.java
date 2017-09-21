@@ -55,6 +55,8 @@ import com.android.settingslib.RestrictedSwitchPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
+import static android.provider.Settings.System.NOTIFICATION_LIGHT_PULSE;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -174,6 +176,13 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 mCustomLight.setEnabled(lights);
                 mLightOnTime.setEnabled(lights);
                 mLightOffTime.setEnabled(lights);
+                //enable NOTIFICATION_LIGHT_PULSE if the user wants to enable notification light for an app
+                //if he disables mLights, don't do anything (other apps may have it still enabled)
+                if (lights && Settings.System.getInt(mContext.getContentResolver(),
+                        NOTIFICATION_LIGHT_PULSE, 1) == 0) {
+                    Settings.System.putInt(mContext.getContentResolver(),
+                        NOTIFICATION_LIGHT_PULSE, 1);
+                }
                 return true;
             }
         });
