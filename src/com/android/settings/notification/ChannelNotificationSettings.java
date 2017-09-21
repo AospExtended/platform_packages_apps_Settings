@@ -55,6 +55,8 @@ import static android.app.NotificationManager.IMPORTANCE_UNSPECIFIED;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
+import static android.provider.Settings.System.NOTIFICATION_LIGHT_PULSE;
+
 public class ChannelNotificationSettings extends NotificationSettingsBase {
     private static final String TAG = "ChannelSettings";
 
@@ -235,6 +237,13 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
                 mCustomLight.setEnabled(lights);
                 mLightOnTime.setEnabled(lights);
                 mLightOffTime.setEnabled(lights);
+                //enable NOTIFICATION_LIGHT_PULSE if the user wants to enable notification light for an app
+                //if he disables mLights, don't do anything (other apps may have it still enabled)
+                if (lights && Settings.System.getInt(mContext.getContentResolver(),
+                        NOTIFICATION_LIGHT_PULSE, 1) == 0) {
+                    Settings.System.putInt(mContext.getContentResolver(),
+                        NOTIFICATION_LIGHT_PULSE, 1);
+                }
                 return true;
             }
         });
@@ -440,8 +449,8 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
                 .getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed)) {
             return false;
         }
-        return Settings.System.getInt(getContentResolver(),
-                Settings.System.NOTIFICATION_LIGHT_PULSE, 1) == 1;
+        return /*Settings.System.getInt(getContentResolver(),
+                Settings.System.NOTIFICATION_LIGHT_PULSE, 1) == 1;*/true;
     }
 
     boolean hasValidSound() {
