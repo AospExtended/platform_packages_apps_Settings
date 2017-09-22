@@ -40,7 +40,9 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import static com.android.settings.applications.AppHeaderController.ActionType;
 import com.android.settings.core.InstrumentedPreferenceFragment;
+import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.Utils;
@@ -64,10 +66,18 @@ public class AppOpsDetails extends InstrumentedPreferenceFragment {
     // Utility method to set application label and icon.
     private void setAppLabelAndIcon(PackageInfo pkgInfo) {
         final View appSnippet = mRootView.findViewById(R.id.app_snippet);
+        final Activity context = getActivity();
         CharSequence label = mPm.getApplicationLabel(pkgInfo.applicationInfo);
         Drawable icon = mPm.getApplicationIcon(pkgInfo.applicationInfo);
-        setupAppSnippet(appSnippet, label, icon,
-                pkgInfo != null ? pkgInfo.versionName : null);
+        CharSequence version = getString(R.string.version_text, pkgInfo.versionName);
+        FeatureFactory.getFactory(context)
+                .getApplicationFeatureProvider(context)
+                .newAppHeaderController(this, appSnippet)
+                .setLabel(label)
+                .setIcon(icon)
+                .setSummary(version)
+                .setButtonActions(ActionType.ACTION_APP_INFO, ActionType.ACTION_NONE)
+                .done(context, true /* rebindActions */);
     }
 
     private String retrieveAppEntry() {
