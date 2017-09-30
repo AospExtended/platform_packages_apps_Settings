@@ -49,6 +49,12 @@
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description" />
 
+    <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+        android:key="wake_when_plugged_or_unplugged"
+        android:title="@string/wakeup_when_plugged_unplugged_title"
+        android:summary="@string/wakeup_when_plugged_unplugged_summary"
+        android:defaultValue="true" />
+
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
