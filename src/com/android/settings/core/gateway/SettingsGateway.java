@@ -130,6 +130,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import org.aospextended.extensions.PartsFragment;
+import org.aospextended.extensions.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -250,6 +251,7 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             PartsFragment.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
