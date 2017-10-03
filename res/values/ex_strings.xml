@@ -279,6 +279,9 @@
     <string name="theme_applied_toast">Theme applied!</string>
     <string name="ui_style_applied_toast">UI style applied!</string>
 
+    <string name="battery_image">Battery image</string>
+    <string name="battery_image_description">Show battery image in status bar</string>
+
 </resources>
 
 
