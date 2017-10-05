@@ -129,7 +129,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
                 .setSuggestions(suggestions)
                 .setCategories(categories)
                 .setSuggestionMode(suggestionMode)
-                .build();
+                .build(mContext);
     }
 
     public List<Tile> getSuggestions() {
@@ -160,7 +160,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         mDashboardData = new DashboardData.Builder(prevData)
                 .setSuggestions(suggestions)
                 .setCategories(categories)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
         List<Tile> shownSuggestions = null;
         switch (mDashboardData.getSuggestionMode()) {
@@ -188,7 +188,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         Log.d(TAG, "adapter setCategory called");
         mDashboardData = new DashboardData.Builder(prevData)
                 .setCategories(category)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
     }
 
@@ -198,7 +198,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         mDashboardData = new DashboardData.Builder(prevData)
                 .setConditions(conditions)
                 .setExpandedCondition(null)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
     }
 
@@ -328,7 +328,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         final DashboardData prevData = mDashboardData;
         mDashboardData = new DashboardData.Builder(prevData)
                 .setExpandedCondition(condition)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
     }
 
@@ -348,7 +348,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         final DashboardData prevData = mDashboardData;
         mDashboardData = new DashboardData.Builder(prevData)
                 .setSuggestions(suggestions)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
     }
 
@@ -399,7 +399,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
             DashboardData prevData = mDashboardData;
             mDashboardData = new DashboardData.Builder(prevData)
                     .setSuggestionMode(suggestionMode)
-                    .build();
+                    .build(mContext);
             notifyDashboardDataChanged(prevData);
         });
     }
