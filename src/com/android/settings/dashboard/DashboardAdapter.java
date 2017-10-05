@@ -141,7 +141,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
                 .setSuggestions(suggestions)
                 .setCategories(categories)
                 .setSuggestionConditionMode(suggestionConditionMode)
-                .build();
+                .build(mContext);
     }
 
     public List<Tile> getSuggestions() {
@@ -179,7 +179,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
                 .setSuggestions(suggestions.subList(0,
                         Math.min(suggestions.size(), MAX_SUGGESTION_TO_SHOW)))
                 .setCategories(categories)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
         List<Tile> shownSuggestions = null;
         final int mode = mDashboardData.getSuggestionConditionMode();
@@ -205,7 +205,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         Log.d(TAG, "adapter setCategory called");
         mDashboardData = new DashboardData.Builder(prevData)
                 .setCategories(category)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
     }
 
@@ -214,7 +214,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         Log.d(TAG, "adapter setConditions called");
         mDashboardData = new DashboardData.Builder(prevData)
                 .setConditions(conditions)
-                .build();
+                .build(mContext);
         notifyDashboardDataChanged(prevData);
     }
 
@@ -443,7 +443,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
             DashboardData prevData = mDashboardData;
             final boolean wasCollapsed = curMode == DashboardData.HEADER_MODE_COLLAPSED;
             mDashboardData = new DashboardData.Builder(prevData)
-                .setSuggestionConditionMode(nextMode).build();
+                .setSuggestionConditionMode(nextMode).build(mContext);
             notifyDashboardDataChanged(prevData);
             if (wasCollapsed) {
                 mRecyclerView.scrollToPosition(SUGGESTION_CONDITION_HEADER_POSITION);
