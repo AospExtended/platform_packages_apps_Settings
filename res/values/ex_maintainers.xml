@@ -79,6 +79,7 @@
         <item>Subham Padhi (Derklord)</item>
 	<item>Davehimself</item> 
 	<item>Huzaifa Dhapai (Xaif)</item>
+	<item>Vineeth Penugonda (pvineeth97)</item>
    </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -145,6 +146,7 @@
         <item>Lenovo P2 (Kuntao)</item> <!-- Maintainer: Subham Padhi (DerkLord) -->
 	<item>Xiaomi Max(helium),Xiaomi Max(hydrogen)</item> <!-- Maintainer: Davehimself -->
 	<item>Nexus 5 (hammerhead)</item> <!-- Maintainer: Huzaifa Dhapai (Xaif) -->
+	<item>LG K10 2016 (m216)</item> <!-- Maintainer: Vineeth Penugonda (pvineeth97) -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
@@ -211,6 +213,7 @@
         <item>https://forum.xda-developers.com/member.php?u=7681940</item> <!-- Maintainer: Subham Padhi (Derklord) -->
 	<item>https://forum.xda-developers.com/member.php?u=8001680</item> <!-- Maintainer: Davehimself -->
 	<item>https://forum.xda-developers.com/member.php?u=5689782</item> <!-- Maintainer: Huzaifa Dhapai (Xaif) -->
+	<item>https://forum.xda-developers.com/member.php?u=7045959</item> <!-- Maintainer: Vineeth Penugonda (pvineeth97) -->
      </string-array>
 </resources>
 
