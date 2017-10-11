@@ -57,6 +57,8 @@ public class SoundSettings extends DashboardFragment {
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
 
     private final VolumePreferenceCallback mVolumeCallback = new VolumePreferenceCallback();
+    private final IncreasingRingVolumePreferenceCallback mIncreasingRingVolumeCallback =
+        new IncreasingRingVolumePreferenceCallback();
     private final H mHandler = new H();
 
     private RingtonePreference mRequestPreference;
@@ -100,6 +102,7 @@ public class SoundSettings extends DashboardFragment {
     public void onPause() {
         super.onPause();
         mVolumeCallback.stopSample();
+        mIncreasingRingVolumeCallback.stopSample();
     }
 
     @Override
@@ -135,7 +138,8 @@ public class SoundSettings extends DashboardFragment {
 
     @Override
     protected List<AbstractPreferenceController> getPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context, this, mVolumeCallback, getLifecycle());
+        return buildPreferenceControllers(context, this, mVolumeCallback,
+                mIncreasingRingVolumeCallback, getLifecycle());
     }
 
     @Override
@@ -164,6 +168,7 @@ public class SoundSettings extends DashboardFragment {
             if (mCurrent != null && mCurrent != sbv) {
                 mCurrent.stopSample();
             }
+            mIncreasingRingVolumeCallback.stopSample();
             mCurrent = sbv;
             if (mCurrent != null) {
                 mHandler.removeMessages(H.STOP_SAMPLE);
@@ -187,6 +192,26 @@ public class SoundSettings extends DashboardFragment {
         }
     }
 
+    final class IncreasingRingVolumePreferenceCallback implements
+            IncreasingRingVolumePreference.Callback {
+        private IncreasingRingVolumePreference mPlayingPref;
+
+        @Override
+        public void onSampleStarting(IncreasingRingVolumePreference pref) {
+            mPlayingPref = pref;
+            mVolumeCallback.stopSample();
+            mHandler.removeMessages(H.STOP_SAMPLE);
+            mHandler.sendEmptyMessageDelayed(H.STOP_SAMPLE, SAMPLE_CUTOFF);
+        }
+
+        public void stopSample() {
+            if (mPlayingPref != null) {
+                mPlayingPref.stopSample();
+                mPlayingPref = null;
+            }
+        }
+    };
+
     // === Callbacks ===
 
 
@@ -202,6 +227,7 @@ public class SoundSettings extends DashboardFragment {
             switch (msg.what) {
                 case STOP_SAMPLE:
                     mVolumeCallback.stopSample();
+                    mIncreasingRingVolumeCallback.stopSample();
                     break;
             }
         }
@@ -209,6 +235,7 @@ public class SoundSettings extends DashboardFragment {
 
     private static List<AbstractPreferenceController> buildPreferenceControllers(Context context,
             SoundSettings fragment, VolumeSeekBarPreference.Callback callback,
+            IncreasingRingVolumePreference.Callback incCallback,
             Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new ZenModePreferenceController(context));
@@ -221,6 +248,9 @@ public class SoundSettings extends DashboardFragment {
         controllers.add(new MediaVolumePreferenceController(context, callback, lifecycle));
         controllers.add(new NotificationVolumePreferenceController(context, callback, lifecycle));
         controllers.add(new RingVolumePreferenceController(context, callback, lifecycle));
+        controllers.add(new IncreasingRingPreferenceController(context));
+        controllers.add(new IncreasingRingVolumePreferenceController(
+                    context, incCallback, lifecycle));
 
         // === Phone & notification ringtone ===
         controllers.add(new PhoneRingtonePreferenceController(context));
@@ -301,7 +331,7 @@ public class SoundSettings extends DashboardFragment {
                 @Override
                 public List<AbstractPreferenceController> getPreferenceControllers(Context context) {
                     return buildPreferenceControllers(context, null /* fragment */,
-                            null /* callback */, null /* lifecycle */);
+                            null /* callback */, null /* incCallback */, null /* lifecycle */);
                 }
 
                 @Override
