@@ -53,6 +53,7 @@
   <!-- Disable Battery Saver Warning Color -->
   <!-- Proximity wake -->
   <!-- SystemUI restart prompt -->
+  <string name="print_restart">Restartēt</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->

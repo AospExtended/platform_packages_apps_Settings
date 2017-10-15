@@ -30,39 +30,39 @@
   <string name="vendor_version">Versi vendor</string>
   <string name="vendor_version_default">Tidak diketahui</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Password cadangan desktop</string>
+  <string name="local_backup_password_title">Sandi cadangan desktop</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Atur Volume</string>
-  <string name="volume_steps_alarm_title">Atur Volume: Alarm</string>
-  <string name="volume_steps_dtmf_title">Alur Volume: DTMF</string>
-  <string name="volume_steps_music_title">Alur Volume: Music</string>
-  <string name="volume_steps_notification_title">Alur Volume: Pemberitahuan</string>
-  <string name="volume_steps_ring_title">Alur Volume: Dering</string>
-  <string name="volume_steps_system_title">Langkah-langkah volume: sistem</string>
-  <string name="volume_steps_voice_call_title">Alur Volume: Panggilan suara</string>
+  <string name="volume_steps_title">Tingkat volume</string>
+  <string name="volume_steps_alarm_title">Tingkat volume: Alarm</string>
+  <string name="volume_steps_dtmf_title">Tingkat volume: DTMF</string>
+  <string name="volume_steps_music_title">Tingkat volume: Musik</string>
+  <string name="volume_steps_notification_title">Tingkat volume: Notifikasi</string>
+  <string name="volume_steps_ring_title">Tingkat volume: Dering</string>
+  <string name="volume_steps_system_title">Tingkat volume: Sistem</string>
+  <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan suara</string>
   <string name="volume_steps_reset">Setel ulang</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Suara penyesuaian volume</string>
+  <string name="volume_adjust_sounds_title">Penyesuaian volume suara</string>
   <!-- Keyboard and Input ASS methods -->
-  <string name="show_enter_key_title">Tampilkan tombol Enter</string>
-  <string name="show_enter_key_summary">Memaksa papan ketik menampilkan tombol Enter menggantikan tombol Emoticon</string>
+  <string name="show_enter_key_title">Tampilkan tombol enter</string>
+  <string name="show_enter_key_summary">Paksa papan ketik menampilkan tombol Enter menggantikan tombol Emoticon</string>
   <!-- Whether to display IME switcher notifcation -->
-  <string name="ime_switcher_notify">Pemilih pemberitahuan</string>
-  <string name="ime_switcher_notify_summary">Tampilkan pemberitahuan pilihan metode masukan</string>
+  <string name="ime_switcher_notify">Pemilih notifikasi</string>
+  <string name="ime_switcher_notify_summary">Tampilkan notifikasi pilihan masukan</string>
   <!-- Changelog -->
-  <string name="changelog_title">Log perubahan</string>
-  <string name="changelog_error">Tidak dapat memuat log perubahan</string>
+  <string name="changelog_title">Perubahan</string>
+  <string name="changelog_error">Tidak dapat memuat daftar perubahan</string>
   <string name="changelog_summary">Perubahan terbaru</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Hubungkan volume nada dering dan pemberitahuan</string>
-  <string name="notification_volume_option_title">Volume pemberitahuan</string>
-  <string name="ring_notification_volume_option_title">Volume dering dan pemberitahuan</string>
+  <string name="link_volume_option_title">Hubungkan volume nada dering dan notifikasi</string>
+  <string name="notification_volume_option_title">Volume notifikasi</string>
+  <string name="ring_notification_volume_option_title">Volume dering dan notifikasi</string>
   <!-- Camera sound -->
-  <string name="camera_sounds_title">Suara rana kamera</string>
+  <string name="camera_sounds_title">Suara kamera</string>
   <!-- Custom tiles summary -->
-  <string name="substratum_settings_summary">Theme engine</string>
+  <string name="substratum_settings_summary">Tema</string>
   <!-- Root Management -->
-  <string name="rootmanagement_title">Pengelolaan Root</string>
+  <string name="rootmanagement_title">Manajemen akses root</string>
   <string name="rootmanagement_dashboard_summary">Kelola akses root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
@@ -71,7 +71,7 @@
   <string name="increasing_ring_min_volume_title">Volume awal</string>
   <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
   <!-- Less Notification sounds -->
-  <string name="less_notification_sounds_title">Kurangi frekuensi suara pemberitahuan</string>
+  <string name="less_notification_sounds_title">Kurangi frekuensi suara notifikasi</string>
   <string name="less_notification_sounds_summary">Batasi notifikasi suara tiap aplikasi, hanya sekali pemberitahuan setiap periode waktu</string>
   <string name="less_notification_sounds_default">Perilaku standar</string>
   <string name="less_notification_sounds_3s">3 detik</string>
@@ -93,7 +93,7 @@
   <string name="data_usage_app_restrict_data_category_title">Akses data seluler</string>
   <string name="data_usage_app_restrict_wifi_category_title">Akses data Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_data_title">Nonaktifkan semua akses data seluler</string>
+  <string name="data_usage_app_restrict_all_data_title">Matikan semua akses data seluler</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <string name="data_usage_app_restrict_all_data_summary">Mencegah penggunaan akses data melalui jaringan seluler</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
@@ -106,8 +106,8 @@
   <string name="ok_string">Oke</string>
   <!-- Doze pulse options -->
   <string name="doze_settings">Pengaturan doze</string>
-  <string name="summary_doze_enabled">Diaktifkan</string>
-  <string name="summary_doze_disabled">Tidak non aktifkan</string>
+  <string name="summary_doze_enabled">Dihidupkan</string>
+  <string name="summary_doze_disabled">Dimatikan</string>
   <string name="doze_overwrite_value_title">Menimpa standar</string>
   <string name="doze_overwrite_value_summary">Mengijinkan menimpa nilai-nilai standar dengan konfigurasi pengguna</string>
   <string name="doze_pulse_title">Pengaturan konfigurasi pengguna</string>
@@ -167,11 +167,11 @@
   <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
   <string name="app_ops_keep_device_awake">tetap terjaga</string>
   <string name="app_ops_make_phone_call">membuat panggilan</string>
-  <string name="app_ops_modify_calendar">memperbaiki kalender</string>
-  <string name="app_ops_modify_call_log">perbaharui riwayat panggilan</string>
+  <string name="app_ops_modify_calendar">memperbarui kalender</string>
+  <string name="app_ops_modify_call_log">memperbarui daftar panggilan</string>
   <string name="app_ops_modify_clipboard">ubah clipboard</string>
-  <string name="app_ops_modify_contacts">perbaharui kontak</string>
-  <string name="app_ops_modify_settings">update pengaturan</string>
+  <string name="app_ops_modify_contacts">memperbarui kontak anda</string>
+  <string name="app_ops_modify_settings">memeperbarui setelan anda</string>
   <string name="app_ops_mute_unmute_microphone">bisu/nyalakan mic</string>
   <string name="app_ops_play_audio">putar audio</string>
   <string name="app_ops_post_notification">mengirim pemberitahuan</string>
@@ -350,7 +350,7 @@
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
   <string name="display_rotation_title">Rotasi</string>
-  <string name="display_rotation_disabled">Tidak non aktifkan</string>
+  <string name="display_rotation_disabled">Dimatikan</string>
   <string name="display_rotation_unit">derajat</string>
   <string name="display_lockscreen_rotation_title">Rotasi layar kunci</string>
   <string name="display_rotation_category_title">Mode rotasi</string>
@@ -400,7 +400,7 @@
   <string name="night_brightness_category">Kecerahan</string>
   <string name="night_brightness_value_title">Kecerahan Cahaya Malam</string>
   <string name="night_brightness_text">Ketika Night Light diaktifkan, secara otomatis mengatur kecerahan yang diinginkan.</string>
-  <string name="night_bright_disabled">Tidak non aktifkan</string>
+  <string name="night_bright_disabled">Dimatikan</string>
   <string name="night_bright_min">Kecerahan Minimal</string>
   <string name="night_bright_low">Kecerahan rendah</string>
   <string name="night_bright_medium">Kecerahan sedang</string>

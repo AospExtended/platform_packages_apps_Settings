@@ -113,10 +113,13 @@
   <!-- Dev Options Enabled by Default -->
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">रंग</string>
+  <string name="battery_light_list_title">रंग</string>
+  <string name="notification_light_general_title">सामान्य</string>
   <string name="led_color_green">हरा</string>
   <string name="led_color_red">लाल</string>
   <string name="led_color_blue">नीला</string>
   <string name="ok">ठीक है</string>
+  <string name="advanced">उन्नत</string>
   <!-- Notification light dialogs -->
   <string name="default_time">सामान्य</string>
   <string name="dialog_delete_title">मिटाए</string>
@@ -124,6 +127,7 @@
   <string name="pulse_length_normal">सामान्य</string>
   <string name="pulse_speed_normal">सामान्य</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">सामान्य</string>
   <string name="notification_light_applist_title">ऐप्स</string>
   <string name="notification_light_default_value">डिफ़ाल्ट</string>
   <!-- Lights settings, LED notification -->

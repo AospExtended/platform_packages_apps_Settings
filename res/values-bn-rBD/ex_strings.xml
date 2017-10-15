@@ -48,6 +48,7 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_media">মিডিয়া</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
@@ -105,6 +106,7 @@
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">অ্যাপস</string>
   <string name="notification_light_default_value">পূর্ব-নির্ধারিত</string>
   <!-- Lights settings, LED notification -->
   <!-- Add application dialog box title -->

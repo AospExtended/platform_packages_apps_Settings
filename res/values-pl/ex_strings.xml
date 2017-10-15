@@ -47,12 +47,16 @@
   <string name="show_enter_key_title">Pokaż klawisz enter</string>
   <string name="show_enter_key_summary">Wymuś na klawiaturze, aby pokazywała Enter zamiast klawisza emotikony</string>
   <!-- Whether to display IME switcher notifcation -->
+  <string name="ime_switcher_notify">Wybór klawiatury</string>
+  <string name="ime_switcher_notify_summary">Wyświetlaj powiadomienie wyboru klawiatury</string>
   <!-- Changelog -->
   <string name="changelog_title">Lista zmian</string>
   <string name="changelog_error">Nie można załadować listy zmian</string>
   <string name="changelog_summary">Ostatnie zmiany</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Połącz dźwięk połączeń i powiadomień</string>
   <string name="notification_volume_option_title">Głośność powiadomień</string>
+  <string name="ring_notification_volume_option_title">Głośność połączeń i powiadomień</string>
   <!-- Camera sound -->
   <string name="camera_sounds_title">Dźwięk migawki aparatu</string>
   <!-- Custom tiles summary -->
@@ -82,12 +86,19 @@
   <string name="magisk_title">Menedżer Magisk</string>
   <string name="magisk_summary">Zarządzanie rootem</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Pomniejszony układ</string>
+  <string name="unlock_scramble_pin_layout_summary">Pomieszany układ cyfr przy odblokowywaniu urządzenia kodem PIN</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">Dane mobilne</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Dostęp do danych przez Wi\u2011Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
   <string name="data_usage_app_restrict_all_data_title">Wyłącz dostęp do wszystkich danych w sieci komórkowej</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">Zapobiegaj korzystaniu z sieci za pośrednictwem sieci komórkowej</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">Wyłącz dostęp do wszystkich danych w sieci Wi\u2011Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Zapobiegaj korzystaniu z sieci za pośrednictwem Wi\u2011Fi</string>
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">Zresetuj statystyki</string>
   <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
@@ -126,8 +137,10 @@
   <string name="doze_notification_color_invert_summary_off">Powiadomienia nie będą pokazywane. Użyj dla ciemnego motywu.</string>
   <string name="doze_notification_color_invert_summary_on">Powiadomienia będą pokazywane. Użyj dla jasnego/stockowego motywu.</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Podwójne dotknięcie aby wybudzić urządzenie</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">Działania aplikacji</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
@@ -143,12 +156,36 @@
   <string name="app_ops_access_notifications">powiadomienia</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">autostart</string>
+  <string name="app_ops_delete_call_log">usuń rejestr połączeń</string>
+  <string name="app_ops_delete_contacts">usuń kontakty</string>
   <string name="app_ops_delete_mms">usuń MMS</string>
   <string name="app_ops_delete_sms">usuń SMS</string>
   <string name="app_ops_keep_device_awake">Nie usypiaj</string>
+  <string name="app_ops_make_phone_call">wykonaj połączenie</string>
   <string name="app_ops_modify_calendar">Aktualizacja kalendarza</string>
+  <string name="app_ops_modify_call_log">aktualizuj rejestr połączeń</string>
+  <string name="app_ops_modify_contacts">aktualizuj kontakt</string>
+  <string name="app_ops_modify_settings">ustawienia aktualizacji</string>
+  <string name="app_ops_mute_unmute_microphone">wycisz/włącz mikrofon</string>
+  <string name="app_ops_play_audio">odtwarzanie dźwięków</string>
+  <string name="app_ops_post_notification">wysyłanie powiadomienia</string>
+  <string name="app_ops_project_media">wyświetlanie multimediów</string>
+  <string name="app_ops_read_calendar">odczyt kalendarza</string>
+  <string name="app_ops_read_call_log">czytanie rejestru połączeń</string>
+  <string name="app_ops_read_clipboard">odczytywanie schowka</string>
+  <string name="app_ops_read_contacts">odczytywanie kontaktów</string>
+  <string name="app_ops_read_mms">odczyt MMS-ów</string>
+  <string name="app_ops_read_sms">odczyt SMS-ów</string>
+  <string name="app_ops_receive_sms">odbieranie SMS-ów</string>
+  <string name="app_ops_record_audio">nagrywanie dźwięku</string>
   <string name="app_ops_send_mms">wyślij MMS</string>
   <string name="app_ops_send_sms">wyślij SMS</string>
+  <string name="app_ops_use_alarm_volume">głośność alarmu</string>
+  <string name="app_ops_use_audio_focus">ostrość dźwięku</string>
+  <string name="app_ops_use_bluetooth_volume">Głośność bluetooth</string>
+  <string name="app_ops_use_master_volume">regulacja głośności</string>
+  <string name="app_ops_use_media_buttons">przyciski multimedialne</string>
+  <string name="app_ops_use_media_volume">głośność mediów</string>
   <string name="app_ops_use_notification_volume">głośność powiadomień</string>
   <string name="app_ops_use_ring_volume">głośność dzwonka</string>
   <string name="app_ops_use_voice_volume">głośność rozmów głosowych</string>
@@ -156,8 +193,19 @@
   <string name="app_ops_write_sms">napisz SMS</string>
   <string name="app_ops_use_fingerprint">Odcisk palca</string>
   <string name="app_ops_add_voicemail">poczta głosowa</string>
+  <string name="app_ops_read_phone_state">dostęp do stanu telefonu</string>
+  <string name="app_ops_scan_wifi">Sieci Wi-Fi w pobliżu</string>
   <string name="app_ops_change_wallpaper">Zmiana tapety</string>
+  <string name="app_ops_assist_structure">wspomaganie struktury</string>
   <string name="app_ops_assist_screenshot">zrzut ekranu</string>
+  <string name="app_ops_use_body_sensors">użyj czujników ciała</string>
+  <string name="app_ops_read_cell_broadcasts">transmisje komórkowe</string>
+  <string name="app_ops_mock_location">pozorowanie lokalizacji</string>
+  <string name="app_ops_turn_on_screen">Włącz ekran</string>
+  <string name="app_ops_get_accounts">konto Urządzenia</string>
+  <string name="app_ops_wifi_change">zmiana stanu Wi-Fi</string>
+  <string name="app_ops_toggle_bluetooth">przełączanie Bluetooth</string>
+  <string name="app_ops_run_in_background">uruchom w tle</string>
   <string name="app_ops_boot_completed">auto start</string>
   <string name="ambient_display_show_battery_title">Status baterii</string>
   <string name="ambient_display_show_battery_summary">Pokaż wskaźnik baterii podczas pulsu</string>
@@ -166,11 +214,16 @@
   <string name="battery_saver_color_title">Kolor ostrzeżenia</string>
   <string name="battery_saver_color_summary">Włącz pomarańczowy pasek stanu i nawigacyjny kiedy uruchomione jest oszczędzanie baterii</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
+  <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">OSTRZEŻENIE</string>
   <string name="systemui_restart_message">Interfejs użytkownika zostanie uruchomiony ponownie w celu poprawnej propagacji zmian wybranego ustawienia.</string>
   <string name="restarting_ui">Restartowanie interfejsu\u2026</string>
   <string name="print_restart">Uruchom ponownie</string>
+  <string name="device_gestures_title">Gesty przeciągania</string>
+  <string name="device_gestures_summary">Konfigurowanie dodatkowych gestów dla Twojego urządzenia</string>
+  <string name="device_doze_title">Opcje ekranu dostosowanego do otoczenia</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <string name="sim_mobile_network_settings_category_title">Ustawienia sieci komórkowej</string>

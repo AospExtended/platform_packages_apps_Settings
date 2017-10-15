@@ -67,6 +67,7 @@
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
   <string name="increasing_ring_min_volume_title">開始音量</string>
+  <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">より頻度の低い通知音</string>
   <string name="less_notification_sounds_summary">一定時間内に再生する各アプリの通知音を制限します</string>
@@ -137,9 +138,16 @@
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_personal">個人情報</string>
+  <string name="app_ops_cat_messaging">メッセージ</string>
   <string name="app_ops_cat_media">メディア</string>
+  <string name="app_ops_cat_device">端末</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">カメラ</string>
   <string name="app_ops_use_notification_volume">通知音量</string>
+  <string name="app_ops_use_fingerprint">指紋</string>
+  <string name="app_ops_add_voicemail">ボイスメール</string>
+  <string name="app_ops_assist_screenshot">スクリーンショット</string>
   <string name="app_ops_wifi_change">Wi-Fiの状態の変更</string>
   <string name="app_ops_toggle_bluetooth">Bluetoothの切り替え</string>
   <string name="app_ops_run_in_background">バックグラウンドでの実行</string>
@@ -190,13 +198,34 @@
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <!-- Animation Scale -->
+  <string name="animation_off">アニメーションオフ</string>
+  <string name="animation_scale_0_5x">アニメーション 0.5x</string>
+  <string name="animation_scale_0_75x">アニメーション 0.75x</string>
+  <string name="animation_scale_1x">アニメーション 1x</string>
+  <string name="animation_scale_1_5x">アニメーション 1.5x</string>
+  <string name="animation_scale_2x">アニメーション 2x</string>
+  <string name="animation_scale_5x">アニメーション 5x</string>
+  <string name="animation_scale_10x">アニメーション 10x</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_missing">挿入されていないか、問題があります</string>
+  <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続けますか？</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
   <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
   <string name="sim_enabler_airplane_on">機内モードがONになっている間はこの操作を実行することはできません。</string>
   <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません。</string>
   <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
+  <string name="sim_enabler_enabling">アクティベート中\u2026</string>
+  <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+  <string name="sub_activate_success">SIMをアクティベートしました。</string>
+  <string name="sub_activate_failed">アクティベートできませんでした。</string>
+  <string name="sub_deactivate_success">SIMをアクティベート解除しました。</string>
+  <string name="sub_deactivate_failed">アクティベート解除できませんでした。</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Wi\u2011Fi地域コード</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Wi\u2011Fiの地域コードを指定する</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">地域コードの設定中に問題が発生しました。</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum オーバーレイ</string>
   <string name="menu_show_substratum">オーバーレイを表示</string>
@@ -206,6 +235,7 @@
   <string name="menu_show_substratum_icons">オーバーレイアイコンを表示する</string>
   <string name="menu_hide_substratum_icons">オーバーレイアイコンを非表示</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">すべてのテーマアプリを強制的に承認する</string>
   <string name="force_authorize_substratum_packages_summary">提供元不明のテーマアプリのインストールを許可する</string>
   <!-- ADB debugging notifications -->
   <string name="enable_adb_custom">Androidデバッグ</string>
@@ -214,6 +244,7 @@
   <string name="adb_notify_summary">USBデバッグまたはネットワークデバッグが有効になっているときに通知を表示する</string>
   <string name="adb_over_network">ネットワーク経由のADB</string>
   <string name="adb_over_network_summary">ネットワークインターフェース（Wi\u2011Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
+  <string name="adb_over_network_warning">警告: ネットワーク経由のADBが有効になっているとき、携帯電話は接続しているすべてのネットワーク上で侵入に対して無防備になります。\n\n信頼できるネットワーク接続しているときにのみ、この機能を使用してください。\n\nこの機能を本当に有効にしますか？</string>
   <!-- General strings -->
   <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
@@ -239,14 +270,22 @@
   <!-- Rotation Modes  -->
   <string name="display_rotation_title">回転</string>
   <string name="display_rotation_disabled">無効</string>
+  <string name="display_rotation_unit">度</string>
   <string name="display_lockscreen_rotation_title">ロック画面を回転</string>
   <string name="display_rotation_category_title">回転のモード</string>
+  <string name="display_rotation_0_title">0度</string>
+  <string name="display_rotation_90_title">90度</string>
+  <string name="display_rotation_180_title">180度</string>
+  <string name="display_rotation_270_title">270度</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">私たちについて</string>
   <string name="aex_about_summary">私たちとチームの紹介</string>
   <string name="aex_about_info_summary">AospExtended は、Substratum テーマエンジンを始めとする様々なカスタマイズ機能を備えたAOSP ベースのROMです。ストックROMのような UI ・ UX を提供します。プロジェクトは、他のプロジェクトから選び抜かれた様々なコミットによって構成されています。AOSP に基づいているので滑らかで、ラグのない体験が可能です。私たちは常により多くの機能を追加し、さらに定期的に更新します。&#35;BeExtended</string>
   <string name="dev_info">AospExtended について</string>
   <string name="github">GitHub</string>
   <string name="gplus">Google+</string>
+  <string name="gplus_description">G+ コミュニティに参加する</string>
+  <string name="web">ダウンロードセンター</string>
   <string name="help_translate">翻訳</string>
   <string name="help_translate_description">翻訳に貢献するには、我たちの Crowdin に訪れてみてください</string>
   <string name="walls">壁紙</string>
@@ -275,31 +314,47 @@
   <string name="power_notifications_enable_title">有効</string>
   <string name="power_notifications_enable_summary">充電器を接続または切断したときに音を鳴らす</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-  <string name="power_notifications_vibrate_title">マナーモード</string>
+  <string name="power_notifications_vibrate_title">バイブレーション</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">通知音</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">マナーモード</string>
+  <string name="lockscreen_vibrate_enabled_title">バイブレーション</string>
+  <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動</string>
   <!-- Night Display -->
+  <string name="night_display_warning">読書灯を利用するとバッテリーの消費を早める可能性がありますのでご注意ください。</string>
   <string name="night_display_ok">はい</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">警告</string>
   <!-- Dev Options Enabled by Default -->
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">色</string>
   <string name="omni_battery_light_settings">バッテリー充電時のライト</string>
   <string name="omni_notification_light_settings">通知ライト</string>
   <string name="omni_leds">LEDライト</string>
+  <string name="batterylight_title">バッテリーLEDの設定</string>
   <string name="battery_light_enable">有効</string>
+  <string name="battery_low_pulse_title">残量低下時に点滅</string>
   <string name="battery_light_list_title">カラー</string>
+  <string name="battery_light_low_color_title">残量低下</string>
+  <string name="battery_light_medium_color_title">充電中</string>
+  <string name="battery_light_full_color_title">充電 (90%)</string>
+  <string name="battery_light_really_full_color_title">充電 (100%)</string>
+  <string name="edit_battery_settings">バッテリー設定を編集</string>
   <string name="led_color_green">緑</string>
   <string name="led_color_red">赤</string>
   <string name="led_color_blue">青</string>
   <string name="ok">はい</string>
+  <string name="profiles_add">追加...</string>
   <!-- Notification light dialogs -->
+  <string name="edit_light_settings">ライトの設定を編集</string>
   <string name="default_time">標準</string>
   <string name="custom_time">カスタム</string>
   <string name="dialog_delete_title">削除</string>
@@ -333,4 +388,6 @@
   <string name="adb_enabled">ADBが有効になっています</string>
   <string name="adb_disabled">ADBが無効になっています</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">ポケット検出</string>
+  <string name="pocket_judge_summary">ポケットに入っているときにタッチやボタン入力を無効化する</string>
 </resources>

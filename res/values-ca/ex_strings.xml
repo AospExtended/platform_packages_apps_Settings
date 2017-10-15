@@ -117,6 +117,7 @@
   <string name="pulse_length_normal">Normal</string>
   <string name="pulse_speed_normal">Normal</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_applist_title">Aplicacions</string>
   <string name="notification_light_default_value">Per defecte</string>
   <!-- Lights settings, LED notification -->
   <!-- Add application dialog box title -->

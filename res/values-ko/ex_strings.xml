@@ -17,11 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">확장 버전</string>
+  <string name="extended_version_default">알 수 없음</string>
+  <string name="extensions_title">확장기능</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX 업데이트</string>
+  <string name="aex_ota_summary">최신 빌드 확인</string>
   <!-- About phone screen, build date -->
   <string name="build_date">빌드 날짜</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">제조사 버전</string>
+  <string name="vendor_version_default">알 수 없음</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">데스크톱 백업 비밀번호</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">불륨 단계</string>
   <string name="volume_steps_alarm_title">볼륨 단계: 알람</string>
@@ -38,16 +47,29 @@
   <string name="show_enter_key_title">엔터키 표시</string>
   <string name="show_enter_key_summary">키보드에 이모티콘 키 대신 엔터키를 강제로 표시합니다</string>
   <!-- Whether to display IME switcher notifcation -->
+  <string name="ime_switcher_notify">입력방식 선택기 알림</string>
+  <string name="ime_switcher_notify_summary">입력방식 선택기를 알림에 표시</string>
   <!-- Changelog -->
   <string name="changelog_title">변경 사항</string>
   <string name="changelog_error">변경 사항을 불러올 수 없음</string>
+  <string name="changelog_summary">최근 변경 사항</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">벨소리와 알림 볼륨 함께 조정</string>
+  <string name="notification_volume_option_title">알림 볼륨</string>
+  <string name="ring_notification_volume_option_title">벨소리 및 알림 볼륨</string>
   <!-- Camera sound -->
   <string name="camera_sounds_title">카메라 셔터 소리</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">테마 엔진</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">루트 권한 관리</string>
+  <string name="rootmanagement_dashboard_summary">루트 권한 관리</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">점점 커지는 벨소리</string>
+  <string name="increasing_ring_min_volume_title">초기 볼륨</string>
+  <string name="increasing_ring_ramp_up_time_title">볼륨 증가 시간</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">알림 소리 주기 변경</string>
   <string name="less_notification_sounds_summary">각각 앱의 알림 소리를 정해진 기간 당 한번만 울리게 제한합니다</string>
@@ -63,17 +85,27 @@
   <string name="less_notification_sounds_5m">5분</string>
   <!-- Magisk Manager -->
   <string name="magisk_title">Magisk 관리자</string>
+  <string name="magisk_summary">루트 권한 관리</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">레이아웃 섞기</string>
+  <string name="unlock_scramble_pin_layout_summary">장치를 잠금 해제할 때 PIN 레이아웃 섞기</string>
   <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data_category_title">이동통신망 데이터 사용</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Wi\u2011Fi 데이터 사용</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_data_title">모든 이동통신망 데이터 사용 안 함</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_data_summary">이동 통신망을 통한 모든 데이터 접속을 차단</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
+  <string name="data_usage_app_restrict_all_wifi_title">모든 Wi\u2011Fi 데이터 사용 안 함</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
+  <string name="data_usage_app_restrict_all_wifi_summary">Wi\u2011Fi 네트워크를 통한 모든 데이터 접속을 차단</string>
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">상태 초기화</string>
   <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다</string>
   <string name="ok_string">확인</string>
   <!-- Doze pulse options -->
+  <string name="doze_settings">잠자기 설정</string>
   <string name="summary_doze_enabled">활성화됨</string>
   <string name="summary_doze_disabled">비활성화됨</string>
   <string name="doze_overwrite_value_title">기본값 덮어쓰기</string>
@@ -106,12 +138,85 @@
   <string name="doze_notification_color_invert_summary_off">알림의 색이 반전되지 않습니다. 어두운 테마에 사용하세요.</string>
   <string name="doze_notification_color_invert_summary_on">알림의 색이 반전됩니다. 기본 테마나 밝은 테마에 사용하세요.</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">두 번 탭하여 기기를 깨웁니다</string>
+  <string name="double_tap_wake_doze_summary">두 번 탭하영 잠자기 펄스 화면에서 기기를 깨웁니다.</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">앱 운영</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">앱별 고급 설정</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">위치</string>
+  <string name="app_ops_cat_personal">개인</string>
+  <string name="app_ops_cat_messaging">문자</string>
+  <string name="app_ops_cat_media">미디어</string>
+  <string name="app_ops_cat_device">기기</string>
+  <string name="app_ops_cat_bootup">부팅</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">카메라</string>
+  <string name="app_ops_access_location">위치</string>
+  <string name="app_ops_access_notifications">알림</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start"> 자동 시작</string>
+  <string name="app_ops_delete_call_log">통화 기록 삭제</string>
+  <string name="app_ops_delete_contacts">연락처 삭제</string>
+  <string name="app_ops_delete_mms">MMS 삭제</string>
+  <string name="app_ops_delete_sms">문자 삭제</string>
+  <string name="app_ops_draw_on_top">위에 그리기</string>
+  <string name="app_ops_get_usage_stats">사용 통계 확인</string>
+  <string name="app_ops_keep_device_awake">켜짐 유지</string>
+  <string name="app_ops_make_phone_call">전화 걸기</string>
+  <string name="app_ops_modify_calendar">캘린더 수정</string>
+  <string name="app_ops_modify_call_log">통화 기록 수정</string>
+  <string name="app_ops_modify_clipboard">클립보드 수정</string>
+  <string name="app_ops_modify_contacts">주소록 수정</string>
+  <string name="app_ops_modify_settings">설정 변경</string>
+  <string name="app_ops_mute_unmute_microphone">마이크 음소거/해제</string>
+  <string name="app_ops_play_audio">소리 재생</string>
+  <string name="app_ops_post_notification">알림을 보냄</string>
+  <string name="app_ops_project_media">프로젝터 연결</string>
+  <string name="app_ops_read_calendar">일정 읽기</string>
+  <string name="app_ops_read_call_log">통화 기록 읽기</string>
+  <string name="app_ops_read_clipboard">클립보드 읽기</string>
+  <string name="app_ops_read_contacts">주소록 읽기</string>
+  <string name="app_ops_read_mms">MMS 읽기</string>
+  <string name="app_ops_read_sms">문자 읽기</string>
+  <string name="app_ops_receive_sms">문자 수신</string>
+  <string name="app_ops_record_audio">오디오 녹음</string>
+  <string name="app_ops_send_mms">MMS 보내기</string>
+  <string name="app_ops_send_sms">문자 보내기</string>
+  <string name="app_ops_toast_window">토스트 메세지 보기</string>
+  <string name="app_ops_use_alarm_volume">알람 볼륨</string>
+  <string name="app_ops_use_audio_focus">오디오 포커스</string>
+  <string name="app_ops_use_bluetooth_volume">블루투스 볼륨</string>
+  <string name="app_ops_use_master_volume">마스터 볼륨</string>
+  <string name="app_ops_use_media_buttons">미디어 버튼</string>
+  <string name="app_ops_use_media_volume">미디어 볼륨</string>
+  <string name="app_ops_use_notification_volume">알림 볼륨</string>
+  <string name="app_ops_use_ring_volume">벨소리 볼륨</string>
+  <string name="app_ops_use_vibrate">터치 시 진동</string>
+  <string name="app_ops_use_voice_volume">음성통화 볼륨</string>
+  <string name="app_ops_write_mms">MMS 쓰기</string>
+  <string name="app_ops_write_sms">문자 작성</string>
+  <string name="app_ops_use_fingerprint">지문</string>
+  <string name="app_ops_add_voicemail">음성사서함</string>
+  <string name="app_ops_read_phone_state">전화 상태 읽기</string>
+  <string name="app_ops_scan_wifi">Wi-Fi 네트워크 검색</string>
+  <string name="app_ops_change_wallpaper">배경화면 변경</string>
+  <string name="app_ops_assist_structure">구조 지원</string>
+  <string name="app_ops_assist_screenshot">화면저장</string>
+  <string name="app_ops_use_body_sensors">신체 센서 사용</string>
+  <string name="app_ops_read_cell_broadcasts">셀 브로드캐스트</string>
+  <string name="app_ops_mock_location">모의 위치</string>
+  <string name="app_ops_read_external_storage">외부 저장소 읽기</string>
+  <string name="app_ops_write_external_storage">외부 저장소 쓰기</string>
+  <string name="app_ops_turn_on_screen">화면 켜기</string>
+  <string name="app_ops_get_accounts">기기 계정 읽기</string>
+  <string name="app_ops_wifi_change">Wi-Fi 상태 변경</string>
+  <string name="app_ops_toggle_bluetooth">블루투스 켜기/끄기</string>
+  <string name="app_ops_run_in_background">백그라운드에서 실행</string>
+  <string name="app_ops_boot_completed">자동 시작</string>
   <string name="ambient_display_show_battery_title">배터리 상태</string>
   <string name="ambient_display_show_battery_summary">화면에 배터리 잔량을 표시합니다</string>
   <!-- Battery Saver Settings -->
@@ -119,15 +224,32 @@
   <string name="battery_saver_color_title">경고 색상</string>
   <string name="battery_saver_color_summary">베터리 세이버가 활성화되면 상태 표시줄과 내비게이션 바를 주황색으로 표시합니다</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
+  <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서 확인</string>
   <!-- SystemUI restart prompt -->
   <string name="systemui_restart_title">경고</string>
   <string name="systemui_restart_message">변경된 설정을 적용하기 위해 시스템 UI가 재시작됩니다.</string>
   <string name="restarting_ui">UI 다시 시작하는 중\u2026</string>
+  <string name="print_restart">재시작</string>
+  <string name="device_gestures_title">기기 제스처</string>
+  <string name="device_gestures_summary">기기에 대한 추가 제스쳐</string>
+  <string name="device_doze_title">앰비언트 디스플레이 제스처</string>
+  <string name="device_doze_summary">앰비언트 디스플레이에 대한 추가 제스처 설정</string>
   <!-- Safe headset volume restore checkbox -->
+  <string name="safe_headset_volume_title">안전한 헤드셋 볼륨</string>
+  <string name="safe_headset_volume_summary">헤드셋을 처음 연결했을 때 너무 큰 볼륨 방지</string>
+  <string name="safe_headset_volume_warning_dialog_text">장시간 높은 음량으로 들으면 청력이 손상 될 수 있습니다. 이 기능을 사용하지 않을 경우 주의하시기 바랍니다.</string>
   <!-- MSIM SIM status -->
+  <string name="sim_card_status_title">SIM %d 상태</string>
+  <string name="sim_card_lock_settings_title">SIM %d 잠금 설정</string>
+  <string name="sim_card_summary_empty">SIM 카드가 삽입 되지 않음</string>
+  <string name="sim_mobile_network_settings_category_title">모바일 네트워크 설정</string>
+  <string name="sim_mobile_network_settings_title">SIM %d 설정</string>
   <!-- Custom Settings -->
   <!-- Dashboard -->
+  <string name="substratum_title">Substratum (테마 엔진)</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">구글 플레이</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">확장 데스크탑</string>
   <string name="keywords_expanded_desktop">확장 데스크탑</string>
@@ -143,14 +265,48 @@
   <string name="expanded_desktop_style_description">기본 확장 데스크톱 스타일 선택</string>
   <string name="expanded_desktop_title">확장 데스크탑 옵션</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">휴대폰 정보</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">휴대폰의 <xliff:g id="sensor_location">%1$s</xliff:g>에서 지문 인식 센서를 찾으세요.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">후면</string>
+  <string name="security_settings_fingerprint_sensor_location_front">전면</string>
+  <string name="security_settings_fingerprint_sensor_location_left">왼쪽 측면</string>
+  <string name="security_settings_fingerprint_sensor_location_right">오른쪽 측면</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+  <string name="double_twist_for_camera_mode_summary_pn">앱 내에서 기기를 두번 뒤틀면 구글 카메라의 셀피모드를 전환합니다.</string>
   <!-- Animation Scale -->
+  <string name="animation_off">애니메이션 해제</string>
+  <string name="animation_scale_0_5x">애니메이션 0.5배속</string>
+  <string name="animation_scale_0_75x">애니메이션 0.75배속</string>
+  <string name="animation_scale_1x">애니메이션 1배속</string>
+  <string name="animation_scale_1_5x">애니메이션 1.5배속</string>
+  <string name="animation_scale_2x">애니메이션 2배속</string>
+  <string name="animation_scale_5x">애니메이션 5배속</string>
+  <string name="animation_scale_10x">애니메이션 10배속</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="사용 안함">%2$s</xliff:g></string>
+  <string name="sim_enabled">켜짐</string>
+  <string name="sim_disabled">꺼짐</string>
+  <string name="sim_missing">SIM카드가 없거나 오류입니다.</string>
+  <string name="sim_enabler_need_disable_sim">SIM 카드가 비활성화됩니다. 계속하시겠습니까?</string>
+  <string name="sim_enabler_will_disable_sim_title">주의</string>
+  <string name="sim_enabler_need_switch_data_service">이 SIM은 비활성화되며, <xliff:g id="slotid">%1$s</xliff:g> SIM이 데이터 서비스에 사용됩니다. 계속하겠습니까?</string>
+  <string name="sim_enabler_airplane_on">비행기 모드에서는 작업을 수행할 수 없습니다.</string>
+  <string name="sim_enabler_in_call">통화중에는 작업을 수행할 수 없습니다.</string>
+  <string name="sim_enabler_both_inactive">모든 SIM 카드를 비활성화할 수 없습니다</string>
+  <string name="sim_enabler_enabling">활성화 중\u2026</string>
+  <string name="sim_enabler_disabling">비활성화 중\u2026</string>
+  <string name="sub_activate_success">SIM카드가 활성화되었습니다.</string>
+  <string name="sub_activate_failed">활성화에 실패했습니다.</string>
+  <string name="sub_deactivate_success">SIM카드가 비활성화되었습니다.</string>
+  <string name="sub_deactivate_failed">비활성화에 실패했습니다.</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Wi\u2011Fi 지역 코드</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Wi\u2011Fi 지역 코드를 지정하기</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">지역 코드 설정에 문제가 발생 했습니다.</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Substratum 오버레이</string>
   <string name="menu_show_substratum">오버레이 보이기</string>
@@ -163,7 +319,15 @@
   <string name="force_authorize_substratum_packages_title">알 수 없는 출처의 테마 앱 허용</string>
   <string name="force_authorize_substratum_packages_summary">테마가 적용된 모든 앱에 강제로 권한을 부여합니다</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">안드로이드 디버깅</string>
+  <string name="enable_adb_summary_custom">안드로이드 디버그 브리지 (ADB) 인터페이스를 사용</string>
+  <string name="adb_notify">ADB 알림</string>
+  <string name="adb_notify_summary">USB 또는 네트워크 디버깅을 활성화 하면 알림 표시</string>
+  <string name="adb_over_network">네트워크를 통한 ADB</string>
+  <string name="adb_over_network_summary">네트워크 인터페이스로 TCP/IP 디버깅을 사용합니다. (Wi\u2011Fi, USB 네트워크) 이 설정은 재시작하면 초기화됩니다</string>
+  <string name="adb_over_network_warning">경고: 네트워크 ADB연결이 활성화되면 기기가 연결된 모든 네트워크를 통한 위험에 노출됩니다!\n\n신뢰할 수 있는 네트워크에서만 이 연결을 사용하십시오.\n\n정말로 이 기능을 활성화하시겠습니까?</string>
   <!-- General strings -->
+  <string name="header_category_custom">UI &#38; UX</string>
   <!-- Dashboard options -->
   <string name="dashboard_category">대시보드 설정</string>
   <string name="dashboard_suggestions_title">추천</string>
@@ -178,13 +342,60 @@
   <string name="dashboard_columns_portrait_title">행 (세로 모드)</string>
   <string name="dashboard_columns_landscape_title">행 (가로 모드)</string>
   <!-- Battery saver notification toggle -->
+  <string name="battery_saver_notif_title">배터리 세이버 알림</string>
+  <string name="battery_saver_notif_summary">배터리 세이버가 활성화 될 때 알림을 표시합니다.</string>
   <!-- low battery notification toggle -->
+  <string name="battery_low_notif_title">배터리 부족 알림</string>
+  <string name="battery_low_notif_summary">배터리 수준이 낮을 때 알림을 표시</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
+  <string name="display_rotation_title">회전</string>
   <string name="display_rotation_disabled">비활성화됨</string>
+  <string name="display_rotation_unit">각도</string>
+  <string name="display_lockscreen_rotation_title">잠금화면 회전</string>
+  <string name="display_rotation_category_title">회전 모드</string>
+  <string name="display_rotation_0_title">0도</string>
+  <string name="display_rotation_90_title">90도</string>
+  <string name="display_rotation_180_title">180도</string>
+  <string name="display_rotation_270_title">270도</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">제작자 소개</string>
+  <string name="aex_about_summary">우리 팀 소개</string>
+  <string name="aex_about_info_summary">AospExtended는 AOSP 기반 롬이며 기본적인 UI/UX 위에 Substratum 테마 엔진을 통한 다양한 사용자 기능을 제공합니다. 이 프로젝트는 다양한 다른 프로젝트들의 다양한 반영사항 중 장점을 취해서 만들어졌습니다. AOSP를 기반으로 구성되어 부드럽고 지연이 적은 사용자 경험을 제공합니다. 우리는 지속적으로 보다 많은 기능을 제공하기 위해 노력할 것이며 이를 통해 앞으로의 업데이트가 점점 더 좋아질 것입니다. &#35;BeExtended</string>
+  <string name="dev_info">AospExtended에 대하여</string>
+  <string name="github">Github</string>
+  <string name="github_description">소스 코드 보기</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Google+ 커뮤니티에 가입하기</string>
+  <string name="telegram">텔레그램</string>
+  <string name="telegram_description">텔레그램 채널 구독</string>
+  <string name="web">다운로드 센터</string>
+  <string name="web_description">다운로드 포털에 방문</string>
+  <string name="help_translate">번역</string>
+  <string name="help_translate_description">Crowdin 서비스를 통해 원하는 언어로 번역해 보세요.</string>
+  <string name="walls">배경화면</string>
+  <string name="walls_description">다양한 사용자들이 만든 배경화면 얻기</string>
+  <string name="leads">팀 리더</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">프로젝트 소유자 / 수석 개발자</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">개발자</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">수정 및 아마추어 개발자</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">개발자</string>
+  <string name="designers">디자이너</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">주제 배너, 로고, 배경 화면</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">빠른설정 / 로고</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">배경화면, 부팅 애니메이션</string>
+  <string name="maintainers">유지보수 담당</string>
+  <string name="maintainer_description">%1$s에 대한 유지보수</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">스크린샷 소리</string>
+  <string name="screenshot_sound_summary">화면저장시 음향효과 재생</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">밝기</string>
   <string name="night_brightness_value_title">야간 모드 화면 밝기</string>
@@ -199,46 +410,113 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">빠른 잠금 해제</string>
   <string name="unlock_quick_unlock_control_summary">PIN/비밀번호를 올바르게 입력하면 자동으로 잠금을 해제합니다</string>
+  <string name="reset_wallpaper_notice">기본 배경화면 복원</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">충전 시 켜짐</string>
+  <string name="wake_when_plugged_or_unplugged_summary">전원이 연결되거나 분리될 때 화면 켜기</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">프로세서</string>
   <string name="mem_info">RAM</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">충전음</string>
   <string name="power_notifications_enable_title">활성화</string>
+  <string name="power_notifications_enable_summary">전원이 연결되거나 분리될 때 소리 재생</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">진동</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">알림음</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">무음</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3x3</string>
+  <string name="lock_pattern_size_4">4x4</string>
+  <string name="lock_pattern_size_5">5x5</string>
+  <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">패턴 오류 표시</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">패턴 점 표시</string>
   <!-- Lock screen vibrate settings -->
   <string name="lockscreen_vibrate_enabled_title">진동</string>
+  <string name="lockscreen_vibrate_enabled_head">잠금 해제 시 진동</string>
   <!-- Night Display -->
+  <string name="night_display_warning">야간조명은 배터리 소비를 증가시킬 수 있습니다.</string>
+  <string name="night_display_hide">이 경고를 다시 표시하지 않음</string>
   <string name="night_display_ok">확인</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">경고</string>
+  <string name="quick_unlock_alert_msg">이 기능은 4자리 PIN을 사용 하는 경우에 동작합니다, 그렇지 않으면 원치 않는 문제를 일으킬 수 있습니다.</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">필요 없음, 개발 설정이 기본적으로 사용됩니다.</string>
   <!-- LED notifications -->
   <string name="color_picker_dialog_title">색</string>
+  <string name="omni_battery_light_settings">배터리 충전등</string>
+  <string name="omni_notification_light_settings">알림 표시등</string>
+  <string name="omni_leds">LED 조명</string>
+  <string name="batterylight_title">배터리 LED 설정</string>
   <string name="battery_light_enable">활성화</string>
+  <string name="battery_low_pulse_title">배터리가 부족할 때 깜빡임</string>
   <string name="battery_light_list_title">색</string>
+  <string name="battery_light_low_color_title">배터리 부족</string>
+  <string name="battery_light_medium_color_title">충전 중</string>
+  <string name="battery_light_full_color_title">충전됨 (90%)</string>
+  <string name="battery_light_really_full_color_title">충전됨 (100%)</string>
+  <string name="edit_battery_settings">배터리 설정</string>
+  <string name="notification_light_general_title">일반</string>
   <string name="led_color_green">녹색</string>
   <string name="led_color_red">빨간색</string>
   <string name="led_color_blue">파란색</string>
   <string name="ok">확인</string>
+  <string name="advanced">고급</string>
+  <string name="profiles_add">추가...</string>
   <!-- Notification light dialogs -->
+  <string name="edit_light_settings">조명 설정</string>
+  <string name="pulse_speed_title">깜빡임 시간 및 속도</string>
   <string name="default_time">일반 모드</string>
   <string name="custom_time">사용자 지정</string>
+  <string name="dialog_delete_title">삭제</string>
+  <string name="dialog_delete_message">선택한 항목을 제거하시겠습니까?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">항상 켜짐</string>
+  <string name="pulse_length_very_short">매우 짧게</string>
+  <string name="pulse_length_short">짧게</string>
   <string name="pulse_length_normal">일반 모드</string>
+  <string name="pulse_length_long">길게</string>
+  <string name="pulse_length_very_long">매우 길게</string>
+  <string name="pulse_speed_very_fast">매우 빠르게</string>
   <string name="pulse_speed_fast">빠름</string>
   <string name="pulse_speed_normal">일반 모드</string>
+  <string name="pulse_speed_slow">느리게</string>
+  <string name="pulse_speed_very_slow">매우 느리게</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">알림 표시등</string>
+  <string name="notificationlight_title">알림 LED 설정</string>
+  <string name="notification_light_general_title">일반</string>
+  <string name="notification_light_applist_title">앱</string>
   <string name="notification_light_phonelist_title">전화</string>
+  <string name="notification_light_use_custom">사용자 지정 값 사용</string>
   <string name="notification_light_default_value">기본값</string>
+  <string name="notification_light_missed_call_title">부재중 전화</string>
+  <string name="notification_light_voicemail_title">음성메시지</string>
+  <string name="notification_light_screen_on">화면 켜진 상태에서 표시등 사용</string>
+  <string name="notification_light_zen_mode">방해 금지 모드에서 표시등 사용</string>
+  <string name="notification_light_use_multiple_leds">다중 LED</string>
+  <string name="keywords_lights_brightness_level">LED 밝기 감소</string>
+  <string name="notification_light_automagic">색상 자동 선택</string>
   <!-- Lights settings, LED notification -->
+  <string name="led_notification_title">조명 설정</string>
+  <string name="led_notification_text">설정 앱이 LED 표시등을 활성화함</string>
+  <string name="notification_light_no_apps_summary">앱 별 제어를 추가하려면 \'%1$s\'을(를) 활성화하고 메뉴 바에서 \'\u002b\'를 누르세요</string>
+  <string name="notification_light_automagic">색상 자동 선택</string>
+  <string name="notification_light_automagic_summary">사용자가 지정하지 않은 경우 LED 알림 표시등의 적절한 색상을 자동으로 선택</string>
+  <string name="font_sample_text">11:57</string>
   <!-- Add application dialog box title -->
-  <string name="profile_choose_app">애플리케이션 선택</string>
+  <string name="profile_choose_app">앱 선택</string>
   <string name="reset">초기화</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB 사용</string>
+  <string name="adb_disabled">ADB 사용 안 함</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">주머니 감지</string>
+  <string name="pocket_judge_summary">기기가 주머니에 있을 때 화면과 버튼 입력을 방지합니다.</string>
 </resources>

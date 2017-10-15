@@ -517,4 +517,6 @@
   <string name="adb_enabled">ADB habilitado</string>
   <string name="adb_disabled">ADB Deshabilitado</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Detección de bolsillo</string>
+  <string name="pocket_judge_summary">Bloquear pantalla e pulsacións de botóns cando o dispositivo estea no bolsillo</string>
 </resources>

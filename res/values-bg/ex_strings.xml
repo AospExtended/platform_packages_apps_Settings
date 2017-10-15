@@ -17,24 +17,71 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Разширена версия</string>
+  <string name="extended_version_default">Неизвестно</string>
+  <string name="extensions_title">Разширения</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX актуализации</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Дата на изграждане</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Vendor version -->
+  <string name="vendor_version">Версия на доставчика</string>
+  <string name="vendor_version_default">Неизвестно</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Звукови стъпки</string>
+  <string name="volume_steps_alarm_title">Звукови стъпки: Аларма</string>
+  <string name="volume_steps_dtmf_title">Звукови стъпки: DTMF</string>
+  <string name="volume_steps_music_title">Звукови стъпки: Музика</string>
+  <string name="volume_steps_notification_title">Звукови стъпки: Известия</string>
+  <string name="volume_steps_ring_title">Звукови стъпки: Позвъняване</string>
+  <string name="volume_steps_system_title">Звукови стъпки: Система</string>
+  <string name="volume_steps_voice_call_title">Звукови стъпки: Гласови обаждания</string>
+  <string name="volume_steps_reset">Нулиране</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Звуци при регулиране на силата на звука</string>
   <!-- Keyboard and Input ASS methods -->
+  <string name="show_enter_key_title">Покажи бутон изпращане</string>
   <!-- Whether to display IME switcher notifcation -->
   <!-- Changelog -->
+  <string name="changelog_title">Списък на промените</string>
+  <string name="changelog_error">Не може да се зареди списъкът с промените</string>
+  <string name="changelog_summary">Последни промени</string>
   <!-- Linked / unlinked notification volume -->
+  <string name="link_volume_option_title">Връзка мужду сила на звука при звънене и известия</string>
+  <string name="notification_volume_option_title">Сила на звука за уведомление</string>
+  <string name="ring_notification_volume_option_title">Сила на звука на звънене и известия</string>
   <!-- Camera sound -->
+  <string name="camera_sounds_title">Звук на затвора на камерата</string>
   <!-- Custom tiles summary -->
+  <string name="substratum_settings_summary">Теми</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Администраторски достъп</string>
+  <string name="rootmanagement_dashboard_summary">Управление на администраторски достъп</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Увеличаваща силата на звука при звънене</string>
+  <string name="increasing_ring_min_volume_title">Начална сила на звука</string>
+  <string name="increasing_ring_ramp_up_time_title">Време на увеличение</string>
   <!-- Less Notification sounds -->
+  <string name="less_notification_sounds_title">По-малко използвани звуци за известия</string>
+  <string name="less_notification_sounds_default">Поведение по подразбиране</string>
+  <string name="less_notification_sounds_3s">3 секунди</string>
+  <string name="less_notification_sounds_5s">5 секунди</string>
+  <string name="less_notification_sounds_10s">10 секунди</string>
+  <string name="less_notification_sounds_15s">15 секунди</string>
+  <string name="less_notification_sounds_30s">30 секунди</string>
+  <string name="less_notification_sounds_45s">45 секунди</string>
+  <string name="less_notification_sounds_1m">1 минута</string>
+  <string name="less_notification_sounds_2m">2 минути</string>
+  <string name="less_notification_sounds_5m">5 минути</string>
   <!-- Magisk Manager -->
+  <string name="magisk_title">Magisk мениджър</string>
+  <string name="magisk_summary">Администраторски достъп</string>
   <!-- PIN scramble -->
+  <string name="unlock_scramble_pin_layout_title">Разбъркано оформление</string>
   <!-- Per-app data restrictions -->
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
@@ -42,71 +89,309 @@
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <!-- Battery stats reset -->
   <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Активирано</string>
+  <string name="summary_doze_disabled">Деактивирано</string>
+  <string name="doze_brightness_level_title">Ниво на яркост</string>
+  <string name="onehundred_ms">100 милисекунди</string>
+  <string name="twofifty_ms">250 милисекунди</string>
+  <string name="fivehundred_ms_default">500 (по подразбиране)</string>
+  <string name="sevenfifty_ms">750 милисекунди</string>
+  <string name="one_second">1 сек</string>
+  <string name="onehalf_second">1.5 сек</string>
+  <string name="two_second">2 сек</string>
+  <string name="twohalf_second">2.5 сек</string>
+  <string name="three_second_default">3 сек (по подразбиране)</string>
+  <string name="threehalf_second">3.5 сек</string>
+  <string name="four_second">4 сек</string>
+  <string name="fourhalf_second">4.5 сек</string>
+  <string name="five_second">5 сек</string>
   <!-- Double tap for doze -->
+  <string name="double_tap_wake_doze_title">Събуждане след двойно почукване при изключен екран</string>
   <!-- App Ops Settings -->
   <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings">Операции на приложенията</string>
   <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+  <string name="app_ops_settings_summary">Пълни данни за операциите на приложенията</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Местоположение</string>
+  <string name="app_ops_cat_personal">Лични</string>
+  <string name="app_ops_cat_messaging">Съобщения</string>
+  <string name="app_ops_cat_media">Медия</string>
+  <string name="app_ops_cat_device">Устройство</string>
+  <string name="app_ops_cat_bootup">Зареждане</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">камера</string>
+  <string name="app_ops_access_location">местоположение</string>
+  <string name="app_ops_access_notifications">известия</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">автоматично стартиране</string>
+  <string name="app_ops_delete_call_log">изтриване на списъка с обаждания</string>
+  <string name="app_ops_delete_contacts">изтриване на контакти</string>
+  <string name="app_ops_delete_mms">изтриване на MMS</string>
+  <string name="app_ops_delete_sms">изтриване на SMS</string>
+  <string name="app_ops_draw_on_top">изтегли отгоре</string>
+  <string name="app_ops_get_usage_stats">вземи статистика за използване</string>
+  <string name="app_ops_keep_device_awake">дръж буден</string>
+  <string name="app_ops_make_phone_call">прави обаждания</string>
+  <string name="app_ops_modify_calendar">актуализиране на календара</string>
+  <string name="app_ops_modify_call_log">актуализиране на списъка с обаждания</string>
+  <string name="app_ops_modify_clipboard">промяна на клипборда</string>
+  <string name="app_ops_modify_contacts">актуализиране на контакти</string>
+  <string name="app_ops_modify_settings">актуализиране на настройките</string>
+  <string name="app_ops_mute_unmute_microphone">без/със звук микрофон</string>
+  <string name="app_ops_play_audio">изпълнение на аудио</string>
+  <string name="app_ops_post_notification">публикува известия</string>
+  <string name="app_ops_project_media">прожектира съдържание</string>
+  <string name="app_ops_read_calendar">четене на календара</string>
+  <string name="app_ops_read_call_log">четене на списъка с повикванията</string>
+  <string name="app_ops_read_clipboard">четене на клипборда</string>
+  <string name="app_ops_read_contacts">четене на контактите</string>
+  <string name="app_ops_read_mms">четене на MMS</string>
+  <string name="app_ops_read_sms">четене на SMS</string>
+  <string name="app_ops_receive_sms">получавa SMS</string>
+  <string name="app_ops_record_audio">запис на аудио</string>
+  <string name="app_ops_send_mms">изпращане на MMS</string>
+  <string name="app_ops_send_sms">изпращане на SMS</string>
+  <string name="app_ops_toast_window">изкачащи съобщения</string>
+  <string name="app_ops_use_alarm_volume">сила на звука на будилника</string>
+  <string name="app_ops_use_audio_focus">аудио фокус</string>
+  <string name="app_ops_use_bluetooth_volume">Сила на звука за bluetooth устройства</string>
+  <string name="app_ops_use_master_volume">главен контрол на звука</string>
+  <string name="app_ops_use_media_buttons">мултимедийни бутони</string>
+  <string name="app_ops_use_media_volume">сила на звука за мултимедия</string>
+  <string name="app_ops_use_notification_volume">сила на звука за уведомление</string>
+  <string name="app_ops_use_ring_volume">сила на звука на мелодията</string>
+  <string name="app_ops_use_vibrate">вибрация при докосване (обратна връзка)</string>
+  <string name="app_ops_use_voice_volume">сила на звука при разговор</string>
+  <string name="app_ops_write_mms">напишете MMS</string>
+  <string name="app_ops_write_sms">напишете SMS</string>
+  <string name="app_ops_add_voicemail">гласова поща</string>
+  <string name="app_ops_read_phone_state">достъп до състоянието на телефона</string>
+  <string name="app_ops_scan_wifi">WiFi мрежи в близост</string>
+  <string name="app_ops_change_wallpaper">промяна на тапета</string>
+  <string name="app_ops_assist_screenshot">екранна снимка</string>
+  <string name="app_ops_use_body_sensors">сензори за тяло</string>
+  <string name="app_ops_read_cell_broadcasts">клетъчни предавания</string>
+  <string name="app_ops_mock_location">измислено местоположение</string>
+  <string name="app_ops_read_external_storage">прочети външ. хран.</string>
+  <string name="app_ops_write_external_storage">запиши външ. хран.</string>
+  <string name="app_ops_turn_on_screen">включване на екрана</string>
+  <string name="app_ops_get_accounts">акаунти на устройството</string>
+  <string name="app_ops_wifi_change">променете състоянието на Wi-Fi</string>
+  <string name="app_ops_toggle_bluetooth">превключване на блутуут</string>
+  <string name="app_ops_run_in_background">работи на заден план</string>
+  <string name="app_ops_boot_completed">автоматично стартиране</string>
+  <string name="ambient_display_show_battery_title">Състояние на батерията</string>
+  <string name="ambient_display_show_battery_summary">Показва индикатор за батерията по време на пулс</string>
   <!-- Battery Saver Settings -->
   <!-- Disable Battery Saver Warning Color -->
+  <string name="battery_saver_color_title">Предупредителен цвят</string>
+  <string name="battery_saver_color_summary">Лентите за навигация и на състоянието са в оранжево когато Battery saver е включен</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Предотвратяване на случайно събуждане</string>
+  <string name="proximity_wake_summary">Провери сензора за близост преди събуждане на екрана</string>
   <!-- SystemUI restart prompt -->
+  <string name="systemui_restart_title">ВНИМАНИЕ</string>
+  <string name="systemui_restart_message">Системния интерфейс ще бъде рестартиран, за да бъдат приложени настройките.</string>
+  <string name="restarting_ui">Рестартиране на интерфейса\u2026</string>
+  <string name="print_restart">Рестарт</string>
   <!-- Safe headset volume restore checkbox -->
   <!-- MSIM SIM status -->
   <!-- Custom Settings -->
   <!-- Dashboard -->
   <!-- App details: open play store link if app is user installed -->
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Разширен екран</string>
+  <string name="keywords_expanded_desktop">Разширен екран</string>
+  <string name="expanded_desktop_style">Стил на разширения екран</string>
   <!-- Phone info shortcut -->
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">назад</string>
+  <string name="security_settings_fingerprint_sensor_location_front">отпред</string>
+  <string name="security_settings_fingerprint_sensor_location_left">лява страна</string>
+  <string name="security_settings_fingerprint_sensor_location_right">дясна страна</string>
   <!-- Gesture Settings -->
   <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
   <!-- Animation Scale -->
+  <string name="animation_off">Анимацията е изключена</string>
+  <string name="animation_scale_0_5x">Анимация 0.5 x</string>
+  <string name="animation_scale_0_75x">Анимация 0.75 x</string>
+  <string name="animation_scale_1x">Анимация 1 x</string>
+  <string name="animation_scale_1_5x">Анимация 1.5 x</string>
+  <string name="animation_scale_2x">Анимация 2 x</string>
+  <string name="animation_scale_5x">Анимация 5 x</string>
+  <string name="animation_scale_10x">Анимация 10 x</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> е <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
+  <string name="sim_enabled">активирано</string>
+  <string name="sim_disabled">деактивирано</string>
+  <string name="sim_missing">липсва или е повредена</string>
+  <string name="sim_enabler_need_disable_sim">СИМ картата ще бъде дезактивирана. Искате ли да продължите?</string>
+  <string name="sim_enabler_will_disable_sim_title">Внимание</string>
+  <string name="sim_enabler_need_switch_data_service">Тази СИМ карта ще бъде деактивирана и СИМ карта <xliff:g id="slotid">%1$s </xliff:g> ще бъде използвана за пренос на данни. Наистина ли искате да продължите?</string>
+  <string name="sim_enabler_airplane_on">Не може да бъде изпълнена тази операция, докато самолетния режим е включен.</string>
+  <string name="sim_enabler_in_call">Не може да изпълни операцията докато сте в разговор.</string>
+  <string name="sim_enabler_both_inactive">Не може да забраните всички СИМ карти</string>
+  <string name="sim_enabler_enabling">Активиране\u2026</string>
+  <string name="sim_enabler_disabling">Деактивиране\u2026</string>
+  <string name="sub_activate_success">СИМ картата е активирана.</string>
+  <string name="sub_activate_failed">Активирането е неуспешно.</string>
+  <string name="sub_deactivate_success">СИМ картата е деактивирана.</string>
+  <string name="sub_deactivate_failed">Неуспешно дезактивиране.</string>
   <!-- Wi-Fi region code -->
+  <string name="wifi_setting_countrycode_title">Код на Wi\u2011Fi регион</string>
   <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+  <string name="wifi_setting_countrycode_summary">Задайте код на Wi\u2011Fi регион</string>
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+  <string name="wifi_setting_countrycode_error">Възникна проблем при настройката на регионалния код.</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum слоеве</string>
+  <string name="menu_show_substratum">Покажи слоеве</string>
+  <string name="menu_hide_substratum">Скрий слоеве</string>
   <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Substratum слоеве за икони</string>
+  <string name="menu_show_substratum_icons">Покажи слоеве за икони</string>
+  <string name="menu_hide_substratum_icons">Скрий слоеве за икони</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Накарай всяко приложение да се оторизира</string>
+  <string name="force_authorize_substratum_packages_summary">Позволи приложения за теми от непознати източници</string>
   <!-- ADB debugging notifications -->
+  <string name="enable_adb_custom">Режим за отстраняване на грешки</string>
+  <string name="enable_adb_summary_custom">Включва интерфейса Android Debug Bridge (adb)</string>
+  <string name="adb_notify">ADB известия</string>
+  <string name="adb_notify_summary">Показвай уведомления, когато USB или мрежовото откриване на грешки е активирано</string>
+  <string name="adb_over_network">ADB през мрежата</string>
   <!-- General strings -->
   <!-- Dashboard options -->
   <!-- Battery saver notification toggle -->
   <!-- low battery notification toggle -->
+  <string name="battery_low_notif_title">Известие при ниско ниво на батерията</string>
+  <string name="battery_low_notif_summary">Показва ниско ниво на батерията когато разрешено</string>
   <!-- Display Settings -->
   <!-- Rotation Modes  -->
+  <string name="display_rotation_title">Завъртане</string>
+  <string name="display_rotation_disabled">Деактивирано</string>
+  <string name="display_rotation_unit">градуса</string>
+  <string name="display_lockscreen_rotation_title">Завъртане на заключен екран</string>
+  <string name="display_rotation_category_title">Режими на завъртане</string>
+  <string name="display_rotation_0_title">0 градуса</string>
+  <string name="display_rotation_90_title">90 градуса</string>
+  <string name="display_rotation_180_title">180 градуса</string>
+  <string name="display_rotation_270_title">270 градуса</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">За нас</string>
+  <string name="aex_about_summary">Нашето представяне и екип</string>
+  <string name="aex_about_info_summary">AospExtended е AOSP базиранa система която използва стандартен интерфейс и настройки в допълнение със Substratum теми. Този проект беше направен, чрез избирателно използване на различни добавки от различни проекти. Поради това, че е базиран на AOSP, предоставя гладкост и без забавяне в интерфейса. Ние постоянно се стараем да добавяме нови функции, за да го направим още по-добър в следващите актуализации.&#35;BeExtended</string>
+  <string name="dev_info">За AospExtended</string>
+  <string name="github">Гит Хъб</string>
+  <string name="github_description">Разгледай изходния код</string>
+  <string name="gplus">Гугъл+</string>
+  <string name="gplus_description">Включете се към нашата G+ общност</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Абонирайте се за нашия телеграм канал</string>
+  <string name="web">Център за изтегляне</string>
+  <string name="web_description">Посетете нашия портал за изтегляне</string>
+  <string name="help_translate">Преводи</string>
+  <string name="help_translate_description">Превод на вашия език, посетете нашия Crowdin</string>
+  <string name="walls">Тапети</string>
+  <string name="team1_description">Собственик/главен програмист</string>
+  <string name="team2_description">Разработчик</string>
+  <string name="team3_description">Модератор и един аматьорски разработчик</string>
+  <string name="team4_description">Разработчик</string>
+  <string name="designers">Дизайнери</string>
+  <string name="designer1_description">Банери, емблеми, тапети</string>
+  <string name="designer3_description">Тапети, Стартиращи анимации</string>
+  <string name="maintainers">Отговорници за поддръжа</string>
+  <string name="maintainer_description">Отговорници за поддръжка за %1$s</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Звук при снимка на екрана</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Ярко</string>
+  <string name="night_brightness_value_title">Яркост на Нощен режим</string>
+  <string name="night_bright_disabled">Деактивирано</string>
+  <string name="night_bright_min">Минимална яркост</string>
+  <string name="night_bright_low">Ниска яркост</string>
+  <string name="night_bright_medium">Средна яркост</string>
   <!-- setting: show CPU info-->
+  <string name="show_cpu_info">Показване на информация за Процесора</string>
+  <string name="show_cpu_info_summary">Овърлей на екрана, показващ текущото CPU състояние</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Бързо отключване</string>
   <!-- Wake on Plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Събуждане при зареждане</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Включване на екрана, когато включвате или изключвате източник на захранване</string>
   <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+  <string name="processor_info">Процесор</string>
+  <string name="mem_info">Памет</string>
   <!-- Category title for Charging sounds -->
+  <string name="power_notifications_category_title">Звуци при зареждане</string>
+  <string name="power_notifications_enable_title">Разреши</string>
+  <string name="power_notifications_enable_summary">Възпроизвежда звук, когато включвате или изключвате източник на захранване</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <string name="power_notifications_vibrate_title">Вибрация</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Звук за уведомление</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Без звук</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_pattern_size_3">3 x 3</string>
+  <string name="lock_pattern_size_4">4 x 4</string>
+  <string name="lock_pattern_size_5">5 x 5</string>
+  <string name="lock_pattern_size_6">6 x 6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Покажи грешки на фигурата</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Покажи точките на фигурата</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Вибрация</string>
+  <string name="lockscreen_vibrate_enabled_head">Вибрирация при отключване</string>
   <!-- Night Display -->
+  <string name="night_display_warning">Моля, обърнете внимание, че нощна светлина може да увеличи разхода на батерията.</string>
+  <string name="night_display_hide">Не показвай това предупреждение</string>
   <!-- Quick unlock information -->
+  <string name="quick_unlock_alert_title">Предупреждение</string>
+  <string name="quick_unlock_alert_msg">Тази функция работи само ако използвате 4-цифрен ПИН код, в противен може да възникнат нежелани ефекти на устройството Ви.</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Няма нужда, Настройките за разработчици са включени по подразбиране.</string>
   <!-- LED notifications -->
+  <string name="color_picker_dialog_title">Цвят</string>
+  <string name="omni_battery_light_settings">Светлина за зареждане на батерията</string>
+  <string name="omni_notification_light_settings">Светлинна индикация на известия</string>
+  <string name="omni_leds">LED светлини</string>
+  <string name="battery_light_enable">Разреши</string>
+  <string name="battery_low_pulse_title">Индикация при изтощена батерия</string>
+  <string name="battery_light_list_title">Цветове</string>
+  <string name="battery_light_low_color_title">Изтощена батерия</string>
+  <string name="battery_light_medium_color_title">Зареждане</string>
+  <string name="battery_light_full_color_title">Батерията е заредена (90%)</string>
+  <string name="battery_light_really_full_color_title">Батерията е заредена (100%)</string>
+  <string name="notification_light_general_title">Общи</string>
   <string name="led_color_green">Зелено</string>
   <string name="led_color_red">Червено</string>
   <string name="led_color_blue">Синьо</string>
+  <string name="ok">Да</string>
+  <string name="advanced">Разширени</string>
   <!-- Notification light dialogs -->
+  <string name="default_time">Нормален</string>
+  <string name="custom_time">По избор</string>
   <string name="dialog_delete_title">Изтриване</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_normal">Нормален</string>
+  <string name="pulse_speed_fast">Бързо</string>
+  <string name="pulse_speed_normal">Нормален</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_general_title">Общи</string>
+  <string name="notification_light_applist_title">Приложения</string>
+  <string name="notification_light_default_value">По подразбиране</string>
   <!-- Lights settings, LED notification -->
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Изберете приложение</string>
+  <string name="reset">Нулиране</string>
   <!-- Development Settings summary-->
+  <string name="adb_enabled">ADB разрешено</string>
+  <string name="adb_disabled">ADB забранено</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Разпознаване при носене</string>
+  <string name="pocket_judge_summary">Блокиране екран и бутоните, когато устройството е в джоба</string>
 </resources>

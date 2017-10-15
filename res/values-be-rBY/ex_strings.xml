@@ -397,6 +397,7 @@
   <string name="screenshot_sound_title">Гук скрыншота</string>
   <string name="screenshot_sound_summary">Прайграваць гук пры скрыншоце</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Яркасць</string>
   <string name="night_brightness_value_title">Яркасць Начнога святла</string>
   <string name="night_brightness_text">Пры ўключэнні начнога рэжыму змяняецца яркасць экрана. Па змаўчанні яркасць - нізкая</string>
   <string name="night_bright_disabled">Адключана</string>
@@ -418,6 +419,7 @@
   <string name="mem_info">Памяць</string>
   <!-- Category title for Charging sounds -->
   <string name="power_notifications_category_title">Гукі зарадкі</string>
+  <string name="power_notifications_enable_title">Уключыць</string>
   <string name="power_notifications_enable_summary">Прайграванне гуку пры падключэнні або адключэнні крыніцы сілкавання</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
   <string name="power_notifications_vibrate_title">Вібрацыя</string>
@@ -452,6 +454,7 @@
   <string name="omni_notification_light_settings">Індыкацыя апавяшчэнняў</string>
   <string name="omni_leds">LED святло</string>
   <string name="batterylight_title">Налада дыёда зарада акумулятара</string>
+  <string name="battery_light_enable">Уключыць</string>
   <string name="battery_low_pulse_title">Міргаць пры разраджанай батарэі</string>
   <string name="battery_light_list_title">Колеры</string>
   <string name="battery_light_low_color_title">Батарэя разраджана</string>
@@ -460,6 +463,9 @@
   <string name="battery_light_really_full_color_title">Зараджаны (100%)</string>
   <string name="edit_battery_settings">Змяніць налады батарэі</string>
   <string name="notification_light_general_title">Агульныя</string>
+  <string name="led_color_green">Зялёны</string>
+  <string name="led_color_red">Чырвоны</string>
+  <string name="led_color_blue">Сіні</string>
   <string name="ok">ОК</string>
   <string name="advanced">Дадаткова</string>
   <string name="profiles_add">Дадаць...</string>
@@ -487,6 +493,7 @@
   <string name="notificationlight_title">Наладка індыкатара апавяшчэнняў</string>
   <string name="notification_light_general_title">Агульныя</string>
   <string name="notification_light_applist_title">Праграмы</string>
+  <string name="notification_light_phonelist_title">Тэлефон</string>
   <string name="notification_light_use_custom">Уласныя значэнні</string>
   <string name="notification_light_default_value">Па змаўчанні</string>
   <string name="notification_light_missed_call_title">Прапушчаны выклік</string>

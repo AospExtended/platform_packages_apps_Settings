@@ -62,12 +62,12 @@
   <!-- Custom tiles summary -->
   <string name="substratum_settings_summary">Temas</string>
   <!-- Root Management -->
-  <string name="rootmanagement_title">Control root</string>
+  <string name="rootmanagement_title">Administrar root</string>
   <string name="rootmanagement_dashboard_summary">Controlar acceso root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Increasing ring tone volume -->
-  <string name="increasing_ring_volume_option_title">Incrementar volumen de tono</string>
+  <string name="increasing_ring_volume_option_title">Incrementar volumen de llamada</string>
   <string name="increasing_ring_min_volume_title">Volumen de inicio</string>
   <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
   <!-- Less Notification sounds -->
@@ -82,24 +82,24 @@
   <string name="less_notification_sounds_45s">45 segundos</string>
   <string name="less_notification_sounds_1m">1 minuto</string>
   <string name="less_notification_sounds_2m">2 minutos</string>
-  <string name="less_notification_sounds_5m">5 Minutos</string>
+  <string name="less_notification_sounds_5m">5 minutos</string>
   <!-- Magisk Manager -->
   <string name="magisk_title">Magisk</string>
   <string name="magisk_summary">Control root</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Revolver</string>
-  <string name="unlock_scramble_pin_layout_summary">Revolver los números de PIN</string>
+  <string name="unlock_scramble_pin_layout_summary">Revolver los números de PIN al desbloquear el dispositivo</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data_category_title">Acceso a datos moviles</string>
-  <string name="data_usage_app_restrict_wifi_category_title">Acceso a WiFi</string>
+  <string name="data_usage_app_restrict_data_category_title">Acceso a datos móviles</string>
+  <string name="data_usage_app_restrict_wifi_category_title">Acceso a Wi-Fi</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_data_title">Desactivar el acceso a datos</string>
+  <string name="data_usage_app_restrict_all_data_title">Desactivar datos móviles</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <string name="data_usage_app_restrict_all_data_summary">Evitar que las aplicaciones usen los datos moviles</string>
   <!-- Title for switch to block app data usage [CHAR LIMIT=30] -->
-  <string name="data_usage_app_restrict_all_wifi_title">Desactivar al acceso a WiFi</string>
+  <string name="data_usage_app_restrict_all_wifi_title">Desactivar el acceso a Wi-Fi</string>
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
-  <string name="data_usage_app_restrict_all_wifi_summary">Evitar que las aplicaciones usen el WiFi</string>
+  <string name="data_usage_app_restrict_all_wifi_summary">Evitar que las aplicaciones usen el Wi-Fi</string>
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">Reiniciar estadísticas</string>
   <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
@@ -114,11 +114,11 @@
   <string name="doze_pulse_duration_in_title">Desvanecimiento de entrada</string>
   <string name="doze_pulse_duration_visible_title">Tiempo de visibilidad</string>
   <string name="doze_pulse_duration_out_title">Desvanecimiento de salida</string>
-  <string name="doze_trigger_pickup_title">Activador de gesto de recogida</string>
-  <string name="doze_trigger_pickup_summary_on">Pulse se activará ante eventos del sensor del gesto de recogida</string>
-  <string name="doze_trigger_pickup_summary_off">Gesto de recogida no se usara como activador</string>
-  <string name="doze_trigger_notification_title">Activador de notificaciones</string>
-  <string name="doze_trigger_notification_summary_on">Pulse se activará por notificaciones</string>
+  <string name="doze_trigger_pickup_title">Activar al tomar el dispositivo</string>
+  <string name="doze_trigger_pickup_summary_on">Mostrar la pantalla ambiente al levantar el despositivo</string>
+  <string name="doze_trigger_pickup_summary_off">No se mostrará la pantalla al levantar el dispositivo</string>
+  <string name="doze_trigger_notification_title">Activar al recibir notificaciones</string>
+  <string name="doze_trigger_notification_summary_on">Mostrar la pantalla ambiente al recibir notificaciones</string>
   <string name="doze_trigger_notification_summary_off">Las notificaciones no se utilizarán como activador</string>
   <string name="doze_brightness_level_title">Nivel de brillo</string>
   <string name="onehundred_ms">100 ms</string>
