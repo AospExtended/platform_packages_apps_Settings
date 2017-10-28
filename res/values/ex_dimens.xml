@@ -15,6 +15,6 @@
 
     <dimen name="actionbar_subsettings_contentInsetStart_custom">@dimen/icon_space_reserved_padding</dimen>
     <dimen name="switchbar_subsettings_margin_start_custom">@dimen/icon_space_reserved_padding</dimen>
-    <dimen name="icon_space_reserved_padding">72dp</dimen>
+    <dimen name="icon_space_reserved_padding">24dp</dimen>
 
 </resources>
