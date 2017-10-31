@@ -93,8 +93,15 @@ public class ThemePreferenceController extends PreferenceController implements
         if (TextUtils.isEmpty(theme)) {
             theme = mContext.getString(R.string.default_theme);
             pref.setSummary(theme);
+        }else{
+            String label;
+            try {
+                label = mPackageManager.getApplicationInfo(theme, 0).loadLabel(mPackageManager).toString();
+            } catch (NameNotFoundException e) {
+                label = theme;
+            }
+            pref.setSummary(label);
         }
-        pref.setSummary(theme);
         pref.setValue(theme);
     }
 
