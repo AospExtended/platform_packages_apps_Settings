@@ -20,4 +20,7 @@
          and currently depends on QC's proprietary telephony stack -->
     <bool name="config_enableManualSubProvisioning">true</bool>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
