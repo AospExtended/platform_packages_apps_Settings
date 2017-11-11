@@ -100,6 +100,9 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
 
+    <!-- Ambient category -->
+    <string name="doze_category">Ambient options</string>
+
     <!-- Doze -->
     <string name="doze_always_on_title">Always On Display</string>
     <string name="doze_always_on_summary">Enable Ambient Displays always on setting</string>
