@@ -111,6 +111,20 @@
         android:title="@string/ambient_display_pickup_title"
         android:fragment="com.android.settings.gestures.PickupGestureSettings" />
 
+    <Preference
+        android:key="custom_doze"
+        android:title="@string/doze_title"
+        android:summary="@string/doze_summary" >
+        <intent
+            android:action="com.android.settings.action.EXTRA_SETTINGS"
+            android:targetPackage="com.custom.ambient.display"
+            android:targetClass="com.custom.ambient.display.DozeSettings" />
+    </Preference>
+
+    <PreferenceCategory
+        android:key="doze_category"
+        android:title="@string/doze_category">
+
     <SwitchPreference
         android:key="doze"
         android:title="@string/doze_title"
@@ -122,6 +136,8 @@
         android:summary="@string/doze_always_on_summary"
         android:dependency="doze"
         android:defaultValue="false" />
+
+    </PreferenceCategory>
 
     <SwitchPreference
         android:key="tap_to_wake"
