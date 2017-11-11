@@ -111,6 +111,20 @@
         android:title="@string/ambient_display_pickup_title"
         android:fragment="com.android.settings.gestures.PickupGestureSettings" />
 
+    <Preference
+        android:key="custom_doze"
+        android:title="@string/doze_title"
+        android:summary="@string/doze_summary" >
+        <intent
+            android:action="com.android.settings.action.EXTRA_SETTINGS"
+            android:targetPackage="com.custom.ambient.display"
+            android:targetClass="com.custom.ambient.display.DozeSettings" />
+    </Preference>
+
+    <PreferenceCategory
+        android:key="doze_category"
+        android:title="@string/doze_category">
+
     <SwitchPreference
         android:key="doze"
         android:title="@string/doze_title"
@@ -123,20 +137,21 @@
         android:dependency="doze"
         android:defaultValue="false" />
 
+    </PreferenceCategory>
+
     <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
-    <ListPreference
-        android:key="theme"
-        android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
-
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    <PreferenceCategory
+        android:key="dashboard_category"
+        android:title="@string/dashboard_category">
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="enable_conditions"
@@ -151,5 +166,12 @@
         android:summaryOn="@string/summary_dashboard_suggestions_enabled"
         android:summaryOff="@string/summary_dashboard_suggestions_disabled"
         android:defaultValue="true" />
+
+    <ListPreference
+        android:key="theme"
+        android:title="@string/device_theme"
+        android:summary="@string/summary_placeholder" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
 
