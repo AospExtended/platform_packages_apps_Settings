@@ -134,6 +134,10 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import org.aospextended.extensions.PartsFragment;
 import org.aospextended.extensions.HeadsUpSettings;
+import org.aospextended.extensions.dui.FlingSettings;
+import org.aospextended.extensions.NavbarSettings;
+import org.aospextended.extensions.dui.PulseSettings;
+import org.aospextended.extensions.dui.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -258,6 +262,10 @@ public class SettingsGateway {
             DataUsageList.class.getName(),
             PartsFragment.class.getName(),
             HeadsUpSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -297,5 +305,9 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.ExtensionsSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
