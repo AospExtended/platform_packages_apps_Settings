@@ -59,6 +59,18 @@
         <Preference
             android:key="key_user_dictionary_settings"
             android:title="@string/user_dict_settings_title"/>
+
+        <com.android.settings.PointerSpeedPreference
+            android:key="pointer_speed"
+            android:title="@string/pointer_speed"
+            android:dialogTitle="@string/pointer_speed"/>
+
+        <Preference
+            android:key="tts_settings_summary"
+            android:title="@string/tts_settings_title"
+            android:fragment="com.android.settings.tts.TextToSpeechSettings"/>
+
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -95,19 +107,6 @@
             android:title="@string/ambient_display_pickup_title"
             android:fragment="com.android.settings.gestures.PickupGestureSettings"/>
 
-    </PreferenceCategory>
-
-    <PreferenceCategory>
-
-        <com.android.settings.PointerSpeedPreference
-            android:key="pointer_speed"
-            android:title="@string/pointer_speed"
-            android:dialogTitle="@string/pointer_speed"/>
-
-        <Preference
-            android:key="tts_settings_summary"
-            android:title="@string/tts_settings_title"
-            android:fragment="com.android.settings.tts.TextToSpeechSettings"/>
 
     </PreferenceCategory>
 
