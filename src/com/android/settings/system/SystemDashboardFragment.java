@@ -26,7 +26,6 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.deviceinfo.AdditionalSystemUpdatePreferenceController;
 import com.android.settings.deviceinfo.SystemUpdatePreferenceController;
 import com.android.settings.gestures.GesturesSettingPreferenceController;
-import com.android.settings.deviceinfo.AexOtaPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -69,7 +68,6 @@ public class SystemDashboardFragment extends DashboardFragment {
     private static List<AbstractPreferenceController> buildPreferenceControllers(Context context) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new SystemUpdatePreferenceController(context, UserManager.get(context)));
-        controllers.add(new AexOtaPreferenceController(context, UserManager.get(context)));
         controllers.add(new AdditionalSystemUpdatePreferenceController(context));
         controllers.add(new BackupSettingsActivityPreferenceController(context));
         controllers.add(new GesturesSettingPreferenceController(context));
