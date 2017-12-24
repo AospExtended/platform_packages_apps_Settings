@@ -67,4 +67,8 @@
     <string name="maintainers">Maintainers</string>
     <string name="maintainer_description">Maintains for %1$s</string>
 
+    <!-- AEX OTA -->
+    <string name="aex_ota_title">AEX Updates</string>
+    <string name="aex_ota_summary">Get latest build</string>
+
 </resources>
