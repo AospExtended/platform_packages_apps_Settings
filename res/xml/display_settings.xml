@@ -120,15 +120,15 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
-    <ListPreference
-        android:key="theme"
-        android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
-
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+
+    <PreferenceCategory
+        android:key="dashboard_category"
+        android:title="@string/dashboard_category">
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="enable_conditions"
@@ -143,4 +143,11 @@
         android:summaryOn="@string/summary_dashboard_suggestions_enabled"
         android:summaryOff="@string/summary_dashboard_suggestions_disabled"
         android:defaultValue="true" />
+
+    <ListPreference
+        android:key="theme"
+        android:title="@string/device_theme"
+        android:summary="@string/summary_placeholder" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
