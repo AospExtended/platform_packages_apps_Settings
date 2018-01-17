@@ -38,7 +38,7 @@ public class AexOtaPreferenceController extends AbstractPreferenceController imp
     private static final String TAG = "AexOtaPrefContr";
 
     private static final String KEY_AEX_OTA = "aex_ota";
-    private static final String KEY_AEXOTA_PACKAGE_NAME = "org.aospextended.ota";
+    private static final String KEY_AEXOTA_PACKAGE_NAME = "com.aospextended.ota";
 
     private final UserManager mUm;
 
