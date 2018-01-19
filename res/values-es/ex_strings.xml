@@ -30,6 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Acerca de nosotros</string>
   <string name="aex_about_summary">Nuestra presentación y nuestro equipo</string>
+  <string name="aex_about_info_summary">AospExtended es una ROM basa en AOSP que proporciona una interfaz stock con varias opciones junto al motor de temas Substratum. Este projecto se ha realizado \"cherry-picking\" varias opciones diferentes proyectos. Siendo basada en AOSP, proporciona una experiencia fluida y sin lag. Notros constantemente intentaremos añadir nuevas opciones para hacer mejor este proyecto.&#35;BeExtended</string>
   <string name="dev_info">Acerca de AospExtended</string>
   <string name="github">GitHub</string>
   <string name="github_description">Ver nuestro código fuente</string>
@@ -56,6 +57,7 @@
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">Banners, Logos, fondos de pantalla</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Logo de Fling/QS</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Fondos de pantalla, Bootanimations</string>
   <string name="maintainers">Responsable de mantenimiento</string>
@@ -69,13 +71,46 @@
   <string name="expanded_hide_status">Ocultar la barra de estado</string>
   <string name="expanded_hide_navigation">Ocultar la barra de navegación</string>
   <string name="expanded_hide_both">Ocultar ambas</string>
+  <string name="expanded_nothing_to_show">Para añadir una configuración por aplicación, deshabilita la opción \"Habilitado para todas\"</string>
+  <string name="expanded_enabled_for_all">Habilitado para todas</string>
+  <string name="expanded_user_configurable">Configurable por el usuario</string>
+  <string name="expanded_desktop_style">Estilo del escritorio extendido</string>
+  <string name="expanded_desktop_style_description">Escoge un estilo de escritorio extendido</string>
+  <string name="expanded_desktop_title">Opciones del escritorio expandido</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
+  <string name="screenshot_sound_summary">Reproducir sonido cuando se toma una captura de pantalla</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Brillo</string>
+  <string name="night_bright_disabled">Deshabilitado</string>
+  <string name="night_bright_minimum">Brillo mínimo</string>
+  <string name="night_bright_low">Brillo bajo</string>
+  <string name="night_bright_medium">Brillo medio</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Unir volumen de tono y notificación</string>
+  <string name="notification_volume_option_title">Volumen de notificación</string>
+  <string name="ring_notification_volume_option_title">Volumen de tono y notificación</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Úbicación</string>
+  <string name="app_ops_cat_personal">Personal</string>
+  <string name="app_ops_cat_messaging">Mensajes</string>
+  <string name="app_ops_cat_media">Multimedia</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">cámara</string>
+  <string name="app_ops_access_location">úbicación</string>
+  <string name="app_ops_access_notifications">notificaciones</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">inicio automatico</string>
+  <string name="app_ops_delete_call_log">eliminar historial de llamadas</string>
+  <string name="app_ops_delete_contacts">eliminar contactos</string>
+  <string name="app_ops_delete_mms">eliminar MMS</string>
+  <string name="app_ops_delete_sms">eliminar SMS</string>
+  <string name="app_ops_draw_on_top">superposicón</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->

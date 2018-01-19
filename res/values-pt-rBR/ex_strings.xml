@@ -163,7 +163,11 @@
   <string name="app_ops_turn_on_screen">ligar a tela</string>
   <string name="app_ops_get_accounts">obter as contas do dispositivo</string>
   <string name="app_ops_run_in_background">executar em segundo plano</string>
+  <string name="app_ops_accessibility_volume">volume de acessibilidade</string>
+  <string name="app_ops_read_phone_numbers">ler número de telefone.</string>
   <string name="app_ops_request_install_packages">Instalar Pacotes</string>
+  <string name="app_ops_picture_in_picture">pip</string>
+  <string name="app_ops_app_start_foreground">começar o primeiro plano</string>
   <string name="app_ops_answer_phone_calls">atender chamadas</string>
   <string name="app_ops_boot_completed">início automático</string>
   <!-- Root Management -->
@@ -189,7 +193,11 @@
   <!-- Custom light color -->
   <string name="light_customization">Notificação de lanterna</string>
   <string name="custom_light_title">Cor da luz:</string>
+  <string name="custom_light_on_time_title">"Tempo de ativação da luz durante o pulso led (ms)"</string>
+  <string name="custom_light_off_time_title">"Tempo de ativação da luz durante o pulso led (ms)"</string>
+  <string name="app_notifications_info_desc">Toque em um dos canais acima para configurar suas cores claras e outras opções</string>
   <string name="value_equals_default">Defesa</string>
+  <string name="show_light_on_zen_title">Piscar durante Não perturbe</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Sons do ajuste de volume</string>
   <!-- Reset battery stats -->
@@ -227,6 +235,8 @@
   <string name="adb_over_network_warning">AVISO: Quando o ADB através da rede está ativado, o seu telefone fica desprotegido e pode facilitar invasões em todas as redes conectadas, incluindo rede de dados GSM! \n\nUse esta funcionalidade apenas quando estiver conectado a redes confiáveis.\n\nQuer mesmo ativar esta função?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Vibrar ao plugar</string>
+  <string name="alert_on_charged_level_title">Alerta de nível de carga ideal</string>
+  <string name="alert_on_charged_level_summary">Notificar e reproduzir o som/vibrar no nível de carga ideal se a tela estiver desligada desde pelo menos 1 minuto. \nNotificação pode ser desativada separadamente pressionando-a longamente.</string>
   <string name="alert_on_charged_level_dis">Desativado</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
