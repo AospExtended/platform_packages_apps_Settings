@@ -65,7 +65,15 @@
     <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
     <string name="designer3_description">Wallpapers, Bootanimations</string>
     <string name="maintainers">Maintainers</string>
-    <string name="maintainer_description">Maintains for %1$s</string>
+    <string name="maintainers_title">Official maintainers</string>
+    <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
+
+    <!-- Maintainer section -->
+    <string name="maintainer_description">Maintainer: %1$s</string>
+    <string name="loading_devices">Loading devices list...</string>
+    <string name="loading_devices_failed">Failed to load devices list</string>
+    <string name="devices_list_empty">List is empty, tap the icon to reload</string>
+    <string name="reload_list">Reload</string>
 
     <!-- AEX OTA -->
     <string name="aex_ota_title">AEX Updates</string>
