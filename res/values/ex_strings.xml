@@ -379,6 +379,11 @@
     <string name="usb_paranoia_connect_summary">Only enable charging and disable ADB when USB plugged on secure lock screens</string>
     <string name="usb_category_title">USB</string>
 
+    <!-- USB mode dialog -->
+    <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
+    <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
+
 </resources>
+
 
 

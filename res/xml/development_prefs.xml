@@ -184,6 +184,12 @@
             android:defaultValue="@string/default_usb_configuration" />
     
         <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+            android:key="show_usb_mode_dialog"
+            android:title="@string/show_usb_mode_dialog_title"
+            android:summary="@string/show_usb_mode_dialog_summary"
+            android:defaultValue="true" />
+
+        <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
             android:key="usb_paranoia_connect"
             android:title="@string/usb_paranoia_connect_title"
             android:summary="@string/usb_paranoia_connect_summary"
