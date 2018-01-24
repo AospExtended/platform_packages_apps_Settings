@@ -14,28 +14,133 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Extended-Version</string>
+  <string name="extended_version_default">Unbekannt</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Build Datum</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nicht nötig, Entwickleroptionen sind standardmäßig aktiviert.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Änderungsprotokoll</string>
+  <string name="changelog_summary">Letzte Änderungen</string>
+  <string name="changelog_loading">Änderungsprotokoll wird geladen\u2026</string>
+  <string name="changelog_error">Laden des Änderungsprotokolls fehlgeschlagen</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Über uns</string>
+  <string name="aex_about_summary">Unser Team und was wir machen</string>
+  <string name="dev_info">Über AospExtended</string>
+  <string name="github">Github</string>
+  <string name="github_description">Sehen Sie sich unseren Quellcode an</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Treten Sie unserer G+ Community bei</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Abonnieren Sie unseren Telegram-Kanal</string>
+  <string name="web">Downloads</string>
+  <string name="web_description">Besuchen Sie unser Downloadportal</string>
+  <string name="help_translate">Übersetzungen</string>
+  <string name="help_translate_description">Besuchen Sie Crowdin, um in Ihre Sprache zu übersetzen</string>
+  <string name="walls">Hintergrundbilder</string>
+  <string name="leads">Teamleiter</string>
+  <string name="team1_description">Besitzer und führender Entwickler</string>
+  <string name="team2_description">Entwickler</string>
+  <string name="team3_description">Moderator und ein Amateur-Entwickler</string>
+  <string name="team4_description">Entwickler</string>
+  <string name="designers">Designer</string>
+  <string name="designer1_description">Forumbanner, Logos, Hintergrundbilder</string>
+  <string name="designer2_description">QS/Fling Logos</string>
+  <string name="designer3_description">Hintergrundbilder, Bootanimation</string>
+  <string name="maintainers">Betreuer</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX Updates</string>
+  <string name="aex_ota_summary">Letztes Update laden</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Erweiterter Desktop</string>
+  <string name="expanded_hide_nothing">Nichts ausblenden</string>
+  <string name="expanded_hide_status">Statusleiste ausblenden</string>
+  <string name="expanded_hide_navigation">Navigationsleiste ausblenden</string>
+  <string name="expanded_hide_both">Beides ausblenden</string>
   <!-- App details: open play store link if app is user installed -->
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Screenshot-Sound</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Helligkeit</string>
   <!-- Notification volume -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_modify_contacts">Kontakte bearbeiten</string>
+  <string name="app_ops_modify_settings">Einstellungen bearbeiten</string>
+  <string name="app_ops_mute_unmute_microphone">Mikrofon aktivieren/deaktivieren</string>
+  <string name="app_ops_play_audio">Audio wiedergeben</string>
+  <string name="app_ops_post_notification">Benachrichtigung posten</string>
+  <string name="app_ops_read_calendar">Kalendereinträge lesen</string>
+  <string name="app_ops_read_call_log">Anrufprotokoll lesen</string>
+  <string name="app_ops_read_clipboard">Zwischenablage lesen</string>
+  <string name="app_ops_read_contacts">Kontakte lesen</string>
+  <string name="app_ops_read_mms">MMS lesen</string>
+  <string name="app_ops_read_sms">SMS lesen</string>
+  <string name="app_ops_receive_sms">SMS empfangen</string>
+  <string name="app_ops_record_audio">Audioinhalte aufzeichnen</string>
+  <string name="app_ops_send_mms">MMS senden</string>
+  <string name="app_ops_send_sms">SMS senden</string>
+  <string name="app_ops_use_alarm_volume">Weckerlautstärke</string>
+  <string name="app_ops_use_audio_focus">Audiofokus</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetooth-Lautstärke</string>
+  <string name="app_ops_use_master_volume">Gesamtlautstärke</string>
+  <string name="app_ops_use_media_volume">Medienlautstärke</string>
+  <string name="app_ops_use_notification_volume">Benachrichtigungslautstärke</string>
+  <string name="app_ops_use_ring_volume">Klingeltonlautstärke</string>
+  <string name="app_ops_use_vibrate">Vibration</string>
+  <string name="app_ops_use_voice_volume">Sprachanruflautstärke</string>
+  <string name="app_ops_write_mms">MMS schreiben</string>
+  <string name="app_ops_write_sms">SMS schreiben</string>
+  <string name="app_ops_use_fingerprint">Fingerabdruck</string>
+  <string name="app_ops_add_voicemail">Sprachnachricht</string>
+  <string name="app_ops_read_phone_state">Auf Telefonstatus zugreifen</string>
+  <string name="app_ops_scan_wifi">WLAN-Netzwerke scannen</string>
+  <string name="app_ops_change_wallpaper">Hintergrundbild ändern</string>
+  <string name="app_ops_assist_screenshot">Bildschirmfoto</string>
+  <string name="app_ops_use_body_sensors">Körpersensoren</string>
+  <string name="app_ops_read_cell_broadcasts">Cell-Broadcasts</string>
+  <string name="app_ops_mock_location">Standort simulieren</string>
+  <string name="app_ops_read_external_storage">Externen Speicher lesen</string>
+  <string name="app_ops_write_external_storage">Externen Speicher schreiben</string>
+  <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
+  <string name="app_ops_get_accounts">Geräte-Konten</string>
+  <string name="app_ops_run_in_background">im Hintergrund ausführen</string>
+  <string name="app_ops_accessibility_volume">Bedienungshilfen-Lautstärke</string>
+  <string name="app_ops_read_phone_numbers">Telefonnummer lesen</string>
+  <string name="app_ops_request_install_packages">Pakete installieren</string>
+  <string name="app_ops_picture_in_picture">Bild in Bild</string>
+  <string name="app_ops_app_start_foreground">Im Vordergrund starten</string>
+  <string name="app_ops_answer_phone_calls">Anruf annehmen</string>
+  <string name="app_ops_boot_completed">Autostart</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Root-Verwaltung</string>
+  <string name="rootmanagement_dashboard_summary">Root-Zugriff verwalten</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Desktop-Sicherungspasswort</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warnfarbe</string>
+  <string name="battery_saver_color_summary">Aktiviere orangene Status-/Navigationsleiste bei aktiviertem Energiesparmodus</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Aufwecken beim Laden</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Gerät aufwecken, wenn das Ladekabel ein- oder ausgesteckt wird.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">CPU Info anzeigen</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Bildschirm-Overlay zeigt aktuelle CPU-Info</string>
   <!-- Custom light color -->
+  <string name="light_customization">LED Benachrichtigung</string>
+  <string name="custom_light_title">LED Farbe</string>
+  <string name="custom_light_on_time_title">"Licht-an-Zeit während LED Puls (ms)"</string>
+  <string name="custom_light_off_time_title">"Licht-aus-Zeit während LED Puls (ms)"</string>
+  <string name="app_notifications_info_desc">Auf einen der oberen Kanäle tippen um ihre Lichtfarben und andere Optionen anzupassen</string>
   <!-- Volume settings - Volume adjustment sound -->
   <!-- Reset battery stats -->
   <!-- Volume Steps -->

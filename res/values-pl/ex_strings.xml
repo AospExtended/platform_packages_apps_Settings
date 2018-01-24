@@ -14,22 +14,124 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Wersja rozszerzona</string>
+  <string name="extended_version_default">Nieznana</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Data kompilacji</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nie ma potrzeby, Opcje programistyczne są domyślnie włączone.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Lista zmian</string>
+  <string name="changelog_summary">Ostatnie zmiany</string>
+  <string name="changelog_loading">Wczytywanie listy zmian\u2026</string>
+  <string name="changelog_error">Nie można załadować listy zmian</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">O nas</string>
+  <string name="aex_about_summary">Wstęp i nasz zespół</string>
+  <string name="aex_about_info_summary">AospExtended jest AOSP oparty rom, który zapewnia różne funkcje dostosowań w komorze silnikowej tematu podloz magazynie UI/UX. Projekt został złożony przez cherry-picking różnych popełnia z rozmaitych innych projektach. Opiera się na AOSP zapewnia gładkie i pozbawione opóźnień wrażenia po wyjęciu z pudełka. Stale staramy się dodać więcej funkcji, a nawet lepiej, w przyszłości aktualizacji. &#35; BeExtended</string>
+  <string name="dev_info">O AospExtended</string>
+  <string name="github">GitHub</string>
+  <string name="github_description">Zobacz nasz kod źródłowy</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Dołącz do naszej społeczności na G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Subskrybuj nasz kanał na Telegramie</string>
+  <string name="web">Centrum pobierania</string>
+  <string name="web_description">Odwiedź nasz portal pobierania</string>
+  <string name="help_translate">Tłumaczenia</string>
+  <string name="help_translate_description">Odwiedź nasz Crowdin aby przetłumaczyć na swój język</string>
+  <string name="walls">Tapety</string>
+  <string name="walls_description">Pobierz tapety udostępnione przez różnych użytkowników</string>
+  <string name="leads">Lider zespołu</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Właściciel/Lead Developer</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Deweloper</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderator i amatorski deweloper</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Deweloper</string>
+  <string name="designers">Projektanci</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">QS/loga fling</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Tapety, Animacje startowe</string>
+  <string name="maintainers">Twórcy aplikacji</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX aktualizacje</string>
+  <string name="aex_ota_summary">Pobierz najnowszą kompilację</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Rozszerzony pulpit</string>
+  <string name="expanded_hide_nothing">Nic nie ukrywaj</string>
+  <string name="expanded_hide_status">Ukryj pasek stanu</string>
+  <string name="expanded_hide_navigation">Ukryj pasek nawigacyjny</string>
+  <string name="expanded_hide_both">Ukryj oba</string>
+  <string name="expanded_nothing_to_show">Aby dodać niestandardową konfigurację trybu rozszerzonego dla wybranej aplikacji, ustaw \"Włączone dla wszystkich\" na pozycji wyłącz</string>
+  <string name="expanded_desktop_state">Tryb rozszerzony</string>
+  <string name="expanded_enabled_for_all">Włączone dla wszystkich</string>
+  <string name="expanded_user_configurable">Konfigurowane przez użytkownika</string>
+  <string name="expanded_desktop_style">Styl rozszerzonego pulpitu</string>
+  <string name="expanded_desktop_style_description">Wybierz domyślny styl rozszerzonego pulpitu</string>
+  <string name="expanded_desktop_title">Opcje rozszerzonego pulpitu</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Jasność</string>
+  <string name="night_bright_disabled">Wyłączone</string>
+  <string name="night_bright_minimum">Minimalna jasność</string>
+  <string name="night_bright_low">Niska jasność</string>
+  <string name="night_bright_medium">Średnia jasność</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Połącz dźwięk połączeń i powiadomień</string>
+  <string name="notification_volume_option_title">Głośność powiadomień</string>
+  <string name="ring_notification_volume_option_title">Głośność połączeń i powiadomień</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Lokalizacja</string>
+  <string name="app_ops_cat_personal">Osobiste</string>
+  <string name="app_ops_cat_messaging">Wiadomości</string>
+  <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Urządzenie</string>
+  <string name="app_ops_cat_bootup">Rozruch</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">aparat</string>
+  <string name="app_ops_access_location">lokalizacja</string>
+  <string name="app_ops_access_notifications">powiadomienia</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">autostart</string>
+  <string name="app_ops_delete_mms">usuń MMS</string>
+  <string name="app_ops_delete_sms">usuń SMS</string>
+  <string name="app_ops_draw_on_top">rysuj na wierzchu</string>
+  <string name="app_ops_keep_device_awake">nie usypiaj</string>
+  <string name="app_ops_make_phone_call">wykonaj połączenie</string>
+  <string name="app_ops_use_audio_focus">kierowanie dźwięku</string>
+  <string name="app_ops_use_bluetooth_volume">Głośność bluetooth</string>
+  <string name="app_ops_use_master_volume">głośność ogólna</string>
+  <string name="app_ops_use_media_buttons">przyciski multimedialne</string>
+  <string name="app_ops_use_media_volume">głośność multimediów</string>
+  <string name="app_ops_use_notification_volume">głośność powiadomień</string>
+  <string name="app_ops_assist_screenshot">zrzut ekranu</string>
+  <string name="app_ops_use_body_sensors">użyj czujników ciała</string>
+  <string name="app_ops_read_cell_broadcasts">transmisje komórkowe</string>
+  <string name="app_ops_mock_location">pozorowanie lokalizacji</string>
+  <string name="app_ops_read_external_storage">odczytaj pamięć ext.</string>
+  <string name="app_ops_write_external_storage">zapisz pamięć ext.</string>
+  <string name="app_ops_turn_on_screen">włącz ekran</string>
+  <string name="app_ops_get_accounts">konta urządzenia</string>
+  <string name="app_ops_run_in_background">pracuj w tle</string>
+  <string name="app_ops_accessibility_volume">ułatwienia dostępu</string>
+  <string name="app_ops_read_phone_numbers">odczyt numeru telefonu</string>
+  <string name="app_ops_request_install_packages">instalacja pakietów</string>
+  <string name="app_ops_picture_in_picture">pip</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- Battery saver color -->
   <!-- Wakeup options -->
@@ -39,6 +141,8 @@
   <!-- Volume settings - Volume adjustment sound -->
   <!-- Reset battery stats -->
   <!-- Volume Steps -->
+  <string name="volume_steps_reset">Resetuj</string>
+  <string name="volume_steps_60">60</string>
   <!-- Dashboard Category -->
   <!-- Encryption and credential -->
   <!-- Android debugging over WiFi -->

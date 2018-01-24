@@ -61,7 +61,7 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Papéis de parede, Animações de boot</string>
   <string name="maintainers">Mantenedores</string>
-  <string name="maintainer_description">Mantém para %1$s</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
   <string name="aex_ota_title">Atualizações AEX</string>
   <string name="aex_ota_summary">Obter as últimas atualizações</string>

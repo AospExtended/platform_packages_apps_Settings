@@ -14,35 +14,241 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Versione Extended</string>
+  <string name="extended_version_default">Sconosciuta</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Data compilazione</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Non è necessario, le Opzioni sviluppatore sono già attive.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Modifiche</string>
+  <string name="changelog_summary">Modifiche recenti</string>
+  <string name="changelog_loading">Caricamento modifiche\u2026</string>
+  <string name="changelog_error">Impossibile caricare le modifiche</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Chi siamo</string>
+  <string name="aex_about_summary">La nostra introduzione e il nostro team</string>
+  <string name="aex_about_info_summary">AospExtended è una rom basata su AOSP e fornisce una UI/UX stock con varie caratteristiche di personalizzazione come il theme engine Substratum. Il progetto è stato realizzato da cherry-picking e da altri vari progetti. Essendo basato su AOSP, fornisce un\'esperienza fluida e senza ritardi. Cerchiamo costantemente di aggiungere ulteriori funzionalità e renderla ancora migliore nei futuri aggiornamenti.&#35;BeExtended</string>
+  <string name="dev_info">Riguardo AospExtended</string>
+  <string name="github">Github</string>
+  <string name="github_description">Visualizza il nostro codice sorgente</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Unisciti alla nostra community su G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Iscriviti al nostro canale Telegram</string>
+  <string name="web">Centro Download</string>
+  <string name="web_description">Visita il nostro portale di download</string>
+  <string name="help_translate">Traduzioni</string>
+  <string name="help_translate_description">Traduci nella tua lingua, visita il nostro sito Crowdin</string>
+  <string name="walls">Sfondi</string>
+  <string name="walls_description">Ottieni sfondi condivisi da vari utenti</string>
+  <string name="leads">Responsabili del Team</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Proprietario/Responsabile Sviluppatore</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Sviluppatore</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderatore e Sviluppatore Amatoriale</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Sviluppatore</string>
+  <string name="designers">Progettisti</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Banner Discussione, Loghi, Sfondi</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Loghi IA/Fling</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Sfondi, Animazioni di avvio</string>
+  <string name="maintainers">Manutentori</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
+  <string name="aex_ota_title">Aggiornamenti AEX</string>
+  <string name="aex_ota_summary">Otteni ultimo aggiornamento</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Schermo esteso</string>
+  <string name="expanded_hide_nothing">Non nascondere nulla</string>
+  <string name="expanded_hide_status">Nascondi barra di stato</string>
+  <string name="expanded_hide_navigation">Nascondi barra di navigazione</string>
+  <string name="expanded_hide_both">Nascondi entrambe</string>
+  <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata per le app dello stato esteso, imposta \"Abilitato per tutti\" nella posizione spento</string>
+  <string name="expanded_desktop_state">Modalità Expanded</string>
+  <string name="expanded_enabled_for_all">Abilitato per tutti</string>
+  <string name="expanded_user_configurable">Configurabile dall\'utente</string>
+  <string name="expanded_desktop_style">Stile schermo esteso</string>
+  <string name="expanded_desktop_style_description">Scegli lo stile predefinito dello schermo esteso</string>
+  <string name="expanded_desktop_title">Opzioni schermo esteso</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Suono screenshot</string>
+  <string name="screenshot_sound_summary">Riproduci un suono quando si effettua uno screenshot</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Luminosità</string>
+  <string name="night_brightness_value_title">Luminosità ridotta con Luce Notturna</string>
+  <string name="night_bright_disabled">Disabilitato</string>
+  <string name="night_bright_minimum">Luminosità minima</string>
+  <string name="night_bright_low">Luminosità bassa</string>
+  <string name="night_bright_medium">Luminosità media</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Collega volume suoneria e notifiche</string>
+  <string name="notification_volume_option_title">Volume notifiche</string>
+  <string name="ring_notification_volume_option_title">Volume suoneria e notifiche</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Posizione</string>
+  <string name="app_ops_cat_personal">Personale</string>
+  <string name="app_ops_cat_messaging">Messaggistica</string>
+  <string name="app_ops_cat_media">Multimediale</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Avvio</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">fotocamera</string>
+  <string name="app_ops_access_location">posizione</string>
+  <string name="app_ops_access_notifications">notifiche</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">avvio automatico</string>
+  <string name="app_ops_delete_call_log">elimina registro chiamate</string>
+  <string name="app_ops_delete_contacts">elimina contatti</string>
+  <string name="app_ops_delete_mms">elimina MMS</string>
+  <string name="app_ops_delete_sms">elimina SMS</string>
+  <string name="app_ops_draw_on_top">disegna sulla parte superiore</string>
+  <string name="app_ops_get_usage_stats">otteni le statistiche di utilizzo</string>
+  <string name="app_ops_keep_device_awake">tieni sveglio</string>
+  <string name="app_ops_make_phone_call">effettua una chiamata</string>
+  <string name="app_ops_modify_calendar">aggiornamento del calendario</string>
+  <string name="app_ops_modify_call_log">aggiornamento registro chiamate</string>
+  <string name="app_ops_modify_clipboard">modifica appunti</string>
+  <string name="app_ops_modify_contacts">aggiornamento contatti</string>
+  <string name="app_ops_modify_settings">aggiornamento impostazioni</string>
+  <string name="app_ops_mute_unmute_microphone">muto/attiva microfono</string>
+  <string name="app_ops_play_audio">riproduzione audio</string>
+  <string name="app_ops_post_notification">posticipa notifica</string>
+  <string name="app_ops_project_media">progetto multimediale</string>
+  <string name="app_ops_read_calendar">leggi calendario</string>
+  <string name="app_ops_read_call_log">leggi registro chiamate</string>
+  <string name="app_ops_read_clipboard">leggi appunti</string>
+  <string name="app_ops_read_contacts">leggi contatti</string>
+  <string name="app_ops_read_mms">leggi MMS</string>
+  <string name="app_ops_read_sms">leggi SMS</string>
+  <string name="app_ops_receive_sms">ricezione SMS</string>
+  <string name="app_ops_record_audio">registra audio</string>
+  <string name="app_ops_send_mms">invia MMS</string>
+  <string name="app_ops_send_sms">invia SMS</string>
+  <string name="app_ops_toast_window">messaggi toast</string>
+  <string name="app_ops_use_alarm_volume">volume allarmi</string>
+  <string name="app_ops_use_audio_focus">audio focus</string>
+  <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
+  <string name="app_ops_use_master_volume">volume principale</string>
+  <string name="app_ops_use_media_buttons">pulsanti multimediali</string>
+  <string name="app_ops_use_media_volume">volume multimediale</string>
+  <string name="app_ops_use_notification_volume">volume notifica</string>
+  <string name="app_ops_use_ring_volume">volume suoneria</string>
+  <string name="app_ops_use_vibrate">vibrazione al tocco</string>
+  <string name="app_ops_use_voice_volume">volume chiamata vocale</string>
+  <string name="app_ops_write_mms">scrivi MMS</string>
+  <string name="app_ops_write_sms">scrivi SMS</string>
+  <string name="app_ops_use_fingerprint">impronta digitale</string>
+  <string name="app_ops_add_voicemail">segreteria</string>
+  <string name="app_ops_read_phone_state">accesso stato telefono</string>
+  <string name="app_ops_scan_wifi">Scansione reti WiFi</string>
+  <string name="app_ops_change_wallpaper">cambia sfondo</string>
+  <string name="app_ops_assist_structure">assistenza struttura</string>
+  <string name="app_ops_assist_screenshot">screenshot</string>
+  <string name="app_ops_use_body_sensors">sensori corporei</string>
+  <string name="app_ops_read_cell_broadcasts">trasmissioni cella</string>
+  <string name="app_ops_mock_location">simulazione posizione</string>
+  <string name="app_ops_read_external_storage">leggi mem. est.</string>
+  <string name="app_ops_write_external_storage">scrivi mem. est.</string>
+  <string name="app_ops_turn_on_screen">attiva schermo</string>
+  <string name="app_ops_get_accounts">account dispositivo</string>
+  <string name="app_ops_run_in_background">esegui in background</string>
+  <string name="app_ops_accessibility_volume">volume accessibilità</string>
+  <string name="app_ops_read_phone_numbers">leggi numeri tel.</string>
+  <string name="app_ops_request_install_packages">installa pacchetti</string>
+  <string name="app_ops_picture_in_picture">pip</string>
+  <string name="app_ops_app_start_foreground">esegui in primo piano</string>
+  <string name="app_ops_answer_phone_calls">rispondi alle chiamate</string>
+  <string name="app_ops_boot_completed">avvio automatico</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Gestione root</string>
+  <string name="rootmanagement_dashboard_summary">Gestione accesso root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Password backup desktop</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Colore avviso</string>
+  <string name="battery_saver_color_summary">Colora di arancione la barra di stato e di navigazione quando viene attivato il risparmio batteria</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Risveglia al collegamento</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Risveglia il dispositivo se colleghi/scolleghi il caricabatteria.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">Mostra info CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Sovrapponi sullo schermo le info attuali della CPU</string>
+  <string name="dashboard_conditions_title">Condizioni pannello impostazioni</string>
+  <string name="summary_dashboard_conditions_enabled">Condizioni pannello impostazioni abilitate</string>
+  <string name="summary_dashboard_conditions_disabled">Condizioni pannello impostazioni disabilitate</string>
   <!-- Custom light color -->
+  <string name="light_customization">Led di notifica</string>
+  <string name="custom_light_title">Colore led</string>
+  <string name="custom_light_on_time_title">"Durata impulso del led acceso (ms)"</string>
+  <string name="custom_light_off_time_title">"Durata impulso del led spento (ms)"</string>
+  <string name="app_notifications_info_desc">Tocca uno dei canali qui sopra per configurare il colore e altre opzioni</string>
+  <string name="value_equals_default">Predefinito</string>
+  <string name="show_light_on_zen_title">Lampeggia durante Non Disturbare</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Suono regolazione volume</string>
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Ripristina le statistiche</string>
+  <string name="reset_stats_msg">Le statistiche della batteria stanno per essere ripristinanate</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Livelli volume</string>
+  <string name="volume_steps_alarm_title">Livelli volume: Sveglia</string>
+  <string name="volume_steps_dtmf_title">Livelli volume: DTMF</string>
+  <string name="volume_steps_music_title">Livelli volume: Musica</string>
+  <string name="volume_steps_notification_title">Livelli volume: Notifiche</string>
+  <string name="volume_steps_ring_title">Livelli volume: Suoneria</string>
+  <string name="volume_steps_system_title">Livelli volume: Sistema</string>
+  <string name="volume_steps_voice_call_title">Livello volume: Chiamata vocale</string>
+  <string name="volume_steps_reset">Ripristina</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">Suggerimenti pannello impostazioni</string>
+  <string name="summary_dashboard_suggestions_enabled">Suggerimenti pannello impostazioni abilitati</string>
+  <string name="summary_dashboard_suggestions_disabled">Suggerimenti pannello impostazioni disabilitati</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">Opzioni pannello impostazioni</string>
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">Il dispositivo è criptato</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Il dispositivo è decriptato</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ADB via rete</string>
+  <string name="adb_over_network_summary">Attiva il debugging TCP/IP attraverso interfacce di rete (Wi-Fi, Reti USB). Questa impostazione è resettata al riavvio</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">ATTENZIONE: Quando è attivo l\'ADB attraverso la rete il dispositivo è vulnerabile ad intrusioni da parte di tutte le reti connesse, inclusa quella GSM!\n\nUsare questa funzione esclusivamente se si è connessi a reti affidabili.\n\nSei sicuro di voler attivare questa funzione?</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">Vibra al collegamento</string>
+  <string name="alert_on_charged_level_title">Avviso livello di carica ottimale</string>
+  <string name="alert_on_charged_level_summary">Avvisa e riproduce il suono/vibra al livello di carica ottimale se lo schermo è spento da almeno 1 minuto.\nLa notifica può essere disabilitata separatamente con una pressione prolungata su di essa.</string>
+  <string name="alert_on_charged_level_dis">Disattivato</string>
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Stile Interfaccia Utente</string>
+  <string name="system_theme_style_auto">Basato sullo sfondo</string>
+  <string name="system_theme_style_light">Bianco</string>
+  <string name="system_theme_style_dark">Scuro</string>
+  <string name="system_theme_style_black">Nero</string>
+  <string name="theme_applied_toast">Tema applicato!</string>
+  <string name="ui_style_applied_toast">Stile dell\'Interfaccia Utente applicata!</string>
+  <string name="battery_image">Icona della batteria</string>
+  <string name="battery_image_description">Mostra l\'icona della batteria nella barra di stato</string>
 </resources>

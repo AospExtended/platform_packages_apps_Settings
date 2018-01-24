@@ -19,8 +19,13 @@
   <!-- Dev Options Enabled by Default -->
   <!-- Changelog -->
   <!-- About AospExtended -->
+  <string name="maintainers">നിലനിർത്തുന്നവർ</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX അപ്ഡേറ്റ്</string>
+  <string name="aex_ota_summary">ഏറ്റവും പുതിയ ബിൽഡ് സ്വന്തമാക്കുക</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Expanded desktop</string>
   <!-- App details: open play store link if app is user installed -->
   <!-- Screenshot sound -->
   <!-- Advanced night mode brightness -->

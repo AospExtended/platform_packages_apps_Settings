@@ -61,7 +61,7 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Обои, анимации загрузки</string>
   <string name="maintainers">Сопровождающий</string>
-  <string name="maintainer_description">Разработчик для %1$s</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
   <string name="aex_ota_title">Обновления AEX</string>
   <string name="aex_ota_summary">Скачать последнюю сборку</string>

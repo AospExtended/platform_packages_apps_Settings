@@ -19,30 +19,83 @@
   <!-- Dev Options Enabled by Default -->
   <!-- Changelog -->
   <!-- About AospExtended -->
+  <string name="aex_about_info">Meie kohta</string>
+  <string name="aex_about_summary">Meie tutvustus ja meie meeskond</string>
+  <string name="github">Github</string>
+  <string name="gplus">Google+</string>
+  <string name="telegram">Telegram</string>
+  <string name="web">Allalaadimiskeskus</string>
+  <string name="help_translate">Tõlked</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Arendaja</string>
+  <string name="designers">Disainerid</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
   <!-- Expanded desktop -->
+  <string name="expanded_hide_nothing">Ära peida midagi</string>
+  <string name="expanded_hide_status">Peida olekuriba</string>
+  <string name="expanded_hide_navigation">Peida navigeerimisriba</string>
+  <string name="expanded_hide_both">Peida mõlemad</string>
+  <string name="expanded_user_configurable">Kasutaja seadistatav</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Kuvatõmmise heli</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_bright_minimum">Minimaalne heledus</string>
+  <string name="night_bright_low">Madal heledus</string>
+  <string name="night_bright_medium">Keskmine heledus</string>
   <!-- Notification volume -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Asukoht</string>
+  <string name="app_ops_cat_messaging">Sõnumside</string>
+  <string name="app_ops_cat_media">Meedia</string>
+  <string name="app_ops_cat_device">Seade</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">kaamera</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- Battery saver color -->
   <!-- Wakeup options -->
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <!-- Custom light color -->
+  <string name="custom_light_title">Valguse värv</string>
   <!-- Volume settings - Volume adjustment sound -->
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_reset">Lähtesta</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
   <!-- Dashboard Category -->
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">Seade on krüpteeritud</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Seade ei ole krüpteeritud</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ADB üle võrgu</string>
   <!-- Warning for Adb over Network -->
   <!-- Vibrate on plug -->
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="system_theme_style_auto">Taustapildi baasil</string>
+  <string name="system_theme_style_light">Hele kasutajaliides</string>
+  <string name="system_theme_style_dark">Tume kasutajaliides</string>
+  <string name="system_theme_style_black">Must kasutajaliides</string>
+  <string name="theme_applied_toast">Teema rakendatud!</string>
 </resources>

@@ -55,6 +55,7 @@
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Fonds d’écran, Animation de démarrage</string>
+  <!-- Maintainer section -->
   <!-- AEX OTA -->
   <string name="aex_ota_title">Mises à jour de l’AEX</string>
   <string name="aex_ota_summary">Téléchargez la dernière version</string>
