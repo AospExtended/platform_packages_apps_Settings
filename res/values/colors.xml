@@ -118,4 +118,6 @@
     <color name="condition_card_background">#f8f8f8</color>
 
     <color name="suggestion_tile_background">@*android:color/white</color>
+    <color name="suggestion_title_text_color">@*android:color/black</color>
+    <color name="suggestion_summary_text_color">@*android:color/black</color>
 </resources>
