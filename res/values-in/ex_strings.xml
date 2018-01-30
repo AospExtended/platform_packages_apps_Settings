@@ -222,4 +222,5 @@
   <string name="ui_style_applied_toast">UI gaya diterapkan!</string>
   <string name="battery_image">Gambar baterai</string>
   <string name="battery_image_description">Menunjukkan gambar baterai pada status bar</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

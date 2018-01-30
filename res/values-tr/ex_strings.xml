@@ -14,22 +14,22 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">Genişletilmiş sürüm</string>
+  <string name="extended_version">Extended sürümü</string>
   <string name="extended_version_default">Bilinmiyor</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Yapım tarihi</string>
+  <string name="build_date">Yapı tarihi</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Gerek Yok, Geliştirme ayarları varsayılan olarak etkin.</string>
   <!-- Changelog -->
-  <string name="changelog_title">Değişim Günlüğü</string>
+  <string name="changelog_title">Değişiklikler</string>
   <string name="changelog_summary">Son Değişiklikler</string>
-  <string name="changelog_loading">Değişim günlüğü yükleniyor\u2026</string>
-  <string name="changelog_error">Değişim günlüğü yüklenemedi</string>
+  <string name="changelog_loading">Değişiklikler yükleniyor\u2026</string>
+  <string name="changelog_error">Değişiklikler yüklenemiyor</string>
   <!-- About AospExtended -->
   <string name="aex_about_info">Hakkımızda</string>
-  <string name="aex_about_summary">Girişimimiz ve takımımız</string>
+  <string name="aex_about_summary">Tanıtımımız ve ekibimiz</string>
   <string name="aex_about_info_summary">AospExtended, AOSP tabanlı, stok arayüz üzerinde Substratum tema motoru ile birlikte çeşitli özelleştirmeler içeren bir rom\'dur. Proje, diğer projelerden çeşitli özellikler alınarak yapılmıştır. AOSP üzerine dayalı olan proje pürüzsüz ve kesintisiz bir deneyim sağlar. Gelecekteki güncellemelerde daha fazla özellik eklemeye ve daha iyi hale getirmeye çalışacağız.&#35; BeExtended</string>
   <string name="dev_info">AospExtended Hakkında</string>
   <string name="github">Github</string>
@@ -41,7 +41,7 @@
   <string name="web">İndirme Merkezi</string>
   <string name="web_description">İndirme Merkezimizi ziyaret edin</string>
   <string name="help_translate">Çeviriler</string>
-  <string name="help_translate_description">Kendi dilinize çeviri yapmak için bizi Crowdin\'de ziyaret edin</string>
+  <string name="help_translate_description">Kendi dilinize çevirmek için Crowdin\'i ziyaret edin</string>
   <string name="walls">Duvar Kağıtları</string>
   <string name="walls_description">Çeşitli kullanıcıların katkıda bulunduğu duvar kağıtlarını edinin</string>
   <string name="leads">Takım Liderleri</string>
@@ -61,7 +61,14 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Duvar Kağıtları, Açılış Animasyonları</string>
   <string name="maintainers">Sorumlular</string>
+  <string name="maintainers_title">Resmi sorumlular</string>
+  <string name="maintainers_summary">Resmi olarak desteklenen cihazlar ve sorumlular.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Sorumlu: %1$s</string>
+  <string name="loading_devices">Cihaz listesi yükleniyor...</string>
+  <string name="loading_devices_failed">Cihaz listeleri yüklenemedi</string>
+  <string name="devices_list_empty">Liste boş, yeniden yüklemek için simgeye dokunun</string>
+  <string name="reload_list">Tekrar yükle</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">AEX Güncelleştirmeleri</string>
   <string name="aex_ota_summary">En son sürümü edinin</string>
@@ -69,12 +76,12 @@
   <string name="power_menu_expanded_desktop">Genişletilmiş masaüstü</string>
   <string name="expanded_hide_nothing">Hiçbir şeyi gizleme</string>
   <string name="expanded_hide_status">Durum çubuğunu gizle</string>
-  <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
+  <string name="expanded_hide_navigation">Gezinti çubuğunu gizle</string>
   <string name="expanded_hide_both">İkisini de gizle</string>
   <string name="expanded_nothing_to_show">Genişletilmiş durum için uygulama başına özel bir yapılandırma eklemek için \"Tümü için etkin\" konumunu kapalı konumuna getirin</string>
   <string name="expanded_desktop_state">Genişletilmiş durum</string>
-  <string name="expanded_enabled_for_all">Hepsi etkin</string>
-  <string name="expanded_user_configurable">Kullanıcı yapılandırabilir</string>
+  <string name="expanded_enabled_for_all">Tümü için etkin</string>
+  <string name="expanded_user_configurable">Kullanıcı tarafından yapılandırılabilir</string>
   <string name="expanded_desktop_style">Genişletilmiş masaüstü stili</string>
   <string name="expanded_desktop_style_description">Varsayılan bir genişletilmiş masaüstü stili seçin</string>
   <string name="expanded_desktop_title">Genişletilmiş masaüstü seçenekleri</string>
@@ -82,11 +89,11 @@
   <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
-  <string name="screenshot_sound_summary">Ekran görüntüsü alındığında ses efekti çal</string>
+  <string name="screenshot_sound_summary">Ekran görüntüsü alındığında ses çıkar</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Parlaklık</string>
   <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
-  <string name="night_bright_disabled">Devre Dışı</string>
+  <string name="night_bright_disabled">Devre dışı</string>
   <string name="night_bright_minimum">En düşük parlaklık</string>
   <string name="night_bright_low">Düşük parlaklık</string>
   <string name="night_bright_medium">Orta Seviye parlaklık</string>
@@ -99,7 +106,7 @@
   <string name="app_ops_cat_location">Konum</string>
   <string name="app_ops_cat_personal">Kişisel</string>
   <string name="app_ops_cat_messaging">Mesajlaşma</string>
-  <string name="app_ops_cat_media">Ortam</string>
+  <string name="app_ops_cat_media">Medya</string>
   <string name="app_ops_cat_device">Cihaz</string>
   <string name="app_ops_cat_bootup">Açılış</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
@@ -121,10 +128,10 @@
   <string name="app_ops_modify_clipboard">panoyu düzenle</string>
   <string name="app_ops_modify_contacts">kişileri güncelle</string>
   <string name="app_ops_modify_settings">ayarları güncelle</string>
-  <string name="app_ops_mute_unmute_microphone">mikrofonu aç/kapa</string>
-  <string name="app_ops_play_audio">ses çal</string>
+  <string name="app_ops_mute_unmute_microphone">mikrofon sesini kapat/aç</string>
+  <string name="app_ops_play_audio">sesi oynat</string>
   <string name="app_ops_post_notification">bildirim gönder</string>
-  <string name="app_ops_project_media">ortamı yansıt</string>
+  <string name="app_ops_project_media">proje medyası</string>
   <string name="app_ops_read_calendar">takvimi oku</string>
   <string name="app_ops_read_call_log">arama kaydını oku</string>
   <string name="app_ops_read_clipboard">panoyu oku</string>
@@ -140,11 +147,11 @@
   <string name="app_ops_use_audio_focus">ses odağı</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth ses seviyesi</string>
   <string name="app_ops_use_master_volume">ana ses seviyesi</string>
-  <string name="app_ops_use_media_buttons">ortam tuşları</string>
-  <string name="app_ops_use_media_volume">ortam ses seviyesi</string>
+  <string name="app_ops_use_media_buttons">medya tuşları</string>
+  <string name="app_ops_use_media_volume">medya ses seviyesi</string>
   <string name="app_ops_use_notification_volume">bildirim ses seviyesi</string>
   <string name="app_ops_use_ring_volume">zil sesi seviyesi</string>
-  <string name="app_ops_use_vibrate">dokunmatik olarak geri bildirim</string>
+  <string name="app_ops_use_vibrate">dokunmatik geri bildirim</string>
   <string name="app_ops_use_voice_volume">arama ses düzeyi</string>
   <string name="app_ops_write_mms">MMS yaz</string>
   <string name="app_ops_write_sms">SMS yaz</string>
@@ -166,27 +173,27 @@
   <string name="app_ops_accessibility_volume">erişebilirlik düzeyi</string>
   <string name="app_ops_read_phone_numbers">telefon numarasını oku</string>
   <string name="app_ops_request_install_packages">paketleri kur</string>
-  <string name="app_ops_picture_in_picture">resim içinde resim</string>
+  <string name="app_ops_picture_in_picture">pencere içinde pencere</string>
   <string name="app_ops_app_start_foreground">ön planda başlat</string>
   <string name="app_ops_answer_phone_calls">aramalara cevap ver</string>
   <string name="app_ops_boot_completed">otomatik başlat</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root yönetimi</string>
-  <string name="rootmanagement_dashboard_summary">Root erişimini yönet</string>
+  <string name="rootmanagement_dashboard_summary">Root erişimini yönetme</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Masaüstü yedekleme şifresi</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Uyarı rengi</string>
-  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda durum ve gezinme çubuğubu turuncu yap</string>
+  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda, turuncu durum ve gezinti çubuklarını etkinleştirin</string>
   <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">Şarjdayken uyandır</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Cihaz şarja takıldığında veya çıkarıldığında uyandır.</string>
+  <string name="wakeup_when_plugged_unplugged_title">Şarja takınca uyandır</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Şarja takıldığında veya çıkarıldığında cihazı uyandırır.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">CPU(İşlemci) bilgisini göster</string>
+  <string name="show_cpu_info">İşlemci bilgisini göster</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Mevcut CPU(İşlemci) bilgisini ekranda gösteren yer boyutu</string>
+  <string name="show_cpu_info_summary">Geçerli işlemci bilgisini gösteren ekran yer paylaşımı</string>
   <string name="dashboard_conditions_title">Kontrol paneli ayarları</string>
   <string name="summary_dashboard_conditions_enabled">Kontrol paneli ayarları etkin</string>
   <string name="summary_dashboard_conditions_disabled">Kontrol paneli ayarları devre dışı</string>
@@ -197,7 +204,7 @@
   <string name="custom_light_off_time_title">"Işık kapalıyken yanıp sönme hızı (ms)"</string>
   <string name="app_notifications_info_desc">Işık renkleri ve diğer seçenekleri yapılandırmak için kanalın üstüne dokunun</string>
   <string name="value_equals_default">Varsayılan</string>
-  <string name="show_light_on_zen_title">Rahatsız Etmeyin modunda yan</string>
+  <string name="show_light_on_zen_title">Rahatsız Etmeyin modunda yak söndür</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Ses düzeyi ayarlama sesleri</string>
   <!-- Reset battery stats -->
@@ -205,14 +212,14 @@
   <string name="menu_stats_reset">İstatistikleri sıfırla</string>
   <string name="reset_stats_msg">Pil geçmişi istatistikleri sıfırlancak</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Ses düzeyi seviyesi</string>
-  <string name="volume_steps_alarm_title">Ses düzeyi seviyesi: Alarm</string>
-  <string name="volume_steps_dtmf_title">Ses düzeyi seviyesi: DTMF</string>
-  <string name="volume_steps_music_title">Ses düzeyi seviyesi: Müzik</string>
-  <string name="volume_steps_notification_title">Ses düzeyi seviyesi: Bildirim</string>
-  <string name="volume_steps_ring_title">Ses düzeyi seviyesi: Zil Sesi</string>
-  <string name="volume_steps_system_title">Ses düzeyi seviyesi: Sistem</string>
-  <string name="volume_steps_voice_call_title">Ses düzeyi seviyesi: Sesli Arama</string>
+  <string name="volume_steps_title">Ses seviyeleri</string>
+  <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
+  <string name="volume_steps_dtmf_title">Ses seviyesi: DTMF</string>
+  <string name="volume_steps_music_title">Ses seviyesi: Medya</string>
+  <string name="volume_steps_notification_title">Ses seviyesi: Bildirim</string>
+  <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
+  <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
+  <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli Arama</string>
   <string name="volume_steps_reset">Sıfırla</string>
   <string name="volume_steps_60">60</string>
   <string name="volume_steps_45">45</string>
@@ -220,35 +227,37 @@
   <string name="volume_steps_15">15</string>
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
-  <string name="dashboard_suggestions_title">Konrol paneli önerileri</string>
-  <string name="summary_dashboard_suggestions_enabled">Kontrol paneli önerileri etkin</string>
-  <string name="summary_dashboard_suggestions_disabled">Kontrol paneli önerileri devre dışı</string>
+  <string name="dashboard_suggestions_title">Konrtol panel önerileri</string>
+  <string name="summary_dashboard_suggestions_enabled">Kontrol panel önerileri etkin</string>
+  <string name="summary_dashboard_suggestions_disabled">Kontrol panel önerileri devre dışı</string>
   <!-- Dashboard Category -->
-  <string name="dashboard_category">Kontrol paneli ayarları</string>
+  <string name="dashboard_category">Kontrol panel ayarları</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">Cihaz şifrelenmiş</string>
   <string name="custom_encryption_and_credential_settings_summary_off">Cihaz şifresi çözüldü</string>
   <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">Ağ üzerinden Android Hata Ayıklama (ADB)</string>
+  <string name="adb_over_network">Ağ üzerinden ADB</string>
   <string name="adb_over_network_summary">Ağ arayüzünden (Wi-Fi, USB) TCP/IP hata ayıklamasını etkinleştir. Bu ayarlar cihaz yeniden başlatılınca sıfırlanabilir</string>
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">UYARI: Android Hata Ayıklama (ADB) ağ üzerinden aktifken, telefonunuz bağlı olan tüm ağların kötüye kullanımlarına açıktır, GSM verisi dahil!\n\nSadece güvenilir ağlara bağlıyken kullanın.\n\nBu özelliği gerçekten aktif etmek istiyor musunuz?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Şarja takıldığında titret</string>
-  <string name="alert_on_charged_level_title">En uygun şarj düzeyi uyarısı</string>
+  <string name="alert_on_charged_level_title">Optimum şarj uyarı seviyesi</string>
   <string name="alert_on_charged_level_summary">Eğer ekran en az 1 dakidadır kapalı ise en uygun şarj seviyesinde bildir ve titret/ses çal.\nBildirimler üzerlerine uzun basıldığında ayrı ayrı devre dışı bırakılabilirler.</string>
-  <string name="alert_on_charged_level_dis">Devre Dışı</string>
+  <string name="alert_on_charged_level_dis">Devre dışı</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
   <string name="system_theme_style_title">Arayüz stili</string>
-  <string name="system_theme_style_auto">Duvar kağıdı merkezli</string>
+  <string name="system_theme_style_auto">Duvar kağıdı merkezi</string>
   <string name="system_theme_style_light">Aydınlık Arayüz</string>
   <string name="system_theme_style_dark">Karanlık Arayüz</string>
   <string name="system_theme_style_black">Siyah Arayüz</string>
+  <string name="system_theme_style_extended">Extended UI</string>
   <string name="theme_applied_toast">Tema uygulandı!</string>
   <string name="ui_style_applied_toast">Arayüz stili uygulandı!</string>
-  <string name="battery_image">Pil resmi</string>
-  <string name="battery_image_description">Durum çubuğunda pil yüzdesini göster</string>
+  <string name="battery_image">Pil görüntüsü</string>
+  <string name="battery_image_description">Durum çubuğuna pil görüntüsü göster</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

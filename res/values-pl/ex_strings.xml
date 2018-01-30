@@ -133,14 +133,23 @@
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Hasło kopii zapasowej</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Kolor ostrzeżenia</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Wybudź po podłączeniu ładowarki</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Wybudź urządzenie, kiedy zasilanie jest podłączane/odłączane.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">Pokaż informacje o CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <!-- Custom light color -->
   <!-- Volume settings - Volume adjustment sound -->
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Zresetuj statystyki</string>
+  <string name="reset_stats_msg">Statystyki baterii zostaną zresetowane</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Poziomy głośności</string>
   <string name="volume_steps_reset">Resetuj</string>
   <string name="volume_steps_60">60</string>
   <!-- Dashboard Category -->
@@ -148,5 +157,19 @@
   <!-- Android debugging over WiFi -->
   <!-- Warning for Adb over Network -->
   <!-- Vibrate on plug -->
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Styl interfejsu</string>
+  <string name="system_theme_style_auto">Oparty na tapecie</string>
+  <string name="system_theme_style_light">Jasny interfejs użytkownika</string>
+  <string name="system_theme_style_dark">Ciemny interfejs użytkownika</string>
+  <string name="system_theme_style_black">Czarny interfejs użytkownika</string>
+  <string name="system_theme_style_extended">Rozszerzony UI</string>
+  <string name="theme_applied_toast">Zastosowano motyw!</string>
+  <string name="ui_style_applied_toast">Zastosowano styl interfejsu użytkownika!</string>
+  <string name="battery_image">Wygląd baterii</string>
+  <string name="battery_image_description">Pokaż baterię na pasku powiadomień</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

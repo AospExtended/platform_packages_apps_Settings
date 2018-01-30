@@ -61,7 +61,14 @@
   <string name="designer_3">Ісус R &#40;КрепК&#41;</string>
   <string name="designer3_description">Шпалери, Бутанімації</string>
   <string name="maintainers">Розробники</string>
+  <string name="maintainers_title">Офіційний супровід</string>
+  <string name="maintainers_summary">Офіційно підтримувані пристрої та їх відповідні розробники.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Супроводжуючий</string>
+  <string name="loading_devices">Завантаження списку пристроїв...</string>
+  <string name="loading_devices_failed">Не вдалося завантажити список пристроїв</string>
+  <string name="devices_list_empty">Список пустий, торкніться піктограми для перезавантаження</string>
+  <string name="reload_list">Перезавантаження</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Оновлення АЕХ</string>
   <string name="aex_ota_summary">Отримати останню збірку</string>
@@ -248,8 +255,10 @@
   <string name="system_theme_style_light">Світлий інтерфейс</string>
   <string name="system_theme_style_dark">Темний інтерфейс</string>
   <string name="system_theme_style_black">Чорний інтерфейс</string>
+  <string name="system_theme_style_extended">Розширений інтерфейс користувача</string>
   <string name="theme_applied_toast">Тему застосовано!</string>
   <string name="ui_style_applied_toast">Стиль інтерфейсу застосовано!</string>
   <string name="battery_image">Зображення акумулятора</string>
   <string name="battery_image_description">Показувати зображення акумулятора в рядку стану</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

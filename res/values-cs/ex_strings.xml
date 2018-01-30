@@ -61,7 +61,14 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Tapety, spouštěcí animace</string>
   <string name="maintainers">Správci</string>
+  <string name="maintainers_title">Oficiální správci</string>
+  <string name="maintainers_summary">Seznam podporovaných zařízení a jejich oficiální správci.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Správce: %1$s</string>
+  <string name="loading_devices">Načítání seznamu zařízení...</string>
+  <string name="loading_devices_failed">Nepodařilo se načíst seznam zařízení</string>
+  <string name="devices_list_empty">Seznam je prázdný, klepněte na ikonu pro obnovení</string>
+  <string name="reload_list">Znovu načíst</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Aktualizace AEX</string>
   <string name="aex_ota_summary">Získat nejnovější verzi</string>
@@ -247,8 +254,10 @@
   <string name="system_theme_style_light">Světlé UI</string>
   <string name="system_theme_style_dark">Tmavé UI</string>
   <string name="system_theme_style_black">Černé UI</string>
+  <string name="system_theme_style_extended">Rozšířené UI</string>
   <string name="theme_applied_toast">Motiv použit!</string>
   <string name="ui_style_applied_toast">Styl UI použit!</string>
   <string name="battery_image">Ikona baterie</string>
   <string name="battery_image_description">Zobrazit ikonu baterie na stavové liště</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

@@ -61,7 +61,14 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">桌布、開機動畫</string>
   <string name="maintainers">維護人員</string>
+  <string name="maintainers_title">官方維護者</string>
+  <string name="maintainers_summary">官方支援的裝置及其各自的維護者。</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">維護者：%1$s</string>
+  <string name="loading_devices">載入裝置清單...</string>
+  <string name="loading_devices_failed">未能載入裝置清單</string>
+  <string name="devices_list_empty">清單是空的，輕觸圖示以重新載入</string>
+  <string name="reload_list">重新載入</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">AEX 更新</string>
   <string name="aex_ota_summary">下載最新版</string>
@@ -247,8 +254,10 @@
   <string name="system_theme_style_light">淺色使用者介面</string>
   <string name="system_theme_style_dark">深色使用者介面</string>
   <string name="system_theme_style_black">黑色使用者介面</string>
+  <string name="system_theme_style_extended">延伸使用者介面</string>
   <string name="theme_applied_toast">主題已套用！</string>
   <string name="ui_style_applied_toast">使用者介面樣式已套用！</string>
   <string name="battery_image">電池圖片</string>
   <string name="battery_image_description">在狀態列中顯示電池圖片</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

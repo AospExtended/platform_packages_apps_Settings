@@ -98,4 +98,5 @@
   <string name="system_theme_style_dark">Tume kasutajaliides</string>
   <string name="system_theme_style_black">Must kasutajaliides</string>
   <string name="theme_applied_toast">Teema rakendatud!</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

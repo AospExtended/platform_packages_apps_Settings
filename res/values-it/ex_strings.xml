@@ -61,7 +61,14 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Sfondi, Animazioni di avvio</string>
   <string name="maintainers">Manutentori</string>
+  <string name="maintainers_title">Manutentori ufficiali</string>
+  <string name="maintainers_summary">Dispositivi supportati ufficialmente e rispettivi gestori.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Manutentore: %1$s</string>
+  <string name="loading_devices">Elenco dispositivi in caricamento...</string>
+  <string name="loading_devices_failed">Impossibile caricare l\'elenco dei dispositivi</string>
+  <string name="devices_list_empty">Elenco vuoto, tocca l\'icona per ricaricare</string>
+  <string name="reload_list">Ricarica</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Aggiornamenti AEX</string>
   <string name="aex_ota_summary">Otteni ultimo aggiornamento</string>
@@ -247,8 +254,10 @@
   <string name="system_theme_style_light">Bianco</string>
   <string name="system_theme_style_dark">Scuro</string>
   <string name="system_theme_style_black">Nero</string>
+  <string name="system_theme_style_extended">Extended</string>
   <string name="theme_applied_toast">Tema applicato!</string>
   <string name="ui_style_applied_toast">Stile dell\'Interfaccia Utente applicata!</string>
   <string name="battery_image">Icona della batteria</string>
   <string name="battery_image_description">Mostra l\'icona della batteria nella barra di stato</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

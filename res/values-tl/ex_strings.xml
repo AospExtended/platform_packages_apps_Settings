@@ -14,28 +14,188 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Pinahabang bersyon</string>
+  <string name="extended_version_default">Hindi alam</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Nabuong petsa</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Hindi na kailangan, Ang pag buo sa mga setting ay gumagana sa pamamagitan ng default.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Baguhin ang log</string>
+  <string name="changelog_summary">Mga nakaraang pag babago</string>
+  <string name="changelog_loading">Nili=load ang pagbababgo ng log\u2026</string>
+  <string name="changelog_error">Hindi kaya na ma load ang pag babago ng log</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Tungkol sa atin</string>
+  <string name="aex_about_summary">Ang ating introduksyon at ang ating grupo</string>
+  <string name="aex_about_info_summary">Ang AospExtended ay isang AOSP bases sa rom kung saan ito ay nag naglalaan ng mga stock UI/UX kasama ang ibat ibang gawi ng features kasama pa ang tema ng Substratum,
+Ang proyekto na ito ay gawa sa cherry-picking mula sa ibat ibang mga proyekto. yamang na base sa AOSP ito ay nag lalaan ng pino at lag-free na karanasan mula sa kahon. Lgi namin susubukan na mag dagdag pa ng maraming feature at gumawa ng mas magandang mga update sa hinaharap.&#35;BeExtended</string>
+  <string name="dev_info">Tungkol sa AosExtended</string>
+  <string name="github">Ang Github</string>
+  <string name="github_description">Tignan ang ating pinagmulan ng code</string>
+  <string name="gplus">Ang Google+</string>
+  <string name="gplus_description">Sumali sa aming kuminidad sa G+</string>
+  <string name="telegram">Telegrama</string>
+  <string name="telegram_description">Sumali sa aming telegrama channel</string>
+  <string name="web">I-download sa center</string>
+  <string name="web_description">Bisitahin ang aming-download portal</string>
+  <string name="help_translate">Ang mga pag sasalin</string>
+  <string name="help_translate_description">Isalin sa iyong lenggwahe, Bisitahin ang aming Crowdin</string>
+  <string name="walls">Mga Wallpaper</string>
+  <string name="walls_description">Kumuha ng mga ambag na wallpaper sa ibat ibang mga gumagamit</string>
+  <string name="leads">Mga grupo ng nag lead</string>
+  <string name="team_1">Ang Shubham signh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Mayari/pangunahing taga-develop</string>
+  <string name="team_2">Si Aman kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Ang taga-develop</string>
+  <string name="team_3">Ang Amol Amrit</string>
+  <string name="team3_description">Ang tagapamagitan at ang Baguhang taga-develop</string>
+  <string name="team_4">Si Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Taga-develop</string>
+  <string name="designers">Mga taga-design</string>
+  <string name="designer_1">Ang Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Ang mga thread banner, Mga logo, Mga wallpaper</string>
+  <string name="designer_2">Ang savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Ang QS/Mga Fling logo</string>
+  <string name="designer_3">Ang Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Mga Wallapaper, Mga Bootanimation</string>
+  <string name="maintainers">Mga taga pag-maintain</string>
+  <string name="maintainers_title">Opisyal na mga taga-maintain</string>
+  <string name="maintainers_summary">Opisyal na taga supporta sa mga device atang kanilang mga taga-maintain.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Mga-maintainer: %1$s</string>
+  <string name="loading_devices">I-load ang mga listahan ng kagamitan...</string>
+  <string name="loading_devices_failed">Palya na ma-load ang mga listahan ng kagamitan</string>
+  <string name="devices_list_empty">Walang laman ang listahan, I-tap ang icon para ma-reload</string>
+  <string name="reload_list">Mag-reload</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">Bagong kaalaman sa AEX</string>
+  <string name="aex_ota_summary">Kumuha ang kasalukuyang build</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Ang palawakin ang desktop</string>
+  <string name="expanded_hide_nothing">Walang itatago</string>
+  <string name="expanded_hide_status">Itago ang status bar</string>
+  <string name="expanded_hide_navigation">Itagai ang nabigasyon bar</string>
+  <string name="expanded_hide_both">Itagao parehas</string>
+  <string name="expanded_nothing_to_show">Para magdagdag ng per-app konpigurasyon para mapahaba pa ang estado I-set sa \"Enabled for all\" para sa posisyon na off</string>
+  <string name="expanded_desktop_state">Pinahabang estado</string>
+  <string name="expanded_enabled_for_all">Pinagana para sa lahat</string>
+  <string name="expanded_user_configurable">I-configure ang mga taga gamit</string>
+  <string name="expanded_desktop_style">Pahabain ang style ng desktop</string>
+  <string name="expanded_desktop_style_description">Mamili ng pinahabang default desktop style</string>
+  <string name="expanded_desktop_title">Pahabain ang mga pag pipilian sa desktop</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Ang google play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Ang tunog ng screenshot</string>
+  <string name="screenshot_sound_summary">Paganahin ang epekto ng tunog kung saan ang screenshot ay kinukuhanan</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Ang liwanag</string>
+  <string name="night_brightness_value_title">Ang mababang liwanag kung ang ilaw sa gabi</string>
+  <string name="night_bright_disabled">Hindi gumagana</string>
+  <string name="night_bright_minimum">Ang pinakamababang brightness</string>
+  <string name="night_bright_low">Ang mababang brightness</string>
+  <string name="night_bright_medium">Ang katamtamang brightness</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Iugnay ang tunog sa natipikasyon ng volume</string>
+  <string name="notification_volume_option_title">Ang volume ng notipikasyon</string>
+  <string name="ring_notification_volume_option_title">Ang tunog at notipikasyon sa volume</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Ang lokasyon</string>
+  <string name="app_ops_cat_personal">Ang personal</string>
+  <string name="app_ops_cat_messaging">Ang mensahe</string>
+  <string name="app_ops_cat_media">Ang media</string>
+  <string name="app_ops_cat_device">Ang device</string>
+  <string name="app_ops_cat_bootup">Ang bootup</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">ang kamera</string>
+  <string name="app_ops_access_location">ang lokasyon</string>
+  <string name="app_ops_access_notifications">mga notipikasyon</string>
+  <string name="app_ops_activate_vpn">Ang VPN</string>
+  <string name="app_ops_auto_start">ang autostart</string>
+  <string name="app_ops_delete_call_log">burahin ang tawag sa listahan</string>
+  <string name="app_ops_delete_contacts">burahin ang mga kontak</string>
+  <string name="app_ops_delete_mms">burahin ang MMS</string>
+  <string name="app_ops_delete_sms">burahin ang SMS</string>
+  <string name="app_ops_draw_on_top">gumuhit sa toktok</string>
+  <string name="app_ops_get_usage_stats">kunin ang paggamit ng stats</string>
+  <string name="app_ops_keep_device_awake">manatiling gising</string>
+  <string name="app_ops_make_phone_call">gumawa ng tawag</string>
+  <string name="app_ops_modify_calendar">i-update ang kalendaryo</string>
+  <string name="app_ops_modify_call_log">i-update ang pagtwag sa listahan</string>
+  <string name="app_ops_modify_clipboard">mabago ang clipboard</string>
+  <string name="app_ops_modify_contacts">i-update ang mga kontak</string>
+  <string name="app_ops_modify_settings">i-update ang mga setting</string>
+  <string name="app_ops_mute_unmute_microphone">i-mute/i-unmutee ang mic</string>
+  <string name="app_ops_play_audio">paandarin ang audio</string>
+  <string name="app_ops_post_notification">mag post ng notipikasyon</string>
+  <string name="app_ops_project_media">ang proyekto sa media</string>
+  <string name="app_ops_read_calendar">basahin ang kalendaryo</string>
+  <string name="app_ops_read_call_log">basahin ang tawag sa listahan</string>
+  <string name="app_ops_read_clipboard">basahin ang clipboard</string>
+  <string name="app_ops_read_contacts">basahin ang mga kontak</string>
+  <string name="app_ops_read_mms">basahin ang MMS</string>
+  <string name="app_ops_read_sms">basahin ang SMS</string>
+  <string name="app_ops_receive_sms">tumanggap ng SMS</string>
+  <string name="app_ops_record_audio">ang record audio</string>
+  <string name="app_ops_send_mms">magpadala ng MMS</string>
+  <string name="app_ops_send_sms">magpadala ng SMS</string>
+  <string name="app_ops_toast_window">i-toast ang mga mensahe</string>
+  <string name="app_ops_use_alarm_volume">i-alarm ang volume</string>
+  <string name="app_ops_use_audio_focus">ang Pokus sa audio</string>
+  <string name="app_ops_use_bluetooth_volume">I-volume ang Bluetooth</string>
+  <string name="app_ops_use_master_volume">i-master volume</string>
+  <string name="app_ops_use_media_buttons">mga media button</string>
+  <string name="app_ops_use_media_volume">ang media volume</string>
+  <string name="app_ops_use_notification_volume">abiso sa volume</string>
+  <string name="app_ops_use_ring_volume">ang ringtone volume</string>
+  <string name="app_ops_use_vibrate">ang fedback ay heptic</string>
+  <string name="app_ops_use_voice_volume">i-volume ang tawag sa boses</string>
+  <string name="app_ops_write_mms">sumulat ng MMS</string>
+  <string name="app_ops_write_sms">sumulat ng SMSe</string>
+  <string name="app_ops_use_fingerprint">ang fingerprint</string>
+  <string name="app_ops_add_voicemail">ang voicemail</string>
+  <string name="app_ops_read_phone_state">i-access ang estatdo ng telepono</string>
+  <string name="app_ops_scan_wifi">I-scan ang mga WiFi Network</string>
+  <string name="app_ops_change_wallpaper">baguhin ang wallpaper</string>
+  <string name="app_ops_assist_structure">ang tulong sa istraktura</string>
+  <string name="app_ops_assist_screenshot">i-screenshot</string>
+  <string name="app_ops_use_body_sensors">mga sensor sa katawan</string>
+  <string name="app_ops_read_cell_broadcasts">ang mga brodcast cell</string>
+  <string name="app_ops_mock_location">lokasyon sa mock</string>
+  <string name="app_ops_read_external_storage">basahin ext. stor.</string>
+  <string name="app_ops_write_external_storage">sumulat ext. stor.</string>
+  <string name="app_ops_turn_on_screen">buksan ang screen</string>
+  <string name="app_ops_get_accounts">mga account device</string>
+  <string name="app_ops_run_in_background">patakbuhin sa background</string>
+  <string name="app_ops_accessibility_volume">marating ang volume</string>
+  <string name="app_ops_read_phone_numbers">basahin ang number sa telepono.</string>
+  <string name="app_ops_request_install_packages">i-instal ang mga package</string>
+  <string name="app_ops_picture_in_picture">ang pip</string>
+  <string name="app_ops_app_start_foreground">umpisahan sa harapan</string>
+  <string name="app_ops_answer_phone_calls">sagutin ang mga tawag</string>
+  <string name="app_ops_boot_completed">pag umpisa ng awtomatiko</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Ang taga pamahala ng root</string>
+  <string name="rootmanagement_dashboard_summary">Pangangasiwa sa root access</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">Ang superSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Backup ng password sa desktop</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Babala sa kulay</string>
+  <string name="battery_saver_color_summary">Paganahin ang orange na estado - mga nabigasyon bar kung saan ang battery ay aktibo ang saver</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Gisingain kapag nag charge</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Gisingin ang device kung naka-plugged/unplugged ang charger.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">Ipakita ang impormasyon ng CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">I-screen ang overlay na pinapakita ang kasalukuyang impormasyon ng CPU</string>
+  <string name="dashboard_conditions_title">Ang kondisyon ng dashboard</string>
   <!-- Custom light color -->
   <!-- Volume settings - Volume adjustment sound -->
   <!-- Reset battery stats -->
@@ -46,4 +206,9 @@
   <!-- Warning for Adb over Network -->
   <!-- Vibrate on plug -->
   <!-- Themes -->
+  <string name="theme_applied_toast">Na i-applied ang tema!</string>
+  <string name="ui_style_applied_toast">Ang UI style ay na i-applied!</string>
+  <string name="battery_image">Ang imahe ng battery</string>
+  <string name="battery_image_description">Ipakita ang estado ng imahe sa battery bar</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

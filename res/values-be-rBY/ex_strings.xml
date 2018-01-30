@@ -61,7 +61,14 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Шпалеры, анімацыі загрузкі</string>
   <string name="maintainers">Суправаджальнікі</string>
+  <string name="maintainers_title">Афіцыйны суправаджалы</string>
+  <string name="maintainers_summary">Афіцыйна падтрымліваемыя прылады і іх суправаджалыя.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Распрацоўшчык: %1$s</string>
+  <string name="loading_devices">Ладаванні спіса прылад...</string>
+  <string name="loading_devices_failed">Не ўдалося заладаваць спіс прылад</string>
+  <string name="devices_list_empty">Спіс пусты, націсніце на значок для абнаўлення</string>
+  <string name="reload_list">Абнавіць</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Абнаўленне AEX</string>
   <string name="aex_ota_summary">Спампаваць апошнюю зборку</string>
@@ -247,8 +254,10 @@
   <string name="system_theme_style_light">Светлы стыль</string>
   <string name="system_theme_style_dark">Цёмны стыль</string>
   <string name="system_theme_style_black">Чорны стыль</string>
+  <string name="system_theme_style_extended">Пашыраны карыстацкі інтэрфейс</string>
   <string name="theme_applied_toast">Тэма ўжыта!</string>
   <string name="ui_style_applied_toast">Стыль інтэрфейсу ўжыты!</string>
   <string name="battery_image">Выява батарэі</string>
   <string name="battery_image_description">Паказваць узровень зарада батарэі ў радку стану</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

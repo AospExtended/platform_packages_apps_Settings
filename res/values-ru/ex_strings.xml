@@ -61,7 +61,14 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Обои, анимации загрузки</string>
   <string name="maintainers">Сопровождающий</string>
+  <string name="maintainers_title">Официальный сопровождающий</string>
+  <string name="maintainers_summary">Официально поддерживаемые устройства и их сопровождающие.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Сопровождающий: %1$s</string>
+  <string name="loading_devices">Загрузка списка устройств...</string>
+  <string name="loading_devices_failed">Не удалось загрузить список устройств</string>
+  <string name="devices_list_empty">Список пуст, нажмите на иконку для обновления</string>
+  <string name="reload_list">Обновить</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Обновления AEX</string>
   <string name="aex_ota_summary">Скачать последнюю сборку</string>
@@ -247,8 +254,10 @@
   <string name="system_theme_style_light">Светлый стиль</string>
   <string name="system_theme_style_dark">Темный стиль</string>
   <string name="system_theme_style_black">Чёрный стиль</string>
+  <string name="system_theme_style_extended">Расширенный пользовательский интерфейс</string>
   <string name="theme_applied_toast">Тема применена!</string>
   <string name="ui_style_applied_toast">UI стиль применен!</string>
   <string name="battery_image">Напряжение батареи</string>
   <string name="battery_image_description">Показывать уровень заряда батареи в строке состояния</string>
+  <!-- MSIM Manual provisioning -->
 </resources>

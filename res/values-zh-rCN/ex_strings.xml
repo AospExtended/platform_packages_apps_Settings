@@ -30,7 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">关于</string>
   <string name="aex_about_summary">项目及团队简介</string>
-  <string name="aex_about_info_summary">AospExtended是一个基于AOSP的ROM，提供原生UI/UX以及各种自定义功能和Substratum主题引擎。项目是根据其他项目的评价所完成的。由于它基于AOSP，它提供流畅无卡顿的安卓体验。我们将会在未来更新中尝试添加更多功能，使起变得更加完善。&#35;BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended 是一个基于 AOSP 的 ROM ，此 ROM 可提供原生 UI/UX 、各种自定义功能和Substratum主题引擎。本项目是通过 cherry-pick 其他各个项目的各种 commit 完成的。由于是基于 AOSP，本 ROM 可提供流畅、无卡顿的安卓体验。我们将在未来的更新中，努力添加更多功能，使其更加完善。&#35;BeExtended</string>
   <string name="dev_info">关于 AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">查看我们的源代码</string>
@@ -61,7 +61,14 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">壁纸、开机动画</string>
   <string name="maintainers">维护者</string>
+  <string name="maintainers_title">官方维护人员</string>
+  <string name="maintainers_summary">官方支持的设备及其各自的维护者。</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">维护者：％1 $ s</string>
+  <string name="loading_devices">正在加载设备列表...</string>
+  <string name="loading_devices_failed">无法加载设备列表</string>
+  <string name="devices_list_empty">列表为空，点击图标重新加载</string>
+  <string name="reload_list">重新加载</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">AEX 更新</string>
   <string name="aex_ota_summary">获取最新版本</string>
@@ -85,7 +92,7 @@
   <string name="screenshot_sound_summary">截屏后播放声音效果</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">亮度</string>
-  <string name="night_brightness_value_title">夜间模式时亮度更低</string>
+  <string name="night_brightness_value_title">夜间模式时更低亮度</string>
   <string name="night_bright_disabled">禁用</string>
   <string name="night_bright_minimum">最低亮度</string>
   <string name="night_bright_low">低亮度</string>
@@ -193,8 +200,8 @@
   <!-- Custom light color -->
   <string name="light_customization">指示灯通知</string>
   <string name="custom_light_title">指示灯颜色</string>
-  <string name="custom_light_on_time_title">"屏幕开启下 LED 闪烁间隔时间（毫秒）"</string>
-  <string name="custom_light_off_time_title">"屏幕关闭下 LED 闪烁间隔时间（毫秒）"</string>
+  <string name="custom_light_on_time_title">"呼吸灯闪烁时亮灯时间 (毫秒)"</string>
+  <string name="custom_light_off_time_title">"呼吸灯闪烁时熄灯时间 (毫秒)"</string>
   <string name="app_notifications_info_desc">点击其中一个通道来配置他们的颜色以及其他选项</string>
   <string name="value_equals_default">默认</string>
   <string name="show_light_on_zen_title">在请勿打扰期间闪烁</string>
@@ -247,8 +254,10 @@
   <string name="system_theme_style_light">亮色</string>
   <string name="system_theme_style_dark">暗色</string>
   <string name="system_theme_style_black">黑色</string>
+  <string name="system_theme_style_extended">扩展用户界面</string>
   <string name="theme_applied_toast">主题已应用</string>
   <string name="ui_style_applied_toast">界面样式已应用</string>
   <string name="battery_image">电池图标</string>
   <string name="battery_image_description">在状态栏中显示电池图标</string>
+  <!-- MSIM Manual provisioning -->
 </resources>
