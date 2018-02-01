@@ -117,4 +117,7 @@
     <string name="devices_list_empty">List is empty, tap the icon to reload</string>
     <string name="reload_list">Reload</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+
 </resources>
