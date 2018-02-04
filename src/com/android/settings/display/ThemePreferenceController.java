@@ -44,6 +44,7 @@ import static com.android.internal.logging.nano.MetricsProto.MetricsEvent.ACTION
 import android.content.Intent;
 import android.os.Handler;
 import android.widget.Toast;
+import android.provider.Settings;
 
 public class ThemePreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
@@ -124,6 +125,7 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         } catch (RemoteException e) {
             return false;
         }
+        Settings.System.putString(mContext.getContentResolver(), Settings.System.SYSTEM_THEME_CURRENT_OVERLAY, (String) newValue);
         try {
             reload();
         }catch (Exception ignored){
