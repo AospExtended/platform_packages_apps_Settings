@@ -66,11 +66,6 @@
             android:title="@string/battery_percentage"
             android:summary="@string/battery_percentage_description"/>
 
-        <SwitchPreference
-            android:key="battery_image"
-            android:title="@string/battery_image"
-            android:summary="@string/battery_image_description"/>
-
         <ListPreference
             android:key="alert_on_charged_level"
             android:title="@string/alert_on_charged_level_title"
