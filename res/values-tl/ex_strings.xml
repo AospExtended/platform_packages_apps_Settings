@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">Pinahabang bersyon</string>
+  <string name="extended_version">Ang Pinahabang bersyon</string>
   <string name="extended_version_default">Hindi alam</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Nabuong petsa</string>
@@ -41,7 +41,7 @@ Ang proyekto na ito ay gawa sa cherry-picking mula sa ibat ibang mga proyekto. y
   <string name="telegram_description">Sumali sa aming telegrama channel</string>
   <string name="web">I-download sa center</string>
   <string name="web_description">Bisitahin ang aming-download portal</string>
-  <string name="help_translate">Ang mga pag sasalin</string>
+  <string name="help_translate">Ang mga pag-sasalin</string>
   <string name="help_translate_description">Isalin sa iyong lenggwahe, Bisitahin ang aming Crowdin</string>
   <string name="walls">Mga Wallpaper</string>
   <string name="walls_description">Kumuha ng mga ambag na wallpaper sa ibat ibang mga gumagamit</string>
@@ -99,7 +99,7 @@ Ang proyekto na ito ay gawa sa cherry-picking mula sa ibat ibang mga proyekto. y
   <string name="night_bright_low">Ang mababang brightness</string>
   <string name="night_bright_medium">Ang katamtamang brightness</string>
   <!-- Notification volume -->
-  <string name="link_volume_option_title">Iugnay ang tunog sa natipikasyon ng volume</string>
+  <string name="link_volume_option_title">Lugnay ang tunog sa natipikasyon ng volume</string>
   <string name="notification_volume_option_title">Ang volume ng notipikasyon</string>
   <string name="ring_notification_volume_option_title">Ang tunog at notipikasyon sa volume</string>
   <!-- App Ops Settings -->
@@ -111,73 +111,9 @@ Ang proyekto na ito ay gawa sa cherry-picking mula sa ibat ibang mga proyekto. y
   <string name="app_ops_cat_device">Ang device</string>
   <string name="app_ops_cat_bootup">Ang bootup</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">ang kamera</string>
-  <string name="app_ops_access_location">ang lokasyon</string>
-  <string name="app_ops_access_notifications">mga notipikasyon</string>
   <string name="app_ops_activate_vpn">Ang VPN</string>
-  <string name="app_ops_auto_start">ang autostart</string>
-  <string name="app_ops_delete_call_log">burahin ang tawag sa listahan</string>
-  <string name="app_ops_delete_contacts">burahin ang mga kontak</string>
-  <string name="app_ops_delete_mms">burahin ang MMS</string>
-  <string name="app_ops_delete_sms">burahin ang SMS</string>
-  <string name="app_ops_draw_on_top">gumuhit sa toktok</string>
-  <string name="app_ops_get_usage_stats">kunin ang paggamit ng stats</string>
-  <string name="app_ops_keep_device_awake">manatiling gising</string>
-  <string name="app_ops_make_phone_call">gumawa ng tawag</string>
-  <string name="app_ops_modify_calendar">i-update ang kalendaryo</string>
-  <string name="app_ops_modify_call_log">i-update ang pagtwag sa listahan</string>
-  <string name="app_ops_modify_clipboard">mabago ang clipboard</string>
-  <string name="app_ops_modify_contacts">i-update ang mga kontak</string>
-  <string name="app_ops_modify_settings">i-update ang mga setting</string>
-  <string name="app_ops_mute_unmute_microphone">i-mute/i-unmutee ang mic</string>
-  <string name="app_ops_play_audio">paandarin ang audio</string>
-  <string name="app_ops_post_notification">mag post ng notipikasyon</string>
-  <string name="app_ops_project_media">ang proyekto sa media</string>
-  <string name="app_ops_read_calendar">basahin ang kalendaryo</string>
-  <string name="app_ops_read_call_log">basahin ang tawag sa listahan</string>
-  <string name="app_ops_read_clipboard">basahin ang clipboard</string>
-  <string name="app_ops_read_contacts">basahin ang mga kontak</string>
-  <string name="app_ops_read_mms">basahin ang MMS</string>
-  <string name="app_ops_read_sms">basahin ang SMS</string>
-  <string name="app_ops_receive_sms">tumanggap ng SMS</string>
-  <string name="app_ops_record_audio">ang record audio</string>
-  <string name="app_ops_send_mms">magpadala ng MMS</string>
-  <string name="app_ops_send_sms">magpadala ng SMS</string>
-  <string name="app_ops_toast_window">i-toast ang mga mensahe</string>
-  <string name="app_ops_use_alarm_volume">i-alarm ang volume</string>
-  <string name="app_ops_use_audio_focus">ang Pokus sa audio</string>
   <string name="app_ops_use_bluetooth_volume">I-volume ang Bluetooth</string>
-  <string name="app_ops_use_master_volume">i-master volume</string>
-  <string name="app_ops_use_media_buttons">mga media button</string>
-  <string name="app_ops_use_media_volume">ang media volume</string>
-  <string name="app_ops_use_notification_volume">abiso sa volume</string>
-  <string name="app_ops_use_ring_volume">ang ringtone volume</string>
-  <string name="app_ops_use_vibrate">ang fedback ay heptic</string>
-  <string name="app_ops_use_voice_volume">i-volume ang tawag sa boses</string>
-  <string name="app_ops_write_mms">sumulat ng MMS</string>
-  <string name="app_ops_write_sms">sumulat ng SMSe</string>
-  <string name="app_ops_use_fingerprint">ang fingerprint</string>
-  <string name="app_ops_add_voicemail">ang voicemail</string>
-  <string name="app_ops_read_phone_state">i-access ang estatdo ng telepono</string>
   <string name="app_ops_scan_wifi">I-scan ang mga WiFi Network</string>
-  <string name="app_ops_change_wallpaper">baguhin ang wallpaper</string>
-  <string name="app_ops_assist_structure">ang tulong sa istraktura</string>
-  <string name="app_ops_assist_screenshot">i-screenshot</string>
-  <string name="app_ops_use_body_sensors">mga sensor sa katawan</string>
-  <string name="app_ops_read_cell_broadcasts">ang mga brodcast cell</string>
-  <string name="app_ops_mock_location">lokasyon sa mock</string>
-  <string name="app_ops_read_external_storage">basahin ext. stor.</string>
-  <string name="app_ops_write_external_storage">sumulat ext. stor.</string>
-  <string name="app_ops_turn_on_screen">buksan ang screen</string>
-  <string name="app_ops_get_accounts">mga account device</string>
-  <string name="app_ops_run_in_background">patakbuhin sa background</string>
-  <string name="app_ops_accessibility_volume">marating ang volume</string>
-  <string name="app_ops_read_phone_numbers">basahin ang number sa telepono.</string>
-  <string name="app_ops_request_install_packages">i-instal ang mga package</string>
-  <string name="app_ops_picture_in_picture">ang pip</string>
-  <string name="app_ops_app_start_foreground">umpisahan sa harapan</string>
-  <string name="app_ops_answer_phone_calls">sagutin ang mga tawag</string>
-  <string name="app_ops_boot_completed">pag umpisa ng awtomatiko</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Ang taga pamahala ng root</string>
   <string name="rootmanagement_dashboard_summary">Pangangasiwa sa root access</string>
@@ -186,7 +122,7 @@ Ang proyekto na ito ay gawa sa cherry-picking mula sa ibat ibang mga proyekto. y
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Backup ng password sa desktop</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Babala sa kulay</string>
+  <string name="battery_saver_color_title">Babala na kulay</string>
   <string name="battery_saver_color_summary">Paganahin ang orange na estado - mga nabigasyon bar kung saan ang battery ay aktibo ang saver</string>
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">Gisingain kapag nag charge</string>
@@ -196,19 +132,91 @@ Ang proyekto na ito ay gawa sa cherry-picking mula sa ibat ibang mga proyekto. y
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <string name="show_cpu_info_summary">I-screen ang overlay na pinapakita ang kasalukuyang impormasyon ng CPU</string>
   <string name="dashboard_conditions_title">Ang kondisyon ng dashboard</string>
+  <string name="summary_dashboard_conditions_enabled">Ang kondisyon ng dashboard ay gumagana</string>
+  <string name="summary_dashboard_conditions_disabled">Ang kondisyon ng dashboard ay hindi gumagana</string>
   <!-- Custom light color -->
+  <string name="light_customization">Ang notipikasyon sa ilaw ng led</string>
+  <string name="custom_light_title">Ang magaan na kulay</string>
+  <string name="custom_light_on_time_title">"Naka bukas ang magaan na kulay habang nasa led pulse (ms)"</string>
+  <string name="custom_light_off_time_title">"Nakapatay ang oras ng ilaw habang naka led pulse (ms)"</string>
+  <string name="app_notifications_info_desc">I-tap ang isa sa tasas ng mga channel para kompigurasyon ng mga magaan na mga kulay at iba pang mga pagpipilian</string>
+  <string name="value_equals_default">Ang Def</string>
+  <string name="show_light_on_zen_title">Kurap habang nasa wag istorbuhin</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Binabago ang dami ng mga tunog</string>
   <!-- Reset battery stats -->
+  <string name="ok">Ayos</string>
+  <string name="menu_stats_reset">I-reset ang stats</string>
+  <string name="reset_stats_msg">Ang kasaysayan ng baterya ng stats ay mapupunta sa pag reset</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Hakbang ng volume</string>
+  <string name="volume_steps_alarm_title">I-volume ang mga hakbang: Alarma</string>
+  <string name="volume_steps_dtmf_title">Dami ng mga hakbang: DTMF</string>
+  <string name="volume_steps_music_title">Dami ng mga hakbang: musika</string>
+  <string name="volume_steps_notification_title">Dami ng mga hakbang: Notipikasyon</string>
+  <string name="volume_steps_ring_title">Dami ng mga hakbang: Tugtug</string>
+  <string name="volume_steps_system_title">Dami ng mga hakbang: Sistema</string>
+  <string name="volume_steps_voice_call_title">I-volume ang mga hakbang: Tawag sa boses</string>
+  <string name="volume_steps_reset">I-reset</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">Ang mga mungkahi sa Dashbord</string>
+  <string name="summary_dashboard_suggestions_enabled">Ang mga mungkahi sa dashbord ay gumagana</string>
+  <string name="summary_dashboard_suggestions_disabled">Ang mga mungkahi sa dashboard ay di gumagana</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">Mga pag pipilian sa dashboard</string>
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">Naka-encryp ang aparato</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Naka-encryp ang aparato</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">Ang ADB sa taas ng network</string>
+  <string name="adb_over_network_summary">Magamit ang TCP/IP i-debug sa ibabaw ng network na mga interface (wi-fi, USB networks). Ang pag tatagpo sa pag-reset ng reboot</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">BABALA: Kung saan ADB sa ibabaw ng network na gumagana. ang iyong telepono ay bukas sa mga papasok sa lahat ng konektadong mga network, kasama ang GSM data network!\n\nGamitin lamang ang feature na ito kung ikaw ay konektado sa mga pinag titiwalaan na mga network.\n\nNais mo ba talagang paganahin ang tung tungkulin na ito?</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">Nanginig sa plag</string>
+  <string name="alert_on_charged_level_title">Ang optimal charge ay ma alerto sa level</string>
+  <string name="alert_on_charged_level_summary">Ang pagbigay alam at pag papa andar ng tugtug/vibrate sa pag-optimal na chrage ng pantay sa screen mula sa naka off na kahit 1 minuto.\nAng pag abiso ay maaring hindi gumana ng mag kahiwalay na mahabang pag pindot dito.</string>
+  <string name="alert_on_charged_level_dis">I-disable</string>
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
-  <string name="theme_applied_toast">Na i-applied ang tema!</string>
-  <string name="ui_style_applied_toast">Ang UI style ay na i-applied!</string>
-  <string name="battery_image">Ang imahe ng battery</string>
-  <string name="battery_image_description">Ipakita ang estado ng imahe sa battery bar</string>
+  <string name="system_theme_style_title">Ang estilo ng UI</string>
+  <string name="system_theme_style_auto">Batay sa wolpeyper</string>
+  <string name="system_theme_style_light">Ang banayad UI</string>
+  <string name="system_theme_style_dark">Ang madilim UI</string>
+  <string name="system_theme_style_black">Ang itim UI</string>
+  <string name="system_theme_style_extended">Ang pinahabang UI</string>
+  <string name="theme_applied_toast">Na i-applied ang tema.</string>
+  <string name="applying_theme_toast">Ang paglalapat ng tema, mangyaring maghintay...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> ay <xliff:g id="status"
+example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">paganahin</string>
+  <string name="sim_disabled">hindi gumana</string>
+  <string name="sim_missing">ang nawawala o kamalian</string>
+  <string name="sim_enabler_need_disable_sim">Ang sim card ay madi-diactivate. Nais mo bang ipagpatuloy?</string>
+  <string name="sim_enabler_will_disable_sim_title">Ang atensyon</string>
+  <string name="sim_enabler_need_switch_data_service">Ang sim na ito ay hindi gagana at ang SIM <xliff:g id="slotid">%1$s</xliff:g> ay gagamitin sa mga serbisyo ng mga data. Sigurado ka ba na gusto mo mag patuloy?</string>
+  <string name="sim_enabler_airplane_on">Hindi maipag patuloy ang operasyon habang ang airplane mode ay nakabukas.</string>
+  <string name="sim_enabler_in_call">Hindi maipag patuloy ang operasyon habang nasa tawag.</string>
+  <string name="sim_enabler_both_inactive">Hindi ma-disable ang lahat ng mga Sim card</string>
+  <string name="sim_enabler_enabling">Pag-activate\u2026</string>
+  <string name="sim_enabler_disabling">I-deactivate\u2026</string>
+  <string name="sub_activate_success">I-activate ang SIM.</string>
+  <string name="sub_activate_failed">Bigo ang pag-failed.</string>
+  <string name="sub_deactivate_success">I-deactivate ang SIM.</string>
+  <string name="sub_deactivate_failed">Bigo ang pag deactivate.</string>
+  <string name="available_sims_title">Magagamit ang mag simcard</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Ipakita ang log ng kasaysayan ng mga notification</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

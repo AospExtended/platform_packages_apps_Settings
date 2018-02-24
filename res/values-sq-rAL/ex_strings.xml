@@ -14,11 +14,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Version i zgjeruar</string>
+  <string name="extended_version_default">E panjohur</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Data e pergatitjes</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nuk duhet, opsionet si zhvillues jane aktivizuar.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Ndryshimet</string>
+  <string name="changelog_summary">Ndryshimet e reja</string>
+  <string name="changelog_loading">Duke ngarkuar ndryshimet\u2026</string>
+  <string name="changelog_error">S\'mund te ngarkohen ndryshimet</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Rreth nesh</string>
+  <string name="aex_about_summary">Rreth nesh dhe skuadres tone</string>
+  <string name="aex_about_info_summary">AospExtended eshte bazuar ne rom AOSP i cili paraqet nje stok UI/UX me personalizime te ndryshme me ane te motorrit te temave Substratum. Ky projekt eshte bazuar duke marre me te mirat nga shume rom-e. Duke u bazuar ne AOSP ai paraqet nje punim te mire dhe pa probleme. Ne ne menyre te vazhdueshme do te provojme dhe shtojme te tjera gjera dhe do ti bejme me te bukura ne azhornimet e ardhshme.&#35;BeExtended</string>
+  <string name="dev_info">Rreth AospExtended</string>
+  <string name="github">Github</string>
+  <string name="github_description">Shikoni kodin burimor</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Bashkohu me ne ne G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Regjistrohu ne kanalin tone ne Telegram</string>
+  <string name="web">Qendra e shkarkimeve</string>
+  <string name="web_description">Na vizitoni ne faqen tone</string>
+  <string name="help_translate">Perkthyesit</string>
+  <string name="help_translate_description">Perkthejeni ne gjuhen tuaj, shkoni ne Crowdin</string>
+  <string name="walls">Sfonde</string>
+  <string name="walls_description">Gjej sfonde te bera nga artiste te ndryshem</string>
+  <string name="leads">Themeluesi</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Owner/Lead Developer</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Zhvillues</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderator dhe testues</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Zhvillues</string>
+  <string name="designers">Dizenjo</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Baneri, Logo e sfondet</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">QS/Fling logos</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Sfondet dhe animacioni i boot</string>
+  <string name="maintainers">Mirmbajtja</string>
+  <string name="maintainers_title">Mirmajtes zyrtar</string>
   <!-- Maintainer section -->
   <!-- AEX OTA -->
   <!-- Expanded desktop -->
@@ -26,9 +69,19 @@
   <!-- Screenshot sound -->
   <!-- Advanced night mode brightness -->
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Zgjidh zilen dhe volumin e njoftimeve</string>
+  <string name="notification_volume_option_title">Volumi i njoftimeve</string>
+  <string name="ring_notification_volume_option_title">Volumi i ziles dhe njoftimeve</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Vendndodhja</string>
+  <string name="app_ops_cat_personal">Personal</string>
+  <string name="app_ops_cat_messaging">Mesazhe</string>
+  <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Aparati</string>
+  <string name="app_ops_cat_bootup">Bootup</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_activate_vpn">VPN</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -47,4 +100,9 @@
   <!-- Vibrate on plug -->
   <!-- Themes -->
   <!-- MSIM Manual provisioning -->
+  <!-- Notification log -->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

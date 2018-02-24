@@ -39,12 +39,12 @@
   <string name="telegram">Telegram</string>
   <string name="telegram_description">Telegram kanalımıza abone olun</string>
   <string name="web">İndirme Merkezi</string>
-  <string name="web_description">İndirme Merkezimizi ziyaret edin</string>
+  <string name="web_description">İndirme merkezimizi ziyaret edin</string>
   <string name="help_translate">Çeviriler</string>
   <string name="help_translate_description">Kendi dilinize çevirmek için Crowdin\'i ziyaret edin</string>
   <string name="walls">Duvar Kağıtları</string>
   <string name="walls_description">Çeşitli kullanıcıların katkıda bulunduğu duvar kağıtlarını edinin</string>
-  <string name="leads">Takım Liderleri</string>
+  <string name="leads">Ekip Liderleri</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
   <string name="team1_description">Sahip/Lider Geliştirici</string>
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
@@ -57,7 +57,7 @@
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">Konu Afişleri, Logolar, Duvar Kağıtları</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
-  <string name="designer2_description">QS/Fling logoları</string>
+  <string name="designer2_description">Hızlı Ayarlar/Fling logoları</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Duvar Kağıtları, Açılış Animasyonları</string>
   <string name="maintainers">Sorumlular</string>
@@ -96,9 +96,9 @@
   <string name="night_bright_disabled">Devre dışı</string>
   <string name="night_bright_minimum">En düşük parlaklık</string>
   <string name="night_bright_low">Düşük parlaklık</string>
-  <string name="night_bright_medium">Orta Seviye parlaklık</string>
+  <string name="night_bright_medium">Orta parlaklık</string>
   <!-- Notification volume -->
-  <string name="link_volume_option_title">Bağlantı sesi ve bildirim ses düzeyi</string>
+  <string name="link_volume_option_title">Zil sesi ve bildirim sesini birleştir</string>
   <string name="notification_volume_option_title">Bildirim sesi düzeyi</string>
   <string name="ring_notification_volume_option_title">Zil sesi ve bildirim sesi düzeyi</string>
   <!-- App Ops Settings -->
@@ -110,73 +110,9 @@
   <string name="app_ops_cat_device">Cihaz</string>
   <string name="app_ops_cat_bootup">Açılış</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">kamera</string>
-  <string name="app_ops_access_location">konum</string>
-  <string name="app_ops_access_notifications">bildirimler</string>
   <string name="app_ops_activate_vpn">VPN(sanal özel ağ)</string>
-  <string name="app_ops_auto_start">otomatik başlatma</string>
-  <string name="app_ops_delete_call_log">arama kaydını sil</string>
-  <string name="app_ops_delete_contacts">kişileri sil</string>
-  <string name="app_ops_delete_mms">MMS sil</string>
-  <string name="app_ops_delete_sms">SMS sil</string>
-  <string name="app_ops_draw_on_top">üste taşı</string>
-  <string name="app_ops_get_usage_stats">kullanım istatistiklerini görüntüle</string>
-  <string name="app_ops_keep_device_awake">uyanık tut</string>
-  <string name="app_ops_make_phone_call">arama yap</string>
-  <string name="app_ops_modify_calendar">takvimi güncelle</string>
-  <string name="app_ops_modify_call_log">arama kaydını güncelle</string>
-  <string name="app_ops_modify_clipboard">panoyu düzenle</string>
-  <string name="app_ops_modify_contacts">kişileri güncelle</string>
-  <string name="app_ops_modify_settings">ayarları güncelle</string>
-  <string name="app_ops_mute_unmute_microphone">mikrofon sesini kapat/aç</string>
-  <string name="app_ops_play_audio">sesi oynat</string>
-  <string name="app_ops_post_notification">bildirim gönder</string>
-  <string name="app_ops_project_media">proje medyası</string>
-  <string name="app_ops_read_calendar">takvimi oku</string>
-  <string name="app_ops_read_call_log">arama kaydını oku</string>
-  <string name="app_ops_read_clipboard">panoyu oku</string>
-  <string name="app_ops_read_contacts">kişileri oku</string>
-  <string name="app_ops_read_mms">MMS oku</string>
-  <string name="app_ops_read_sms">SMS oku</string>
-  <string name="app_ops_receive_sms">SMS al</string>
-  <string name="app_ops_record_audio">ses kaydet</string>
-  <string name="app_ops_send_mms">MMS gönder</string>
-  <string name="app_ops_send_sms">SMS gönder</string>
-  <string name="app_ops_toast_window">kutlama mesajları</string>
-  <string name="app_ops_use_alarm_volume">alarm sesi seviyesi</string>
-  <string name="app_ops_use_audio_focus">ses odağı</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth ses seviyesi</string>
-  <string name="app_ops_use_master_volume">ana ses seviyesi</string>
-  <string name="app_ops_use_media_buttons">medya tuşları</string>
-  <string name="app_ops_use_media_volume">medya ses seviyesi</string>
-  <string name="app_ops_use_notification_volume">bildirim ses seviyesi</string>
-  <string name="app_ops_use_ring_volume">zil sesi seviyesi</string>
-  <string name="app_ops_use_vibrate">dokunmatik geri bildirim</string>
-  <string name="app_ops_use_voice_volume">arama ses düzeyi</string>
-  <string name="app_ops_write_mms">MMS yaz</string>
-  <string name="app_ops_write_sms">SMS yaz</string>
-  <string name="app_ops_use_fingerprint">parmak izi</string>
-  <string name="app_ops_add_voicemail">sesli mesaj</string>
-  <string name="app_ops_read_phone_state">telefon durumuna eriş</string>
   <string name="app_ops_scan_wifi">WİFİ Ağlarını Tara</string>
-  <string name="app_ops_change_wallpaper">duvar kağıdını değiştir</string>
-  <string name="app_ops_assist_structure">yardımcı yapı</string>
-  <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
-  <string name="app_ops_use_body_sensors">vücut sensörleri</string>
-  <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
-  <string name="app_ops_mock_location">sahte konum</string>
-  <string name="app_ops_read_external_storage">harici depolamayı oku</string>
-  <string name="app_ops_write_external_storage">harici depolamaya yaz</string>
-  <string name="app_ops_turn_on_screen">ekranı aç</string>
-  <string name="app_ops_get_accounts">cihaz hesapları</string>
-  <string name="app_ops_run_in_background">arka planda çalıştır</string>
-  <string name="app_ops_accessibility_volume">erişebilirlik düzeyi</string>
-  <string name="app_ops_read_phone_numbers">telefon numarasını oku</string>
-  <string name="app_ops_request_install_packages">paketleri kur</string>
-  <string name="app_ops_picture_in_picture">pencere içinde pencere</string>
-  <string name="app_ops_app_start_foreground">ön planda başlat</string>
-  <string name="app_ops_answer_phone_calls">aramalara cevap ver</string>
-  <string name="app_ops_boot_completed">otomatik başlat</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root yönetimi</string>
   <string name="rootmanagement_dashboard_summary">Root erişimini yönetme</string>
@@ -206,7 +142,7 @@
   <string name="value_equals_default">Varsayılan</string>
   <string name="show_light_on_zen_title">Rahatsız Etmeyin modunda yak söndür</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Ses düzeyi ayarlama sesleri</string>
+  <string name="volume_adjust_sounds_title">Ses ayarlama sesleri</string>
   <!-- Reset battery stats -->
   <string name="ok">Tamam</string>
   <string name="menu_stats_reset">İstatistikleri sıfırla</string>
@@ -250,14 +186,35 @@
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
   <string name="system_theme_style_title">Arayüz stili</string>
-  <string name="system_theme_style_auto">Duvar kağıdı merkezi</string>
+  <string name="system_theme_style_auto">Duvar kağıdı merkezli</string>
   <string name="system_theme_style_light">Aydınlık Arayüz</string>
   <string name="system_theme_style_dark">Karanlık Arayüz</string>
   <string name="system_theme_style_black">Siyah Arayüz</string>
   <string name="system_theme_style_extended">Extended UI</string>
-  <string name="theme_applied_toast">Tema uygulandı!</string>
-  <string name="ui_style_applied_toast">Arayüz stili uygulandı!</string>
-  <string name="battery_image">Pil görüntüsü</string>
-  <string name="battery_image_description">Durum çubuğuna pil görüntüsü göster</string>
+  <string name="theme_applied_toast">Tema uygulandı.</string>
+  <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">etkin</string>
+  <string name="sim_disabled">devre dışı</string>
+  <string name="sim_missing">eksik veya hatalı</string>
+  <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istiyor musunuz?</string>
+  <string name="sim_enabler_will_disable_sim_title">Dikkat</string>
+  <string name="sim_enabler_need_switch_data_service">Bu SIM devre dışı bırakılacak ve SIM <xliff:g id="slotid">%1$s</xliff:g> veri hizmetleri için kullanılacak. Devam etmek istermisin?</string>
+  <string name="sim_enabler_airplane_on">Uçak modu açıkken işlem yapılamıyor.</string>
+  <string name="sim_enabler_in_call">Arama sırasında işlem yapılamıyor.</string>
+  <string name="sim_enabler_both_inactive">Tüm SIM kartlar devre dışı bırakılamaz</string>
+  <string name="sim_enabler_enabling">Etkinleştiriliyor\u2026</string>
+  <string name="sim_enabler_disabling">Devre dışı bırakılıyor\u2026</string>
+  <string name="sub_activate_success">SIM etkinleştirildi.</string>
+  <string name="sub_activate_failed">Etkinleştirme başarısız.</string>
+  <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
+  <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
+  <string name="available_sims_title">Kullanılabilir SIM kartlar</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>
