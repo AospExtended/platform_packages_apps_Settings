@@ -110,73 +110,9 @@
   <string name="app_ops_cat_device">Zariadenie</string>
   <string name="app_ops_cat_bootup">Pri štarte</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">fotoaparát</string>
-  <string name="app_ops_access_location">poloha</string>
-  <string name="app_ops_access_notifications">upozornenia</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">automatické spustenie</string>
-  <string name="app_ops_delete_call_log">vymazať denník hovorov</string>
-  <string name="app_ops_delete_contacts">vymazať kontakty</string>
-  <string name="app_ops_delete_mms">vymazať MMS</string>
-  <string name="app_ops_delete_sms">vymazať SMS</string>
-  <string name="app_ops_draw_on_top">vykreslovať do najvyššej vrstvy</string>
-  <string name="app_ops_get_usage_stats">získať štatistiky používania</string>
-  <string name="app_ops_keep_device_awake">udržať prebudené</string>
-  <string name="app_ops_make_phone_call">vykonať hovor</string>
-  <string name="app_ops_modify_calendar">aktualizovať kalendár</string>
-  <string name="app_ops_modify_call_log">aktualizovať záznam hovorov</string>
-  <string name="app_ops_modify_clipboard">meniť údaje v schránke</string>
-  <string name="app_ops_modify_contacts">aktualizovať kontakty</string>
-  <string name="app_ops_modify_settings">aktualizovať nastavenia</string>
-  <string name="app_ops_mute_unmute_microphone">stíšiť/zosiliť mikrofón</string>
-  <string name="app_ops_play_audio">prehrávať zvuk</string>
-  <string name="app_ops_post_notification">posielať upozornenia</string>
-  <string name="app_ops_project_media">premietať médiá</string>
-  <string name="app_ops_read_calendar">čítať údaje z kalendára</string>
-  <string name="app_ops_read_call_log">čítať zoznam hovorov</string>
-  <string name="app_ops_read_clipboard">čítať údaje zo schránky</string>
-  <string name="app_ops_read_contacts">čítať kontakty</string>
-  <string name="app_ops_read_mms">čítať MMS</string>
-  <string name="app_ops_read_sms">čítať SMS</string>
-  <string name="app_ops_receive_sms">prijímať SMS</string>
-  <string name="app_ops_record_audio">nahrávať zvuk</string>
-  <string name="app_ops_send_mms">poslať MMS</string>
-  <string name="app_ops_send_sms">poslať SMS</string>
-  <string name="app_ops_toast_window">vyskakujúce správy</string>
-  <string name="app_ops_use_alarm_volume">hlasitosť budíka</string>
-  <string name="app_ops_use_audio_focus">zvukové zdroje</string>
   <string name="app_ops_use_bluetooth_volume">hlasitosť Bluetooth</string>
-  <string name="app_ops_use_master_volume">hlavná hlasitosť</string>
-  <string name="app_ops_use_media_buttons">tlačidlá médií</string>
-  <string name="app_ops_use_media_volume">hlasitosť médií</string>
-  <string name="app_ops_use_notification_volume">hlasitosť upozornení</string>
-  <string name="app_ops_use_ring_volume">hlasitosť zvonenia</string>
-  <string name="app_ops_use_vibrate">hmatová odozva</string>
-  <string name="app_ops_use_voice_volume">hlasitosť hovoru</string>
-  <string name="app_ops_write_mms">vytvoriť MMS</string>
-  <string name="app_ops_write_sms">vytvoriť SMS</string>
-  <string name="app_ops_use_fingerprint">odtlačok prsta</string>
-  <string name="app_ops_add_voicemail">hlasová pošta</string>
-  <string name="app_ops_read_phone_state">pristupovať k stavu telefónu</string>
   <string name="app_ops_scan_wifi">prehľadávať WiFi siete</string>
-  <string name="app_ops_change_wallpaper">zmeniť tapetu</string>
-  <string name="app_ops_assist_structure">používať pomocné štruktúry</string>
-  <string name="app_ops_assist_screenshot">snímka obrazovky</string>
-  <string name="app_ops_use_body_sensors">telesné senzory</string>
-  <string name="app_ops_read_cell_broadcasts">vysíelanie buniek</string>
-  <string name="app_ops_mock_location">falšovať polohu</string>
-  <string name="app_ops_read_external_storage">čítať ext. úložisko</string>
-  <string name="app_ops_write_external_storage">zapisovať na ext. úložisko</string>
-  <string name="app_ops_turn_on_screen">zapnúť obrazovku</string>
-  <string name="app_ops_get_accounts">získať účty zariadenia</string>
-  <string name="app_ops_run_in_background">spustiť na pozadí</string>
-  <string name="app_ops_accessibility_volume">prístup k hlasitosti</string>
-  <string name="app_ops_read_phone_numbers">čítať tel. čísla</string>
-  <string name="app_ops_request_install_packages">inštalovať balíky</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">spustiť na popredí</string>
-  <string name="app_ops_answer_phone_calls">prijať hovor</string>
-  <string name="app_ops_boot_completed">spustiť pri štarte</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Správca Root oprávnení</string>
   <string name="rootmanagement_dashboard_summary">Spravovať prístupy root</string>
@@ -255,9 +191,30 @@
   <string name="system_theme_style_dark">Tmavé rozhranie</string>
   <string name="system_theme_style_black">Čierne rozhranie</string>
   <string name="system_theme_style_extended">Rozšírené rozhranie</string>
-  <string name="theme_applied_toast">Téma použitá!</string>
-  <string name="ui_style_applied_toast">Štýl rozhrania použitý!</string>
-  <string name="battery_image">Ikona batérie</string>
-  <string name="battery_image_description">Zobraziť ikonu batérie v stavovom riadku</string>
+  <string name="theme_applied_toast">Téma použitá.</string>
+  <string name="applying_theme_toast">Aplikujem tému, počkajte prosím...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">aktivovaná</string>
+  <string name="sim_disabled">deaktivovaná</string>
+  <string name="sim_missing">chýbajúca alebo chybná</string>
+  <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivovaná. Chcete pokračovať?</string>
+  <string name="sim_enabler_will_disable_sim_title">Upozornenie</string>
+  <string name="sim_enabler_need_switch_data_service">Táto SIM karta bude deaktivovaná a SIM karta <xliff:g id="slotid">%1$s</xliff:g> bude použitá pre dátové služby. Naozaj chcete pokračovať?</string>
+  <string name="sim_enabler_airplane_on">Akciu nie je možné vykonať, pokiaľ je aktivovaný režim v lietadle.</string>
+  <string name="sim_enabler_in_call">Počas prebiehajúceho hovoru nie je možné vykonať túto akciu.</string>
+  <string name="sim_enabler_both_inactive">Nemožno deaktivovať všetky SIM karty</string>
+  <string name="sim_enabler_enabling">Aktivovanie\u2026</string>
+  <string name="sim_enabler_disabling">Deaktivovanie\u2026</string>
+  <string name="sub_activate_success">SIM bola aktivovaná.</string>
+  <string name="sub_activate_failed">Aktivácia zlyhala.</string>
+  <string name="sub_deactivate_success">SIM bola deaktivovaná.</string>
+  <string name="sub_deactivate_failed">Deaktivácia zlyhala.</string>
+  <string name="available_sims_title">Dostupné SIM karty</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Zobraziť protokol histórie upozornení</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

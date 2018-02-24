@@ -110,73 +110,9 @@
   <string name="app_ops_cat_device">裝置</string>
   <string name="app_ops_cat_bootup">啟動</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">相機</string>
-  <string name="app_ops_access_location">位置</string>
-  <string name="app_ops_access_notifications">通知</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">自動啟動</string>
-  <string name="app_ops_delete_call_log">刪除通話紀錄</string>
-  <string name="app_ops_delete_contacts">刪除聯絡人</string>
-  <string name="app_ops_delete_mms">刪除多媒體簡訊</string>
-  <string name="app_ops_delete_sms">刪除簡訊</string>
-  <string name="app_ops_draw_on_top">在最上層繪製</string>
-  <string name="app_ops_get_usage_stats">取得使用統計資訊</string>
-  <string name="app_ops_keep_device_awake">保持喚醒</string>
-  <string name="app_ops_make_phone_call">撥打電話</string>
-  <string name="app_ops_modify_calendar">更新日曆</string>
-  <string name="app_ops_modify_call_log">更新通話記錄</string>
-  <string name="app_ops_modify_clipboard">修改剪貼簿</string>
-  <string name="app_ops_modify_contacts">更新聯絡人</string>
-  <string name="app_ops_modify_settings">更新設定</string>
-  <string name="app_ops_mute_unmute_microphone">麥克靜音/取消靜音</string>
-  <string name="app_ops_play_audio">播放音訊</string>
-  <string name="app_ops_post_notification">發佈通知</string>
-  <string name="app_ops_project_media">媒體投放</string>
-  <string name="app_ops_read_calendar">讀取日曆</string>
-  <string name="app_ops_read_call_log">讀取通話記錄</string>
-  <string name="app_ops_read_clipboard">讀取剪貼簿</string>
-  <string name="app_ops_read_contacts">讀取聯絡人</string>
-  <string name="app_ops_read_mms">讀取多媒體簡訊</string>
-  <string name="app_ops_read_sms">讀取簡訊</string>
-  <string name="app_ops_receive_sms">接收簡訊</string>
-  <string name="app_ops_record_audio">錄製音訊</string>
-  <string name="app_ops_send_mms">傳送多媒體簡訊</string>
-  <string name="app_ops_send_sms">傳送簡訊</string>
-  <string name="app_ops_toast_window">提示訊息</string>
-  <string name="app_ops_use_alarm_volume">鬧鐘音量</string>
-  <string name="app_ops_use_audio_focus">音訊焦點</string>
   <string name="app_ops_use_bluetooth_volume">藍牙音量</string>
-  <string name="app_ops_use_master_volume">主音量</string>
-  <string name="app_ops_use_media_buttons">媒體鍵</string>
-  <string name="app_ops_use_media_volume">媒體音量</string>
-  <string name="app_ops_use_notification_volume">通知音量</string>
-  <string name="app_ops_use_ring_volume">鈴聲音量</string>
-  <string name="app_ops_use_vibrate">觸控震動</string>
-  <string name="app_ops_use_voice_volume">語音通話音量</string>
-  <string name="app_ops_write_mms">撰寫多媒體簡訊</string>
-  <string name="app_ops_write_sms">撰寫簡訊</string>
-  <string name="app_ops_use_fingerprint">指紋</string>
-  <string name="app_ops_add_voicemail">語音信箱</string>
-  <string name="app_ops_read_phone_state">存取手機狀態</string>
   <string name="app_ops_scan_wifi">掃描 Wi-Fi 網路</string>
-  <string name="app_ops_change_wallpaper">更改桌布</string>
-  <string name="app_ops_assist_structure">協助結構</string>
-  <string name="app_ops_assist_screenshot">擷取螢幕畫面</string>
-  <string name="app_ops_use_body_sensors">身體感應器</string>
-  <string name="app_ops_read_cell_broadcasts">區域廣播</string>
-  <string name="app_ops_mock_location">模擬位置</string>
-  <string name="app_ops_read_external_storage">讀取外部儲存空間</string>
-  <string name="app_ops_write_external_storage">寫入外部儲存空間</string>
-  <string name="app_ops_turn_on_screen">開啟螢幕</string>
-  <string name="app_ops_get_accounts">裝置帳戶</string>
-  <string name="app_ops_run_in_background">在背景執行</string>
-  <string name="app_ops_accessibility_volume">協助工具音量</string>
-  <string name="app_ops_read_phone_numbers">讀取電話號碼。</string>
-  <string name="app_ops_request_install_packages">安裝套件</string>
-  <string name="app_ops_picture_in_picture">PiP</string>
-  <string name="app_ops_app_start_foreground">開始前景</string>
-  <string name="app_ops_answer_phone_calls">接聽電話</string>
-  <string name="app_ops_boot_completed">自動啟動</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root 管理</string>
   <string name="rootmanagement_dashboard_summary">管理 root 權限</string>
@@ -255,9 +191,30 @@
   <string name="system_theme_style_dark">深色使用者介面</string>
   <string name="system_theme_style_black">黑色使用者介面</string>
   <string name="system_theme_style_extended">延伸使用者介面</string>
-  <string name="theme_applied_toast">主題已套用！</string>
-  <string name="ui_style_applied_toast">使用者介面樣式已套用！</string>
-  <string name="battery_image">電池圖片</string>
-  <string name="battery_image_description">在狀態列中顯示電池圖片</string>
+  <string name="theme_applied_toast">主題已套用。</string>
+  <string name="applying_theme_toast">套用主題中，請稍候...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>已<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">啟用</string>
+  <string name="sim_disabled">停用</string>
+  <string name="sim_missing">遺失或故障</string>
+  <string name="sim_enabler_need_disable_sim">SIM 卡將被停用，您確定要繼續嗎？</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
+  <string name="sim_enabler_need_switch_data_service">此 SIM 卡將被停用，並且將使用 SIM 卡 <xliff:g id="slotid">%1$s</xliff:g> 於數據服務中，您確定要繼續嗎？</string>
+  <string name="sim_enabler_airplane_on">飛航模式開啟時無法進行此操作。</string>
+  <string name="sim_enabler_in_call">通話時無法進行此操作。</string>
+  <string name="sim_enabler_both_inactive">無法停用所有 SIM 卡</string>
+  <string name="sim_enabler_enabling">啟用中\u2026</string>
+  <string name="sim_enabler_disabling">停用中\u2026</string>
+  <string name="sub_activate_success">SIM 卡已啟用。</string>
+  <string name="sub_activate_failed">啟用失敗。</string>
+  <string name="sub_deactivate_success">SIM 卡已停用。</string>
+  <string name="sub_deactivate_failed">停用失敗。</string>
+  <string name="available_sims_title">可用的 SIM 卡</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">顯示通知歷史記錄</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

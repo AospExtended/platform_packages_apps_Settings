@@ -30,6 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Über uns</string>
   <string name="aex_about_summary">Unser Team und was wir machen</string>
+  <string name="aex_about_info_summary">AospExtended ist eine AOSP-basierte Rom, die Vanilla UI/UX mit verschiedenen Anpassungsfunktionen in zusammenarbeit mit der Substratum Theme-Engine anbietet. Das Projekt wurde durch Rosinenpicken aus verschiedenen anderen Projekten erschaffen. Auf AOSP zu basieren, verspricht eine flüssige und lagfreie Erfahrung als Vorteil. Wir werden immer versuchen mehr Funktionen hinzuzufügen und es in der Zukunft immer besser zu machen. &#35;BeExtended</string>
   <string name="dev_info">Über AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">Sehen Sie sich unseren Quellcode an</string>
@@ -42,14 +43,22 @@
   <string name="help_translate">Übersetzungen</string>
   <string name="help_translate_description">Besuchen Sie Crowdin, um in Ihre Sprache zu übersetzen</string>
   <string name="walls">Hintergrundbilder</string>
+  <string name="walls_description">Die Hintergrundbilder sind von unterschiedlichen Benutzern erstellt worden</string>
   <string name="leads">Teamleiter</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
   <string name="team1_description">Besitzer und führender Entwickler</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Entwickler</string>
+  <string name="team_3">Amol Amrit</string>
   <string name="team3_description">Moderator und ein Amateur-Entwickler</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Entwickler</string>
   <string name="designers">Designer</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">Forumbanner, Logos, Hintergrundbilder</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">QS/Fling Logos</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Hintergrundbilder, Bootanimation</string>
   <string name="maintainers">Betreuer</string>
   <string name="maintainers_title">Offizielle Betreuer</string>
@@ -101,69 +110,9 @@
   <string name="app_ops_cat_device">Gerät</string>
   <string name="app_ops_cat_bootup">Systemstart</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">auf die Kamera zuzugreifen</string>
-  <string name="app_ops_access_location">den Standort abzurufen</string>
-  <string name="app_ops_access_notifications">auf Benachrichtigungen zuzugreifen</string>
   <string name="app_ops_activate_vpn">ein VPN zu aktivieren</string>
-  <string name="app_ops_auto_start">automatisch zu starten</string>
-  <string name="app_ops_delete_call_log">Anrufsliste löschen</string>
-  <string name="app_ops_delete_contacts">Kontakte löschen</string>
-  <string name="app_ops_delete_mms">MMS löschen</string>
-  <string name="app_ops_delete_sms">Ihre SMS zu löschen</string>
-  <string name="app_ops_draw_on_top">Über anderen Apps einblenden</string>
-  <string name="app_ops_get_usage_stats">Nutzungsstatistiken abrufen</string>
-  <string name="app_ops_keep_device_awake">aktiv lassen</string>
-  <string name="app_ops_make_phone_call">Anruf tätigen</string>
-  <string name="app_ops_modify_calendar">Kalender aktualisieren</string>
-  <string name="app_ops_modify_call_log">Anrufliste aktualisieren</string>
-  <string name="app_ops_modify_clipboard">Zwischenablage ändern</string>
-  <string name="app_ops_modify_contacts">Kontakte bearbeiten</string>
-  <string name="app_ops_modify_settings">Einstellungen bearbeiten</string>
-  <string name="app_ops_mute_unmute_microphone">Mikrofon aktivieren/deaktivieren</string>
-  <string name="app_ops_play_audio">Audio wiedergeben</string>
-  <string name="app_ops_post_notification">Benachrichtigung posten</string>
-  <string name="app_ops_read_calendar">Kalendereinträge lesen</string>
-  <string name="app_ops_read_call_log">Anrufprotokoll lesen</string>
-  <string name="app_ops_read_clipboard">Zwischenablage lesen</string>
-  <string name="app_ops_read_contacts">Kontakte lesen</string>
-  <string name="app_ops_read_mms">MMS lesen</string>
-  <string name="app_ops_read_sms">SMS lesen</string>
-  <string name="app_ops_receive_sms">SMS empfangen</string>
-  <string name="app_ops_record_audio">Audioinhalte aufzeichnen</string>
-  <string name="app_ops_send_mms">MMS senden</string>
-  <string name="app_ops_send_sms">SMS senden</string>
-  <string name="app_ops_use_alarm_volume">Weckerlautstärke</string>
-  <string name="app_ops_use_audio_focus">Audiofokus</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth-Lautstärke</string>
-  <string name="app_ops_use_master_volume">Gesamtlautstärke</string>
-  <string name="app_ops_use_media_volume">Medienlautstärke</string>
-  <string name="app_ops_use_notification_volume">Benachrichtigungslautstärke</string>
-  <string name="app_ops_use_ring_volume">Klingeltonlautstärke</string>
-  <string name="app_ops_use_vibrate">Vibration</string>
-  <string name="app_ops_use_voice_volume">Sprachanruflautstärke</string>
-  <string name="app_ops_write_mms">MMS schreiben</string>
-  <string name="app_ops_write_sms">SMS schreiben</string>
-  <string name="app_ops_use_fingerprint">Fingerabdruck</string>
-  <string name="app_ops_add_voicemail">Sprachnachricht</string>
-  <string name="app_ops_read_phone_state">Auf Telefonstatus zugreifen</string>
   <string name="app_ops_scan_wifi">WLAN-Netzwerke scannen</string>
-  <string name="app_ops_change_wallpaper">Hintergrundbild ändern</string>
-  <string name="app_ops_assist_screenshot">Bildschirmfoto</string>
-  <string name="app_ops_use_body_sensors">Körpersensoren</string>
-  <string name="app_ops_read_cell_broadcasts">Cell-Broadcasts</string>
-  <string name="app_ops_mock_location">Standort simulieren</string>
-  <string name="app_ops_read_external_storage">Externen Speicher lesen</string>
-  <string name="app_ops_write_external_storage">Externen Speicher schreiben</string>
-  <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
-  <string name="app_ops_get_accounts">Geräte-Konten</string>
-  <string name="app_ops_run_in_background">im Hintergrund ausführen</string>
-  <string name="app_ops_accessibility_volume">Bedienungshilfen-Lautstärke</string>
-  <string name="app_ops_read_phone_numbers">Telefonnummer lesen</string>
-  <string name="app_ops_request_install_packages">Pakete installieren</string>
-  <string name="app_ops_picture_in_picture">Bild in Bild</string>
-  <string name="app_ops_app_start_foreground">Im Vordergrund starten</string>
-  <string name="app_ops_answer_phone_calls">Anruf annehmen</string>
-  <string name="app_ops_boot_completed">Autostart</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root-Verwaltung</string>
   <string name="rootmanagement_dashboard_summary">Root-Zugriff verwalten</string>
@@ -181,13 +130,19 @@
   <string name="show_cpu_info">CPU Info anzeigen</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <string name="show_cpu_info_summary">Bildschirm-Overlay zeigt aktuelle CPU-Info</string>
+  <string name="dashboard_conditions_title">Dashboard Bedingungen</string>
+  <string name="summary_dashboard_conditions_enabled">Dashboardbedingungen sind aktiv</string>
+  <string name="summary_dashboard_conditions_disabled">Dashboardbedingungen sind nicht aktiv</string>
   <!-- Custom light color -->
   <string name="light_customization">LED Benachrichtigung</string>
   <string name="custom_light_title">LED Farbe</string>
   <string name="custom_light_on_time_title">"Licht-an-Zeit während LED Puls (ms)"</string>
   <string name="custom_light_off_time_title">"Licht-aus-Zeit während LED Puls (ms)"</string>
   <string name="app_notifications_info_desc">Auf einen der oberen Kanäle tippen um ihre Lichtfarben und andere Optionen anzupassen</string>
+  <string name="value_equals_default">Def</string>
+  <string name="show_light_on_zen_title">Blinken während Nicht Stören</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Lautstärkeanpassungstöne</string>
   <!-- Reset battery stats -->
   <string name="ok">Ok</string>
   <string name="menu_stats_reset">Statistiken zurücksetzen</string>
@@ -210,6 +165,7 @@
   <string name="volume_steps_5">5</string>
   <string name="dashboard_suggestions_title">Dashboard Vorschläge</string>
   <string name="summary_dashboard_suggestions_enabled">Dashboard-Vorschläge sind aktiviert</string>
+  <string name="summary_dashboard_suggestions_disabled">Dashboardvorschläge sind aktiv</string>
   <!-- Dashboard Category -->
   <string name="dashboard_category">Dashboard-Optionen</string>
   <!-- Encryption and credential -->
@@ -235,9 +191,30 @@
   <string name="system_theme_style_dark">dunkle Benutzeroberfläche</string>
   <string name="system_theme_style_black">schwarze Benutzeroberfläche</string>
   <string name="system_theme_style_extended">erweiterte Benutzeroberfläche</string>
-  <string name="theme_applied_toast">Thema angewendet!</string>
-  <string name="ui_style_applied_toast">Benutzeroberflächestil angewendet!</string>
-  <string name="battery_image">Akkusymbol</string>
-  <string name="battery_image_description">Akkusymbol in Statusleiste anzeigen</string>
+  <string name="theme_applied_toast">Thema angewendet.</string>
+  <string name="applying_theme_toast">Anwenden des Themas, bitte warten...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> ist <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">Aktiv</string>
+  <string name="sim_disabled">Nicht Aktiv</string>
+  <string name="sim_missing">Fehlt oder Fehlerhaft</string>
+  <string name="sim_enabler_need_disable_sim">SIM-Karte wird deaktiviert. Willst du fortfahren?</string>
+  <string name="sim_enabler_will_disable_sim_title">Achtung</string>
+  <string name="sim_enabler_need_switch_data_service">Diese SIM-Karte wird deaktiviert und SIM-Karte <xliff:g id="slotid">%1$s</xliff:g> wird für Datendienste weiterverwendet. Bist du sicher, dass du fortfahren möchtest?</string>
+  <string name="sim_enabler_airplane_on">Vorgäng ist im Flugmodus nicht möglich.</string>
+  <string name="sim_enabler_in_call">Vorgang ist während eines Anrufs nicht möglich.</string>
+  <string name="sim_enabler_both_inactive">Es können nicht alle SIM-Karten deaktiviert werden</string>
+  <string name="sim_enabler_enabling">Aktivieren\u2026</string>
+  <string name="sim_enabler_disabling">Deaktiviere\u2026</string>
+  <string name="sub_activate_success">SIM ist aktiv.</string>
+  <string name="sub_activate_failed">Aktivierung fehlgeschlagen.</string>
+  <string name="sub_deactivate_success">SIM ist nicht aktiv.</string>
+  <string name="sub_deactivate_failed">Deaktivierung ist fehlgeschlagen.</string>
+  <string name="available_sims_title">Verfügbare SIM-Karten</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Zeige Benachrichtigungsverlauf</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

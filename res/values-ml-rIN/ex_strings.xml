@@ -14,11 +14,45 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Extended പതിപ്പ്</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">ബിൽഡ് തീയതി</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">അവിശ്യം വേണ്ട, ഡെവലപ്പ്മെന്റ് ക്രമീകരണം സ്ഥിരസ്ഥിതി ആയി പ്രാപ്തമാക്കി.</string>
   <!-- Changelog -->
+  <string name="changelog_title">ചേഞ്ച് ലോഗ്</string>
+  <string name="changelog_summary">സമീപകാലത്തെ മാറ്റങ്ങൾ</string>
+  <string name="changelog_error">ചേഞ്ച് ലോഗ് ലോഡ്‌ ചെയ്യാൻ സാധിക്കുന്നില്ല</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">നമ്മളെ കുറിച്ച്</string>
+  <string name="aex_about_summary">ഞങ്ങളുടെ ആമുഖം പിന്നെ ഞങ്ങളുടെ ടീം</string>
+  <string name="aex_about_info_summary">AospExtended ഒരു AOSP അടിസ്ഥാനമാക്കിയുള്ള റോം ആണ്, ഇത് സ്റ്റോക്ക് UI / UX, വ്യത്യസ്ത കസ്റ്റമൈസേഷൻ ഫീച്ചറുകൾ substratum തീം എഞ്ചിൻ നൽകുന്നു. വിവിധ പ്രോജക്ടുകളിൽ നിന്ന് വിവിധതരം കമ്മിറ്റികൾ ചേർത്താണ് ഉണ്ടാക്കിയത്. AOSP- യുടെ അടിസ്ഥാനത്തിൽ ഇത് ബോക്സിൽ നിന്ന് മികച്ചതും ലളിതവുമായ അനുഭവം നൽകുന്നു. നമ്മൾ സ്ഥിരമായി കൂടുതൽ സവിശേഷതകൾ ചേർത്ത് ഭാവിയിൽ കൂടുതൽ മെച്ചപ്പെടുത്താൻ ശ്രമിക്കും. #BeExtended</string>
+  <string name="dev_info">AospExtended- ഇനെ കുറിച്ച്</string>
+  <string name="github">Github</string>
+  <string name="github_description">നമ്മുടെ സോഴ്സ് കോട് കാണിക്കുക</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">നമ്മുടെ G+ കമ്മ്യൂണിറ്റിയിൽ ചേരുക</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">നമ്മുടെ Telegram ചാനലിൽ സബ്സ്ക്രൈബ് ചെയ്യുക</string>
+  <string name="web">ഡൗൺലോഡ് കേന്ദ്രം</string>
+  <string name="web_description">നമ്മുടെ ഡൗൺലോഡ് പോർട്ടൽ സന്ദർശിക്കുക</string>
+  <string name="help_translate">വിവർത്തനങ്ങൾ</string>
+  <string name="help_translate_description">നിങ്ങളുടെ ഭാഷയിൽ തർജ്ജമ ചെയ്യുക, നമ്മുടെ Crowdin സന്ദർശിക്കുക</string>
+  <string name="walls">വാൾപേപ്പർ</string>
+  <string name="walls_description">വിവിധ ഉപയോക്താക്കൾ സംഭാവന ചെയ്ത വാൾപേപ്പറുകൾ കിട്ടുക</string>
+  <string name="leads">ടീം നയിക്കുന്നവർ</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">ഉടമ/നേതൃത്വ ഡെവലപ്പർ</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">ഡെവലപ്പർ</string>
+  <string name="team_3">അമോൾ അമൃത്</string>
+  <string name="team3_description">മോഡറേറ്ററും ഒരു അമേച്വർ ഡവലപ്പറും</string>
+  <string name="team_4">ഹീൻരിക്കെ സിൽവ &#40;jhenrique09&#41;</string>
+  <string name="team4_description">ഡെവലപ്പർ</string>
+  <string name="designers">ഡിസൈനർമാർ</string>
+  <string name="designer_1">യാസൻ &#40;AlienCreature7&#41;</string>
   <string name="maintainers">നിലനിർത്തുന്നവർ</string>
   <!-- Maintainer section -->
   <!-- AEX OTA -->
@@ -51,4 +85,9 @@
   <!-- Vibrate on plug -->
   <!-- Themes -->
   <!-- MSIM Manual provisioning -->
+  <!-- Notification log -->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

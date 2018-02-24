@@ -14,37 +14,104 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Utvidet versjon</string>
   <!-- About phone screen, build date -->
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">No Need, Utviklingsinnstillinger er aktivert som standard.</string>
   <!-- Changelog -->
+  <string name="changelog_error">Kan ikke laste inn changelog</string>
   <!-- About AospExtended -->
+  <string name="aex_about_summary">Vår introduksjon og vårt team</string>
+  <string name="aex_about_info_summary">AospExtended er et AOSP-basert rom som gir lager UI / UX med ulike tilpassingsfunksjoner sammen med Substratum-temmotoren. Prosjektet er laget av kirsebær-plukking ulike forpliktelser fra ulike andre prosjekter. Å være basert på AOSP, gir en jevn og lagfri opplevelse ut av boksen. Vi vil hele tiden prøve å legge til flere funksjoner og gjøre det enda bedre i fremtidige oppdateringer.&#35;BeExtended</string>
+  <string name="dev_info">Om AospExtended</string>
+  <string name="telegram_description">Abonner på vårt Telegram kanal</string>
+  <string name="web_description">Besøk vår laste ned portal</string>
+  <string name="help_translate">Oversettelser</string>
+  <string name="help_translate_description">For å oversette til ditt språk, kan du besøke vår Crowdin</string>
+  <string name="walls">Bakgrunnsbilder</string>
+  <string name="walls_description">Få bakgrunnsbilder bidratt med ulike brukere</string>
+  <string name="leads">Team Leder</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Eier/Fører Utvikler</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Utvikler</string>
+  <string name="team3_description">Moderator og en Amatør Utvikler</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Utvikler</string>
+  <string name="designers">Designere</string>
+  <string name="designer_1">Yasan &#40;AlienCreature&#41;</string>
+  <string name="designer1_description">Tråden Bannere, Logoer, Bakgrunnsbilder</string>
+  <string name="designer3_description">Bakgrunnsbilder, Bootanimations</string>
+  <string name="maintainers_summary">Offisielt støttet enheter og deres respektive utviklere.</string>
   <!-- Maintainer section -->
+  <string name="loading_devices_failed">Klarte ikke å laste enheter-listen</string>
+  <string name="devices_list_empty">Listen er tom, trykker du på ikonet for å laste</string>
   <!-- AEX OTA -->
   <!-- Expanded desktop -->
+  <string name="expanded_hide_nothing">Skjule ingenting</string>
+  <string name="expanded_nothing_to_show">For å legge til en tilpasset per-app konfigurasjon for utvidet staten, sett \"Aktivert for alle\" til off-stilling</string>
+  <string name="expanded_desktop_style_description">Velger en standard utvidet skrivebord stil</string>
+  <string name="expanded_desktop_title">Utvidet skrivebord valg</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_summary">Spiller av lyd effekt når skjermbilde er tatt</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_value_title">Lavere lysstyrke om Kvelden Lys</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Link ring og varsling volum</string>
+  <string name="ring_notification_volume_option_title">Ring og varsling volum</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Skrivebordet backup passord</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_summary">Aktiver oransje status - navigasjon barer når batterisparing er aktivert</string>
   <!-- Wakeup options -->
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Skjermtrekk som viser nåværende CPU info</string>
+  <string name="dashboard_conditions_title">Dashboard betingelser</string>
+  <string name="summary_dashboard_conditions_enabled">Dashboard forhold er aktivert</string>
+  <string name="summary_dashboard_conditions_disabled">Dashboard forhold er deaktivert</string>
   <!-- Custom light color -->
+  <string name="light_customization">Led varsel lys</string>
+  <string name="app_notifications_info_desc">Trykk på en av kanalene til å konfigurere sine lyse farger og andre valg</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Volumjustering lyder</string>
   <!-- Reset battery stats -->
+  <string name="reset_stats_msg">Batteriet historie statistikken skal bli nullstilt</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_notification_title">Volum trinnene: Varsling</string>
+  <string name="volume_steps_45">45</string>
+  <string name="dashboard_suggestions_title">Dashboard forslag</string>
+  <string name="summary_dashboard_suggestions_enabled">Dashboard forslag er aktivert</string>
+  <string name="summary_dashboard_suggestions_disabled">Dashboard forslag er aktivert</string>
   <!-- Dashboard Category -->
   <!-- Encryption and credential -->
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network_summary">Aktiver TCP/IP-feilsøking over nettverk grensesnitt (Wi-Fi, USB-nettverk). Denne innstillingen tilbakestilles ved omstart</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">ADVARSEL: Når ADB over nettverket er aktivert, og telefonen er åpen for inntrenging på alle tilkoblede nettverk, inkludert GSM-nettverket!\n\nOnly bruk denne funksjonen når du er koblet på pålitelige nettverk.\n\nDo du virkelig ønsker å aktivere denne funksjonen?</string>
   <!-- Vibrate on plug -->
+  <string name="alert_on_charged_level_title">Optimal kostnad nivå varsling</string>
   <!-- Themes -->
+  <string name="applying_theme_toast">Søker tema, vennligst vent...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> er <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_need_disable_sim">SIM-kortet vil være deaktivert. Ønsker du å fortsette?</string>
+  <string name="sim_enabler_need_switch_data_service">Dette SIM-vil bli deaktivert og SIM -<xliff:g id="slotid">%1$s</xliff:g> vil bli brukt for data-tjenester. Er du sikker på at du vil fortsette?</string>
+  <string name="sim_enabler_airplane_on">Ute av stand til å utføre operasjonen mens flymodus er aktivert.</string>
+  <string name="sim_enabler_in_call">Ute av stand til å utføre handlingen mens du er i samtale.</string>
+  <string name="sim_enabler_both_inactive">Kan ikke deaktivere alle SIM-kort</string>
+  <string name="sub_activate_success">SIM-aktivert.</string>
+  <!-- Notification log -->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

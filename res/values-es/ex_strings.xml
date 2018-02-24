@@ -110,73 +110,9 @@
   <string name="app_ops_cat_device">Dispositivo</string>
   <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">cámara</string>
-  <string name="app_ops_access_location">úbicación</string>
-  <string name="app_ops_access_notifications">notificaciones</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">inicio automatico</string>
-  <string name="app_ops_delete_call_log">eliminar historial de llamadas</string>
-  <string name="app_ops_delete_contacts">eliminar contactos</string>
-  <string name="app_ops_delete_mms">eliminar MMS</string>
-  <string name="app_ops_delete_sms">eliminar SMS</string>
-  <string name="app_ops_draw_on_top">superposicón</string>
-  <string name="app_ops_get_usage_stats">obtener datos de uso</string>
-  <string name="app_ops_keep_device_awake">mantener encendido</string>
-  <string name="app_ops_make_phone_call">hacer llamada</string>
-  <string name="app_ops_modify_calendar">actualizar calendario</string>
-  <string name="app_ops_modify_call_log">actualizar el registro de llamada</string>
-  <string name="app_ops_modify_clipboard">modificar portapapeles</string>
-  <string name="app_ops_modify_contacts">actualizar contactos</string>
-  <string name="app_ops_modify_settings">actualizar ajustes</string>
-  <string name="app_ops_mute_unmute_microphone">silenciar/nosilenciar micrófono</string>
-  <string name="app_ops_play_audio">reproducir sonido</string>
-  <string name="app_ops_post_notification">mandar notificación</string>
-  <string name="app_ops_project_media">proyectar multimedia</string>
-  <string name="app_ops_read_calendar">leer calendario</string>
-  <string name="app_ops_read_call_log">leer registro de llamada</string>
-  <string name="app_ops_read_clipboard">leer portapapeles</string>
-  <string name="app_ops_read_contacts">leer contactos</string>
-  <string name="app_ops_read_mms">leer MMS</string>
-  <string name="app_ops_read_sms">leer SMS</string>
-  <string name="app_ops_receive_sms">recibir SMS</string>
-  <string name="app_ops_record_audio">grabar audio</string>
-  <string name="app_ops_send_mms">mandar MMS</string>
-  <string name="app_ops_send_sms">mandar SMS</string>
-  <string name="app_ops_toast_window">mensajes toast</string>
-  <string name="app_ops_use_alarm_volume">volumen de alarma</string>
-  <string name="app_ops_use_audio_focus">concentración de audio</string>
   <string name="app_ops_use_bluetooth_volume">Volumen Bluetooth</string>
-  <string name="app_ops_use_master_volume">volumen general</string>
-  <string name="app_ops_use_media_buttons">botones multimedia</string>
-  <string name="app_ops_use_media_volume">volumen multimedia</string>
-  <string name="app_ops_use_notification_volume">volumen de notificación</string>
-  <string name="app_ops_use_ring_volume">volumen de tono</string>
-  <string name="app_ops_use_vibrate">retroalimentación háptica</string>
-  <string name="app_ops_use_voice_volume">volumen de llamada</string>
-  <string name="app_ops_write_mms">escribir MMS</string>
-  <string name="app_ops_write_sms">escribir SMSe</string>
-  <string name="app_ops_use_fingerprint">sensor de huella dactilar</string>
-  <string name="app_ops_add_voicemail">buzón de voz</string>
-  <string name="app_ops_read_phone_state">estado del dispositivo</string>
   <string name="app_ops_scan_wifi">Escanear Redes WiFi</string>
-  <string name="app_ops_change_wallpaper">cambiar fondo de pantalla</string>
-  <string name="app_ops_assist_structure">asistente de estructura</string>
-  <string name="app_ops_assist_screenshot">captura de pantalla</string>
-  <string name="app_ops_use_body_sensors">sensores corporales</string>
-  <string name="app_ops_read_cell_broadcasts">transmisiones móviles</string>
-  <string name="app_ops_mock_location">simular ubicación</string>
-  <string name="app_ops_read_external_storage">leer memoria. externa.</string>
-  <string name="app_ops_write_external_storage">escribir memoria. externa.</string>
-  <string name="app_ops_turn_on_screen">encender la pantalla</string>
-  <string name="app_ops_get_accounts">cuentas del dispositivo</string>
-  <string name="app_ops_run_in_background">ejecutar en segundo plano</string>
-  <string name="app_ops_accessibility_volume">volumen de accesibilidad</string>
-  <string name="app_ops_read_phone_numbers">leer número de teléfono.</string>
-  <string name="app_ops_request_install_packages">instalar paquetes</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">inicio en primer plano</string>
-  <string name="app_ops_answer_phone_calls">responder llamadas</string>
-  <string name="app_ops_boot_completed">arranque automático</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Administrar root</string>
   <string name="rootmanagement_dashboard_summary">Controlar acceso root</string>
@@ -255,9 +191,30 @@
   <string name="system_theme_style_dark">Interfaz de Usuario Oscuro</string>
   <string name="system_theme_style_black">Interfaz de Usuario Negra</string>
   <string name="system_theme_style_extended">Extended UI</string>
-  <string name="theme_applied_toast">Tema aplicado!</string>
-  <string name="ui_style_applied_toast">¡Estilo de interfaz de usuario aplicada!</string>
-  <string name="battery_image">Imagen de la batería</string>
-  <string name="battery_image_description">Mostrar imagen de la batería en la barra de estado</string>
+  <string name="theme_applied_toast">Tema aplicado.</string>
+  <string name="applying_theme_toast">Aplicando tema, por favor espere...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> está <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">habilitado</string>
+  <string name="sim_disabled">deshabilitado</string>
+  <string name="sim_missing">faltante</string>
+  <string name="sim_enabler_need_disable_sim">La tarjeta SIM se desactivará. ¿Quieres continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atención</string>
+  <string name="sim_enabler_need_switch_data_service">Esta tarjeta SIM se desactivará y la SIM <xliff:g id="slotid">%1$s</xliff:g> se usará como servicio de datos. ¿Quieres continuar?</string>
+  <string name="sim_enabler_airplane_on">No se puede realizar la acción en modo vuelo.</string>
+  <string name="sim_enabler_in_call">No se puede realizar la acción en llamada.</string>
+  <string name="sim_enabler_both_inactive">No se pudo desactivar todas las tarjetas SIM</string>
+  <string name="sim_enabler_enabling">Activando\u2026</string>
+  <string name="sim_enabler_disabling">Desctivando\u2026</string>
+  <string name="sub_activate_success">SIM activada.</string>
+  <string name="sub_activate_failed">Activación fallida.</string>
+  <string name="sub_deactivate_success">SIM desactivada.</string>
+  <string name="sub_deactivate_failed">Desactivación fallida.</string>
+  <string name="available_sims_title">Tarjetas SIM disponibles</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Mostrar historial de notificaciones</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

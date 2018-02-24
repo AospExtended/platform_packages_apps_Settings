@@ -78,7 +78,7 @@
   <string name="expanded_hide_status">Скрывать строку состояния</string>
   <string name="expanded_hide_navigation">Скрывать панель навигации</string>
   <string name="expanded_hide_both">Скрывать строку состояния и панель навигации</string>
-  <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений отключите параметр «Включить для всех»</string>
+  <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений отключите параметр \"Включить для всех\"</string>
   <string name="expanded_desktop_state">Расширенный экран</string>
   <string name="expanded_enabled_for_all">Включить для всех</string>
   <string name="expanded_user_configurable">Настраивается пользователем</string>
@@ -98,7 +98,7 @@
   <string name="night_bright_low">Низкая яркость</string>
   <string name="night_bright_medium">Средняя яркость</string>
   <!-- Notification volume -->
-  <string name="link_volume_option_title">Связать громкости звонка и уведом.</string>
+  <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
   <string name="notification_volume_option_title">Громкость уведомлений</string>
   <string name="ring_notification_volume_option_title">Громкость звонка и уведомлений</string>
   <!-- App Ops Settings -->
@@ -110,73 +110,9 @@
   <string name="app_ops_cat_device">Устройство</string>
   <string name="app_ops_cat_bootup">Загрузка</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">Камера</string>
-  <string name="app_ops_access_location">Местоположение</string>
-  <string name="app_ops_access_notifications">Уведомления</string>
   <string name="app_ops_activate_vpn">Настройки VPN</string>
-  <string name="app_ops_auto_start">Автозапуск</string>
-  <string name="app_ops_delete_call_log">Удаление журнала вызовов</string>
-  <string name="app_ops_delete_contacts">Удаление контактов</string>
-  <string name="app_ops_delete_mms">Удаление MMS</string>
-  <string name="app_ops_delete_sms">Удаление SMS</string>
-  <string name="app_ops_draw_on_top">Отображение поверх других элементов</string>
-  <string name="app_ops_get_usage_stats">Получение статистики использ.</string>
-  <string name="app_ops_keep_device_awake">Активный режим</string>
-  <string name="app_ops_make_phone_call">Осуществление вызова</string>
-  <string name="app_ops_modify_calendar">Изменение данных календаря</string>
-  <string name="app_ops_modify_call_log">Обновиление журнала вызовов</string>
-  <string name="app_ops_modify_clipboard">Изменение буфера обмена</string>
-  <string name="app_ops_modify_contacts">Изменение данных контактов</string>
-  <string name="app_ops_modify_settings">Изменение настроек</string>
-  <string name="app_ops_mute_unmute_microphone">Включение/Выключение микрофона</string>
-  <string name="app_ops_play_audio">Воспроизведение аудио</string>
-  <string name="app_ops_post_notification">Вывод уведомлений</string>
-  <string name="app_ops_project_media">Трансляция контента</string>
-  <string name="app_ops_read_calendar">Чтение данных календаря</string>
-  <string name="app_ops_read_call_log">Просмотр журнала вызовов</string>
-  <string name="app_ops_read_clipboard">Чтение буфера обмена</string>
-  <string name="app_ops_read_contacts">Чтение контактов</string>
-  <string name="app_ops_read_mms">Чтение MMS</string>
-  <string name="app_ops_read_sms">Чтение СМС</string>
-  <string name="app_ops_receive_sms">Получение SMS</string>
-  <string name="app_ops_record_audio">Запись аудио</string>
-  <string name="app_ops_send_mms">Отправка MMS</string>
-  <string name="app_ops_send_sms">Отправка SMS</string>
-  <string name="app_ops_toast_window">всплывающие сообщения</string>
-  <string name="app_ops_use_alarm_volume">громкость будильника</string>
-  <string name="app_ops_use_audio_focus">аудиофокус</string>
   <string name="app_ops_use_bluetooth_volume">Громкость Bluetooth-устройств</string>
-  <string name="app_ops_use_master_volume">общая громкость</string>
-  <string name="app_ops_use_media_buttons">кнопки мультимедиа</string>
-  <string name="app_ops_use_media_volume">громкость мультимедиа</string>
-  <string name="app_ops_use_notification_volume">громкость уведомлений</string>
-  <string name="app_ops_use_ring_volume">громкость звонка</string>
-  <string name="app_ops_use_vibrate">виброотклик</string>
-  <string name="app_ops_use_voice_volume">громкость при разговоре</string>
-  <string name="app_ops_write_mms">создание MMS</string>
-  <string name="app_ops_write_sms">создание SMS</string>
-  <string name="app_ops_use_fingerprint">отпечатки</string>
-  <string name="app_ops_add_voicemail">голосовая почта</string>
-  <string name="app_ops_read_phone_state">состояние телефона</string>
   <string name="app_ops_scan_wifi">Поиск Wi-Fi сетей</string>
-  <string name="app_ops_change_wallpaper">изменение обоев</string>
-  <string name="app_ops_assist_structure">использование структуры ассистента</string>
-  <string name="app_ops_assist_screenshot">скриншот</string>
-  <string name="app_ops_use_body_sensors">использование датчиков тела</string>
-  <string name="app_ops_read_cell_broadcasts">оповещение населения</string>
-  <string name="app_ops_mock_location">фиктивное местоположение</string>
-  <string name="app_ops_read_external_storage">чтение с внеш. носителя.</string>
-  <string name="app_ops_write_external_storage">запись на внеш. носитель.</string>
-  <string name="app_ops_turn_on_screen">включение экрана</string>
-  <string name="app_ops_get_accounts">информация об аккаунтах</string>
-  <string name="app_ops_run_in_background">запуск в фоновом режиме</string>
-  <string name="app_ops_accessibility_volume">доступность объем</string>
-  <string name="app_ops_read_phone_numbers">читать номер телефона.</string>
-  <string name="app_ops_request_install_packages">установить пакет</string>
-  <string name="app_ops_picture_in_picture">piP</string>
-  <string name="app_ops_app_start_foreground">запускаться на переднем плане</string>
-  <string name="app_ops_answer_phone_calls">ответить на звонок</string>
-  <string name="app_ops_boot_completed">автозапуск</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Управление правами суперпользователя</string>
   <string name="rootmanagement_dashboard_summary">Управление правами суперпользователя</string>
@@ -198,13 +134,13 @@
   <string name="summary_dashboard_conditions_enabled">Уведомления в меню настроек включены</string>
   <string name="summary_dashboard_conditions_disabled">Уведомления в меню настроек выключены</string>
   <!-- Custom light color -->
-  <string name="light_customization">Led-Уведомления</string>
-  <string name="custom_light_title">Светлый цвет</string>
+  <string name="light_customization">Уведомление светодиодом</string>
+  <string name="custom_light_title">Цвет уведомления</string>
   <string name="custom_light_on_time_title">"Время включенного LED (мс)"</string>
   <string name="custom_light_off_time_title">"Время выключенного LED (мс)"</string>
   <string name="app_notifications_info_desc">Нажмите на один из каналов для настройки их LED цветов и другого</string>
   <string name="value_equals_default">По умолчанию</string>
-  <string name="show_light_on_zen_title">Led во время режима Не Беспокоить</string>
+  <string name="show_light_on_zen_title">Мерцание во время режима \"Не беспокоить\"</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
   <!-- Reset battery stats -->
@@ -242,8 +178,8 @@
   <string name="adb_over_network_warning">Внимание! При включении отладки по сети, возможен неконтролируемый доступ к вашему устройству. Вы уверены что хотите включить?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Вибрировать при подключении зарядки</string>
-  <string name="alert_on_charged_level_title">Уведомление уровня заряда</string>
-  <string name="alert_on_charged_level_summary">Уведомлять и воспроизводить звук / вибрацию при оптимальном уровне заряда, если экран выключен по меньшей мере 1 мин\nУведомление можно отключить отдельно, долгим нажатием на него.</string>
+  <string name="alert_on_charged_level_title">Уведомление об оптимальном уровне заряда</string>
+  <string name="alert_on_charged_level_summary">Уведомлять и воспроизводить звук/вибрацию при оптимальном уровне заряда, если экран выключен не меньше 1 мин.\nУведомление можно отключить отдельно, долгим нажатием на него.</string>
   <string name="alert_on_charged_level_dis">Не отображать</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
@@ -254,10 +190,32 @@
   <string name="system_theme_style_light">Светлый стиль</string>
   <string name="system_theme_style_dark">Темный стиль</string>
   <string name="system_theme_style_black">Чёрный стиль</string>
-  <string name="system_theme_style_extended">Расширенный пользовательский интерфейс</string>
-  <string name="theme_applied_toast">Тема применена!</string>
-  <string name="ui_style_applied_toast">UI стиль применен!</string>
-  <string name="battery_image">Напряжение батареи</string>
-  <string name="battery_image_description">Показывать уровень заряда батареи в строке состояния</string>
+  <string name="system_theme_style_extended">Extended стиль</string>
+  <string name="theme_applied_toast">Тема оформления установлена.</string>
+  <string name="applying_theme_toast">Применение темы, пожалуйста, подождите...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id=\"status\" 
+example=\"disabled\">%2$s</xliff:g></string>
+  <string name="sim_enabled">включена</string>
+  <string name="sim_disabled">отключена</string>
+  <string name="sim_missing">отсутствует или неисправна</string>
+  <string name="sim_enabler_need_disable_sim">SIM-карта будет отключена. Продолжить?</string>
+  <string name="sim_enabler_will_disable_sim_title">Внимание</string>
+  <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для служб данных. Вы действительно хотите продолжить?</string>
+  <string name="sim_enabler_airplane_on">Выполнение операции невозможно при включённом режиме полёта.</string>
+  <string name="sim_enabler_in_call">Выполнение операции невозможно во время вызова.</string>
+  <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
+  <string name="sim_enabler_enabling">Включение\u2026</string>
+  <string name="sim_enabler_disabling">Отключение\u2026</string>
+  <string name="sub_activate_success">SIM-карта включена.</string>
+  <string name="sub_activate_failed">Произошла ошибка при включении.</string>
+  <string name="sub_deactivate_success">SIM-карта отключена.</string>
+  <string name="sub_deactivate_failed">Произошла ошибка при отключении.</string>
+  <string name="available_sims_title">Доступные SIM-карты</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Показать журнал истории уведомлений</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>
