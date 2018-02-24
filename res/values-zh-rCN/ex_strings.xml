@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">扩展版本</string>
+  <string name="extended_version">Extended 版本</string>
   <string name="extended_version_default">未知</string>
   <!-- About phone screen, build date -->
   <string name="build_date">编译日期</string>
@@ -28,7 +28,7 @@
   <string name="changelog_loading">正在加载日志 \u2026</string>
   <string name="changelog_error">无法加载更新日志</string>
   <!-- About AospExtended -->
-  <string name="aex_about_info">关于</string>
+  <string name="aex_about_info">关于我们</string>
   <string name="aex_about_summary">项目及团队简介</string>
   <string name="aex_about_info_summary">AospExtended 是一个基于 AOSP 的 ROM ，此 ROM 可提供原生 UI/UX 、各种自定义功能和Substratum主题引擎。本项目是通过 cherry-pick 其他各个项目的各种 commit 完成的。由于是基于 AOSP，本 ROM 可提供流畅、无卡顿的安卓体验。我们将在未来的更新中，努力添加更多功能，使其更加完善。&#35;BeExtended</string>
   <string name="dev_info">关于 AospExtended</string>
@@ -64,7 +64,7 @@
   <string name="maintainers_title">官方维护人员</string>
   <string name="maintainers_summary">官方支持的设备及其各自的维护者。</string>
   <!-- Maintainer section -->
-  <string name="maintainer_description">维护者：％1 $ s</string>
+  <string name="maintainer_description">维护者：%1$s</string>
   <string name="loading_devices">正在加载设备列表...</string>
   <string name="loading_devices_failed">无法加载设备列表</string>
   <string name="devices_list_empty">列表为空，点击图标重新加载</string>
@@ -110,73 +110,9 @@
   <string name="app_ops_cat_device">设备</string>
   <string name="app_ops_cat_bootup">启动</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">相机</string>
-  <string name="app_ops_access_location">位置</string>
-  <string name="app_ops_access_notifications">通知</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">自动启动</string>
-  <string name="app_ops_delete_call_log">删除通话记录</string>
-  <string name="app_ops_delete_contacts">删除通讯录</string>
-  <string name="app_ops_delete_mms">删除彩信</string>
-  <string name="app_ops_delete_sms">删除短信</string>
-  <string name="app_ops_draw_on_top">覆盖</string>
-  <string name="app_ops_get_usage_stats">获取用量统计</string>
-  <string name="app_ops_keep_device_awake">保持唤醒</string>
-  <string name="app_ops_make_phone_call">拨打电话</string>
-  <string name="app_ops_modify_calendar">更新日历</string>
-  <string name="app_ops_modify_call_log">更新通话记录</string>
-  <string name="app_ops_modify_clipboard">修改剪贴板</string>
-  <string name="app_ops_modify_contacts">更新通讯录</string>
-  <string name="app_ops_modify_settings">更新设置</string>
-  <string name="app_ops_mute_unmute_microphone">麦克风静音/取消静音</string>
-  <string name="app_ops_play_audio">播放音频</string>
-  <string name="app_ops_post_notification">发布通知</string>
-  <string name="app_ops_project_media">投影媒体</string>
-  <string name="app_ops_read_calendar">读取日历</string>
-  <string name="app_ops_read_call_log">读取通话记录</string>
-  <string name="app_ops_read_clipboard">读取剪贴板</string>
-  <string name="app_ops_read_contacts">读取通讯录</string>
-  <string name="app_ops_read_mms">读取彩信</string>
-  <string name="app_ops_read_sms">读取短信</string>
-  <string name="app_ops_receive_sms">接收短信</string>
-  <string name="app_ops_record_audio">录音</string>
-  <string name="app_ops_send_mms">发送彩信</string>
-  <string name="app_ops_send_sms">发送短信</string>
-  <string name="app_ops_toast_window">小提示信息</string>
-  <string name="app_ops_use_alarm_volume">闹钟音量</string>
-  <string name="app_ops_use_audio_focus">音频焦点</string>
   <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
-  <string name="app_ops_use_master_volume">主音量</string>
-  <string name="app_ops_use_media_buttons">媒体按键</string>
-  <string name="app_ops_use_media_volume">媒体音量</string>
-  <string name="app_ops_use_notification_volume">通知音量</string>
-  <string name="app_ops_use_ring_volume">铃声音量</string>
-  <string name="app_ops_use_vibrate">触摸反馈</string>
-  <string name="app_ops_use_voice_volume">语音通话音量</string>
-  <string name="app_ops_write_mms">编写彩信</string>
-  <string name="app_ops_write_sms">编写短信</string>
-  <string name="app_ops_use_fingerprint">指纹</string>
-  <string name="app_ops_add_voicemail">语音邮件</string>
-  <string name="app_ops_read_phone_state">访问手机状态</string>
   <string name="app_ops_scan_wifi">搜寻 WiFi 网络</string>
-  <string name="app_ops_change_wallpaper">更改壁纸</string>
-  <string name="app_ops_assist_structure">协助组织</string>
-  <string name="app_ops_assist_screenshot">屏幕截图</string>
-  <string name="app_ops_use_body_sensors">身体传感器</string>
-  <string name="app_ops_read_cell_broadcasts">小区广播</string>
-  <string name="app_ops_mock_location">模拟位置</string>
-  <string name="app_ops_read_external_storage">读取外置存储卡</string>
-  <string name="app_ops_write_external_storage">写入外置存储卡</string>
-  <string name="app_ops_turn_on_screen">点亮屏幕</string>
-  <string name="app_ops_get_accounts">设备帐号</string>
-  <string name="app_ops_run_in_background">后台运行</string>
-  <string name="app_ops_accessibility_volume">辅助功能</string>
-  <string name="app_ops_read_phone_numbers">读取电话号码</string>
-  <string name="app_ops_request_install_packages">安装软件包</string>
-  <string name="app_ops_picture_in_picture">画中画</string>
-  <string name="app_ops_app_start_foreground">前台启动</string>
-  <string name="app_ops_answer_phone_calls">接听电话</string>
-  <string name="app_ops_boot_completed">自动启动</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root 管理</string>
   <string name="rootmanagement_dashboard_summary">管理 root 权限</string>
@@ -193,7 +129,7 @@
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">显示 CPU 信息</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">屏幕叠加显示当前 CPU 信息</string>
+  <string name="show_cpu_info_summary">屏幕叠加层显示当前 CPU 信息</string>
   <string name="dashboard_conditions_title">面板状态摘要</string>
   <string name="summary_dashboard_conditions_enabled">面板状态摘要已启用</string>
   <string name="summary_dashboard_conditions_disabled">面板状态摘要已禁用</string>
@@ -204,7 +140,7 @@
   <string name="custom_light_off_time_title">"呼吸灯闪烁时熄灯时间 (毫秒)"</string>
   <string name="app_notifications_info_desc">点击其中一个通道来配置他们的颜色以及其他选项</string>
   <string name="value_equals_default">默认</string>
-  <string name="show_light_on_zen_title">在请勿打扰期间闪烁</string>
+  <string name="show_light_on_zen_title">在勿扰期间闪烁</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">音量调节音</string>
   <!-- Reset battery stats -->
@@ -241,7 +177,7 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">警告：网络 ADB 调试启用后，您的设备将会在已连接的网络（包括 GSM 数据网络）上被视为是开放的，并有可能被侵入！\n\n请仅在您所信任的网络上使用此功能。\n\n您确实要启用该功能吗？</string>
   <!-- Vibrate on plug -->
-  <string name="vibration_on_charge_state_changed_title">连接或移除充电器时震动</string>
+  <string name="vibration_on_charge_state_changed_title">连接或移除充电器时振动</string>
   <string name="alert_on_charged_level_title">最佳电量警报</string>
   <string name="alert_on_charged_level_summary">达到最佳充电量后，如果屏幕关闭超过1分钟，将发出响铃／震动提醒。\n长按可取消该通知。</string>
   <string name="alert_on_charged_level_dis">禁用</string>
@@ -255,9 +191,30 @@
   <string name="system_theme_style_dark">暗色</string>
   <string name="system_theme_style_black">黑色</string>
   <string name="system_theme_style_extended">扩展用户界面</string>
-  <string name="theme_applied_toast">主题已应用</string>
-  <string name="ui_style_applied_toast">界面样式已应用</string>
-  <string name="battery_image">电池图标</string>
-  <string name="battery_image_description">在状态栏中显示电池图标</string>
+  <string name="theme_applied_toast">主题已应用。</string>
+  <string name="applying_theme_toast">正在应用主题，请稍等…</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>已<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">启用</string>
+  <string name="sim_disabled">禁用</string>
+  <string name="sim_missing">缺失或故障</string>
+  <string name="sim_enabler_need_disable_sim">SIM 卡将停用。是否继续？</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
+  <string name="sim_enabler_need_switch_data_service">该 SIM 卡将被禁用，而 SIM 卡 <xliff:g id="slotid">%1$s</xliff:g>将用于数据服务。您确定要继续吗？</string>
+  <string name="sim_enabler_airplane_on">飞行模式开启时无法执行该操作。</string>
+  <string name="sim_enabler_in_call">通话期间无法执行该操作。</string>
+  <string name="sim_enabler_both_inactive">不能禁用所有的SIM卡</string>
+  <string name="sim_enabler_enabling">正在激活\u2026</string>
+  <string name="sim_enabler_disabling">正在停用\u2026</string>
+  <string name="sub_activate_success">SIM 卡已启用。</string>
+  <string name="sub_activate_failed">激活失败。</string>
+  <string name="sub_deactivate_success">SIM 卡已停用。</string>
+  <string name="sub_deactivate_failed">停用失败。</string>
+  <string name="available_sims_title">可用 SIM 卡</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">显示通知历史记录</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

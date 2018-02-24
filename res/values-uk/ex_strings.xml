@@ -64,7 +64,7 @@
   <string name="maintainers_title">Офіційний супровід</string>
   <string name="maintainers_summary">Офіційно підтримувані пристрої та їх відповідні розробники.</string>
   <!-- Maintainer section -->
-  <string name="maintainer_description">Супроводжуючий</string>
+  <string name="maintainer_description">Супроводжуючий: %1$s</string>
   <string name="loading_devices">Завантаження списку пристроїв...</string>
   <string name="loading_devices_failed">Не вдалося завантажити список пристроїв</string>
   <string name="devices_list_empty">Список пустий, торкніться піктограми для перезавантаження</string>
@@ -110,73 +110,9 @@
   <string name="app_ops_cat_device">Пристрій</string>
   <string name="app_ops_cat_bootup">Завантаження</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">камера</string>
-  <string name="app_ops_access_location">місцезнаходження</string>
-  <string name="app_ops_access_notifications">сповіщення</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">автозапуск</string>
-  <string name="app_ops_delete_call_log">видалити журнал викликів</string>
-  <string name="app_ops_delete_contacts">видалити контакти</string>
-  <string name="app_ops_delete_mms">видалити MMS</string>
-  <string name="app_ops_delete_sms">видалити SMS</string>
-  <string name="app_ops_draw_on_top">відображення поверх інших елементів</string>
-  <string name="app_ops_get_usage_stats">отримувати статистику використання</string>
-  <string name="app_ops_keep_device_awake">тримати пробудженим</string>
-  <string name="app_ops_make_phone_call">зробити дзвінок</string>
-  <string name="app_ops_modify_calendar">оновити календар</string>
-  <string name="app_ops_modify_call_log">оновити список викликів</string>
-  <string name="app_ops_modify_clipboard">змінювати буфер обміну</string>
-  <string name="app_ops_modify_contacts">змінювати дані контактів</string>
-  <string name="app_ops_modify_settings">оновити налаштування</string>
-  <string name="app_ops_mute_unmute_microphone">вимкнення/увімкнення мікрофону</string>
-  <string name="app_ops_play_audio">програвати аудіо</string>
-  <string name="app_ops_post_notification">виводити сповіщення</string>
-  <string name="app_ops_project_media">проеціювати медіа</string>
-  <string name="app_ops_read_calendar">читання даних календаря</string>
-  <string name="app_ops_read_call_log">читати журнал викликів</string>
-  <string name="app_ops_read_clipboard">читання буфера обміну</string>
-  <string name="app_ops_read_contacts">читання даних контактів</string>
-  <string name="app_ops_read_mms">читання MMS</string>
-  <string name="app_ops_read_sms">читання SMS</string>
-  <string name="app_ops_receive_sms">отримання SMS</string>
-  <string name="app_ops_record_audio">запис аудіо</string>
-  <string name="app_ops_send_mms">надсилання MMS</string>
-  <string name="app_ops_send_sms">надсилання SMS</string>
-  <string name="app_ops_toast_window">спливаючі тост-сповіщення</string>
-  <string name="app_ops_use_alarm_volume">гучність будильника</string>
-  <string name="app_ops_use_audio_focus">аудіофокус</string>
   <string name="app_ops_use_bluetooth_volume">Гучність bluetooth</string>
-  <string name="app_ops_use_master_volume">загальна гучність</string>
-  <string name="app_ops_use_media_buttons">кнопки мультимедіа</string>
-  <string name="app_ops_use_media_volume">гучність мультимедіа</string>
-  <string name="app_ops_use_notification_volume">гучність сповіщень</string>
-  <string name="app_ops_use_ring_volume">гучність дзвінка</string>
-  <string name="app_ops_use_vibrate">вібровідгук</string>
-  <string name="app_ops_use_voice_volume">гучність при розмові</string>
-  <string name="app_ops_write_mms">написання MMS</string>
-  <string name="app_ops_write_sms">написання SMS</string>
-  <string name="app_ops_use_fingerprint">відбитків пальців</string>
-  <string name="app_ops_add_voicemail">голосова пошта</string>
-  <string name="app_ops_read_phone_state">доступ до стану телефону</string>
   <string name="app_ops_scan_wifi">Сканування мереж WiFi</string>
-  <string name="app_ops_change_wallpaper">зміна шпалер</string>
-  <string name="app_ops_assist_structure">допоміжні структури</string>
-  <string name="app_ops_assist_screenshot">знімок екрану</string>
-  <string name="app_ops_use_body_sensors">датчики на тілі</string>
-  <string name="app_ops_read_cell_broadcasts">ler as mensagens de difusão de rede</string>
-  <string name="app_ops_mock_location">підробляти розташування</string>
-  <string name="app_ops_read_external_storage">читання з зовн. носія</string>
-  <string name="app_ops_write_external_storage">запис на зовн. носій</string>
-  <string name="app_ops_turn_on_screen">вмикати екран</string>
-  <string name="app_ops_get_accounts">отримувати облікові записи пристрою</string>
-  <string name="app_ops_run_in_background">працювати у фоновому режимі</string>
-  <string name="app_ops_accessibility_volume">обсяг доступності</string>
-  <string name="app_ops_read_phone_numbers">читати номер телефону</string>
-  <string name="app_ops_request_install_packages">встановлювати пакети</string>
-  <string name="app_ops_picture_in_picture">картинка в картинці</string>
-  <string name="app_ops_app_start_foreground">запускатися на передньому плані</string>
-  <string name="app_ops_answer_phone_calls">відповідати на дзвінки</string>
-  <string name="app_ops_boot_completed">авто запуск</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Керування Root-доступом</string>
   <string name="rootmanagement_dashboard_summary">Керування root правами</string>
@@ -256,9 +192,30 @@
   <string name="system_theme_style_dark">Темний інтерфейс</string>
   <string name="system_theme_style_black">Чорний інтерфейс</string>
   <string name="system_theme_style_extended">Розширений інтерфейс користувача</string>
-  <string name="theme_applied_toast">Тему застосовано!</string>
-  <string name="ui_style_applied_toast">Стиль інтерфейсу застосовано!</string>
-  <string name="battery_image">Зображення акумулятора</string>
-  <string name="battery_image_description">Показувати зображення акумулятора в рядку стану</string>
+  <string name="theme_applied_toast">Тему застосовано.</string>
+  <string name="applying_theme_toast">Застосування теми, будь ласка, зачекайте...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">увімкнено</string>
+  <string name="sim_disabled">вимкнено</string>
+  <string name="sim_missing">відсутній або несправний</string>
+  <string name="sim_enabler_need_disable_sim">SIM-карту буде деактивовано. Ви хочете продовжити?</string>
+  <string name="sim_enabler_will_disable_sim_title">Увага</string>
+  <string name="sim_enabler_need_switch_data_service">Цю SIM буде вимкнуто і SIM <xliff:g id="slotid">%1$s </xliff:g> буде використовуватися для передачі даних. Справді продовжити?</string>
+  <string name="sim_enabler_airplane_on">Не вдалося виконати операцію, коли увімкнено режим польоту.</string>
+  <string name="sim_enabler_in_call">Не вдалося виконати операцію під час виклику.</string>
+  <string name="sim_enabler_both_inactive">Не вдається вимкнути всі SIM-картки</string>
+  <string name="sim_enabler_enabling">Активація\u2026</string>
+  <string name="sim_enabler_disabling">Деактивація\u2026</string>
+  <string name="sub_activate_success">SIM активована.</string>
+  <string name="sub_activate_failed">Помилка активації.</string>
+  <string name="sub_deactivate_success">SIM деактивована.</string>
+  <string name="sub_deactivate_failed">Помилка деактивації.</string>
+  <string name="available_sims_title">Доступні сім-карти</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Показати історію сповіщень</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

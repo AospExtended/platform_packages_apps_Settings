@@ -21,9 +21,12 @@
   <string name="build_date_default">01-01-2015-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Inutile, les options de développement sont activées par défaut.</string>
   <!-- Changelog -->
   <string name="changelog_title">Historique des mises à jour</string>
   <string name="changelog_summary">Modifications récentes</string>
+  <string name="changelog_loading">Chargement du rapport de version\u2026</string>
+  <string name="changelog_error">Impossible de charger le rapport de version</string>
   <!-- About AospExtended -->
   <string name="aex_about_info">À propos de nous</string>
   <string name="aex_about_summary">Notre équipe et notre introduction</string>
@@ -42,6 +45,7 @@
   <string name="walls">Fonds d\'écrans</string>
   <string name="walls_description">Obtenir des fonds d’écran fournis par différents utilisateurs</string>
   <string name="leads">Chefs d\'équipe</string>
+  <string name="team_1">Shubham Singh &#40; ishubhamsingh &#41;</string>
   <string name="team1_description">Propriétaire/Développeur en chef</string>
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Développeur</string>
@@ -53,43 +57,164 @@
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">Thread Banners, Logos, Wallpapers</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Logos réglages rapides/Fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Fonds d’écran, Animation de démarrage</string>
+  <string name="maintainers">Mainteneurs</string>
+  <string name="maintainers_title">Mainteneurs officiels</string>
+  <string name="maintainers_summary">Appareils officiellement compatibles et leurs mainteneurs respectifs.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Mainteneur : %1$s</string>
+  <string name="loading_devices">Chargement de la liste des appareils...</string>
+  <string name="loading_devices_failed">Échec du chargement de la liste des appareils</string>
+  <string name="devices_list_empty">La liste est vide, appuyez sur l\'icône pour recharger</string>
+  <string name="reload_list">Recharger</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Mises à jour de l’AEX</string>
   <string name="aex_ota_summary">Téléchargez la dernière version</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Bureau étendu</string>
+  <string name="expanded_hide_nothing">Ne rien masquer</string>
+  <string name="expanded_hide_status">Masquer la barre d\'état</string>
   <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
   <string name="expanded_hide_both">Masquer les deux</string>
+  <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée pour chaque application pour le bureau étendu, réglez «Activé pour tous» sur la position off</string>
+  <string name="expanded_desktop_state">Bureau étendu</string>
+  <string name="expanded_enabled_for_all">Activé pour tout</string>
+  <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
+  <string name="expanded_desktop_style">Style du bureau étendu</string>
+  <string name="expanded_desktop_style_description">Sélectionner le style par défaut du bureau étendu</string>
+  <string name="expanded_desktop_title">Options du bureau étendu</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Son de capture d\'écran</string>
+  <string name="screenshot_sound_summary">Émettre un son lors de la capture d\'écran</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Luminosité</string>
+  <string name="night_brightness_value_title">Baisser la luminosité dans la nuit</string>
+  <string name="night_bright_disabled">Désactivé</string>
+  <string name="night_bright_minimum">Luminosité minimale</string>
+  <string name="night_bright_low">Luminosité faible</string>
+  <string name="night_bright_medium">Luminosité moyenne</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Lier le volume de la sonnerie et des notifications</string>
+  <string name="notification_volume_option_title">Volume des notifications</string>
+  <string name="ring_notification_volume_option_title">Volume des notifications et de la sonnerie</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Position</string>
+  <string name="app_ops_cat_personal">Personnel</string>
+  <string name="app_ops_cat_messaging">Messagerie</string>
+  <string name="app_ops_cat_media">Multimédia</string>
+  <string name="app_ops_cat_device">Appareil</string>
+  <string name="app_ops_cat_bootup">Démarrage</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_modify_contacts">mise à jour des contacts</string>
-  <string name="app_ops_modify_settings">mettre à jour les paramètres</string>
-  <string name="app_ops_play_audio">lecture audio</string>
-  <string name="app_ops_post_notification">afficher une notification</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_use_bluetooth_volume">Volume du Bluetooth</string>
+  <string name="app_ops_scan_wifi">Rechercher les réseaux Wi-Fi</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Gestion du Root</string>
+  <string name="rootmanagement_dashboard_summary">Gérer les permissions Root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Mot de passe de secours bureau</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Alerte visuelle</string>
+  <string name="battery_saver_color_summary">Afficher la barre d\'état en orange quand l\'économiseur de batterie est activé</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Se réveiller lors du chargement</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Réveiller l\'appareil si le chargeur est branché/débranché.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">Afficher les infos CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Montrer les infos CPU en superposition d\'écran</string>
+  <string name="dashboard_conditions_title">Conditions du tableau de bord</string>
+  <string name="summary_dashboard_conditions_enabled">Les conditions du tableau de bord sont activées</string>
+  <string name="summary_dashboard_conditions_disabled">Les conditions du tableau de bord sont désactivées</string>
   <!-- Custom light color -->
+  <string name="light_customization">Notification de lumière led</string>
+  <string name="custom_light_title">Couleur de la lumière</string>
+  <string name="custom_light_on_time_title">"Durée d’éclairage pendant l’impulsion led (ms)"</string>
+  <string name="custom_light_off_time_title">"Durée d'extinction pendant l’impulsion led (ms)"</string>
+  <string name="app_notifications_info_desc">Appuyez sur un des channels au-dessus pour configurer leur couleur de lumière et d\'autres options</string>
+  <string name="value_equals_default">Def</string>
+  <string name="show_light_on_zen_title">Clignoter en mode Ne Pas Déranger</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Sons au réglage du volume</string>
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Reset des stats</string>
+  <string name="reset_stats_msg">Les statistiques de batterie vont être réinitialisées</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Niveaux de volume</string>
+  <string name="volume_steps_alarm_title">Niveaux de volume : Alarme</string>
+  <string name="volume_steps_dtmf_title">Niveaux de volume : DTMF</string>
+  <string name="volume_steps_music_title">Niveaux de volume : Musique</string>
+  <string name="volume_steps_notification_title">Niveaux de volume : Notifications</string>
+  <string name="volume_steps_ring_title">Niveaux de volume : Sonnerie</string>
+  <string name="volume_steps_system_title">Niveaux de volume : Système</string>
+  <string name="volume_steps_voice_call_title">Niveaux de volume : Appel Vocal</string>
+  <string name="volume_steps_reset">Reset</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">Suggestions du tableau de bord</string>
+  <string name="summary_dashboard_suggestions_enabled">Les suggestions du tableau de bord sont activées</string>
+  <string name="summary_dashboard_suggestions_disabled">Les suggestions du tableau de bord sont désactivées</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">Options du tableau de bord</string>
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">Périphérique chiffré</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Périphérique non chiffré</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ADB par le réseau</string>
+  <string name="adb_over_network_summary">Activer le protocole TCP/IP de débogage sur les interfaces réseau (Wi-Fi, USB, réseaux). Ce paramètre est réinitialisé sur redémarrer</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">AVERTISSEMENT: Lors de la BAD sur le réseau est activée, votre téléphone est ouvert pour les intrusions sur tous les réseaux connectés, y compris les données GSM réseau!\n\nOnly utiliser cette fonction lorsque vous êtes connecté sur les réseaux de confiance.\n\nvoulez-vous vraiment voulez activer cette fonction?</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">Vibrer au branchement</string>
+  <string name="alert_on_charged_level_title">Alerte de niveau de charge optimale</string>
+  <string name="alert_on_charged_level_summary">Informer et diffuser le son/vibreur optimal de niveau de charge si l\'écran est éteint depuis au moins 1 min.\nLa Notification peut être désactivé séparément longue pression sur lui.</string>
+  <string name="alert_on_charged_level_dis">Désactivé</string>
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Style de l\'interface</string>
+  <string name="system_theme_style_auto">Basé sur le fond d\'écran</string>
+  <string name="system_theme_style_light">Interface claire</string>
+  <string name="system_theme_style_dark">Interface sombre</string>
+  <string name="system_theme_style_black">Interface noire</string>
+  <string name="system_theme_style_extended">Interface Extended</string>
+  <string name="theme_applied_toast">Thème appliqué.</string>
+  <string name="applying_theme_toast">Application du nouveau thème, veuillez patienter...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> est <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">activé</string>
+  <string name="sim_disabled">désactivé</string>
+  <string name="sim_missing">manquante ou défectueuse</string>
+  <string name="sim_enabler_need_disable_sim">Carte SIM sera désactivée. Voulez-vous continuer?</string>
+  <string name="sim_enabler_will_disable_sim_title">Attention</string>
+  <string name="sim_enabler_need_switch_data_service">Cette carte SIM sera désactivée et la SIM <xliff:g id="slotid">%1$s </xliff:g> sera utilisée pour les services de données. Êtes-vous sûr de vouloir continuer ?</string>
+  <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tandis que le mode avion est activé.</string>
+  <string name="sim_enabler_in_call">Impossible d\'effectuer l\'opération en appel.</string>
+  <string name="sim_enabler_both_inactive">Impossible de désactiver toutes les cartes SIM</string>
+  <string name="sim_enabler_enabling">Activation\u2026</string>
+  <string name="sim_enabler_disabling">Désactivation\2026</string>
+  <string name="sub_activate_success">Carte SIM activée.</string>
+  <string name="sub_activate_failed">Échec de l\'activation.</string>
+  <string name="sub_deactivate_success">Carte SIM désactivée.</string>
+  <string name="sub_deactivate_failed">Échec de la désactivation.</string>
+  <string name="available_sims_title">Cartes SIM disponibles</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Montrer l\'historique des notifications</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>
