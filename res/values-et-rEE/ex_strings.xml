@@ -59,7 +59,6 @@
   <string name="app_ops_cat_media">Meedia</string>
   <string name="app_ops_cat_device">Seade</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">kaamera</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
@@ -97,6 +96,10 @@
   <string name="system_theme_style_light">Hele kasutajaliides</string>
   <string name="system_theme_style_dark">Tume kasutajaliides</string>
   <string name="system_theme_style_black">Must kasutajaliides</string>
-  <string name="theme_applied_toast">Teema rakendatud!</string>
   <!-- MSIM Manual provisioning -->
+  <!-- Notification log -->
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

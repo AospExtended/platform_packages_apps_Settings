@@ -14,37 +14,207 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">विस्तारित संस्करण</string>
+  <string name="extended_version_default">अज्ञात</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">निर्माण दिनांक</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">कोई ज़रूरत नहीं है, विकास सेटिंग्स डिफ़ॉल्ट रूप से सक्षम हैं ।</string>
   <!-- Changelog -->
+  <string name="changelog_title">परिवर्तन लॉग</string>
+  <string name="changelog_summary">हाल में हुए बदलाव</string>
+  <string name="changelog_loading">परिवर्तन लॉग लोड हो रहा है...</string>
+  <string name="changelog_error">परिवर्तन लॉग लोड करने में असमर्थ</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">हमारे बारे में</string>
+  <string name="aex_about_summary">हमारा परिचय और हमारी टीम</string>
+  <string name="aex_about_info_summary">AospExtended एक AOSP आधारित rom जो उपबुनियाद विषय इंजन के साथ साथ विभिन्न कस्टमाइज़ेशन सुविधाओं के साथ स्टॉक UI/UX प्रदान करता है । इस परियोजना के विभिंन अंय परियोजनाओं से चेरी उठा विभिंन प्रतिबद्ध द्वारा किया गया है । AOSP पर आधारित होने के नाते यह बॉक्स से बाहर एक चिकनी और अंतराल मुक्त अनुभव प्रदान करता है । हम लगातार और अधिक सुविधाओं को जोड़ने और यह भविष्य के अद्यतन में और भी बेहतर बनाने की कोशिश करेंगे । &amp; #35; BeExtended&#35;</string>
+  <string name="dev_info">AospExtended के बारे में</string>
+  <string name="github">Github</string>
+  <string name="github_description">हमारे स्रोत कोड देखें</string>
+  <string name="gplus">गूगल+</string>
+  <string name="gplus_description">हमारे G+ समुदाय में शामिल हों</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">हमारे Telegram चैनल की सदस्यता लें</string>
+  <string name="web">डाउनलोड केंद्र</string>
+  <string name="web_description">हमारे डाउनलोड पोर्टल पर जाएँ</string>
+  <string name="help_translate">अनुवाद</string>
+  <string name="help_translate_description">अपनी भाषा में अनुवाद करें, हमारे Crowdin पर जाएं</string>
+  <string name="walls">वॉलपेपर्स</string>
+  <string name="walls_description">विभिन्न उपयोगकर्ताओं द्वारा योगदान वॉलपेपर प्राप्त करें</string>
+  <string name="leads">टीम लीड</string>
+  <string name="team_1">शुभम् सिंह &amp; #40; ishubhamsingh &amp; #41;</string>
+  <string name="team1_description">स्वामी/लीड डेवलपर</string>
+  <string name="team_2">अमन कुमार &amp; #40; FireLord &amp; #41;</string>
+  <string name="team2_description">डेवलपर</string>
+  <string name="team_3">अमोल अमृत</string>
+  <string name="team3_description">मध्यस्थ और एक शौकिया डेवलपर</string>
+  <string name="team_4">लूइस सिल्वा &amp; #40; jhenrique09 &amp; #41;</string>
+  <string name="team4_description">डेवलपर</string>
+  <string name="designers">डिजाइनर</string>
+  <string name="designer_1">यासन &amp; #40; AlienCreature7 &amp; #41;&#41;&#40;</string>
+  <string name="designer1_description">धागा बैनर, लोगो, वॉलपेपर</string>
+  <string name="designer_2">सेवियों &amp; #40; Wizper99 &amp; #41;</string>
+  <string name="designer2_description">क्यूएस / लोगो घुमाएं</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">वॉलपेपर, बूटेनियामेंट्स</string>
+  <string name="maintainers">अनुरक्षण कर्ता</string>
+  <string name="maintainers_title">आधिकारिक रख-रखाव</string>
+  <string name="maintainers_summary">आधिकारिक रूप से समर्थित डिवाइस और उनके संबंधित रखरखाव</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">अनुरक्षक: %1$s</string>
+  <string name="loading_devices">उपकरण सूची लोड हो रहा है...</string>
+  <string name="loading_devices_failed">उपकरण सूची लोड करने में विफल</string>
+  <string name="devices_list_empty">सूची रिक्त है, पुनः लोड करने के लिए चिह्न को टैप करें</string>
+  <string name="reload_list">फिर से लोड करें</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX अद्यतन</string>
+  <string name="aex_ota_summary">नवीनतम निर्माण प्राप्त करें</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">विस्तारित डेस्कटॉप</string>
+  <string name="expanded_hide_nothing">कुछ ना छिपाए</string>
+  <string name="expanded_hide_status">स्टेटस बार को छुपाएँ</string>
+  <string name="expanded_hide_navigation">नेविगेशन बार छुपाएँ</string>
+  <string name="expanded_hide_both">दोनों छुपाएँ</string>
+  <string name="expanded_nothing_to_show">एक कस्टम प्रति-ऐप कॉन्फ़िगरेशन विस्तृत स्थिति को जोड़ने के लिए, \"सभी के लिए सक्षम\" को बंद स्थिति के जगह लगाएं</string>
+  <string name="expanded_desktop_state">विस्तारित स्थिति</string>
+  <string name="expanded_enabled_for_all">सभी के लिए सक्षम किया गया</string>
+  <string name="expanded_user_configurable">उपयोगकर्ता विन्यास योग्य</string>
+  <string name="expanded_desktop_style">विस्तारित डेस्कटॉप शैली</string>
+  <string name="expanded_desktop_style_description">एक डिफ़ॉल्ट विस्तरित डेस्कटॉप शैली चुने</string>
+  <string name="expanded_desktop_title">विस्तारित डेस्कटॉप विकल्प</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">गूगल प्ले</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">स्क्रीनशॉट ध्वनि</string>
+  <string name="screenshot_sound_summary">स्क्रीनशॉट ले जाने पर ध्वनि प्रभाव चलाता है</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">स्क्रीन की रोशनी</string>
+  <string name="night_brightness_value_title">रात्री प्रकाश में चमक को धीमा करे</string>
+  <string name="night_bright_disabled">अक्षम</string>
+  <string name="night_bright_minimum">न्यूनतम चमक</string>
+  <string name="night_bright_low">कम चमक</string>
+  <string name="night_bright_medium">मध्यम चमक</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">घंटी और अधिसूचना वॉल्यूम सम्बद्ध करें</string>
+  <string name="notification_volume_option_title">सूचना ध्वनि</string>
+  <string name="ring_notification_volume_option_title">घंटी एवं अधिसूचना ध्वनि</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">स्थान</string>
+  <string name="app_ops_cat_personal">व्यक्तिगत</string>
+  <string name="app_ops_cat_messaging">संदेश सेवा</string>
+  <string name="app_ops_cat_media">मीडिया</string>
+  <string name="app_ops_cat_device">यन्त्र</string>
+  <string name="app_ops_cat_bootup">बूटअप</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_activate_vpn">वीपीएन</string>
+  <string name="app_ops_use_bluetooth_volume">ब्लूटूथ वोल्यूम</string>
+  <string name="app_ops_scan_wifi">Wi-Fi नेटवर्क स्कैन करे</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">रूट प्रबंधन</string>
+  <string name="rootmanagement_dashboard_summary">रूट एक्सेस प्रबंधित करें</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">डेस्कटॉप बैकअप पासवर्ड</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">चेतावनी रंग</string>
+  <string name="battery_saver_color_summary">बैटरी सेवर एसीएफ है जब नारंगी स्टेटस बार और नेविगेशन बार दिखाएं</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">चार्ज पर जागो</string>
+  <string name="wakeup_when_plugged_unplugged_summary">चार्जर प्लग किए / अनप्लग किए गए हैं, तो डिवाइस को जागोएं</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">CPU जानकारी दिखाएं</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">वर्तमान CPU जानकारी दिखाते हुए सीपीयूस्क्रीन ओव्हरले दिखाएं</string>
+  <string name="dashboard_conditions_title">डैशबोर्ड शर्तें</string>
+  <string name="summary_dashboard_conditions_enabled">डैशबोर्ड सुझाव सक्षम हैं</string>
+  <string name="summary_dashboard_conditions_disabled">डैशबोर्ड सुझाव अक्षम हैं</string>
   <!-- Custom light color -->
+  <string name="light_customization">LED प्रकाश अधिसूचना</string>
+  <string name="custom_light_title">हल्का रंग</string>
+  <string name="custom_light_on_time_title">"LED स्पन्द के दौरान प्रकाश शुरू होने कि अवधि (मिलीसेकंड)"</string>
+  <string name="custom_light_off_time_title">"LED स्पन्द के दौरान प्रकाश बंद होने कि अवधि (मिलीसेकंड)"</string>
+  <string name="app_notifications_info_desc">प्रकाश के रंगों और अन्य विकल्पों को कॉन्फ़िगर करने के लिए ऊपर दिए गए एक चैनल पर टैप करे</string>
+  <string name="value_equals_default">पूर्व निर्धारित</string>
+  <string name="show_light_on_zen_title">परेशान ना करें के दौरान झपकी</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">वॉल्यूम समायोजन ध्वनियाँ</string>
   <!-- Reset battery stats -->
+  <string name="ok">ठीक है</string>
+  <string name="menu_stats_reset">आँकड़े रीसेट करें</string>
+  <string name="reset_stats_msg">बैटरी के इतिहास के आँकड़े रीसेट किये जाने वाले हैं</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">वॉल्यूम स्टेप्स</string>
+  <string name="volume_steps_alarm_title">खंड चरण: अलार्म</string>
+  <string name="volume_steps_dtmf_title">वॉल्यूम स्टेप्स: DTMF</string>
+  <string name="volume_steps_music_title">वॉल्यूम स्टेप्स: संगीत</string>
+  <string name="volume_steps_notification_title">खंड चरण: अधिसूचना</string>
+  <string name="volume_steps_ring_title">खंड चरण: घंटी</string>
+  <string name="volume_steps_system_title">खंड चरण: सिस्टम</string>
+  <string name="volume_steps_voice_call_title">खंड चरण: ध्वनि कॉल</string>
+  <string name="volume_steps_reset">रीसेट</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">डैशबोर्ड विकल्प</string>
+  <string name="summary_dashboard_suggestions_enabled">डैशबोर्ड सुझाव सक्षम हैं</string>
+  <string name="summary_dashboard_suggestions_disabled">डैशबोर्ड सुझाव अक्षम हैं</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">डैशबोर्ड विकल्प</string>
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">डिवाइस एंक्रिप्टेड है</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">डिवाइस डीक्रिप्ट हो चुकी है</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">नेटवर्क पर एडीबी</string>
+  <string name="adb_over_network_summary">नेटवर्क इंटरफ़ेसों पर (वाई\u2011फ़ाई, यूएसबी नेटवर्क) नेटवर्क पर टीसीपी/आईपी डीबगिंग को सक्षम करें। यह सेटिंग रीबूट करने पर रीसेट होती है</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">चेतावनी: जब नेटवर्क पर एडीबी को सक्षम कर दिया जाता है तो आपका फ़ोन, GSM डेटा नेटवर्क सहित, सभी कनेक्टेड नेटवर्कों पर घुसपैठ के लिए खुली स्थिति में होता है!\n\nइसलिए केवल तभी इस सुविधा का उपयोग करें जब आप भरोसे के नेटवर्कों से जुड़े हुए हों।\n\nक्या आप वाकई इस सुविधा को सक्षम करना चाहते हैं?</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">प्लग पर कंपन</string>
+  <string name="alert_on_charged_level_title">इष्टतम प्रभारी स्तर चेतावनी</string>
+  <string name="alert_on_charged_level_summary">सूचित करें और ध्वनि/कंपन इष्टतम चार्ज स्तर पर अगर स्क्रीन बंद है के बाद से कम 1 min. \ nNotification अलग से इस पर दबाव लंबे समय निष्क्रिय किया जा सकता है ।</string>
+  <string name="alert_on_charged_level_dis">अक्षम</string>
+  <string name="alert_on_charged_level_80">"८०%"</string>
+  <string name="alert_on_charged_level_90">"९०%"</string>
+  <string name="alert_on_charged_level_99">"९९%"</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Ui शैली</string>
+  <string name="system_theme_style_auto">वॉलपेपर आधारित</string>
+  <string name="system_theme_style_light">प्रकाश यूआई</string>
+  <string name="system_theme_style_dark">डार्क यूआई</string>
+  <string name="system_theme_style_black">काली यूआई</string>
+  <string name="system_theme_style_extended">विस्तारित UI</string>
+  <string name="theme_applied_toast">थीम लागू कर दी गई है</string>
+  <string name="applying_theme_toast">लागू हो रह है, कृपया प्रतीक्षा करें...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">सक्षम</string>
+  <string name="sim_disabled">अक्षम</string>
+  <string name="sim_missing">गुम या दोषपूर्ण</string>
+  <string name="sim_enabler_need_disable_sim">सिम कार्ड निष्क्रिय कर दिया जाएगा । क्या आप जारी रखना चाहते हैं?</string>
+  <string name="sim_enabler_will_disable_sim_title">कृपया ध्यान दें</string>
+  <string name="sim_enabler_need_switch_data_service">यह सिम डिसेबल हो जाएगा और सिम <xliff:g id="slotid">%1$s</xliff:g> डेटा सेवाओं के लिए उपयोग किया जाएगा. क्या आप निश्चयपूर्वक जारी रखना चाहते हैं?</string>
+  <string name="sim_enabler_airplane_on">विमान मोड चालू होने पर यह कार्य करने में असमर्थ।</string>
+  <string name="sim_enabler_in_call">कॉल चालू होने पर यह कार्य करने में असमर्थ।</string>
+  <string name="sim_enabler_both_inactive">सब सिम कार्डों को अक्षम नहीं कर सकते</string>
+  <string name="sim_enabler_enabling">सक्रिय कर रहा है \ u2026</string>
+  <string name="sim_enabler_disabling">प्रयोग में नहीं कर रहे हैं \ u2026</string>
+  <string name="sub_activate_success">सिम सक्रिय</string>
+  <string name="sub_activate_failed">आपके सक्रियकरण विफल रहा।</string>
+  <string name="sub_deactivate_success">सिम निष्क्रिय</string>
+  <string name="sub_deactivate_failed">आपके सक्रियकरण विफल रहा।</string>
+  <string name="available_sims_title">उपलब्ध सिम कार्ड</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">सूचनाएं इतिहास लॉग दिखाएं</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

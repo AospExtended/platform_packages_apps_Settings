@@ -14,37 +14,207 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Versiune extinsă</string>
+  <string name="extended_version_default">Necunoscut</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Dată de compilare</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nu este nevoie, setările de dezvoltare sunt activate în mod implicit.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Istoric modificări</string>
+  <string name="changelog_summary">Modificări recente</string>
+  <string name="changelog_loading">Se încarcă jurnalul cu schimbări\u2026</string>
+  <string name="changelog_error">Nu am putut încărca jurnalul cu schimbări</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Despre noi</string>
+  <string name="aex_about_summary">Introducerea noastră şi echipa noastră</string>
+  <string name="aex_about_info_summary">AospExtended este un ROM bazat pe AOSP care oferă interfaţă stoc cu diferite caracteristici personalizate, împreună cu motorul de teme Substratum. Proiectul a fost realizat prin cherry-picking a diferitor commit-uri de la diverse alte proiecte. Bazându-se pe AOSP, acesta oferă o experiență fără probleme și fără întârziere. Vom încerca în mod constant să adăugăm mai multe funcții și să le facem chiar mai bune în viitoarele actualizări.&#35;BeExtended</string>
+  <string name="dev_info">Despre AospExtended</string>
+  <string name="github">Github</string>
+  <string name="github_description">Vizualizaţi codul sursă</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Alăturaţi-vă comunităţii noastre G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Abonaţivă la canalul nostru Telegram</string>
+  <string name="web">Centrul de descărcări</string>
+  <string name="web_description">Vizitaţi portalul nostru de descărcări</string>
+  <string name="help_translate">Traduceri</string>
+  <string name="help_translate_description">Traduceţi în limba dvs., vizitaţi pagina noastră Crowdin</string>
+  <string name="walls">Imagini de fundal</string>
+  <string name="walls_description">Obţineţi imagini de fundal de la diferiţi utilizatori</string>
+  <string name="leads">Echipa de conducere</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Proprietar/dezvoltator</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Dezvoltator</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderator și dezvoltator amator</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Dezvoltator</string>
+  <string name="designers">Designeri</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Bannere, logo-uri, imagini de fundal</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">QS/Fling logo-uri</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Imagini de fundal, Animaţii boot</string>
+  <string name="maintainers">Responsabili</string>
+  <string name="maintainers_title">Menținători oficiali</string>
+  <string name="maintainers_summary">Lista dispozitivelor şi persoanelor oficial responsabile.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Responsabil pentru %1$s</string>
+  <string name="loading_devices">Se încarcă lista dispozitivelor...</string>
+  <string name="loading_devices_failed">Nu se poate încărca lista de dispozitive</string>
+  <string name="devices_list_empty">Lista este goală, atingeți pictograma pentru a reîncerca</string>
+  <string name="reload_list">Reîncărcare</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">Actualizări AEX</string>
+  <string name="aex_ota_summary">Obţineţi cea mai recentă versiune</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Ecran extins</string>
+  <string name="expanded_hide_nothing">Nu se ascunde nimic</string>
+  <string name="expanded_hide_status">Ascundere bară de stare</string>
+  <string name="expanded_hide_navigation">Ascunde bara de navigare</string>
+  <string name="expanded_hide_both">Ascunde ambele</string>
+  <string name="expanded_nothing_to_show">Pentru a adăuga o configuraţie particularizată per-aplicaţie pentru starea extinsă, setaţi \"Activat pentru toate\" în poziţia închis</string>
+  <string name="expanded_desktop_state">Stare extinsă</string>
+  <string name="expanded_enabled_for_all">Activat pentru toate</string>
+  <string name="expanded_user_configurable">Configurabil de utilizator</string>
+  <string name="expanded_desktop_style">Stil desktop extins</string>
+  <string name="expanded_desktop_style_description">Alegeți un stil de desktop extins implicit</string>
+  <string name="expanded_desktop_title">Opțiuni desktop extins</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Sunet captură ecran</string>
+  <string name="screenshot_sound_summary">Redă un sunet atunci când se face o captură de ecran</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Luminozitate</string>
+  <string name="night_brightness_value_title">Reducere luminozitate dacă este activată lumina de noapte</string>
+  <string name="night_bright_disabled">Dezactivat</string>
+  <string name="night_bright_minimum">Luminozitate minimă</string>
+  <string name="night_bright_low">Luminozitate scăzută</string>
+  <string name="night_bright_medium">Luminozitate medie</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Leagă volumele sunetelor de apel cu cel de notificare</string>
+  <string name="notification_volume_option_title">Volum notificări</string>
+  <string name="ring_notification_volume_option_title">Volum sunet de apel și notificări</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Locaţie</string>
+  <string name="app_ops_cat_personal">Personal</string>
+  <string name="app_ops_cat_messaging">Mesagerie</string>
+  <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Dispozitiv</string>
+  <string name="app_ops_cat_bootup">Pornire</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_use_bluetooth_volume">Volum Bluetooth</string>
+  <string name="app_ops_scan_wifi">Scanare reţele WiFi</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Gestionare Root</string>
+  <string name="rootmanagement_dashboard_summary">Gestionați accesul root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Parolă copie rez. desktop</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Culoare avertizare</string>
+  <string name="battery_saver_color_summary">Activează culoarea portocalie pentru bare de navigare atunci când este activat economizorul de baterie</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Trezire la încărcare</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Trezirea telefonului atunci când încărcătorul este conectat/deconectat.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">Afișare informații CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Suprapunerea de ecran afişează informația curentă a CPU</string>
+  <string name="dashboard_conditions_title">Condiții tablou de bord</string>
+  <string name="summary_dashboard_conditions_enabled">Condiţiile tabloului de bord sunt activate</string>
+  <string name="summary_dashboard_conditions_disabled">Condiţiile tabloului de bord sunt dezactivate</string>
   <!-- Custom light color -->
+  <string name="light_customization">Notificare LED</string>
+  <string name="custom_light_title">Culoare lumină</string>
+  <string name="custom_light_on_time_title">"Durată iluminare PORNITĂ în timpul pulsului LED (ms)"</string>
+  <string name="custom_light_off_time_title">"Durată iluminare OPRITĂ în timpul pulsului LED (ms)"</string>
+  <string name="app_notifications_info_desc">Atingeți unul dintre canalele de mai sus pentru a configura culorile luminoase și alte opțiuni</string>
+  <string name="value_equals_default">Implicit</string>
+  <string name="show_light_on_zen_title">Clipire în timpul Nu deranjați</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Sunete ajustare volum</string>
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Resetare statistici</string>
+  <string name="reset_stats_msg">Statisticile privind istoricul bateriei vor fi resetate</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Trepte Volum</string>
+  <string name="volume_steps_alarm_title">Trepte volum: Alarmă</string>
+  <string name="volume_steps_dtmf_title">Trepte volum: DTMF</string>
+  <string name="volume_steps_music_title">Trepte volum: Muzică</string>
+  <string name="volume_steps_notification_title">Trepte volum: Notificare</string>
+  <string name="volume_steps_ring_title">Trepte volum: Sunet de apel</string>
+  <string name="volume_steps_system_title">Trepte volum: Sistem</string>
+  <string name="volume_steps_voice_call_title">Trepte volum: Apel vocal</string>
+  <string name="volume_steps_reset">Resetare</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">Sugestii tablou de bord</string>
+  <string name="summary_dashboard_suggestions_enabled">Sugestiile tabloului de bord sunt activate</string>
+  <string name="summary_dashboard_suggestions_disabled">Sugestiile tabloului de bord sunt dezactivate</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">Opţiuni tablou de bord</string>
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">Dispozitivul este criptat</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Dispozitivul este decriptat</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ADB prin rețea</string>
+  <string name="adb_over_network_summary">Activează depanarea TCP/IP prin interfețele de rețea (Wi-Fi, rețele USB). Această setare este resetată la repornire</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">AVERTIZARE: Când ADB prin rețea este activat, telefonul dvs este deschis intruziunilor din toate rețelele conectate, inclusiv rețeaua de date GSM!\n\nFolosiți această caracteristică când sunteți conectat la rețele de încredere.\n\nSigur doriți să activați această funcție?</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">Vibrare la conectare</string>
+  <string name="alert_on_charged_level_title">Alertă nivel optim de încărcare</string>
+  <string name="alert_on_charged_level_summary">Notifică și redă sunet/vibrație la nivelul optim de încărcare dacă ecranul este oprit de cel puțin 1 minut.\nNotificarea poate fi dezactivată separat, apăsând lung pe ea.</string>
+  <string name="alert_on_charged_level_dis">Dezactivată</string>
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Stil interfață utilizator</string>
+  <string name="system_theme_style_auto">Bazat pe im. de fundal</string>
+  <string name="system_theme_style_light">Luminos</string>
+  <string name="system_theme_style_dark">Întunecat</string>
+  <string name="system_theme_style_black">Negru</string>
+  <string name="system_theme_style_extended">Extins</string>
+  <string name="theme_applied_toast">Temă aplicată</string>
+  <string name="applying_theme_toast">Se aplică tema, așteptați...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> este <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">activată</string>
+  <string name="sim_disabled">dezactivată</string>
+  <string name="sim_missing">lipsă sau defectă</string>
+  <string name="sim_enabler_need_disable_sim">Cartela SIM va fi dezactivată. Doriți să continuați?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atenţie</string>
+  <string name="sim_enabler_need_switch_data_service">Acest SIM va fi dezactivat și SIM <xliff:g id="slotid">%1$s</xliff:g> va fi utilizat pentru servicii de date. Sunteți sigur că doriți să continuați?</string>
+  <string name="sim_enabler_airplane_on">Nu se poate efectua operațiunea cât timp modul avion este activ.</string>
+  <string name="sim_enabler_in_call">Nu se poate efectua operațiunea în timpul unui apel.</string>
+  <string name="sim_enabler_both_inactive">Nu se pot dezactiva toate cartelele SIM</string>
+  <string name="sim_enabler_enabling">Se activează\u2026</string>
+  <string name="sim_enabler_disabling">Se dezactivează\u2026</string>
+  <string name="sub_activate_success">SIM activat.</string>
+  <string name="sub_activate_failed">Activare eșuată.</string>
+  <string name="sub_deactivate_success">SIM dezactivat.</string>
+  <string name="sub_deactivate_failed">Dezactivarea a eșuat.</string>
+  <string name="available_sims_title">Cartele SIM disponibile</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Afișare istoric notificări</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>

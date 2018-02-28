@@ -55,12 +55,20 @@
   <string name="team4_description">Deweloper</string>
   <string name="designers">Projektanci</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Tematyczne Bannery, Loga, Tapety</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">QS/loga fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Tapety, Animacje startowe</string>
   <string name="maintainers">Twórcy aplikacji</string>
+  <string name="maintainers_title">Oficjalni opiekunowie</string>
+  <string name="maintainers_summary">Lista wspieranych oficjalnie urządzeń i ich opiekunów.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Opiekun: %1$s</string>
+  <string name="loading_devices">Ładowanie listy urządzeń...</string>
+  <string name="loading_devices_failed">Nie udało się załadować listy urządzeń</string>
+  <string name="devices_list_empty">Lista pusta, naciśnij na ikonkę aby odświeżyć</string>
+  <string name="reload_list">Załaduj ponownie</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">AEX aktualizacje</string>
   <string name="aex_ota_summary">Pobierz najnowszą kompilację</string>
@@ -81,8 +89,10 @@
   <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+  <string name="screenshot_sound_summary">Dźwięk wykonania zrzutu ekranu</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jasność</string>
+  <string name="night_brightness_value_title">Mniejsza jasność jeśli światło nocne</string>
   <string name="night_bright_disabled">Wyłączone</string>
   <string name="night_bright_minimum">Minimalna jasność</string>
   <string name="night_bright_low">Niska jasność</string>
@@ -100,63 +110,77 @@
   <string name="app_ops_cat_device">Urządzenie</string>
   <string name="app_ops_cat_bootup">Rozruch</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">aparat</string>
-  <string name="app_ops_access_location">lokalizacja</string>
-  <string name="app_ops_access_notifications">powiadomienia</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_mms">usuń MMS</string>
-  <string name="app_ops_delete_sms">usuń SMS</string>
-  <string name="app_ops_draw_on_top">rysuj na wierzchu</string>
-  <string name="app_ops_keep_device_awake">nie usypiaj</string>
-  <string name="app_ops_make_phone_call">wykonaj połączenie</string>
-  <string name="app_ops_use_audio_focus">kierowanie dźwięku</string>
   <string name="app_ops_use_bluetooth_volume">Głośność bluetooth</string>
-  <string name="app_ops_use_master_volume">głośność ogólna</string>
-  <string name="app_ops_use_media_buttons">przyciski multimedialne</string>
-  <string name="app_ops_use_media_volume">głośność multimediów</string>
-  <string name="app_ops_use_notification_volume">głośność powiadomień</string>
-  <string name="app_ops_assist_screenshot">zrzut ekranu</string>
-  <string name="app_ops_use_body_sensors">użyj czujników ciała</string>
-  <string name="app_ops_read_cell_broadcasts">transmisje komórkowe</string>
-  <string name="app_ops_mock_location">pozorowanie lokalizacji</string>
-  <string name="app_ops_read_external_storage">odczytaj pamięć ext.</string>
-  <string name="app_ops_write_external_storage">zapisz pamięć ext.</string>
-  <string name="app_ops_turn_on_screen">włącz ekran</string>
-  <string name="app_ops_get_accounts">konta urządzenia</string>
-  <string name="app_ops_run_in_background">pracuj w tle</string>
-  <string name="app_ops_accessibility_volume">ułatwienia dostępu</string>
-  <string name="app_ops_read_phone_numbers">odczyt numeru telefonu</string>
-  <string name="app_ops_request_install_packages">instalacja pakietów</string>
-  <string name="app_ops_picture_in_picture">pip</string>
+  <string name="app_ops_scan_wifi">Skanuj sieci Wi-Fi</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Zarządzanie rootem</string>
+  <string name="rootmanagement_dashboard_summary">Zarządzanie uprawnieniami root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Hasło kopii zapasowej</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Kolor ostrzeżenia</string>
+  <string name="battery_saver_color_summary">Włącz pomarańczowy status paska nawigacji - po włączeniu oszczędzania baterii</string>
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">Wybudź po podłączeniu ładowarki</string>
   <string name="wakeup_when_plugged_unplugged_summary">Wybudź urządzenie, kiedy zasilanie jest podłączane/odłączane.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">Pokaż informacje o CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Informacja na ekranie pokazująca aktualne użycie CPU</string>
+  <string name="dashboard_conditions_title">Pulpit warunki</string>
+  <string name="summary_dashboard_conditions_enabled">Warunki panelu ustawień są włączone</string>
+  <string name="summary_dashboard_conditions_disabled">Warunki panelu ustawień są wyłączone</string>
   <!-- Custom light color -->
+  <string name="light_customization">Światła powiadomień Led</string>
+  <string name="custom_light_title">Kolor światła</string>
+  <string name="custom_light_on_time_title">"Czas włączenia światła w trakcie impulsu (ms)"</string>
+  <string name="custom_light_off_time_title">"Czas włączenia światła w trakcie impulsu (ms)"</string>
+  <string name="app_notifications_info_desc">Naciśnij w jeden z powyższych kanałów, aby skonfigurować ich jasność, kolor i inne opcje</string>
+  <string name="value_equals_default">Domyślnie</string>
+  <string name="show_light_on_zen_title">Mruga podczas Nie przeszkadzać</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Dźwięk regulacji głośności</string>
   <!-- Reset battery stats -->
   <string name="ok">Ok</string>
   <string name="menu_stats_reset">Zresetuj statystyki</string>
   <string name="reset_stats_msg">Statystyki baterii zostaną zresetowane</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Poziomy głośności</string>
+  <string name="volume_steps_alarm_title">Stopniowane głośności: Alarm</string>
+  <string name="volume_steps_dtmf_title">Stopniowane głośności wybierania tonowego</string>
+  <string name="volume_steps_music_title">Stopniowanie głośności: Muzyka</string>
+  <string name="volume_steps_notification_title">Stopniowanie głośności: Powiadomienia</string>
+  <string name="volume_steps_ring_title">Stopniowanie głośności: Dzwonek</string>
+  <string name="volume_steps_system_title">Stopniowanie głośności: System</string>
+  <string name="volume_steps_voice_call_title">Stopniowaniei głośności: Połączenie głosowe</string>
   <string name="volume_steps_reset">Resetuj</string>
   <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">Pulpit nawigacyjny sugestie</string>
+  <string name="summary_dashboard_suggestions_enabled">Sugestie panelu ustawień są włączone</string>
+  <string name="summary_dashboard_suggestions_disabled">Sugestie panelu ustawień są wyłączone</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">Opcje panelu ustawień</string>
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">Urządzenie jest zaszyfrowane</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">Urządzenie jest odszyfrowane</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ADB przez sieć</string>
+  <string name="adb_over_network_summary">Aktywuj debugowanie TCP/IP przez interfejs sieciowy (sieci Wi-Fi, USB). Ustawienie zostanie zresetowane po ponownym uruchomieniu</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">OSTRZEŻENIE: Gdy funkcja ADB przez sieć jest włączona, telefon jest otwarty na włamania od wszystkich podłączonych sieci, w tym do sieci danych GSM! \ N \ nKorzystaj z tej funkcji, gdy jesteś podłączony w zaufanych sieciach. \ N \ nCzy naprawdę chcesz włączyć tę funkcję?</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">Wibruj po połączeniu</string>
+  <string name="alert_on_charged_level_title">Alarm poziomu optymalnego ładowania</string>
+  <string name="alert_on_charged_level_summary">Powiadamiaj i odtwarzaj dźwięk / wibruj na optymalnym poziomie naładowania, jeśli ekran jest wyłączony od co najmniej 1 minuty. Powiadomienie można wyłączyć osobno długo naciskając.</string>
+  <string name="alert_on_charged_level_dis">Wyłączone</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
@@ -167,9 +191,30 @@
   <string name="system_theme_style_dark">Ciemny interfejs użytkownika</string>
   <string name="system_theme_style_black">Czarny interfejs użytkownika</string>
   <string name="system_theme_style_extended">Rozszerzony UI</string>
-  <string name="theme_applied_toast">Zastosowano motyw!</string>
-  <string name="ui_style_applied_toast">Zastosowano styl interfejsu użytkownika!</string>
-  <string name="battery_image">Wygląd baterii</string>
-  <string name="battery_image_description">Pokaż baterię na pasku powiadomień</string>
+  <string name="theme_applied_toast">Motyw zastosowano.</string>
+  <string name="applying_theme_toast">Instalacja motywu, proszę czekać...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> to <xliff:g id="status" przykład= "disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">włączone</string>
+  <string name="sim_disabled">wyłączone</string>
+  <string name="sim_missing">brakujący lub uszkodzony</string>
+  <string name="sim_enabler_need_disable_sim">Karta SIM zostanie dezaktywowana. Czy chcesz kontynuować?</string>
+  <string name="sim_enabler_will_disable_sim_title">Uwaga</string>
+  <string name="sim_enabler_need_switch_data_service">Ta karta SIM zostanie wyłączona i SIM <xliff:g id="slotid">%1$s </xliff:g> będzie używana do transmisji danych, kontynuować?</string>
+  <string name="sim_enabler_airplane_on">Nie można wykonać operacji, gdy włączony jest tryb samolotowy.</string>
+  <string name="sim_enabler_in_call">Nie można wykonać operacji w czasie rozmowy.</string>
+  <string name="sim_enabler_both_inactive">Nie można wyłączyć wszystkich kart SIM</string>
+  <string name="sim_enabler_enabling">Aktywowanie\u2026</string>
+  <string name="sim_enabler_disabling">Dezaktywowanie\u2026</string>
+  <string name="sub_activate_success">SIM aktywowana.</string>
+  <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
+  <string name="sub_deactivate_success">SIM dezaktywowana.</string>
+  <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
+  <string name="available_sims_title">Dostępne karty SIM</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Pokaż powiadomienia o historii zdarzeń</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <!-- Quick unlock -->
+  <!-- Increasing ring tone volume -->
+  <!-- Display : Rotation -->
 </resources>
