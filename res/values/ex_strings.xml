@@ -400,6 +400,12 @@
     <string name="fp_quick_pulldown_title">Fingerprint quick pulldown</string>
     <string name="fp_quick_pulldown_summary">Expand the quick settings panel with only one swipe on the fingerprint sensor.</string>
 
+    <!-- Font picker -->
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_title">Font</string>
+
 </resources>
+
+
 
 
