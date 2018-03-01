@@ -154,7 +154,11 @@
         android:icon="@drawable/ic_accent_picker"
         android:title="@string/theme_accent_picker_title" />
 
-    </PreferenceCategory>
+    <com.android.settings.display.FontDialogPreference
+        android:key="custom_font"
+        android:title="@string/font_picker_title"
+        android:persistent="false" />
+   </PreferenceCategory>
 
     <PreferenceCategory
         android:key="dashboard_category"
