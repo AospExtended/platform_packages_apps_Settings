@@ -31,6 +31,13 @@
         app:keywords="@string/keywords_gesture"/>
 
     <SwitchPreference
+        android:key="gesture_quick_pulldown_fingerprint"
+        android:title="@string/fp_quick_pulldown_title"
+        android:summary="@string/fp_quick_pulldown_summary"
+        android:dependency="gesture_swipe_down_fingerprint"
+        app:keywords="@string/keywords_gesture"/>
+
+    <SwitchPreference
         android:key="gesture_swipe_dismiss_fingerprint"
         android:title="@string/fp_swipe_to_dismiss_notifications_title"
         android:summary="@string/fp_swipe_to_dismiss_notifications_summary"
