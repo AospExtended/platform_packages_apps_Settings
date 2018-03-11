@@ -90,4 +90,9 @@
   <!-- Quick unlock -->
   <!-- Increasing ring tone volume -->
   <!-- Display : Rotation -->
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

@@ -110,7 +110,37 @@
   <string name="app_ops_cat_device">Gerät</string>
   <string name="app_ops_cat_bootup">Systemstart</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Kamera</string>
+  <string name="app_ops_access_location">Standort</string>
+  <string name="app_ops_access_notifications">Benachrichtigungen</string>
   <string name="app_ops_activate_vpn">ein VPN zu aktivieren</string>
+  <string name="app_ops_auto_start">Autostart</string>
+  <string name="app_ops_delete_call_log">Anrufsliste löschen</string>
+  <string name="app_ops_delete_contacts">Kontakte löschen</string>
+  <string name="app_ops_delete_mms">MMS löschen</string>
+  <string name="app_ops_delete_sms">SMS löschen</string>
+  <string name="app_ops_draw_on_top">Über anderen Apps einblenden</string>
+  <string name="app_ops_get_usage_stats">Nutzungsstatistiken abrufen</string>
+  <string name="app_ops_keep_device_awake">Aktiv lassen</string>
+  <string name="app_ops_make_phone_call">Anruf tätigen</string>
+  <string name="app_ops_modify_calendar">Kalender aktualisieren</string>
+  <string name="app_ops_modify_call_log">Anrufliste aktualisieren</string>
+  <string name="app_ops_modify_clipboard">Zwischenablage bearbeiten</string>
+  <string name="app_ops_modify_contacts">Kontakte aktualisieren</string>
+  <string name="app_ops_modify_settings">Einstellungen aktualisieren</string>
+  <string name="app_ops_mute_unmute_microphone">Mikrofon ein/aus</string>
+  <string name="app_ops_play_audio">Audio wiedergeben</string>
+  <string name="app_ops_post_notification">Benachrichtigung senden</string>
+  <string name="app_ops_project_media">Medien anzeigen</string>
+  <string name="app_ops_read_calendar">Kalender anzeigen</string>
+  <string name="app_ops_read_call_log">Anrufliste anzeigen</string>
+  <string name="app_ops_read_clipboard">Zwischenablage anzeigen</string>
+  <string name="app_ops_read_contacts">Kontakte anzeigen</string>
+  <string name="app_ops_read_mms">MMS anzeigen</string>
+  <string name="app_ops_read_sms">SMS anzeigen</string>
+  <string name="app_ops_receive_sms">SMS empfangen</string>
+  <string name="app_ops_record_audio">Audio aufnehmen</string>
+  <string name="app_ops_send_mms">MMS senden</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth-Lautstärke</string>
   <string name="app_ops_scan_wifi">WLAN-Netzwerke scannen</string>
   <!-- Root Management -->
@@ -217,4 +247,9 @@
   <!-- Quick unlock -->
   <!-- Increasing ring tone volume -->
   <!-- Display : Rotation -->
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

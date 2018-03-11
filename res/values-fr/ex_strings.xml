@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Appareil</string>
   <string name="app_ops_cat_bootup">Démarrage</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Appareil photo</string>
+  <string name="app_ops_access_location">Position</string>
+  <string name="app_ops_access_notifications">Notifications</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Démarrage automatique</string>
+  <string name="app_ops_delete_call_log">Effacer le journal d\'appel</string>
+  <string name="app_ops_delete_contacts">Supprimer des contacts</string>
+  <string name="app_ops_delete_mms">Supprimer des MMS</string>
+  <string name="app_ops_delete_sms">Supprimer des SMS</string>
+  <string name="app_ops_draw_on_top">Dessiner au-dessus</string>
+  <string name="app_ops_get_usage_stats">Obtenir stats d\'utilisation</string>
+  <string name="app_ops_keep_device_awake">Maintenir activé</string>
+  <string name="app_ops_make_phone_call">Appeler</string>
+  <string name="app_ops_modify_calendar">Mettre à jour le calendrier</string>
+  <string name="app_ops_modify_call_log">Mettre à jour le journal d\'appels</string>
+  <string name="app_ops_modify_clipboard">Modifier le presse-papiers</string>
+  <string name="app_ops_modify_contacts">Mise à jour des contacts</string>
+  <string name="app_ops_modify_settings">Mettre à jour les paramètres</string>
+  <string name="app_ops_mute_unmute_microphone">Désactiver/Activer le micro</string>
+  <string name="app_ops_play_audio">Lecture audio</string>
+  <string name="app_ops_post_notification">Afficher une notification</string>
+  <string name="app_ops_project_media">Projet média</string>
+  <string name="app_ops_read_calendar">Lire le calendrier</string>
+  <string name="app_ops_read_call_log">Lire le journal d\'appels</string>
+  <string name="app_ops_read_clipboard">Lire le Presse-papiers</string>
+  <string name="app_ops_read_contacts">Lire les contacts</string>
+  <string name="app_ops_read_mms">Lire les MMS</string>
+  <string name="app_ops_read_sms">Lire les SMS</string>
+  <string name="app_ops_receive_sms">Recevoir des SMS</string>
+  <string name="app_ops_record_audio">Enregistrement audio</string>
+  <string name="app_ops_send_mms">Envoyer des MMS</string>
+  <string name="app_ops_send_sms">Envoyer des SMS</string>
+  <string name="app_ops_toast_window">Messages toasts</string>
+  <string name="app_ops_use_alarm_volume">Volume de l\'alarme</string>
+  <string name="app_ops_use_audio_focus">Focus audio</string>
   <string name="app_ops_use_bluetooth_volume">Volume du Bluetooth</string>
+  <string name="app_ops_use_master_volume">Volume principal</string>
+  <string name="app_ops_use_media_buttons">Boutons de médias</string>
+  <string name="app_ops_use_media_volume">Volume des médias</string>
+  <string name="app_ops_use_notification_volume">Volume des notifications</string>
+  <string name="app_ops_use_ring_volume">Volume de la sonnerie</string>
+  <string name="app_ops_use_vibrate">Retour haptique</string>
+  <string name="app_ops_use_voice_volume">Volume de la voix lors de l\'appel</string>
+  <string name="app_ops_write_mms">Écrire des MMS</string>
+  <string name="app_ops_write_sms">Écrire un SMS</string>
+  <string name="app_ops_use_fingerprint">Empreinte digitale</string>
+  <string name="app_ops_add_voicemail">Messagerie vocale</string>
+  <string name="app_ops_read_phone_state">Accéder à l\'état du téléphone</string>
   <string name="app_ops_scan_wifi">Rechercher les réseaux Wi-Fi</string>
+  <string name="app_ops_change_wallpaper">Changer de fond d\'écran</string>
+  <string name="app_ops_assist_structure">Structure d\'assistance</string>
+  <string name="app_ops_assist_screenshot">Captures d\'écran</string>
+  <string name="app_ops_use_body_sensors">Capteurs corporels</string>
+  <string name="app_ops_read_cell_broadcasts">Messages de diffusion</string>
+  <string name="app_ops_mock_location">Localisation fictive</string>
+  <string name="app_ops_read_external_storage">Lire le stockage externe</string>
+  <string name="app_ops_write_external_storage">Écrire sur le stockage externe</string>
+  <string name="app_ops_turn_on_screen">Allumer l\'écran</string>
+  <string name="app_ops_get_accounts">Compte de l\'appareil</string>
+  <string name="app_ops_run_in_background">Exécuter en arrière-plan</string>
+  <string name="app_ops_accessibility_volume">Volume de l’accessibilité</string>
+  <string name="app_ops_read_phone_numbers">Lire le numéro de téléphone</string>
+  <string name="app_ops_request_install_packages">Installer les paquets</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Lancer au premier plan</string>
+  <string name="app_ops_answer_phone_calls">Répondre aux appels</string>
+  <string name="app_ops_boot_completed">Démarrage auto</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Gestion du Root</string>
   <string name="rootmanagement_dashboard_summary">Gérer les permissions Root</string>
@@ -173,13 +237,13 @@
   <string name="custom_encryption_and_credential_settings_summary_off">Périphérique non chiffré</string>
   <!-- Android debugging over WiFi -->
   <string name="adb_over_network">ADB par le réseau</string>
-  <string name="adb_over_network_summary">Activer le protocole TCP/IP de débogage sur les interfaces réseau (Wi-Fi, USB, réseaux). Ce paramètre est réinitialisé sur redémarrer</string>
+  <string name="adb_over_network_summary">Activer le débogage TCP/IP via les réseaux (Wi-Fi, USB). Ce paramètre est réinitialisé au redémarrage</string>
   <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">AVERTISSEMENT: Lors de la BAD sur le réseau est activée, votre téléphone est ouvert pour les intrusions sur tous les réseaux connectés, y compris les données GSM réseau!\n\nOnly utiliser cette fonction lorsque vous êtes connecté sur les réseaux de confiance.\n\nvoulez-vous vraiment voulez activer cette fonction?</string>
+  <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez-vous vraiment activer cette fonction?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Vibrer au branchement</string>
   <string name="alert_on_charged_level_title">Alerte de niveau de charge optimale</string>
-  <string name="alert_on_charged_level_summary">Informer et diffuser le son/vibreur optimal de niveau de charge si l\'écran est éteint depuis au moins 1 min.\nLa Notification peut être désactivé séparément longue pression sur lui.</string>
+  <string name="alert_on_charged_level_summary">Notifier et jouer un son/vibrer lorsque le niveau de charge optimal est atteint si l\'écran est éteint depuis au moins 1 min.\nLa notification peut être désactivé séparément par un longue pression.</string>
   <string name="alert_on_charged_level_dis">Désactivé</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
@@ -198,11 +262,11 @@
   <string name="sim_enabled">activé</string>
   <string name="sim_disabled">désactivé</string>
   <string name="sim_missing">manquante ou défectueuse</string>
-  <string name="sim_enabler_need_disable_sim">Carte SIM sera désactivée. Voulez-vous continuer?</string>
+  <string name="sim_enabler_need_disable_sim">La carte SIM va être désactivée. Voulez-vous continuer ?</string>
   <string name="sim_enabler_will_disable_sim_title">Attention</string>
   <string name="sim_enabler_need_switch_data_service">Cette carte SIM sera désactivée et la SIM <xliff:g id="slotid">%1$s </xliff:g> sera utilisée pour les services de données. Êtes-vous sûr de vouloir continuer ?</string>
-  <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tandis que le mode avion est activé.</string>
-  <string name="sim_enabler_in_call">Impossible d\'effectuer l\'opération en appel.</string>
+  <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tant que le mode avion est activé.</string>
+  <string name="sim_enabler_in_call">Impossible d\'effectuer cette opération pendant un appel.</string>
   <string name="sim_enabler_both_inactive">Impossible de désactiver toutes les cartes SIM</string>
   <string name="sim_enabler_enabling">Activation\u2026</string>
   <string name="sim_enabler_disabling">Désactivation\2026</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Montrer l\'historique des notifications</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
+  <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les touches lors du déverrouillage</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
+  <string name="increasing_ring_min_volume_title">Volume de démarrage</string>
+  <string name="increasing_ring_ramp_up_time_title">Temps de montée en puissance</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotation</string>
+  <string name="display_rotation_disabled">Désactivé</string>
+  <string name="display_rotation_unit">degrés</string>
+  <string name="display_rotation_category_title">Modes de rotation</string>
+  <string name="display_rotation_0_title">0 degré</string>
+  <string name="display_rotation_90_title">90 degrés</string>
+  <string name="display_rotation_180_title">180 degrés</string>
+  <string name="display_rotation_270_title">270 degrés</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

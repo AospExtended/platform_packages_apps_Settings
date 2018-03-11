@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">设备</string>
   <string name="app_ops_cat_bootup">启动</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">相机</string>
+  <string name="app_ops_access_location">位置</string>
+  <string name="app_ops_access_notifications">通知</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">自动启动</string>
+  <string name="app_ops_delete_call_log">删除通话记录</string>
+  <string name="app_ops_delete_contacts">删除联系人</string>
+  <string name="app_ops_delete_mms">删除彩信</string>
+  <string name="app_ops_delete_sms">删除短信</string>
+  <string name="app_ops_draw_on_top">覆盖</string>
+  <string name="app_ops_get_usage_stats">获取用量统计</string>
+  <string name="app_ops_keep_device_awake">保持唤醒</string>
+  <string name="app_ops_make_phone_call">拨打电话</string>
+  <string name="app_ops_modify_calendar">更新日历</string>
+  <string name="app_ops_modify_call_log">更新通话记录</string>
+  <string name="app_ops_modify_clipboard">修改剪贴板</string>
+  <string name="app_ops_modify_contacts">更新通讯录</string>
+  <string name="app_ops_modify_settings">更新设置</string>
+  <string name="app_ops_mute_unmute_microphone">麦克风静音/取消静音</string>
+  <string name="app_ops_play_audio">播放音频</string>
+  <string name="app_ops_post_notification">发布通知</string>
+  <string name="app_ops_project_media">投影媒体</string>
+  <string name="app_ops_read_calendar">读取日历</string>
+  <string name="app_ops_read_call_log">读取通话记录</string>
+  <string name="app_ops_read_clipboard">读取剪贴板</string>
+  <string name="app_ops_read_contacts">读取通讯录</string>
+  <string name="app_ops_read_mms">读取彩信</string>
+  <string name="app_ops_read_sms">读取短信</string>
+  <string name="app_ops_receive_sms">接收短信</string>
+  <string name="app_ops_record_audio">录音</string>
+  <string name="app_ops_send_mms">发送彩信</string>
+  <string name="app_ops_send_sms">发送短信</string>
+  <string name="app_ops_toast_window">Toast 信息</string>
+  <string name="app_ops_use_alarm_volume">闹钟音量</string>
+  <string name="app_ops_use_audio_focus">音频焦点</string>
   <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
+  <string name="app_ops_use_master_volume">主音量</string>
+  <string name="app_ops_use_media_buttons">媒体按键</string>
+  <string name="app_ops_use_media_volume">媒体音量</string>
+  <string name="app_ops_use_notification_volume">通知音量</string>
+  <string name="app_ops_use_ring_volume">铃声音量</string>
+  <string name="app_ops_use_vibrate">触摸反馈</string>
+  <string name="app_ops_use_voice_volume">语音通话音量</string>
+  <string name="app_ops_write_mms">编写彩信</string>
+  <string name="app_ops_write_sms">编写短信</string>
+  <string name="app_ops_use_fingerprint">指纹</string>
+  <string name="app_ops_add_voicemail">语音邮件</string>
+  <string name="app_ops_read_phone_state">访问手机状态</string>
   <string name="app_ops_scan_wifi">搜寻 WiFi 网络</string>
+  <string name="app_ops_change_wallpaper">更改壁纸</string>
+  <string name="app_ops_assist_structure">协助工具</string>
+  <string name="app_ops_assist_screenshot">屏幕截图</string>
+  <string name="app_ops_use_body_sensors">身体传感器</string>
+  <string name="app_ops_read_cell_broadcasts">小区广播</string>
+  <string name="app_ops_mock_location">模拟位置</string>
+  <string name="app_ops_read_external_storage">读取外置存储卡</string>
+  <string name="app_ops_write_external_storage">写入外置存储卡</string>
+  <string name="app_ops_turn_on_screen">点亮屏幕</string>
+  <string name="app_ops_get_accounts">设备帐号</string>
+  <string name="app_ops_run_in_background">后台运行</string>
+  <string name="app_ops_accessibility_volume">辅助功能类音量</string>
+  <string name="app_ops_read_phone_numbers">读取电话号码</string>
+  <string name="app_ops_request_install_packages">安装软件包</string>
+  <string name="app_ops_picture_in_picture">画中画</string>
+  <string name="app_ops_app_start_foreground">前台启动</string>
+  <string name="app_ops_answer_phone_calls">接听电话</string>
+  <string name="app_ops_boot_completed">自动启动</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root 管理</string>
   <string name="rootmanagement_dashboard_summary">管理 root 权限</string>
@@ -179,7 +243,7 @@
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">连接或移除充电器时振动</string>
   <string name="alert_on_charged_level_title">最佳电量警报</string>
-  <string name="alert_on_charged_level_summary">达到最佳充电量后，如果屏幕关闭超过1分钟，将发出响铃／震动提醒。\n长按可取消该通知。</string>
+  <string name="alert_on_charged_level_summary">达到最佳充电量后，如果屏幕关闭超过1分钟，将发出铃声/振动提醒。\n长按可单独取消该通知。</string>
   <string name="alert_on_charged_level_dis">禁用</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">显示通知历史记录</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">乱序布局</string>
+  <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">快速解锁</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
+  <string name="increasing_ring_min_volume_title">初始音量</string>
+  <string name="increasing_ring_ramp_up_time_title">铃声渐强时长</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">旋转</string>
+  <string name="display_rotation_disabled">禁用</string>
+  <string name="display_rotation_unit">度</string>
+  <string name="display_rotation_category_title">屏幕旋转模式</string>
+  <string name="display_rotation_0_title">0 度</string>
+  <string name="display_rotation_90_title">90 度</string>
+  <string name="display_rotation_180_title">180 度</string>
+  <string name="display_rotation_270_title">270 度</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

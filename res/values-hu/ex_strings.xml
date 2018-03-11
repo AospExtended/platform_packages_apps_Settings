@@ -14,42 +14,255 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Kiterjesztett verzió</string>
+  <string name="extended_version_default">Ismeretlen</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Készítés dátuma</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Nem szükséges, a Fejlesztői beállítások már engedélyezve vannak.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Változások listája</string>
+  <string name="changelog_summary">Legutóbbi változások</string>
+  <string name="changelog_loading">Változáslista betöltése\u2026</string>
+  <string name="changelog_error">Nem lehet betölteni a változáslistát</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Rólunk</string>
+  <string name="aex_about_summary">Bemutatkozásunk és a csapatunk</string>
+  <string name="aex_about_info_summary">Az AospExtended egy AOSP alapú ROM, ami gyári kinézetet kínál különféle testreszabási opciókkal és Substratum témamotorral. Más projektekből szemezgetve jött létre ez a projekt. Az AOSP alapnak köszönhetően már a dobozból kivéve folyamatos és akadásmentes élményt nyújt. Folyamatosan bővítjük és még jobbá tesszük majd a jövőbeli frissítésekben. &#35;LégyExtended</string>
+  <string name="dev_info">Az AospExtendedről</string>
+  <string name="github">Github</string>
+  <string name="github_description">A forráskódunk megtekintése</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Csatlakozzon a G+ közösségünkhöz</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Iratkozzon fel a Telegram csatornánkra</string>
+  <string name="web">Letöltőközpont</string>
+  <string name="web_description">Látogasson el a letöltőoldalunkra</string>
+  <string name="help_translate">Fordítások</string>
+  <string name="help_translate_description">Segítsen a fordításban, csatlakozzon a Crowdinen</string>
+  <string name="walls">Háttérképek</string>
+  <string name="walls_description">Más felhasználók feltöltött háttérképeinek beszerzése</string>
+  <string name="leads">Csapatvezetők</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Tulajdonos/Vezető fejlesztő</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Fejlesztő</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderátor és amatőr fejlesztő</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Fejlesztő</string>
+  <string name="designers">Dizájnerek</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Fórum-bannerek, Logók, Háttérképek</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Gyorsbeállítások/Fling logók</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Háttérképek, Indítási animációk</string>
+  <string name="maintainers">Karbantartók</string>
+  <string name="maintainers_title">Hivatalos karbantartók</string>
   <!-- Maintainer section -->
+  <string name="loading_devices">A készüléklista betöltése...</string>
+  <string name="loading_devices_failed">Nem sikerült a készüléklista betöltése</string>
+  <string name="devices_list_empty">A lista üres, újratöltédshez érintse meg az ikont</string>
+  <string name="reload_list">Újratöltés</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX frissítések</string>
+  <string name="aex_ota_summary">Legfrissebb verzió beszerzése</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Kiterjesztett képernyő</string>
+  <string name="expanded_hide_nothing">Egyiket se rejtse el</string>
+  <string name="expanded_hide_status">Állapotsor elrejtése</string>
+  <string name="expanded_hide_navigation">Navigációs sáv elrejtése</string>
+  <string name="expanded_hide_both">Mindkettő elrejtése</string>
+  <string name="expanded_desktop_state">Kiterjesztett állapot</string>
+  <string name="expanded_enabled_for_all">Az összesre engedélyezve</string>
+  <string name="expanded_user_configurable">Felhasználó által konfigurálható</string>
+  <string name="expanded_desktop_style">A Kiterjesztett asztal stílusa</string>
+  <string name="expanded_desktop_style_description">Válasszon alapértelmezett kiterjesztett asztalstílust</string>
+  <string name="expanded_desktop_title">A Kiterjesztett asztal lehetőségei</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Képernyőmentés hangja</string>
+  <string name="screenshot_sound_summary">Hangeffekt lejátszása képernyőkép készítésekor</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Fényerő</string>
+  <string name="night_brightness_value_title">Alacsonyabb fényerő, ha éjszakai fényviszonyok vannak</string>
+  <string name="night_bright_disabled">Letiltva</string>
+  <string name="night_bright_minimum">Minimum fényerő</string>
+  <string name="night_bright_low">Alacsony fényerő</string>
+  <string name="night_bright_medium">Közepes fényerő</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Csengetési és értesítési hangerők összevonása</string>
+  <string name="notification_volume_option_title">Értesítési hangerő</string>
+  <string name="ring_notification_volume_option_title">Csengetési és értesítési hangerő</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Tartózkodási hely</string>
+  <string name="app_ops_cat_personal">Személyes</string>
+  <string name="app_ops_cat_messaging">Üzenetkezelés</string>
+  <string name="app_ops_cat_media">Média</string>
+  <string name="app_ops_cat_device">Készülék</string>
+  <string name="app_ops_cat_bootup">Rendszerindítás</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Kamera</string>
+  <string name="app_ops_access_location">Tartózkodási hely</string>
+  <string name="app_ops_access_notifications">Értesítések</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Automatikus indítás</string>
+  <string name="app_ops_delete_call_log">Hívásnaplók törlése</string>
+  <string name="app_ops_delete_contacts">Névjegyek törlése</string>
+  <string name="app_ops_delete_mms">MMS törlése</string>
+  <string name="app_ops_delete_sms">SMS törlése</string>
+  <string name="app_ops_get_usage_stats">Használati statisztika lekérése</string>
+  <string name="app_ops_keep_device_awake">Készülék érbentartása</string>
+  <string name="app_ops_make_phone_call">Híváskezdeményezés</string>
+  <string name="app_ops_modify_calendar">Naptár frissítése</string>
+  <string name="app_ops_modify_call_log">Hívásnapló frissítése</string>
+  <string name="app_ops_modify_clipboard">Vágólap módosítása</string>
+  <string name="app_ops_modify_contacts">Névjegyek frissítése</string>
+  <string name="app_ops_modify_settings">Beállítások frissítése</string>
+  <string name="app_ops_mute_unmute_microphone">Mikrofon némítása/feloldása</string>
+  <string name="app_ops_play_audio">Audió lejátszása</string>
+  <string name="app_ops_read_calendar">Naptár olvasása</string>
+  <string name="app_ops_read_call_log">Hívásnapló olvasása</string>
+  <string name="app_ops_read_contacts">Névjegyek olvasása</string>
+  <string name="app_ops_read_mms">MMS olvasása</string>
+  <string name="app_ops_read_sms">SMS olvasása</string>
+  <string name="app_ops_receive_sms">SMS fogadása</string>
+  <string name="app_ops_record_audio">Hang rögzítése</string>
+  <string name="app_ops_send_mms">MMS küldése</string>
+  <string name="app_ops_send_sms">SMS küldése</string>
+  <string name="app_ops_toast_window">Üzenetbuborékok</string>
+  <string name="app_ops_use_alarm_volume">Ébresztés hangereje</string>
+  <string name="app_ops_use_audio_focus">Audiófókusz</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetooth hangereje</string>
+  <string name="app_ops_use_master_volume">Fő hangerő</string>
+  <string name="app_ops_use_media_buttons">Médiagombok</string>
+  <string name="app_ops_use_media_volume">Média hangereje</string>
+  <string name="app_ops_use_notification_volume">Értesítés hangereje</string>
+  <string name="app_ops_use_ring_volume">Csengés hangereje</string>
+  <string name="app_ops_use_vibrate">Érintési visszajelzés</string>
+  <string name="app_ops_use_voice_volume">Hívás beszédhangereje</string>
+  <string name="app_ops_write_mms">MMS írása</string>
+  <string name="app_ops_write_sms">SMS írása</string>
+  <string name="app_ops_use_fingerprint">Ujjlenyomat</string>
+  <string name="app_ops_add_voicemail">Hangposta</string>
+  <string name="app_ops_read_phone_state">Telefonállapot beolvasása</string>
+  <string name="app_ops_scan_wifi">Wi-Fi hálózat keresése</string>
+  <string name="app_ops_change_wallpaper">Háttérkép megváltoztatása</string>
+  <string name="app_ops_assist_screenshot">Képernyőmentés</string>
+  <string name="app_ops_use_body_sensors">Testszenzorok</string>
+  <string name="app_ops_read_cell_broadcasts">Cellán belüli adások</string>
+  <string name="app_ops_mock_location">Helyutánzatok</string>
+  <string name="app_ops_read_external_storage">Külső tárhely olvasása</string>
+  <string name="app_ops_write_external_storage">Külső tárhely írása</string>
+  <string name="app_ops_turn_on_screen">Képernyő bekapcsolása</string>
+  <string name="app_ops_get_accounts">Készülékfiókok</string>
+  <string name="app_ops_run_in_background">Futtatás a háttérben</string>
+  <string name="app_ops_accessibility_volume">Kisegítő hangerő</string>
+  <string name="app_ops_read_phone_numbers">Telefonszám olvasása</string>
+  <string name="app_ops_request_install_packages">Csomagok telepítése</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Indítás az előtérben</string>
+  <string name="app_ops_answer_phone_calls">Hívások fogadása</string>
+  <string name="app_ops_boot_completed">Automatikus indítás</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Rootjog kezelés</string>
+  <string name="rootmanagement_dashboard_summary">Root hozzáférés kezelése</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Asztali mentés jelszava</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Figyelmeztetés színe</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Felébresztés töltő csatlakoztatásakor</string>
+  <string name="wakeup_when_plugged_unplugged_summary">A képernyő bekapcsolása a töltő csatlakoztatása/eltávolítása után.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">CPU adatok megjelenítése</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <!-- Custom light color -->
+  <string name="value_equals_default">Alapértelmezett</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Hangerőállítás hangjai</string>
   <!-- Reset battery stats -->
+  <string name="ok">Rendben</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Hangerőléptetések</string>
+  <string name="volume_steps_alarm_title">Ébresztő hangerőléptetése</string>
+  <string name="volume_steps_dtmf_title">DTMF Ébresztő hangerőléptetése</string>
+  <string name="volume_steps_music_title">Zene Ébresztő hangerőléptetése</string>
+  <string name="volume_steps_notification_title">Értesítés Ébresztő hangerőléptetése</string>
+  <string name="volume_steps_ring_title">Csengőhang Ébresztő hangerőléptetése</string>
+  <string name="volume_steps_system_title">Rendszer Ébresztő hangerőléptetése</string>
+  <string name="volume_steps_voice_call_title">Hanghívás Ébresztő hangerőléptetése</string>
+  <string name="volume_steps_reset">Visszaállítás</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
   <!-- Dashboard Category -->
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">A készülék titkosított</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">A készülék nem titkosított</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ADB hálózaton keresztül</string>
   <!-- Warning for Adb over Network -->
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">Töltőre helyezéskor rezeg</string>
+  <string name="alert_on_charged_level_dis">Letiltva</string>
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Felhasználói felület stílusa</string>
+  <string name="system_theme_style_auto">Háttérkép bázisú</string>
+  <string name="system_theme_style_light">Világos felhasználói felület</string>
+  <string name="system_theme_style_dark">Sötét felhasználói felület</string>
+  <string name="system_theme_style_black">Fekete felhasználói felület</string>
+  <string name="system_theme_style_extended">Kiterjesztett felhasználói felület</string>
+  <string name="theme_applied_toast">A Téma beállítva</string>
+  <string name="applying_theme_toast">Téma beállítása folyamatban, kis türelmet...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabled">engedélyezve</string>
+  <string name="sim_disabled">letiltva</string>
+  <string name="sim_missing">hiányzik vagy hibás</string>
+  <string name="sim_enabler_need_disable_sim">A SIM-kártya deaktiválódik. Szeretné folytatni?</string>
+  <string name="sim_enabler_will_disable_sim_title">Figyelmeztetés</string>
+  <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
+  <string name="sim_enabler_enabling">Aktiválás\u2026</string>
+  <string name="sim_enabler_disabling">Deaktiválás\u2026</string>
+  <string name="sub_activate_success">SIM aktiválva.</string>
+  <string name="sub_activate_failed">Sikertelen aktiválás.</string>
+  <string name="sub_deactivate_success">SIM deaktiválva.</string>
+  <string name="sub_deactivate_failed">Sikertelen deaktiválás.</string>
+  <string name="available_sims_title">Élérhető SIM kártyák</string>
   <!-- Notification log -->
+  <string name="notification_log_summary">Értesítések előzménynaplóinak megjelenítése</string>
   <!-- Scramble PIN Layout on Lockscreen -->
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
+  <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
+  <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Elforgatás</string>
+  <string name="display_rotation_disabled">Letiltva</string>
+  <string name="display_rotation_unit">° fok</string>
+  <string name="display_rotation_category_title">Forgatási módok</string>
+  <string name="display_rotation_0_title">0 ° fok</string>
+  <string name="display_rotation_90_title">90 ° fok</string>
+  <string name="display_rotation_180_title">180 ° fok</string>
+  <string name="display_rotation_270_title">270 ° fok</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

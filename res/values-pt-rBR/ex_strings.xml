@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">Versão estendida</string>
+  <string name="extended_version">Versão da AOSP Extended</string>
   <string name="extended_version_default">Desconhecido</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Data da compilação</string>
@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Dispositivo</string>
   <string name="app_ops_cat_bootup">Inicialização</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Camera</string>
+  <string name="app_ops_access_location">Localização</string>
+  <string name="app_ops_access_notifications">Notificações</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Início automático</string>
+  <string name="app_ops_delete_call_log">Excluir registro de chamadas</string>
+  <string name="app_ops_delete_contacts">Excluir contatos</string>
+  <string name="app_ops_delete_mms">Excluir MMS</string>
+  <string name="app_ops_delete_sms">Excluir SMS</string>
+  <string name="app_ops_draw_on_top">Desenhar em primeiro plano</string>
+  <string name="app_ops_get_usage_stats">Obter estatísticas de uso</string>
+  <string name="app_ops_keep_device_awake">Manter acordado</string>
+  <string name="app_ops_make_phone_call">Fazer chamadas</string>
+  <string name="app_ops_modify_calendar">Atualizar o seu calendário</string>
+  <string name="app_ops_modify_call_log">Atualizar o registo de chamadas</string>
+  <string name="app_ops_modify_clipboard">Modificar a área de transferência</string>
+  <string name="app_ops_modify_contacts">Atualizar seus contatos</string>
+  <string name="app_ops_modify_settings">Atualizar configurações</string>
+  <string name="app_ops_mute_unmute_microphone">Ligar/desligar o microfone</string>
+  <string name="app_ops_play_audio">Reproduzir áudio</string>
+  <string name="app_ops_post_notification">Postar uma notificação</string>
+  <string name="app_ops_project_media">Projetar mídia</string>
+  <string name="app_ops_read_calendar">Ler seu calendário</string>
+  <string name="app_ops_read_call_log">Ler o registro de chamadas</string>
+  <string name="app_ops_read_clipboard">Ler a área de transferência</string>
+  <string name="app_ops_read_contacts">Ler seus contatos</string>
+  <string name="app_ops_read_mms">Ler MMS</string>
+  <string name="app_ops_read_sms">Ler SMS</string>
+  <string name="app_ops_receive_sms">Receber SMS</string>
+  <string name="app_ops_record_audio">Gravar áudio</string>
+  <string name="app_ops_send_mms">Enviar uma mensagem MMS</string>
+  <string name="app_ops_send_sms">Enviar uma mensagem SMS</string>
+  <string name="app_ops_toast_window">Exibir mensagens flutuantes na tela</string>
+  <string name="app_ops_use_alarm_volume">Controlar volume do alarme</string>
+  <string name="app_ops_use_audio_focus">Controlar o foco do áudio</string>
   <string name="app_ops_use_bluetooth_volume">Controlar o volume de Bluetooth</string>
+  <string name="app_ops_use_master_volume">Controlar o volume principal</string>
+  <string name="app_ops_use_media_buttons">Usar os botões de mídia</string>
+  <string name="app_ops_use_media_volume">Volume de mídia</string>
+  <string name="app_ops_use_notification_volume">Volume de notificações</string>
+  <string name="app_ops_use_ring_volume">Volume do toque</string>
+  <string name="app_ops_use_vibrate">Controlar reposta ao toque</string>
+  <string name="app_ops_use_voice_volume">Volume de chamadas de voz</string>
+  <string name="app_ops_write_mms">Escrever MMS</string>
+  <string name="app_ops_write_sms">Escrever uma mensagem SMS</string>
+  <string name="app_ops_use_fingerprint">Impresão digital</string>
+  <string name="app_ops_add_voicemail">Correio de voz</string>
+  <string name="app_ops_read_phone_state">Acessar o estado do telefone</string>
   <string name="app_ops_scan_wifi">Procurar redes WiFi</string>
+  <string name="app_ops_change_wallpaper">Mudar o papel de parede</string>
+  <string name="app_ops_assist_structure">Utilizar estrutura de assistência</string>
+  <string name="app_ops_assist_screenshot">Capturar a tela</string>
+  <string name="app_ops_use_body_sensors">Sensores corporais</string>
+  <string name="app_ops_read_cell_broadcasts">Transmissões por celular</string>
+  <string name="app_ops_mock_location">Simular localização</string>
+  <string name="app_ops_read_external_storage">Ler o armazenamento externo</string>
+  <string name="app_ops_write_external_storage">Escrever no armazenamento externo</string>
+  <string name="app_ops_turn_on_screen">Ligar a tela</string>
+  <string name="app_ops_get_accounts">Obter as contas do dispositivo</string>
+  <string name="app_ops_run_in_background">Executar em segundo plano</string>
+  <string name="app_ops_accessibility_volume">Volume de acessibilidade</string>
+  <string name="app_ops_read_phone_numbers">Ler os números de telefone</string>
+  <string name="app_ops_request_install_packages">Instalar Pacotes</string>
+  <string name="app_ops_picture_in_picture">Picture-in-picture</string>
+  <string name="app_ops_app_start_foreground">Iniciar em primeiro plano</string>
+  <string name="app_ops_answer_phone_calls">Atender chamadas</string>
+  <string name="app_ops_boot_completed">Início automático</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Gerenciar acesso root</string>
   <string name="rootmanagement_dashboard_summary">Gerenciar acessos de superusuário</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Mostrar o registro de histórico de notificações</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Aumentar o volume do toque</string>
+  <string name="increasing_ring_min_volume_title">Volume inicial</string>
+  <string name="increasing_ring_ramp_up_time_title">Tempo de aceleração</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotação</string>
+  <string name="display_rotation_disabled">Desabilitado</string>
+  <string name="display_rotation_unit">graus</string>
+  <string name="display_rotation_category_title">Modos de rotação</string>
+  <string name="display_rotation_0_title">0 graus</string>
+  <string name="display_rotation_90_title">90 graus</string>
+  <string name="display_rotation_180_title">180 graus</string>
+  <string name="display_rotation_270_title">270 graus</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

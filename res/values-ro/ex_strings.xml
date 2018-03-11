@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Dispozitiv</string>
   <string name="app_ops_cat_bootup">Pornire</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Cameră</string>
+  <string name="app_ops_access_location">Locaţie</string>
+  <string name="app_ops_access_notifications">Notificări</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Pornire automată</string>
+  <string name="app_ops_delete_call_log">Ştergere listă de apeluri</string>
+  <string name="app_ops_delete_contacts">Ştergere contacte</string>
+  <string name="app_ops_delete_mms">Ştergere MMS</string>
+  <string name="app_ops_delete_sms">Ştergere SMS</string>
+  <string name="app_ops_draw_on_top">Afișare deasupra</string>
+  <string name="app_ops_get_usage_stats">Obținere statistici de utilizare</string>
+  <string name="app_ops_keep_device_awake">Ține treaz</string>
+  <string name="app_ops_make_phone_call">Apelare</string>
+  <string name="app_ops_modify_calendar">Actualizare calendar</string>
+  <string name="app_ops_modify_call_log">Actualizare jurnal de apeluri</string>
+  <string name="app_ops_modify_clipboard">Modificare clipboard</string>
+  <string name="app_ops_modify_contacts">Actualizare contacte</string>
+  <string name="app_ops_modify_settings">Actualizare setări</string>
+  <string name="app_ops_mute_unmute_microphone">Pornire/oprire microfon</string>
+  <string name="app_ops_play_audio">Redare audio</string>
+  <string name="app_ops_post_notification">Trimite o notificare</string>
+  <string name="app_ops_project_media">Proiectare media</string>
+  <string name="app_ops_read_calendar">Citire calendar</string>
+  <string name="app_ops_read_call_log">Citire jurnal de apeluri</string>
+  <string name="app_ops_read_clipboard">Citire clipboard</string>
+  <string name="app_ops_read_contacts">Citire contacte</string>
+  <string name="app_ops_read_mms">Citire MMS</string>
+  <string name="app_ops_read_sms">Citire SMS</string>
+  <string name="app_ops_receive_sms">Recepţionare SMS</string>
+  <string name="app_ops_record_audio">Înregistrare audio</string>
+  <string name="app_ops_send_mms">Trimitere MMS</string>
+  <string name="app_ops_send_sms">Trimitere SMS</string>
+  <string name="app_ops_toast_window">Mesaje toast</string>
+  <string name="app_ops_use_alarm_volume">Volum alarmă</string>
+  <string name="app_ops_use_audio_focus">Focalizare audio</string>
   <string name="app_ops_use_bluetooth_volume">Volum Bluetooth</string>
+  <string name="app_ops_use_master_volume">Volum principal</string>
+  <string name="app_ops_use_media_buttons">Butoane media</string>
+  <string name="app_ops_use_media_volume">Volum media</string>
+  <string name="app_ops_use_notification_volume">Volum notificări</string>
+  <string name="app_ops_use_ring_volume">Volum sonerie</string>
+  <string name="app_ops_use_vibrate">Vibraţii la atingere</string>
+  <string name="app_ops_use_voice_volume">Volum apel vocal</string>
+  <string name="app_ops_write_mms">Scriere MMS</string>
+  <string name="app_ops_write_sms">Scriere SMS</string>
+  <string name="app_ops_use_fingerprint">Amprentă</string>
+  <string name="app_ops_add_voicemail">Mesagerie vocală</string>
+  <string name="app_ops_read_phone_state">Accesare stare telefon</string>
   <string name="app_ops_scan_wifi">Scanare reţele WiFi</string>
+  <string name="app_ops_change_wallpaper">Schimbare imagine de fundal</string>
+  <string name="app_ops_assist_structure">Structura de asistență</string>
+  <string name="app_ops_assist_screenshot">Captură de ecran</string>
+  <string name="app_ops_use_body_sensors">Senzori corporali</string>
+  <string name="app_ops_read_cell_broadcasts">Transmisii celulare</string>
+  <string name="app_ops_mock_location">Locație falsă</string>
+  <string name="app_ops_read_external_storage">Citire stoc. ext.</string>
+  <string name="app_ops_write_external_storage">Scriere stoc. ext.</string>
+  <string name="app_ops_turn_on_screen">Pornire ecran</string>
+  <string name="app_ops_get_accounts">Conturile dispozitivului</string>
+  <string name="app_ops_run_in_background">Rulare în fundal</string>
+  <string name="app_ops_accessibility_volume">Volum accesibilitate</string>
+  <string name="app_ops_read_phone_numbers">Citire num. de telefon</string>
+  <string name="app_ops_request_install_packages">Instalare pachete</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Pornire în prim-plan</string>
+  <string name="app_ops_answer_phone_calls">Răspundere apeluri</string>
+  <string name="app_ops_boot_completed">Pornire automată</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Gestionare Root</string>
   <string name="rootmanagement_dashboard_summary">Gestionați accesul root</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Afișare istoric notificări</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Amestecă așezarea în pagină</string>
+  <string name="unlock_scramble_pin_layout_summary">Amestecă așezarea în pagină a ecranului de PIN atunci când se deblochează dispozitivul</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Volum ascendent</string>
+  <string name="increasing_ring_min_volume_title">Volum iniţial</string>
+  <string name="increasing_ring_ramp_up_time_title">Timp de creştere a volumului</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotație</string>
+  <string name="display_rotation_disabled">Dezactivată</string>
+  <string name="display_rotation_unit">grade</string>
+  <string name="display_rotation_category_title">Mod de rotație</string>
+  <string name="display_rotation_0_title">0 grade</string>
+  <string name="display_rotation_90_title">90 de grade</string>
+  <string name="display_rotation_180_title">180 de grade</string>
+  <string name="display_rotation_270_title">270 de grade</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

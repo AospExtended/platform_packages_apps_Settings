@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Устройство</string>
   <string name="app_ops_cat_bootup">Загрузка</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Камера</string>
+  <string name="app_ops_access_location">Местоположение</string>
+  <string name="app_ops_access_notifications">Уведомления</string>
   <string name="app_ops_activate_vpn">Настройки VPN</string>
+  <string name="app_ops_auto_start">Автозапуск</string>
+  <string name="app_ops_delete_call_log">Удаление журнала вызовов</string>
+  <string name="app_ops_delete_contacts">Удаление контактов</string>
+  <string name="app_ops_delete_mms">Удаление MMS</string>
+  <string name="app_ops_delete_sms">Удаление SMS</string>
+  <string name="app_ops_draw_on_top">Отображение поверх других элементов</string>
+  <string name="app_ops_get_usage_stats">Получение статистики использования</string>
+  <string name="app_ops_keep_device_awake">Активный режим</string>
+  <string name="app_ops_make_phone_call">Осуществление вызова</string>
+  <string name="app_ops_modify_calendar">Обновить календарь</string>
+  <string name="app_ops_modify_call_log">Обновить журнал вызовов</string>
+  <string name="app_ops_modify_clipboard">Изменение буфера обмена</string>
+  <string name="app_ops_modify_contacts">Обновить контакты</string>
+  <string name="app_ops_modify_settings">Обновить настройки</string>
+  <string name="app_ops_mute_unmute_microphone">Включение/Выключение микрофона</string>
+  <string name="app_ops_play_audio">Воспроизведение аудио</string>
+  <string name="app_ops_post_notification">Вывод уведомлений</string>
+  <string name="app_ops_project_media">Трансляция медиа</string>
+  <string name="app_ops_read_calendar">Чтение данных календаря</string>
+  <string name="app_ops_read_call_log">Просмотр журнала вызовов</string>
+  <string name="app_ops_read_clipboard">Чтение буфера обмена</string>
+  <string name="app_ops_read_contacts">Чтение контактов</string>
+  <string name="app_ops_read_mms">Чтение MMS</string>
+  <string name="app_ops_read_sms">Чтение SMS</string>
+  <string name="app_ops_receive_sms">Получение SMS</string>
+  <string name="app_ops_record_audio">Запись аудио</string>
+  <string name="app_ops_send_mms">Отправка MMS</string>
+  <string name="app_ops_send_sms">Отправка SMS</string>
+  <string name="app_ops_toast_window">Всплывающие сообщения</string>
+  <string name="app_ops_use_alarm_volume">Громкость будильника</string>
+  <string name="app_ops_use_audio_focus">Аудио фокусировка</string>
   <string name="app_ops_use_bluetooth_volume">Громкость Bluetooth-устройств</string>
+  <string name="app_ops_use_master_volume">Общая громкость</string>
+  <string name="app_ops_use_media_buttons">Кнопки мультимедиа</string>
+  <string name="app_ops_use_media_volume">Громкость мультимедиа</string>
+  <string name="app_ops_use_notification_volume">Громкость уведомлений</string>
+  <string name="app_ops_use_ring_volume">Громкость звонка</string>
+  <string name="app_ops_use_vibrate">Виброотклик</string>
+  <string name="app_ops_use_voice_volume">Громкость при разговоре</string>
+  <string name="app_ops_write_mms">Создание MMS</string>
+  <string name="app_ops_write_sms">Создание SMS</string>
+  <string name="app_ops_use_fingerprint">Отпечаток</string>
+  <string name="app_ops_add_voicemail">Голосовая почта</string>
+  <string name="app_ops_read_phone_state">Доступ к состоянию телефона</string>
   <string name="app_ops_scan_wifi">Поиск Wi-Fi сетей</string>
+  <string name="app_ops_change_wallpaper">Сменить обои</string>
+  <string name="app_ops_assist_structure">Использование структуры ассистента</string>
+  <string name="app_ops_assist_screenshot">Снимок экрана</string>
+  <string name="app_ops_use_body_sensors">Нательные датчики</string>
+  <string name="app_ops_read_cell_broadcasts">Оповещение населения</string>
+  <string name="app_ops_mock_location">Фиктивное местоположение</string>
+  <string name="app_ops_read_external_storage">Чтение внешнего накопителя</string>
+  <string name="app_ops_write_external_storage">Запись на внешний накопитель</string>
+  <string name="app_ops_turn_on_screen">Включение экрана</string>
+  <string name="app_ops_get_accounts">Информация об аккаунтах</string>
+  <string name="app_ops_run_in_background">Запуск в фоновом режиме</string>
+  <string name="app_ops_accessibility_volume">Доступная громкость</string>
+  <string name="app_ops_read_phone_numbers">Чтение телефонных номеров</string>
+  <string name="app_ops_request_install_packages">Установка приложений</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Запускаться на переднем плане</string>
+  <string name="app_ops_answer_phone_calls">Ответить на звонок</string>
+  <string name="app_ops_boot_completed">Автозапуск</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Управление правами суперпользователя</string>
   <string name="rootmanagement_dashboard_summary">Управление правами суперпользователя</string>
@@ -175,7 +239,7 @@
   <string name="adb_over_network">Режим отладки по сети</string>
   <string name="adb_over_network_summary">Включить TCP/IP отладку через сетевые интерфейсы (WiFi и USB-сети). Отладка отключится после перезагрузки</string>
   <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">Внимание! При включении отладки по сети, возможен неконтролируемый доступ к вашему устройству. Вы уверены что хотите включить?</string>
+  <string name="adb_over_network_warning">ВНИМАНИЕ: Когда включена отладка по сети, устройство открыто для неконтролируемого доступа из всех подключённых сетей!\n\nИспользуйте эту функцию только тогда, когда вы подключены к доверенным сетям.\n\nВы действительно хотите включить эту функцию?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Вибрировать при подключении зарядки</string>
   <string name="alert_on_charged_level_title">Уведомление об оптимальном уровне заряда</string>
@@ -194,8 +258,7 @@
   <string name="theme_applied_toast">Тема оформления установлена.</string>
   <string name="applying_theme_toast">Применение темы, пожалуйста, подождите...</string>
   <!-- MSIM Manual provisioning -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id="status" 
-example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">включена</string>
   <string name="sim_disabled">отключена</string>
   <string name="sim_missing">отсутствует или неисправна</string>
@@ -215,7 +278,26 @@ example="disabled">%2$s</xliff:g></string>
   <!-- Notification log -->
   <string name="notification_log_summary">Показать журнал истории уведомлений</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Перемешать кнопки</string>
+  <string name="unlock_scramble_pin_layout_summary">Переставить кнопки ввода PIN-кода в случайном порядке</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+  <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+  <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Поворот экрана</string>
+  <string name="display_rotation_disabled">Отключено</string>
+  <string name="display_rotation_unit">градусов</string>
+  <string name="display_rotation_category_title">Режимы вращения</string>
+  <string name="display_rotation_0_title">0 градусов</string>
+  <string name="display_rotation_90_title">90 градусов</string>
+  <string name="display_rotation_180_title">180 градусов</string>
+  <string name="display_rotation_270_title">270 градусов</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

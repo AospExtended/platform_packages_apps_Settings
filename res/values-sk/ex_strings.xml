@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Zariadenie</string>
   <string name="app_ops_cat_bootup">Pri štarte</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Kamera</string>
+  <string name="app_ops_access_location">Poloha</string>
+  <string name="app_ops_access_notifications">Upozornenia</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Automatické spustenie</string>
+  <string name="app_ops_delete_call_log">Vymazať denník hovorov</string>
+  <string name="app_ops_delete_contacts">Vymazať kontakty</string>
+  <string name="app_ops_delete_mms">Vymazať MMS</string>
+  <string name="app_ops_delete_sms">Vymazať SMS</string>
+  <string name="app_ops_draw_on_top">Vykreslovať do najvyššej vrstvy</string>
+  <string name="app_ops_get_usage_stats">Získať štatistiky používania</string>
+  <string name="app_ops_keep_device_awake">Udržať prebudené</string>
+  <string name="app_ops_make_phone_call">Vykonať hovor</string>
+  <string name="app_ops_modify_calendar">Aktualizovať kalendár</string>
+  <string name="app_ops_modify_call_log">Aktualizovať záznam hovorov</string>
+  <string name="app_ops_modify_clipboard">Meniť údaje v schránke</string>
+  <string name="app_ops_modify_contacts">Aktualizovať kontakty</string>
+  <string name="app_ops_modify_settings">Aktualizovať nastavenia</string>
+  <string name="app_ops_mute_unmute_microphone">Stíšiť/Zosiliť mikrofón</string>
+  <string name="app_ops_play_audio">Prehrávať zvuk</string>
+  <string name="app_ops_post_notification">Posielať upozornenia</string>
+  <string name="app_ops_project_media">Premietať médiá</string>
+  <string name="app_ops_read_calendar">Čítať údaje z kalendára</string>
+  <string name="app_ops_read_call_log">Čítať zoznam hovorov</string>
+  <string name="app_ops_read_clipboard">Čítať údaje zo schránky</string>
+  <string name="app_ops_read_contacts">Čítať kontakty</string>
+  <string name="app_ops_read_mms">Čítať MMS</string>
+  <string name="app_ops_read_sms">Čítať SMS</string>
+  <string name="app_ops_receive_sms">Prijímať SMS</string>
+  <string name="app_ops_record_audio">Nahrávať zvuk</string>
+  <string name="app_ops_send_mms">Posielať MMS</string>
+  <string name="app_ops_send_sms">Posielať SMS</string>
+  <string name="app_ops_toast_window">Vyskakujúce správy</string>
+  <string name="app_ops_use_alarm_volume">Hlasitosť budíka</string>
+  <string name="app_ops_use_audio_focus">Zvukové zdroje</string>
   <string name="app_ops_use_bluetooth_volume">hlasitosť Bluetooth</string>
+  <string name="app_ops_use_master_volume">Hlavná hlasitosť</string>
+  <string name="app_ops_use_media_buttons">Tlačidlá médií</string>
+  <string name="app_ops_use_media_volume">Hlasitosť médií</string>
+  <string name="app_ops_use_notification_volume">Hlasitosť upozornení</string>
+  <string name="app_ops_use_ring_volume">Hlasitosť zvonenia</string>
+  <string name="app_ops_use_vibrate">Hmatová odozva</string>
+  <string name="app_ops_use_voice_volume">Hlasitosť hovoru</string>
+  <string name="app_ops_write_mms">Vytvoriť MMS</string>
+  <string name="app_ops_write_sms">Vytvoriť SMS</string>
+  <string name="app_ops_use_fingerprint">Odtlačok prsta</string>
+  <string name="app_ops_add_voicemail">Hlasová správa</string>
+  <string name="app_ops_read_phone_state">Pristupovať k stavu telefónu</string>
   <string name="app_ops_scan_wifi">prehľadávať WiFi siete</string>
+  <string name="app_ops_change_wallpaper">Zmeniť tapetu</string>
+  <string name="app_ops_assist_structure">Používať pomocné štruktúry</string>
+  <string name="app_ops_assist_screenshot">Fotografia obrazovky</string>
+  <string name="app_ops_use_body_sensors">Telesné senzory</string>
+  <string name="app_ops_read_cell_broadcasts">Hromadné zasielanie správ v rámci bunky</string>
+  <string name="app_ops_mock_location">Falšovať polohu</string>
+  <string name="app_ops_read_external_storage">Čítať externé úložisko</string>
+  <string name="app_ops_write_external_storage">Zapisovať na externé úložisko</string>
+  <string name="app_ops_turn_on_screen">Zapnúť obrazovku</string>
+  <string name="app_ops_get_accounts">Získať účty zariadenia</string>
+  <string name="app_ops_run_in_background">Spustiť na pozadí</string>
+  <string name="app_ops_accessibility_volume">Prístup k hlasitosti</string>
+  <string name="app_ops_read_phone_numbers">Čítať telefónne čísla</string>
+  <string name="app_ops_request_install_packages">Inštalovať balíky</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Spustiť na popredí</string>
+  <string name="app_ops_answer_phone_calls">Prijať hovor</string>
+  <string name="app_ops_boot_completed">Spustiť pri štarte</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Správca Root oprávnení</string>
   <string name="rootmanagement_dashboard_summary">Spravovať prístupy root</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Zobraziť protokol histórie upozornení</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Pomiešať rozloženie</string>
+  <string name="unlock_scramble_pin_layout_summary">Pomiešať rozloženie kláves pre zadanie kódu PIN pri odomykaní zariadenia</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Rýchle odomknutie</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Zvyšovanie hlasitosti zvonenia</string>
+  <string name="increasing_ring_min_volume_title">Počiatočná hlasitosť</string>
+  <string name="increasing_ring_ramp_up_time_title">Čas. interval zvyšovania</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Otočenie</string>
+  <string name="display_rotation_disabled">Vypnutá</string>
+  <string name="display_rotation_unit">stupňov</string>
+  <string name="display_rotation_category_title">Režimy otáčania</string>
+  <string name="display_rotation_0_title">0 stupňov</string>
+  <string name="display_rotation_90_title">90 stupňov</string>
+  <string name="display_rotation_180_title">180 stupňov</string>
+  <string name="display_rotation_270_title">270 stupňov</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>
