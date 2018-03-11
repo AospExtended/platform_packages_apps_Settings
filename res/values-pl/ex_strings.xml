@@ -21,7 +21,7 @@
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Nie ma potrzeby, Opcje programistyczne są domyślnie włączone.</string>
+  <string name="show_dev_already_enabled">Nie ma potrzeby, opcje programistyczne są domyślnie włączone</string>
   <!-- Changelog -->
   <string name="changelog_title">Lista zmian</string>
   <string name="changelog_summary">Ostatnie zmiany</string>
@@ -30,7 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">O nas</string>
   <string name="aex_about_summary">Wstęp i nasz zespół</string>
-  <string name="aex_about_info_summary">AospExtended jest AOSP oparty rom, który zapewnia różne funkcje dostosowań w komorze silnikowej tematu podloz magazynie UI/UX. Projekt został złożony przez cherry-picking różnych popełnia z rozmaitych innych projektach. Opiera się na AOSP zapewnia gładkie i pozbawione opóźnień wrażenia po wyjęciu z pudełka. Stale staramy się dodać więcej funkcji, a nawet lepiej, w przyszłości aktualizacji. &#35; BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended to rom oparty na AOSP, który udostępnia standardowy interfejs UI/UX z różnymi funkcjami, działającymi na silniku jądra Substratum. Projekt powstał dzięki wyselekcjonowaniu najlepszych funkcji z różnych innych projektów. Bazując na AOSP, rom zapewnia płynne i wolne od błędów działanie. Dołożymy wszelkich starań w ulepszeniu działania, dodając kolejne funkcje w przyszłych aktualizacjach.</string>
   <string name="dev_info">O AospExtended</string>
   <string name="github">GitHub</string>
   <string name="github_description">Zobacz nasz kod źródłowy</string>
@@ -44,9 +44,9 @@
   <string name="help_translate_description">Odwiedź nasz Crowdin aby przetłumaczyć na swój język</string>
   <string name="walls">Tapety</string>
   <string name="walls_description">Pobierz tapety udostępnione przez różnych użytkowników</string>
-  <string name="leads">Lider zespołu</string>
+  <string name="leads">Liderzy zespołu</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
-  <string name="team1_description">Właściciel/Lead Developer</string>
+  <string name="team1_description">Właściciel/Główny programista</string>
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Deweloper</string>
   <string name="team_3">Amol Amrit</string>
@@ -55,19 +55,19 @@
   <string name="team4_description">Deweloper</string>
   <string name="designers">Projektanci</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
-  <string name="designer1_description">Tematyczne Bannery, Loga, Tapety</string>
+  <string name="designer1_description">Tematyczne bannery, loga, tapety</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">QS/loga fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-  <string name="designer3_description">Tapety, Animacje startowe</string>
+  <string name="designer3_description">Tapety, animacje startowe</string>
   <string name="maintainers">Twórcy aplikacji</string>
   <string name="maintainers_title">Oficjalni opiekunowie</string>
-  <string name="maintainers_summary">Lista wspieranych oficjalnie urządzeń i ich opiekunów.</string>
+  <string name="maintainers_summary">Lista wspieranych oficjalnie urządzeń i ich opiekunów</string>
   <!-- Maintainer section -->
   <string name="maintainer_description">Opiekun: %1$s</string>
   <string name="loading_devices">Ładowanie listy urządzeń...</string>
   <string name="loading_devices_failed">Nie udało się załadować listy urządzeń</string>
-  <string name="devices_list_empty">Lista pusta, naciśnij na ikonkę aby odświeżyć</string>
+  <string name="devices_list_empty">Lista jest pusta, naciśnij ikonkę aby odświeżyć</string>
   <string name="reload_list">Załaduj ponownie</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">AEX aktualizacje</string>
@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Urządzenie</string>
   <string name="app_ops_cat_bootup">Rozruch</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Aparat</string>
+  <string name="app_ops_access_location">Lokalizacja</string>
+  <string name="app_ops_access_notifications">Powiadomienia</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Autostart</string>
+  <string name="app_ops_delete_call_log">Usuń rejestr połączeń</string>
+  <string name="app_ops_delete_contacts">Usuń kontakty</string>
+  <string name="app_ops_delete_mms">Usuń MMS</string>
+  <string name="app_ops_delete_sms">Usuń SMS</string>
+  <string name="app_ops_draw_on_top">Rysuj na wierzchu</string>
+  <string name="app_ops_get_usage_stats">Pobierz statystyki użytkowania</string>
+  <string name="app_ops_keep_device_awake">Nie usypiaj</string>
+  <string name="app_ops_make_phone_call">Zadzwoń</string>
+  <string name="app_ops_modify_calendar">Aktualizacja kalendarza</string>
+  <string name="app_ops_modify_call_log">Zaktualizuj rejestr połączeń</string>
+  <string name="app_ops_modify_clipboard">Modyfikowanie zawartości schowka</string>
+  <string name="app_ops_modify_contacts">Aktualizuj kontakty</string>
+  <string name="app_ops_modify_settings">Ustawienia aktualizacji</string>
+  <string name="app_ops_mute_unmute_microphone">Wycisz/włącz mikrofon</string>
+  <string name="app_ops_play_audio">Odtwórz dźwięk</string>
+  <string name="app_ops_post_notification">Wysyłanie powiadomienia</string>
+  <string name="app_ops_project_media">Wyświetlanie mediów</string>
+  <string name="app_ops_read_calendar">Odczyt kalendarza</string>
+  <string name="app_ops_read_call_log">Odczyt historii rozmów</string>
+  <string name="app_ops_read_clipboard">Odczyt schowka</string>
+  <string name="app_ops_read_contacts">Odczyt kontaktów</string>
+  <string name="app_ops_read_mms">Odczyt MMS-ów</string>
+  <string name="app_ops_read_sms">Odczyt SMS-ów</string>
+  <string name="app_ops_receive_sms">Odbieranie SMS-ów</string>
+  <string name="app_ops_record_audio">Nagrywanie dżwięku</string>
+  <string name="app_ops_send_mms">Wysyłanie SMS-ów</string>
+  <string name="app_ops_send_sms">Wysyłanie SMS-ów</string>
+  <string name="app_ops_toast_window">Baner wiadomości</string>
+  <string name="app_ops_use_alarm_volume">Głośność alarmu</string>
+  <string name="app_ops_use_audio_focus">Skupianie dźwięku</string>
   <string name="app_ops_use_bluetooth_volume">Głośność bluetooth</string>
+  <string name="app_ops_use_master_volume">Głośność ogólna</string>
+  <string name="app_ops_use_media_buttons">Przyciski multimedialne</string>
+  <string name="app_ops_use_media_volume">Głośność multimediów</string>
+  <string name="app_ops_use_notification_volume">Głośność powiadomień</string>
+  <string name="app_ops_use_ring_volume">Głośność dzwonka</string>
+  <string name="app_ops_use_vibrate">Wibracja przy dotyku</string>
+  <string name="app_ops_use_voice_volume">Głośność rozmowy</string>
+  <string name="app_ops_write_mms">Napisz MMS</string>
+  <string name="app_ops_write_sms">Napisz SMS</string>
+  <string name="app_ops_use_fingerprint">Odcisk palca</string>
+  <string name="app_ops_add_voicemail">Poczta głosowa</string>
+  <string name="app_ops_read_phone_state">Dostęp do telefonu</string>
   <string name="app_ops_scan_wifi">Skanuj sieci Wi-Fi</string>
+  <string name="app_ops_change_wallpaper">Zmiana tapety</string>
+  <string name="app_ops_assist_structure">Wspomaganie struktury</string>
+  <string name="app_ops_assist_screenshot">Zrzut ekranu</string>
+  <string name="app_ops_use_body_sensors">Czujniki ciała</string>
+  <string name="app_ops_read_cell_broadcasts">Transmisje komórkowe</string>
+  <string name="app_ops_mock_location">Pozorowanie lokalizacji</string>
+  <string name="app_ops_read_external_storage">Odczyt z pamięci zewnętrznej</string>
+  <string name="app_ops_write_external_storage">Zapis w pamięci wewnętrznej</string>
+  <string name="app_ops_turn_on_screen">Włącz ekran</string>
+  <string name="app_ops_get_accounts">Konto urządzenia</string>
+  <string name="app_ops_run_in_background">Pracuj w tle</string>
+  <string name="app_ops_accessibility_volume">Ułatwienia dostępu</string>
+  <string name="app_ops_read_phone_numbers">Odczytaj numer telefonu</string>
+  <string name="app_ops_request_install_packages">Instaluj pakiet</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Uruchom na pierwszym planie</string>
+  <string name="app_ops_answer_phone_calls">Odbieranie połączeń</string>
+  <string name="app_ops_boot_completed">Automatyczny start</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Zarządzanie rootem</string>
   <string name="rootmanagement_dashboard_summary">Zarządzanie uprawnieniami root</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Pokaż powiadomienia o historii zdarzeń</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Blokada PIN</string>
+  <string name="unlock_scramble_pin_layout_summary">Układ cyfr odblokowujący urządzenie</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
+  <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
+  <string name="increasing_ring_ramp_up_time_title">Czas podgłaśniania dzwonka</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Obrót</string>
+  <string name="display_rotation_disabled">Wyłączone</string>
+  <string name="display_rotation_unit">stopnie</string>
+  <string name="display_rotation_category_title">Tryby obracania</string>
+  <string name="display_rotation_0_title">0 stopni</string>
+  <string name="display_rotation_90_title">90 stopni</string>
+  <string name="display_rotation_180_title">180 stopni</string>
+  <string name="display_rotation_270_title">270 stopni</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

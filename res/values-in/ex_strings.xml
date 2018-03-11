@@ -21,41 +21,41 @@
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Tdak perlu, Pengaturan pengembangan diaktifkan secara default.</string>
+  <string name="show_dev_already_enabled">Tidak perlu, opsi pengembang telah dihidupkan secara bawaan.</string>
   <!-- Changelog -->
-  <string name="changelog_title">Daftar perubahan</string>
+  <string name="changelog_title">Perubahan</string>
   <string name="changelog_summary">Perubahan terbaru</string>
   <string name="changelog_loading">Memuat daftar perubahan\u2026</string>
   <string name="changelog_error">Tidak dapat memuat daftar perubahan</string>
   <!-- About AospExtended -->
   <string name="aex_about_info">Tentang kami</string>
   <string name="aex_about_summary">Pengenalan kami dan tim kami</string>
-  <string name="aex_about_info_summary">AospExtended adalah AOSP berbasis rom yang menyediakan stok UI/UX dengan berbagai fitur penyesuaian dengan mesin tema substratum. Proyek telah dibuat oleh cherry-picking berbagai komit dari berbagai proyek lain. Berdasarkan AOSP ini memberikan pengalaman yang halus dan bebas leg. Kami akan terus mencoba untuk menambahkan lebih banyak fitur dan membuatnya lebih baik dipembaruan kedepan.&#35;BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended adalah AOSP berbasis rom yang menyediakan stok UI/UX dengan berbagai fitur penyesuaian dengan mesin tema substratum. Proyek telah dibuat oleh cherry-picking berbagai komit dari berbagai proyek lain. Berdasarkan AOSP ini memberikan pengalaman yang halus dan bebas keterlambatan. Kami akan terus mencoba untuk menambahkan lebih banyak fitur dan membuatnya lebih baik dipembaruan kedepan.&#35;BeExtended</string>
   <string name="dev_info">Tentang AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">Lihat sumber kode kami</string>
   <string name="gplus">Google+</string>
   <string name="gplus_description">Gabung komunitas G+ kami</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Berlangganan saluran telegram kami</string>
+  <string name="telegram_description">Berlangganan ke saluran Telegram kami</string>
   <string name="web">Pusat unduhan</string>
   <string name="web_description">Kunjungi portal unduhan kami</string>
   <string name="help_translate">Terjemahan</string>
-  <string name="help_translate_description">Terjemahkan kebahasa Anda, kunjungi Crowdin kami</string>
+  <string name="help_translate_description">Menerjemahkan ke bahasa kamu, kunjungi Crowdin kami</string>
   <string name="walls">Surat kabar</string>
-  <string name="walls_description">Dapatkan surat kabar yang dikontribusi oleh berbagai pengguna</string>
+  <string name="walls_description">Mendapatkan wallpaper yang disumbangkan oleh berbagai pengguna</string>
   <string name="leads">Pemimpin tim</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
-  <string name="team1_description">Pemilik Lead pengembang</string>
-  <string name="team_2">Aman Kumar &#40; FireLord &#41;</string>
+  <string name="team1_description">Pemilik/Pengembang Memimpin</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Pengembang</string>
   <string name="team_3">Amol Amrit</string>
-  <string name="team3_description">Moderator dan pengembang amatir</string>
+  <string name="team3_description">Ketua dan seorang pengembang amatir</string>
   <string name="team_4">Henrique Silva &#40;jhenriqueo9&#41;</string>
   <string name="team4_description">Pengembang</string>
   <string name="designers">Perancang</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
-  <string name="designer1_description">Thread banner, logo, Wallpaper</string>
+  <string name="designer1_description">Benang Spanduk, Lambang, Wallpaper</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">QS melemparkan logo</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
@@ -71,7 +71,7 @@
   <string name="reload_list">Muat ulang</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">Pembaruan AEX</string>
-  <string name="aex_ota_summary">Dapatkan Versi baru</string>
+  <string name="aex_ota_summary">Dapatkan versi terbaru</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Perluasan Desktop</string>
   <string name="expanded_hide_nothing">Tidak menyembunyikan apapun</string>
@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Perangkat</string>
   <string name="app_ops_cat_bootup">Boot</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Kamera</string>
+  <string name="app_ops_access_location">Lokasi</string>
+  <string name="app_ops_access_notifications">Pemberitahuan</string>
   <string name="app_ops_activate_vpn">Vpn</string>
+  <string name="app_ops_auto_start">Mulai otomatis</string>
+  <string name="app_ops_delete_call_log">Menghapus log panggilan</string>
+  <string name="app_ops_delete_contacts">Menghapus kontak</string>
+  <string name="app_ops_delete_mms">Menghapus MMS</string>
+  <string name="app_ops_delete_sms">Menghapus SMS</string>
+  <string name="app_ops_draw_on_top">Menggambar di atas</string>
+  <string name="app_ops_get_usage_stats">Mendapatkan statistik penggunaan</string>
+  <string name="app_ops_keep_device_awake">Tetap terjaga</string>
+  <string name="app_ops_make_phone_call">Membuat panggilan</string>
+  <string name="app_ops_modify_calendar">Memperbaharui kalender</string>
+  <string name="app_ops_modify_call_log">Memperbaharui log panggilan</string>
+  <string name="app_ops_modify_clipboard">Memodifikasi clipboard</string>
+  <string name="app_ops_modify_contacts">Memperbaharui kontak</string>
+  <string name="app_ops_modify_settings">Memperbaharui pengaturan</string>
+  <string name="app_ops_mute_unmute_microphone">Bisu/bersuara mic</string>
+  <string name="app_ops_play_audio">Putar audio</string>
+  <string name="app_ops_post_notification">Pemberitahuan postingan</string>
+  <string name="app_ops_project_media">Proyek media</string>
+  <string name="app_ops_read_calendar">Baca kalender</string>
+  <string name="app_ops_read_call_log">Baca log panggilan</string>
+  <string name="app_ops_read_clipboard">Baca clipboard</string>
+  <string name="app_ops_read_contacts">Baca kontak</string>
+  <string name="app_ops_read_mms">Baca MMS</string>
+  <string name="app_ops_read_sms">Baca SMS</string>
+  <string name="app_ops_receive_sms">Menerima SMS</string>
+  <string name="app_ops_record_audio">Merekam audio</string>
+  <string name="app_ops_send_mms">Mengirim MMS</string>
+  <string name="app_ops_send_sms">Mengirim SMS</string>
+  <string name="app_ops_toast_window">Pesan roti panggang</string>
+  <string name="app_ops_use_alarm_volume">Volume alarm</string>
+  <string name="app_ops_use_audio_focus">Fokus audio</string>
   <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
+  <string name="app_ops_use_master_volume">Volume utama</string>
+  <string name="app_ops_use_media_buttons">Tombol media</string>
+  <string name="app_ops_use_media_volume">Volume media</string>
+  <string name="app_ops_use_notification_volume">Volume pemberitahuan</string>
+  <string name="app_ops_use_ring_volume">Volume nada dering</string>
+  <string name="app_ops_use_vibrate">Umpan balik Haptic</string>
+  <string name="app_ops_use_voice_volume">Volume panggilan suara</string>
+  <string name="app_ops_write_mms">Menulis MMS</string>
+  <string name="app_ops_write_sms">Menulis SMS</string>
+  <string name="app_ops_use_fingerprint">Sidik jari</string>
+  <string name="app_ops_add_voicemail">Pesan suara</string>
+  <string name="app_ops_read_phone_state">Akses status telpon</string>
   <string name="app_ops_scan_wifi">Memindai jaringan WiFi</string>
+  <string name="app_ops_change_wallpaper">Mengubah wallpaper</string>
+  <string name="app_ops_assist_structure">Membantu struktur</string>
+  <string name="app_ops_assist_screenshot">Tangkapan layar</string>
+  <string name="app_ops_use_body_sensors">Sensor tubuh</string>
+  <string name="app_ops_read_cell_broadcasts">Siaran seluler</string>
+  <string name="app_ops_mock_location">Lokasi palsu</string>
+  <string name="app_ops_read_external_storage">Baca ext. penyimpanan</string>
+  <string name="app_ops_write_external_storage">Menulis ext. penyimpanan</string>
+  <string name="app_ops_turn_on_screen">Aktifkan layar</string>
+  <string name="app_ops_get_accounts">Perangkat rekening</string>
+  <string name="app_ops_run_in_background">Berjalan di latar belakang</string>
+  <string name="app_ops_accessibility_volume">Volume aksesibilitas</string>
+  <string name="app_ops_read_phone_numbers">Baca nomor telepon</string>
+  <string name="app_ops_request_install_packages">Menginstal paket</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Mulai latar depan</string>
+  <string name="app_ops_answer_phone_calls">Menjawab panggilan</string>
+  <string name="app_ops_boot_completed">Mulai otomatis</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Pengelolaan Root</string>
   <string name="rootmanagement_dashboard_summary">Mengelola akses root</string>
@@ -122,10 +186,10 @@
   <string name="local_backup_password_title">Kata sandi cadangan desktop</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Warna peringatan</string>
-  <string name="battery_saver_color_summary">Mengaktifkan status orange - bar navigasi ketika baterai saver diaktifkan</string>
+  <string name="battery_saver_color_summary">Mengaktifkan status orange - navigasi bar saat penghemat baterai diaktifkan</string>
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">Bangun dengan biaya</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Hidupkan perangkat jika charger dicolokkan / dicabut.</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Hidupkan perangkat jika charger dicolokkan/dicabut.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">Tampilkan info CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
@@ -173,13 +237,13 @@
   <string name="custom_encryption_and_credential_settings_summary_off">Perangkat adalah terdekrip</string>
   <!-- Android debugging over WiFi -->
   <string name="adb_over_network">ADB melalui jaringan</string>
-  <string name="adb_over_network_summary">Mengaktifkan TCP/IP debug atas antarmuka jaringan (Wi-Fi, USB jaringan). Pengaturan ini reset pada reboot</string>
+  <string name="adb_over_network_summary">Hidupkan debug TCP/IP melalui antarmuka jaringan (Wi-Fi, jaringan USB). Setelan ini direset pada saat dimulai ulang</string>
   <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">PERINGATAN: Bila ADB berlebih jaringan diaktifkan, telpin anda terbuka untuk gangguan pada semua jaringan yang terhubung, termasuk jaringan data GSM!\n\nhanya menggunakan fitur ini ketika anda dihubungkan pada jaringan yang tepercaya.\n\nApakah anda benar ingin mengaktifkan fungsi ini?</string>
+  <string name="adb_over_network_warning">PERINGATAN: Ketika ADB melalui jaringan diaktifkan, ponsel ini terbuka untuk gangguan pada semua jaringan yang terhubung, termasuk jaringan data GSM!\n\nHanya menggunakan fitur ini ketika anda terhubung pada jaringan yang terpercaya.\n\nApakah anda benar-benar ingin mengaktifkan fungsi ini?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Getaran pada plug</string>
   <string name="alert_on_charged_level_title">Biaya optimal tingkat peringatan</string>
-  <string name="alert_on_charged_level_summary">Beritahu dan putar suara/getaran pad tingkat cas optimal jika layar mati minimal 1 menit yang lalu.\nnotifikasi dapat dinonaktifkan secara terpisah dengan menekan lama.</string>
+  <string name="alert_on_charged_level_summary">Memberitahukan dan putar suara/getar pada tingkat biaya yang optimal jika layar dimatikan setidaknya sejak 1 min.\nPemberitahuan dapat dinonaktifkan secara terpisah menekan dengan lama di atasnya.</string>
   <string name="alert_on_charged_level_dis">Nonaktif</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
@@ -198,7 +262,7 @@
   <string name="sim_enabled">diaktifkan</string>
   <string name="sim_disabled">dinonaktifkan</string>
   <string name="sim_missing">hilang atau rusak</string>
-  <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah Anda ingin melanjutkan?</string>
+  <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah anda ingin melanjutkan?</string>
   <string name="sim_enabler_will_disable_sim_title">Perhatian</string>
   <string name="sim_enabler_need_switch_data_service">SIM ini akan dinonaktifkan dan SIM <xliff:g id="slotid">%1$s</xliff:g> akan digunakan untuk layanan data. Apakah anda yakin ingin melanjutkan?</string>
   <string name="sim_enabler_airplane_on">Tidak dapat melakukan operasi saat mode pesawat aktif.</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Tampilkan notifikasi riwayat</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Berebut tata letak</string>
+  <string name="unlock_scramble_pin_layout_summary">Berebut tata letak PIN ketika membuka perangkat</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Cepat membuka</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
+  <string name="increasing_ring_min_volume_title">Volume awal</string>
+  <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Putaran</string>
+  <string name="display_rotation_disabled">Matikan</string>
+  <string name="display_rotation_unit">derajat</string>
+  <string name="display_rotation_category_title">Mode rotasi</string>
+  <string name="display_rotation_0_title">0 derajat</string>
+  <string name="display_rotation_90_title">90 derajat</string>
+  <string name="display_rotation_180_title">180 derajat</string>
+  <string name="display_rotation_270_title">270 derajat</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

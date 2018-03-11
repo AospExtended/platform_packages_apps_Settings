@@ -14,13 +14,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Разширена версия</string>
+  <string name="extended_version_default">Неизвестно</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Дата на изграждане</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Няма нужда, Настройките за разработчици са включени по подразбиране.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Списък на промените</string>
+  <string name="changelog_summary">Последни промени</string>
+  <string name="changelog_loading">Изображението се зарежда</string>
+  <string name="changelog_error">Не може да се зареди списъкът с промените</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">За нас</string>
+  <string name="aex_about_summary">Нашето представяне и екип</string>
+  <string name="aex_about_info_summary">AospExtended е AOSP базиранa система която използва стандартен интерфейс и настройки в допълнение със Substratum теми. Този проект беше направен, чрез избирателно използване на различни добавки от различни проекти. Поради това, че е базиран на AOSP, предоставя гладкост и без забавяне в интерфейса. Ние постоянно се стараем да добавяме нови функции, за да го направим още по-добър в следващите актуализации.&#35;BeExtended</string>
+  <string name="dev_info">За AospExtended</string>
+  <string name="github">Гит Хъб</string>
+  <string name="github_description">Разгледай изходния код</string>
+  <string name="gplus">Гугъл+</string>
+  <string name="gplus_description">Включете се към нашата G+ общност</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Абонирайте се за нашия телеграм канал</string>
+  <string name="web">Център за изтегляне</string>
+  <string name="web_description">Посетете нашия портал за изтегляне</string>
+  <string name="help_translate">Преводи</string>
+  <string name="help_translate_description">Превод на вашия език, посетете нашия Crowdin</string>
+  <string name="walls">Тапети</string>
+  <string name="team2_description">Разработчик</string>
+  <string name="team3_description">Модератор и един аматьорски разработчик</string>
+  <string name="team4_description">Разработчик</string>
+  <string name="designers">Дизайнери</string>
+  <string name="designer1_description">Банери, емблеми, тапети</string>
+  <string name="designer3_description">Тапети, Стартиращи анимации</string>
+  <string name="maintainers">Отговорници за поддръжа</string>
   <!-- Maintainer section -->
+  <string name="loading_devices_failed">Зареждането на списъка с модулите не е възможно</string>
+  <string name="reload_list">Презареждане</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEX актуализации</string>
   <!-- Expanded desktop -->
   <!-- App details: open play store link if app is user installed -->
   <!-- Screenshot sound -->
@@ -52,4 +86,9 @@
   <!-- Quick unlock -->
   <!-- Increasing ring tone volume -->
   <!-- Display : Rotation -->
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

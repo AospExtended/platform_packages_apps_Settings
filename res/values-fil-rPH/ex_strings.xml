@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Ang device</string>
   <string name="app_ops_cat_bootup">Ang bootup</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Ang Kamera</string>
+  <string name="app_ops_access_location">Ang Lokasyon</string>
+  <string name="app_ops_access_notifications">Ang mga Notipikasyon</string>
   <string name="app_ops_activate_vpn">Ang VPN</string>
+  <string name="app_ops_auto_start">Ang Autostart</string>
+  <string name="app_ops_delete_call_log">Burahin ang call log</string>
+  <string name="app_ops_delete_contacts">Burahin ang mga kontak</string>
+  <string name="app_ops_delete_mms">Burahin ang MMS</string>
+  <string name="app_ops_delete_sms">Burahin ang SMS</string>
+  <string name="app_ops_draw_on_top">Gumuhit sa taas</string>
+  <string name="app_ops_get_usage_stats">Kunin ang gamit sa stats</string>
+  <string name="app_ops_keep_device_awake">Manatiling gising</string>
+  <string name="app_ops_make_phone_call">Gumawa ng tawag</string>
+  <string name="app_ops_modify_calendar">I-update ang kalendaryo</string>
+  <string name="app_ops_modify_call_log">I-update ang call log</string>
+  <string name="app_ops_modify_clipboard">Baguhin ang clipboard</string>
+  <string name="app_ops_modify_contacts">I-update ang mga kontak</string>
+  <string name="app_ops_modify_settings">I-update ang mga setting</string>
+  <string name="app_ops_mute_unmute_microphone">I-mute/unmute ang mic</string>
+  <string name="app_ops_play_audio">I-Play ang audio</string>
+  <string name="app_ops_post_notification">I-post ang notipikasyon</string>
+  <string name="app_ops_project_media">Ang Proyekto ng media</string>
+  <string name="app_ops_read_calendar">Bashin ang Kalendaryo</string>
+  <string name="app_ops_read_call_log">Basahin ang call log</string>
+  <string name="app_ops_read_clipboard">Basahin ang clipboard</string>
+  <string name="app_ops_read_contacts">Basahin ang mga kontak</string>
+  <string name="app_ops_read_mms">Basahin ang MMS</string>
+  <string name="app_ops_read_sms">Basahin ang SMS</string>
+  <string name="app_ops_receive_sms">Basahin ang SMS</string>
+  <string name="app_ops_record_audio">Nakarekord ang audio</string>
+  <string name="app_ops_send_mms">Ipadala ang MMS</string>
+  <string name="app_ops_send_sms">Ipadala ang SMS</string>
+  <string name="app_ops_toast_window">I-toast ang mensahe</string>
+  <string name="app_ops_use_alarm_volume">I-volume ang alarma</string>
+  <string name="app_ops_use_audio_focus">Pokus sa Audio</string>
   <string name="app_ops_use_bluetooth_volume">Ang dami ng bluetooth</string>
+  <string name="app_ops_use_master_volume">Ang dami ng master</string>
+  <string name="app_ops_use_media_buttons">Mga buton sa Media</string>
+  <string name="app_ops_use_media_volume">Dami ng Media</string>
+  <string name="app_ops_use_notification_volume">Dami ng Notipikasyon</string>
+  <string name="app_ops_use_ring_volume">Dami ng ringtone</string>
+  <string name="app_ops_use_vibrate">Ang feedback ng Haptic</string>
+  <string name="app_ops_use_voice_volume">Ang dami ng tawag sa tinig</string>
+  <string name="app_ops_write_mms">Sumulat ng MMS</string>
+  <string name="app_ops_write_sms">Sumulat ng SMS</string>
+  <string name="app_ops_use_fingerprint">Bakas ng daliri</string>
+  <string name="app_ops_add_voicemail">Ang Voicemail</string>
+  <string name="app_ops_read_phone_state">I-access ang tawag sa estado ng telepono</string>
   <string name="app_ops_scan_wifi">I-scan ang mga WiFi Network</string>
+  <string name="app_ops_change_wallpaper">Palitan ang wallpaper</string>
+  <string name="app_ops_assist_structure">Ang istraktura sa pag assist</string>
+  <string name="app_ops_assist_screenshot">Ang Screenshot</string>
+  <string name="app_ops_use_body_sensors">Mga Sensor ng katawan</string>
+  <string name="app_ops_read_cell_broadcasts">Mga Broadcast sa Cell</string>
+  <string name="app_ops_mock_location">Lokasyon ng Mock</string>
+  <string name="app_ops_read_external_storage">Imbakan ng Read ext</string>
+  <string name="app_ops_write_external_storage">Isulat ang ext. sa imabakan</string>
+  <string name="app_ops_turn_on_screen">I-tur ang screen on</string>
+  <string name="app_ops_get_accounts">Ang aparato sa mga account</string>
+  <string name="app_ops_run_in_background">Patakbuhin ang background</string>
+  <string name="app_ops_accessibility_volume">Ang Dami ng Accessibility</string>
+  <string name="app_ops_read_phone_numbers">Basahin ang numero sa phone</string>
+  <string name="app_ops_request_install_packages">I-install ang mga pakete</string>
+  <string name="app_ops_picture_in_picture">Ang PiP</string>
+  <string name="app_ops_app_start_foreground">Umpisahan sa harapan</string>
+  <string name="app_ops_answer_phone_calls">Sagutin ang mga tawag</string>
+  <string name="app_ops_boot_completed">I-auto sa umpisa</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Ang pinagmulan ng pamamahala</string>
   <string name="rootmanagement_dashboard_summary">Ang pinagmulan ng pangagasiwa sa access</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Ipakita ang mga abiso sa log ng kasaysayan</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Pagaagawan ang layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Pagaagawan ang layout sa PIN kug naka-ulock ang aparato</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Mabilis na pag-unlock</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Dumadami ang volume ng ring</string>
+  <string name="increasing_ring_min_volume_title">Umpisahan ang volume</string>
+  <string name="increasing_ring_ramp_up_time_title">I-rump up ang oras</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Pagikot</string>
+  <string name="display_rotation_disabled">I-Disabled</string>
+  <string name="display_rotation_unit">ang antas</string>
+  <string name="display_rotation_category_title">Pagikot ng mga paraan</string>
+  <string name="display_rotation_0_title">0 ang mga antas</string>
+  <string name="display_rotation_90_title">90 ang mga antas</string>
+  <string name="display_rotation_180_title">180 ang mga antas</string>
+  <string name="display_rotation_270_title">270 ang mga antas</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

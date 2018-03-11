@@ -17,14 +17,14 @@
   <string name="extended_version">Extended sürümü</string>
   <string name="extended_version_default">Bilinmiyor</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Yapı tarihi</string>
+  <string name="build_date">Oluşturma tarihi</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Gerek Yok, Geliştirme ayarları varsayılan olarak etkin.</string>
   <!-- Changelog -->
   <string name="changelog_title">Değişiklikler</string>
-  <string name="changelog_summary">Son Değişiklikler</string>
+  <string name="changelog_summary">Son değişiklikler</string>
   <string name="changelog_loading">Değişiklikler yükleniyor\u2026</string>
   <string name="changelog_error">Değişiklikler yüklenemiyor</string>
   <!-- About AospExtended -->
@@ -38,7 +38,7 @@
   <string name="gplus_description">G+ topluluğumuza katılın</string>
   <string name="telegram">Telegram</string>
   <string name="telegram_description">Telegram kanalımıza abone olun</string>
-  <string name="web">İndirme Merkezi</string>
+  <string name="web">İndirme merkezi</string>
   <string name="web_description">İndirme merkezimizi ziyaret edin</string>
   <string name="help_translate">Çeviriler</string>
   <string name="help_translate_description">Kendi dilinize çevirmek için Crowdin\'i ziyaret edin</string>
@@ -76,7 +76,7 @@
   <string name="power_menu_expanded_desktop">Genişletilmiş masaüstü</string>
   <string name="expanded_hide_nothing">Hiçbir şeyi gizleme</string>
   <string name="expanded_hide_status">Durum çubuğunu gizle</string>
-  <string name="expanded_hide_navigation">Gezinti çubuğunu gizle</string>
+  <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
   <string name="expanded_hide_both">İkisini de gizle</string>
   <string name="expanded_nothing_to_show">Genişletilmiş durum için uygulama başına özel bir yapılandırma eklemek için \"Tümü için etkin\" konumunu kapalı konumuna getirin</string>
   <string name="expanded_desktop_state">Genişletilmiş durum</string>
@@ -98,9 +98,9 @@
   <string name="night_bright_low">Düşük parlaklık</string>
   <string name="night_bright_medium">Orta parlaklık</string>
   <!-- Notification volume -->
-  <string name="link_volume_option_title">Zil sesi ve bildirim sesini birleştir</string>
-  <string name="notification_volume_option_title">Bildirim sesi düzeyi</string>
-  <string name="ring_notification_volume_option_title">Zil sesi ve bildirim sesi düzeyi</string>
+  <string name="link_volume_option_title">Zil sesi ve bildirim sesini bağla</string>
+  <string name="notification_volume_option_title">Bildirim ses seviyesi</string>
+  <string name="ring_notification_volume_option_title">Zil sesi ve bildirim sesi seviyesi</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <string name="app_ops_cat_location">Konum</string>
@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Cihaz</string>
   <string name="app_ops_cat_bootup">Açılış</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Kamera</string>
+  <string name="app_ops_access_location">Konum</string>
+  <string name="app_ops_access_notifications">Bildirimler</string>
   <string name="app_ops_activate_vpn">VPN(sanal özel ağ)</string>
+  <string name="app_ops_auto_start">Otomatik başlatma</string>
+  <string name="app_ops_delete_call_log">Arama kaydını sil</string>
+  <string name="app_ops_delete_contacts">Kişileri sil</string>
+  <string name="app_ops_delete_mms">MMS sil</string>
+  <string name="app_ops_delete_sms">SMS sil</string>
+  <string name="app_ops_draw_on_top">Üste taşı</string>
+  <string name="app_ops_get_usage_stats">Kullanım istatistiklerini görüntüle</string>
+  <string name="app_ops_keep_device_awake">Uyanık tut</string>
+  <string name="app_ops_make_phone_call">Arama yap</string>
+  <string name="app_ops_modify_calendar">Takvimi güncelle</string>
+  <string name="app_ops_modify_call_log">Arama kaydını güncelle</string>
+  <string name="app_ops_modify_clipboard">Panoyu düzenle</string>
+  <string name="app_ops_modify_contacts">Kişileri güncelle</string>
+  <string name="app_ops_modify_settings">Ayarları güncelle</string>
+  <string name="app_ops_mute_unmute_microphone">Mikrofonu kapat/aç</string>
+  <string name="app_ops_play_audio">Sesi oynat</string>
+  <string name="app_ops_post_notification">Bildirim gönder</string>
+  <string name="app_ops_project_media">Proje medyası</string>
+  <string name="app_ops_read_calendar">Takvimi oku</string>
+  <string name="app_ops_read_call_log">Arama kaydını oku</string>
+  <string name="app_ops_read_clipboard">Panoyu oku</string>
+  <string name="app_ops_read_contacts">Kişileri oku</string>
+  <string name="app_ops_read_mms">MMS oku</string>
+  <string name="app_ops_read_sms">SMS oku</string>
+  <string name="app_ops_receive_sms">SMS al</string>
+  <string name="app_ops_record_audio">Ses kaydet</string>
+  <string name="app_ops_send_mms">MMS gönder</string>
+  <string name="app_ops_send_sms">SMS gönder</string>
+  <string name="app_ops_toast_window">Toast mesajları</string>
+  <string name="app_ops_use_alarm_volume">Alarm sesi seviyesi</string>
+  <string name="app_ops_use_audio_focus">Ses odağı</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth ses seviyesi</string>
+  <string name="app_ops_use_master_volume">Ana ses seviyesi</string>
+  <string name="app_ops_use_media_buttons">Medya tuşları</string>
+  <string name="app_ops_use_media_volume">Medya ses seviyesi</string>
+  <string name="app_ops_use_notification_volume">Bildirim ses seviyesi</string>
+  <string name="app_ops_use_ring_volume">Zil sesi seviyesi</string>
+  <string name="app_ops_use_vibrate">Dokunmatik geri bildirim</string>
+  <string name="app_ops_use_voice_volume">Arama ses seviyesi</string>
+  <string name="app_ops_write_mms">MMS yaz</string>
+  <string name="app_ops_write_sms">SMS yaz</string>
+  <string name="app_ops_use_fingerprint">Parmak izi</string>
+  <string name="app_ops_add_voicemail">Sesli mesaj</string>
+  <string name="app_ops_read_phone_state">Telefon durumuna eriş</string>
   <string name="app_ops_scan_wifi">WİFİ Ağlarını Tara</string>
+  <string name="app_ops_change_wallpaper">Duvar kağıdını değiştir</string>
+  <string name="app_ops_assist_structure">Yardımcı yapı</string>
+  <string name="app_ops_assist_screenshot">Ekran görüntüsü</string>
+  <string name="app_ops_use_body_sensors">Vücut sensörleri</string>
+  <string name="app_ops_read_cell_broadcasts">Hücre yayınları</string>
+  <string name="app_ops_mock_location">Sahte konum</string>
+  <string name="app_ops_read_external_storage">Harici depolamayı oku</string>
+  <string name="app_ops_write_external_storage">Harici depolamaya yaz</string>
+  <string name="app_ops_turn_on_screen">Ekranı aç</string>
+  <string name="app_ops_get_accounts">Cihaz hesapları</string>
+  <string name="app_ops_run_in_background">Arka planda çalıştır</string>
+  <string name="app_ops_accessibility_volume">Erişebilirlik ses seviyesi</string>
+  <string name="app_ops_read_phone_numbers">Telefon numaralarını oku</string>
+  <string name="app_ops_request_install_packages">Paketler yükle</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Ön planda başlat</string>
+  <string name="app_ops_answer_phone_calls">Aramalara cevap ver</string>
+  <string name="app_ops_boot_completed">Otomatik başlat</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root yönetimi</string>
   <string name="rootmanagement_dashboard_summary">Root erişimini yönetme</string>
@@ -124,15 +188,15 @@
   <string name="battery_saver_color_title">Uyarı rengi</string>
   <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda, turuncu durum ve gezinti çubuklarını etkinleştirin</string>
   <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">Şarja takınca uyandır</string>
+  <string name="wakeup_when_plugged_unplugged_title">Takıp çıkarmada uyandır</string>
   <string name="wakeup_when_plugged_unplugged_summary">Şarja takıldığında veya çıkarıldığında cihazı uyandırır.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">İşlemci bilgisini göster</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <string name="show_cpu_info_summary">Geçerli işlemci bilgisini gösteren ekran yer paylaşımı</string>
-  <string name="dashboard_conditions_title">Kontrol paneli ayarları</string>
-  <string name="summary_dashboard_conditions_enabled">Kontrol paneli ayarları etkin</string>
-  <string name="summary_dashboard_conditions_disabled">Kontrol paneli ayarları devre dışı</string>
+  <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
+  <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+  <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
   <!-- Custom light color -->
   <string name="light_customization">Led bildirim ışığı</string>
   <string name="custom_light_title">Işık rengi</string>
@@ -140,7 +204,7 @@
   <string name="custom_light_off_time_title">"Işık kapalıyken yanıp sönme hızı (ms)"</string>
   <string name="app_notifications_info_desc">Işık renkleri ve diğer seçenekleri yapılandırmak için kanalın üstüne dokunun</string>
   <string name="value_equals_default">Varsayılan</string>
-  <string name="show_light_on_zen_title">Rahatsız Etmeyin modunda yak söndür</string>
+  <string name="show_light_on_zen_title">Rahatsız etmeyin modunda ışığı yak söndür</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Ses ayarlama sesleri</string>
   <!-- Reset battery stats -->
@@ -152,10 +216,10 @@
   <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
   <string name="volume_steps_dtmf_title">Ses seviyesi: DTMF</string>
   <string name="volume_steps_music_title">Ses seviyesi: Medya</string>
-  <string name="volume_steps_notification_title">Ses seviyesi: Bildirim</string>
+  <string name="volume_steps_notification_title">Ses seviyesi: Bildirimler</string>
   <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
   <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
-  <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli Arama</string>
+  <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
   <string name="volume_steps_reset">Sıfırla</string>
   <string name="volume_steps_60">60</string>
   <string name="volume_steps_45">45</string>
@@ -163,11 +227,11 @@
   <string name="volume_steps_15">15</string>
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
-  <string name="dashboard_suggestions_title">Konrtol panel önerileri</string>
-  <string name="summary_dashboard_suggestions_enabled">Kontrol panel önerileri etkin</string>
-  <string name="summary_dashboard_suggestions_disabled">Kontrol panel önerileri devre dışı</string>
+  <string name="dashboard_suggestions_title">Ayarlar menüsü önerileri</string>
+  <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
+  <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
   <!-- Dashboard Category -->
-  <string name="dashboard_category">Kontrol panel ayarları</string>
+  <string name="dashboard_category">Ayarlar menüsü seçenekleri</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">Cihaz şifrelenmiş</string>
   <string name="custom_encryption_and_credential_settings_summary_off">Cihaz şifresi çözüldü</string>
@@ -178,18 +242,18 @@
   <string name="adb_over_network_warning">UYARI: Android Hata Ayıklama (ADB) ağ üzerinden aktifken, telefonunuz bağlı olan tüm ağların kötüye kullanımlarına açıktır, GSM verisi dahil!\n\nSadece güvenilir ağlara bağlıyken kullanın.\n\nBu özelliği gerçekten aktif etmek istiyor musunuz?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Şarja takıldığında titret</string>
-  <string name="alert_on_charged_level_title">Optimum şarj uyarı seviyesi</string>
-  <string name="alert_on_charged_level_summary">Eğer ekran en az 1 dakidadır kapalı ise en uygun şarj seviyesinde bildir ve titret/ses çal.\nBildirimler üzerlerine uzun basıldığında ayrı ayrı devre dışı bırakılabilirler.</string>
+  <string name="alert_on_charged_level_title">Şarj uyarı seviyesi</string>
+  <string name="alert_on_charged_level_summary">Eğer ekran en az 1 dakidadır kapalı ise en uygun şarj seviyesinde bildir ve ses çal.\nBildirimler üzerlerine uzun basıldığında ayrı ayrı devre dışı bırakılabilir.</string>
   <string name="alert_on_charged_level_dis">Devre dışı</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
-  <string name="system_theme_style_title">Arayüz stili</string>
+  <string name="system_theme_style_title">Kullanıcı arayüzü stili</string>
   <string name="system_theme_style_auto">Duvar kağıdı merkezli</string>
-  <string name="system_theme_style_light">Aydınlık Arayüz</string>
-  <string name="system_theme_style_dark">Karanlık Arayüz</string>
-  <string name="system_theme_style_black">Siyah Arayüz</string>
+  <string name="system_theme_style_light">Aydınlık arayüz</string>
+  <string name="system_theme_style_dark">Karanlık arayüz</string>
+  <string name="system_theme_style_black">Siyah arayüz</string>
   <string name="system_theme_style_extended">Extended UI</string>
   <string name="theme_applied_toast">Tema uygulandı.</string>
   <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
@@ -214,7 +278,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
+  <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştırır</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
+  <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
+  <string name="increasing_ring_ramp_up_time_title">Yükselme süresi</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Döndürme</string>
+  <string name="display_rotation_disabled">Devde dışı</string>
+  <string name="display_rotation_unit">derece</string>
+  <string name="display_rotation_category_title">Döndürme modları</string>
+  <string name="display_rotation_0_title">0 derece</string>
+  <string name="display_rotation_90_title">90 derece</string>
+  <string name="display_rotation_180_title">180 derece</string>
+  <string name="display_rotation_270_title">270 derece</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

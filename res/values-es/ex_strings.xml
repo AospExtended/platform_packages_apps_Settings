@@ -29,7 +29,7 @@
   <string name="changelog_error">Incapaz de cargar el registro de cambios</string>
   <!-- About AospExtended -->
   <string name="aex_about_info">Acerca de nosotros</string>
-  <string name="aex_about_summary">Nuestra presentación y nuestro equipo</string>
+  <string name="aex_about_summary">Nuestra introducción y equipo</string>
   <string name="aex_about_info_summary">AospExtended es una ROM basa en AOSP que proporciona una interfaz stock con varias opciones junto al motor de temas Substratum. Este projecto se ha realizado \"cherry-picking\" varias opciones diferentes proyectos. Siendo basada en AOSP, proporciona una experiencia fluida y sin lag. Notros constantemente intentaremos añadir nuevas opciones para hacer mejor este proyecto.&#35;BeExtended</string>
   <string name="dev_info">Acerca de AospExtended</string>
   <string name="github">GitHub</string>
@@ -70,7 +70,7 @@
   <string name="devices_list_empty">La lista está vacía, toque el icono para refrescar</string>
   <string name="reload_list">Refrescar</string>
   <!-- AEX OTA -->
-  <string name="aex_ota_title">Actualizaciones AEX</string>
+  <string name="aex_ota_title">Actualizaciones de AEX</string>
   <string name="aex_ota_summary">Conseguir la última versión</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Escritorio extendido</string>
@@ -111,8 +111,25 @@
   <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_delete_call_log">Eliminar registro de llamadas</string>
+  <string name="app_ops_delete_contacts">Eliminar contactos</string>
+  <string name="app_ops_delete_mms">Eliminar MMS</string>
+  <string name="app_ops_delete_sms">Eliminar SMS</string>
+  <string name="app_ops_modify_calendar">Actualizar calendario</string>
+  <string name="app_ops_modify_call_log">Actualizar registro de llamadas</string>
+  <string name="app_ops_modify_clipboard">Modificar portapapeles</string>
+  <string name="app_ops_modify_contacts">Actualizar contactos</string>
+  <string name="app_ops_modify_settings">Actualizar ajustes</string>
+  <string name="app_ops_read_mms">Leer MMS</string>
+  <string name="app_ops_read_sms">Leer SMS</string>
+  <string name="app_ops_receive_sms">Recibir SMS</string>
+  <string name="app_ops_record_audio">Grabar audio</string>
+  <string name="app_ops_send_mms">Enviar MMS</string>
+  <string name="app_ops_send_sms">Enviar SMS</string>
+  <string name="app_ops_use_alarm_volume">Volumen de alarma</string>
   <string name="app_ops_use_bluetooth_volume">Volumen Bluetooth</string>
   <string name="app_ops_scan_wifi">Escanear Redes WiFi</string>
+  <string name="app_ops_get_accounts">Cuentas del dispositivo</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Administrar root</string>
   <string name="rootmanagement_dashboard_summary">Controlar acceso root</string>
@@ -215,6 +232,16 @@
   <string name="notification_log_summary">Mostrar historial de notificaciones</string>
   <!-- Scramble PIN Layout on Lockscreen -->
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
   <!-- Increasing ring tone volume -->
   <!-- Display : Rotation -->
+  <string name="display_rotation_0_title">0 grados</string>
+  <string name="display_rotation_90_title">90 grados</string>
+  <string name="display_rotation_180_title">180 grados</string>
+  <string name="display_rotation_270_title">270 grados</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

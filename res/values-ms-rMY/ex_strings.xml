@@ -110,9 +110,30 @@
   <string name="app_ops_cat_device">Peranti</string>
   <string name="app_ops_cat_bootup">Bootup</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Kamera</string>
+  <string name="app_ops_access_location">Lokasi</string>
+  <string name="app_ops_access_notifications">Notifikasi</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_delete_call_log">Padam log panggilan</string>
+  <string name="app_ops_delete_contacts">Padam Kenalan</string>
+  <string name="app_ops_delete_mms">Padam MMS</string>
+  <string name="app_ops_delete_sms">Padam SMS</string>
+  <string name="app_ops_make_phone_call">Buat panggilan</string>
+  <string name="app_ops_modify_calendar">Kemas kini kalendar</string>
+  <string name="app_ops_modify_settings">Kemaskini tetapan</string>
+  <string name="app_ops_mute_unmute_microphone">Nyenyapkan / nyenyapkan mikrofon</string>
+  <string name="app_ops_play_audio">Mainkan audio</string>
+  <string name="app_ops_read_calendar">Baca kalendar</string>
+  <string name="app_ops_read_call_log">Baca log panggilan</string>
+  <string name="app_ops_read_contacts">Baca kenalan</string>
+  <string name="app_ops_read_mms">Baca MMS</string>
+  <string name="app_ops_read_sms">Baca SMS</string>
+  <string name="app_ops_send_mms">Hantar MMS</string>
+  <string name="app_ops_send_sms">Hantar SMS</string>
   <string name="app_ops_use_bluetooth_volume">Kelantangan Bluetooth</string>
   <string name="app_ops_scan_wifi">Imbas Rangkaian WiFi</string>
+  <string name="app_ops_change_wallpaper">Tukar kertas dinding</string>
+  <string name="app_ops_assist_screenshot">Tangkapan skrin</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -169,4 +190,9 @@
   <!-- Quick unlock -->
   <!-- Increasing ring tone volume -->
   <!-- Display : Rotation -->
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

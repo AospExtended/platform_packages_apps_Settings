@@ -110,9 +110,73 @@
   <string name="app_ops_cat_device">Пристрій</string>
   <string name="app_ops_cat_bootup">Завантаження</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Камера</string>
+  <string name="app_ops_access_location">Місцезнаходження</string>
+  <string name="app_ops_access_notifications">Сповіщення</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Автозапуск</string>
+  <string name="app_ops_delete_call_log">Видалення журналу викликів</string>
+  <string name="app_ops_delete_contacts">Видалення контактів</string>
+  <string name="app_ops_delete_mms">Видалення MMS</string>
+  <string name="app_ops_delete_sms">Видалення SMS</string>
+  <string name="app_ops_draw_on_top">Відображення поверх інших елементів</string>
+  <string name="app_ops_get_usage_stats">Отримувати статистику використання</string>
+  <string name="app_ops_keep_device_awake">Тримати пробудженим</string>
+  <string name="app_ops_make_phone_call">Зробити дзвінок</string>
+  <string name="app_ops_modify_calendar">Оновлення календаря</string>
+  <string name="app_ops_modify_call_log">Оновити список викликів</string>
+  <string name="app_ops_modify_clipboard">Змінювати буфер обміну</string>
+  <string name="app_ops_modify_contacts">Змінювати дані контактів</string>
+  <string name="app_ops_modify_settings">Оновлення налаштувань</string>
+  <string name="app_ops_mute_unmute_microphone">Вимкнути/увімкнути мікрофон</string>
+  <string name="app_ops_play_audio">Програвати аудіо</string>
+  <string name="app_ops_post_notification">Виводити сповіщення</string>
+  <string name="app_ops_project_media">Проект медіа</string>
+  <string name="app_ops_read_calendar">Читання даних календаря</string>
+  <string name="app_ops_read_call_log">Читати журнал викликів</string>
+  <string name="app_ops_read_clipboard">Читання буфера обміну</string>
+  <string name="app_ops_read_contacts">Читання даних контактів</string>
+  <string name="app_ops_read_mms">Читання MMS</string>
+  <string name="app_ops_read_sms">Читання SMS</string>
+  <string name="app_ops_receive_sms">Отримання SMS</string>
+  <string name="app_ops_record_audio">Запис аудіо</string>
+  <string name="app_ops_send_mms">Надсилання MMS</string>
+  <string name="app_ops_send_sms">Надсилання SMS</string>
+  <string name="app_ops_toast_window">Спливаючі тост-сповіщення</string>
+  <string name="app_ops_use_alarm_volume">Гучність будильника</string>
+  <string name="app_ops_use_audio_focus">Mag-pokus sa audio</string>
   <string name="app_ops_use_bluetooth_volume">Гучність bluetooth</string>
+  <string name="app_ops_use_master_volume">Загальна гучність</string>
+  <string name="app_ops_use_media_buttons">Кнопки мультимедіа</string>
+  <string name="app_ops_use_media_volume">Гучність мультимедіа</string>
+  <string name="app_ops_use_notification_volume">Гучність сповіщення</string>
+  <string name="app_ops_use_ring_volume">Гучність дзвінка</string>
+  <string name="app_ops_use_vibrate">Вібровідгук</string>
+  <string name="app_ops_use_voice_volume">Гучність при розмові</string>
+  <string name="app_ops_write_mms">Написання MMS</string>
+  <string name="app_ops_write_sms">НаписанняSMS</string>
+  <string name="app_ops_use_fingerprint">Відбиток пальця</string>
+  <string name="app_ops_add_voicemail">Голосова пошта</string>
+  <string name="app_ops_read_phone_state">Доступ до стану телефону</string>
   <string name="app_ops_scan_wifi">Сканування мереж WiFi</string>
+  <string name="app_ops_change_wallpaper">Зміна шпалер</string>
+  <string name="app_ops_assist_structure">Використовувати структуру асистента</string>
+  <string name="app_ops_assist_screenshot">Знімок екрану</string>
+  <string name="app_ops_use_body_sensors">Датчики на тілі</string>
+  <string name="app_ops_read_cell_broadcasts">Передача стільникових оповіщень</string>
+  <string name="app_ops_mock_location">Підробляти розташування</string>
+  <string name="app_ops_read_external_storage">Читання з зовн. носія</string>
+  <string name="app_ops_write_external_storage">Запис на зовн. носій</string>
+  <string name="app_ops_turn_on_screen">Вмикати екран</string>
+  <string name="app_ops_get_accounts">Отримувати облікові записи пристрою</string>
+  <string name="app_ops_run_in_background">Працювати у фоновому режимі</string>
+  <string name="app_ops_accessibility_volume">Přístup k hlasitosti</string>
+  <string name="app_ops_read_phone_numbers">Читання номеру телефону</string>
+  <string name="app_ops_request_install_packages">Встановлювати пакети</string>
+  <string name="app_ops_picture_in_picture">Картинка в картинці (PiP)</string>
+  <string name="app_ops_app_start_foreground">Запускатися на передньому плані</string>
+  <string name="app_ops_answer_phone_calls">Відповідати на дзвінки</string>
+  <string name="app_ops_boot_completed">Авто запуск</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Керування Root-доступом</string>
   <string name="rootmanagement_dashboard_summary">Керування root правами</string>
@@ -215,7 +279,26 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Показати історію сповіщень</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Перемішана розкладка</string>
+  <string name="unlock_scramble_pin_layout_summary">Перемішувати розкладку PIN-коду підчас розблокування пристрою</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Наростаюча гучність дзвінка</string>
+  <string name="increasing_ring_min_volume_title">Початкова гучність</string>
+  <string name="increasing_ring_ramp_up_time_title">Час наростання</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Обертання</string>
+  <string name="display_rotation_disabled">Вимкнено</string>
+  <string name="display_rotation_unit">градусів</string>
+  <string name="display_rotation_category_title">Режими обертання</string>
+  <string name="display_rotation_0_title">0 градусів</string>
+  <string name="display_rotation_90_title">90 градусів</string>
+  <string name="display_rotation_180_title">180 градусів</string>
+  <string name="display_rotation_270_title">270 градусів</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>
