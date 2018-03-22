@@ -77,6 +77,13 @@ android_library {
         "VendorSupport-Libs",
         "okhttpcustom",
         "okio",
+        "retrofit",
+        "converter-gson",
+        "rxjava",
+        "adapter-rxjava",
+        "gson",
+        "reactive-streams",
+        "rxandroid",
     ],
 
     libs: [
@@ -143,6 +150,11 @@ filegroup {
     srcs: ["AndroidManifest.xml"],
 }
 
+android_library_import {
+    name: "rxandroid",
+    aars: ["libs/rxandroid-2.0.2.aar"],
+}
+
 java_import {
     name: "okhttpcustom",
     jars: ["libs/okhttp-3.8.1.jar"],
@@ -151,4 +163,34 @@ java_import {
 java_import {
     name: "okio",
     jars: ["libs/okio-1.13.0.jar"],
+}
+
+java_import {
+    name: "retrofit",
+    jars: ["libs/retrofit-2.4.0.jar"],
+}
+
+java_import {
+    name: "converter-gson",
+    jars: ["libs/converter-gson-2.4.0.jar"],
+}
+
+java_import {
+    name: "rxjava",
+    jars: ["libs/rxjava-2.1.11.jar"],
+}
+
+java_import {
+    name: "adapter-rxjava",
+    jars: ["libs/adapter-rxjava2-2.4.0.jar"],
+}
+
+java_import {
+    name: "gson",
+    jars: ["libs/gson-2.8.2.jar"],
+}
+
+java_import {
+    name: "reactive-streams",
+    jars: ["libs/reactive-streams-1.0.2.jar"],
 }
