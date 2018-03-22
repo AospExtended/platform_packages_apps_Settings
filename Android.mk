@@ -48,7 +48,10 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     jsr305 \
     settings-logtags \
     okhttpcustom \
-    okio
+    okio \
+    retrofit \
+    converter-gson \
+    rxjava
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -75,7 +78,10 @@ include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     okhttpcustom:libs/okhttp-3.8.1.jar \
-    okio:libs/okio-1.13.0.jar
+    okio:libs/okio-1.13.0.jar \
+    retrofit:libs/retrofit-2.4.0.jar \
+    converter-gson:libs/converter-gson-2.4.0.jar \
+    rxjava:libs/rxjava-2.1.11.jar
 
 include $(BUILD_MULTI_PREBUILT)
 
