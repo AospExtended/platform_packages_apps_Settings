@@ -14,26 +14,101 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">追加バージョン</string>
+  <string name="extended_version_default">不明</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">ビルド日時</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">開発者向けオプションはデフォルトで有効になっています。</string>
   <!-- Changelog -->
+  <string name="changelog_title">更新履歴</string>
+  <string name="changelog_summary">最近の変更</string>
+  <string name="changelog_loading">更新履歴を読み込んでいます\u2026</string>
+  <string name="changelog_error">更新履歴を読み込めませんでした</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">私たちについて</string>
+  <string name="aex_about_summary">私たちとチームの紹介</string>
+  <string name="aex_about_info_summary">AospExtended は、Substratum テーマエンジンを始めとする様々なカスタマイズ機能を備えたAOSP ベースのROMです。ストックROMのような UI ・ UX を提供します。プロジェクトは、他のプロジェクトから選び抜かれた様々なコミットによって構成されています。AOSP に基づいているので滑らかで、ラグのない体験が可能です。私たちは常により多くの機能を追加し、さらに定期的に更新します。&#35;BeExtended</string>
+  <string name="dev_info">AospExtended について</string>
+  <string name="github">GitHub</string>
+  <string name="github_description">ソースコードを表示</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">G+ コミュニティに参加する</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">弊社チャンネルを購読する</string>
+  <string name="web">ダウンロードセンター</string>
+  <string name="web_description">ダウンロード ポータルをご覧ください</string>
+  <string name="help_translate">言語リスト</string>
+  <string name="help_translate_description">翻訳に貢献するには、我たちの Crowdin に訪れてみてください</string>
+  <string name="walls">壁紙</string>
+  <string name="walls_description">様々なユーザーによって作成された壁紙を入手します</string>
+  <string name="leads">チームリーダー</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">開発者</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">モデレーター兼アマチュア開発者</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">開発者</string>
+  <string name="designers">デザイナー</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">スレッドバーナー、ロゴ、壁紙</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">QS/Fling ロゴ</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">壁紙、ブートアニメーション</string>
+  <string name="maintainers">メンテナ</string>
+  <string name="maintainers_title">公式メンテナ</string>
+  <string name="maintainers_summary">正式サポートデバイスと各メンテナ</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">メンテナ: %1$s</string>
+  <string name="loading_devices">デバイス一覧を読み込んでいます...</string>
+  <string name="loading_devices_failed">デバイス一覧を読み込めませんでした</string>
+  <string name="devices_list_empty">リストが空です。リロードするにはアイコンをタップしてください。</string>
+  <string name="reload_list">リロード</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">AEXの更新</string>
+  <string name="aex_ota_summary">最新のビルドをダウンロードします</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
+  <string name="expanded_hide_status">ステータスバーを非表示</string>
+  <string name="expanded_hide_navigation">ナビゲーションバーを非表示</string>
+  <string name="expanded_hide_both">両方を非表示</string>
+  <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
+  <string name="expanded_desktop_style_description">既定の拡張デスクトップ スタイルを選択する</string>
+  <string name="expanded_desktop_title">拡張デスクトップのオプション</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">スクリーンショットの音</string>
+  <string name="screenshot_sound_summary">スクリーンショットを取得した際に効果音を鳴らす</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">明るさ</string>
+  <string name="night_bright_minimum">最低の明るさ</string>
+  <string name="night_bright_low">低めの明るさ</string>
+  <string name="night_bright_medium">通常の明るさ</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">着信と通知の音量を連動</string>
+  <string name="notification_volume_option_title">通知の音量</string>
+  <string name="ring_notification_volume_option_title">着信と通知の音量</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">カメラ</string>
+  <string name="app_ops_access_location">位置情報</string>
+  <string name="app_ops_access_notifications">通知</string>
+  <string name="app_ops_activate_vpn">VPN</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">ルート権限の管理</string>
+  <string name="rootmanagement_dashboard_summary">ルート権限へのアクセスを管理します</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- Battery saver color -->
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">充電開始でスリープ解除</string>
+  <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時のスリープ解除</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <!-- Custom light color -->
@@ -57,4 +132,9 @@
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

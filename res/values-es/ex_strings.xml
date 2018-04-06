@@ -110,26 +110,70 @@
   <string name="app_ops_cat_device">Dispositivo</string>
   <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Cámara</string>
+  <string name="app_ops_access_location">Ubinación</string>
+  <string name="app_ops_access_notifications">Notificaciones</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Inicio automatico</string>
   <string name="app_ops_delete_call_log">Eliminar registro de llamadas</string>
   <string name="app_ops_delete_contacts">Eliminar contactos</string>
   <string name="app_ops_delete_mms">Eliminar MMS</string>
   <string name="app_ops_delete_sms">Eliminar SMS</string>
+  <string name="app_ops_draw_on_top">Mostrar encima</string>
+  <string name="app_ops_get_usage_stats">Obtener datos de uso</string>
+  <string name="app_ops_keep_device_awake">Mantener encendido</string>
+  <string name="app_ops_make_phone_call">Hacer llamada</string>
   <string name="app_ops_modify_calendar">Actualizar calendario</string>
   <string name="app_ops_modify_call_log">Actualizar registro de llamadas</string>
   <string name="app_ops_modify_clipboard">Modificar portapapeles</string>
   <string name="app_ops_modify_contacts">Actualizar contactos</string>
   <string name="app_ops_modify_settings">Actualizar ajustes</string>
+  <string name="app_ops_mute_unmute_microphone">Silenciar/desilenciar micrófono</string>
+  <string name="app_ops_play_audio">Reproducir sonido</string>
+  <string name="app_ops_post_notification">Mandar notificación</string>
+  <string name="app_ops_project_media">Proyectar multimedia</string>
+  <string name="app_ops_read_calendar">Leer calendario</string>
+  <string name="app_ops_read_call_log">Leer registro de llamada</string>
+  <string name="app_ops_read_clipboard">Leer portapapeles</string>
+  <string name="app_ops_read_contacts">Leer contactos</string>
   <string name="app_ops_read_mms">Leer MMS</string>
   <string name="app_ops_read_sms">Leer SMS</string>
   <string name="app_ops_receive_sms">Recibir SMS</string>
   <string name="app_ops_record_audio">Grabar audio</string>
   <string name="app_ops_send_mms">Enviar MMS</string>
   <string name="app_ops_send_sms">Enviar SMS</string>
+  <string name="app_ops_toast_window">Mensajes flotantes</string>
   <string name="app_ops_use_alarm_volume">Volumen de alarma</string>
+  <string name="app_ops_use_audio_focus">Enfoque de sonido</string>
   <string name="app_ops_use_bluetooth_volume">Volumen Bluetooth</string>
+  <string name="app_ops_use_master_volume">Volumen general</string>
+  <string name="app_ops_use_media_buttons">Botones multimedia</string>
+  <string name="app_ops_use_media_volume">Volumen multimedia</string>
+  <string name="app_ops_use_notification_volume">Volumen de notificación</string>
+  <string name="app_ops_use_ring_volume">Volumen de tono</string>
+  <string name="app_ops_use_vibrate">Respuesta háptica</string>
+  <string name="app_ops_use_voice_volume">Volumen de llamada</string>
+  <string name="app_ops_write_mms">Escribir MMS</string>
+  <string name="app_ops_write_sms">Escribir SMS</string>
+  <string name="app_ops_use_fingerprint">Huella digital</string>
+  <string name="app_ops_add_voicemail">Buzón de voz</string>
+  <string name="app_ops_read_phone_state">Estado del dispositivo</string>
   <string name="app_ops_scan_wifi">Escanear Redes WiFi</string>
+  <string name="app_ops_change_wallpaper">Cambiar fondo de pantalla</string>
+  <string name="app_ops_assist_structure">Asistente de estructura</string>
+  <string name="app_ops_assist_screenshot">Capturar pantalla</string>
+  <string name="app_ops_use_body_sensors">Sensores corporales</string>
+  <string name="app_ops_read_cell_broadcasts">Transmisiones móviles</string>
+  <string name="app_ops_mock_location">Simular ubicación</string>
+  <string name="app_ops_read_external_storage">Leer memoria externa</string>
+  <string name="app_ops_write_external_storage">Escribir memoria externa</string>
+  <string name="app_ops_turn_on_screen">Encender la pantalla</string>
   <string name="app_ops_get_accounts">Cuentas del dispositivo</string>
+  <string name="app_ops_run_in_background">Ejecutar en segundo plano</string>
+  <string name="app_ops_accessibility_volume">Volumen de accesibilidad</string>
+  <string name="app_ops_read_phone_numbers">Leer números de teléfono</string>
+  <string name="app_ops_request_install_packages">Instalar paquetes</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Administrar root</string>
   <string name="rootmanagement_dashboard_summary">Controlar acceso root</string>
@@ -244,4 +288,9 @@
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

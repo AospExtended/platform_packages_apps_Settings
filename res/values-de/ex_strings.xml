@@ -30,7 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Über uns</string>
   <string name="aex_about_summary">Unser Team und was wir machen</string>
-  <string name="aex_about_info_summary">AospExtended ist eine AOSP-basierte Rom, die Vanilla UI/UX mit verschiedenen Anpassungsfunktionen in zusammenarbeit mit der Substratum Theme-Engine anbietet. Das Projekt wurde durch Rosinenpicken aus verschiedenen anderen Projekten erschaffen. Auf AOSP zu basieren, verspricht eine flüssige und lagfreie Erfahrung als Vorteil. Wir werden immer versuchen mehr Funktionen hinzuzufügen und es in der Zukunft immer besser zu machen. &#35;BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended ist eine AOSP-basierte Rom, die Vanilla UI/UX mit verschiedenen Anpassungsfunktionen in Zusammenarbeit mit der Substratum Theme-Engine anbietet. Das Projekt wurde durch Rosinenpicken aus verschiedenen anderen Projekten erschaffen. Auf AOSP zu basieren, verspricht eine flüssige und lagfreie Erfahrung als Vorteil. Wir werden immer versuchen mehr Funktionen hinzuzufügen und es in Zukunft immer besser zu machen. &#35;BeExtended</string>
   <string name="dev_info">Über AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">Sehen Sie sich unseren Quellcode an</string>
@@ -43,7 +43,7 @@
   <string name="help_translate">Übersetzungen</string>
   <string name="help_translate_description">Besuchen Sie Crowdin, um in Ihre Sprache zu übersetzen</string>
   <string name="walls">Hintergrundbilder</string>
-  <string name="walls_description">Die Hintergrundbilder sind von unterschiedlichen Benutzern erstellt worden</string>
+  <string name="walls_description">Hintergrundbilder herunterladen, die von verschiedenen Benutzern erstellt wurden</string>
   <string name="leads">Teamleiter</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
   <string name="team1_description">Besitzer und führender Entwickler</string>
@@ -78,7 +78,7 @@
   <string name="expanded_hide_status">Statusleiste ausblenden</string>
   <string name="expanded_hide_navigation">Navigationsleiste ausblenden</string>
   <string name="expanded_hide_both">Beides ausblenden</string>
-  <string name="expanded_nothing_to_show">Um eine benutzerdefinierte Per-App-Konfiguration für den erweiterten Modus hinzuzufügen, schalten Sie \"Für alle aktiviert\" auf aus</string>
+  <string name="expanded_nothing_to_show">Um eine benutzerdefinierte Per-App-Konfiguration für den erweiterten Modus hinzuzufügen, schalten Sie \"Für alle aktiviert\" aus</string>
   <string name="expanded_desktop_state">Erweiterter Modus</string>
   <string name="expanded_enabled_for_all">Für alle aktiviert</string>
   <string name="expanded_user_configurable">Konfigurierbar</string>
@@ -88,8 +88,8 @@
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot-Sound</string>
-  <string name="screenshot_sound_summary">Spielt einen Ton beim erstellen eines Bildschirmfotos ab</string>
+  <string name="screenshot_sound_title">Bildschirmfoto-Ton</string>
+  <string name="screenshot_sound_summary">Spielt einen Ton beim Erstellen eines Bildschirmfotos ab</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Helligkeit</string>
   <string name="night_brightness_value_title">Helligkeit absenken, wenn Nachtlicht aktiv ist</string>
@@ -113,7 +113,7 @@
   <string name="app_ops_access_camera">Kamera</string>
   <string name="app_ops_access_location">Standort</string>
   <string name="app_ops_access_notifications">Benachrichtigungen</string>
-  <string name="app_ops_activate_vpn">ein VPN zu aktivieren</string>
+  <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">Autostart</string>
   <string name="app_ops_delete_call_log">Anrufsliste löschen</string>
   <string name="app_ops_delete_contacts">Kontakte löschen</string>
@@ -141,8 +141,42 @@
   <string name="app_ops_receive_sms">SMS empfangen</string>
   <string name="app_ops_record_audio">Audio aufnehmen</string>
   <string name="app_ops_send_mms">MMS senden</string>
+  <string name="app_ops_send_sms">SMS senden</string>
+  <string name="app_ops_toast_window">Benachrichtigungen</string>
+  <string name="app_ops_use_alarm_volume">Weckerlautstärke</string>
+  <string name="app_ops_use_audio_focus">Audio Fokus</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth-Lautstärke</string>
+  <string name="app_ops_use_master_volume">Gesamtlautstärke</string>
+  <string name="app_ops_use_media_buttons">Funktionstasten</string>
+  <string name="app_ops_use_media_volume">Medienlautstärke</string>
+  <string name="app_ops_use_notification_volume">Benachrichtigungslautstärke</string>
+  <string name="app_ops_use_ring_volume">Klingeltonlautstärke</string>
+  <string name="app_ops_use_vibrate">Haptisches Feedback</string>
+  <string name="app_ops_use_voice_volume">Lautstärke Anruf</string>
+  <string name="app_ops_write_mms">MMS schreiben</string>
+  <string name="app_ops_write_sms">SMS schreiben</string>
+  <string name="app_ops_use_fingerprint">Fingerabdruck</string>
+  <string name="app_ops_add_voicemail">Sprachnachricht</string>
+  <string name="app_ops_read_phone_state">Zugriff auf Gerätestatus</string>
   <string name="app_ops_scan_wifi">WLAN-Netzwerke scannen</string>
+  <string name="app_ops_change_wallpaper">Hintergrund ändern</string>
+  <string name="app_ops_assist_structure">Hilfsassistent</string>
+  <string name="app_ops_assist_screenshot">Bildschirmaufnahme</string>
+  <string name="app_ops_use_body_sensors">Gerätesensoren</string>
+  <string name="app_ops_read_cell_broadcasts">Zugangspunkte</string>
+  <string name="app_ops_mock_location">Pseudostandort</string>
+  <string name="app_ops_read_external_storage">Ext. Speicher lesen</string>
+  <string name="app_ops_write_external_storage">Ext. Speicher beschreiben</string>
+  <string name="app_ops_turn_on_screen">Schalte Bildschirm ein</string>
+  <string name="app_ops_get_accounts">Gerätekonten</string>
+  <string name="app_ops_run_in_background">Im Hintergrund ausführen</string>
+  <string name="app_ops_accessibility_volume">Barrierefreie Lautstärke</string>
+  <string name="app_ops_read_phone_numbers">Telefonnummer lesen</string>
+  <string name="app_ops_request_install_packages">Pakete installieren</string>
+  <string name="app_ops_picture_in_picture">Bild im Bild</string>
+  <string name="app_ops_app_start_foreground">Im Vordergrund starten</string>
+  <string name="app_ops_answer_phone_calls">Anruf annehmen</string>
+  <string name="app_ops_boot_completed">Autostart</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root-Verwaltung</string>
   <string name="rootmanagement_dashboard_summary">Root-Zugriff verwalten</string>
@@ -160,16 +194,16 @@
   <string name="show_cpu_info">CPU Info anzeigen</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <string name="show_cpu_info_summary">Bildschirm-Overlay zeigt aktuelle CPU-Info</string>
-  <string name="dashboard_conditions_title">Dashboard Bedingungen</string>
-  <string name="summary_dashboard_conditions_enabled">Dashboardbedingungen sind aktiv</string>
-  <string name="summary_dashboard_conditions_disabled">Dashboardbedingungen sind nicht aktiv</string>
+  <string name="dashboard_conditions_title">Dashboard-Zustände</string>
+  <string name="summary_dashboard_conditions_enabled">Dashboard-Zustände sind aktiv</string>
+  <string name="summary_dashboard_conditions_disabled">Dashboard-Zustände sind nicht aktiv</string>
   <!-- Custom light color -->
   <string name="light_customization">LED Benachrichtigung</string>
   <string name="custom_light_title">LED Farbe</string>
   <string name="custom_light_on_time_title">"Licht-an-Zeit während LED Puls (ms)"</string>
   <string name="custom_light_off_time_title">"Licht-aus-Zeit während LED Puls (ms)"</string>
   <string name="app_notifications_info_desc">Auf einen der oberen Kanäle tippen um ihre Lichtfarben und andere Optionen anzupassen</string>
-  <string name="value_equals_default">Def</string>
+  <string name="value_equals_default">Std</string>
   <string name="show_light_on_zen_title">Blinken während Nicht Stören</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Lautstärkeanpassungstöne</string>
@@ -193,9 +227,9 @@
   <string name="volume_steps_15">15</string>
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
-  <string name="dashboard_suggestions_title">Dashboard Vorschläge</string>
+  <string name="dashboard_suggestions_title">Dashboard-Vorschläge</string>
   <string name="summary_dashboard_suggestions_enabled">Dashboard-Vorschläge sind aktiviert</string>
-  <string name="summary_dashboard_suggestions_disabled">Dashboardvorschläge sind aktiv</string>
+  <string name="summary_dashboard_suggestions_disabled">Dashboard-Vorschläge sind aktiv</string>
   <!-- Dashboard Category -->
   <string name="dashboard_category">Dashboard-Optionen</string>
   <!-- Encryption and credential -->
@@ -209,12 +243,13 @@
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Bei Anschluss vibrieren</string>
   <string name="alert_on_charged_level_title">Alarm bei optimalem Ladestand</string>
-  <string name="alert_on_charged_level_summary">Benachrichtigen und Ton abspielen/Vibrieren sobald der optimale Ladezustand erreicht wurde, wenn de Bildschirm zumindest für 1 min. aus war.\n Benachrichtigung kann durch langes darauf Drücken deaktiviert werden.</string>
+  <string name="alert_on_charged_level_summary">Benachrichtigen und Ton abspielen/Vibrieren sobald der optimale Ladezustand erreicht wurde, wenn der Bildschirm für mindestens 1 Minute ausgeschaltet war.\n Benachrichtigung kann durch langes darauf drücken deaktiviert werden.</string>
   <string name="alert_on_charged_level_dis">Deaktiviert</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90 %"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">System Thema</string>
   <string name="system_theme_style_title">Stil der Benutzeroberfläche</string>
   <string name="system_theme_style_auto">An Hintergrund angepasst</string>
   <string name="system_theme_style_light">helle Benutzeroberfläche</string>
@@ -223,6 +258,7 @@
   <string name="system_theme_style_extended">erweiterte Benutzeroberfläche</string>
   <string name="theme_applied_toast">Thema angewendet.</string>
   <string name="applying_theme_toast">Anwenden des Themas, bitte warten...</string>
+  <string name="substratum_installed_title">System Themen sind nicht verfügbar da ein Substratum Overlay installiert ist. Bitte entferne jegliche Android System Overlays um fortzufahren.</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> ist <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">Aktiv</string>
@@ -231,7 +267,7 @@
   <string name="sim_enabler_need_disable_sim">SIM-Karte wird deaktiviert. Willst du fortfahren?</string>
   <string name="sim_enabler_will_disable_sim_title">Achtung</string>
   <string name="sim_enabler_need_switch_data_service">Diese SIM-Karte wird deaktiviert und SIM-Karte <xliff:g id="slotid">%1$s</xliff:g> wird für Datendienste weiterverwendet. Bist du sicher, dass du fortfahren möchtest?</string>
-  <string name="sim_enabler_airplane_on">Vorgäng ist im Flugmodus nicht möglich.</string>
+  <string name="sim_enabler_airplane_on">Vorgang ist im Flugmodus nicht möglich.</string>
   <string name="sim_enabler_in_call">Vorgang ist während eines Anrufs nicht möglich.</string>
   <string name="sim_enabler_both_inactive">Es können nicht alle SIM-Karten deaktiviert werden</string>
   <string name="sim_enabler_enabling">Aktivieren\u2026</string>
@@ -244,12 +280,41 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Zeige Benachrichtigungsverlauf</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Zufälliges PIN-Layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Durchmische PIN-Layout beim Entsperren des Gerätes</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+  <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn das/die korrekte Passwort/PIN eingegeben wurde. Es wird empfohlen eine PIN unter 6 Zeichen zu wählen. Wenn die PIN 6 Zeichen übersteigt, könntest du ausgesperrt werden. Du wurdest darauf hingewiesen!</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Ring Lautstärke erhöhen</string>
+  <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+  <string name="increasing_ring_ramp_up_time_title">Startzeit</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Drehung</string>
+  <string name="display_rotation_disabled">Deaktiviert</string>
+  <string name="display_rotation_unit">Grad</string>
+  <string name="display_rotation_category_title">Drehmodus</string>
+  <string name="display_rotation_0_title">0 Grad</string>
+  <string name="display_rotation_90_title">90 Grad</string>
+  <string name="display_rotation_180_title">180 Grad</string>
+  <string name="display_rotation_270_title">270 Grad</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">Passwort anzeigen</string>
+  <string name="lock_directly_show_pattern">Sperrmuster anzeigen</string>
+  <string name="lock_directly_show_pin">PIN-Eingabe anzeigen</string>
+  <string name="lock_directly_show_summary">Überspringe \"zum Entsperren wischen\", wenn das Gerät entsperrt wird</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">Wähle Größe des Entsperrmusters</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Falsches Entsperrmuster anzeigen</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Entsperrmuster Punkte anzeigen</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Vibrieren</string>
+  <string name="lockscreen_vibrate_enabled_head">Bei Entsperrung vibrieren</string>
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

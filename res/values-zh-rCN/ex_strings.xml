@@ -55,7 +55,7 @@
   <string name="team4_description">开发者</string>
   <string name="designers">设计师</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
-  <string name="designer1_description">讨论区横幅、标志、壁纸</string>
+  <string name="designer1_description">论坛帖子横幅、标志、壁纸</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">快速设置/Fling 标志</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
@@ -249,6 +249,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">系统主题</string>
   <string name="system_theme_style_title">界面样式</string>
   <string name="system_theme_style_auto">基于壁纸</string>
   <string name="system_theme_style_light">亮色</string>
@@ -257,6 +258,7 @@
   <string name="system_theme_style_extended">扩展用户界面</string>
   <string name="theme_applied_toast">主题已应用。</string>
   <string name="applying_theme_toast">正在应用主题，请稍等…</string>
+  <string name="substratum_installed_title">系统主题不可用，因为安装有 Substratum 叠加层。请卸载所有应用在 Android 系统上的叠加层以继续。</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>已<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">启用</string>
@@ -282,6 +284,7 @@
   <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">快速解锁</string>
+  <string name="unlock_quick_unlock_control_summary">输入正确的PIN /密码时会自动解锁。建议您使用6位数以下的数字。如果PIN码长于6位数字，则可能被锁定。这是对你的警告！</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
   <string name="increasing_ring_min_volume_title">初始音量</string>
@@ -296,8 +299,22 @@
   <string name="display_rotation_180_title">180 度</string>
   <string name="display_rotation_270_title">270 度</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">直接显示密码输入框</string>
+  <string name="lock_directly_show_pattern">直接显示图案解锁视图</string>
+  <string name="lock_directly_show_pin">直接显示 PIN 输入框</string>
+  <string name="lock_directly_show_summary">解锁设备时, 跳过向上滑动以解锁屏幕</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">选择图案大小</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">显示图案错误</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">显示图案圆点</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">振动</string>
+  <string name="lockscreen_vibrate_enabled_head">解锁时振动</string>
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

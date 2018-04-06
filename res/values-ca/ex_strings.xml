@@ -14,6 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Versió ampliada</string>
   <!-- About phone screen, build date -->
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
@@ -57,4 +58,9 @@
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

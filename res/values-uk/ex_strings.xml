@@ -250,6 +250,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">Системна тема</string>
   <string name="system_theme_style_title">Стиль інтерфейсу</string>
   <string name="system_theme_style_auto">На основі шпалер</string>
   <string name="system_theme_style_light">Світлий інтерфейс</string>
@@ -258,6 +259,7 @@
   <string name="system_theme_style_extended">Розширений інтерфейс користувача</string>
   <string name="theme_applied_toast">Тему застосовано.</string>
   <string name="applying_theme_toast">Застосування теми, будь ласка, зачекайте...</string>
+  <string name="substratum_installed_title">Системні теми недоступні, оскільки встановлено Substratum. Для продовження видаліть всі сторонні оверлеї.</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">увімкнено</string>
@@ -283,6 +285,7 @@
   <string name="unlock_scramble_pin_layout_summary">Перемішувати розкладку PIN-коду підчас розблокування пристрою</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+  <string name="unlock_quick_unlock_control_summary">Розблокувати автоматично, коли PIN/пароль введений вірно. Використовуйте PIN довжиною менше 6 цифр, інакше ви не зможете розблокувати смартфон. Ми вас попередили!</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Наростаюча гучність дзвінка</string>
   <string name="increasing_ring_min_volume_title">Початкова гучність</string>
@@ -297,8 +300,22 @@
   <string name="display_rotation_180_title">180 градусів</string>
   <string name="display_rotation_270_title">270 градусів</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">Показувати введення паролю</string>
+  <string name="lock_directly_show_pattern">Відображати введення графічного ключа</string>
+  <string name="lock_directly_show_pin">Відображати введення PIN-коду</string>
+  <string name="lock_directly_show_summary">Пропустити свайп вгору, щоб розблокувати пристрій</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">Оберіть розмір графічного ключа</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Показувати неправильне введення</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Показувати точки ключа</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Вібрація</string>
+  <string name="lockscreen_vibrate_enabled_head">Вібрувати при розблокуванні</string>
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

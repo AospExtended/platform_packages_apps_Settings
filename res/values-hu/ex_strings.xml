@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">Kiterjesztett verzió</string>
+  <string name="extended_version">AOSP Extended verziója</string>
   <string name="extended_version_default">Ismeretlen</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Készítés dátuma</string>
@@ -60,9 +60,11 @@
   <string name="designer2_description">Gyorsbeállítások/Fling logók</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Háttérképek, Indítási animációk</string>
-  <string name="maintainers">Karbantartók</string>
-  <string name="maintainers_title">Hivatalos karbantartók</string>
+  <string name="maintainers">Felelősök</string>
+  <string name="maintainers_title">Hivatalos felelősök</string>
+  <string name="maintainers_summary">A hivatalosan támogatott készülékek és azok saját felelősei.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">%1$s felelőse</string>
   <string name="loading_devices">A készüléklista betöltése...</string>
   <string name="loading_devices_failed">Nem sikerült a készüléklista betöltése</string>
   <string name="devices_list_empty">A lista üres, újratöltédshez érintse meg az ikont</string>
@@ -76,6 +78,7 @@
   <string name="expanded_hide_status">Állapotsor elrejtése</string>
   <string name="expanded_hide_navigation">Navigációs sáv elrejtése</string>
   <string name="expanded_hide_both">Mindkettő elrejtése</string>
+  <string name="expanded_nothing_to_show">A kiterjesztett felületen belüli alkalmazásbővítéséhez kapcsolja ki az \"Összesre engedélyezve\" beállítást</string>
   <string name="expanded_desktop_state">Kiterjesztett állapot</string>
   <string name="expanded_enabled_for_all">Az összesre engedélyezve</string>
   <string name="expanded_user_configurable">Felhasználó által konfigurálható</string>
@@ -116,6 +119,7 @@
   <string name="app_ops_delete_contacts">Névjegyek törlése</string>
   <string name="app_ops_delete_mms">MMS törlése</string>
   <string name="app_ops_delete_sms">SMS törlése</string>
+  <string name="app_ops_draw_on_top">Megjelenítés alkalmazások felett</string>
   <string name="app_ops_get_usage_stats">Használati statisztika lekérése</string>
   <string name="app_ops_keep_device_awake">Készülék érbentartása</string>
   <string name="app_ops_make_phone_call">Híváskezdeményezés</string>
@@ -126,8 +130,11 @@
   <string name="app_ops_modify_settings">Beállítások frissítése</string>
   <string name="app_ops_mute_unmute_microphone">Mikrofon némítása/feloldása</string>
   <string name="app_ops_play_audio">Audió lejátszása</string>
+  <string name="app_ops_post_notification">Értesítés küldése</string>
+  <string name="app_ops_project_media">Média vetítése</string>
   <string name="app_ops_read_calendar">Naptár olvasása</string>
   <string name="app_ops_read_call_log">Hívásnapló olvasása</string>
+  <string name="app_ops_read_clipboard">Vágólap beolvasása</string>
   <string name="app_ops_read_contacts">Névjegyek olvasása</string>
   <string name="app_ops_read_mms">MMS olvasása</string>
   <string name="app_ops_read_sms">SMS olvasása</string>
@@ -153,6 +160,7 @@
   <string name="app_ops_read_phone_state">Telefonállapot beolvasása</string>
   <string name="app_ops_scan_wifi">Wi-Fi hálózat keresése</string>
   <string name="app_ops_change_wallpaper">Háttérkép megváltoztatása</string>
+  <string name="app_ops_assist_structure">Az asszisztens (segéd) szerkezete</string>
   <string name="app_ops_assist_screenshot">Képernyőmentés</string>
   <string name="app_ops_use_body_sensors">Testszenzorok</string>
   <string name="app_ops_read_cell_broadcasts">Cellán belüli adások</string>
@@ -178,18 +186,31 @@
   <string name="local_backup_password_title">Asztali mentés jelszava</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Figyelmeztetés színe</string>
+  <string name="battery_saver_color_summary">Narancs állapotsor és navigációs sáv engedélyezése, ha az akkumulátorkímélő aktív</string>
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">Felébresztés töltő csatlakoztatásakor</string>
   <string name="wakeup_when_plugged_unplugged_summary">A képernyő bekapcsolása a töltő csatlakoztatása/eltávolítása után.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">CPU adatok megjelenítése</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Képernyőfedvény a jelenlegi CPU-használattal</string>
+  <string name="dashboard_conditions_title">Irányítópult szabályozása</string>
+  <string name="summary_dashboard_conditions_enabled">Irányítópult szabályozása engedélyezve</string>
+  <string name="summary_dashboard_conditions_disabled">Irányítópult szabályozása letiltva</string>
   <!-- Custom light color -->
+  <string name="light_customization">Értesítési fény</string>
+  <string name="custom_light_title">Fény színe</string>
+  <string name="custom_light_on_time_title">"Fény bekapcsolt állapotának ideje villogás közben (ms)"</string>
+  <string name="custom_light_off_time_title">"Fény kikapcsolt állapotának ideje villogás közben (ms)"</string>
+  <string name="app_notifications_info_desc">Érintse meg a fenti csatornák egyikét, hogy testreszabhassa fényeinek színét és egyéb tulajdonságait</string>
   <string name="value_equals_default">Alapértelmezett</string>
+  <string name="show_light_on_zen_title">Villogás DND üzemmódban</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Hangerőállítás hangjai</string>
   <!-- Reset battery stats -->
   <string name="ok">Rendben</string>
+  <string name="menu_stats_reset">Statisztikák törlése</string>
+  <string name="reset_stats_msg">Az akkumulátorhasználati statisztika törlésre kerül</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Hangerőléptetések</string>
   <string name="volume_steps_alarm_title">Ébresztő hangerőléptetése</string>
@@ -206,20 +227,29 @@
   <string name="volume_steps_15">15</string>
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">Irányítópult javaslatok</string>
+  <string name="summary_dashboard_suggestions_enabled">Irányítópult javaslatok bekapcsolva</string>
+  <string name="summary_dashboard_suggestions_disabled">Irányítópult javaslatok kikapcsolva</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">Irányítópult lehetőségek</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">A készülék titkosított</string>
   <string name="custom_encryption_and_credential_settings_summary_off">A készülék nem titkosított</string>
   <!-- Android debugging over WiFi -->
   <string name="adb_over_network">ADB hálózaton keresztül</string>
+  <string name="adb_over_network_summary">TCP/IP hibakeresés hálózati eszközön keresztüli engedélyezése (Wi-Fi, USB hálózatok). Újraindítás után alaphelyzetbe áll vissza</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">FIGYELEM: Ha a hálózati ADB enegdélyezve van, a telefon védtelen minden hálózati behatolás ellen, beleértve a GSM hálózatot is!\n\nCsak akkor használja, ha megbízható hálózatra csatlakozik.\n\nBiztosan engedélyezni akarja ezt a funkciót?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Töltőre helyezéskor rezeg</string>
+  <string name="alert_on_charged_level_title">Optimális töltöttségi riasztás</string>
+  <string name="alert_on_charged_level_summary">Értesítés hanggal és rezgéssel, ha az akkumulátor elérte az optimális töltöttségi szintet és a képernyő legalább 1 perce ki van kapcsolva.\nAz értesítés külön letilható hosszan nyomásával.</string>
   <string name="alert_on_charged_level_dis">Letiltva</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">A rendszer témája</string>
   <string name="system_theme_style_title">Felhasználói felület stílusa</string>
   <string name="system_theme_style_auto">Háttérkép bázisú</string>
   <string name="system_theme_style_light">Világos felhasználói felület</string>
@@ -228,12 +258,17 @@
   <string name="system_theme_style_extended">Kiterjesztett felhasználói felület</string>
   <string name="theme_applied_toast">A Téma beállítva</string>
   <string name="applying_theme_toast">Téma beállítása folyamatban, kis türelmet...</string>
+  <string name="substratum_installed_title">A rendszertémák nem elérhetők, mert egy Substratum overlay telepítve van. Kérlek, távolíts el minden overlayt, ami az Android rendszert módosítja.</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">engedélyezve</string>
   <string name="sim_disabled">letiltva</string>
   <string name="sim_missing">hiányzik vagy hibás</string>
   <string name="sim_enabler_need_disable_sim">A SIM-kártya deaktiválódik. Szeretné folytatni?</string>
   <string name="sim_enabler_will_disable_sim_title">Figyelmeztetés</string>
+  <string name="sim_enabler_need_switch_data_service">Ez a SIM tiltásra kerül és a SIM <xliff:g id="slotid">%1$s</xliff:g> lesz adatszolgáltatáshoz használva. Biztosan folytatni kívánja?</string>
+  <string name="sim_enabler_airplane_on">Nem lehet végrehajtani a műveletet, amíg a repülőgép üzemmód aktív.</string>
+  <string name="sim_enabler_in_call">Nem lehet végrehajtani a műveletet hívás közben.</string>
   <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
   <string name="sim_enabler_enabling">Aktiválás\u2026</string>
   <string name="sim_enabler_disabling">Deaktiválás\u2026</string>
@@ -245,8 +280,11 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Értesítések előzménynaplóinak megjelenítése</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
+  <string name="unlock_scramble_pin_layout_summary">PIN-elrendezés szétszórása az eszköz feloldásakor</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
+  <string name="unlock_quick_unlock_control_summary">Automatikus feloldás, ha a helyes PIN/jelszó beírásra kerül. Ajánlott 6 számjegynél rövidebb PIN használata. Ha a PIN több, mint 6 számjegyű, előfordulhat, hogy kizárásra kerül saját készülékéből. Ne felejtse el, figyelmeztetve volt!</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
   <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
@@ -261,8 +299,22 @@
   <string name="display_rotation_180_title">180 ° fok</string>
   <string name="display_rotation_270_title">270 ° fok</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">Közvetlenül a jelszómegadás megjelenítése</string>
+  <string name="lock_directly_show_pattern">Közvetlenül a mintanézet megjelenítése</string>
+  <string name="lock_directly_show_pin">Közvetlenül a PIN-megadás megjelenítése</string>
+  <string name="lock_directly_show_summary">Csúsztatási képernyő kihagyása a készülék feloldásánál</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">Válassza ki a minta méretét</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Hibás minta megjelenítése</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Feloldási pontok megjelenítése</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Rezgés</string>
+  <string name="lockscreen_vibrate_enabled_head">Rezgés feloldáskor</string>
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

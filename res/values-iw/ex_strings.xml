@@ -14,13 +14,45 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version_default">לא ידוע</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">תאריך בנייה</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">אין צורך, הגדרות מפתח מופעלות כברירת מחדל.</string>
   <!-- Changelog -->
+  <string name="changelog_title">רשימת שינויים</string>
+  <string name="changelog_summary">שינויים אחרונים</string>
+  <string name="changelog_loading">טוען יומן שינויים\u2026</string>
+  <string name="changelog_error">אין אפשרות לטעון את יומן השינויים</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">אודותינו</string>
+  <string name="aex_about_summary">מי אנחנו ומי הם חברי הקבוצה שלנו</string>
+  <string name="dev_info">אודות AospExtended</string>
+  <string name="github">Github</string>
+  <string name="github_description">צפה בקוד המקור</string>
+  <string name="gplus">גוגל+</string>
+  <string name="gplus_description">הצטרף לקהילת Google+ שלנו</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">הצטרף לערוץ הטלגרם שלנו</string>
+  <string name="web">מרכז ההורדות</string>
+  <string name="web_description">בקר במרכז ההורדות שלנו</string>
+  <string name="help_translate">תרגומים</string>
+  <string name="help_translate_description">תרגם לשפה שלך, בקר בפורטל התרגום שלנו באתר Crowdin</string>
+  <string name="walls">רקעים</string>
+  <string name="walls_description">קבל רקעים שנתרמו על ידי משתמשים שונים</string>
+  <string name="team1_description">בעלים\מפתח ראשי</string>
+  <string name="team2_description">מפתח</string>
+  <string name="team4_description">מפתח</string>
+  <string name="designers">מעצבים</string>
+  <string name="designer3_description">רקעים ואנימציות הפעלה</string>
   <!-- Maintainer section -->
+  <string name="loading_devices">טוען רשימת מכשירים...</string>
+  <string name="loading_devices_failed">נכשל בטעינת רשימת המכשירים</string>
+  <string name="devices_list_empty">הרשימה ריקה, גע בסמל כדי לטעון מחדש</string>
+  <string name="reload_list">טעינה מחדש</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">עדכונים AEX</string>
   <!-- Expanded desktop -->
   <!-- App details: open play store link if app is user installed -->
   <!-- Screenshot sound -->
@@ -29,6 +61,52 @@
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_location">מיקום</string>
+  <string name="app_ops_access_notifications">התראות</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">הפעלה אוטומטית</string>
+  <string name="app_ops_delete_call_log">מחיקת יומן השיחות</string>
+  <string name="app_ops_delete_contacts">מחיקת אנשי קשר</string>
+  <string name="app_ops_delete_mms">מחיקת הודעות MMS</string>
+  <string name="app_ops_delete_sms">מחיקת הודעות טקסט</string>
+  <string name="app_ops_draw_on_top">הצגה מעל יישומים אחרים</string>
+  <string name="app_ops_get_usage_stats">קבל סטטיסטיקות שימוש</string>
+  <string name="app_ops_keep_device_awake">שמור במצב פעיל</string>
+  <string name="app_ops_make_phone_call">התקשר</string>
+  <string name="app_ops_modify_calendar">עדכן לוח שנה</string>
+  <string name="app_ops_modify_call_log">עדכן את יומן השיחות</string>
+  <string name="app_ops_modify_clipboard">שינוי לוח העתקה</string>
+  <string name="app_ops_modify_contacts">עדכון אנשי קשר</string>
+  <string name="app_ops_modify_settings">עדכון הגדרות</string>
+  <string name="app_ops_mute_unmute_microphone">השתק/הפעל מיקרופון</string>
+  <string name="app_ops_play_audio">הפעל שמע</string>
+  <string name="app_ops_post_notification">פרסם התראה</string>
+  <string name="app_ops_read_calendar">קריאת לוח שנה</string>
+  <string name="app_ops_read_call_log">קריאת יומן שיחות</string>
+  <string name="app_ops_read_clipboard">קריאת לוח העתקה</string>
+  <string name="app_ops_read_contacts">קריאת אנשי קשר</string>
+  <string name="app_ops_read_mms">קריאת הודעות MMS</string>
+  <string name="app_ops_read_sms">‏קריאת הודעות טקסט</string>
+  <string name="app_ops_receive_sms">‏קבלת הודעות טקסט</string>
+  <string name="app_ops_record_audio">הקלטת קול</string>
+  <string name="app_ops_send_mms">שליחת הודעת MMS</string>
+  <string name="app_ops_send_sms">שליחת הודעת טקסט</string>
+  <string name="app_ops_use_alarm_volume">עצמת התרעה</string>
+  <string name="app_ops_use_audio_focus">מיקוד שמע</string>
+  <string name="app_ops_use_bluetooth_volume">עוצמת קול של Bluetooth</string>
+  <string name="app_ops_use_master_volume">עוצמת שמע ראשית</string>
+  <string name="app_ops_use_media_buttons">לחצני המדיה</string>
+  <string name="app_ops_use_media_volume">עוצמת קול של מדיה</string>
+  <string name="app_ops_use_notification_volume">עוצמת הקול של התראות</string>
+  <string name="app_ops_use_ring_volume">עוצמת קול של צלצול</string>
+  <string name="app_ops_use_voice_volume">עוצמת קול של שיחה</string>
+  <string name="app_ops_write_mms">כתיבת הודעת MMS</string>
+  <string name="app_ops_write_sms">כתיבת הודעת טקסט</string>
+  <string name="app_ops_use_fingerprint">טביעת אצבע</string>
+  <string name="app_ops_add_voicemail">תא קולי</string>
+  <string name="app_ops_read_phone_state">גישה למצב המכשיר</string>
+  <string name="app_ops_scan_wifi">סריקת רשתות WiFi</string>
+  <string name="app_ops_change_wallpaper">החלפת תמונת רקע</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -40,21 +118,48 @@
   <!-- Volume settings - Volume adjustment sound -->
   <!-- Reset battery stats -->
   <!-- Volume Steps -->
+  <string name="volume_steps_system_title">צעדי עוצמת קול: מערכת</string>
+  <string name="volume_steps_voice_call_title">צעדי עוצמת קול: שיחות</string>
+  <string name="volume_steps_reset">איפוס</string>
   <!-- Dashboard Category -->
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">המכשיר מוצפן</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">המכשיר לא מוצפן</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ADB באמצעות הרשת</string>
   <!-- Warning for Adb over Network -->
   <!-- Vibrate on plug -->
   <!-- Themes -->
   <!-- MSIM Manual provisioning -->
+  <string name="sub_activate_success">כרטיס ה־SIM הופעל.</string>
+  <string name="sub_activate_failed">ההפעלה נכשלה.</string>
+  <string name="sub_deactivate_success">כרטיס ה־SIM כובה.</string>
+  <string name="sub_deactivate_failed">הכיבוי נכשל.</string>
+  <string name="available_sims_title">כרטיסי SIM זמינים</string>
   <!-- Notification log -->
   <!-- Scramble PIN Layout on Lockscreen -->
   <!-- Quick unlock -->
   <!-- Increasing ring tone volume -->
   <!-- Display : Rotation -->
+  <string name="display_rotation_category_title">מצבי סיבוב</string>
+  <string name="display_rotation_0_title">0 מעלות</string>
+  <string name="display_rotation_90_title">90 מעלות</string>
+  <string name="display_rotation_180_title">180 מעלות</string>
+  <string name="display_rotation_270_title">270 מעלות</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">הצג ישירות את סיסמת הכניסה</string>
+  <string name="lock_directly_show_pattern">הצג ישירות את דפוס הנעילה</string>
+  <string name="lock_directly_show_pin">הצג ישירות את הכנסת קוד ה-PIN</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">בחר גודל תבנית</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">רטט</string>
+  <string name="lockscreen_vibrate_enabled_head">רטוט בזמן פתיחת מסך</string>
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>

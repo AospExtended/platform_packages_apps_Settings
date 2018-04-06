@@ -249,6 +249,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">Системная тема</string>
   <string name="system_theme_style_title">Стиль интерфейса</string>
   <string name="system_theme_style_auto">На основе обоев</string>
   <string name="system_theme_style_light">Светлый стиль</string>
@@ -257,8 +258,9 @@
   <string name="system_theme_style_extended">Extended стиль</string>
   <string name="theme_applied_toast">Тема оформления установлена.</string>
   <string name="applying_theme_toast">Применение темы, пожалуйста, подождите...</string>
+  <string name="substratum_installed_title">Системные темы недоступны, так как присутствуют слои Substratum. Пожалуйста, удалите все слои, использующие маскировку приложения Android System, чтобы продолжить.</string>
   <!-- MSIM Manual provisioning -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> — <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">включена</string>
   <string name="sim_disabled">отключена</string>
   <string name="sim_missing">отсутствует или неисправна</string>
@@ -282,6 +284,7 @@
   <string name="unlock_scramble_pin_layout_summary">Переставить кнопки ввода PIN-кода в случайном порядке</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+  <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка, когда PIN-код/пароль введён верно. В качестве PIN-кода мы рекомендуем использовать не более 6 цифр. Если PIN-код состоит из более чем 6 цифр, вы можете не разблокировать устройство. Вы были предупреждены!</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
   <string name="increasing_ring_min_volume_title">Начальная громкость</string>
@@ -296,8 +299,22 @@
   <string name="display_rotation_180_title">180 градусов</string>
   <string name="display_rotation_270_title">270 градусов</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">Показывать ввод пароля</string>
+  <string name="lock_directly_show_pattern">Отображать ввод графического ключа</string>
+  <string name="lock_directly_show_pin">Отображать ввод PIN-кода</string>
+  <string name="lock_directly_show_summary">Пропустить свайп вверх для разблокировки устройства</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">Выберите размер графического ключа</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Показывать неверный ввод</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Показывать узлы графического ключа</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Вибрация</string>
+  <string name="lockscreen_vibrate_enabled_head">Вибрация при разблокировке</string>
+  <!-- Force authorize substratum packages -->
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Default USB configuration -->
+  <!-- USB paranoia mode -->
+  <!-- Proximity wake -->
 </resources>
