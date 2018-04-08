@@ -61,6 +61,12 @@
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
 
+        <Preference
+            android:key="smart_pixels"
+            android:title="@string/smart_pixels_title"
+            android:summary="@string/smart_pixels_summary"
+            android:fragment="org.aospextended.extensions.SmartPixels" />
+
         <SwitchPreference
             android:key="battery_percentage"
             android:title="@string/battery_percentage"

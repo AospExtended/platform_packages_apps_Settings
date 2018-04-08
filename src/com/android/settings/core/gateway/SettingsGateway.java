@@ -139,6 +139,7 @@ import org.aospextended.extensions.dui.FlingSettings;
 import org.aospextended.extensions.NavbarSettings;
 import org.aospextended.extensions.dui.PulseSettings;
 import org.aospextended.extensions.dui.SmartbarSettings;
+import org.aospextended.extensions.SmartPixels;
 
 public class SettingsGateway {
 
@@ -268,6 +269,7 @@ public class SettingsGateway {
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
             RunningServices.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -312,5 +314,6 @@ public class SettingsGateway {
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
