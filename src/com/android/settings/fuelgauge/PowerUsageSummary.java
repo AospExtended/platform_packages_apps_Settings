@@ -264,6 +264,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 KEY_BATTERY_TIP, (SettingsActivity) getActivity(), this /* fragment */, this /*
                 BatteryTipListener */);
         controllers.add(mBatteryTipPreferenceController);
+        controllers.add(new SmartPixelsPreferenceController(context));
         return controllers;
     }
 
