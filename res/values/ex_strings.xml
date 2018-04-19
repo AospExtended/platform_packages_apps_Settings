@@ -387,5 +387,10 @@
 
     <string name="background_processes_settings_title">Background processes</string>
 
+    <!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps\u2026</string>
+
 </resources>
+
 
