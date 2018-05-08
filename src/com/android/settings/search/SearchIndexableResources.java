@@ -88,6 +88,33 @@ import com.android.settings.wallpaper.WallpaperTypeSettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
+
+import org.aospextended.extensions.ClockDateSettings;
+import org.aospextended.extensions.StatusbarBatteryStyle;
+import org.aospextended.extensions.BatteryBar;
+import org.aospextended.extensions.Traffic;
+import org.aospextended.extensions.CarrierLabel;
+import org.aospextended.extensions.MiscExtensions;
+import org.aospextended.extensions.QuickSettings;
+import org.aospextended.extensions.Header;
+import org.aospextended.extensions.Notifications;
+import org.aospextended.extensions.HeadsUpSettings;
+import org.aospextended.extensions.NavbarSettings;
+import org.aospextended.extensions.dui.SmartbarSettings;
+import org.aospextended.extensions.dui.FlingSettings;
+import org.aospextended.extensions.dui.PulseSettings;
+import org.aospextended.extensions.RecentsUI;
+import org.aospextended.extensions.SlimRecentsPanel;
+import org.aospextended.extensions.LockscreenUI;
+import org.aospextended.extensions.GeneralTweaks;
+import org.aospextended.extensions.ScreenStateToggles;
+import org.aospextended.extensions.BatteryLightSettings;
+import org.aospextended.extensions.Animations;
+import org.aospextended.extensions.Weather;
+import org.aospextended.extensions.Buttons;
+import org.aospextended.extensions.PowerMenuSettings;
+import org.aospextended.extensions.tabs.System;
+
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -216,6 +243,35 @@ public final class SearchIndexableResources {
                 AutomaticStorageManagerSettings.class,
                 NO_DATA_RES_ID,
                 R.drawable.ic_settings_storage);
+        
+        
+        // AEX additions
+        addIndex(ClockDateSettings.class, R.xml.clock_date_settings, R.drawable.ic_statusbarclock);
+        addIndex(StatusbarBatteryStyle.class, R.xml.statusbar_battery_style, R.drawable.ic_battery_settings);
+        addIndex(BatteryBar.class, R.xml.battery_bar, R.drawable.ic_battery_bar);
+        addIndex(Traffic.class, R.xml.traffic, R.drawable.ic_traffic);
+        addIndex(CarrierLabel.class, R.xml.carrierlabel, R.drawable.ic_carrierlabel);
+        addIndex(MiscExtensions.class, R.xml.misc_extensions, R.drawable.ic_misc_extensions);
+        addIndex(QuickSettings.class, R.xml.quick_settings, R.drawable.ic_quick_settings);
+        addIndex(Header.class, R.xml.qs_headers, R.drawable.ic_quick_settings);
+        addIndex(Notifications.class, R.xml.notifications, R.drawable.ic_notification);
+        addIndex(HeadsUpSettings.class, R.xml.heads_up_settings, R.drawable.ic_notification);
+        addIndex(NavbarSettings.class, R.xml.navbar_settings, R.drawable.ic_navigation);
+        addIndex(SmartbarSettings.class, R.xml.smartbar_settings, R.drawable.ic_navigation);
+        addIndex(FlingSettings.class, R.xml.fling_settings, R.drawable.ic_navigation);
+        addIndex(PulseSettings.class, R.xml.pulse_settings, R.drawable.ic_navigation);
+        addIndex(RecentsUI.class,R.xml.recents_ui,R.drawable.ic_recents_ui);
+        addIndex(SlimRecentsPanel.class,R.xml.slim_recents_panel_settings,R.drawable.ic_recents_ui);
+        addIndex(LockscreenUI.class,R.xml.lockscreen_ui,R.drawable.ic_lockscreen_ui);
+        addIndex(GeneralTweaks.class,R.xml.general_tweaks,R.drawable.ic_general_tweaks);
+        addIndex(ScreenStateToggles.class,R.xml.screen_state_toggles,R.drawable.ic_general_tweaks);
+        addIndex(BatteryLightSettings.class,R.xml.battery_light_settings,R.drawable.ic_general_tweaks);
+        addIndex(Animations.class,R.xml.animations,R.drawable.ic_animations);
+        addIndex(Weather.class,R.xml.weather,R.drawable.ic_weather);
+        addIndex(Buttons.class,R.xml.buttons,R.drawable.ic_buttons);
+        addIndex(PowerMenuSettings.class,R.xml.powermenu_settings,R.drawable.ic_buttons);
+        addIndex(System.class,R.xml.system,R.drawable.ic_system_category);
+
     }
 
     private SearchIndexableResources() {
