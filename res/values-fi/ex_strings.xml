@@ -19,6 +19,11 @@
   <!-- Dev Options Enabled by Default -->
   <!-- Changelog -->
   <!-- About AospExtended -->
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Liity G+ yhteisöömme</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Tilaa meidän Telegram kanava</string>
+  <string name="web">Latauskeskus</string>
   <!-- Maintainer section -->
   <!-- AEX OTA -->
   <!-- Expanded desktop -->
@@ -62,4 +67,5 @@
   <!-- Default USB configuration -->
   <!-- USB paranoia mode -->
   <!-- Proximity wake -->
+  <!-- Search -->
 </resources>

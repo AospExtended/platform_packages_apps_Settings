@@ -60,6 +60,8 @@
   <string name="designer2_description">Лагатыпы хуткіх налад</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Шпалеры, анімацыі загрузкі</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Інтэрфейс дапаўненняў, Цэтлікі</string>
   <string name="maintainers">Суправаджальнікі</string>
   <string name="maintainers_title">Афіцыйны суправаджалы</string>
   <string name="maintainers_summary">Афіцыйна падтрымліваемыя прылады і іх суправаджалыя.</string>
@@ -249,6 +251,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">Сістэмнае тэма</string>
   <string name="system_theme_style_title">Стыль інтэрфейсу</string>
   <string name="system_theme_style_auto">На аснове шпалер</string>
   <string name="system_theme_style_light">Светлы стыль</string>
@@ -257,6 +260,7 @@
   <string name="system_theme_style_extended">Пашыраны карыстацкі інтэрфейс</string>
   <string name="theme_applied_toast">Тэма ўжыта.</string>
   <string name="applying_theme_toast">Прымяненне тэмы, калі ласка, пачакайце...</string>
+  <string name="substratum_installed_title">Сістэмныя тэмы недаступныя, так як прысутнічаюць напластаванні Substratum. Калі ласка, выдаліце ​​ўсе напластаванні, якія выкарыстоўваюць маскіроўку праграм Android System, каб працягнуць.</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> з\'яўляецца <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">уключана</string>
@@ -311,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Вібрацыя</string>
   <string name="lockscreen_vibrate_enabled_head">Вібраваць пры разблакоўцы</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Прымусова аўтарызаўваць усе тэмы праграм</string>
+  <string name="force_authorize_substratum_packages_summary">Дазволіць усталёўку тэм праграм з невядомых крыніц</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Напластаванні Substratum</string>
+  <string name="menu_show_substratum">Паказваць напластаванні</string>
+  <string name="menu_hide_substratum">Схаваць напластаванні</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Выберыце канфігурацыю USB па змаўчанні</string>
+  <string name="select_default_usb_configuration_dialog_title">Выберыце канфігурацыю USB</string>
+  <string name="select_usb_default_confguration_warning">УВАГА: Стандартная канфігурацыя USB ўключана і тады, калі прылада заблакавана!\n\nВы сапраўды хочаце ўключыць гэтую канфігурацыю?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Бяспечнае падключэнне USB</string>
+  <string name="usb_paranoia_connect_summary">Дазволіць толькі зарадку прылады і забараніць адладку, калі пры падключэнні USB-кабеля экран абаронены блакаваннем</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Прадухіляць выпадковае ўключэнне</string>
+  <string name="proximity_wake_summary">Правяраць датчык набліжэння перад уключэннем экрана</string>
+  <string name="background_processes_settings_title">Фонавыя працэсы</string>
+  <!-- Search -->
 </resources>

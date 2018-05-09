@@ -60,6 +60,8 @@
   <string name="designer2_description">QS/Fling Logos</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Hintergrundbilder, Bootanimation</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Erweiterungen Benutzeroberfläche, Symbole</string>
   <string name="maintainers">Betreuer</string>
   <string name="maintainers_title">Offizielle Betreuer</string>
   <string name="maintainers_summary">Offiziell unterstützte Geräte und deren Betreuer.</string>
@@ -313,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Vibrieren</string>
   <string name="lockscreen_vibrate_enabled_head">Bei Entsperrung vibrieren</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Erzwinge Autorisierung jeder Themen App</string>
+  <string name="force_authorize_substratum_packages_summary">Erlaube Theme Apps aus unbekannten Quellen</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum Overlays</string>
+  <string name="menu_show_substratum">Overlays anzeigen</string>
+  <string name="menu_hide_substratum">Overlays verstecken</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Standard USB-Konfiguration auswählen</string>
+  <string name="select_default_usb_configuration_dialog_title">USB-Konfiguration auswählen</string>
+  <string name="select_usb_default_confguration_warning">WARNUNG: Die Standard USB Konfiguration ist auch aktiv wenn das Gerät gesperrt ist!\n\nWillst du diese Konfiguration wirklich aktivieren?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Sichere USB-Verbindung</string>
+  <string name="usb_paranoia_connect_summary">Bei aktivem Sperrbildschirm wird nur das Aufladen über USB aktiviert und ADB ausgeschaltet</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+  <string name="proximity_wake_summary">Vor dem Aktivieren des Displays den Näherungssensor überprüfen</string>
+  <string name="background_processes_settings_title">Hintergrundprozesse</string>
+  <!-- Search -->
 </resources>

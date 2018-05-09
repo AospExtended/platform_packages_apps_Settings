@@ -37,13 +37,13 @@
   <string name="gplus">Google+</string>
   <string name="gplus_description">Lid worden van onze Google+ community</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Abonneer je op ons Telegram kanaal</string>
+  <string name="telegram_description">Abonneer op ons Telegram-kanaal</string>
   <string name="web">Downloadcentrum</string>
   <string name="web_description">Ga naar onze download-portaal</string>
   <string name="help_translate">Vertalingen</string>
-  <string name="help_translate_description">Vertaal naar je taal, bezoek onze Crowdin</string>
+  <string name="help_translate_description">Vertaal naar je eigen taal, bezoek onze Crowdin</string>
   <string name="walls">Achtergronden</string>
-  <string name="walls_description">Krijg achtergronden bijgedragen door verschillende gebruikers</string>
+  <string name="walls_description">Krijg achtergronden, bijgedragen door verscheidene gebruikers</string>
   <string name="leads">Teamleiders</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
   <string name="team1_description">Eigenaar/Hoofdontwikkelaar</string>
@@ -55,11 +55,13 @@
   <string name="team4_description">Ontwikkelaar</string>
   <string name="designers">Ontwerpers</string>
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
-  <string name="designer1_description">Thread banners, Logos, Achtergronden</string>
+  <string name="designer1_description">Thread banners, Logo\'s, Achtergronden</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">QS/Fling logo\'s</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Achtergronden, Opstartanimaties</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Extensies UI, pictogrammen</string>
   <string name="maintainers">Onderhouders</string>
   <string name="maintainers_title">Officiële onderhouders</string>
   <string name="maintainers_summary">Officieel ondersteunde apparaten en hun respectieve onderhouders.</string>
@@ -110,9 +112,73 @@
   <string name="app_ops_cat_device">Apparaat</string>
   <string name="app_ops_cat_bootup">Opstarten</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">Camera</string>
+  <string name="app_ops_access_location">Locatie</string>
+  <string name="app_ops_access_notifications">Meldingen</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">Automatisch starten</string>
+  <string name="app_ops_delete_call_log">Belgeschiedenis verwijderen</string>
+  <string name="app_ops_delete_contacts">Contacten verwijderen</string>
+  <string name="app_ops_delete_mms">MMS verwijderen</string>
+  <string name="app_ops_delete_sms">SMS verwijderen</string>
+  <string name="app_ops_draw_on_top">Overheen weergeven</string>
+  <string name="app_ops_get_usage_stats">Gebruiksstatistieken opvragen</string>
+  <string name="app_ops_keep_device_awake">Ingeschakeld houden</string>
+  <string name="app_ops_make_phone_call">Gesprek starten</string>
+  <string name="app_ops_modify_calendar">Agenda bijwerken</string>
+  <string name="app_ops_modify_call_log">Belgeschiedenis bijwerken</string>
+  <string name="app_ops_modify_clipboard">Klembord aanpassen</string>
+  <string name="app_ops_modify_contacts">Contacten bijwerken</string>
+  <string name="app_ops_modify_settings">Instellingen bijwerken</string>
+  <string name="app_ops_mute_unmute_microphone">Microfoon demping aan/uit</string>
+  <string name="app_ops_play_audio">Audio afspelen</string>
+  <string name="app_ops_post_notification">Bericht notificatie</string>
+  <string name="app_ops_project_media">Media projecteren</string>
+  <string name="app_ops_read_calendar">Agenda bekijken</string>
+  <string name="app_ops_read_call_log">Belgeschiedenis inzien</string>
+  <string name="app_ops_read_clipboard">Klembord lezen</string>
+  <string name="app_ops_read_contacts">Contacten inzien</string>
+  <string name="app_ops_read_mms">MMS lezen</string>
+  <string name="app_ops_read_sms">SMS lezen</string>
+  <string name="app_ops_receive_sms">SMS ontvangen</string>
+  <string name="app_ops_record_audio">Audio opnemen</string>
+  <string name="app_ops_send_mms">Verstuur MMS</string>
+  <string name="app_ops_send_sms">Verstuur SMS</string>
+  <string name="app_ops_toast_window">Toast meldingen</string>
+  <string name="app_ops_use_alarm_volume">Alarmvolume</string>
+  <string name="app_ops_use_audio_focus">Audio focus</string>
   <string name="app_ops_use_bluetooth_volume">Bluetooth-volume</string>
+  <string name="app_ops_use_master_volume">Hoofdvolume</string>
+  <string name="app_ops_use_media_buttons">Mediaknoppen</string>
+  <string name="app_ops_use_media_volume">Mediavolume</string>
+  <string name="app_ops_use_notification_volume">Notificatievolume</string>
+  <string name="app_ops_use_ring_volume">Beltoonvolume</string>
+  <string name="app_ops_use_vibrate">Haptische feedback</string>
+  <string name="app_ops_use_voice_volume">Spraakvolume</string>
+  <string name="app_ops_write_mms">Schrijf MMS</string>
+  <string name="app_ops_write_sms">Schrijf SMS</string>
+  <string name="app_ops_use_fingerprint">Vingerafdruk</string>
+  <string name="app_ops_add_voicemail">Voicemail</string>
+  <string name="app_ops_read_phone_state">Telefoonstatus inzien</string>
   <string name="app_ops_scan_wifi">Scan WiFi-netwerken</string>
+  <string name="app_ops_change_wallpaper">Achtergrond wijzigen</string>
+  <string name="app_ops_assist_structure">Ondersteuningsvoorziening</string>
+  <string name="app_ops_assist_screenshot">Schermafbeelding</string>
+  <string name="app_ops_use_body_sensors">Lichaamssensoren</string>
+  <string name="app_ops_read_cell_broadcasts">Cell broadcasts</string>
+  <string name="app_ops_mock_location">Nep locatie</string>
+  <string name="app_ops_read_external_storage">Lees externe opslag</string>
+  <string name="app_ops_write_external_storage">Schijf naar externe opslag</string>
+  <string name="app_ops_turn_on_screen">Scherm inschakelen</string>
+  <string name="app_ops_get_accounts">Apparaataccounts</string>
+  <string name="app_ops_run_in_background">Op de achtergrond uitvoeren</string>
+  <string name="app_ops_accessibility_volume">Toegankelijkheidsvolume</string>
+  <string name="app_ops_read_phone_numbers">Telefoonnummers lezen</string>
+  <string name="app_ops_request_install_packages">Installeer pakketten</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">Start op de voorgrond</string>
+  <string name="app_ops_answer_phone_calls">Oproep beantwoorden</string>
+  <string name="app_ops_boot_completed">Automatisch starten</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root beheer</string>
   <string name="rootmanagement_dashboard_summary">Root-toegang beheren</string>
@@ -185,6 +251,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">Systeemthema</string>
   <string name="system_theme_style_title">UI stijl</string>
   <string name="system_theme_style_auto">Aangepast aan achtergrond</string>
   <string name="system_theme_style_light">Lichte UI</string>
@@ -193,6 +260,7 @@
   <string name="system_theme_style_extended">Uitgebreide UI</string>
   <string name="theme_applied_toast">Thema toegepast.</string>
   <string name="applying_theme_toast">Thema wordt toegepast, even geduld...</string>
+  <string name="substratum_installed_title">Systeem thema\'s zijn niet beschikbaar omdat Substratum overlay is geïnstalleerd. Verwijder alle overlays gericht op Android systeem om verder te gaan.</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">ingeschakeld</string>
@@ -214,17 +282,56 @@
   <!-- Notification log -->
   <string name="notification_log_summary">Toon meldingen logboek</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Lay-out husselen</string>
+  <string name="unlock_scramble_pin_layout_summary">PIN-lay-out door elkaar husselen bij apparaat ontgrendelen</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
+  <string name="unlock_quick_unlock_control_summary">Ontgrendeld automatisch wanneer juiste pincode/wachtwoord wordt ingevoerd. Het wordt aanbevolen een pin met minder dan 6 cijfers te gebruiken. Als PIN meer dan 6 cijfers bevat kunt u worden buitengesloten. U bent gewaarschuwd!</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Toenemend beltoon volume</string>
+  <string name="increasing_ring_min_volume_title">Start volume</string>
+  <string name="increasing_ring_ramp_up_time_title">Opstarttijd</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Rotatie</string>
+  <string name="display_rotation_disabled">Uitgeschakeld</string>
+  <string name="display_rotation_unit">graden</string>
+  <string name="display_rotation_category_title">Rotatie modus</string>
+  <string name="display_rotation_0_title">0 graden</string>
+  <string name="display_rotation_90_title">90 graden</string>
+  <string name="display_rotation_180_title">180 graden</string>
+  <string name="display_rotation_270_title">270 graden</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">Direct wachtwoordscherm tonen</string>
+  <string name="lock_directly_show_pattern">Direct patroonscherm tonen</string>
+  <string name="lock_directly_show_pin">Direct pincodescherm tonen</string>
+  <string name="lock_directly_show_summary">Sla veeg-omhoog-om-te-ontgrendelen-scherm over bij apparaat ontgrendelen</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">Grootte patroon kiezen</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Patroonfout weergeven</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Patroonknoppen weergeven</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Trillen</string>
+  <string name="lockscreen_vibrate_enabled_head">Trillen bij ontgrendelen</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Installatie van thema\'s uit onbekende bronnen toestaan</string>
+  <string name="force_authorize_substratum_packages_summary">Geforceerd toestaan van elke thema applicatie</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum schermlagen</string>
+  <string name="menu_show_substratum">Overlappingen weergeven</string>
+  <string name="menu_hide_substratum">Overlappingen verbergen</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Selecteer standaard USB-configuratie</string>
+  <string name="select_default_usb_configuration_dialog_title">Selecteer USB-configuratie</string>
+  <string name="select_usb_default_confguration_warning">WAARSCHUWING: Standaard USB-configuratie staat ook aan wanneer het apparaat is vergrendeld!\n\nWil je deze configuratie echt zo instellen?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Beveiligde USB-verbinding</string>
+  <string name="usb_paranoia_connect_summary">Opladen via USB en uitschakelen van ADB enkel bij een beveiligd vergrendelscherm</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Voorkom onbedoeld ontwaken</string>
+  <string name="proximity_wake_summary">Voor ontwaken scherm nabijheidssensor raadplegen</string>
+  <string name="background_processes_settings_title">Achtergrondprocessen</string>
+  <!-- Search -->
 </resources>

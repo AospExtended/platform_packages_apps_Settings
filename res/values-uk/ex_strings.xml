@@ -60,6 +60,8 @@
   <string name="designer2_description">Логотипи в панелі швидких налаштувань та Fling</string>
   <string name="designer_3">Ісус R &#40;КрепК&#41;</string>
   <string name="designer3_description">Шпалери, Бутанімації</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Інтерфейс доповнень, Іконки</string>
   <string name="maintainers">Розробники</string>
   <string name="maintainers_title">Офіційний супровід</string>
   <string name="maintainers_summary">Офіційно підтримувані пристрої та їх відповідні розробники.</string>
@@ -314,8 +316,23 @@
   <string name="lockscreen_vibrate_enabled_title">Вібрація</string>
   <string name="lockscreen_vibrate_enabled_head">Вібрувати при розблокуванні</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Примусово авторизувати кожен додаток теми</string>
+  <string name="force_authorize_substratum_packages_summary">Дозволити теми із невідомих джерел</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Шари Substratum</string>
+  <string name="menu_show_substratum">Показати шари</string>
+  <string name="menu_hide_substratum">Приховати шари</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Вибрати USB конфігурацію за замовчуванням</string>
+  <string name="select_default_usb_configuration_dialog_title">Вибрати конфігурацію USB</string>
+  <string name="select_usb_default_confguration_warning">УВАГА: Стандартна конфігурація USB включена і тоді, коли пристрій заблоковано!\n\nВи дійсно хочете включити цю конфігурацію?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Безпечне підключення USB</string>
+  <string name="usb_paranoia_connect_summary">Дозволити тільки зарядку пристрою і заборонити налагодження, якщо при підключенні USB-кабелю екран захищений блокуванням</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Запобігати випадкові пробудження</string>
+  <string name="proximity_wake_summary">Перевіряти датчик наближення перед включенням екрану</string>
+  <string name="background_processes_settings_title">Фонові процеси</string>
+  <!-- Search -->
 </resources>

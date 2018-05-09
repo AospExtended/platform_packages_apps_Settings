@@ -60,6 +60,8 @@
   <string name="designer2_description">快速設定/快速滑動標誌</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">桌布、開機動畫</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">擴展使用者介面, 圖示</string>
   <string name="maintainers">維護人員</string>
   <string name="maintainers_title">官方維護者</string>
   <string name="maintainers_summary">官方支援的裝置及其各自的維護者。</string>
@@ -313,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">震動</string>
   <string name="lockscreen_vibrate_enabled_head">解鎖時震動</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">強制授權每個主題應用程式</string>
+  <string name="force_authorize_substratum_packages_summary">允許來源不明的主題應用程式</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum 疊層</string>
+  <string name="menu_show_substratum">顯示疊層</string>
+  <string name="menu_hide_substratum">隱藏疊層</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">選擇預設 USB 設定</string>
+  <string name="select_default_usb_configuration_dialog_title">選取 USB 設定</string>
+  <string name="select_usb_default_confguration_warning">警告: 鎖定裝置時也會啟用預設的 USB 設定！\n\n你確定你真的想要啟用這個設定嗎？</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">USB 安全連線</string>
+  <string name="usb_paranoia_connect_summary">僅當裝置有安全鎖定畫面且 ADB 停用時才啟用充電</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">防止意外喚醒</string>
+  <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
+  <string name="background_processes_settings_title">背景處理程序</string>
+  <!-- Search -->
 </resources>

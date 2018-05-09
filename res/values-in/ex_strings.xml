@@ -60,6 +60,8 @@
   <string name="designer2_description">Logo QS/Fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Wallpaper, Bootanimasi</string>
+  <string name="designer_4">V23 keras</string>
+  <string name="designer4_description">Ekstensi UI, ikon</string>
   <string name="maintainers">Pengelola</string>
   <string name="maintainers_title">Pengelola resmi</string>
   <string name="maintainers_summary">Perangkat yang didukung secara resmi dan pengelola masing-masing.</string>
@@ -249,6 +251,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">Tema sistem</string>
   <string name="system_theme_style_title">Gaya UI</string>
   <string name="system_theme_style_auto">Basis wallpaper</string>
   <string name="system_theme_style_light">UI terang</string>
@@ -257,6 +260,7 @@
   <string name="system_theme_style_extended">UI Extended</string>
   <string name="theme_applied_toast">Tema diterapkan.</string>
   <string name="applying_theme_toast">Menerapkan tema, silahkan tunggu...</string>
+  <string name="substratum_installed_title">Tema sistem tidak tersedia karena Substratum overlay terpasang. Silakan hapus semua overlay penargetan sistem Android untuk melanjutkan.</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">dihidupkan</string>
@@ -311,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Getar</string>
   <string name="lockscreen_vibrate_enabled_head">Bergetar saat membuka</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Paksa otorisasi setiap aplikasi tema</string>
+  <string name="force_authorize_substratum_packages_summary">Izinkan aplikasi tema dari sumber tidak dikenal</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum overlay</string>
+  <string name="menu_show_substratum">Tampilkan overlay</string>
+  <string name="menu_hide_substratum">Sembunyikan overlay</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Pilih konfigurasi USB standar</string>
+  <string name="select_default_usb_configuration_dialog_title">Pilih konfigurasi USB</string>
+  <string name="select_usb_default_confguration_warning">Peringatan: Konfigurasi standar USB dhidupkan juga saat perangkat terkunci! \n\nApakah anda benar-benar ingin menghidupkan konfigurasi ini?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Koneksi USB aman</string>
+  <string name="usb_paranoia_connect_summary">Hanya pengisian dan matikan ADB ketika USB terpasang pada layar kunci aman</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Mencegah bangun tidak disengaja</string>
+  <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
+  <string name="background_processes_settings_title">Proses latar belakang</string>
+  <!-- Search -->
 </resources>

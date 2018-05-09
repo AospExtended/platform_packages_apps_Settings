@@ -76,6 +76,8 @@
   <string name="expanded_hide_status">ステータスバーを非表示</string>
   <string name="expanded_hide_navigation">ナビゲーションバーを非表示</string>
   <string name="expanded_hide_both">両方を非表示</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには、「すべて拡張」をオフにしてください。</string>
+  <string name="expanded_enabled_for_all">すべて拡張</string>
   <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
   <string name="expanded_desktop_style_description">既定の拡張デスクトップ スタイルを選択する</string>
   <string name="expanded_desktop_title">拡張デスクトップのオプション</string>
@@ -95,46 +97,185 @@
   <string name="ring_notification_volume_option_title">着信と通知の音量</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_bootup">ブート時の実行</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">カメラ</string>
   <string name="app_ops_access_location">位置情報</string>
   <string name="app_ops_access_notifications">通知</string>
   <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">自動起動</string>
+  <string name="app_ops_delete_call_log">通話履歴の削除</string>
+  <string name="app_ops_delete_contacts">連絡先の削除</string>
+  <string name="app_ops_delete_mms">MMSの削除</string>
+  <string name="app_ops_delete_sms">SMSの削除</string>
+  <string name="app_ops_get_usage_stats">使用統計の取得</string>
+  <string name="app_ops_make_phone_call">通話の発信</string>
+  <string name="app_ops_modify_calendar">カレンダーの更新</string>
+  <string name="app_ops_modify_call_log">通話履歴の更新</string>
+  <string name="app_ops_modify_clipboard">クリップボードの変更</string>
+  <string name="app_ops_modify_contacts">連絡先の更新</string>
+  <string name="app_ops_modify_settings">設定の更新</string>
+  <string name="app_ops_mute_unmute_microphone">マイクのミュート/ミュート解除</string>
+  <string name="app_ops_play_audio">音声の再生</string>
+  <string name="app_ops_post_notification">通知の配信</string>
+  <string name="app_ops_read_calendar">カレンダーの読み取り</string>
+  <string name="app_ops_read_call_log">通話履歴の読み取り</string>
+  <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
+  <string name="app_ops_read_contacts">連絡先の読み取り</string>
+  <string name="app_ops_read_mms">MMSの読み取り</string>
+  <string name="app_ops_read_sms">SMSの読み取り</string>
+  <string name="app_ops_receive_sms">SMSの受信</string>
+  <string name="app_ops_record_audio">音声の録音</string>
+  <string name="app_ops_send_mms">MMSの送信</string>
+  <string name="app_ops_send_sms">SMSの送信</string>
+  <string name="app_ops_toast_window">トーストメッセージ</string>
+  <string name="app_ops_use_alarm_volume">アラームの音量</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+  <string name="app_ops_use_master_volume">主音量</string>
+  <string name="app_ops_use_media_volume">メディアの音量</string>
+  <string name="app_ops_use_notification_volume">通知の音量</string>
+  <string name="app_ops_use_ring_volume">着信音量</string>
+  <string name="app_ops_use_voice_volume">音声通話の音量</string>
+  <string name="app_ops_write_mms">MMSの書き込み</string>
+  <string name="app_ops_write_sms">SMSの書き込み</string>
+  <string name="app_ops_use_fingerprint">指紋</string>
+  <string name="app_ops_add_voicemail">ボイスメール</string>
+  <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
+  <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
+  <string name="app_ops_change_wallpaper">壁紙の変更</string>
+  <string name="app_ops_assist_screenshot">スクリーンショット</string>
+  <string name="app_ops_read_cell_broadcasts">緊急警報</string>
+  <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
+  <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
+  <string name="app_ops_turn_on_screen">画面の点灯</string>
+  <string name="app_ops_run_in_background">バックグラウンドでの実行</string>
+  <string name="app_ops_accessibility_volume">ユーザー補助音量</string>
+  <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
+  <string name="app_ops_request_install_packages">パッケージのインストール</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_answer_phone_calls">着信への応答</string>
+  <string name="app_ops_boot_completed">自動実行</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">ルート権限の管理</string>
   <string name="rootmanagement_dashboard_summary">ルート権限へのアクセスを管理します</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">PCバックアップパスワード</string>
   <!-- Battery saver color -->
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">充電開始でスリープ解除</string>
   <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時のスリープ解除</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">CPU情報を表示</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <!-- Custom light color -->
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">音量調整の音</string>
   <!-- Reset battery stats -->
   <!-- Volume Steps -->
+  <string name="volume_steps_title">音量レベル</string>
+  <string name="volume_steps_alarm_title">音量レベル: アラーム</string>
+  <string name="volume_steps_dtmf_title">音量レベル: DTMF</string>
+  <string name="volume_steps_music_title">音量レベル: 音楽</string>
+  <string name="volume_steps_notification_title">音量レベル: 通知</string>
+  <string name="volume_steps_ring_title">音量レベル: 着信音</string>
+  <string name="volume_steps_system_title">音量レベル: システム</string>
+  <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
+  <string name="volume_steps_reset">リセット</string>
+  <string name="volume_steps_60">60</string>
+  <string name="volume_steps_45">45</string>
+  <string name="volume_steps_30">30</string>
+  <string name="volume_steps_15">15</string>
+  <string name="volume_steps_7">7</string>
+  <string name="volume_steps_5">5</string>
   <!-- Dashboard Category -->
   <!-- Encryption and credential -->
+  <string name="custom_encryption_and_credential_settings_summary_on">デバイスは暗号化されています</string>
+  <string name="custom_encryption_and_credential_settings_summary_off">デバイスは暗号化されていません</string>
   <!-- Android debugging over WiFi -->
+  <string name="adb_over_network">ネットワーク経由のADB</string>
+  <string name="adb_over_network_summary">ネットワークインターフェース（Wi-Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
   <!-- Warning for Adb over Network -->
+  <string name="adb_over_network_warning">警告: ネットワーク経由でのADBを有効にすると、あなたの携帯電話はデータネットワークを含む接続しているすべてのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
   <!-- Vibrate on plug -->
+  <string name="vibration_on_charge_state_changed_title">電源接続時に振動する</string>
+  <string name="alert_on_charged_level_dis">無効</string>
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">システムのテーマ</string>
+  <string name="system_theme_style_title">UI スタイル</string>
+  <string name="system_theme_style_auto">壁紙基調</string>
+  <string name="system_theme_style_light">Light UI</string>
+  <string name="system_theme_style_dark">Dark UI</string>
+  <string name="system_theme_style_black">Black UI</string>
+  <string name="system_theme_style_extended">Extended UI</string>
+  <string name="theme_applied_toast">テーマが適用されました</string>
+  <string name="applying_theme_toast">テーマを適用中です、しばらくお待ちください</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+  <string name="sim_enabled">有効</string>
+  <string name="sim_disabled">無効</string>
+  <string name="sim_missing">挿入されていないか、問題があります</string>
+  <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続けますか？</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
+  <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けますか？</string>
+  <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません。</string>
+  <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません。</string>
+  <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
+  <string name="sim_enabler_enabling">アクティベート中\u2026</string>
+  <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+  <string name="sub_activate_success">SIMをアクティベートしました。</string>
+  <string name="sub_activate_failed">アクティベートできませんでした。</string>
+  <string name="sub_deactivate_success">SIMをアクティベート解除しました。</string>
+  <string name="sub_deactivate_failed">アクティベート解除できませんでした。</string>
+  <string name="available_sims_title">利用可能な SIM カード</string>
   <!-- Notification log -->
+  <string name="notification_log_summary">通知履歴ログを表示</string>
   <!-- Scramble PIN Layout on Lockscreen -->
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">着信音量を上げる</string>
+  <string name="increasing_ring_min_volume_title">開始音量</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">回転</string>
+  <string name="display_rotation_disabled">無効</string>
+  <string name="display_rotation_unit">度</string>
+  <string name="display_rotation_category_title">回転モード</string>
+  <string name="display_rotation_0_title">0度</string>
+  <string name="display_rotation_90_title">90度</string>
+  <string name="display_rotation_180_title">180度</string>
+  <string name="display_rotation_270_title">270度</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">隠さずパスワードを表示</string>
+  <string name="lock_directly_show_pattern">隠さずパターンを表示</string>
+  <string name="lock_directly_show_pin">隠さずPINを表示</string>
+  <string name="lock_directly_show_summary">デバイスのアンロック時に画面の上方向スワイプを省略する</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択してください</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_head">アンロック時振動させる</string>
   <!-- Force authorize substratum packages -->
   <!-- Manage applications: show substratum overlays -->
+  <string name="menu_show_substratum">オーバーレイ表示</string>
+  <string name="menu_hide_substratum">オーバーレイ非表示</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">標準のUSB設定を選択</string>
+  <string name="select_default_usb_configuration_dialog_title">USB設定を選択</string>
+  <string name="select_usb_default_confguration_warning">警告:標準のUSB設定はデバイスロック時も有効です!\n\n本当に設定を有効にしますか?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">USBセキュア接続</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
+  <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
+  <string name="background_processes_settings_title">バックグラウンドプロセス</string>
+  <!-- Search -->
 </resources>

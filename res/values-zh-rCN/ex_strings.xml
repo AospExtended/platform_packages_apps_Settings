@@ -60,6 +60,8 @@
   <string name="designer2_description">快速设置/Fling 标志</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">壁纸、开机动画</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">扩展设置界面、图标</string>
   <string name="maintainers">维护者</string>
   <string name="maintainers_title">官方维护人员</string>
   <string name="maintainers_summary">官方支持的设备及其各自的维护者。</string>
@@ -258,7 +260,7 @@
   <string name="system_theme_style_extended">扩展用户界面</string>
   <string name="theme_applied_toast">主题已应用。</string>
   <string name="applying_theme_toast">正在应用主题，请稍等…</string>
-  <string name="substratum_installed_title">系统主题不可用，因为安装有 Substratum 叠加层。请卸载所有应用在 Android 系统上的叠加层以继续。</string>
+  <string name="substratum_installed_title">系统主题不可用，因为安装了 Substratum 叠加层。请卸载所有应用在 Android 系统上的叠加层以继续。</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>已<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">启用</string>
@@ -313,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">振动</string>
   <string name="lockscreen_vibrate_enabled_head">解锁时振动</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">强制授权所有主题应用</string>
+  <string name="force_authorize_substratum_packages_summary">允许安装来自未知来源的主题应用</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum 叠加层</string>
+  <string name="menu_show_substratum">显示叠加层</string>
+  <string name="menu_hide_substratum">隐藏叠加层</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">选择默认 USB 配置</string>
+  <string name="select_default_usb_configuration_dialog_title">选择 USB 配置</string>
+  <string name="select_usb_default_confguration_warning">警告：默认的 USB 配置为启用并且锁屏时也启用！\n\n你确定要启用此配置吗？</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">USB 安全连接</string>
+  <string name="usb_paranoia_connect_summary">在安全锁屏界面插入 USB 时只启用充电并禁用 ADB</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">防止意外唤醒</string>
+  <string name="proximity_wake_summary">在唤醒屏幕前检查距离感应器</string>
+  <string name="background_processes_settings_title">后台进程</string>
+  <!-- Search -->
 </resources>

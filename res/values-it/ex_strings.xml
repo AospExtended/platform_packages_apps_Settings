@@ -60,6 +60,8 @@
   <string name="designer2_description">Loghi IA/Fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Sfondi, Animazioni di avvio</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Estensioni dell\'interfaccia utente, icone</string>
   <string name="maintainers">Manutentori</string>
   <string name="maintainers_title">Manutentori ufficiali</string>
   <string name="maintainers_summary">Dispositivi supportati ufficialmente e rispettivi gestori.</string>
@@ -313,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Vibrazione</string>
   <string name="lockscreen_vibrate_enabled_head">Vibra allo sblocco</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Forza l\'autorizzazione ad ogni applicazione del tema</string>
+  <string name="force_authorize_substratum_packages_summary">Consenti le applicazioni a tema provenienti da fonti sconosciute</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Sovrapposizioni di Substratum</string>
+  <string name="menu_show_substratum">Mostra le sovrapposizioni</string>
+  <string name="menu_hide_substratum">Nascondi le sovrapposizioni</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Seleziona la configurazione USB predefinita</string>
+  <string name="select_default_usb_configuration_dialog_title">Seleziona configurazione USB</string>
+  <string name="select_usb_default_confguration_warning">ATTENZIONE: la configurazione USB predefinita è attiva anche a dispositivo bloccato!!\n\nVuoi davvero attivare questa configurazione?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Collegamento USB sicura</string>
+  <string name="usb_paranoia_connect_summary">Abilita la sola ricarica quando viene collegato l\'USB nella schermata di blocco</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Previeni risvegli accidentali</string>
+  <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
+  <string name="background_processes_settings_title">Processi in background</string>
+  <!-- Search -->
 </resources>

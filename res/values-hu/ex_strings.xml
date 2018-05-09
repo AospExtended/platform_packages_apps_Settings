@@ -60,6 +60,8 @@
   <string name="designer2_description">Gyorsbeállítások/Fling logók</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Háttérképek, Indítási animációk</string>
+  <string name="designer_4">Nyers V23</string>
+  <string name="designer4_description">Kiterjesztett felhasználói felület, Ikonok</string>
   <string name="maintainers">Felelősök</string>
   <string name="maintainers_title">Hivatalos felelősök</string>
   <string name="maintainers_summary">A hivatalosan támogatott készülékek és azok saját felelősei.</string>
@@ -178,7 +180,7 @@
   <string name="app_ops_answer_phone_calls">Hívások fogadása</string>
   <string name="app_ops_boot_completed">Automatikus indítás</string>
   <!-- Root Management -->
-  <string name="rootmanagement_title">Rootjog kezelés</string>
+  <string name="rootmanagement_title">Root jogosultság kezelése</string>
   <string name="rootmanagement_dashboard_summary">Root hozzáférés kezelése</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
@@ -243,7 +245,7 @@
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">Töltőre helyezéskor rezeg</string>
   <string name="alert_on_charged_level_title">Optimális töltöttségi riasztás</string>
-  <string name="alert_on_charged_level_summary">Értesítés hanggal és rezgéssel, ha az akkumulátor elérte az optimális töltöttségi szintet és a képernyő legalább 1 perce ki van kapcsolva.\nAz értesítés külön letilható hosszan nyomásával.</string>
+  <string name="alert_on_charged_level_summary">Értesítés hanggal és rezgéssel, ha az akkumulátor elérte az optimális töltöttségi szintet és a képernyő legalább 1 perce ki van kapcsolva.\nAz értesítés külön letiltható hosszan nyomással.</string>
   <string name="alert_on_charged_level_dis">Letiltva</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
@@ -251,11 +253,11 @@
   <!-- Themes -->
   <string name="theme_category_title">A rendszer témája</string>
   <string name="system_theme_style_title">Felhasználói felület stílusa</string>
-  <string name="system_theme_style_auto">Háttérkép bázisú</string>
+  <string name="system_theme_style_auto">Háttérképhez igazodó</string>
   <string name="system_theme_style_light">Világos felhasználói felület</string>
   <string name="system_theme_style_dark">Sötét felhasználói felület</string>
   <string name="system_theme_style_black">Fekete felhasználói felület</string>
-  <string name="system_theme_style_extended">Kiterjesztett felhasználói felület</string>
+  <string name="system_theme_style_extended">Az Extended felhasználói felülete</string>
   <string name="theme_applied_toast">A Téma beállítva</string>
   <string name="applying_theme_toast">Téma beállítása folyamatban, kis türelmet...</string>
   <string name="substratum_installed_title">A rendszertémák nem elérhetők, mert egy Substratum overlay telepítve van. Kérlek, távolíts el minden overlayt, ami az Android rendszert módosítja.</string>
@@ -281,7 +283,7 @@
   <string name="notification_log_summary">Értesítések előzménynaplóinak megjelenítése</string>
   <!-- Scramble PIN Layout on Lockscreen -->
   <string name="unlock_scramble_pin_layout_title">Véletlenszerű elrendezés</string>
-  <string name="unlock_scramble_pin_layout_summary">PIN-elrendezés szétszórása az eszköz feloldásakor</string>
+  <string name="unlock_scramble_pin_layout_summary">Összekeveri a készülék beviteli számmezejét a feloldás előtt</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
   <string name="unlock_quick_unlock_control_summary">Automatikus feloldás, ha a helyes PIN/jelszó beírásra kerül. Ajánlott 6 számjegynél rövidebb PIN használata. Ha a PIN több, mint 6 számjegyű, előfordulhat, hogy kizárásra kerül saját készülékéből. Ne felejtse el, figyelmeztetve volt!</string>
@@ -313,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Rezgés</string>
   <string name="lockscreen_vibrate_enabled_head">Rezgés feloldáskor</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Kényszerítse minden témaalkalmazás ellenőrzését</string>
+  <string name="force_authorize_substratum_packages_summary">Ismeretlen forrásból származó témák telepítésének engedélyezése</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum fedőrétegek</string>
+  <string name="menu_show_substratum">Fedőrétegek megjelenítése</string>
+  <string name="menu_hide_substratum">Fedőrétegek elrejtése</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Alapértelmezett USB-beállítás kiválasztása</string>
+  <string name="select_default_usb_configuration_dialog_title">USB-beállítás kiválasztása</string>
+  <string name="select_usb_default_confguration_warning">FIGYELMEZTETÉS: A jelenlegi USB-beállítás lezárt készüléknél is hozzáfér a készülékhez\n\nBizonyos benne, hogy engedélyezi ezt a beállítást?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Biztonságos USB-kapcsolat</string>
+  <string name="usb_paranoia_connect_summary">Csak a töltést engedélyezi és letiltja az ADB hozzáférést, ha lezárt képernyőnél USB-re csatlakoztatja</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
+  <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
+  <string name="background_processes_settings_title">Háttérfolyamatok</string>
+  <!-- Search -->
 </resources>

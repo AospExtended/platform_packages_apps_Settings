@@ -60,6 +60,8 @@
   <string name="designer2_description">Logá QS/Fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Tapety, spúšťacie animácie</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Rozšírenia UI, ikony</string>
   <string name="maintainers">Správcovia</string>
   <string name="maintainers_title">Oficiálni správcovia</string>
   <string name="maintainers_summary">Zoznam podporovaných zariadení a ich oficiálni správcovia.</string>
@@ -249,6 +251,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">Téma systému</string>
   <string name="system_theme_style_title">Vzhľad rozhrania</string>
   <string name="system_theme_style_auto">Podľa tapety</string>
   <string name="system_theme_style_light">Svetlé rozhranie</string>
@@ -257,6 +260,7 @@
   <string name="system_theme_style_extended">Rozšírené rozhranie</string>
   <string name="theme_applied_toast">Téma použitá.</string>
   <string name="applying_theme_toast">Aplikujem tému, počkajte prosím...</string>
+  <string name="substratum_installed_title">Systémové témy nie sú k dispozícii, pretože je nainštalované Substratum. Ak chcete pokračovať, odinštalujte všetky prekrytia zamerané na systém Android.</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">aktivovaná</string>
@@ -311,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Vibrácie</string>
   <string name="lockscreen_vibrate_enabled_head">Vibrovať pri odomknutí</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Povoliť inštaláciu tém z neznámych zdrojov</string>
+  <string name="force_authorize_substratum_packages_summary">Vyžadovať povolenie pre každú tému</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum prekrytia</string>
+  <string name="menu_show_substratum">Zobraziť prekrytia</string>
+  <string name="menu_hide_substratum">Skryť prekrytia</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Vybrať predvolenú konfiguráciu USB</string>
+  <string name="select_default_usb_configuration_dialog_title">Výber konfigurácie USB</string>
+  <string name="select_usb_default_confguration_warning">VAROVANIE: Predvolená konfigurácia USB je povolená aj pri uzamknutí zariadenia!\n\nNaozaj chcete túto konfiguráciu povoliť?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Bezpečné pripojenie USB</string>
+  <string name="usb_paranoia_connect_summary">Na zabezpečenej obrazovke uzamknutia povoliť pri pripojení na USB iba režim nabíjania</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Zabrániť nechcenému prebudeniu</string>
+  <string name="proximity_wake_summary">Kontrolovať snímač priblíženia pre zabránenie nechcenému prebudeniu</string>
+  <string name="background_processes_settings_title">Procesy na pozadí</string>
+  <!-- Search -->
 </resources>

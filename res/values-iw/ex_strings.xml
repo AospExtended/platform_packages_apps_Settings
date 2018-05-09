@@ -14,9 +14,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">גירסה מורחבת</string>
   <string name="extended_version_default">לא ידוע</string>
   <!-- About phone screen, build date -->
   <string name="build_date">תאריך בנייה</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">אין צורך, הגדרות מפתח מופעלות כברירת מחדל.</string>
@@ -53,6 +55,7 @@
   <string name="reload_list">טעינה מחדש</string>
   <!-- AEX OTA -->
   <string name="aex_ota_title">עדכונים AEX</string>
+  <string name="aex_ota_summary">קבל את הגרסה האחרונה</string>
   <!-- Expanded desktop -->
   <!-- App details: open play store link if app is user installed -->
   <!-- Screenshot sound -->
@@ -107,6 +110,9 @@
   <string name="app_ops_read_phone_state">גישה למצב המכשיר</string>
   <string name="app_ops_scan_wifi">סריקת רשתות WiFi</string>
   <string name="app_ops_change_wallpaper">החלפת תמונת רקע</string>
+  <string name="app_ops_assist_screenshot">צילום מסך</string>
+  <string name="app_ops_turn_on_screen">הפעל מסך</string>
+  <string name="app_ops_request_install_packages">התקן חבילות</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -162,4 +168,5 @@
   <!-- Default USB configuration -->
   <!-- USB paranoia mode -->
   <!-- Proximity wake -->
+  <!-- Search -->
 </resources>

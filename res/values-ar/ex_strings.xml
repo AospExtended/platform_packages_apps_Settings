@@ -60,6 +60,8 @@
   <string name="designer2_description">شعارات Fling و الإعدادات السريعة</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">الخلفيات، حركات رسوم تشغيل النظام</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">ملحقات واجهة المستخدم، والرموز</string>
   <string name="maintainers">المشرفون</string>
   <string name="maintainers_title">المشرفون الرسميون</string>
   <string name="maintainers_summary">الأجهزة المدعومة رسميا ومشرفي الخاصة بهم.</string>
@@ -314,8 +316,23 @@
   <string name="lockscreen_vibrate_enabled_title">اهتزاز</string>
   <string name="lockscreen_vibrate_enabled_head">الاهتزاز عند الفتح</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">إسمح لتطبيقات المظاهر من المصادر غير المعروفة</string>
+  <string name="force_authorize_substratum_packages_summary">السماح لتطبيقات الثيم من المصادر غير المعروفة</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">طبقات Substratum</string>
+  <string name="menu_show_substratum">أظهر الطبقات</string>
+  <string name="menu_hide_substratum">أخفِ الطبقات</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">حدد إعداد USB الافتراضي</string>
+  <string name="select_default_usb_configuration_dialog_title">‏حدد تهيئة USB</string>
+  <string name="select_usb_default_confguration_warning">تحذير: التكوين الافتراضي USB مُمّكن. حتى عندما يتم تأمين الجهاز!\n\n هل تريد تمكين هذا التكوين حقاً؟</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">توصيل USB آمن</string>
+  <string name="usb_paranoia_connect_summary">قم فقط بتمكين الشحن عند توصيل USB بشاشات قفل آمنة</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">منع الاستيقاظ العرضي</string>
+  <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل إيقاظ الشاشة</string>
+  <string name="background_processes_settings_title">العمليات في الخلفية</string>
+  <!-- Search -->
 </resources>

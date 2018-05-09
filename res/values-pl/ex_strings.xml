@@ -60,6 +60,8 @@
   <string name="designer2_description">QS/loga fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Tapety, animacje startowe</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Rozszerzenie interfejsu użytkownika, ikony</string>
   <string name="maintainers">Twórcy aplikacji</string>
   <string name="maintainers_title">Oficjalni opiekunowie</string>
   <string name="maintainers_summary">Lista wspieranych oficjalnie urządzeń i ich opiekunów</string>
@@ -313,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Wibracje</string>
   <string name="lockscreen_vibrate_enabled_head">Wibruj podczas odblokowywania</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Zezwalaj na instalowanie motywów z nieznanych źródeł</string>
+  <string name="force_authorize_substratum_packages_summary">Zezwalaj na motywy aplikacji z nieznanych zródeł</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Nakładki Substratum</string>
+  <string name="menu_show_substratum">Pokaż nakładki</string>
+  <string name="menu_hide_substratum">Ukryj nakładki</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Wybierz domyślna konfiguracja USB</string>
+  <string name="select_default_usb_configuration_dialog_title">Wybierz konfigurację USB</string>
+  <string name="select_usb_default_confguration_warning">Ostrzeżenie: Domyślna konfiguracja USB jest włączona również, gdy urządzenie jest zablokowane! \n\nDo Naprawdę chcesz zachować te ustawienia?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Bezpieczne połączenie USB</string>
+  <string name="usb_paranoia_connect_summary">Zezwalaj tylko na ładowanie telefonu przez USB gdy ekran jest zablokowany</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
+  <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
+  <string name="background_processes_settings_title">Procesy pracujące w tle</string>
+  <!-- Search -->
 </resources>

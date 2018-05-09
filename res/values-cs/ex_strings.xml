@@ -60,6 +60,8 @@
   <string name="designer2_description">Loga QS/Fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Tapety, spouštěcí animace</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Extensions UI, Ikony</string>
   <string name="maintainers">Správci</string>
   <string name="maintainers_title">Oficiální správci</string>
   <string name="maintainers_summary">Seznam podporovaných zařízení a jejich oficiální správci.</string>
@@ -313,8 +315,23 @@
   <string name="lockscreen_vibrate_enabled_title">Vibrace</string>
   <string name="lockscreen_vibrate_enabled_head">Vibrace při odemknutí</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Vyžadovat povolení pro každý motiv</string>
+  <string name="force_authorize_substratum_packages_summary">Povolit instalaci motivů z neznámých zdrojů</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum překrytí</string>
+  <string name="menu_show_substratum">Zobrazit překrytí</string>
+  <string name="menu_hide_substratum">Skrýt překrytí</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Vybrat výchozí konfiguraci USB</string>
+  <string name="select_default_usb_configuration_dialog_title">Výběr konfigurace USB</string>
+  <string name="select_usb_default_confguration_warning">VAROVÁNÍ: Výchozí konfigurace USB je povolena i při uzamknutí zařízení!\n\nOpravdu chcete tuto konfiguraci povolit?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Bezpečné připojení USB</string>
+  <string name="usb_paranoia_connect_summary">Pokud je telefon na zabezpečené zamykací obrazovce, při připojení USB se povolí pouze režim nabíjení a deaktivuje ADB</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+  <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
+  <string name="background_processes_settings_title">Procesy na pozadí</string>
+  <!-- Search -->
 </resources>
