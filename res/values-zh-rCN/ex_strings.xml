@@ -337,7 +337,14 @@
   <string name="menu_search">搜索应用</string>
   <string name="menu_search_hint">正在搜索...</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动指纹以清除通知</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在手机背面的指纹传感器上向左或向右滑动</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">指纹快速下拉</string>
+  <string name="fp_quick_pulldown_summary">滑动指纹传感器以展开快速设置面板</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">字体选择器不可用，以避免和 Substratum 发生冲突。如果您希望使用字体选择器, 请卸载 Substratum 主题。</string>
+  <string name="font_picker_title">字体</string>
+  <string name="font_picker_progress">正在应用新字体\u2026</string>
 </resources>

@@ -337,7 +337,10 @@
   <string name="menu_search">Поиск приложений</string>
   <string name="menu_search_hint">Поиск</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по сканеру отпечатка пальца влево или вправо, чтобы очистить уведомления</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы очистить ваши уведомления, проведите пальцем влево или вправо по сканеру отпечатка пальца на тыльной стороне Вашего телефона.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Быстрый доступ с помощью сканера отпечатка пальца</string>
   <!-- Font picker -->
 </resources>
