@@ -334,4 +334,8 @@
   <string name="proximity_wake_summary">Voor ontwaken scherm nabijheidssensor raadplegen</string>
   <string name="background_processes_settings_title">Achtergrondprocessen</string>
   <!-- Search -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

@@ -233,7 +233,7 @@
   <string name="summary_dashboard_suggestions_enabled">Irányítópult javaslatok bekapcsolva</string>
   <string name="summary_dashboard_suggestions_disabled">Irányítópult javaslatok kikapcsolva</string>
   <!-- Dashboard Category -->
-  <string name="dashboard_category">Irányítópult lehetőségek</string>
+  <string name="dashboard_category">Irányítópult lehetőségei</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">A készülék titkosított</string>
   <string name="custom_encryption_and_credential_settings_summary_off">A készülék nem titkosított</string>
@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
   <string name="background_processes_settings_title">Háttérfolyamatok</string>
   <!-- Search -->
+  <string name="menu_search">Alkalmazások keresése</string>
+  <string name="menu_search_hint">Alkalmazások keresése\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

@@ -35,7 +35,7 @@
   <string name="github">GitHub</string>
   <string name="github_description">Ver nuestro código fuente</string>
   <string name="gplus">Google+</string>
-  <string name="gplus_description">Únete a nuestra comunidad G+</string>
+  <string name="gplus_description">Únete a nuestra comunidad de G+</string>
   <string name="telegram">Telegram</string>
   <string name="telegram_description">Suscríbete a nuestro canal de Telegram</string>
   <string name="web">Centro de descargas</string>
@@ -59,7 +59,7 @@
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">Logo de Fling/QS</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-  <string name="designer3_description">Fondos de pantalla, Bootanimations</string>
+  <string name="designer3_description">Fondos de pantalla, Animaciones de arranque</string>
   <string name="designer_4">Harsh v23</string>
   <string name="designer4_description">Extenciones UI, Iconos</string>
   <string name="maintainers">Responsable de mantenimiento</string>
@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
   <string name="background_processes_settings_title">Procesos en segundo plano</string>
   <!-- Search -->
+  <string name="menu_search">Buscar aplicaciones</string>
+  <string name="menu_search_hint">Buscar aplicaciones\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

@@ -30,6 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Về chúng tôi</string>
   <string name="aex_about_summary">Giới thiệu và nhóm của chúng tôi</string>
+  <string name="aex_about_info_summary">AospExtended là một bản rom dựa trên mã nguồn mở android cung cấp giao diện, tính năng gốc cùng với nhiều tính năng tùy biến và hỗ trợ tùy biến giao diện Substratum. Dự án này là tập hợp nhiều code từ những dự án nhỏ khác. Dựa trên android gốc nên rom mang đến sự mượt mà và không giật lag. Chúng tôi sẽ liên tục cố gắng thêm các tính năng mở rộng mới, khiến bản rom ngày càng tốt hơn trong tương lai.&#35;BeExtended</string>
   <string name="dev_info">Giới thiệu về AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">Xem mã nguồn code</string>
@@ -44,22 +45,71 @@
   <string name="walls">Hình nền</string>
   <string name="walls_description">Tải hình nền được đóng góp bởi những người dùng khác nhau</string>
   <string name="leads">Đội ngũ lãnh đạo</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
   <string name="team1_description">Chủ đầu tư/ Nhà phát triển chính</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">Nhà phát triển</string>
+  <string name="team_3">Amol Amrit</string>
   <string name="team3_description">Người điều hành và Nhà phát triển nghiệp dư</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
   <string name="team4_description">Nhà phát triển</string>
   <string name="designers">Nhà thiết kế</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Chủ đề biểu ngữ, biểu tượng, hình nền</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">QS/Fling logos</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Hình nền, Bootanimations</string>
+  <string name="designer_4">Khắc nghiệt V23</string>
+  <string name="designer4_description">Tiện ích mở rộng giao diện, biểu tượng</string>
   <string name="maintainers">Nhà bảo trì</string>
+  <string name="maintainers_title">Chính thức maintainers</string>
+  <string name="maintainers_summary">Danh sách các thiết bị và người duy trì Rr-Os chính thức.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Duy trì: %1$s</string>
   <string name="loading_devices">Đang tải danh sách thiết bị...</string>
+  <string name="loading_devices_failed">Không thể tải danh sách thiết bị</string>
+  <string name="devices_list_empty">Danh sách trống, nhấn vào icon để tải lại</string>
+  <string name="reload_list">Tải lại</string>
   <!-- AEX OTA -->
+  <string name="aex_ota_title">Thông tin Cập Nhật AEX</string>
+  <string name="aex_ota_summary">Được xây dựng mới nhất</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Mở rộng màn hình</string>
+  <string name="expanded_hide_nothing">Không ẩn gì</string>
+  <string name="expanded_hide_status">Ẩn thanh trạng thái</string>
+  <string name="expanded_hide_navigation">Ẩn thanh điều hướng</string>
+  <string name="expanded_hide_both">Ẩn cả hai</string>
+  <string name="expanded_nothing_to_show">Để thêm một cấu hình tùy chỉnh cho trạng thái mở rộng, hãy tắt \"Bật tất cả\"</string>
+  <string name="expanded_desktop_state">Trạng thái mở rộng</string>
+  <string name="expanded_enabled_for_all">Bật tất cả</string>
+  <string name="expanded_user_configurable">Cấu hình người dùng</string>
+  <string name="expanded_desktop_style">Kiểu mở rộng màn hình</string>
+  <string name="expanded_desktop_style_description">Chọn kiểu mở rộng màn hình mặc định</string>
+  <string name="expanded_desktop_title">Tùy chọn mở rộng màn hình</string>
   <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
+  <string name="screenshot_sound_summary">Phát âm thanh khi màn hình được chụp</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Độ sáng</string>
+  <string name="night_brightness_value_title">Giảm độ sáng nếu ánh sáng ban đêm</string>
+  <string name="night_bright_disabled">Đã tắt</string>
+  <string name="night_bright_minimum">Độ sáng tối thiểu</string>
+  <string name="night_bright_low">Độ sáng thấp</string>
+  <string name="night_bright_medium">Độ sáng trung bình</string>
   <!-- Notification volume -->
+  <string name="link_volume_option_title">Chuông liên kết và âm lượng thông báo</string>
+  <string name="notification_volume_option_title">Âm lượng thông báo</string>
+  <string name="ring_notification_volume_option_title">Âm lượng chuông và thông báo</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">Vị trí</string>
+  <string name="app_ops_cat_personal">Cá nhân</string>
+  <string name="app_ops_cat_messaging">Tin nhắn</string>
+  <string name="app_ops_cat_media">Đa phương tiện</string>
+  <string name="app_ops_cat_device">Thiết bị</string>
   <string name="app_ops_cat_bootup">Khởi động hệ thống</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">Máy ảnh</string>
@@ -94,6 +144,7 @@
   <string name="app_ops_record_audio">Ghi âm</string>
   <string name="app_ops_send_mms">Gửi MMS</string>
   <string name="app_ops_send_sms">Gửi tin nhắn SMS</string>
+  <string name="app_ops_toast_window">Thông báo nổi</string>
   <string name="app_ops_use_alarm_volume">Âm lượng báo thức</string>
   <string name="app_ops_use_audio_focus">Âm báo</string>
   <string name="app_ops_use_bluetooth_volume">Âm lượng Bluetooth</string>
@@ -110,17 +161,66 @@
   <string name="app_ops_add_voicemail">Hộp thư thoại</string>
   <string name="app_ops_read_phone_state">Truy nhập tình trạng điện thoại</string>
   <string name="app_ops_scan_wifi">Quét mạng WiFi</string>
+  <string name="app_ops_change_wallpaper">Thay đổi hình nền</string>
+  <string name="app_ops_assist_structure">Cấu trúc hỗ trợ</string>
+  <string name="app_ops_assist_screenshot">Chụp màn hình</string>
+  <string name="app_ops_use_body_sensors">Cảm biến cơ thể</string>
+  <string name="app_ops_read_cell_broadcasts">Phát sóng di động</string>
+  <string name="app_ops_mock_location">Giả vị trí</string>
+  <string name="app_ops_read_external_storage">Đọc bộ nhớ ngoài</string>
+  <string name="app_ops_write_external_storage">Ghi vào bộ nhớ ngoài</string>
+  <string name="app_ops_turn_on_screen">Bật màn hình</string>
+  <string name="app_ops_get_accounts">Tài khoản trên thiết bị</string>
+  <string name="app_ops_run_in_background">Chạy trong nền</string>
+  <string name="app_ops_accessibility_volume">Âm lượng hỗ trợ</string>
+  <string name="app_ops_read_phone_numbers">Đọc số điện thoại</string>
+  <string name="app_ops_request_install_packages">Gói cài đặt</string>
+  <string name="app_ops_picture_in_picture">PiP (Ảnh trong Ảnh)</string>
+  <string name="app_ops_app_start_foreground">Khởi động trực tiếp</string>
+  <string name="app_ops_answer_phone_calls">Trả lời cuộc gọi</string>
+  <string name="app_ops_boot_completed">Tự khởi động</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Quản lí Root</string>
+  <string name="rootmanagement_dashboard_summary">Quản lý truy cập root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+  <string name="supersu_title">Quyền truy cập Root</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Mật khẩu sao lưu</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Màu cảnh báo</string>
+  <string name="battery_saver_color_summary">Cho phép thanh trạng thái và điều hướng chuyển màu cam khi tiết kiệm pin được bật</string>
   <!-- Wakeup options -->
+  <string name="wakeup_when_plugged_unplugged_title">Bật màn hình khi sạc</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Đánh thức thiết bị nếu nguồn sạc được cắm vào hoặc rút ra.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">Hiển thị thông tin CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">Hiển thị thông tin CPU trên màn hình</string>
+  <string name="dashboard_conditions_title">Bảng điều khiển đề xuất</string>
+  <string name="summary_dashboard_conditions_enabled">Đề xuất bảng điều khiển được bật</string>
+  <string name="summary_dashboard_conditions_disabled">Đề xuất bảng điều khiển được tắt</string>
   <!-- Custom light color -->
+  <string name="light_customization">Đèn led thông báo</string>
+  <string name="custom_light_title">Màu sắc đèn</string>
+  <string name="custom_light_on_time_title">"Thời gian sáng đèn khi nhấp nháy (ms)"</string>
+  <string name="custom_light_off_time_title">"Thời gian tắt đèn khi nhấp nháy (ms)"</string>
+  <string name="app_notifications_info_desc">Bấm vào mỗi mục để thay đổi tùy chọn màu sắc đèn và các tùy chọn khác</string>
+  <string name="value_equals_default">Phòng thủ</string>
+  <string name="show_light_on_zen_title">Nhấp nháy khi ở chế độ không làm phiền</string>
   <!-- Volume settings - Volume adjustment sound -->
+  <string name="volume_adjust_sounds_title">Âm lượng điều chỉnh âm thanh</string>
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Thiết lập lại thống kê</string>
+  <string name="reset_stats_msg">Thống kê lịch sử pin sẽ được thiết lập lại</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Các mức âm lượng</string>
+  <string name="volume_steps_alarm_title">Mức âm lượng: Báo thức</string>
+  <string name="volume_steps_dtmf_title">Mức âm lượng: DTMF</string>
+  <string name="volume_steps_music_title">Mức âm lượng: Nhạc</string>
+  <string name="volume_steps_notification_title">Mức âm lượng: Thông báo</string>
+  <string name="volume_steps_ring_title">Mức âm lượng: Nhạc chuông</string>
+  <string name="volume_steps_system_title">Mức âm lượng: Hệ thống</string>
   <string name="volume_steps_voice_call_title">Mức âm lượng: Gọi thoại</string>
   <string name="volume_steps_reset">Thiết lập lại</string>
   <string name="volume_steps_60">60</string>
@@ -153,13 +253,16 @@
   <!-- Themes -->
   <string name="theme_category_title">Chủ đề Hệ thống</string>
   <string name="system_theme_style_title">Giao diện người dùng</string>
+  <string name="system_theme_style_auto">Hình nền dựa trên</string>
   <string name="system_theme_style_light">Giao diện sáng</string>
   <string name="system_theme_style_dark">Giao diện tối</string>
   <string name="system_theme_style_black">Giao diện người dùng màu đen</string>
   <string name="system_theme_style_extended">Mở rộng</string>
   <string name="theme_applied_toast">Chủ đề được áp dụng.</string>
   <string name="applying_theme_toast">Áp dụng chủ đề, xin vui lòng chờ...</string>
+  <string name="substratum_installed_title">Tùy chọn giao diện hệ thống không có bởi một giao diện Substratum đã cài đặt. Hãy xoá tất cả những giao diện chỉnh sửa hệ thống để tiếp tục.</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">đã bật</string>
   <string name="sim_disabled">đã tắt</string>
   <string name="sim_missing">thiếu hoặc bị lỗi</string>
@@ -167,22 +270,74 @@
   <string name="sim_enabler_will_disable_sim_title">Chú ý</string>
   <string name="sim_enabler_need_switch_data_service">SIM này sẽ bị vô hiệu và SIM <xliff:g id="slotid">%1$s</xliff:g> sẽ được dùng cho dịch vụ dữ liệu. Bạn có chắc muốn tiếp tục?</string>
   <string name="sim_enabler_airplane_on">Không thể thực hiện thao tác trong khi đang ở chế độ máy bay.</string>
+  <string name="sim_enabler_in_call">Không thể thực hiện thao tác trong khi đang gọi.</string>
+  <string name="sim_enabler_both_inactive">Không thể vô hiệu hóa tất cả các thẻ SIM</string>
+  <string name="sim_enabler_enabling">Đang kích hoạt\u2026</string>
+  <string name="sim_enabler_disabling">Đang huỷ kích hoạt\u2026</string>
+  <string name="sub_activate_success">Đã kích hoạt SIM.</string>
   <string name="sub_activate_failed">Kích hoạt thất bại.</string>
   <string name="sub_deactivate_success">Đã huỷ kích hoạt SIM.</string>
+  <string name="sub_deactivate_failed">Huỷ kích hoạt thất bại.</string>
+  <string name="available_sims_title">Thẻ SIM khả dụng</string>
   <!-- Notification log -->
+  <string name="notification_log_summary">Hiển thị nhật ký lịch sử thông báo</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
+  <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+  <string name="unlock_quick_unlock_control_summary">Mở khóa tự động khi nhập đúng mã PIN/mật khẩu. Bạn nên sử dụng một mã pin dưới 6 chữ số. Nếu mã PIN vượt qua 6 chữ số, bạn có thể bị khóa. Bạn đã được cảnh báo!</string>
   <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">Tăng âm lượng chuông</string>
+  <string name="increasing_ring_min_volume_title">Âm lượng khởi động</string>
+  <string name="increasing_ring_ramp_up_time_title">Khoảng thời gian tăng dần</string>
   <!-- Display : Rotation -->
+  <string name="display_rotation_title">Xoay</string>
+  <string name="display_rotation_disabled">Đã tắt</string>
+  <string name="display_rotation_unit">độ</string>
+  <string name="display_rotation_category_title">Chế độ xoay</string>
+  <string name="display_rotation_0_title">0 độ</string>
+  <string name="display_rotation_90_title">90 độ</string>
+  <string name="display_rotation_180_title">180 độ</string>
+  <string name="display_rotation_270_title">270 độ</string>
   <!-- Pass swipe-up-to-unlock -->
+  <string name="lock_directly_show_password">Hiện mục nhập mật khẩu trực tiếp</string>
+  <string name="lock_directly_show_pattern">Hiện hình mẫu</string>
+  <string name="lock_directly_show_pin">Hiện mục mã PIN</string>
+  <string name="lock_directly_show_summary">Không cần trượt lên mở màn hình khi mở khoá điện thoại</string>
   <!-- Sizes for pattern lockscreen -->
+  <string name="lock_settings_picker_pattern_size_message">Chọn một kích cỡ mẫu hình</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <string name="lockpattern_settings_enable_error_path_title">Hiện lỗi mẫu hình</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <string name="lockpattern_settings_enable_dots_title">Hiện dấu chấm mẫu hình</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">Rung</string>
+  <string name="lockscreen_vibrate_enabled_head">Rung khi mở khóa</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Cho phép cài đặt ứng dụng từ các nguồn không xác định</string>
+  <string name="force_authorize_substratum_packages_summary">Buộc ủy quyền cho mỗi ứng dụng chủ đề</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Các lớp phủ giao diện</string>
+  <string name="menu_show_substratum">Hiển thị các lớp phủ</string>
+  <string name="menu_hide_substratum">Ẩn các lớp phủ</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Chọn cấu hình USB kết nối mặc định</string>
+  <string name="select_default_usb_configuration_dialog_title">Chọn cấu hình USB</string>
+  <string name="select_usb_default_confguration_warning">CẢNH BÁO: Cấu hình mặc định USB cũng bật khi thiết bị đã khoá!\n\nBạn thực sự muốn bật cấu hình này chứ?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Kết nối USB bảo mật</string>
+  <string name="usb_paranoia_connect_summary">Chỉ cho phép sạc và tắt ADB khi gắn cáp USB trong lúc màn hình đang khoá bảo vệ</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Ngăn tình trạng tình cờ đánh thức thiết bị</string>
+  <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
+  <string name="background_processes_settings_title">Giới hạn quá trình chạy nền</string>
   <!-- Search -->
+  <string name="menu_search">Tìm kiếm ứng dụng</string>
+  <string name="menu_search_hint">Đang tìm kiếm</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

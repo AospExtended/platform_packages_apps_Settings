@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
-  <string name="extended_version">追加バージョン</string>
+  <string name="extended_version">拡張バージョン</string>
   <string name="extended_version_default">不明</string>
   <!-- About phone screen, build date -->
   <string name="build_date">ビルド日時</string>
@@ -41,11 +41,12 @@
   <string name="web">ダウンロードセンター</string>
   <string name="web_description">ダウンロード ポータルをご覧ください</string>
   <string name="help_translate">言語リスト</string>
-  <string name="help_translate_description">翻訳に貢献するには、我たちの Crowdin に訪れてみてください</string>
+  <string name="help_translate_description">翻訳に貢献するには我たちの Crowdin に訪れてみてください</string>
   <string name="walls">壁紙</string>
   <string name="walls_description">様々なユーザーによって作成された壁紙を入手します</string>
   <string name="leads">チームリーダー</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">オーナー / リード 開発者</string>
   <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
   <string name="team2_description">開発者</string>
   <string name="team_3">Amol Amrit</string>
@@ -56,9 +57,11 @@
   <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
   <string name="designer1_description">スレッドバーナー、ロゴ、壁紙</string>
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
-  <string name="designer2_description">QS/Fling ロゴ</string>
+  <string name="designer2_description">クイック設定/Fling ロゴ</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">壁紙、ブートアニメーション</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">拡張機能、UI アイコン</string>
   <string name="maintainers">メンテナ</string>
   <string name="maintainers_title">公式メンテナ</string>
   <string name="maintainers_summary">正式サポートデバイスと各メンテナ</string>
@@ -73,11 +76,14 @@
   <string name="aex_ota_summary">最新のビルドをダウンロードします</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
+  <string name="expanded_hide_nothing">非表示にしない</string>
   <string name="expanded_hide_status">ステータスバーを非表示</string>
   <string name="expanded_hide_navigation">ナビゲーションバーを非表示</string>
   <string name="expanded_hide_both">両方を非表示</string>
   <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには、「すべて拡張」をオフにしてください。</string>
+  <string name="expanded_desktop_state">拡張の状態</string>
   <string name="expanded_enabled_for_all">すべて拡張</string>
+  <string name="expanded_user_configurable">ユーザー設定</string>
   <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
   <string name="expanded_desktop_style_description">既定の拡張デスクトップ スタイルを選択する</string>
   <string name="expanded_desktop_title">拡張デスクトップのオプション</string>
@@ -88,6 +94,8 @@
   <string name="screenshot_sound_summary">スクリーンショットを取得した際に効果音を鳴らす</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">明るさ</string>
+  <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
+  <string name="night_bright_disabled">無効</string>
   <string name="night_bright_minimum">最低の明るさ</string>
   <string name="night_bright_low">低めの明るさ</string>
   <string name="night_bright_medium">通常の明るさ</string>
@@ -97,6 +105,11 @@
   <string name="ring_notification_volume_option_title">着信と通知の音量</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_location">位置情報</string>
+  <string name="app_ops_cat_personal">個人情報</string>
+  <string name="app_ops_cat_messaging">メッセージング</string>
+  <string name="app_ops_cat_media">メディア</string>
+  <string name="app_ops_cat_device">端末</string>
   <string name="app_ops_cat_bootup">ブート時の実行</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">カメラ</string>
@@ -108,7 +121,9 @@
   <string name="app_ops_delete_contacts">連絡先の削除</string>
   <string name="app_ops_delete_mms">MMSの削除</string>
   <string name="app_ops_delete_sms">SMSの削除</string>
+  <string name="app_ops_draw_on_top">上部に描画</string>
   <string name="app_ops_get_usage_stats">使用統計の取得</string>
+  <string name="app_ops_keep_device_awake">スリープモードにしない</string>
   <string name="app_ops_make_phone_call">通話の発信</string>
   <string name="app_ops_modify_calendar">カレンダーの更新</string>
   <string name="app_ops_modify_call_log">通話履歴の更新</string>
@@ -118,6 +133,7 @@
   <string name="app_ops_mute_unmute_microphone">マイクのミュート/ミュート解除</string>
   <string name="app_ops_play_audio">音声の再生</string>
   <string name="app_ops_post_notification">通知の配信</string>
+  <string name="app_ops_project_media">メディアの投影</string>
   <string name="app_ops_read_calendar">カレンダーの読み取り</string>
   <string name="app_ops_read_call_log">通話履歴の読み取り</string>
   <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
@@ -130,11 +146,14 @@
   <string name="app_ops_send_sms">SMSの送信</string>
   <string name="app_ops_toast_window">トーストメッセージ</string>
   <string name="app_ops_use_alarm_volume">アラームの音量</string>
+  <string name="app_ops_use_audio_focus">音声フォーカス</string>
   <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
   <string name="app_ops_use_master_volume">主音量</string>
+  <string name="app_ops_use_media_buttons">メディアボタン</string>
   <string name="app_ops_use_media_volume">メディアの音量</string>
   <string name="app_ops_use_notification_volume">通知の音量</string>
   <string name="app_ops_use_ring_volume">着信音量</string>
+  <string name="app_ops_use_vibrate">タッチ操作バイブ</string>
   <string name="app_ops_use_voice_volume">音声通話の音量</string>
   <string name="app_ops_write_mms">MMSの書き込み</string>
   <string name="app_ops_write_sms">SMSの書き込み</string>
@@ -143,16 +162,21 @@
   <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
   <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
   <string name="app_ops_change_wallpaper">壁紙の変更</string>
+  <string name="app_ops_assist_structure">ストラクチャのアシスト</string>
   <string name="app_ops_assist_screenshot">スクリーンショット</string>
+  <string name="app_ops_use_body_sensors">ボディーセンサー</string>
   <string name="app_ops_read_cell_broadcasts">緊急警報</string>
+  <string name="app_ops_mock_location">位置情報の仮想</string>
   <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
   <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
   <string name="app_ops_turn_on_screen">画面の点灯</string>
+  <string name="app_ops_get_accounts">端末のアカウント</string>
   <string name="app_ops_run_in_background">バックグラウンドでの実行</string>
   <string name="app_ops_accessibility_volume">ユーザー補助音量</string>
   <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
   <string name="app_ops_request_install_packages">パッケージのインストール</string>
   <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">フォア グラウンドを開始します。</string>
   <string name="app_ops_answer_phone_calls">着信への応答</string>
   <string name="app_ops_boot_completed">自動実行</string>
   <!-- Root Management -->
@@ -163,16 +187,32 @@
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">PCバックアップパスワード</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">警告の色</string>
+  <string name="battery_saver_color_summary">バッテリーセーバーがオンの時、ステータスバーとナビバーをオレンジ色にします。</string>
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">充電開始でスリープ解除</string>
   <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時のスリープ解除</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">CPU情報を表示</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">現在のCPU情報を画面の最前に表示</string>
+  <string name="dashboard_conditions_title">ダッシュボードの状態表示</string>
+  <string name="summary_dashboard_conditions_enabled">ダッシュボードの状態の表示が有効になります</string>
+  <string name="summary_dashboard_conditions_disabled">ダッシュボードの状態の表示が無効になります</string>
   <!-- Custom light color -->
+  <string name="light_customization">フラッシュライト点灯時の通知</string>
+  <string name="custom_light_title">光の色</string>
+  <string name="custom_light_on_time_title">"ライト ON の間に LED パルス（ms）"</string>
+  <string name="custom_light_off_time_title">"ライト OFF の間に LED パルス（ms）"</string>
+  <string name="app_notifications_info_desc">チャンネルの光の色とその他のオプションを構成するのには上記のいずれかをタップします。</string>
+  <string name="value_equals_default">防衛</string>
+  <string name="show_light_on_zen_title">点滅中は邪魔しないで下さい</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">音量調整の音</string>
   <!-- Reset battery stats -->
+  <string name="ok">OK</string>
+  <string name="menu_stats_reset">使用状況のリセット</string>
+  <string name="reset_stats_msg">バッテリの使用履歴はリセットされます</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">音量レベル</string>
   <string name="volume_steps_alarm_title">音量レベル: アラーム</string>
@@ -189,7 +229,11 @@
   <string name="volume_steps_15">15</string>
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
+  <string name="dashboard_suggestions_title">ダッシュボードの候補表示</string>
+  <string name="summary_dashboard_suggestions_enabled">ダッシュボードの候補の表示が有効になります</string>
+  <string name="summary_dashboard_suggestions_disabled">ダッシュボードの候補の表示が無効になります</string>
   <!-- Dashboard Category -->
+  <string name="dashboard_category">ダッシュボードの設定</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">デバイスは暗号化されています</string>
   <string name="custom_encryption_and_credential_settings_summary_off">デバイスは暗号化されていません</string>
@@ -197,9 +241,11 @@
   <string name="adb_over_network">ネットワーク経由のADB</string>
   <string name="adb_over_network_summary">ネットワークインターフェース（Wi-Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
   <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">警告: ネットワーク経由でのADBを有効にすると、あなたの携帯電話はデータネットワークを含む接続しているすべてのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
+  <string name="adb_over_network_warning">警告：ネットワーク経由でのADBを有効にすると、あなたの携帯電話はデータネットワークを含む接続しているすべてのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">電源接続時に振動する</string>
+  <string name="alert_on_charged_level_title">最適な充電レベルの警告</string>
+  <string name="alert_on_charged_level_summary">少なくとも1分後に画面が消灯している場合は、最適な充電レベルで音声を通知し、再生します。 \nを長押しすると別の通知を無効にすることができます。</string>
   <string name="alert_on_charged_level_dis">無効</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
@@ -208,22 +254,23 @@
   <string name="theme_category_title">システムのテーマ</string>
   <string name="system_theme_style_title">UI スタイル</string>
   <string name="system_theme_style_auto">壁紙基調</string>
-  <string name="system_theme_style_light">Light UI</string>
-  <string name="system_theme_style_dark">Dark UI</string>
-  <string name="system_theme_style_black">Black UI</string>
-  <string name="system_theme_style_extended">Extended UI</string>
+  <string name="system_theme_style_light">明るい UI</string>
+  <string name="system_theme_style_dark">暗い UI</string>
+  <string name="system_theme_style_black">真っ黒な UI</string>
+  <string name="system_theme_style_extended">拡張 UI</string>
   <string name="theme_applied_toast">テーマが適用されました</string>
-  <string name="applying_theme_toast">テーマを適用中です、しばらくお待ちください</string>
+  <string name="applying_theme_toast">テーマを適用中です、しばらくお待ちください。</string>
+  <string name="substratum_installed_title">基層オーバーレイがインストールされているため、システムテーマは使用できません。続行するには、Android システムを対象とするすべてのオーバーレイをアンインストールしてください。</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
   <string name="sim_enabled">有効</string>
   <string name="sim_disabled">無効</string>
-  <string name="sim_missing">挿入されていないか、問題があります</string>
+  <string name="sim_missing">挿入されていないか、問題があります。</string>
   <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続けますか？</string>
   <string name="sim_enabler_will_disable_sim_title">注意</string>
   <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けますか？</string>
   <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません。</string>
-  <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません。</string>
+  <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
   <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
   <string name="sim_enabler_enabling">アクティベート中\u2026</string>
   <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
@@ -235,11 +282,15 @@
   <!-- Notification log -->
   <string name="notification_log_summary">通知履歴ログを表示</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">スクランブルレイアウト</string>
+  <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPIN レイアウトをランダムにする</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
+  <string name="unlock_quick_unlock_control_summary">正しいPIN / パスワードが入力されると、自動的にロック解除されます。 6桁以下のピンを使用することをお勧めします。 PIN / パスワードが6桁を超えると、ロックが解除できなくなる可能性があります。あなたは警告されました！</string>
   <!-- Increasing ring tone volume -->
   <string name="increasing_ring_volume_option_title">着信音量を上げる</string>
   <string name="increasing_ring_min_volume_title">開始音量</string>
+  <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
   <!-- Display : Rotation -->
   <string name="display_rotation_title">回転</string>
   <string name="display_rotation_disabled">無効</string>
@@ -261,21 +312,32 @@
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">バイブレーション</string>
   <string name="lockscreen_vibrate_enabled_head">アンロック時振動させる</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">すべてのテーマアプリを強制的に承認する</string>
+  <string name="force_authorize_substratum_packages_summary">提供元不明のテーマアプリのインストールを許可する</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">下層オーバーレイ</string>
   <string name="menu_show_substratum">オーバーレイ表示</string>
   <string name="menu_hide_substratum">オーバーレイ非表示</string>
   <!-- Default USB configuration -->
   <string name="select_default_usb_configuration_title">標準のUSB設定を選択</string>
   <string name="select_default_usb_configuration_dialog_title">USB設定を選択</string>
-  <string name="select_usb_default_confguration_warning">警告:標準のUSB設定はデバイスロック時も有効です!\n\n本当に設定を有効にしますか?</string>
+  <string name="select_usb_default_confguration_warning">警告：標準のUSB設定はデバイスロック時も有効です！\n\n本当に設定を有効にしますか？</string>
   <!-- USB paranoia mode -->
   <string name="usb_paranoia_connect_title">USBセキュア接続</string>
+  <string name="usb_paranoia_connect_summary">USBがセキュリティ保護されたロック画面に接続されている場合にのみADBを充電および無効にする</string>
   <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
   <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
   <string name="background_processes_settings_title">バックグラウンドプロセス</string>
   <!-- Search -->
+  <string name="menu_search">アプリを検索</string>
+  <string name="menu_search_hint">アプリを検索\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

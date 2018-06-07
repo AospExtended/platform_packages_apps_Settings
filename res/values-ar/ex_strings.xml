@@ -335,4 +335,10 @@
   <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل إيقاظ الشاشة</string>
   <string name="background_processes_settings_title">العمليات في الخلفية</string>
   <!-- Search -->
+  <string name="menu_search">البحث عن تطبيقات</string>
+  <string name="menu_search_hint">جارٍ البحث</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

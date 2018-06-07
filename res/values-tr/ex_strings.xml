@@ -30,7 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Hakkımızda</string>
   <string name="aex_about_summary">Tanıtımımız ve ekibimimiz</string>
-  <string name="aex_about_info_summary">AospExtended, Substratum tema motoru ile birlikte çeşitli özelleştirmeler sağlayan AOSP tabanlı bir romdur. Proje, diğer projelerden çeşitli özellikler alınarak yapılmıştır. AOSP üzerine dayalı olan proje pürüzsüz ve kesintisiz bir deneyim sağlar. Gelecekteki güncellemelerde daha fazla özellik eklemeye ve daha iyi hale getirmeye çalışacağız.&#35; BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended, Substratum tema motoru ile birlikte çeşitli özelleştirmeler sağlayan AOSP tabanlı bir romdur. Proje, diğer projelerden çeşitli özellikler alınarak yapılmıştır. AOSP üzerine dayalı olan proje pürüzsüz ve kesintisiz bir deneyim sağlar. Gelecekteki güncellemelerde daha fazla özellik eklemeye ve daha iyi hale getirmeye çalışacağız.&#35;BeExtended</string>
   <string name="dev_info">AospExtended hakkında</string>
   <string name="github">Github</string>
   <string name="github_description">Kaynak kodumuzu görüntüleyin</string>
@@ -181,7 +181,7 @@
   <string name="app_ops_boot_completed">Otomatik başlat</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root yönetimi</string>
-  <string name="rootmanagement_dashboard_summary">Root erişimini yönetme</string>
+  <string name="rootmanagement_dashboard_summary">Root erişimini yönetin</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
   <string name="background_processes_settings_title">Arka plan işlemleri</string>
   <!-- Search -->
+  <string name="menu_search">Uygulamalar ara</string>
+  <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

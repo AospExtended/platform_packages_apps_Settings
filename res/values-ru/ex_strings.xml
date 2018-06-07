@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Проверять датчик приближения перед включением экрана</string>
   <string name="background_processes_settings_title">Фоновые процессы</string>
   <!-- Search -->
+  <string name="menu_search">Поиск приложений</string>
+  <string name="menu_search_hint">Поиск</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

@@ -335,4 +335,10 @@
   <string name="proximity_wake_summary">Перевіряти датчик наближення перед включенням екрану</string>
   <string name="background_processes_settings_title">Фонові процеси</string>
   <!-- Search -->
+  <string name="menu_search">Пошук додатків</string>
+  <string name="menu_search_hint">Пошук додатків\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

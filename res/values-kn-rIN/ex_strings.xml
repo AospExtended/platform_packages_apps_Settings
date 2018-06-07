@@ -14,12 +14,55 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">ವಿಸ್ತೃತ ಆವೃತ್ತಿ</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">ಬಿಲ್ಡ್ ದಿನಾಂಕ</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">ಅಗತ್ಯವಿಲ್ಲ. ಡೆವಲಪ್ಮೆಂಟ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಗಳನ್ನು ಡೀಫಾಲ್ಟ್ ಆಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.</string>
   <!-- Changelog -->
+  <string name="changelog_summary">ಇತ್ತೀಚಿನ ಬದಲಾವಣೆಗಳು</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">ನಮ್ಮ ಬಗ್ಗೆ</string>
+  <string name="aex_about_summary">ನಮ್ಮ ಪರಿಚಯ ಮತ್ತು ನಮ್ಮ ತಂಡ</string>
+  <string name="github_description">ನಮ್ಮ ಸೋರ್ಸ್ ಕೋಡ್ ವೀಕ್ಷಿಸಿ</string>
+  <string name="gplus">ಗೂಗಲ್ +</string>
+  <string name="gplus_description">ನಮ್ಮ G + ಸಮುದಾಯಕ್ಕೆ ಸೇರ್ಪಡೆಗೊಳ್ಳಿ</string>
+  <string name="telegram">ಟೆಲಿಗ್ರಾಂ</string>
+  <string name="telegram_description">ನಮ್ಮ ಟೆಲಿಗ್ರಾಂ ಚಾನೆಲ್ಗೆ ಸಬ್ ಸ್ಕ್ರೈಬ್ ಆಗಿ</string>
+  <string name="web">ಡೌನ್ಲೋಡ್ ಸೆಂಟರ್</string>
+  <string name="web_description">ನಮ್ಮ ಡೌನ್ಲೋಡ್ ಪೋರ್ಟಲ್ ಅನ್ನು ಭೇಟಿ ಮಾಡಿ</string>
+  <string name="help_translate">ಅನುವಾದಗಳು</string>
+  <string name="help_translate_description">ನಿಮ್ಮ ಭಾಷೆಗೆ ಅನುವಾದಿಸಿ, ನಮ್ಮ Crowdin ಗೆ ಭೇಟಿ ನೀಡಿ</string>
+  <string name="walls">ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+  <string name="walls_description">ವಿವಿಧ ಬಳಕೆದಾರರಿಂದ ನೀಡಲಾದ ವಾಲ್‌ಪೇಪರ್‌ಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+  <string name="leads">ಟೀಮ್ ಲೀಡ್ಸ್</string>
+  <string name="team_1">ಶುಭಮ್ ಸಿಂಗ್ &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">ಓನರ್/ಲೀಡ್ ಡೆವಲಪರ್</string>
+  <string name="team_2">ಅಮನ್ ಕುಮಾರ್ &#40;FireLord&#41;</string>
+  <string name="team2_description">ಡೆವಲಪರ್</string>
+  <string name="team_3">ಅಮೋಲ್ ಅಮೃತ್</string>
+  <string name="team3_description">ಮಾಡರೇಟರ್ ಮತ್ತು ಹವ್ಯಾಸಿ ಡೆವಲಪರ್</string>
+  <string name="team_4">ಹೆನ್ರಿಕ್ ಸಿಲ್ವಾ &#40;jhenrique09&#41;</string>
+  <string name="team4_description">ಡೆವಲಪರ್</string>
+  <string name="designers">ವಿನ್ಯಾಸಕರು</string>
+  <string name="designer_1">ಯಾಸನ್ &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">ಥ್ರೆಡ್ ಬ್ಯಾನರ್ಗಳು, ಲೋಗೊಗಳು, ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+  <string name="designer_2">ಸೇವಿಯೋ &#40;Wizper99&#41;</string>
+  <string name="designer2_description">QS/ಫ್ಲಿಂಗ್ ಲೋಗೊಗಳು</string>
+  <string name="designer_3">ಜೀಸಸ್ ಆರ್ &#40;KrapK&#41;</string>
+  <string name="designer3_description">ವಾಲ್‌ಪೇಪರ್‌ಗಳು, ಬೂಟ್ ಅನಿಮೇಷನ್ಗಳು</string>
+  <string name="designer_4">ಹರ್ಷ V23</string>
+  <string name="designer4_description">UI ವಿಸ್ತರಣೆಗಳು, ಐಕಾನ್ಗಳು</string>
+  <string name="maintainers">ಮೈಂಟೈನರ್ಸ್</string>
+  <string name="maintainers_title">ಅಧಿಕೃತ ಮೈಂಟೈನರ್ಸ್</string>
+  <string name="maintainers_summary">ಅಧಿಕೃತವಾಗಿ ಬೆಂಬಲಿತ ಡಿವೈಸ್ ಗಳು ಮತ್ತು ಅವುಗಳ ಮೈಂಟೈನರ್ಸ್.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">ಮೈಂಟೈನರ್: %1$s</string>
+  <string name="loading_devices">ಡಿವೈಸ್ ಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...</string>
+  <string name="loading_devices_failed">ಡಿವೈಸ್ ಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ</string>
+  <string name="devices_list_empty">ಪಟ್ಟಿ ಖಾಲಿಯಾಗಿದೆ, ರಿಲೋಡ್ ಮಾಡಲು ಐಕಾನ್ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
   <!-- AEX OTA -->
   <!-- Expanded desktop -->
   <!-- App details: open play store link if app is user installed -->
@@ -29,6 +72,54 @@
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_get_usage_stats">ಬಳಕೆಯ ಅಂಕಿಅಂಶಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+  <string name="app_ops_keep_device_awake">ಎಚ್ಚರವಾಗಿಡು</string>
+  <string name="app_ops_make_phone_call">ಕರೆ ಮಾಡು</string>
+  <string name="app_ops_modify_calendar">ನಿಮ್ಮ ಕ್ಯಾಲೆಂಡರ್‍ನ್ನು ನವೀಕರಿಸು</string>
+  <string name="app_ops_modify_call_log">ಕರೆ ಲಾಗ್ ನವೀಕರಿಸು</string>
+  <string name="app_ops_modify_clipboard">ಕ್ಲಿಪ್ ಬೋರ್ಡ್ ಮಾರ್ಪಡಿಸು</string>
+  <string name="app_ops_modify_contacts">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ನವೀಕರಿಸು</string>
+  <string name="app_ops_modify_settings">ಸೆಟ್ಟಿಂಗ್ಸ್ ನವೀಕರಿಸು</string>
+  <string name="app_ops_mute_unmute_microphone">ಮೈಕ್ ಮ್ಯೂಟ್ / ಅನ್ಮ್ಯೂಟ್ ಮಾಡಿ</string>
+  <string name="app_ops_play_audio">ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡು</string>
+  <string name="app_ops_post_notification">ನೋಟಿಫಿಕೇಷನ್ ಪೋಸ್ಟ್ ಮಾಡು</string>
+  <string name="app_ops_project_media">ಮಾಧ್ಯಮವನ್ನು ಪ್ರೊಜೆಕ್ಟ್ ಮಾಡು</string>
+  <string name="app_ops_read_calendar">ಕ್ಯಾಲೆಂಡರ್ ಓದು</string>
+  <string name="app_ops_read_call_log">ಕರೆ ಲಾಗ್ ಓದು</string>
+  <string name="app_ops_read_clipboard">ಕ್ಲಿಪ್ ಬೋರ್ಡ್ ಓದು</string>
+  <string name="app_ops_read_contacts">ಸಂಪರ್ಕಗಳನ್ನು ಓದು</string>
+  <string name="app_ops_read_mms">ಎಂಎಂಎಸ್ ಓದು</string>
+  <string name="app_ops_read_sms">ಎಸ್ಎಂಎಸ್ ಓದು</string>
+  <string name="app_ops_receive_sms">ಎಸ್ಎಂಎಸ್ ಸ್ವೀಕರಿಸಿ</string>
+  <string name="app_ops_record_audio">ಆಡಿಯೋ ರಿಕಾರ್ಡ್ ಮಾಡು</string>
+  <string name="app_ops_send_mms">ಎಂಎಂಎಸ್ ಕಳುಹಿಸಿ</string>
+  <string name="app_ops_send_sms">ಎಸ್ಎಂಎಸ್ ಕಳುಹಿಸಿ</string>
+  <string name="app_ops_toast_window">ಟೋಸ್ಟ್ ಸಂದೇಶಗಳು</string>
+  <string name="app_ops_use_alarm_volume">ಅಲಾರಂ ವಾಲ್ಯೂಂ</string>
+  <string name="app_ops_use_audio_focus">ಆಡಿಯೋ ಫೋಕಸ್</string>
+  <string name="app_ops_use_bluetooth_volume">ಬ್ಲೂಟೂತ್ ವಾಲ್ಯೂಂ</string>
+  <string name="app_ops_use_master_volume">ಮಾಸ್ಟರ್ ವಾಲ್ಯೂಂ</string>
+  <string name="app_ops_use_media_buttons">ಮೀಡಿಯಾ ಬಟನ್ಸ್</string>
+  <string name="app_ops_use_media_volume">ಮೀಡಿಯಾ ವಾಲ್ಯೂಂ</string>
+  <string name="app_ops_use_notification_volume">ನೋಟಿಫಿಕೇಷನ್ ವಾಲ್ಯೂಂ</string>
+  <string name="app_ops_use_ring_volume">ರಿಂಗ್ ಟೋನ್ ವಾಲ್ಯೂಂ</string>
+  <string name="app_ops_use_vibrate">ಸ್ಪಾರ್ಶ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಉಪಯೋಗಿಸು</string>
+  <string name="app_ops_use_voice_volume">ಕರೆಧ್ವನಿ ವಾಲ್ಯೂಂ</string>
+  <string name="app_ops_write_mms">ಎಂಎಂಎಸ್ ಬರೆಯಿರಿ</string>
+  <string name="app_ops_write_sms">ಎಸ್ಎಂಎಸ್ ಬರೆಯಿರಿ</string>
+  <string name="app_ops_use_fingerprint">ಫಿಂಗರ್ ಪ್ರಿಂಟ್</string>
+  <string name="app_ops_add_voicemail">ವಾಯ್ಸ್ ಮೇಲ್</string>
+  <string name="app_ops_read_phone_state">ಫೋನ್‌ ಸ್ಥಿತಿ ಅಕ್ಸೆಸ್‌ ಮಾಡಿ</string>
+  <string name="app_ops_scan_wifi">ವೈಫೈ ನೆಟ್ವರ್ಕ್ಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+  <string name="app_ops_change_wallpaper">ವಾಲ್‌ಪೇಪರ್‌ ಬದಲಿಸಿ</string>
+  <string name="app_ops_assist_screenshot">ಸ್ಕ್ರೀನ್‍ಶಾಟ್</string>
+  <string name="app_ops_read_cell_broadcasts">ಸೆಲ್ ಬ್ರಾಡ್ ಕ್ಯಾಸ್ಟ್ ಗಳು</string>
+  <string name="app_ops_mock_location">ಅಣಕು ಸ್ಥಳ</string>
+  <string name="app_ops_read_external_storage">ಬಾಹ್ಯ ಸಂಗ್ರಹ ಓದು</string>
+  <string name="app_ops_write_external_storage">ಬಾಹ್ಯ ಸಂಗ್ರಹವನ್ನು ಬರೆಯಿರಿ</string>
+  <string name="app_ops_turn_on_screen">ಸ್ಕ್ರೀನ್ ಆನ್ ಮಾಡಿ</string>
+  <string name="app_ops_get_accounts">ಡಿವೈಸ್ ಖಾತೆಗಳು</string>
+  <string name="app_ops_run_in_background">ಹಿಂಬದಿಯಲ್ಲಿ ಚಲಾಯಿಸಿ</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -63,4 +154,8 @@
   <!-- USB paranoia mode -->
   <!-- Proximity wake -->
   <!-- Search -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

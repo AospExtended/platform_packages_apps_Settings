@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
   <string name="background_processes_settings_title">Processus d’arrière-plan</string>
   <!-- Search -->
+  <string name="menu_search">Rechercher dans les applications</string>
+  <string name="menu_search_hint">Rechercher des applications\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

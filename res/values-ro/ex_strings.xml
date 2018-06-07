@@ -60,6 +60,8 @@
   <string name="designer2_description">QS/Fling logo-uri</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Imagini de fundal, Animaţii boot</string>
+  <string name="designer_4">Harsh V23</string>
+  <string name="designer4_description">Extensii UI, pictograme</string>
   <string name="maintainers">Responsabili</string>
   <string name="maintainers_title">Menținători oficiali</string>
   <string name="maintainers_summary">Lista dispozitivelor şi persoanelor oficial responsabile.</string>
@@ -249,6 +251,7 @@
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">Temă de sistem</string>
   <string name="system_theme_style_title">Stil interfață utilizator</string>
   <string name="system_theme_style_auto">Bazat pe im. de fundal</string>
   <string name="system_theme_style_light">Luminos</string>
@@ -257,6 +260,7 @@
   <string name="system_theme_style_extended">Extins</string>
   <string name="theme_applied_toast">Temă aplicată</string>
   <string name="applying_theme_toast">Se aplică tema, așteptați...</string>
+  <string name="substratum_installed_title">Temele de sistem nu sunt disponibile deoarece este instalată o suprapunere Substratum. Dezinstalați toate suprapunerile care vizează sistemul Android pentru a continua.</string>
   <!-- MSIM Manual provisioning -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> este <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">activată</string>
@@ -311,9 +315,29 @@
   <string name="lockscreen_vibrate_enabled_title">Vibrare</string>
   <string name="lockscreen_vibrate_enabled_head">Vibrare la deblocare</string>
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Autorizare forţată a fiecărei aplicație de temă</string>
+  <string name="force_authorize_substratum_packages_summary">Permiteţi aplicații teme din surse necunoscute</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Suprapuneri Substratum</string>
+  <string name="menu_show_substratum">Afişare suprapuneri</string>
+  <string name="menu_hide_substratum">Ascundere suprapuneri</string>
   <!-- Default USB configuration -->
+  <string name="select_default_usb_configuration_title">Selectați configurația USB implicită</string>
+  <string name="select_default_usb_configuration_dialog_title">Selectați configurația USB</string>
+  <string name="select_usb_default_confguration_warning">AVERTISMENT: Configurația USB implicită este activată și atunci când dispozitivul este blocat!\n\nChiar doriți să activați această configurație?</string>
   <!-- USB paranoia mode -->
+  <string name="usb_paranoia_connect_title">Conexiune USB securizată</string>
+  <string name="usb_paranoia_connect_summary">Activați numai încărcarea și dezactivați ADB când USB este conectat la ecrane de blocare securizate</string>
+  <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
+  <string name="proximity_wake_title">Previne trezirea accidentală</string>
+  <string name="proximity_wake_summary">Verifică senzorul de proximitate înainte de trezirea ecranului</string>
+  <string name="background_processes_settings_title">Procesele de fundal</string>
   <!-- Search -->
+  <string name="menu_search">Căutare aplicații</string>
+  <string name="menu_search_hint">Căutare aplicații\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

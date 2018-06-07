@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
   <string name="background_processes_settings_title">Proses latar belakang</string>
   <!-- Search -->
+  <string name="menu_search">Cari aplikasi</string>
+  <string name="menu_search_hint">Cari aplikasi\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

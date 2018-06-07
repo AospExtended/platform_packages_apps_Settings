@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
   <string name="background_processes_settings_title">Processi in background</string>
   <!-- Search -->
+  <string name="menu_search">Cerca app</string>
+  <string name="menu_search_hint">Cerca app\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

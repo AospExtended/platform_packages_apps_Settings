@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Kontrolovať snímač priblíženia pre zabránenie nechcenému prebudeniu</string>
   <string name="background_processes_settings_title">Procesy na pozadí</string>
   <!-- Search -->
+  <string name="menu_search">Vyhľadávanie aplikácií</string>
+  <string name="menu_search_hint">Vyhľadávanie...</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

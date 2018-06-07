@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
   <string name="background_processes_settings_title">Procesy pracujące w tle</string>
   <!-- Search -->
+  <string name="menu_search">Wyszukaj aplikacje</string>
+  <string name="menu_search_hint">Wyszukaj aplikacje\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>

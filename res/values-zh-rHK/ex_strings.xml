@@ -334,4 +334,10 @@
   <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
   <string name="background_processes_settings_title">背景處理程序</string>
   <!-- Search -->
+  <string name="menu_search">搜尋應用程式</string>
+  <string name="menu_search_hint">搜尋應用程式\u2026</string>
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
+  <!-- Font picker -->
 </resources>
