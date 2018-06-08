@@ -57,6 +57,25 @@ import com.android.settings.wifi.WifiSettings;
 
 import java.util.HashMap;
 
+import org.aospextended.extensions.dui.NavbarSettings;
+import org.aospextended.extensions.statusbar.MiscExtensions;
+import org.aospextended.extensions.statusbar.QuickSettings;
+import org.aospextended.extensions.Animations;
+import org.aospextended.extensions.Blur;
+import org.aospextended.extensions.Buttons;
+import org.aospextended.extensions.CarrierLabel;
+import org.aospextended.extensions.GeneralTweaks;
+import org.aospextended.extensions.LockscreenShortcuts;
+import org.aospextended.extensions.LockscreenUI;
+import org.aospextended.extensions.Notifications;
+import org.aospextended.extensions.PieSettings;
+import org.aospextended.extensions.RecentsUI;
+import org.aospextended.extensions.SlimRecentPanel;
+import org.aospextended.extensions.StatusbarBatteryStyle;
+import org.aospextended.extensions.StatusbarClock;
+import org.aospextended.extensions.Traffic;
+
+
 /**
  * Utility class for dealing with Search Ranking.
  */
@@ -86,6 +105,7 @@ public final class Ranking {
     public static final int RANK_DEVELOPEMENT = 22;
     public static final int RANK_DEVICE_INFO = 23;
     public static final int RANK_GESTURE = 24;
+    public static final int RANK_AEX = 25;
 
     public static final int RANK_UNDEFINED = -1;
     public static final int RANK_OTHERS = 1024;
@@ -182,6 +202,24 @@ public final class Ranking {
 
         // Device infos
         sRankMap.put(DeviceInfoSettings.class.getName(), RANK_DEVICE_INFO);
+
+        //aex additions
+        sRankMap.put(NavbarSettings.class.getName(), RANK_AEX);
+        sRankMap.put(MiscExtensions.class.getName(), RANK_AEX);
+        sRankMap.put(QuickSettings.class.getName(), RANK_AEX);
+        sRankMap.put(Animations.class.getName(), RANK_AEX);
+        sRankMap.put(Blur.class.getName(), RANK_AEX);
+        sRankMap.put(Buttons.class.getName(), RANK_AEX);
+        sRankMap.put(CarrierLabel.class.getName(), RANK_AEX);
+        sRankMap.put(GeneralTweaks.class.getName(), RANK_AEX);
+        sRankMap.put(LockscreenShortcuts.class.getName(), RANK_AEX);
+        sRankMap.put(LockscreenUI.class.getName(), RANK_AEX);
+        sRankMap.put(Notifications.class.getName(), RANK_AEX);
+        sRankMap.put(PieSettings.class.getName(), RANK_AEX);
+        sRankMap.put(SlimRecentPanel.class.getName(), RANK_AEX);
+        sRankMap.put(StatusbarBatteryStyle.class.getName(), RANK_AEX);
+        sRankMap.put(StatusbarClock.class.getName(), RANK_AEX);
+        sRankMap.put(Traffic.class.getName(), RANK_AEX);
 
         sBaseRankMap.put("com.android.settings", 0);
     }
