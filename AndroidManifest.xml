@@ -3468,6 +3468,9 @@
                 android:value="org.aospextended.extensions.SmartPixels" />
         </activity>
 
+        <!-- Recents hide -->
+        <activity android:name="org.aospextended.extensions.HAFRAppListActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
