@@ -32,7 +32,7 @@ public class VolumeAdjustmentTonePreferenceController extends SettingPrefControl
             Lifecycle lifecycle) {
         super(context, parent, lifecycle);
         mPreference = new SettingPref(
-            TYPE_SYSTEM, KEY_VOLUME_ADJUST_SOUNDS, System.VOLUME_ADJUST_SOUNDS_ENABLED, DEFAULT_ON);
+            TYPE_SYSTEM, KEY_VOLUME_ADJUST_SOUNDS, System.VOLUME_ADJUST_SOUNDS_ENABLED, 0);
     }
 
 }
