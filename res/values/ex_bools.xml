@@ -19,4 +19,7 @@
     <!-- Whether notify user that switch data service -->
     <bool name="confirm_to_switch_data_service">false</bool>
 
+    <!-- Whether to disable eab provision -->
+    <bool name="config_is_eab_provisioned">true</bool>
+
 </resources>
