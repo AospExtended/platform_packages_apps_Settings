@@ -16,9 +16,11 @@
 
 package com.android.settings;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
@@ -54,6 +56,11 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 
 import java.util.ArrayList;
 import java.util.List;
+import android.provider.Settings;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.Preference;
+import com.android.settings.Utils;
 
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
@@ -63,9 +70,13 @@ public class DisplaySettings extends DashboardFragment {
 
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
     private static final String KEY_AMBIENT_DISPLAY = "ambient_display";
+    private static final String KEY_FORCE_ALLOW_SYSTEM_THEMES = "force_allow_system_themes";
 
     private IntentFilter mIntentFilter;
     private static FontPickerPreferenceController mFontPickerPreference;
+    private SwitchPreference mForceAllowThemePref;
+    private static AccentPickerPreferenceController mAccentPickerPreference;
+    private static DarkUIPreferenceController mUIStylePreference;
 
     private BroadcastReceiver mIntentReceiver = new BroadcastReceiver() {
         @Override
@@ -82,6 +93,33 @@ public class DisplaySettings extends DashboardFragment {
         super.onCreate(savedInstanceState);
         mIntentFilter = new IntentFilter();
         mIntentFilter.addAction("com.android.server.ACTION_FONT_CHANGED");
+        mForceAllowThemePref = (SwitchPreference) findPreference(KEY_FORCE_ALLOW_SYSTEM_THEMES);
+
+        if(mForceAllowThemePref != null) {
+            mForceAllowThemePref.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+                @Override
+                public boolean onPreferenceChange(Preference preference, Object newValue) {
+                    final boolean val = (Boolean) newValue;
+                    Settings.System.putInt(getContentResolver(),
+                            Settings.System.FORCE_ALLOW_SYSTEM_THEMES, val ? 1 : 0);
+                    if(val) {
+                       new AlertDialog.Builder(getActivity())
+                               .setTitle(R.string.force_theme_warning_title)
+                               .setMessage(R.string.force_theme_warning_message)
+                               .setPositiveButton(R.string.dlg_ok, null)
+                               .show();
+
+                    }
+
+                    // Update preferences states
+                    mAccentPickerPreference.onResume();
+                    mFontPickerPreference.onResume();
+                    mUIStylePreference.onResume();
+                    return true;
+                }
+
+            });
+        }
     }
 
     @Override
@@ -134,7 +172,7 @@ public class DisplaySettings extends DashboardFragment {
             Context context, Lifecycle lifecycle, Fragment fragment) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle, fragment));
-        controllers.add(new AccentPickerPreferenceController(context, lifecycle, fragment));
+        controllers.add(mAccentPickerPreference = new AccentPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(new AutoBrightnessPreferenceController(context, KEY_AUTO_BRIGHTNESS));
         // controllers.add(new AutoRotatePreferenceController(context, lifecycle));
         controllers.add(new CameraGesturePreferenceController(context));
@@ -153,7 +191,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
-        controllers.add(new DarkUIPreferenceController(context));
+        controllers.add(mUIStylePreference = new DarkUIPreferenceController(context, lifecycle, fragment));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
         return controllers;
