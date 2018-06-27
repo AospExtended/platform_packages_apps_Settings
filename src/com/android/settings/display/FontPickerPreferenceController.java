@@ -37,6 +37,7 @@ import android.content.IFontService;
 import android.content.pm.PackageManager;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.provider.Settings;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
@@ -67,18 +68,26 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
         if (mFontPreference == null) {
             return;
         }
-        if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
+        if (!isPackageInstalled(SUBS_PACKAGE, mContext) || isForceThemeAllowed()) {
             mFontPreference.setSummary(getCurrentFontInfo().fontName.replace("_", " "));
+            mFontPreference.setEnabled(true);
         } else {
             mFontPreference.setSummary(mContext.getString(
                     com.android.settings.R.string.disable_fonts_installed_title));
+            mFontPreference.setEnabled(false);
+
         }
+    }
+
+    public boolean isForceThemeAllowed() {
+        return Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.FORCE_ALLOW_SYSTEM_THEMES, 0) == 1;
     }
 
     @Override
     public void displayPreference(PreferenceScreen screen) {
         mFontPreference = (FontDialogPreference) screen.findPreference(KEY_FONT_PICKER_FRAGMENT_PREF);
-        if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
+        if (!isPackageInstalled(SUBS_PACKAGE, mContext) || isForceThemeAllowed()) {
             mFontPreference.setEnabled(true);
         } else {
             mFontPreference.setEnabled(false);
