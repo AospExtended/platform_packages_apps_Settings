@@ -16,20 +16,6 @@
 
 package com.android.settings.display;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
-
-import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.core.AbstractPreferenceController;
-import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.android.settingslib.core.lifecycle.LifecycleObserver;
-import com.android.settingslib.core.lifecycle.events.OnResume;
-import org.aospextended.extensions.AccentPicker;
-
 import android.app.Fragment;
 import android.content.Context;
 import android.content.FontInfo;
@@ -37,12 +23,14 @@ import android.content.IFontService;
 import android.content.pm.PackageManager;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
+import android.provider.Settings;
 import android.support.v7.preference.PreferenceScreen;
-import android.support.v7.preference.Preference.OnPreferenceClickListener;
-import android.text.TextUtils;
-import android.util.Log;
+
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnResume;
 
 public class FontPickerPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, LifecycleObserver, OnResume {
@@ -67,7 +55,7 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
         if (mFontPreference == null) {
             return;
         }
-        if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
+        if (!isPackageInstalled(SUBS_PACKAGE, mContext) || isForceThemeAllowed()) {
             mFontPreference.setSummary(getCurrentFontInfo().fontName.replace("_", " "));
         } else {
             mFontPreference.setSummary(mContext.getString(
@@ -75,10 +63,15 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
         }
     }
 
+    public boolean isForceThemeAllowed() {
+        return Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.FORCE_ALLOW_SYSTEM_THEMES, 0) == 1;
+    }
+
     @Override
     public void displayPreference(PreferenceScreen screen) {
         mFontPreference = (FontDialogPreference) screen.findPreference(KEY_FONT_PICKER_FRAGMENT_PREF);
-        if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
+        if (!isPackageInstalled(SUBS_PACKAGE, mContext) || isForceThemeAllowed()) {
             mFontPreference.setEnabled(true);
         } else {
             mFontPreference.setEnabled(false);

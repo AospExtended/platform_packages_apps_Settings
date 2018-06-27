@@ -26,6 +26,7 @@ import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstall
 
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
 import libcore.util.Objects;
@@ -38,7 +39,7 @@ import android.os.Handler;
 import android.widget.Toast;
 
 public class DarkUIPreferenceController extends AbstractPreferenceController implements
-        PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
+        PreferenceControllerMixin, Preference.OnPreferenceChangeListener, OnResume {
 
     private static final String SYSTEM_THEME_STYLE = "system_theme_style";
     private ListPreference mSystemThemeStyle;
@@ -73,6 +74,31 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
             mSystemThemeStyle.setSummary(R.string.substratum_installed_title);
         }
     }
+
+    public void updateState() {
+        if (!isSubstratumOverlayInstalled(mContext)) {
+            int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.SYSTEM_THEME_STYLE, 0);
+            int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
+            mSystemThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+            mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntry());
+            mSystemThemeStyle.setOnPreferenceChangeListener(this);
+        } else {
+            mSystemThemeStyle.setEnabled(false);
+            mSystemThemeStyle.setSummary(R.string.substratum_installed_title);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        updateState();
+    }
+
+    public boolean IsForceThemeAllowed() {
+        return Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.FORCE_ALLOW_SYSTEM_THEMES, 0) == 1;
+    }
+
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mSystemThemeStyle) {
