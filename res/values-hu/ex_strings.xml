@@ -337,7 +337,15 @@
   <string name="menu_search">Alkalmazások keresése</string>
   <string name="menu_search_hint">Alkalmazások keresése\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Csúsztasson az ujjlenyomat-szenzoron balra vagy jobbra az értesítések elutasításához</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Az értesítések eltüntetéséhez csúsztasson jobbra vagy balra a telefon hátulján az ujjlenyomatolvasó-szenzoron.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Gyors legördítés ujjlenyomattal</string>
+  <string name="fp_quick_pulldown_summary">A gyorsbeállítások panel kibontása egy rövid csúsztatással az ujjlenyomat-érzékelőn.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">A Betűtípus-választó nem érhető el a Substratummal való ütközés elkerülése érdekében. Távolítsa el azt, ha használni szeretné ezt az alkalmazást.</string>
+  <string name="font_picker_title">Betűtípus</string>
+  <string name="font_picker_progress">Új betűtípus alkalmazása\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

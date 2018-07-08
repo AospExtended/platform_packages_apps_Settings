@@ -60,6 +60,7 @@
   <string name="designer2_description">QS/Fling logos</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Ταπετσαρίες, Κινούμενες Εικόνες Εκκίνησης</string>
+  <string name="designer_4">Harsh V23</string>
   <string name="designer4_description">Επεκτάσεις UI, εικονίδια</string>
   <string name="maintainers">Συντηρητές</string>
   <string name="maintainers_title">Επίσημοι συντηρητές</string>
@@ -273,4 +274,5 @@
   <!--  [CHAR LIMIT=160]-->
   <!-- Fingerprint quick pulldown -->
   <!-- Font picker -->
+  <!-- Per-app data restrictions -->
 </resources>

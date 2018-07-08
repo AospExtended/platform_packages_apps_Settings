@@ -347,4 +347,5 @@
   <string name="disable_fonts_installed_title">字体选择器不可用，以避免和 Substratum 发生冲突。如果您希望使用字体选择器, 请卸载 Substratum 主题。</string>
   <string name="font_picker_title">字体</string>
   <string name="font_picker_progress">正在应用新字体\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

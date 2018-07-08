@@ -337,7 +337,15 @@
   <string name="menu_search">搜尋應用程式</string>
   <string name="menu_search_hint">搜尋應用程式\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑動指紋以解除通知</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">要解除通知，請在手機背面的指紋感應器上向左或向右滑動。</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">指紋快速下拉</string>
+  <string name="fp_quick_pulldown_summary">僅需在指紋感應器上滑動一次即可展開快速設定面板</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">為了避免與 Substratum 疊層衝突，字型管理器已經停用。如果想要使用字型管理器，請解除安裝疊層。</string>
+  <string name="font_picker_title">字型</string>
+  <string name="font_picker_progress">正在套用新的字型\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

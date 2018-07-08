@@ -14,12 +14,62 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Extended version -->
+  <string name="extended_version">Versão da AOSP Extended</string>
+  <string name="extended_version_default">Desconhecido</string>
   <!-- About phone screen, build date -->
+  <string name="build_date">Data da compilação</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Desnecessário, Configurações de desenvolvimento estão ativadas por padrão.</string>
   <!-- Changelog -->
+  <string name="changelog_title">Lista de alterações</string>
+  <string name="changelog_summary">Alterações recentes</string>
+  <string name="changelog_loading">A carregar lista de alterações\u2026</string>
+  <string name="changelog_error">Não foi possível carregar a lista de alterações</string>
   <!-- About AospExtended -->
+  <string name="aex_about_info">Sobre nós</string>
+  <string name="aex_about_summary">Uma introdução e a nossa equipa</string>
+  <string name="aex_about_info_summary">AospExtended é uma rom com base AOSP que fornece uma interface stock com várias opções de personalização, juntamente com o gestor de tema Substratum. O projeto consiste em várias funções de vários outros projetos. Sendo baseado na AOSP, fornecemos uma experiência suave e sem lags. Nós tentaremos constantemente adicionar mais funcionalidades e tornar a ROM ainda melhor com atualizações futuras.&#35;BeExtended</string>
+  <string name="dev_info">Sobre AospExtended</string>
+  <string name="github">GitHub</string>
+  <string name="github_description">Veja nosso código fonte</string>
+  <string name="gplus">Google+</string>
+  <string name="gplus_description">Junte-se à nossa comunidade no G+</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_description">Subscreva o nosso canal no Telegram</string>
+  <string name="web">Centro de transferências</string>
+  <string name="web_description">Visite o nosso portal de transferências</string>
+  <string name="help_translate">Traduções</string>
+  <string name="help_translate_description">Ajude a traduzir para o seu idioma, visite nosso Crowdin</string>
+  <string name="walls">Imagens de fundo</string>
+  <string name="walls_description">Obter imagens de fundo criados por vários utilizadores</string>
+  <string name="leads">Liderança de equipa</string>
+  <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+  <string name="team1_description">Criador/Programador Líder</string>
+  <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+  <string name="team2_description">Programador</string>
+  <string name="team_3">Amol Amrit</string>
+  <string name="team3_description">Moderador e Programador Amador</string>
+  <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+  <string name="team4_description">Programador</string>
+  <string name="designers">Designers</string>
+  <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+  <string name="designer1_description">Banners, Logos, Imagens de fundo</string>
+  <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+  <string name="designer2_description">Logos QS/Fling</string>
+  <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+  <string name="designer3_description">Imagens de Fundo, Animações de boot</string>
+  <string name="designer_4">V23 áspero</string>
+  <string name="designer4_description">UI de extensões, ícones</string>
+  <string name="maintainers">Mantido por</string>
+  <string name="maintainers_title">Mantenedores oficiais</string>
+  <string name="maintainers_summary">Oficialmente os dispositivos suportados e seus respectivos mantenedores.</string>
   <!-- Maintainer section -->
+  <string name="maintainer_description">Mantém %1$s</string>
+  <string name="loading_devices">A carregar a lista de dispositivos...</string>
+  <string name="loading_devices_failed">Falha ao carregar a lista de dispositivos</string>
+  <string name="devices_list_empty">A lista está vazia, toque no ícone para recarregar</string>
   <!-- AEX OTA -->
   <!-- Expanded desktop -->
   <!-- App details: open play store link if app is user installed -->
@@ -29,6 +79,56 @@
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_modify_settings">Atualizar definições</string>
+  <string name="app_ops_mute_unmute_microphone">ligar/desligar microfone</string>
+  <string name="app_ops_play_audio">Reproduzir áudio</string>
+  <string name="app_ops_post_notification">Publicar uma notificação</string>
+  <string name="app_ops_project_media">Projetar multimédia</string>
+  <string name="app_ops_read_calendar">Ler calendário</string>
+  <string name="app_ops_read_call_log">Ler registo de chamadas</string>
+  <string name="app_ops_read_clipboard">Ler área de transferência</string>
+  <string name="app_ops_read_contacts">Ler contactos</string>
+  <string name="app_ops_read_mms">Ler MMS</string>
+  <string name="app_ops_read_sms">Ler SMS</string>
+  <string name="app_ops_receive_sms">Receber SMS</string>
+  <string name="app_ops_record_audio">Gravar áudio</string>
+  <string name="app_ops_send_mms">Enviar MMS</string>
+  <string name="app_ops_send_sms">Enviar SMS</string>
+  <string name="app_ops_toast_window">Mensagens de aviso</string>
+  <string name="app_ops_use_alarm_volume">Volume do alarme</string>
+  <string name="app_ops_use_audio_focus">Orientação do áudio</string>
+  <string name="app_ops_use_bluetooth_volume">Volume de Bluetooth</string>
+  <string name="app_ops_use_master_volume">Volume principal</string>
+  <string name="app_ops_use_media_buttons">Botões multimédia</string>
+  <string name="app_ops_use_media_volume">Volume de multimédia</string>
+  <string name="app_ops_use_notification_volume">Volume de notificações</string>
+  <string name="app_ops_use_ring_volume">Volume do toque</string>
+  <string name="app_ops_use_vibrate">Vibrar ao tocar</string>
+  <string name="app_ops_use_voice_volume">Volume de voz</string>
+  <string name="app_ops_write_mms">Escrever MMS</string>
+  <string name="app_ops_write_sms">Escrever SMS</string>
+  <string name="app_ops_use_fingerprint">Impressão digital</string>
+  <string name="app_ops_add_voicemail">Correio de voz</string>
+  <string name="app_ops_read_phone_state">Aceder ao estado do telefone</string>
+  <string name="app_ops_scan_wifi">Procurar Redes Wi-Fi</string>
+  <string name="app_ops_change_wallpaper">Alterar imagem de fundo</string>
+  <string name="app_ops_assist_structure">Estrutura auxiliar</string>
+  <string name="app_ops_assist_screenshot">Capturas de tela</string>
+  <string name="app_ops_use_body_sensors">Sensores de corpo</string>
+  <string name="app_ops_read_cell_broadcasts">Transmissões móveis</string>
+  <string name="app_ops_mock_location">Simular localização</string>
+  <string name="app_ops_read_external_storage">Ler armazenamento externo</string>
+  <string name="app_ops_write_external_storage">Escrever no armazenamento externo</string>
+  <string name="app_ops_turn_on_screen">Ligar o ecrã</string>
+  <string name="app_ops_get_accounts">Contas do dispositivo</string>
+  <string name="app_ops_run_in_background">Executar em segundo plano</string>
+  <string name="app_ops_accessibility_volume">volume de acessibilidade</string>
+  <string name="app_ops_read_phone_numbers">Ler os números de telefone</string>
+  <string name="app_ops_request_install_packages">instalar pacote</string>
+  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_app_start_foreground">começar em primeiro plano</string>
+  <string name="app_ops_answer_phone_calls">atender chamadas</string>
+  <string name="app_ops_boot_completed">Início automático</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -67,4 +167,5 @@
   <!--  [CHAR LIMIT=160]-->
   <!-- Fingerprint quick pulldown -->
   <!-- Font picker -->
+  <!-- Per-app data restrictions -->
 </resources>

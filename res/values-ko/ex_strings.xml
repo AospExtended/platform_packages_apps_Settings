@@ -194,6 +194,7 @@
   <string name="adb_over_network_warning">경고: 무선 네트워크로 ADB 사용시, GSM 데이터 네트워크를 비롯하여 연결된 모든 네트워크에서 디바이스에 침입할 수 있습니다.\n\n신뢰할 수 있는 네트워크에 연결되었을 때만 이 설정을 사용하십시오.\n\n이 기능을 정말로 사용하시겠습니까?</string>
   <!-- Vibrate on plug -->
   <string name="vibration_on_charge_state_changed_title">충전기 연결  시 진동</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
   <string name="system_theme_style_title">UI 스타일</string>
   <string name="system_theme_style_light">밝은 UI</string>
@@ -269,4 +270,5 @@
   <!--  [CHAR LIMIT=160]-->
   <!-- Fingerprint quick pulldown -->
   <!-- Font picker -->
+  <!-- Per-app data restrictions -->
 </resources>

@@ -337,7 +337,15 @@
   <string name="menu_search">Rechercher dans les applications</string>
   <string name="menu_search_hint">Rechercher des applications\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Balayer le capteur d\'empreinte à droite ou à gauche pour faire disparaître les notifications</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Pour faire disparaitre vos notifications, balayez vers la gauche ou la droite sur le capteur d\'empreintes digitales situé à l\'arrière de votre téléphone.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Déroulement rapide grâce au capteur d\'empreinte</string>
+  <string name="fp_quick_pulldown_summary">Déployer le panneau de configuration rapide en glissant une seule fois le doigt sur le lecteur d\'empreinte digitale.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Le sélectionneur de police de caractère n\'est pas disponible afin d\'éviter des conflits avec Substratum. Désinstaller Substratum pour utiliser le sélectionneur de police.</string>
+  <string name="font_picker_title">Police de caractère</string>
+  <string name="font_picker_progress">Application de la nouvelle police en cours\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

@@ -26,7 +26,7 @@
   <string name="changelog_title">Registro de cambios</string>
   <string name="changelog_summary">Cambios recientes</string>
   <string name="changelog_loading">Cargando registro de cambios\u2026</string>
-  <string name="changelog_error">Incapaz de cargar el registro de cambios</string>
+  <string name="changelog_error">Imposible cargar el registro de cambios</string>
   <!-- About AospExtended -->
   <string name="aex_about_info">Acerca de nosotros</string>
   <string name="aex_about_summary">Nuestra introducción y equipo</string>
@@ -105,7 +105,7 @@
   <string name="ring_notification_volume_option_title">Volumen de tono y notificación</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Úbicación</string>
+  <string name="app_ops_cat_location">Ubicación</string>
   <string name="app_ops_cat_personal">Personal</string>
   <string name="app_ops_cat_messaging">Mensajes</string>
   <string name="app_ops_cat_media">Multimedia</string>
@@ -113,7 +113,7 @@
   <string name="app_ops_cat_bootup">Arranque</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
   <string name="app_ops_access_camera">Cámara</string>
-  <string name="app_ops_access_location">Ubinación</string>
+  <string name="app_ops_access_location">Ubicación</string>
   <string name="app_ops_access_notifications">Notificaciones</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">Inicio automatico</string>
@@ -324,7 +324,7 @@
   <!-- Default USB configuration -->
   <string name="select_default_usb_configuration_title">Seleccionar configuración por defecto del USB</string>
   <string name="select_default_usb_configuration_dialog_title">Seleccionar configuración de USB</string>
-  <string name="select_usb_default_confguration_warning">Atencion: La configuracion por defecto del usb esta activada incluso cuando el telefono esta bloqueado.\n\n ¿Esta seguro de que quiere esta configuracion?</string>
+  <string name="select_usb_default_confguration_warning">Atención: La configuración por defecto del usb está activada incluso cuando el teléfono está bloqueado.\n\n ¿Está seguro de que quiere esta configuración?</string>
   <!-- USB paranoia mode -->
   <string name="usb_paranoia_connect_title">Conexión USB segura</string>
   <string name="usb_paranoia_connect_summary">Sólo permiten cargar y desactivar la ADB cuando USB esté conectado en las pantallas de bloqueo seguro</string>
@@ -337,7 +337,15 @@
   <string name="menu_search">Buscar aplicaciones</string>
   <string name="menu_search_hint">Buscar aplicaciones\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Deslice el dedo a la derecha o izquierda para borrar las notificaciones</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Para borrar las notificaciones, deslice el dedo a la izquierda o derecha en el lector de huellas de su teléfono.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Despliegue rápido con lector de huellas</string>
+  <string name="fp_quick_pulldown_summary">Expanda el panel de configuración rápida con sólo un toque del sensor de huellas.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">El seleccionador de fuentes del sistema no está disponible para evitar conflictos con Substratum. Desinstala Substratum si deseas usarlo.</string>
+  <string name="font_picker_title">Fuente</string>
+  <string name="font_picker_progress">Aplicando nueva fuente\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

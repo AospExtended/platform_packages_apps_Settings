@@ -337,7 +337,15 @@
   <string name="menu_search">Cerca app</string>
   <string name="menu_search_hint">Cerca app\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Scorri a sinistra o destra sul sensore d\'impronte per rimuovere le notifiche</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Per rimuovere le notifiche, scorri a sinistra o destra sul sensore d\'impronte posto sul retro del tuo dispositivo.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Tendina veloce impronta digitale</string>
+  <string name="fp_quick_pulldown_summary">Espandi il pannello impostazioni rapide scorrendo una sola volta sul sensore di impronte digitali.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Il selettore del carattere non è disponibile per evitare conflitti con Substratum. Disinstallalo se vuoi usare questo carattere.</string>
+  <string name="font_picker_title">Carattere</string>
+  <string name="font_picker_progress">Applicazione del nuovo carattere</string>
+  <!-- Per-app data restrictions -->
 </resources>

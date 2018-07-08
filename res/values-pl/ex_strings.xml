@@ -94,7 +94,7 @@
   <string name="screenshot_sound_summary">Dźwięk wykonania zrzutu ekranu</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jasność</string>
-  <string name="night_brightness_value_title">Mniejsza jasność jeśli światło nocne</string>
+  <string name="night_brightness_value_title">Mniejsza jasność jeśli światło nocne jest aktywne</string>
   <string name="night_bright_disabled">Wyłączone</string>
   <string name="night_bright_minimum">Minimalna jasność</string>
   <string name="night_bright_low">Niska jasność</string>
@@ -196,9 +196,9 @@
   <string name="show_cpu_info">Pokaż informacje o CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <string name="show_cpu_info_summary">Informacja na ekranie pokazująca aktualne użycie CPU</string>
-  <string name="dashboard_conditions_title">Pulpit warunki</string>
-  <string name="summary_dashboard_conditions_enabled">Warunki panelu ustawień są włączone</string>
-  <string name="summary_dashboard_conditions_disabled">Warunki panelu ustawień są wyłączone</string>
+  <string name="dashboard_conditions_title">Warunki</string>
+  <string name="summary_dashboard_conditions_enabled">Warunki w panelu ustawień są włączone</string>
+  <string name="summary_dashboard_conditions_disabled">Warunki w panelu ustawień są wyłączone</string>
   <!-- Custom light color -->
   <string name="light_customization">Światła powiadomień Led</string>
   <string name="custom_light_title">Kolor światła</string>
@@ -229,9 +229,9 @@
   <string name="volume_steps_15">15</string>
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
-  <string name="dashboard_suggestions_title">Pulpit nawigacyjny sugestie</string>
-  <string name="summary_dashboard_suggestions_enabled">Sugestie panelu ustawień są włączone</string>
-  <string name="summary_dashboard_suggestions_disabled">Sugestie panelu ustawień są wyłączone</string>
+  <string name="dashboard_suggestions_title">Sugestie</string>
+  <string name="summary_dashboard_suggestions_enabled">Sugestie w panelu ustawień są włączone</string>
+  <string name="summary_dashboard_suggestions_disabled">Sugestie w panelu ustawień są wyłączone</string>
   <!-- Dashboard Category -->
   <string name="dashboard_category">Opcje panelu ustawień</string>
   <!-- Encryption and credential -->
@@ -257,7 +257,7 @@
   <string name="system_theme_style_light">Jasny interfejs użytkownika</string>
   <string name="system_theme_style_dark">Ciemny interfejs użytkownika</string>
   <string name="system_theme_style_black">Czarny interfejs użytkownika</string>
-  <string name="system_theme_style_extended">Rozszerzony UI</string>
+  <string name="system_theme_style_extended">UI w stylu Extended</string>
   <string name="theme_applied_toast">Motyw zastosowano.</string>
   <string name="applying_theme_toast">Instalacja motywu, proszę czekać...</string>
   <string name="substratum_installed_title">Motywy systemu są niedostępne, ponieważ Substratum jest zainstalowane. Odinstaluj wszystkie nakładki, aby kontynuować.</string>
@@ -337,7 +337,15 @@
   <string name="menu_search">Wyszukaj aplikacje</string>
   <string name="menu_search_hint">Wyszukaj aplikacje\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Przesuń w prawo lub lewo po czytniku linii papilarnych aby odwołać powiadomienia</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">W celu odwołania powiadomień przesuń palcem w lewo lub w prawo po czytniku linii papilarnych.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Szybkie rozwinięcie za pomocą odcisku palca</string>
+  <string name="fp_quick_pulldown_summary">Rozwiń panel szybkich ustawień tylko jednym przesunięciem po czytniku linii papilarnych</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Wybór czcionek jest niedostępna uniknąć konfliktów z Substratum. Odinstaluj Substratum jeśli chcesz używać innych czcionek.</string>
+  <string name="font_picker_title">Czcionka</string>
+  <string name="font_picker_progress">Stosowanie nowej czcionki\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

@@ -337,7 +337,15 @@
   <string name="menu_search">Vyhledávání aplikací</string>
   <string name="menu_search_hint">Vyhledávání aplikací\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Přejetím otiskem prstu vlevo nebo vpravo odmítnout oznámení</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Chcete-li zrušit oznámení, přejeďte prstem vlevo nebo vpravo pře snímač otisků prstů na zadní straně telefonu.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Rychlé vysunutí nabídky pomocí otisků prstů</string>
+  <string name="fp_quick_pulldown_summary">Rozbalení panelu rychlých nastavení pouze jedním přiložením prstu na snímač otisků prstů.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Výběr písma není k dispozici, aby se předešlo konfliktům se Substratum. Pokud chcete použít výběr písma, odinstalujte Substratum.</string>
+  <string name="font_picker_title">Písmo</string>
+  <string name="font_picker_progress">Aplikuji nové písmo\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

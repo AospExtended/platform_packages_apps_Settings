@@ -18,7 +18,7 @@
   <string name="extended_version_default">Bilinmiyor</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Yapı tarihi</string>
-  <string name="build_date_default">2018-05-05-0000</string>
+  <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Geliştirici ayarları zaten etkin!</string>
@@ -80,7 +80,7 @@
   <string name="expanded_hide_status">Durum çubuğunu gizle</string>
   <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
   <string name="expanded_hide_both">İkisini de gizle</string>
-  <string name="expanded_nothing_to_show">Genişletilmiş durum için uygulama başına özel bir yapılandırma eklemek için \"Tümü için etkin\" konumunu kapalı konumuna getirin</string>
+  <string name="expanded_nothing_to_show">Genişletilmiş durum için özel bir uygulama içi yapılandırma eklemek için \"Tümü için etkin\" seçeneğini kapalı konumuna getirin</string>
   <string name="expanded_desktop_state">Genişletilmiş durum</string>
   <string name="expanded_enabled_for_all">Tümü için etkin</string>
   <string name="expanded_user_configurable">Kullanıcı tarafından yapılandırılabilir</string>
@@ -188,10 +188,10 @@
   <string name="local_backup_password_title">Masaüstü yedekleme şifresi</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Uyarı rengi</string>
-  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda, turuncu durum ve gezinme çubuklarını etkinleştirin</string>
+  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda turuncu durum ve gezinme çubuklarını etkinleştir</string>
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">Takıp çıkarmada uyan</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Şarja takıldığında veya çıkarıldığında cihazı uyandırır.</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Şarja takıldığında veya çıkarıldığında cihazı uyandır</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">İşlemci bilgisini göster</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
@@ -217,7 +217,7 @@
   <string name="volume_steps_title">Ses seviyeleri</string>
   <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
   <string name="volume_steps_dtmf_title">Ses seviyesi: DTMF</string>
-  <string name="volume_steps_music_title">Ses seviyesi: Medya</string>
+  <string name="volume_steps_music_title">Ses seviyesi: Müzik</string>
   <string name="volume_steps_notification_title">Ses seviyesi: Bildirim</string>
   <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
   <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
@@ -337,7 +337,15 @@
   <string name="menu_search">Uygulamalar ara</string>
   <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Bildirimleri kapatmak için parmağınızı parmak izinde sağa veya sola kaydırın</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Bildirimlerinizi kapatmak için, parmağınızı parmak izi sönsöründe sola veya sağa doğru kaydırın.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Parmak izi ile hızlı aşağı çekme</string>
+  <string name="fp_quick_pulldown_summary">Parmak izi sensöründe parmağınızı yalnızca bir kez kaydırarak hızlı ayarlar paneli genişletin.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Substratum ile çakışmaları önlemek için yazı tipi seçici kullanılamıyor. Yazı tipi seçicisini kullanmak isterseniz bunları kaldırın.</string>
+  <string name="font_picker_title">Yazı tipi</string>
+  <string name="font_picker_progress">Yeni yazı tipi uygulanıyor\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

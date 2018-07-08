@@ -337,7 +337,15 @@
   <string name="menu_search">Pesquisar apps</string>
   <string name="menu_search_hint">Pesquisar aplicativos\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Deslize a impressão digital para a esquerda ou para a direita para descartar as notificações</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita no sensor de impressões digitais na parte traseira do seu telefone.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Deslizar rápido para baixo com impressão digital</string>
+  <string name="fp_quick_pulldown_summary">Expandir o painel de configurações rápidas com apenas um deslize no sensor de impressões digitais.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">O seletor de fontes não está disponível para evitar conflitos com o Substratum. Desinstale-o se você deseja usar o seletor de fontes.</string>
+  <string name="font_picker_title">Fontes</string>
+  <string name="font_picker_progress">Aplicando nova fonte\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

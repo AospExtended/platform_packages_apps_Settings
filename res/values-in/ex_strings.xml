@@ -30,7 +30,7 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Tentang kami</string>
   <string name="aex_about_summary">Perkenalkan kami dan tim kami</string>
-  <string name="aex_about_info_summary">AospExtended adalah rom berbasis AOSP yang menyediakan stock UI/UX dengan berbagai fitur kustomisasi bersama dengan tema Substratum. Proyek ini dibuat oleh cherry-picking berbagai komit dari berbagai proyek lainnya. Berbasis AOSP, ini memberikan pengalaman yang halus dan pengalaman bebas lag. Kami akan terus mencoba untuk menambahkan lebih banyak fitur dan membuatnya lebih baik di pembaruan masa mendatang.&#35;BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended adalah AOSP berbasis rom yang menyediakan stok UI/UX dengan berbagai fitur penyesuaian dengan mesin tema substratum. Proyek telah dibuat oleh pilihan berbagai masukan dari berbagai proyek lain. Dengan berbasis AOSP, hal ini memberikan pengalaman yang mulus dan bebas lag. Kami akan terus mencoba untuk menambahkan lebih banyak fitur dan membuatnya lebih baik di pembaruan mendatang.&#35;BeExtended</string>
   <string name="dev_info">Tentang AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">Lihat sumber kode kami</string>
@@ -43,7 +43,7 @@
   <string name="help_translate">Terjemahan</string>
   <string name="help_translate_description">Terjemahkan kebahasa anda, kunjungi Crowdin kami</string>
   <string name="walls">Wallpaper</string>
-  <string name="walls_description">Dapatkan wallpaper yang disumbangkan oleh berbagai pengguna</string>
+  <string name="walls_description">Dapatkan latar belakang oleh kontribusi berbagai pengguna</string>
   <string name="leads">Pemimpin tim</string>
   <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
   <string name="team1_description">Pemilik/Pemimpin Pengembang</string>
@@ -59,12 +59,12 @@
   <string name="designer_2">Savio &#40;Wizper99&#41;</string>
   <string name="designer2_description">Logo QS/Fling</string>
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-  <string name="designer3_description">Wallpaper, Bootanimasi</string>
+  <string name="designer3_description">Latar belakang, Animasiboot</string>
   <string name="designer_4">V23 keras</string>
   <string name="designer4_description">Ekstensi UI, ikon</string>
   <string name="maintainers">Pengelola</string>
   <string name="maintainers_title">Pengelola resmi</string>
-  <string name="maintainers_summary">Perangkat yang didukung secara resmi dan pengelola masing-masing.</string>
+  <string name="maintainers_summary">Perangkat yang didukung secara resmi oleh pengelola masing-masing.</string>
   <!-- Maintainer section -->
   <string name="maintainer_description">Pengelola: %1$s</string>
   <string name="loading_devices">Memuat daftar perangkat...</string>
@@ -75,7 +75,7 @@
   <string name="aex_ota_title">Pembaruan AEX</string>
   <string name="aex_ota_summary">Dapatkan versi terbaru</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Perluasan Desktop</string>
+  <string name="power_menu_expanded_desktop">Desktop yang diperluas</string>
   <string name="expanded_hide_nothing">Tidak menyembunyikan apapun</string>
   <string name="expanded_hide_status">Sembunyikan status bar</string>
   <string name="expanded_hide_navigation">Sembunyikan navigasi bar</string>
@@ -84,18 +84,18 @@
   <string name="expanded_desktop_state">Kondisi perluasan</string>
   <string name="expanded_enabled_for_all">Diaktifkan untuk semua</string>
   <string name="expanded_user_configurable">Dapat dikonfigurasi pengguna</string>
-  <string name="expanded_desktop_style">Perluasan model desktop</string>
-  <string name="expanded_desktop_style_description">Memilih perluasan model desktop standar</string>
+  <string name="expanded_desktop_style">Model desktop yang diperluas</string>
+  <string name="expanded_desktop_style_description">Pilih perluasan model desktop standar</string>
   <string name="expanded_desktop_title">Pilihan perluasan desktop</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Suara tangkapan layar</string>
-  <string name="screenshot_sound_summary">Bersuara saat mengambil tangkapan layar</string>
+  <string name="screenshot_sound_summary">Mainkan suara saat mengambil tangkapan layar</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Kecerahan</string>
   <string name="night_brightness_value_title">Turunkan kecerahan saat Malam Hari</string>
-  <string name="night_bright_disabled">Matikan</string>
+  <string name="night_bright_disabled">Mati</string>
   <string name="night_bright_minimum">Kecerahan minimal</string>
   <string name="night_bright_low">Kecerahan rendah</string>
   <string name="night_bright_medium">Kecerahan sedang</string>
@@ -144,14 +144,14 @@
   <string name="app_ops_record_audio">Merekam audio</string>
   <string name="app_ops_send_mms">Mengirim MMS</string>
   <string name="app_ops_send_sms">Mengirim SMS</string>
-  <string name="app_ops_toast_window">Pesan roti panggang</string>
+  <string name="app_ops_toast_window">Pesan tos</string>
   <string name="app_ops_use_alarm_volume">Volume alarm</string>
   <string name="app_ops_use_audio_focus">Fokus audio</string>
   <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
   <string name="app_ops_use_master_volume">Volume utama</string>
   <string name="app_ops_use_media_buttons">Tombol media</string>
   <string name="app_ops_use_media_volume">Volume media</string>
-  <string name="app_ops_use_notification_volume">Volume pemberitahuan</string>
+  <string name="app_ops_use_notification_volume">Volume notifikasi</string>
   <string name="app_ops_use_ring_volume">Volume nada dering</string>
   <string name="app_ops_use_vibrate">Umpan balik Haptic</string>
   <string name="app_ops_use_voice_volume">Volume panggilan suara</string>
@@ -337,7 +337,15 @@
   <string name="menu_search">Cari aplikasi</string>
   <string name="menu_search_hint">Cari aplikasi\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Usap menggunakan sidik jari ke kiri atau ke kanan untuk menghapus pemberitahuan</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Untuk mengabaikan pemberitahuan anda, gesek ke kiri atau kanan pada sensor sidik jari di bagian belakang telepon anda.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Tarik-cepat sidik jari</string>
+  <string name="fp_quick_pulldown_summary">Memperluas pengaturan cepat dengan hanya satu geseran di sensor sidik jari.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Pemlih font tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangannya jika Anda ingin menggunakan pemilih font.</string>
+  <string name="font_picker_title">Font</string>
+  <string name="font_picker_progress">Menerapkan font baru\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

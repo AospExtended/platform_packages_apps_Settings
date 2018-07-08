@@ -338,7 +338,15 @@
   <string name="menu_search">البحث عن تطبيقات</string>
   <string name="menu_search_hint">جارٍ البحث</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">مرر بصمة إصبعك إلى اليسار أو اليمين لتجاهل الإشعارات</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">لتجاهل الإشعارات ، يمكنك التمرير إلى اليسار أو اليمين على مستشعر بصمات الإصبع على الجزء الخلفي من هاتفك.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">السحب السريع للأسفل بالبصمة</string>
+  <string name="fp_quick_pulldown_summary">وسّع لوحة الإعدادات السريعة بسحبة واحدة فقط على مستشعر بصمة الاصبع.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">منتقي الخطوط غير متوفر لتفادي التعارضات مع Substratum. قم بإلغاء تثبيته إذا كنت ترغب في استخدام منتقي الخطوط.</string>
+  <string name="font_picker_title">الخط</string>
+  <string name="font_picker_progress">تطبيق الخط الجديد</string>
+  <!-- Per-app data restrictions -->
 </resources>

@@ -337,7 +337,15 @@
   <string name="menu_search">Tìm kiếm ứng dụng</string>
   <string name="menu_search_hint">Đang tìm kiếm</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Trượt bộ quét vân tay sang trái hoặc phải để loại bỏ thông báo</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Để loại bỏ thông báo của bạn, hãy vuốt sang trái hoặc phải trên cảm biến vân tay ở mặt sau của điện thoại.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Vân tay kéo xuống nhanh</string>
+  <string name="fp_quick_pulldown_summary">Mở rộng bảng điều khiển thiết lập nhanh chỉ với trượt một lần lên cảm biến vân tay.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Trình chọn phông chữ không hoạt động do xung đột với Substratum. Xóa nó nếu bạn muốn chọn phông chữ.</string>
+  <string name="font_picker_title">Phông chữ</string>
+  <string name="font_picker_progress">Áp dụng phông chữ mới\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

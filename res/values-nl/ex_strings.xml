@@ -334,8 +334,18 @@
   <string name="proximity_wake_summary">Voor ontwaken scherm nabijheidssensor raadplegen</string>
   <string name="background_processes_settings_title">Achtergrondprocessen</string>
   <!-- Search -->
+  <string name="menu_search">Zoek apps</string>
+  <string name="menu_search_hint">Zoek apps\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Veeg vingerafdruk naar links of rechts om de notificatie weg te vegen</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Veeg naar links of rechts over de vingerafdruk sensor om meldingen te negeren.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Vingerafdruk snel omlaag</string>
+  <string name="fp_quick_pulldown_summary">Uitvouwen van de Snelle instellingen met slechts één veeg over de vingerafdruksensor inschakelen.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Font picker is niet beschikbaar om conflicten met Substratum te voorkomen. Verwijder substratum als u wenst gebruik te maken van de ingebouwde font picker.</string>
+  <string name="font_picker_title">Lettertype</string>
+  <string name="font_picker_progress">Nieuw lettertype toepassen\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

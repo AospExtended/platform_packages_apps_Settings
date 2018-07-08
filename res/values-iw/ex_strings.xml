@@ -63,7 +63,10 @@
   <!-- Notification volume -->
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_device">מכשיר</string>
+  <string name="app_ops_cat_bootup">אתחול</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">מצלמה</string>
   <string name="app_ops_access_location">מיקום</string>
   <string name="app_ops_access_notifications">התראות</string>
   <string name="app_ops_activate_vpn">VPN</string>
@@ -84,6 +87,7 @@
   <string name="app_ops_mute_unmute_microphone">השתק/הפעל מיקרופון</string>
   <string name="app_ops_play_audio">הפעל שמע</string>
   <string name="app_ops_post_notification">פרסם התראה</string>
+  <string name="app_ops_project_media">הקרן מדיה</string>
   <string name="app_ops_read_calendar">קריאת לוח שנה</string>
   <string name="app_ops_read_call_log">קריאת יומן שיחות</string>
   <string name="app_ops_read_clipboard">קריאת לוח העתקה</string>
@@ -94,6 +98,7 @@
   <string name="app_ops_record_audio">הקלטת קול</string>
   <string name="app_ops_send_mms">שליחת הודעת MMS</string>
   <string name="app_ops_send_sms">שליחת הודעת טקסט</string>
+  <string name="app_ops_toast_window">הודעות קופצות</string>
   <string name="app_ops_use_alarm_volume">עצמת התרעה</string>
   <string name="app_ops_use_audio_focus">מיקוד שמע</string>
   <string name="app_ops_use_bluetooth_volume">עוצמת קול של Bluetooth</string>
@@ -102,6 +107,7 @@
   <string name="app_ops_use_media_volume">עוצמת קול של מדיה</string>
   <string name="app_ops_use_notification_volume">עוצמת הקול של התראות</string>
   <string name="app_ops_use_ring_volume">עוצמת קול של צלצול</string>
+  <string name="app_ops_use_vibrate">משוב רטט</string>
   <string name="app_ops_use_voice_volume">עוצמת קול של שיחה</string>
   <string name="app_ops_write_mms">כתיבת הודעת MMS</string>
   <string name="app_ops_write_sms">כתיבת הודעת טקסט</string>
@@ -111,8 +117,16 @@
   <string name="app_ops_scan_wifi">סריקת רשתות WiFi</string>
   <string name="app_ops_change_wallpaper">החלפת תמונת רקע</string>
   <string name="app_ops_assist_screenshot">צילום מסך</string>
+  <string name="app_ops_mock_location">מיקום מדומה</string>
+  <string name="app_ops_read_external_storage">לקרוא מאחסון חיצוני</string>
+  <string name="app_ops_write_external_storage">כתיבה לאחסון חיצוני</string>
   <string name="app_ops_turn_on_screen">הפעל מסך</string>
+  <string name="app_ops_get_accounts">חשבונות המכשיר</string>
+  <string name="app_ops_run_in_background">הפעל ברקע</string>
+  <string name="app_ops_accessibility_volume">ווליום לנגישות קולית</string>
+  <string name="app_ops_read_phone_numbers">הקרא מספרי טלפון</string>
   <string name="app_ops_request_install_packages">התקן חבילות</string>
+  <string name="app_ops_picture_in_picture">תמונה בתוך תמונה</string>
   <!-- Root Management -->
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -135,16 +149,44 @@
   <string name="adb_over_network">ADB באמצעות הרשת</string>
   <!-- Warning for Adb over Network -->
   <!-- Vibrate on plug -->
+  <string name="alert_on_charged_level_dis">כבוי</string>
+  <string name="alert_on_charged_level_80">"80%"</string>
+  <string name="alert_on_charged_level_90">"90%"</string>
+  <string name="alert_on_charged_level_99">"99%"</string>
   <!-- Themes -->
+  <string name="theme_category_title">ערכת נושא של מערכת</string>
+  <string name="system_theme_style_title">סגנון ממשק משתמש</string>
+  <string name="system_theme_style_auto">מבוסס טפט</string>
+  <string name="system_theme_style_light">ממשק בהיר</string>
+  <string name="system_theme_style_dark">ממשק כהה</string>
+  <string name="system_theme_style_black">ממשק שחור</string>
+  <string name="system_theme_style_extended">ממשק Extended</string>
+  <string name="theme_applied_toast">ערכת הנושא הוחלה.</string>
+  <string name="applying_theme_toast">מחיל ערכת נושא, אנא המתן...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabled">מופעל</string>
+  <string name="sim_disabled">מושבת</string>
+  <string name="sim_missing">חסר או פגום</string>
+  <string name="sim_enabler_need_disable_sim">כרטיס ה-SIM יפסיק לפעול. האם ברצונך להמשיך?</string>
+  <string name="sim_enabler_will_disable_sim_title">לתשומת לבך</string>
+  <string name="sim_enabler_need_switch_data_service">SIM זה יהפוך ללא זמין ו-SIM <xliff:g id="slotid">%1$s</xliff:g> ישמש לשירותי נתונים. אתה בטוח שברצונך להמשיך?</string>
+  <string name="sim_enabler_airplane_on">אין אפשרות לבצע את הפעולה כשמצב טיסה מופעל.</string>
+  <string name="sim_enabler_in_call">אין אפשרות לבצע את הפעולה בזמן השיחה.</string>
+  <string name="sim_enabler_both_inactive">אין אפשרות להשבית את כל כרטיסי ה־SIM</string>
+  <string name="sim_enabler_enabling">מפעיל\u2026</string>
+  <string name="sim_enabler_disabling">מכבה\u2026</string>
   <string name="sub_activate_success">כרטיס ה־SIM הופעל.</string>
   <string name="sub_activate_failed">ההפעלה נכשלה.</string>
   <string name="sub_deactivate_success">כרטיס ה־SIM כובה.</string>
   <string name="sub_deactivate_failed">הכיבוי נכשל.</string>
   <string name="available_sims_title">כרטיסי SIM זמינים</string>
   <!-- Notification log -->
+  <string name="notification_log_summary">הצג התראות מיומן ההיסטוריה</string>
   <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">ערבב פריסה</string>
+  <string name="unlock_scramble_pin_layout_summary">ערבב את סדר לוח המקשים של הקוד בפתיחת המכשיר</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">פתיחה מהירה</string>
   <!-- Increasing ring tone volume -->
   <!-- Display : Rotation -->
   <string name="display_rotation_category_title">מצבי סיבוב</string>
@@ -173,4 +215,5 @@
   <!--  [CHAR LIMIT=160]-->
   <!-- Fingerprint quick pulldown -->
   <!-- Font picker -->
+  <!-- Per-app data restrictions -->
 </resources>

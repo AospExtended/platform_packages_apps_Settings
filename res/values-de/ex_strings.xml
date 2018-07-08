@@ -337,7 +337,15 @@
   <string name="menu_search">Suche Apps</string>
   <string name="menu_search_hint">Suche Apps\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Nach links oder rechts über den Fingerabdrucksensor wischen, um Benachrichtigungen zu schließen</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Um Benachrichtigungen zu schließen, nach links oder rechts über den Fingerabdrucksensor streichen.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Schnelles runterziehen mit Fingerabdrucksensor</string>
+  <string name="fp_quick_pulldown_summary">Öffne das Schnelleinstellungs-Panel mit einem Wisch über den Fingerabdrucksensor.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Font Picker ist nicht verfügbar, um Konflikte mit Substratum zu vermeiden. Deinstallieren Sie es, wenn Sie den Font Picker verwenden möchten.</string>
+  <string name="font_picker_title">Schriftart</string>
+  <string name="font_picker_progress">Aktiviere neue Schriftart\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>

@@ -30,14 +30,14 @@
   <!-- About AospExtended -->
   <string name="aex_about_info">Despre noi</string>
   <string name="aex_about_summary">Introducerea noastră şi echipa noastră</string>
-  <string name="aex_about_info_summary">AospExtended este un ROM bazat pe AOSP care oferă interfaţă stoc cu diferite caracteristici personalizate, împreună cu motorul de teme Substratum. Proiectul a fost realizat prin cherry-picking a diferitor commit-uri de la diverse alte proiecte. Bazându-se pe AOSP, acesta oferă o experiență fără probleme și fără întârziere. Vom încerca în mod constant să adăugăm mai multe funcții și să le facem chiar mai bune în viitoarele actualizări.&#35;BeExtended</string>
+  <string name="aex_about_info_summary">AospExtended este un ROM bazat pe AOSP care oferă interfaţă stoc cu diferite caracteristici personalizate împreună cu motorul de teme Substratum. Proiectul a fost realizat prin cherry-picking-ul diferitor commit-uri de la diverse alte proiecte. Bazându-se pe AOSP, acesta oferă o experiență fără probleme și fără întârzieri. Vom încerca în mod constant să adăugăm mai multe funcții și să le facem chiar mai bune în viitoarele actualizări.&#35;BeExtended</string>
   <string name="dev_info">Despre AospExtended</string>
   <string name="github">Github</string>
   <string name="github_description">Vizualizaţi codul sursă</string>
   <string name="gplus">Google+</string>
   <string name="gplus_description">Alăturaţi-vă comunităţii noastre G+</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Abonaţivă la canalul nostru Telegram</string>
+  <string name="telegram_description">Abonaţi-vă la canalul nostru Telegram</string>
   <string name="web">Centrul de descărcări</string>
   <string name="web_description">Vizitaţi portalul nostru de descărcări</string>
   <string name="help_translate">Traduceri</string>
@@ -61,12 +61,12 @@
   <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
   <string name="designer3_description">Imagini de fundal, Animaţii boot</string>
   <string name="designer_4">Harsh V23</string>
-  <string name="designer4_description">Extensii UI, pictograme</string>
+  <string name="designer4_description">Extensii IU, pictograme</string>
   <string name="maintainers">Responsabili</string>
   <string name="maintainers_title">Menținători oficiali</string>
   <string name="maintainers_summary">Lista dispozitivelor şi persoanelor oficial responsabile.</string>
   <!-- Maintainer section -->
-  <string name="maintainer_description">Responsabil pentru %1$s</string>
+  <string name="maintainer_description">Responsabil: %1$s</string>
   <string name="loading_devices">Se încarcă lista dispozitivelor...</string>
   <string name="loading_devices_failed">Nu se poate încărca lista de dispozitive</string>
   <string name="devices_list_empty">Lista este goală, atingeți pictograma pentru a reîncerca</string>
@@ -175,7 +175,7 @@
   <string name="app_ops_accessibility_volume">Volum accesibilitate</string>
   <string name="app_ops_read_phone_numbers">Citire num. de telefon</string>
   <string name="app_ops_request_install_packages">Instalare pachete</string>
-  <string name="app_ops_picture_in_picture">PiP</string>
+  <string name="app_ops_picture_in_picture">PiP (imagine-în-imagine)</string>
   <string name="app_ops_app_start_foreground">Pornire în prim-plan</string>
   <string name="app_ops_answer_phone_calls">Răspundere apeluri</string>
   <string name="app_ops_boot_completed">Pornire automată</string>
@@ -193,9 +193,9 @@
   <string name="wakeup_when_plugged_unplugged_title">Trezire la încărcare</string>
   <string name="wakeup_when_plugged_unplugged_summary">Trezirea telefonului atunci când încărcătorul este conectat/deconectat.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">Afișare informații CPU</string>
+  <string name="show_cpu_info">Afișare informații procesor</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Suprapunerea de ecran afişează informația curentă a CPU</string>
+  <string name="show_cpu_info_summary">Suprapunere de ecran ce afişează informația curentă a procesorului</string>
   <string name="dashboard_conditions_title">Condiții tablou de bord</string>
   <string name="summary_dashboard_conditions_enabled">Condiţiile tabloului de bord sunt activate</string>
   <string name="summary_dashboard_conditions_disabled">Condiţiile tabloului de bord sunt dezactivate</string>
@@ -239,13 +239,13 @@
   <string name="custom_encryption_and_credential_settings_summary_off">Dispozitivul este decriptat</string>
   <!-- Android debugging over WiFi -->
   <string name="adb_over_network">ADB prin rețea</string>
-  <string name="adb_over_network_summary">Activează depanarea TCP/IP prin interfețele de rețea (Wi-Fi, rețele USB). Această setare este resetată la repornire</string>
+  <string name="adb_over_network_summary">Activaţi depanarea TCP/IP prin interfețele de rețea (Wi-Fi, rețele USB). Această setare este resetată la repornire</string>
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">AVERTIZARE: Când ADB prin rețea este activat, telefonul dvs este deschis intruziunilor din toate rețelele conectate, inclusiv rețeaua de date GSM!\n\nFolosiți această caracteristică când sunteți conectat la rețele de încredere.\n\nSigur doriți să activați această funcție?</string>
   <!-- Vibrate on plug -->
-  <string name="vibration_on_charge_state_changed_title">Vibrare la conectare</string>
+  <string name="vibration_on_charge_state_changed_title">Vibrare la conectarea încărcătorului</string>
   <string name="alert_on_charged_level_title">Alertă nivel optim de încărcare</string>
-  <string name="alert_on_charged_level_summary">Notifică și redă sunet/vibrație la nivelul optim de încărcare dacă ecranul este oprit de cel puțin 1 minut.\nNotificarea poate fi dezactivată separat, apăsând lung pe ea.</string>
+  <string name="alert_on_charged_level_summary">Se notifică și se redă sunet/vibrație la nivelul optim de încărcare dacă ecranul este oprit de cel puțin 1 minut.\nNotificarea poate fi dezactivată separat, apăsând lung pe ea.</string>
   <string name="alert_on_charged_level_dis">Dezactivată</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
@@ -301,9 +301,9 @@
   <string name="display_rotation_180_title">180 de grade</string>
   <string name="display_rotation_270_title">270 de grade</string>
   <!-- Pass swipe-up-to-unlock -->
-  <string name="lock_directly_show_password">Afișează direct introducerea parolei</string>
-  <string name="lock_directly_show_pattern">Afișează direct vizualizarea modelului</string>
-  <string name="lock_directly_show_pin">Afișează direct introducerea PIN-ului</string>
+  <string name="lock_directly_show_password">Se afișează direct introducerea parolei</string>
+  <string name="lock_directly_show_pattern">Se afișează direct vizualizarea modelului</string>
+  <string name="lock_directly_show_pin">Se afișează direct introducerea codului PIN</string>
   <string name="lock_directly_show_summary">Omiteți glisarea în sus pentru deblocarea ecranului la deblocarea dispozitivului</string>
   <!-- Sizes for pattern lockscreen -->
   <string name="lock_settings_picker_pattern_size_message">Alegeți dimensiunea modelului</string>
@@ -327,17 +327,25 @@
   <string name="select_usb_default_confguration_warning">AVERTISMENT: Configurația USB implicită este activată și atunci când dispozitivul este blocat!\n\nChiar doriți să activați această configurație?</string>
   <!-- USB paranoia mode -->
   <string name="usb_paranoia_connect_title">Conexiune USB securizată</string>
-  <string name="usb_paranoia_connect_summary">Activați numai încărcarea și dezactivați ADB când USB este conectat la ecrane de blocare securizate</string>
+  <string name="usb_paranoia_connect_summary">Se activează doar încărcarea și se dezactivează ADB atunci când USB este conectat pe ecrane de blocare securizate</string>
   <string name="usb_category_title">USB</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Previne trezirea accidentală</string>
-  <string name="proximity_wake_summary">Verifică senzorul de proximitate înainte de trezirea ecranului</string>
-  <string name="background_processes_settings_title">Procesele de fundal</string>
+  <string name="proximity_wake_title">Prevenire trezire accidentală</string>
+  <string name="proximity_wake_summary">Se verifică senzorul de proximitate înainte de trezirea ecranului</string>
+  <string name="background_processes_settings_title">Procese de fundal</string>
   <!-- Search -->
   <string name="menu_search">Căutare aplicații</string>
   <string name="menu_search_hint">Căutare aplicații\u2026</string>
   <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Glisați pe amprentă la stânga sau la dreapta pentru a elimina notificările</string>
   <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Pentru a elimina notificările, glisaţi la stânga sau la dreapta pe senzorul de amprentă aflat pe partea din spate a telefonului.</string>
   <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Derulare rapidă cu amprenta</string>
+  <string name="fp_quick_pulldown_summary">Extindeți panoul de setări rapide cu o singură glisare pe senzorul de amprentă.</string>
   <!-- Font picker -->
+  <string name="disable_fonts_installed_title">Selectorul de fonturi nu este disponibil pentru a evita conflictele cu Substratum. Dezinstalați-l dacă doriți să utilizați selectorul de fonturi.</string>
+  <string name="font_picker_title">Font</string>
+  <string name="font_picker_progress">Aplicare font\u2026</string>
+  <!-- Per-app data restrictions -->
 </resources>
