@@ -103,7 +103,6 @@ import org.aospextended.extensions.NavbarSettings;
 import org.aospextended.extensions.dui.SmartbarSettings;
 import org.aospextended.extensions.dui.FlingSettings;
 import org.aospextended.extensions.dui.PulseSettings;
-import org.aospextended.extensions.EdgeGesturesSettings;
 import org.aospextended.extensions.RecentsUI;
 import org.aospextended.extensions.SlimRecentsPanel;
 import org.aospextended.extensions.LockscreenUI;
@@ -261,7 +260,6 @@ public final class SearchIndexableResources {
         addIndex(SmartbarSettings.class, R.xml.smartbar_settings, R.drawable.ic_navigation);
         addIndex(FlingSettings.class, R.xml.fling_settings, R.drawable.ic_navigation);
         addIndex(PulseSettings.class, R.xml.pulse_settings, R.drawable.ic_navigation);
-        addIndex(EdgeGesturesSettings.class, R.xml.edge_gestures, R.drawable.ic_edge_gestures);
         addIndex(RecentsUI.class,R.xml.recents_ui,R.drawable.ic_recents_ui);
         addIndex(SlimRecentsPanel.class,R.xml.slim_recents_panel_settings,R.drawable.ic_recents_ui);
         addIndex(LockscreenUI.class,R.xml.lockscreen_ui,R.drawable.ic_lockscreen_ui);
