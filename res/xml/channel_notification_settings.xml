@@ -106,7 +106,7 @@
             android:order="18"
             android:title="@string/show_light_on_zen_title"/>
 
-        <com.android.settings.arrow.preferences.CustomSeekBarPreference
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
             android:key="custom_light_on_time"
             android:title="@string/custom_light_on_time_title"
             settings:defaultText="@string/value_equals_default"
@@ -116,7 +116,7 @@
             settings:interval="100"
             settings:units="" />
 
-        <com.android.settings.arrow.preferences.CustomSeekBarPreference
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
             android:key="custom_light_off_time"
             android:title="@string/custom_light_off_time_title"
             settings:defaultText="@string/value_equals_default"
