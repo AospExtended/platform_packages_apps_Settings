@@ -138,6 +138,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import org.aospextended.extensions.Extensions;
+import org.aospextended.extensions.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -264,6 +265,7 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             Extensions.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
