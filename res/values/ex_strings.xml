@@ -126,4 +126,8 @@
     <string name="changelog_error">Unable to load changelog</string>
 
     <string name="battery_temp">Battery temperature</string>
+
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Home button wake-up</string>
+    <string name="home_wake_button_summary">Enable home button to waking up screen</string>
 </resources>
