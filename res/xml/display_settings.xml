@@ -138,6 +138,11 @@
         android:title="@string/display_cutout_emulation"
         settings:keywords="@string/display_cutout_emulation_keywords" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="home_wake_button"
+        android:title="@string/home_wake_button_title"
+        android:summary="@string/home_wake_button_summary" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
