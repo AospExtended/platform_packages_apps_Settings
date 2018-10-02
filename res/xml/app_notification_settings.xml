@@ -63,6 +63,7 @@
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="custom_light"
         android:title="@string/custom_light_title"
+        ledPreview="true"
         settings:defaultColorValue="0xFFFFFFFF"/>
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference

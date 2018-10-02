@@ -99,6 +99,7 @@
             android:key="custom_light"
             android:order="17"
             android:title="@string/custom_light_title"
+            ledPreview="true"
             settings:defaultColorValue="0xFFFFFFFF" />
 
         <com.android.settingslib.RestrictedSwitchPreference
