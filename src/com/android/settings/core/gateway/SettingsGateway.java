@@ -23,6 +23,10 @@ import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
+import com.android.settings.Settings.FlingSettingsActivity;
+import com.android.settings.Settings.NavigationSettingsActivity;
+import com.android.settings.Settings.PulseSettingsActivity;
+import com.android.settings.Settings.SmartbarSettingsActivity;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
 import com.android.settings.TrustedCredentialsSettings;
@@ -268,6 +272,10 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             Extensions.class.getName(),
             HeadsUpSettings.class.getName(),
+            NavigationSettingsActivity.class.getName(),
+            SmartbarSettingsActivity.class.getName(),
+            FlingSettingsActivity.class.getName(),
+            PulseSettingsActivity.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -307,5 +315,9 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ExtensionsSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(), 
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
