@@ -31,6 +31,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
+import com.android.internal.util.aospextended.AEXUtils;
 
 import libcore.util.Objects;
 import java.util.ArrayList;
@@ -104,7 +105,8 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
             int valueIndex = mSystemThemeStyle.findIndexOfValue(value);
             mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntries()[valueIndex]);
             try {
-                reload();
+              //  reload();
+              AEXUtils.showSystemUiRestartDialog(mContext);
             }catch (Exception ignored){
             }
         }
