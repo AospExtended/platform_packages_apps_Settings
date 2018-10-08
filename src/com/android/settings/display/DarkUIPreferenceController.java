@@ -31,6 +31,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
+import com.android.internal.util.aospextended.AEXUtils;
 
 import libcore.util.Objects;
 import java.util.ArrayList;
@@ -127,6 +128,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
                   intent.putExtra(SettingsDrawerActivity.EXTRA_SHOW_MENU, true);
                   mContext.startActivity(intent);
                   Toast.makeText(mContext, R.string.theme_applied_toast, Toast.LENGTH_SHORT).show();
+                  AEXUtils.restartSystemUi(mContext);
               }
         }, 3000);
     }
