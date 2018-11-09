@@ -221,6 +221,10 @@
     <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
 
+   <!-- Fingerprint swipe gestures -->
+   <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
+   <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+
 </resources>
 
 
