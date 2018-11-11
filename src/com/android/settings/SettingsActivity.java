@@ -1083,9 +1083,15 @@ public class SettingsActivity extends SettingsDrawerActivity
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
         if (MAGISK_FRAGMENT.equals(fragmentName)) {
-            Intent magiskIntent = new Intent();
-            magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
-            startActivity(magiskIntent);
+            try {
+                Intent magiskIntent = new Intent();
+                magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
+                startActivity(magiskIntent);
+            } catch (ActivityNotFoundException e) {
+                Intent magiskIntent = new Intent();
+                magiskIntent.setClassName("com.topjohnwu.magisk", "a.c");
+                startActivity(magiskIntent);
+            }
             finish();
             return null;
         }
