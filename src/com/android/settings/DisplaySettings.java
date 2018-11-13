@@ -103,6 +103,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new HomeWakeButtonPreferenceController(context));      
         controllers.add(mQsTileStylesPreference = new QsTileStylesPreferenceController(context, lifecycle, fragment));
         controllers.add(new ScreenSaverPreferenceController(context));
+	controllers.add(new FontPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(new AmbientDisplayPreferenceController(
                 context,
                 new AmbientDisplayConfiguration(context),
