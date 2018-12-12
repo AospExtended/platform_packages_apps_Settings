@@ -181,7 +181,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://t.me/Mithrandirx96" />
+               android:data="https://forum.xda-developers.com/member.php?u=7820332" />
      </Preference>
 
 </PreferenceCategory>
