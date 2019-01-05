@@ -98,6 +98,30 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import org.aospextended.extensions.fragments.HeadsUpSettings;
+import org.aospextended.extensions.fragments.AmbientTicker;
+import org.aospextended.extensions.fragments.BatteryBar;
+import org.aospextended.extensions.fragments.BatteryLightSettings;
+import org.aospextended.extensions.fragments.Buttons;
+import org.aospextended.extensions.fragments.CarrierLabel;
+import org.aospextended.extensions.fragments.ClockDateSettings;
+import org.aospextended.extensions.fragments.GeneralTweaks;
+import org.aospextended.extensions.fragments.LockscreenShortcuts;
+import org.aospextended.extensions.fragments.LockscreenUI;
+import org.aospextended.extensions.fragments.MiscExtensions;
+import org.aospextended.extensions.fragments.Notifications;
+import org.aospextended.extensions.fragments.PowerMenuSettings;
+import org.aospextended.extensions.fragments.QuickSettings;
+import org.aospextended.extensions.fragments.RecentsUI;
+import org.aospextended.extensions.fragments.ScreenStateToggles;
+import org.aospextended.extensions.fragments.StatusbarBatteryStyle;
+import org.aospextended.extensions.fragments.Traffic;
+import org.aospextended.extensions.fragments.Animations;
+import com.android.settings.smartnav.FlingSettings;
+import com.android.settings.smartnav.PulseSettings;
+import com.android.settings.smartnav.SmartbarSettings;
+import com.android.settings.smartnav.NavigationBarSettings;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -191,6 +215,31 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+
+        //AEX Additions
+        addIndex(HeadsUpSettings.class);
+        addIndex(AmbientTicker.class);
+        addIndex(BatteryBar.class);
+        addIndex(BatteryLightSettings.class);
+        addIndex(Buttons.class);
+        addIndex(CarrierLabel.class);
+        addIndex(ClockDateSettings.class);
+        addIndex(GeneralTweaks.class);
+        addIndex(LockscreenShortcuts.class);
+        addIndex(LockscreenUI.class);
+        addIndex(MiscExtensions.class);
+        addIndex(Notifications.class);
+        addIndex(PowerMenuSettings.class);
+        addIndex(QuickSettings.class);
+        addIndex(RecentsUI.class);
+        addIndex(ScreenStateToggles.class);
+        addIndex(StatusbarBatteryStyle.class);
+        addIndex(Traffic.class);
+        addIndex(Animations.class);
+        addIndex(FlingSettings.class);
+        addIndex(PulseSettings.class);
+        addIndex(SmartbarSettings.class);
+        addIndex(NavigationBarSettings.class);
     }
 
     @Override
