@@ -144,6 +144,27 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.aospextended.extensions.Extensions;
 import org.aospextended.extensions.fragments.HeadsUpSettings;
+import org.aospextended.extensions.fragments.AmbientTicker;
+import org.aospextended.extensions.fragments.BatteryBar;
+import org.aospextended.extensions.fragments.BatteryLightSettings;
+import org.aospextended.extensions.fragments.Buttons;
+import org.aospextended.extensions.fragments.CarrierLabel;
+import org.aospextended.extensions.fragments.ClockDateSettings;
+import org.aospextended.extensions.fragments.GeneralTweaks;
+import org.aospextended.extensions.fragments.LockscreenShortcuts;
+import org.aospextended.extensions.fragments.LockscreenUI;
+import org.aospextended.extensions.fragments.MiscExtensions;
+import org.aospextended.extensions.fragments.Notifications;
+import org.aospextended.extensions.fragments.PowerMenuSettings;
+import org.aospextended.extensions.fragments.QuickSettings;
+import org.aospextended.extensions.fragments.RecentsUI;
+import org.aospextended.extensions.fragments.ScreenStateToggles;
+import org.aospextended.extensions.fragments.StatusbarBatteryStyle;
+import org.aospextended.extensions.fragments.Traffic;
+import com.android.settings.smartnav.FlingSettings;
+import com.android.settings.smartnav.PulseSettings;
+import com.android.settings.smartnav.SmartbarSettings;
+import com.android.settings.smartnav.NavigationBarSettings;
 
 public class SettingsGateway {
 
@@ -275,7 +296,28 @@ public class SettingsGateway {
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
-            PulseSettingsActivity.class.getName()
+            PulseSettingsActivity.class.getName(),
+            AmbientTicker.class.getName(),
+            BatteryBar.class.getName(),
+            BatteryLightSettings.class.getName(),
+            Buttons.class.getName(),
+            CarrierLabel.class.getName(),
+            ClockDateSettings.class.getName(),
+            GeneralTweaks.class.getName(),
+            LockscreenShortcuts.class.getName(),
+            LockscreenUI.class.getName(),
+            MiscExtensions.class.getName(),
+            Notifications.class.getName(),
+            PowerMenuSettings.class.getName(),
+            QuickSettings.class.getName(),
+            RecentsUI.class.getName(),
+            ScreenStateToggles.class.getName(),
+            StatusbarBatteryStyle.class.getName(),
+            Traffic.class.getName(),
+            FlingSettings.class.getName(),
+            PulseSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            NavigationBarSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
