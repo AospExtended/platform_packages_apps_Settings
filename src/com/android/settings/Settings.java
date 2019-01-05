@@ -169,6 +169,23 @@ public class Settings extends SettingsActivity {
     // AospExtended Additions.
     public static class ExtensionsSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class AmbientTickerActivity extends SettingsActivity {}
+    public static class BatteryBarActivity extends SettingsActivity {}
+    public static class BatteryLightSettingsActivity extends SettingsActivity {}
+    public static class ButtonsActivity extends SettingsActivity {}
+    public static class CarrierLabelActivity extends SettingsActivity {}
+    public static class ClockDateSettingsActivity extends SettingsActivity {}
+    public static class GeneralTweaksActivity extends SettingsActivity {}
+    public static class LockscreenShortcutsActivity extends SettingsActivity {}
+    public static class LockscreenUIActivity extends SettingsActivity {}
+    public static class MiscExtensionsActivity extends SettingsActivity {}
+    public static class NotificationsActivity extends SettingsActivity {}
+    public static class PowerMenuSettingsActivity extends SettingsActivity {}
+    public static class QuickSettingsActivity extends SettingsActivity {}
+    public static class RecentsUIActivity extends SettingsActivity {}
+    public static class ScreenStateTogglesActivity extends SettingsActivity {}
+    public static class StatusbarBatteryStyleActivity extends SettingsActivity {}
+    public static class TrafficActivity extends SettingsActivity {}
     public static class NavigationSettingsActivity extends SettingsActivity {}
     public static class SmartbarSettingsActivity extends SettingsActivity {}
     public static class FlingSettingsActivity extends SettingsActivity {}
