@@ -64,6 +64,8 @@
     <string name="designer4_description">Extensions UI, Ikony</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Rozšíření UI, ikony a styly hodin</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Nová spouštěcí animace</string>
     <string name="maintainers">Správci</string>
     <string name="maintainers_title">Oficiální správci</string>
     <string name="maintainers_summary">Seznam podporovaných zařízení a jejich oficiální správci.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
+    <string name="full_gesture_mode_title">Povolit režim pomocí gest</string>
+    <string name="full_gesture_mode_summary">Tento režim vypne také tlačítko Zpět a tuto akci tlačítka Zpět spustíte pomocí přejetí vlevo přes navigační panel. Pravé přejetí přepíná poslední aplikace a levé přejetí aplikace přesouvá. Chcete-li se vrátit na plochu, klepněte na libovolný prázdný prostor navigačního panelu, nikoli pouze na tlačítko Domů. Když se zobrazí klávesnice, dlouhým stisknutím navigačního panelu přesuňte textový kurzor.</string>
+    <string name="full_gesture_mode_dt2s_title">Povolit uspání dvojím klepnutím</string>
+    <string name="full_gesture_mode_dt2s_summary">Klepnutím na prázdný prostor navigačního panelu, nikoliv na tlačítko Domů, vypnete obrazovku.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Rozšířená plocha</string>
     <string name="expanded_hide_nothing">Nic neskrývat</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Zaoblený čtverec</string>
     <string name="qs_tile_style_squircle">Čtverec a kruh</string>
     <string name="qs_tile_style_tear_drop">Slza</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

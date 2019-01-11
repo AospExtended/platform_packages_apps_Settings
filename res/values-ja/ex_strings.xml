@@ -64,6 +64,8 @@
     <string name="designer4_description">拡張機能、UIアイコン</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">拡張機能UI、アイコン、時計のスタイル</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">新規のブートアニメーション</string>
     <string name="maintainers">メンテナ</string>
     <string name="maintainers_title">公式メンテナ</string>
     <string name="maintainers_summary">正式サポート端末と各メンテナ</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fiデータ使用量</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fiデータ使用量を有効化する</string>
+    <string name="full_gesture_mode_title">全てのジェスチャーモードを有効化</string>
+    <string name="full_gesture_mode_summary">このモードでは戻るボタンが無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションを起動しアプリ一覧をスクロールできます。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。キーボード表示時はナビゲーションバー長押しでテキストカーソルに移動します。</string>
+    <string name="full_gesture_mode_dt2s_title">ダブルタップでスリープ機能を有効化</string>
+    <string name="full_gesture_mode_dt2s_summary">ホームキーだけでなくナビゲーションバーの空きエリアをタップしてスリープする</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">拡張デスクトップ</string>
     <string name="expanded_hide_nothing">非表示にしない</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">丸い正方形</string>
     <string name="qs_tile_style_squircle">丸い四角形</string>
     <string name="qs_tile_style_tear_drop">涙の雫</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

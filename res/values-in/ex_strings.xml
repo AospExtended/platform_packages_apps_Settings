@@ -64,6 +64,8 @@
     <string name="designer4_description">Ekstensi Antarmuka, ikon</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Ekstensi Antarmuka, ikon dan gaya jam</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Boot animasi</string>
     <string name="maintainers">Pengelola</string>
     <string name="maintainers_title">Pengelola resmi</string>
     <string name="maintainers_summary">Perangkat yang didukung secara resmi oleh pengelola masing-masing.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Aktifkan penggunaan data seluler</string>
     <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+    <string name="full_gesture_mode_title">Aktifkan mode penuh gerakan</string>
+    <string name="full_gesture_mode_summary">Mode ini juga akan menonaktifkan tombol kembali dan kamu akan dapat memicu aksi tombol kembali oleh usap kiri pada bilah navigasi. Usap kanan masih akan memicu tindakan aplikasi terakhir dan geseran kiri akan memindahkan aplikasi. Untuk ke beranda, kamu akan dapat mengetuk ruang kosong bilah navigasi, tidak hanya tombol beranda. ketika keyboard muncul, tekan lama bilah navigasi pindah ke kursor teks.</string>
+    <string name="full_gesture_mode_dt2s_title">Aktifkan tap dua kali untuk tidur</string>
+    <string name="full_gesture_mode_dt2s_summary">Ketuk ruang bilah navigasi kosong tetapi bukan tombol home untuk mematikan layar.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Perluas desktop</string>
     <string name="expanded_hide_nothing">Tidak menyembunyikan apapun</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Kotak bulat</string>
     <string name="qs_tile_style_squircle">Kotak melengkung</string>
     <string name="qs_tile_style_tear_drop">Tetes air mata</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

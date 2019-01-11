@@ -64,6 +64,8 @@
     <string name="designer4_description">Erweiterungen Benutzeroberfläche, Symbole</string>
     <string name="designer_5">Gaurav (Allstargaurav)</string>
     <string name="designer5_description">Erweiterungen UI, Symbole und Clock-Stil</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Neue Bootanimation</string>
     <string name="maintainers">Betreuer</string>
     <string name="maintainers_title">Offizielle Betreuer</string>
     <string name="maintainers_summary">Offiziell unterstützte Geräte und deren Betreuer.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Mobilfunkdatenzugriff erlauben</string>
     <string name="data_usage_app_restrict_wifi">Wlan-Daten</string>
     <string name="data_usage_app_restrict_wifi_summary">Wlan-Datenzugriff erlauben</string>
+    <string name="full_gesture_mode_title">Vollständigen Gestenmodus aktivieren</string>
+    <string name="full_gesture_mode_summary">In diesem Modus wird  die Schaltfläche \"zurück\" deaktiviert und Sie können eine \"zurück\"-Geste durch einen linken Wisch auf der Navigationsleiste auslösen. Nach rechts Wischen öffnet den Anwendungsverlauf. Um zum Startbildschirm zu gelangen, berühren sie eine freie Stelle der Navigationsleist. Wenn die Tastatur angezeigt wird, führt langes Drücken auf die Navigationsleiste zu einer bewegung des Textcursors.</string>
+    <string name="full_gesture_mode_dt2s_title">Aktiviere Doppeltes-Tippen für Ruhemodus</string>
+    <string name="full_gesture_mode_dt2s_summary">Tippen Sie auf einen leeren Navigationsleisten-Raum, aber nicht die Home-Taste um den Bildschirm auszuschalten.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Erweiterter Desktop</string>
     <string name="expanded_hide_nothing">Nichts ausblenden</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Abgerundetes Quadrat</string>
     <string name="qs_tile_style_squircle">Superkreis</string>
     <string name="qs_tile_style_tear_drop">Träne</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

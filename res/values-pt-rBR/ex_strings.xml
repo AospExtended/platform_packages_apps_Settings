@@ -14,9 +14,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">Versão estendida</string>
+    <string name="extended_version">Versão da Extended</string>
     <string name="extended_version_default">Desconhecido</string>
-    <string name="keywords_extended_version">aex versão, versão estendida</string>
+    <string name="keywords_extended_version">aex versão, versão extended</string>
     <!-- About phone screen, build date -->
     <string name="build_date">Data da compilação</string>
     <string name="build_date_default">2015-01-01-0000</string>
@@ -30,7 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Sobre nós</string>
     <string name="aex_about_summary">Uma introdução sobre a equipe</string>
-    <string name="aex_about_info_summary">AospExtended é uma rom com base AOSP que fornece a interface stock com vários recursos de customizações, juntamente com o motor de tema Substratum. O projeto consiste em várias funções de vários outros projetos. Sendo baseado na AOSP, fornecemos uma experiência suave e sem lags. Nós tentaremos constantemente adicionar mais recursos e tornar a ROM ainda melhor com futuras atualizações.&#35;SejaExtendido</string>
+    <string name="aex_about_info_summary">AospExtended é uma rom com base AOSP que fornece a interface stock com vários recursos de customizações, juntamente com o motor de tema Substratum. O projeto consiste em várias funções de vários outros projetos. Sendo baseado na AOSP, fornecemos uma experiência fluida e sem lags. Nós tentaremos constantemente adicionar mais recursos e tornar a ROM ainda melhor com futuras atualizações.&#35;SejaExtendido</string>
     <string name="dev_info">Sobre a AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Veja nosso código fonte</string>
@@ -64,6 +64,8 @@
     <string name="designer4_description">Extensões de UI, ícones</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Extensões da Interface de Usuário, Estilos de Ícones e de Relógio</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Nova Animação de Inicialização</string>
     <string name="maintainers">Mantenedores</string>
     <string name="maintainers_title">Mantenedores Oficiais</string>
     <string name="maintainers_summary">Lista de dispositivos suportados e seus mantenedores oficiais.</string>
@@ -116,10 +118,10 @@
     <string name="theme_category_title">Tema do sistema</string>
     <string name="system_theme_style_title">Estilo da interface</string>
     <string name="system_theme_style_auto">Baseado no papel de parede</string>
-    <string name="system_theme_style_light">Interface do utilizador clara</string>
-    <string name="system_theme_style_dark">Interface escura</string>
-    <string name="system_theme_style_black">Interface preta</string>
-    <string name="system_theme_style_extended">Interface do utilizador expandida</string>
+    <string name="system_theme_style_light">Interface Clara</string>
+    <string name="system_theme_style_dark">Interface Escura</string>
+    <string name="system_theme_style_black">Interface Preta</string>
+    <string name="system_theme_style_extended">Interface Extended</string>
     <string name="system_theme_style_chocolate">Interface Chocolate</string>
     <string name="theme_applied_toast">Tema aplicado.</string>
     <string name="applying_theme_toast">Aplicando o tema, por favor aguarde...</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Permitir o uso de dados móveis</string>
     <string name="data_usage_app_restrict_wifi">Dados Wi-Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Permitir o uso de dados Wi-Fi</string>
+    <string name="full_gesture_mode_title">Ativar modo de gesto completo</string>
+    <string name="full_gesture_mode_summary">Este modo também irá desativar o botão voltar. Para usar a ação de voltar deslize a barra para a esquerda, O ato de deslizar para a direita ainda acionará a ação do último aplicativo, e moverá os aplicativos caso deslize e segure. Para ir para o Home, você poderá tocar em qualquer espaço vazio da barra de navegação, não apenas no botão de início.</string>
+    <string name="full_gesture_mode_dt2s_title">Ativar toque duplo para dormir</string>
+    <string name="full_gesture_mode_dt2s_summary">Toque em um espaço vazio da barra de navegação, mas não no botão home, para desativar a tela.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Área de trabalho expandida</string>
     <string name="expanded_hide_nothing">Não ocultar nada</string>
@@ -210,10 +216,10 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Deslize a impressão digital para a esquerda ou para a direita para descartar as notificações</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita no sensor de impressões digitais na parte traseira do seu telefone.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone1_title">Toque de chamada - SIM 1</string>
+    <string name="ringtone2_title">Toque de chamada - SIM 2</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Diminuir o brilho se luz noturna</string>
+    <string name="night_brightness_value_title">Diminuir o brilho com luz noturna</string>
     <string name="night_auto_value_disabled">Desabilitado</string>
     <string name="night_auto_value_min">Brilho mínimo</string>
     <string name="night_bright_low">Brilho baixo</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Cantos arredondados</string>
     <string name="qs_tile_style_squircle">Circulo quadrado</string>
     <string name="qs_tile_style_tear_drop">Gota de lágrima</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

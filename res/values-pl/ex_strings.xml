@@ -46,11 +46,11 @@
     <string name="walls_description">Pobierz tapety udostępnione przez różnych użytkowników</string>
     <string name="leads">Liderzy zespołu</string>
     <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
-    <string name="team1_description">Właściciel/Główny Developer</string>
+    <string name="team1_description">Właściciel/Główny Deweloper</string>
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
-    <string name="team2_description">Developer</string>
+    <string name="team2_description">Deweloper</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Moderator i deweloper początkujący</string>
+    <string name="team3_description">Moderator i Deweloper początkujący</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Deweloper</string>
     <string name="designers">Projektanci</string>
@@ -64,6 +64,8 @@
     <string name="designer4_description">Motyw AEX, ikony</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Mituw AEX, ikony i style zegara</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Nowa animacja uruchamiania</string>
     <string name="maintainers">Opiekunowie</string>
     <string name="maintainers_title">Oficjalni opiekunowie</string>
     <string name="maintainers_summary">Lista wspieranych oficjalnie urządzeń i ich opiekunów.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Monitoruj zużycie danych sieci komórkowej</string>
     <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
+    <string name="full_gesture_mode_title">Włącz tryb gestów pełnoekranowych</string>
+    <string name="full_gesture_mode_summary">Ten tryb wyłącza przycisk cofania, możesz cofnąć przesuwając po lewej części paska nawigacyjnego. Przesunięcie po prawej częsci dalej włącza ostatnią aplikację oraz przewijanie aplikacji. Aby wrócić do ekranu domowego możesz nacinąć wolną przestrzeń na pasku nawigacyjnym. Długie przycisnięcie paska nawigacyjnego pozwala przesuwać kursor, gdy klawiatura jest widoczna.</string>
+    <string name="full_gesture_mode_dt2s_title">Włącz usypianie dwuklikiem</string>
+    <string name="full_gesture_mode_dt2s_summary">Dotknij pustej przestrzeni na pasku nawigacyjnym, ale nie przycisk domowy aby wyłączyć ekran.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Rozszerzony pulpit</string>
     <string name="expanded_hide_nothing">Nic nie ukrywaj</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Zaokraglony kwadrat</string>
     <string name="qs_tile_style_squircle">Sqircle (Pokemon)</string>
     <string name="qs_tile_style_tear_drop">Łza</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

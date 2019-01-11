@@ -30,7 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">關於我們</string>
     <string name="aex_about_summary">介紹及團隊簡介</string>
-    <string name="aex_about_info_summary">AospExtended 是一個根據 AOSP 的 rom，並提供原生 UI/UX 及各種自訂功能和底層主題引擎。此項目是透過 cherry-pick 以及其他各個項目的各種 Commit 完成的。由於是根據 AOSP，Rom 可以提供現成流暢、無卡頓的 Android 體驗。我們將在未來的更新中，努力增加更多功能，並使其更加完善。&#35;BeExtended</string>
+    <string name="aex_about_info_summary">AospExtended 是一個根據 AOSP 的 rom，並提供原生 UI/UX 及各種自訂功能和底層主題引擎。此項目是透過 cherry-pick 以及其他各個項目的各種 Commit 完成的。由於是根據 AOSP，Rom 可以提供現成的流暢的、無卡頓的 Android 體驗。我們將在未來的更新中，努力增加更多功能，並使其更加完善。&#35;BeExtended</string>
     <string name="dev_info">關於 AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">檢視我們的程式原始碼</string>
@@ -64,6 +64,8 @@
     <string name="designer4_description">擴展使用者介面, 圖示</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">擴充 UI, 圖標和時鐘樣式</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">新的開機動畫</string>
     <string name="maintainers">維護人員</string>
     <string name="maintainers_title">官方維護者</string>
     <string name="maintainers_summary">官方支援的裝置及其各自的維護者。</string>
@@ -127,7 +129,7 @@
     <string name="force_allow_system_themes_title">允許系統主題和字體與substratum一起使用</string>
     <string name="force_allow_system_themes_summary">儘管安裝了substratum，但允許您使用以下主題和字體選項。</string>
     <string name="force_theme_warning_title">警告 !</string>
-    <string name="force_theme_warning_message">這可能導致substratum主題和系統主題之間的衝突。我們希望您知道您正在進行什麼。#DontBlameUsLater :D</string>
+    <string name="force_theme_warning_message">這可能導致substratum主題和系統主題之間的衝突。我們希望您知道自己在做什麼。#DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重設統計數據</string>
     <string name="battery_stats_message">電池統計數據將會重設</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">啟用行動網路</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 資料</string>
     <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 資料</string>
+    <string name="full_gesture_mode_title">啟用完整的手勢模式</string>
+    <string name="full_gesture_mode_summary">此模式禁用返回按鈕，您可以通過導航欄上的左側滑動觸發返回按鈕操作。向右滑動仍會觸發上一個應用程式和多任務應用程式。要返回主螢幕，您可以點選任何導航欄空白區域，而不僅是主螢幕按鈕。顯示鍵盤時，長按導航鍵可移動文字游標。</string>
+    <string name="full_gesture_mode_dt2s_title">啟用輕觸兩下來休眠</string>
+    <string name="full_gesture_mode_dt2s_summary">點擊除了主畫面以外的導航列空間來關閉螢幕</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">延伸桌面</string>
     <string name="expanded_hide_nothing">不隱藏</string>
@@ -190,7 +196,7 @@
     <string name="expanded_nothing_to_show">若要為特定的應用程式設定延伸狀態，請關閉「全部延伸」的選項</string>
     <string name="expanded_desktop_state">延伸狀態</string>
     <string name="expanded_enabled_for_all">全部延伸</string>
-    <string name="expanded_user_configurable">使用者可設定</string>
+    <string name="expanded_user_configurable">使用者可配置</string>
     <string name="expanded_desktop_style">延伸桌面樣式</string>
     <string name="expanded_desktop_style_description">選擇預設延伸桌面樣式</string>
     <string name="expanded_desktop_title">延伸桌面選項</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">圓角正方形</string>
     <string name="qs_tile_style_squircle">圓角方形</string>
     <string name="qs_tile_style_tear_drop">淚滴</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

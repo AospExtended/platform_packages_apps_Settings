@@ -64,6 +64,8 @@
     <string name="designer4_description">Kiterjesztett felhasználói felület, Ikonok</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Kiterjesztett felhasználói felület, Ikonok, Órastílusok</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Új Bootanimáció</string>
     <string name="maintainers">Felelősök</string>
     <string name="maintainers_title">Hivatalos felelősök</string>
     <string name="maintainers_summary">A hivatalosan támogatott készülékek és azok saját felelősei.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Mobiladat-használat engedélyezése</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi adathasználat</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi adathasználat engedélyezése</string>
+    <string name="full_gesture_mode_title">A teljes mozdulatvezérlés-mód engedélyezése</string>
+    <string name="full_gesture_mode_summary">Ez a mód letiltja a Vissza-gombot, amit a navigációs sávon balra csúsztatással helyettesíthet. Jobbra csúsztatással a legutóbbi alkalmazásokat tekintheti át. A Kezdőoldalra való visszatérést a navigációs sávot bárhol megérintve érheti el (kivéve a Kezdőoldal gomb helyét). Ha a billentyűzet meg van nyitva a navigációs sáv hosszú nyomásával mozgathatja a kurzort.</string>
+    <string name="full_gesture_mode_dt2s_title">Dupla érintésre alvómód engedélyezése</string>
+    <string name="full_gesture_mode_dt2s_summary">A navigációs sávot bárhol kétszer érintve (kivéve a Kezdőoldal-gombot) kikapcsolhatja a képernyőt.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Kiterjesztett képernyő</string>
     <string name="expanded_hide_nothing">Egyiket se rejtse el</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Lekerekített négyzet</string>
     <string name="qs_tile_style_squircle">Kerekített sarkú négyzet</string>
     <string name="qs_tile_style_tear_drop">Könnycsepp</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

@@ -29,8 +29,8 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
     <string name="aex_about_info">关于我们</string>
-    <string name="aex_about_summary">我们的项目以及我们的团队</string>
-    <string name="aex_about_info_summary">AospExtended 是一个基于 AOSP 的 ROM ，此 ROM 可提供原生 UI/UX 、各种自定义功能和Substratum主题引擎。本项目是通过 cherry-pick 其他各个项目的各种 commit 完成的。由于是基于 AOSP，本 ROM 可提供流畅、无卡顿的安卓体验。我们将在未来的更新中，努力添加更多功能，使其更加完善。&#35;BeExtended</string>
+    <string name="aex_about_summary">了解我们的项目和团队</string>
+    <string name="aex_about_info_summary">AospExtended是一个基于AOSP的开源ROM，此ROM提供了原生的UI和UX，并且包含各种自定义选项以及Substratum主题引擎。本项目是通过cherry-pick以及其他各个项目的各种commit而完成。由于我们的ROM是基于AOSP项目开发，将能给用户提供丝滑无卡顿的安卓体验。并在未来的更新中我们将努力添加更多功能，使其更加完善。&#35;BeExtended</string>
     <string name="dev_info">关于 AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">查看我们的源代码</string>
@@ -41,7 +41,7 @@
     <string name="web">下载中心</string>
     <string name="web_description">访问我们的下载门户</string>
     <string name="help_translate">翻译</string>
-    <string name="help_translate_description">翻译成您使用的语言，请访问我们的 Crowdin</string>
+    <string name="help_translate_description">要帮助翻译成你所使用的语言，请访问我们的Crowdin。</string>
     <string name="walls">壁纸</string>
     <string name="walls_description">下载用户贡献的壁纸</string>
     <string name="leads">主创团队</string>
@@ -64,9 +64,11 @@
     <string name="designer4_description">扩展设置界面、图标</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">扩展设置界面、图标和时钟样式</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">新的开机动画</string>
     <string name="maintainers">维护者</string>
     <string name="maintainers_title">官方维护者</string>
-    <string name="maintainers_summary">官方支持的设备及其各自的维护者。</string>
+    <string name="maintainers_summary">官方支持的设备及其各自的维护者</string>
     <!-- Maintainer section -->
     <string name="maintainer_description">维护者：%1$s</string>
     <string name="loading_devices">正在加载设备列表...</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">启用移动网络数据使用统计</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
     <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 数据使用统计</string>
+    <string name="full_gesture_mode_title">启用完整手势模式</string>
+    <string name="full_gesture_mode_summary">此模式将禁用返回按钮，您可以通过导航栏上的左侧滑动触发返回按钮操作。向右滑动切换应用程序。要返回主屏幕，您可以点击任何导航栏空白区域，而不仅是主屏幕按钮。显示键盘时，长按导航键可移动文本光标。</string>
+    <string name="full_gesture_mode_dt2s_title">启用双击息屏</string>
+    <string name="full_gesture_mode_dt2s_summary">点击导航栏中的空白处而不是主页按钮以关闭屏幕。</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">扩展桌面</string>
     <string name="expanded_hide_nothing">不隐藏</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">圆角</string>
     <string name="qs_tile_style_squircle">圆角矩形</string>
     <string name="qs_tile_style_tear_drop">泪滴</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

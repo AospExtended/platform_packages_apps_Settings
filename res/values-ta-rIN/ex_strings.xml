@@ -453,4 +453,13 @@ alert_on_charged_level_dis
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <!-- Advanced night mode brightness -->
     <!-- QS tile styles -->
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

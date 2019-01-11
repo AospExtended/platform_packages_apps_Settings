@@ -67,6 +67,7 @@
     <string name="designer4_description">افزونه های کاربری، آیکون ها</string>
     <string name="designer_5">(Gaurav (allstargaurav</string>
     <string name="designer5_description">طراح آیکون‌ها، رابط کاربری گسترش یافته و استایل ساعت</string>
+    <string name="designer6_description">انیمیشن جدید برای بوت</string>
     <string name="maintainers">نگه‌دارنده‌ها</string>
     <string name="maintainers_title">نگه‌دارنده‌های رسمی</string>
     <string name="maintainers_summary">لیست دستگاه‌ها‌یی که به صورت رسمی پشتیبانی می‌شوند.</string>
@@ -184,6 +185,8 @@
     <string name="data_usage_app_restrict_data_summary">استفاده از داده های تلفن همراه را قادر می سازد</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi داده ها</string>
     <string name="data_usage_app_restrict_wifi_summary">فعال کردن استفاده از داده های Wi\u2011Fi</string>
+    <string name="full_gesture_mode_title">فعال‌سازی کامل ژست‌های حرکتی</string>
+    <string name="full_gesture_mode_dt2s_title">فعال‌سازی دابل تپ برای اسلیپ کردن گوشی</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">میز کار گسترده</string>
     <string name="expanded_hide_nothing">پنهان نکردن چیزی</string>
@@ -228,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">گرد شده</string>
     <string name="qs_tile_style_squircle">Squircle</string>
     <string name="qs_tile_style_tear_drop">قطره اشک</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

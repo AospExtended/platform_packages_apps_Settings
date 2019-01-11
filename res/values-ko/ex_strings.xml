@@ -14,41 +14,230 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
+    <string name="extended_version">확장 버전</string>
+    <string name="extended_version_default">알 수 없음</string>
+    <string name="keywords_extended_version">AEX 버전, 확장 버전</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">빌드 날짜</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">빌드 날짜, 빌드 정보</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">지문 센서는 휴대전화 앞 쪽에 위치하고 있습니다.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">지문 센서는 휴대전화 왼쪽 측면에 위치하고 있습니다.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">지문 센서는 휴대전화 오른쪽 측면에 위치하고 있습니다.</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">소개</string>
+    <string name="aex_about_summary">우리 팀 소개</string>
+    <string name="aex_about_info_summary">AospExtended는 AOSP 기반 롬이며 기본적인 UI/UX 위에 Substratum 테마 엔진을 통한 다양한 사용자 기능을 제공합니다. 이 프로젝트는 다양한 다른 프로젝트들의 여러 기능 중에서 장점만을 취해서 만들어졌습니다. AOSP를 기반으로 구성되어 부드럽고 버벅임 없는 사용자 경험을 제공합니다. 저희는 지속적으로 보다 많은 기능을 제공하기 위해 노력할 것이며 이를 통해 앞으로 업데이트를 통해 점점 더 좋아질 것입니다. &#35;BeExtended</string>
+    <string name="dev_info">AospExtended에 대하여</string>
+    <string name="github">Github</string>
+    <string name="github_description">소스 코드 보기</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Google+ 커뮤니티에 가입하기</string>
+    <string name="telegram">텔레그램</string>
+    <string name="telegram_description">텔레그램 채널 구독</string>
+    <string name="web">다운로드 센터</string>
+    <string name="web_description">다운로드 포털에 방문</string>
+    <string name="help_translate">번역</string>
+    <string name="help_translate_description">Crowdin 서비스를 통해 원하는 언어로 번역해 보세요.</string>
+    <string name="walls">배경 화면</string>
+    <string name="walls_description">다양한 사용자들이 만든 배경 화면 얻기</string>
+    <string name="leads">팀 리더</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">주인/수석 개발자</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">개발자</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">중재자 및 아마추어 개발자</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">개발자</string>
+    <string name="designers">디자이너</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">스레드 배너, 로고, 배경 화면</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">빠른 설정 / 로고</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">배경화면, 부팅 애니메이션</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="designer4_description">확장 UI, 아이콘</string>
+    <string name="designer_5">Gaurav (allstargaurav)</string>
+    <string name="designer5_description">확장 UI, 아이콘 및 시계 스타일</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">새 부트애니메이션</string>
+    <string name="maintainers">관리자</string>
+    <string name="maintainers_title">공식 유지 관리자</string>
+    <string name="maintainers_summary">공식적으로 장치 및 각 유지 관리자를 지원합니다.</string>
     <!-- Maintainer section -->
+    <string name="maintainer_description">유지 관리자:%1$s</string>
+    <string name="loading_devices">기기 목록을 불러오는 중...</string>
+    <string name="loading_devices_failed">기기 목록을 불러오지 못했습니다.</string>
+    <string name="devices_list_empty">목록이 비었습니다. 아이콘을 눌러 새로 고침 하세요.</string>
+    <string name="reload_list">다시 불러오기</string>
     <!-- Changelog -->
+    <string name="changelog_title">변경 사항</string>
+    <string name="changelog_summary">최근 변경 사항</string>
+    <string name="changelog_loading">변경 내역 불러오는 중\u2026</string>
+    <string name="changelog_error">변경 사항을 불러올 수 없음</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">레이아웃 섞기</string>
+    <string name="unlock_scramble_pin_layout_summary">장치를 잠금 해제할 때 PIN 레이아웃 섞기</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">빠른 잠금 해제</string>
+    <string name="unlock_quick_unlock_control_summary">PIN/비밀번호를 올바르게 입력하면 자동으로 잠금을 해제합니다</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">충전시 화면 켜기</string>
+    <string name="wakeup_when_plugged_unplugged_summary">충전기가 연결되거나 분리되면 화면을 켭니다.</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">충전 진동</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">스크린샷 소리</string>
+    <string name="dashboard_conditions_title">대시보드 설정</string>
+    <string name="summary_dashboard_conditions_enabled">대시보드 상태가 활성화됨</string>
+    <string name="summary_dashboard_conditions_disabled">대시보드 상태가 비활성화됨</string>
+    <string name="dashboard_suggestions_title">대시보드 제안</string>
+    <string name="summary_dashboard_suggestions_enabled">대시보드 제안이 활성화됨</string>
+    <string name="summary_dashboard_suggestions_disabled">대시보드 추천이 비활성화됨</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">CPU 정보 보기</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">화면에 현재 CPU 정보를 표시합니다</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB 알림</string>
+    <string name="adb_notify_summary">USB 또는 네트워크 디버깅을 활성화 하면 알림 표시</string>
     <!-- Dashboard Category -->
+    <string name="dashboard_category">대시보드 설정</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
+    <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서 확인</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">홈 버튼 켜기</string>
+    <string name="home_wake_button_summary">화면을 켜기 위해 홈 버튼 활성화</string>
     <!-- Themes -->
+    <string name="theme_category_title">시스템 테마</string>
+    <string name="system_theme_style_title">UI 스타일</string>
+    <string name="system_theme_style_auto">배경화면 기반</string>
+    <string name="system_theme_style_light">밝은 UI</string>
+    <string name="system_theme_style_dark">어두운 UI</string>
+    <string name="system_theme_style_black">블랙 UI</string>
+    <string name="system_theme_style_extended">확장된 UI</string>
+    <string name="system_theme_style_chocolate">초콜릿 UI</string>
+    <string name="theme_applied_toast">테마 적용됨</string>
+    <string name="applying_theme_toast">테마를 적용 중입니다. 잠시만 기다려주세요...</string>
+    <string name="substratum_installed_title">Substratum 오버레이가 설치되어 있어 시스템 테마를 사용할 수 없습니다. 설치된 모든 오버레이를 삭제 후 진행해주세요.</string>
+    <string name="force_allow_system_themes_title">Substratum과 함께 시스템 테마 및 글꼴 허용</string>
+    <string name="force_allow_system_themes_summary">Substratum이 설치된 경우 다음 테마 및 글꼴 옵션을 사용할 수 있습니다.</string>
+    <string name="force_theme_warning_title">경고 !</string>
+    <string name="force_theme_warning_message">이로 인해 Substratum 테마와 시스템 테마 간에 충돌이 발생할 수 있습니다. 무엇을 하려고 하는지 확실히 알아두시기 바랍니다. #나중에우리를원망하지마세요 ^^</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">기록 초기화</string>
+    <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다</string>
+    <string name="ok_string">확인</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">AEX 업데이트</string>
+    <string name="aex_ota_summary">최신 빌드 확인</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">알림 색상</string>
+    <string name="custom_light_on_time_title">LED 점등 지연시간 (ms)</string>
+    <string name="custom_light_off_time_title">LED 점등 끄기 지연시간 (ms)\"</string>
+    <string name="value_equals_default">기본</string>
+    <string name="show_light_on_zen_title">방해 금지 중 깜박임</string>
     <!-- Density category -->
+    <string name="density_category">해상도 옵션</string>
     <!-- Selinux -->
+    <string name="selinux_status">SELinux 상태</string>
+    <string name="selinux_status_disabled">비활성화됨</string>
+    <string name="selinux_status_permissive">허용 (Permissive)</string>
+    <string name="selinux_status_enforcing">시행 (Enforcing)</string>
     <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>는 <xliff:g id="status" example="disabled">%2$s</xliff:g> 입니다</string>
+    <string name="sim_disabled">꺼짐</string>
+    <string name="sim_missing">누락 혹은 오류</string>
+    <string name="sim_enabler_need_disable_sim">SIM 카드가 비활성화됩니다. 계속하시겠습니까?</string>
+    <string name="sim_enabler_will_disable_sim_title">주의</string>
+    <string name="sim_enabler_need_switch_data_service">이 SIM은 비활성화되며, <xliff:g id="slotid">%1$s</xliff:g> SIM이 데이터 서비스에 사용됩니다. 계속하겠습니까?</string>
+    <string name="sim_enabler_airplane_on">비행기 모드에서는 작업을 수행할 수 없습니다.</string>
+    <string name="sim_enabler_in_call">통화 중에는 작업을 수행할 수 없습니다.</string>
+    <string name="sim_enabler_both_inactive">모든 SIM 카드를 비활성화할 수 없습니다.</string>
+    <string name="sim_enabler_enabling">\u2026 활성화 중</string>
+    <string name="sim_enabler_disabling">\u2026 비활성화 중</string>
+    <string name="sub_activate_success">SIM카드가 활성화되었습니다.</string>
+    <string name="sub_activate_failed">활성화에 실패했습니다.</string>
+    <string name="sub_deactivate_success">SIM카드가 비활성화되었습니다.</string>
+    <string name="sub_deactivate_failed">비활성화에 실패했습니다.</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">패턴의 크기를 선택하세요</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">패턴 오류 표시</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">패턴 점 표시</string>
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">진동</string>
+    <string name="lockscreen_vibrate_enabled_head">잠금 해제 시 진동</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">바로 잠금해제</string>
+    <string name="directly_show_lock_summary">밀어서 잠금 화면 해제를 건너뛰고 PIN 입력 화면으로 바로 가기</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">모바일 데이터</string>
+    <string name="data_usage_app_restrict_data_summary">모바일 데이터를 사용합니다</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 데이터</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi 데이터를 사용합니다.</string>
+    <string name="full_gesture_mode_title">전체 제스처 모드를 활성화</string>
+    <string name="full_gesture_mode_summary">이 모드에서는 뒤로 가기 버튼이 비활성화되며, 내비게이션 바에서 왼쪽으로 밀어서 뒤로 가기 버튼 기능을 대체할 수 있습니다. 오른쪽 밀기는 여전히 최근 앱 목록을 불러들이게 됩니다. 홈으로 가려면 홈 버튼이나 내비게이션 바의 아무 곳이나 누르십시오. 키보드가 표시되면 내비게이션 바를 길게 눌러 텍스트 커서를 이동하십시오.</string>
+    <string name="full_gesture_mode_dt2s_title">두 번 탭하여 끄기</string>
+    <string name="full_gesture_mode_dt2s_summary">화면을 끄려면 홈 버튼을 제외한 내비게이션 바의 빈 공간을 누르십시오.</string>
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">확장 데스크탑</string>
+    <string name="expanded_hide_nothing">숨기지 않음</string>
+    <string name="expanded_hide_status">상태 표시줄 숨기기</string>
+    <string name="expanded_hide_navigation">내비게이션 바 숨기기</string>
+    <string name="expanded_hide_both">모두 숨기기</string>
+    <string name="expanded_nothing_to_show">앱 별로 확장 상태 설정을 하려면 \'모두 확장\'을 끄십시오.</string>
+    <string name="expanded_desktop_state">확장 상태</string>
+    <string name="expanded_enabled_for_all">모두 사용</string>
+    <string name="expanded_user_configurable">사용자 설정</string>
+    <string name="expanded_desktop_style">확장 데스크탑 스타일</string>
+    <string name="expanded_desktop_style_description">기본 확장 데스크톱 스타일 선택</string>
+    <string name="expanded_desktop_title">확장 데스크탑 옵션</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">화면 회전</string>
+    <string name="display_rotation_disabled">비활성화됨</string>
+    <string name="display_rotation_unit">각도</string>
+    <string name="display_rotation_category_title">회전 모드</string>
+    <string name="display_rotation_0_title">0도</string>
+    <string name="display_rotation_90_title">90도</string>
+    <string name="display_rotation_180_title">180도</string>
+    <string name="display_rotation_270_title">270도</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">음소거, 미디어 없음</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">켜기 (음소거, 미디어 없음)</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">지문 인식을 왼쪽이나 오른쪽으로 밀어 알림 해제</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">알림을 닫으려면 휴대전화 뒷면의 지문 센서에서 왼쪽 또는 오른쪽으로 미세요.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">벨소리 - SIM 1</string>
+    <string name="ringtone2_title">벨소리 - SIM 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">나이트 모드일 때 밝기를 낮춥니다.</string>
+    <string name="night_auto_value_disabled">비활성화됨</string>
+    <string name="night_auto_value_min">최소 밝기</string>
+    <string name="night_bright_low">낮은 밝기</string>
+    <string name="night_bright_midlow">중간 낮은 밝기</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">빠른 설정 스타일</string>
+    <string name="qs_tile_style_default">기본값</string>
+    <string name="qs_tile_style_square">사각형</string>
+    <string name="qs_tile_style_rounded_square">둥근 사각형</string>
+    <string name="qs_tile_style_squircle">사각원형</string>
+    <string name="qs_tile_style_tear_drop">티어 드롭</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

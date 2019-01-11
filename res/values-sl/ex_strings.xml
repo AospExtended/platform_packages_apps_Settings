@@ -14,41 +14,230 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
+    <string name="extended_version">Različica Extended</string>
+    <string name="extended_version_default">Neznano</string>
+    <string name="keywords_extended_version">različica aex, različica extended</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">Datum izgradnje</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">datum izgradnje, podatki o izgradnji</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Poiščite tipalo za prstne odtise na sprednji strani vašega telefona.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Poiščite tipalo za prstne odtise na levi strani vašega telefona.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Poiščite tipalo za prstne odtise na desni strani vašega telefona.</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">O nas</string>
+    <string name="aex_about_summary">Naša predstavitev in ekipa</string>
+    <string name="aex_about_info_summary">AospExtended je rom na AOSP osnovi, ki ponuja standarden uporabniški vmesnik z različnimi prilagoditvenimi lastnostmi ob strani Substratum pogona za teme. Projekt je bil izdelan z izbiranjem različnih delov iz različnih drugih projektov. Zaradi AOSP osnove, ponuja gladko izkušnjo brez zatikanja. Trudili se bomo dodajati nove lastnosti in ga narediti še boljšega v prihodnosti.&#35;BeExtended</string>
+    <string name="dev_info">O AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">Poglejte našo izvorno kodo</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Pridružite se naši G+ skupnosti</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Naročite se na naš Telegram kanal</string>
+    <string name="web">Središče za prenose</string>
+    <string name="web_description">Obiščite naš portal za prenose</string>
+    <string name="help_translate">Prevodi</string>
+    <string name="help_translate_description">Prevedite v vaš jezik, obiščite naš Crowdin</string>
+    <string name="walls">Slike ozadja</string>
+    <string name="walls_description">Pridobite slike ozadja, ki so jih prispevali različni uporabniki</string>
+    <string name="leads">Vodstvo</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Lastnik/Vodilni razvijalec</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Razvijalec</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderator in amaterski razvijalec</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Razvijalec</string>
+    <string name="designers">Oblikovalci</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Pasice foruma, logotipi, slike ozadja</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">Logotip hitrih nastavitev/Flinga</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Slike ozadja, zagonske animacije</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="designer4_description">Uporabniški vmesnik razširitev, ikone</string>
+    <string name="designer_5">Gaurav (allstargaurav)</string>
+    <string name="designer5_description">Uporabniški vmesnik razširitev, ikone in slogi ure</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Nova zagonska animacija</string>
+    <string name="maintainers">Vzdrževalci</string>
+    <string name="maintainers_title">Uradni vzdrževalci</string>
+    <string name="maintainers_summary">Uradno podprte naprave in njihovi razvijalci.</string>
     <!-- Maintainer section -->
+    <string name="maintainer_description">Vzdrževalec: %1$s</string>
+    <string name="loading_devices">Nalaganje seznama naprav ...</string>
+    <string name="loading_devices_failed">Nalaganje seznama naprav je spodletelo</string>
+    <string name="devices_list_empty">Seznam je prazen, tapnite na ikono za ponovno nalaganje</string>
+    <string name="reload_list">Ponovno naloži</string>
     <!-- Changelog -->
+    <string name="changelog_title">Dnevnik sprememb</string>
+    <string name="changelog_summary">Nedavne spremembe</string>
+    <string name="changelog_loading">Nalaganje dnevnika sprememb \u2026</string>
+    <string name="changelog_error">Dnevnika sprememb ni mogoče naložiti</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Premešaj razporeditev</string>
+    <string name="unlock_scramble_pin_layout_summary">Premešaj razporeditev PIN ob odklepanju naprave</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hiter odklep</string>
+    <string name="unlock_quick_unlock_control_summary">Samodejno odkleni, ko je vnešen pravilen PIN/geslo</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Zbudi ob napajanju</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Zbudi napravo ob priključitvi/odklopu napajalnika.</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibriranje med polnjenjem</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvok posnetka zaslona</string>
+    <string name="dashboard_conditions_title">Stanja v nadzorni plošči</string>
+    <string name="summary_dashboard_conditions_enabled">Stanja v nadzorni plošči so omogočena</string>
+    <string name="summary_dashboard_conditions_disabled">Stanja v nadzorni plošči so onemogočena</string>
+    <string name="dashboard_suggestions_title">Predlogi v nadzorni plošči</string>
+    <string name="summary_dashboard_suggestions_enabled">Predlogi v nadzorni plošči so omogočeni</string>
+    <string name="summary_dashboard_suggestions_disabled">Predlogi v nadzorni plošči so onemogočeni</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Prikaži podatke CPE</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Zaslonska prevleka, ki prikazuje trenutne podatke o CPE</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">Obvestilo ADB</string>
+    <string name="adb_notify_summary">Pokaži obvestilo. ko je omogočeno android razhroščevanje</string>
     <!-- Dashboard Category -->
+    <string name="dashboard_category">Nastavitve nadzorne plošče</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prepreči nenamerno bujenje</string>
+    <string name="proximity_wake_summary">Pred bujenjem zaslona preveri tipalo bližine</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">Bujenje z gumbom Domov</string>
+    <string name="home_wake_button_summary">Omogoči bujenje zaslona z gumbom Domov</string>
     <!-- Themes -->
+    <string name="theme_category_title">Tema sistema</string>
+    <string name="system_theme_style_title">Slog uporabniškega vmesnika</string>
+    <string name="system_theme_style_auto">Na podlagi slike ozadja</string>
+    <string name="system_theme_style_light">Svetli uporabniški vmesnik</string>
+    <string name="system_theme_style_dark">Temni uporabniški vmesnik</string>
+    <string name="system_theme_style_black">Črni uporabniški vmesnik</string>
+    <string name="system_theme_style_extended">Extended uporabniški vmesnik</string>
+    <string name="system_theme_style_chocolate">Čokoladni uporabniški vmesnik</string>
+    <string name="theme_applied_toast">Tema uveljavljena.</string>
+    <string name="applying_theme_toast">Uveljavljanje teme, prosimo, počakajte ...</string>
+    <string name="substratum_installed_title">Teme sistema niso na voljo, ker je nameščena Substratum prevleka. Za nadaljevanje, odstranite vse prevleke, ki ciljajo na sistem Android.</string>
+    <string name="force_allow_system_themes_title">Dovoli teme sistema in pisave ob strani substratuma</string>
+    <string name="force_allow_system_themes_summary">Omogoči vam uporabo naslednjih tem in pisav kljub temu, da je nameščen substratum.</string>
+    <string name="force_theme_warning_title">Opozorilo!</string>
+    <string name="force_theme_warning_message">To lahko povzroči konflikt med temami substratuma in temami sistema. Upamo, da veste v kaj se podajate. #DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Ponastavi statistike</string>
+    <string name="battery_stats_message">Statistika zgodovine akumulatorja bo ponastavljena</string>
+    <string name="ok_string">V redu</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">Posodobitve AEX</string>
+    <string name="aex_ota_summary">Pridobite zadnjo izgradnjo</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">Barva lučke</string>
+    <string name="custom_light_on_time_title">Čas vklopljene lučke med utripanjem (ms)</string>
+    <string name="custom_light_off_time_title">Čas izklopljene lučke med utripanjem (ms)</string>
+    <string name="value_equals_default">priv.</string>
+    <string name="show_light_on_zen_title">Utripanje med Ne moti</string>
     <!-- Density category -->
+    <string name="density_category">Možnosti gostote</string>
     <!-- Selinux -->
+    <string name="selinux_status">Stanje SELinux</string>
+    <string name="selinux_status_disabled">Onemogočeno</string>
+    <string name="selinux_status_permissive">Dopustno</string>
+    <string name="selinux_status_enforcing">Se uveljavla</string>
     <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">onemogočena</string>
+    <string name="sim_missing">manjka ali je poškodovana</string>
+    <string name="sim_enabler_need_disable_sim">Kartica SIM bo onemogočena. Želite nadaljevati?</string>
+    <string name="sim_enabler_will_disable_sim_title">Pozor</string>
+    <string name="sim_enabler_need_switch_data_service">Ta kartica SIM bo onemogočena in SIM <xliff:g id="slotid">%1$s</xliff:g> bo uporabljena za podatkovne storitve. Ste prepričani, da želite nadaljevati?</string>
+    <string name="sim_enabler_airplane_on">Opravila ni mogoče izvesti, ko je vključen način za letalo.</string>
+    <string name="sim_enabler_in_call">Opravila ni mogoče izvesti med klicem.</string>
+    <string name="sim_enabler_both_inactive">Vseh kartic SIM ni mogoče onemogočiti</string>
+    <string name="sim_enabler_enabling">Omogočanje \u2026</string>
+    <string name="sim_enabler_disabling">Onemogočanje \u2026</string>
+    <string name="sub_activate_success">Kartica SIM omogočena.</string>
+    <string name="sub_activate_failed">Omogočanje je spodletelo.</string>
+    <string name="sub_deactivate_success">Kartica SIM onemogočena.</string>
+    <string name="sub_deactivate_failed">Onemogočanje je spodletelo.</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">Izberite velikost vzorca</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Prikaži napako vzorca</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Prikaži pike vzorca</string>
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Vibriraj</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibriraj ob odklepanju</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Neposredni odklep</string>
+    <string name="directly_show_lock_summary">Preskoči poteg za odklepanje zaslona in takoj začni z vnosom ključa</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobilni podatki</string>
+    <string name="data_usage_app_restrict_data_summary">Omogoči uporabo mobilnih podatkov</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi podatki</string>
+    <string name="data_usage_app_restrict_wifi_summary">Omogoči uporabo Wi\u2011Fi podatkov</string>
+    <string name="full_gesture_mode_title">Omogoči polni potezni način</string>
+    <string name="full_gesture_mode_summary">Ta način onemogoči gumb nazaj in lahko sprožite dejanje gumba nazaj s potegom levo v vrstici za krmarjenje. Poteg desno še vedno sproži zadnjo aplikacijo in drsenje po pregledu aplikacij. Za vrnitev domov lahko tapnete na prazen prostor v vrstici za krmarjenje, ne samo na gumb domov. Kadar je prisotna tipkovnica, dolgo pritisnite na vrstico na krmarjenje za premik kazalca besedila.</string>
+    <string name="full_gesture_mode_dt2s_title">Omogoči dvojni tap za spanje</string>
+    <string name="full_gesture_mode_dt2s_summary">Tapnite na prazen prostor v vrstici za krmarjenje, vendar ne gumba domov, da izklopite zaslon.</string>
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Razširjeno namizje</string>
+    <string name="expanded_hide_nothing">Ne skrij ničesar</string>
+    <string name="expanded_hide_status">Skrij vrstico stanja</string>
+    <string name="expanded_hide_navigation">Skrij vrstico za krmarjenje</string>
+    <string name="expanded_hide_both">Skrij oboje</string>
+    <string name="expanded_nothing_to_show">Da dodate nastavitev po meri za posamezno aplikacijo, nastavite \"Omogočeno za vse\" na izklopljeno</string>
+    <string name="expanded_desktop_state">Razširjeno stanje</string>
+    <string name="expanded_enabled_for_all">Omogočeno za vse</string>
+    <string name="expanded_user_configurable">Po meri uporabnika</string>
+    <string name="expanded_desktop_style">Slog razširjenega namizja</string>
+    <string name="expanded_desktop_style_description">Izberite privzeti slog razširjenega namizja</string>
+    <string name="expanded_desktop_title">Nastavitve razširjenega namizja</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Sukanje</string>
+    <string name="display_rotation_disabled">Onemogočeno</string>
+    <string name="display_rotation_unit">stopinj</string>
+    <string name="display_rotation_category_title">Načini sukanja</string>
+    <string name="display_rotation_0_title">0 stopinj</string>
+    <string name="display_rotation_90_title">90 stopinj</string>
+    <string name="display_rotation_180_title">180 stopinj</string>
+    <string name="display_rotation_270_title">270 stopinj</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Tiho, brez predstavnosti</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Vklopljeno (tiho, brez predstavnosti)</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Poteg levo ali desno po tipalu za prstne odtise za opustitev obvestil</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Da opustite vaša obvestila, potegnite levo ali desno po tipalu za prstne odtise na zadnji strani vašega telefona.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Melodija zvonjenja - Kartica SIM 1</string>
+    <string name="ringtone2_title">Melodija zvonjenja - Kartica SIM 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Znižaj svetlost med nočno svetlobo</string>
+    <string name="night_auto_value_disabled">Onemogočeno</string>
+    <string name="night_auto_value_min">Najmanjša svetlost</string>
+    <string name="night_bright_low">Nizka svetlost</string>
+    <string name="night_bright_midlow">Srednje nizka svetlost</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Slog ploščice hitrih nastavitev</string>
+    <string name="qs_tile_style_default">Privzeto</string>
+    <string name="qs_tile_style_square">Kvadrat</string>
+    <string name="qs_tile_style_rounded_square">Zaobljen kvadrat</string>
+    <string name="qs_tile_style_squircle">Zaokrožen kvadrat</string>
+    <string name="qs_tile_style_tear_drop">Solza</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

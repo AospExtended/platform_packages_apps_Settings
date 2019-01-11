@@ -18,9 +18,9 @@
     <string name="extended_version_default">Bilinmiyor</string>
     <string name="keywords_extended_version">aex sürümü, extended sürümü</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Yapı tarihi</string>
+    <string name="build_date">İnşa tarihi</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">yapı tarihi, yapı bilgisi</string>
+    <string name="keywords_build_date">inşa tarihi, inşa bilgisi</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonunuzun sol tarafındaki parmak izi sensörünü bulun.</string>
@@ -64,6 +64,8 @@
     <string name="designer4_description">Eklentiler arayüzü, Simgeler</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Eklentiler arayüzü, Simgeler ve Saat stilleri</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Yeni açılış animasyonu</string>
     <string name="maintainers">Sorumlular</string>
     <string name="maintainers_title">Resmi sorumlular</string>
     <string name="maintainers_summary">Resmi olarak desteklenen cihazlar ve sorumlular.</string>
@@ -110,8 +112,8 @@
     <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
     <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
     <!-- Home button wake -->
-    <string name="home_wake_button_title">Ana ekran tuşuyla uyanma</string>
-    <string name="home_wake_button_summary">Ekranı uyandırmak için ana ekranı tuşunu etkinleştir</string>
+    <string name="home_wake_button_title">Ana ekran tuşu</string>
+    <string name="home_wake_button_summary">Ekranı uyandırmak için ana ekran tuşunu etkinleştir</string>
     <!-- Themes -->
     <string name="theme_category_title">Sistem teması</string>
     <string name="system_theme_style_title">Arayüz stili</string>
@@ -124,7 +126,7 @@
     <string name="theme_applied_toast">Tema uygulandı.</string>
     <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
     <string name="substratum_installed_title">Bir substratum teması yüklü olduğu için sistem temaları kullanılamıyor. Devam etmek için lütfen android sistemini hedefleyen tüm temaları kaldırın.</string>
-    <string name="force_allow_system_themes_title">Substratuma izin ver</string>
+    <string name="force_allow_system_themes_title">Substratum izni</string>
     <string name="force_allow_system_themes_summary">Substratum kurulu olduğunda tema ve yazı tipleri seçeneklerini kullanmanıza izin verir.</string>
     <string name="force_theme_warning_title">Uyarı !</string>
     <string name="force_theme_warning_message">Bu substratum temaları ve sistem temaları arasındaki çatışmalara neden olabilir. Neler aldığınızı bilmenizi umuyoruz. #DontBlameUsLater :D</string>
@@ -138,11 +140,11 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Işık rengi</string>
     <string name="custom_light_on_time_title">Işık açıkken yanıp sönme hızı (ms)</string>
-    <string name="custom_light_off_time_title">Işık kapalıyken yanıp sönme hızı (ms)\"</string>
+    <string name="custom_light_off_time_title">Işık kapalıyken yanıp sönme hızı (ms)</string>
     <string name="value_equals_default">varsayılan</string>
     <string name="show_light_on_zen_title">Rahatsız etmeyinde ışığı yak söndür</string>
     <!-- Density category -->
-    <string name="density_category">Yoğunluk</string>
+    <string name="density_category">Ekran yoğunluğu</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux durumu</string>
     <string name="selinux_status_disabled">Devre dışı</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+    <string name="full_gesture_mode_title">Tam hareket modu</string>
+    <string name="full_gesture_mode_summary">Bu mod, geri tuşunu devre dışı bırakır ve gezinme çubuğunda soldan bir kaydırma yaparak bir geri tuşu eylemini başlatabilirsiniz. Sağa kaydırma, son uygulamalarının kaydırılmasını başlatır. Ana ekrana gitmek için sadece ana ekran tuşuna değil, herhangi bir gezinme çubuğu boşluğuna dokunabilirsiniz. Klavye gösterildiğinde metin imlecini hareket ettirmek için gezinme çubuğuna uzun basın.</string>
+    <string name="full_gesture_mode_dt2s_title">Çift dokunuşla uyutma</string>
+    <string name="full_gesture_mode_dt2s_summary">Ekranı kapatmak için gezinme çubuğun boş bir alanına iki kez hafifçe dokunun ancak ana ekran tuşuna dokunmayın.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Genişletilmiş masaüstü</string>
     <string name="expanded_hide_nothing">Hiçbir şeyi gizleme</string>
@@ -219,10 +225,19 @@
     <string name="night_bright_low">Düşük parlaklık</string>
     <string name="night_bright_midlow">Orta düşük parlaklık</string>
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Hızlı ayarlar kare stili</string>
+    <string name="qs_tile_style_title">Kare stili</string>
     <string name="qs_tile_style_default">Varsayılan</string>
     <string name="qs_tile_style_square">Kare</string>
     <string name="qs_tile_style_rounded_square">Yuvarlak kare</string>
     <string name="qs_tile_style_squircle">Köşeli kare</string>
     <string name="qs_tile_style_tear_drop">Gözyaşı damlası</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

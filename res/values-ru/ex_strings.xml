@@ -64,6 +64,8 @@
     <string name="designer4_description">Интерфейс дополнений, Иконки</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Расширения пользовательского интерфейса, значков и часов</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Новая анимация загрузки</string>
     <string name="maintainers">Сопровождающий</string>
     <string name="maintainers_title">Официальный сопровождающий</string>
     <string name="maintainers_summary">Официально поддерживаемые устройства и их сопровождающие.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
     <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Включить использование Wi\u2011Fi данных</string>
+    <string name="full_gesture_mode_title">Включить режим жестов</string>
+    <string name="full_gesture_mode_summary">Этот режим отключает кнопку «Назад» и вы можете назначить действие кнопки «Назад» с помощью смахивания влево на панели навигации. Смахивание вправо по-прежнему вызывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран, вы можете нажать на любое пустое место панели навигации, а не только кнопку «Домой». Когда клавиатура активна, то удерживаете нажатие на панели навигации для того, чтобы переместить курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Выключать экран двойным касанием</string>
+    <string name="full_gesture_mode_dt2s_summary">Дважды нажмите на пустом месте панели навигации, но не на кнопке «Домой», чтобы выключить экран.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Расширенный рабочий стол</string>
     <string name="expanded_hide_nothing">Ничего не скрывать</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Квадрат с закругленными углами</string>
     <string name="qs_tile_style_squircle">Округлый квадрат</string>
     <string name="qs_tile_style_tear_drop">Капля</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

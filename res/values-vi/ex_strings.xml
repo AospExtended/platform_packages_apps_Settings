@@ -64,6 +64,8 @@
     <string name="designer4_description">Tiện ích mở rộng giao diện, biểu tượng</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Giao diện mở rộng, Biểu tượng và Kiểu Đồng hồ</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Hiệu ứng khởi động mới</string>
     <string name="maintainers">Nhà bảo trì</string>
     <string name="maintainers_title">Chính thức maintainers</string>
     <string name="maintainers_summary">Danh sách các thiết bị và người duy trì Rr-Os chính thức.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Bật sử dụng dữ liệu di động</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Bật sử dụng dữ liệu Wi\u2011Fi</string>
+    <string name="full_gesture_mode_title">Bật cử chỉ tràng cạnh</string>
+    <string name="full_gesture_mode_summary">Chế độ này vô hiệu hóa nút quay lại và bạn có thể kích hoạt một hành động nút quay lại bởi một vệt trái trên thanh phím. Vệt đúng vẫn gây nên cuối cùng các ứng dụng và các ứng dụng tổng quan về di chuyển. Để đi Trang chủ bạn có thể tap vào thanh phím bất kỳ không gian trống rỗng, không phải chỉ có nút home. Khi bàn phím Hiển thị, bấm giữ trên thanh phím để di chuyển con trỏ văn bản.</string>
+    <string name="full_gesture_mode_dt2s_title">Bật nhấn đúp để tắt màn hình</string>
+    <string name="full_gesture_mode_dt2s_summary">Chạm vào khoảng trống trên thanh điều hướng nhưng không phải nút home để tắt màn hình.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Mở rộng màn hình</string>
     <string name="expanded_hide_nothing">Không ẩn gì</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Hình vuông bo tròn cạnh</string>
     <string name="qs_tile_style_squircle">Hình vuông cạnh bo tròn</string>
     <string name="qs_tile_style_tear_drop">Giọt nước mắt</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

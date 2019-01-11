@@ -64,6 +64,8 @@
     <string name="designer4_description">ملحقات واجهة المستخدم ، الأيقونات</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">ملحقات واجهة المستخدم ، الأيقونات وأنماط الساعة</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">جديد Bootanimation</string>
     <string name="maintainers">المشرفون</string>
     <string name="maintainers_title">المشرفون الرسميون</string>
     <string name="maintainers_summary">الأجهزة المدعومة رسمياً ومشرفيها المعنيين.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">تمكين استخدام البيانات الخلوية</string>
     <string name="data_usage_app_restrict_wifi">بيانات WiFi</string>
     <string name="data_usage_app_restrict_wifi_summary">تمكين استخدام بيانات WiFi</string>
+    <string name="full_gesture_mode_title">تمكين وضع الإيماءة الكاملة</string>
+    <string name="full_gesture_mode_summary">سيؤدي هذا الوضع إلى تعطيل زر الرجوع ستتمكن من تشغيل إجراء زر الرجوع عن طريق السحب لليسار على شريط التنقل. سيؤدي السحب لليمين إلى تشغيل التطبيق الأخير وتمرير تطبيقات النظرة العامة. للانتقال إلى الصفحة الرئيسية قم بالنقر على أي مساحة فارغة في شريط التنقل ، وليس فقط على زر الصفحة الرئيسية. عندما تكون لوحة المفاتيح ظاهرة، ضغطة طويلة على شريط التنقل لنقل مؤشر النصوص.</string>
+    <string name="full_gesture_mode_dt2s_title">تفعيل الضغط المزدوج لإسبات الجهاز</string>
+    <string name="full_gesture_mode_dt2s_summary">اضغط على اي مساحة فارغة في شريط التنقل لإيقاف تشغيل الشاشة.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">سطح المكتب الموسع</string>
     <string name="expanded_hide_nothing">عدم إخفاء شيء</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">مربع مدور</string>
     <string name="qs_tile_style_squircle">مربع دائري</string>
     <string name="qs_tile_style_tear_drop">دمعي</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

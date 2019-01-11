@@ -23,7 +23,10 @@
     <string name="keywords_build_date">วันที่สร้าง ข้อมูลการสร้าง</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">วางนิ้วมือบนเซนเซอร์อ่านลายนิ้วมือที่ด้านหน้าเครื่องของคุณ</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">วางนิ้วมือด้านซ้ายบนเซนเซอร์อ่านลายนิ้วมือที่ด้านหน้าเครื่องของคุณ</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">วางนิ้วมือด้านขวาบนเซนเซอร์อ่านลายนิ้วมือที่ด้านหน้าเครื่องของคุณ</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
     <string name="aex_about_info">เกี่ยวกับเรา</string>
     <string name="aex_about_summary">แนะนำเราและทีมงาน</string>
@@ -39,7 +42,11 @@
     <string name="help_translate">แปลภาษา</string>
     <string name="help_translate_description">แปลภาษาของคุณ โปรดเยี่ยมชม Crowdin ของเรา</string>
     <string name="walls">ภาพพื้นหลัง</string>
+    <string name="walls_description">เลือกภาพหน้าจอจากผู้ให้บริการ</string>
     <string name="leads">เป้าหมายของทีม</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">เจ้าของ / ผู้พัฒนาซอฟต์แวร์</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">ผู้พัฒนา</string>
     <string name="team_3">Amol Amrit</string>
     <string name="team3_description">ผู้ดูแลและผู้พัฒนาสมัครเล่น</string>
@@ -51,40 +58,183 @@
     <string name="designer_2">Savio &#40;Wizper99&#41;</string>
     <string name="designer2_description">โลโก้ QS/Fling </string>
     <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-    <string name="designer4_description">ส่วนขยายของ UI ไอคอน</string>
-    <string name="designer5_description">ส่วนขยายของ UI ไอคอน และนาฬิกา</string>
+    <string name="designer3_description">ภาพหน้าจอ,ภาพเคลื่อนใหวเริ่มต้น</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="designer4_description">ส่วนขยายของ UI,ไอคอน</string>
+    <string name="designer_5">Gaurav (allstargaurav)</string>
+    <string name="designer5_description">ส่วนขยายของUI,ไอคอนและรูปแบบของนาฬิกา</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Bootanimation ใหม่</string>
     <string name="maintainers">ผู้ดูแล</string>
+    <string name="maintainers_title">ผู้ดูแลอย่างเป็นทางการ</string>
+    <string name="maintainers_summary">อุปกรณ์ที่ใด้รับการรับรองอย่างเป็นทางการจากผู้ดูแล</string>
     <!-- Maintainer section -->
+    <string name="maintainer_description">ผู้ดูแล: %1$s</string>
+    <string name="loading_devices">กำลังโหลดรายการอุปกรณ์</string>
+    <string name="loading_devices_failed">ไม่สามารถโหลดรายการอุปกรณ์</string>
+    <string name="devices_list_empty">ไม่มีรายการ,แตะเพื่อโหลดอีกครั้ง</string>
+    <string name="reload_list">โหลดใหม่</string>
     <!-- Changelog -->
+    <string name="changelog_title">บันทึกการเปลี่ยนแปลง</string>
+    <string name="changelog_summary">การเปลี่ยนแปลงล่าสุด</string>
+    <string name="changelog_loading">กำลังโหลดบันทึกการเปลี่ยนแปลง\u2026</string>
+    <string name="changelog_error">ไม่สามารถโหลดเนื้อหา</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">สลับแป้นพิมพ์</string>
+    <string name="unlock_scramble_pin_layout_summary">สลับแป้นพิมม์เมื่อปลดล็อคอุปกรณ์</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">ปลดล็อคแบบรวดเร็ว</string>
+    <string name="unlock_quick_unlock_control_summary">ปลดล็อกอัตโนมัติเมื่อป้อน PIN / รหัสผ่าน ที่ถูกต้อง</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">ปลุกหน้าจอขณะชาร์จ</string>
+    <string name="wakeup_when_plugged_unplugged_summary">ปลุกอุปกรณ์เมื่อเสียบหรือถอดสายชาร์จ</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">สั่นเมื่อเริ่มชาร์จ</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">เสียงการจับภาพหน้าจอ</string>
+    <string name="dashboard_conditions_title">ตัวเลือกแผงควบคุม</string>
+    <string name="summary_dashboard_conditions_enabled">แผงควบคุมทำงาน</string>
+    <string name="summary_dashboard_conditions_disabled">แผงควบคุมไม่ทำงาน</string>
+    <string name="dashboard_suggestions_title">คำแนะนำของแผงควบคุม</string>
+    <string name="summary_dashboard_suggestions_enabled">เปิดใช้งานคำแนะนำของแผงควบคุม</string>
+    <string name="summary_dashboard_suggestions_disabled">ปิดใช้งานคำแนะนำของแผงควบคุม</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">แสดงข้อมูลของ CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">การวางซ้อนหน้าจอที่แสดงการใช้ CPU ในปัจจุบัน</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">การแจ้งเตือนของ ADB</string>
+    <string name="adb_notify_summary">แสดงการแจ้งเตือนเมื่อการแก้ไขข้อบกพร่องผ่าน USB เปิดอยู่</string>
     <!-- Dashboard Category -->
+    <string name="dashboard_category">ตัวเลือกแผงควบคุม</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">ป้องกันการเปิดหน้าจอโดยไม่เจตนา</string>
+    <string name="proximity_wake_summary">ตรวจสอบเซนเซอร์ proximity ก่อนที่จะเปิดหน้าจอ</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">แตะปุ่มโฮมเพื่อเปิดหน้าจอ</string>
+    <string name="home_wake_button_summary">เปิดใช้งานปุ่มหลักเพื่อเปิดหน้าจอ</string>
     <!-- Themes -->
+    <string name="theme_category_title">รูปแบบของระบบ</string>
+    <string name="system_theme_style_title">รูปแบบ UI</string>
+    <string name="system_theme_style_auto">ภาพหน้าจอหลัก</string>
+    <string name="system_theme_style_dark">Dark UI</string>
+    <string name="system_theme_style_black">Black UI</string>
+    <string name="system_theme_style_extended">Extended UI</string>
+    <string name="system_theme_style_chocolate">Chocolate UI</string>
+    <string name="theme_applied_toast">ใช้งานรูปแบบแล้ว</string>
+    <string name="applying_theme_toast">ใช้งานรูปแบบ กรุณารอ</string>
+    <string name="substratum_installed_title">รูปแบบของระบบไม่สามารถทำงานใด้เพราะ Substratum overlay ติดตั้งอยู่ ให้ถอนการติดตั้งทั้งหมดระบบจึงจะดำเนินการต่อใด้</string>
+    <string name="force_allow_system_themes_title">อณุญาติให้รูปแบบของระบบทำงานควบคู่ไปกับ substratum</string>
+    <string name="force_theme_warning_title">คำเตือน</string>
+    <string name="force_theme_warning_message">รูปแบบของระบบและsubstratum อาจทำงานขัดแย้งกัน
+หวังว่าคุณจะรู้ว่ากำลังทำอะไรอยู่</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">รีเซ็ตค่าสถิติ</string>
+    <string name="battery_stats_message">ประวัติการใช้แบตเตอรี่จะถูกตั้งค่าใหม่</string>
+    <string name="ok_string">ตกลง</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">อัพเดต AEX</string>
+    <string name="aex_ota_summary">รับรุ่นล่าสุด</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">สีของไฟ:</string>
+    <string name="custom_light_on_time_title">ระยะเวลาที่เปิดไฟ(วินาที)</string>
+    <string name="custom_light_off_time_title">ระยะเวลาที่ปิดไฟ(วินาที)</string>
+    <string name="show_light_on_zen_title">ไฟกระพริบในโหมดห้ามรบกวน</string>
     <!-- Density category -->
+    <string name="density_category">ตัวเลือกความหนาแน่น</string>
     <!-- Selinux -->
+    <string name="selinux_status">สถานะ SELinux</string>
+    <string name="selinux_status_disabled">ปิด​ใช้​งาน</string>
+    <string name="selinux_status_permissive">การอนุญาต</string>
+    <string name="selinux_status_enforcing">การบังคับใช้</string>
     <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="แสดงชื่อ">%1$s</xliff:g> เป็น <xliff:g id="สถานะ" ตัวอย่าง="ปิดใช้งาน">%2$s</xliff:g></string>
+    <string name="sim_disabled">ปิด​ใช้​งาน</string>
+    <string name="sim_missing">สูญหายหรือชำรุด</string>
+    <string name="sim_enabler_need_disable_sim">ซิมการ์ดจะถูกปิดใช้งาน คุณต้องการทำต่อหรือไม่</string>
+    <string name="sim_enabler_will_disable_sim_title">ข้อควรระวัง</string>
+    <string name="sim_enabler_need_switch_data_service">ซิมการ์ดนี้จะถูกปิดใช้งานและซิม <xliff:g id="slotid">%1$s</xliff:g>จะถูกใช้สำหรับข้อมูลแทน คุณแน่ใจที่จะทำต่อหรือไม่</string>
+    <string name="sim_enabler_airplane_on">ไม่สามารถดำเนินการในขณะที่เปิดโหมดเครื่องบิน</string>
+    <string name="sim_enabler_in_call">ไม่สามารถดำเนินการนี้ได้ในขณะใช้สายอยู่</string>
+    <string name="sim_enabler_both_inactive">ไม่สามารถปิดการใช้งานทุกซิมการ์ดได้</string>
+    <string name="sim_enabler_enabling">กำลังเปิดการใช้งาน\u2026</string>
+    <string name="sim_enabler_disabling">กำลังปิดการใช้งาน\u2026</string>
+    <string name="sub_activate_success">เปิดใช้งานซิมแล้ว</string>
+    <string name="sub_activate_failed">เปิดใช้งานล้มเหลว</string>
+    <string name="sub_deactivate_success">ปิดการใช้งานซิมการ์ดแล้ว</string>
+    <string name="sub_deactivate_failed">การปิดการลงทะเบียนไม่สำเร็จ</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">เลือกการวาดรูปแบบ</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">แสดงการวาดที่ผิดพลาด</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">แสดงจุดรูปแบบ</string>
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">สั่น</string>
+    <string name="lockscreen_vibrate_enabled_head">สั่นเมื่อปลดล็อก</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">ปลดล็อกหน้าจอโดยตรง</string>
+    <string name="directly_show_lock_summary">ข้ามการสไลด์หน้าจอเพื่อปลดล็อคและเริ่มการใส่รหัสทันที</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">ข้อมูลมือถือ</string>
+    <string name="data_usage_app_restrict_data_summary">เปิดการใช้งานข้อมูลมือถือ</string>
+    <string name="data_usage_app_restrict_wifi">ใช้งานWiFi\u2011</string>
+    <string name="data_usage_app_restrict_wifi_summary">เปิดการใช้ข้อมูลด้วย WiFi\u2011</string>
+    <string name="full_gesture_mode_title">เปิดใช้งานโหมดท่าทางเต็มรูปแบบ</string>
+    <string name="full_gesture_mode_summary">โหมดนี้จะปิดใช้งานปุ่มย้อนกลับ  คุณสามารถใช้ปุ่มย้อนกลับโดยรูดแถบนำทางไปด้านซ้าย ถ้ารูดแถบนำทางไปด้านขวาเป็นการเรียกใช้แอปล่าสุด เลือกแอปที่ต้องการโดยรูดนิ้วไป-มา และกลับสู่หน้าหลักใด้โดยการแตะบริเวณแถบนำทางทั้งหมด เมื่อแสดงแป้นพิมพ์แตะค้างบนแถบนำทางเพื่อย้ายเคอร์เซอร์ข้อความ</string>
+    <string name="full_gesture_mode_dt2s_title">เปิดใช้งานการแตะสองครั้งเพื่อเข้าโหมดปิดหน้าจอ</string>
+    <string name="full_gesture_mode_dt2s_summary">แตะพื้นที่ว่างบนแถบนำทางเพื่อปิดหน้าจอ</string>
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">รูปแบบเต็มหน้าจอ</string>
+    <string name="expanded_hide_nothing">ไม่ซ่อนเลย</string>
+    <string name="expanded_hide_status">ซ่อนแถบสถานะ</string>
+    <string name="expanded_hide_navigation">ซ่อนแถบนำทาง</string>
+    <string name="expanded_hide_both">ซ่อนทั้งคู่</string>
+    <string name="expanded_nothing_to_show">เพิ่มแอปที่จะแสดงองค์ประกอบเพิ่มเติม เลือกใช้งานทั้งหมดเพื่อปิด</string>
+    <string name="expanded_desktop_state">การขยาย</string>
+    <string name="expanded_enabled_for_all">ใช้งานทั้งหมด</string>
+    <string name="expanded_user_configurable">กำหนดโดยผู้ใช้</string>
+    <string name="expanded_desktop_style">รูปแบบเต็มหน้าจอ</string>
+    <string name="expanded_desktop_style_description">เลือกรูปแบบเต็มหน้าจอเป็นค่าค่าเริ่มต้น</string>
+    <string name="expanded_desktop_title">ตัวเลือกการขยายหน้าจอ</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">หมุนหน้าจอ</string>
+    <string name="display_rotation_disabled">ปิด​ใช้​งาน</string>
+    <string name="display_rotation_unit">องศา</string>
+    <string name="display_rotation_category_title">รูปแบบการหมุน</string>
+    <string name="display_rotation_0_title">0 องศา</string>
+    <string name="display_rotation_90_title">90 องศา</string>
+    <string name="display_rotation_180_title">180 องศา</string>
+    <string name="display_rotation_270_title">270 องศา</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">ต้ดเสียงเมื่อไม่มีสื่อ</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">เปิดใช้การต้ดเสียงเมื่อไม่มีสื่อ</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">กวาดนิ้วที่เซนร์เซอร์ลายนิ้วมือไปทางซ้ายหรือขวาเพื่อปิดการแจ้งเตือน</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">หากต้องการยกเลิกการแจ้งเตือนให้กวาดนิ้วไปทางซ้ายหรือขวาบนเซ็นเซอร์ลายนิ้วมือ</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">เสียงเรียกเข้า-ซิม1</string>
+    <string name="ringtone2_title">เสียงเรียกเข้า-ซิม2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">ลดความสว่างแสงตอนกลางคืน</string>
+    <string name="night_auto_value_disabled">ปิด​ใช้​งาน</string>
+    <string name="night_auto_value_min">ความสว่างต่ำสุด</string>
+    <string name="night_bright_low">ความสว่างต่ำ</string>
+    <string name="night_bright_midlow">ความสว่างปานกลาง</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">รูปแบบแผงตั้งค่าด่วน</string>
+    <string name="qs_tile_style_default">ค่าเริ่มต้น</string>
+    <string name="qs_tile_style_square">สี่เหลี่ยม</string>
+    <string name="qs_tile_style_rounded_square">ทรงกลม</string>
+    <string name="qs_tile_style_squircle">สี่เหลี่ยมขอบมน</string>
+    <string name="qs_tile_style_tear_drop">หยดน้ำ</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

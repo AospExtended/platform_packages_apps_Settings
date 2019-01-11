@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">Розширена версія</string>
+    <string name="extended_version">Версія Extended</string>
     <string name="extended_version_default">Невідомо</string>
     <string name="keywords_extended_version">Версія АЕХ, версія Extended</string>
     <!-- About phone screen, build date -->
@@ -64,6 +64,8 @@
     <string name="designer4_description">Інтерфейс доповнень, Іконки</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Розширення інтерфейсу, значки та стилі годинника</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Нова анімація завантаження</string>
     <string name="maintainers">Супроводжуючі</string>
     <string name="maintainers_title">Офіційні супроводжуючі</string>
     <string name="maintainers_summary">Офіційно підтримувані пристрої та їх розробники.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Увімкнути використання мобільного інтернету</string>
     <string name="data_usage_app_restrict_wifi">Передача даних по Wi-Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання Wi\u2011Fi даних</string>
+    <string name="full_gesture_mode_title">Увімкнути повний режим жестів</string>
+    <string name="full_gesture_mode_summary">Цей режим вимикає кнопку «Назад» і ви зможете назначити дію кнопки «Назад» за допомогою свайпу вліво на панелі навігації. Свайп вправо, як і раніше, викликає останній додаток і огляд нещодавніх додатків. Щоб повернутися на домашній екран, ви можете натиснути на будь-яке пусте місце панелі навігації, а не тільки кнопку «Додому». Коли клавіатура активна, то утримуйте натискання на панелі навігації для того, щоб перемістити курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Ввімкнути подвійне натискання для сну</string>
+    <string name="full_gesture_mode_dt2s_summary">Натисніть на пусте місце в панелі навігації (але не на кнопку додому) для вимкнення екрану.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Розширений робочий стіл</string>
     <string name="expanded_hide_nothing">Нічого не ховати</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Заокруглений квадрат</string>
     <string name="qs_tile_style_squircle">Округлий квадрат</string>
     <string name="qs_tile_style_tear_drop">Сльоза</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

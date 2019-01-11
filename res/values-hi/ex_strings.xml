@@ -14,41 +14,230 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
+    <string name="extended_version">विस्तारित वर्ज़न</string>
+    <string name="extended_version_default">अज्ञात</string>
+    <string name="keywords_extended_version">aex वर्ज़न, विस्तारित वर्ज़न</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">बिल्ड दिनांक</string>
+    <string name="build_date_default">२०१५-०१-०१-००००</string>
+    <string name="keywords_build_date">बिल्ड दिनांक, बिल्ड की जानकारी</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">फ़ोन के सामने की ओर फिंगरप्रिंट सेंसर खोजें</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">फ़ोन के बाईं ओर फिंगरप्रिंट सेंसर खोजें</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">फ़ोन के दाईं ओर फिंगरप्रिंट सेंसर खोजें</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">हमारे बारे में</string>
+    <string name="aex_about_summary">हमारा परिचय और हमारी टीम</string>
+    <string name="aex_about_info_summary">AospExtended एक AOSP आधारित ROM है जो सब्स्ट्रैटम थीम इंजन तथा विभिन्न कस्टमाइज़ेशन सुविधाओं के साथ स्टॉक UI/UX प्रदान करता है। अन्य प्रोजेक्ट्स के बेहतरीन फीचर्स को चुन कर इस प्रोजेक्ट को बनाया गया है। AOSP पर आधारित होने के नाते यह शानदार और तेज अनुभव प्रदान करता है। हम लगातार और अधिक सुविधाओं को जोड़ने तथा भविष्य में इसको और भी बेहतर बनाने की कोशिश करते रहेंगे। &#35;BeExtended</string>
+    <string name="dev_info">AospExtended के बारे में</string>
+    <string name="github">Github</string>
+    <string name="github_description">हमारा स्रोत कोड देखें</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">हमारे G+ समुदाय में शामिल हों</string>
+    <string name="telegram">टेलीग्राम</string>
+    <string name="telegram_description">हमारे टेलीग्राम चैनल की सदस्यता लें</string>
+    <string name="web">डाउनलोड केंद्र</string>
+    <string name="web_description">हमारे डाउनलोड पोर्टल पर जाएँ</string>
+    <string name="help_translate">अनुवाद</string>
+    <string name="help_translate_description">अपनी भाषा में अनुवाद करें, हमारे Crowdin पर जाएं</string>
+    <string name="walls">वॉलपेपर</string>
+    <string name="walls_description">विभिन्न उपयोगकर्ताओं द्वारा प्रदत्त वॉलपेपर प्राप्त करें</string>
+    <string name="leads">टीम नेतृत्व</string>
+    <string name="team_1">शुभम सिंह &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">स्वामी/लीड डेवलपर</string>
+    <string name="team_2">अमन कुमार &#40;FireLord&#41;</string>
+    <string name="team2_description">डेवलपर</string>
+    <string name="team_3">अमोल अमृत</string>
+    <string name="team3_description">मॉडरेटर और एक शौकिया डेवलपर</string>
+    <string name="team_4">हेनरीक सिल्वा &#40;jhenrique09&#41;</string>
+    <string name="team4_description">डेवलपर</string>
+    <string name="designers">डिजाइनर</string>
+    <string name="designer_1">यासन &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">थ्रेड बैनर, लोगो, वॉलपेपर</string>
+    <string name="designer_2">सेवियो &#40;Wizper99&#41;</string>
+    <string name="designer2_description">QS/फ़्लिंग लोगो</string>
+    <string name="designer_3">जीसस आर &#40;KrapK&#41;</string>
+    <string name="designer3_description">वॉलपेपर, बूट एनीमेशन</string>
+    <string name="designer_4">हर्ष वी२३</string>
+    <string name="designer4_description">एक्सटेंशन UI, आइकन्स</string>
+    <string name="designer_5">गौरव (allstargaurav)</string>
+    <string name="designer5_description">एक्सटेंशन UI, आइकन्स और घड़ी शैलियां</string>
+    <string name="designer_6">एडुआर्डो ज़ुल्लो (Mithrandirx96)</string>
+    <string name="designer6_description">नया बूट एनीमेशन</string>
+    <string name="maintainers">मेंटेनर</string>
+    <string name="maintainers_title">आधिकारिक मेंटेनर</string>
+    <string name="maintainers_summary">आधिकारिक रूप से समर्थित डिवाइस और उनके मेंटेनर</string>
     <!-- Maintainer section -->
+    <string name="maintainer_description">मेंटेनर: %1$s</string>
+    <string name="loading_devices">डिवाइस सूची लोड हो रही है...</string>
+    <string name="loading_devices_failed">डिवाइस सूची लोड करने में विफल</string>
+    <string name="devices_list_empty">सूची खाली है, पुनः लोड करने के लिए आइकॉन पर टैप करें</string>
+    <string name="reload_list">रीलोड करें</string>
     <!-- Changelog -->
+    <string name="changelog_title">बदलाव विवरण</string>
+    <string name="changelog_summary">हाल में हुए बदलाव</string>
+    <string name="changelog_loading">बदलाव विवरण लोड हो रहा है\u2026</string>
+    <string name="changelog_error">बदलाव विवरण लोड करने में असमर्थ</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">लेआउट ऊबड़-खाबड़ करें</string>
+    <string name="unlock_scramble_pin_layout_summary">उपकरण को अनलॉक करते समय पिन लेआउट को ऊबड़-खाबड़ कर दें</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">त्वरित अनलॉक</string>
+    <string name="unlock_quick_unlock_control_summary">सही पिन/पासवर्ड दर्ज करने पर स्वतः खोले</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">चार्जिंग होने पर जागना</string>
+    <string name="wakeup_when_plugged_unplugged_summary">चार्जर प्लग/अनप्लग होने पर डिवाइस को जगाएं</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">चार्जिंग कंपन</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">स्क्रीनशॉट ध्वनि</string>
+    <string name="dashboard_conditions_title">डैशबोर्ड परिस्तिथियाँ</string>
+    <string name="summary_dashboard_conditions_enabled">डैशबोर्ड परिस्तिथियाँ सक्रिय हैं</string>
+    <string name="summary_dashboard_conditions_disabled">डैशबोर्ड परिस्तिथियाँ निष्क्रिय हैं</string>
+    <string name="dashboard_suggestions_title">डैशबोर्ड सुझाव</string>
+    <string name="summary_dashboard_suggestions_enabled">डैशबोर्ड सुझाव सक्रिय हैं</string>
+    <string name="summary_dashboard_suggestions_disabled">डैशबोर्ड सुझाव निष्क्रिय हैं</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">CPU की जानकारी दिखाएं</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">वर्तमान CPU जानकारी स्क्रीन के ऊपर दिखाएँ</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB अधिसूचना</string>
+    <string name="adb_notify_summary">एंड्राइड डिबगिंग सक्रिय होने पर सूचना प्रदर्शित करें</string>
     <!-- Dashboard Category -->
+    <string name="dashboard_category">डैशबोर्ड विकल्प</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">ग़लती से जगाए जाने को रोकें</string>
+    <string name="proximity_wake_summary">स्क्रीन जगाने से पहले निकटता सेंसर की जांच करें</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">होम बटन के द्वारा जागना</string>
+    <string name="home_wake_button_summary">स्क्रीन जगाने के लिए होम बटन सक्रिय करें</string>
     <!-- Themes -->
+    <string name="theme_category_title">सिस्टम थीम</string>
+    <string name="system_theme_style_title">UI शैली</string>
+    <string name="system_theme_style_auto">वॉलपेपर आधारित</string>
+    <string name="system_theme_style_light">लाइट UI</string>
+    <string name="system_theme_style_dark">डार्क UI</string>
+    <string name="system_theme_style_black">काला UI</string>
+    <string name="system_theme_style_extended">विस्तारित UI</string>
+    <string name="system_theme_style_chocolate">चॉकलेट UI</string>
+    <string name="theme_applied_toast">थीम लागू कर दी गई है</string>
+    <string name="applying_theme_toast">थीम लागू हो रही है, कृपया प्रतीक्षा करें...</string>
+    <string name="substratum_installed_title">सिस्टम थीम्स उपलब्ध नहीं हैं क्योंकि एक सब्स्ट्रैटम ओवरले इंस्टॉल्ड है। पहले एंड्रॉयड सिस्टम पर लगाए सभी ओवरले को हटाएं।</string>
+    <string name="force_allow_system_themes_title">सब्स्ट्रैटम के साथ सिस्टम थीम और फोंट की अनुमति दें</string>
+    <string name="force_allow_system_themes_summary">यह आपको सब्स्ट्रैटम के बजाय निम्न थीम्स तथा फोंट्स के प्रयोग की अनुमति देता है।</string>
+    <string name="force_theme_warning_title">चेतावनी!</string>
+    <string name="force_theme_warning_message">यह सब्स्ट्रैटम थीम्स तथा सिस्टम थीम्स के बीच गड़बड़ी पैदा कर सकता है। हमें उम्मीद है आप जानते हैं कि आप क्या कर रहे हैं। #बाद-में-हम-पर-आरोप-न-लगाएं :D</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">आँकड़े रीसेट करें</string>
+    <string name="battery_stats_message">बैटरी के पुराने आंकड़े रीसेट किये जाने वाले हैं</string>
+    <string name="ok_string">ठीक है</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">AEX अपडेट</string>
+    <string name="aex_ota_summary">नवीनतम बिल्ड प्राप्त करें</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">हल्का रंग</string>
+    <string name="custom_light_on_time_title">LED स्पन्द के दौरान प्रकाश ऑन होने कि अवधि (मिलीसेकंड)</string>
+    <string name="custom_light_off_time_title">LED स्पन्द के दौरान प्रकाश बंद होने कि अवधि (मिलीसेकंड)\"</string>
+    <string name="value_equals_default">def</string>
+    <string name="show_light_on_zen_title">डू नॉट डिस्टर्ब के दौरान ब्लिंक करें</string>
     <!-- Density category -->
+    <string name="density_category">घनत्व विकल्प</string>
     <!-- Selinux -->
+    <string name="selinux_status">SELinux स्टेटस</string>
+    <string name="selinux_status_disabled">निष्क्रिय</string>
+    <string name="selinux_status_permissive">अनुमोदक</string>
+    <string name="selinux_status_enforcing">लागू किया जा रहा है</string>
     <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>है<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">निष्क्रिय</string>
+    <string name="sim_missing">अनुपस्थित या दोषपूर्ण</string>
+    <string name="sim_enabler_need_disable_sim">सिम कार्ड निष्क्रिय हो जाएगा। क्या आप जारी रखना चाहते हैं?</string>
+    <string name="sim_enabler_will_disable_sim_title">ध्यान दें</string>
+    <string name="sim_enabler_need_switch_data_service">यह सिम डिसेबल हो जाएगा और सिम <xliff:g id="slotid">%1$s</xliff:g> डेटा सेवाओं के लिए उपयोग किया जाएगा। क्या आप निश्चयपूर्वक जारी रखना चाहते हैं?</string>
+    <string name="sim_enabler_airplane_on">हवाई जहाज मोड चालू होने के दौरान कार्रवाई करने में असमर्थ।</string>
+    <string name="sim_enabler_in_call">कॉल चालू होने के कारण यह कार्य करने में असमर्थ।</string>
+    <string name="sim_enabler_both_inactive">सारे सिम एक साथ निष्क्रिय नहीं हो सकते</string>
+    <string name="sim_enabler_enabling">सक्रिय हो रहा है\u2026</string>
+    <string name="sim_enabler_disabling">निष्क्रिय हो रहा है\u2026</string>
+    <string name="sub_activate_success">सिम सक्रिय</string>
+    <string name="sub_activate_failed">एक्टिवेशन विफल।</string>
+    <string name="sub_deactivate_success">सिम निष्क्रिय।</string>
+    <string name="sub_deactivate_failed">निष्क्रिय करना विफल रहा</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">पैटर्न का आकार चुने</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">पैटर्न त्रुटि दिखाएँ</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">पैटर्न बिंदु दिखाएँ</string>
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">कंपन</string>
+    <string name="lockscreen_vibrate_enabled_head">अनलॉक करने पर वाइब्रेट करे</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">डायरेक्ट अनलॉक</string>
+    <string name="directly_show_lock_summary">स्क्रीन अनलॉक करने के लिए स्वाइप के बजाय सीधे कुंजी प्रिविष्टि शुरू करें</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">सेल्युलर डाटा</string>
+    <string name="data_usage_app_restrict_data_summary">सेल्युलर डेटा के उपयोग को सक्रिय करें</string>
+    <string name="data_usage_app_restrict_wifi">वाई\u2011फाई डाटा</string>
+    <string name="data_usage_app_restrict_wifi_summary">वाई\u2011फाई डेटा के उपयोग को सक्रिय करें</string>
+    <string name="full_gesture_mode_title">पूर्ण जेस्चर मोड सक्रिय करें</string>
+    <string name="full_gesture_mode_summary">यह मोड \'वापस जाएं\' बटन को निष्क्रिय कर देगा। आप नेविगेशन बार पर बाएं स्वाइप करके वापस जा सकते हैं। बाएं स्वाइप के जरिये आप अभी भी पिछले-एप पर जा सकते हैं तथा ऐप्स ओवरव्यू में स्क्रॉल कर सकते हैं। होम स्क्रीन पर जाने के लिए सिर्फ होम बटन ही नहीं बल्कि नेविगेशन बार पर खाली जगह में टैप भी कर सकते हैं। जब कीबोर्ड दिख रहा हो तो नेविगेशन बार पर देर तक दबा कर रखने से कर्सर को खिसका सकते हैं।</string>
+    <string name="full_gesture_mode_dt2s_title">सोने के लिए डबल-टैप सक्षम करें</string>
+    <string name="full_gesture_mode_dt2s_summary">स्क्रीन बंद करने के लिए नेविगेशन बार में होम बटन के आलावा खाली जगह पर टैप करें।</string>
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">विस्तारित डेस्कटॉप</string>
+    <string name="expanded_hide_nothing">कुछ नहीं छुपाएं</string>
+    <string name="expanded_hide_status">स्टेटस बार छुपाएँ</string>
+    <string name="expanded_hide_navigation">नेविगेशन बार छुपाएँ</string>
+    <string name="expanded_hide_both">दोनों छुपाएँ</string>
+    <string name="expanded_nothing_to_show">विस्तृत स्थिति में कस्टम प्रति-ऐप कॉन्फ़िगरेशन को लागू करने के लिए, \"सभी के लिए सक्षम\" को बंद कर दें</string>
+    <string name="expanded_desktop_state">विस्तारित स्थिति</string>
+    <string name="expanded_enabled_for_all">सभी के लिए सक्षम</string>
+    <string name="expanded_user_configurable">उपयोगकर्ता विन्यास योग्य</string>
+    <string name="expanded_desktop_style">विस्तारित डेस्कटॉप शैली</string>
+    <string name="expanded_desktop_style_description">एक डिफ़ॉल्ट विस्तारित डेस्कटॉप शैली चुनें</string>
+    <string name="expanded_desktop_title">विस्तारित डेस्कटॉप विकल्प</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">घुमाव</string>
+    <string name="display_rotation_disabled">निष्क्रिय</string>
+    <string name="display_rotation_unit">अंश</string>
+    <string name="display_rotation_category_title">घुमाव मोड</string>
+    <string name="display_rotation_0_title">० अंश</string>
+    <string name="display_rotation_90_title">९० अंश</string>
+    <string name="display_rotation_180_title">१८० अंश</string>
+    <string name="display_rotation_270_title">२७० अंश</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">मौन, कोई मीडिया नहीं</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">चालू (मौन, कोई मीडिया नहीं)</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">सूचनाओं को हटाने के लिए फिंगरप्रिंट पर दाएं या बाएं स्वाइप</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">सूचनाओं को ख़ारिज करने के लिए, अपने फ़ोन के पीछे फ़िंगरप्रिंट सेंसर पर बाएं या दाएं स्वाइप करें।</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">फोन रिंगटोन - सिम 1</string>
+    <string name="ringtone2_title">फोन रिंगटोन - सिम 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">नाइट लाइट पर रोशनी कम करें</string>
+    <string name="night_auto_value_disabled">निष्क्रिय</string>
+    <string name="night_auto_value_min">न्यूनतम चमक</string>
+    <string name="night_bright_low">कम चमक</string>
+    <string name="night_bright_midlow">धीमी रोशनी</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS टाइल शैली</string>
+    <string name="qs_tile_style_default">डिफॉल्ट</string>
+    <string name="qs_tile_style_square">वर्ग</string>
+    <string name="qs_tile_style_rounded_square">गोल कोने वाला वर्ग</string>
+    <string name="qs_tile_style_squircle">स्क्वेरकल</string>
+    <string name="qs_tile_style_tear_drop">टियर ड्रोप</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

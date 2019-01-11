@@ -64,6 +64,8 @@
     <string name="designer4_description">Plėtinių UI, piktogramos</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Plėtinių UI, piktogramos ir laikrodžio stilius</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Naujas animacijos parsisiuntimas</string>
     <string name="maintainers">Prižiūrėtojas</string>
     <string name="maintainers_title">Oficialūs prižiūrėtojai</string>
     <string name="maintainers_summary">Oficialiai palaikomi įrenginiai ir jų atitinkami prižiūrėtojai.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Įjungti mobiliojo ryšio duomenų naudojimą</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi duomenys</string>
     <string name="data_usage_app_restrict_wifi_summary">Įgalinti \"Wi \ u2011Fi\" duomenų naudojimą</string>
+    <string name="full_gesture_mode_title">Įgalinti visą gestų režimą</string>
+    <string name="full_gesture_mode_summary">Šiame režime išjungiamas atbulinės eigos mygtukas ir galite suaktyvinti atbulinės eigos mygtuką ant juostos. Dešiniuoju braukimu vis tiek paleidžiama paskutinė programa ir naujausių programų apžvalga. Jei norite eiti namo, galite spustelėti bet kurią juostos tuščią vietą, o ne tik pagrindinį mygtuką. Kai rodoma klaviatūra, ilgai paspaudus naršymo juostą teksto žymeklis bus perkeltas.</string>
+    <string name="full_gesture_mode_dt2s_title">Įjunkite dvigubą palietimą miegui</string>
+    <string name="full_gesture_mode_dt2s_summary">Bakstelėkite tuščią vietą, bet ne namų mygtuką, kad išjungtumėte ekraną.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Išplėstas darbalaukis</string>
     <string name="expanded_hide_nothing">Neslėpti</string>
@@ -225,4 +231,13 @@
     <string name="qs_tile_style_rounded_square">Suapvalintas kvadratas</string>
     <string name="qs_tile_style_squircle">Suapvalintas kvadratas</string>
     <string name="qs_tile_style_tear_drop">Ašaros kritimas</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

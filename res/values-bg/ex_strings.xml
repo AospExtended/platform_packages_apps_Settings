@@ -64,6 +64,8 @@
     <string name="designer4_description">Разширения, потребителски интерфейс, икони</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Разширения потребителски интерфейс, икони и стилове на часовника</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Нова Bootanimation</string>
     <string name="maintainers">Отговорници за поддръжа</string>
     <string name="maintainers_title">Официален отговорници</string>
     <string name="maintainers_summary">Списък на поддържаните устройства и техните официални отговорници.</string>
@@ -181,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Разреши използването на мобилни данни</string>
     <string name="data_usage_app_restrict_wifi">WiFi данни</string>
     <string name="data_usage_app_restrict_wifi_summary">Разреши използването на WiFi</string>
+    <string name="full_gesture_mode_title">Разреши използването на жестове</string>
+    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
+    <string name="full_gesture_mode_dt2s_title">Разреши двоен тап за заспиване</string>
+    <string name="full_gesture_mode_dt2s_summary">Натиснете върху празно пространство но не върху Home бутона за изключване на екрана.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Разширен екран</string>
     <string name="expanded_hide_nothing">Не скривай нищо</string>
@@ -210,6 +216,28 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Плъзнете пръст върху скенера за отпечатъци, наляво или надясно, за да изчистите известията</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Плъзнете пръст върху скенера за отпечатъци на гърба на телефона, наляво или надясно, за да изчистите известията.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Мелодия - СИМ 1</string>
+    <string name="ringtone2_title">Мелодия - СИМ 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Намалите яркостта, ако е включен режим нощна светлина</string>
+    <string name="night_auto_value_disabled">Деактивирано</string>
+    <string name="night_auto_value_min">Минимална яркост</string>
+    <string name="night_bright_low">Ниска яркост</string>
+    <string name="night_bright_midlow">Ниска яркост</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Текст на плочките в бързи настройки</string>
+    <string name="qs_tile_style_default">По подразбиране</string>
+    <string name="qs_tile_style_square">Квадрат</string>
+    <string name="qs_tile_style_rounded_square">Заоблен квадрат</string>
+    <string name="qs_tile_style_squircle">Комбинация от кръг и квадрат</string>
+    <string name="qs_tile_style_tear_drop">Сълза</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

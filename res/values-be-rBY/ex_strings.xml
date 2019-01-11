@@ -14,41 +14,230 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
+    <string name="extended_version">Версія Extended</string>
+    <string name="extended_version_default">Невядома</string>
+    <string name="keywords_extended_version">версія Аех, версія Extended</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">Дата зборкі</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">дата зборкі, інфармацыя пра зборку</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Знайдзіце сканер адбіткаў пальцаў на задняй паверхні тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Знайдзіце сканер адбіткаў пальцаў на левай паверхні тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Знайдзіце сканер адбіткаў пальцаў на правай паверхні тэлефона.</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">Пра нас</string>
+    <string name="aex_about_summary">Наша ўвядзенне і каманда</string>
+    <string name="aex_about_info_summary">AospExtended - гэта прашыўка на базе AOSP якая выкарыстоўвае стандартны інтэрфейс і налады, з мноствам дадатковых параметраў і тэмамі Substratum. Праект быў створаны пасля збору розных камітаў з іншых праектаў. База AOSP, з нашымі зменамі дае плыўнасць і інтэрфейс без глюкаў з скрынкі. Мы будзем пастаянна спрабаваць дадаць дадатковыя функцыі і зрабіць іх яшчэ лепш у будучых абнаўленнях. &#35;BeExtended</string>
+    <string name="dev_info">Аб AospExtended</string>
+    <string name="github">GitHub</string>
+    <string name="github_description">Паглядзіце наш зыходны код</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Далучайцеся да нашай супольнасці G+</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Падпісацца на наш канал Telegram</string>
+    <string name="web">Цэнтр спамповак</string>
+    <string name="web_description">Наведайце наш партал спамповак</string>
+    <string name="help_translate">Пераклад</string>
+    <string name="help_translate_description">Наведайце наш Crowdin для перакладу на вашу мову</string>
+    <string name="walls">Шпалеры</string>
+    <string name="walls_description">Спампаваць шпалеры ад розных карыстальнікаў</string>
+    <string name="leads">Распрацоўшчыкі</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Стваральнік/Галоўны распрацоўшчык</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Распрацоўшчык</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Мадэратар і распрацоўшчык-аматар</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Распрацоўшчык</string>
+    <string name="designers">Дызайнеры</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Банеры ў тэмах, лагатыпы, шпалеры</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">Лагатыпы хуткіх налад</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Шпалеры, анімацыі загрузкі</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="designer4_description">Інтэрфейс дапаўненняў, Цэтлікі</string>
+    <string name="designer_5">Gaurav (allstargaurav)</string>
+    <string name="designer5_description">Пашырэння карыстацкага інтэрфейсу, значкоў і гадзінніка</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Новая анімацыя загрузкі</string>
+    <string name="maintainers">Суправаджальнікі</string>
+    <string name="maintainers_title">Афіцыйны суправаджальны</string>
+    <string name="maintainers_summary">Афіцыйна падтрымліваемыя прылады і іх суправаджалыя.</string>
     <!-- Maintainer section -->
+    <string name="maintainer_description">Распрацоўшчык: %1$s</string>
+    <string name="loading_devices">Ладаванні спіса прылад...</string>
+    <string name="loading_devices_failed">Не ўдалося заладаваць спіс прылад</string>
+    <string name="devices_list_empty">Спіс пусты, націсніце на значок для абнаўлення</string>
+    <string name="reload_list">Абнавіць</string>
     <!-- Changelog -->
+    <string name="changelog_title">Спіс змен</string>
+    <string name="changelog_summary">Апошнія змены</string>
+    <string name="changelog_loading">Загрузка выявы\u2026</string>
+    <string name="changelog_error">Немагчыма загрузіць спіс змен</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Змешваць кнопкі</string>
+    <string name="unlock_scramble_pin_layout_summary">Перастаўляць кнопкі ўводу PIN-кода ў выпадковым парадку</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Хуткая разблакоўка</string>
+    <string name="unlock_quick_unlock_control_summary">Аўтаматычная разблакоўка пры ўводзе правільнага пароля або PIN-кода</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Абуджаць падчас зарадкі</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Падключэнне/адключэнне зараднай прылады абуджае тэлефон.</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">Вібрацыя падчас зарадкі</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Гук скрыншота</string>
+    <string name="dashboard_conditions_title">Дзеянні ў галоўным меню</string>
+    <string name="summary_dashboard_conditions_enabled">Апавяшчэнні ў галоўным меню ўключаны</string>
+    <string name="summary_dashboard_conditions_disabled">Апавяшчэнні ў галоўным меню выключаны</string>
+    <string name="dashboard_suggestions_title">Прапановы ў галоўным меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Прапановы меню налад уключаны</string>
+    <string name="summary_dashboard_suggestions_disabled">Прапановы меню налад выключаны</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Паказваць інфармацыю аб працэсары</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Адлюстроўваць на экране бягучую інфармацыю аб працэсары</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">Апавяшчэнне аб ўключэнні рэжыму адладкі</string>
+    <string name="adb_notify_summary">Паказваць паведамленьне аб тым, што задзейнічана наладка android</string>
     <!-- Dashboard Category -->
+    <string name="dashboard_category">Опцыі меню налад</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Прадухіляць выпадковае ўключэнне</string>
+    <string name="proximity_wake_summary">Правяраць датчык набліжэння перад уключэннем экрана</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">Абуджэнне кнопкай \"Дадому\"</string>
+    <string name="home_wake_button_summary">Дазволіць кнопцы \"Дадому\" уключэнне экрана</string>
     <!-- Themes -->
+    <string name="theme_category_title">Сістэмная тэма</string>
+    <string name="system_theme_style_title">Стыль інтэрфейсу</string>
+    <string name="system_theme_style_auto">На аснове шпалер</string>
+    <string name="system_theme_style_light">Светлы стыль</string>
+    <string name="system_theme_style_dark">Цёмны стыль</string>
+    <string name="system_theme_style_black">Чорны стыль</string>
+    <string name="system_theme_style_extended">Пашыраны карыстацкі інтэрфейс</string>
+    <string name="system_theme_style_chocolate">Шакалад</string>
+    <string name="theme_applied_toast">Тэма ўжыта.</string>
+    <string name="applying_theme_toast">Прымяненне тэмы, калі ласка, пачакайце...</string>
+    <string name="substratum_installed_title">Сістэмныя тэмы недаступныя, так як прысутнічаюць напластаванні Substratum. Калі ласка, выдаліце ​​ўсе напластаванні, якія выкарыстоўваюць маскіроўку праграм Android System, каб працягнуць.</string>
+    <string name="force_allow_system_themes_title">Дазволіць выкарыстоўваць сістэмныя тэмы і шрыфты разам з Substratum</string>
+    <string name="force_allow_system_themes_summary">Дазваляе выкарыстоўваць наступныя тэмы і шрыфты, нягледзячы на ​​ўсталяваны Substratum.</string>
+    <string name="force_theme_warning_title">Увага !</string>
+    <string name="force_theme_warning_message">Гэта можа прывесці да канфліктаў паміж тэмамі Substratum і сістэмнымі тэмамі. Мы спадзяемся, што вы ведаеце, што вы робіце. #НевініцеНасПотым :D</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Скід статыстыкі</string>
+    <string name="battery_stats_message">Статыстыка выкарыстання батарэі будзе скінутая</string>
+    <string name="ok_string">Ok</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">Абнаўленне AEX</string>
+    <string name="aex_ota_summary">Спампаваць апошнюю зборку</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">Светлы колер</string>
+    <string name="custom_light_on_time_title">Час уключанага LED (мс)</string>
+    <string name="custom_light_off_time_title">Час адключанага LED (мс)\"</string>
+    <string name="value_equals_default">па змаўчанні</string>
+    <string name="show_light_on_zen_title">Led падчас рэжыму Не Турбаваць</string>
     <!-- Density category -->
+    <string name="density_category">Параметры шчыльнасці</string>
     <!-- Selinux -->
+    <string name="selinux_status">Стан SELinux</string>
+    <string name="selinux_status_disabled">Адключана</string>
+    <string name="selinux_status_permissive">Дазвол</string>
+    <string name="selinux_status_enforcing">Забеспячэнне</string>
     <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> з\'яўляецца <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">адключана</string>
+    <string name="sim_missing">адсутнічае альбо няспраўна</string>
+    <string name="sim_enabler_need_disable_sim">SIM-картка будзе адключана. Жадаеце працягнуць?</string>
+    <string name="sim_enabler_will_disable_sim_title">Увага</string>
+    <string name="sim_enabler_need_switch_data_service">SIM картка будзе адключана і SIM <xliff:g id="slotid">%1$s</xliff:g> будзе выкарыстоўваць дадзеныя службаў. Упэўнены ў жаданні працягнуць?</string>
+    <string name="sim_enabler_airplane_on">Выкананне аперацыі немагчыма пры ўключаным рэжыме палёту.</string>
+    <string name="sim_enabler_in_call">Выкананне аперацыі немагчымае падчас тэлефанавання.</string>
+    <string name="sim_enabler_both_inactive">Немагчыма адключыць усе SIM-карты</string>
+    <string name="sim_enabler_enabling">Актывацыя\u2026</string>
+    <string name="sim_enabler_disabling">Дэактывацыя\u2026</string>
+    <string name="sub_activate_success">SIM актывавана.</string>
+    <string name="sub_activate_failed">Памылка падчас актывацыі.</string>
+    <string name="sub_deactivate_success">SIM дэактывавана.</string>
+    <string name="sub_deactivate_failed">Памылка падчас дэактывацыі.</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">Абяры памер графічнага ключа</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Паказваць няправільны ўвод</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Паказваць вузлы графічнага ключа</string>
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Вібрацыя</string>
+    <string name="lockscreen_vibrate_enabled_head">Вібраваць пры разблакоўцы</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Непасрэдная разблакіроўка</string>
+    <string name="directly_show_lock_summary">Прапускаць правядзенне пальцам уверх для разблакоўкі экрана і адразу ж пераходзіць да ўводу ключа</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Перадача дадзеных</string>
+    <string name="data_usage_app_restrict_data_summary">Уключыць выкарыстанне мабільных дадзеных</string>
+    <string name="data_usage_app_restrict_wifi">Дадзеныя Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Уключыць выкарыстанне дадзеных Wi-Fi</string>
+    <string name="full_gesture_mode_title">Уключыць рэжым жэстаў</string>
+    <string name="full_gesture_mode_summary">Гэты рэжым адключае кнопку «Назад» і вы можаце прызначыць дзеянне кнопкі «Назад» з дапамогай змахвання налева на панэлі навігацыі. Змахвання направа па-ранейшаму выклікае апошнюю праграму і агляд нядаўніх праграм. Каб вярнуцца на хатні экран, вы можаце націснуць на любое пустое месца панэлі навігацыі, а не толькі кнопку «Дадому». Калі клавіятура актыўная, то ўтрымліваеце націск на панэлі навігацыі для таго, каб перамясціць курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Выключаць экран падвойным дотыкам</string>
+    <string name="full_gesture_mode_dt2s_summary">Двойчы націсніце на пустым месцы панэлі навігацыі, але не на кнопцы «Дадому», каб выключыць экран.</string>
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Рэжым пашыранага экрана</string>
+    <string name="expanded_hide_nothing">Нічога не хаваць</string>
+    <string name="expanded_hide_status">Хаваць радок стану</string>
+    <string name="expanded_hide_navigation">Схаваць навігацыйны радок</string>
+    <string name="expanded_hide_both">Схаваць абедзве</string>
+    <string name="expanded_nothing_to_show">Для налады параметраў пашыранага экрана для асобных праграм адключыце параметр «Уключыць для ўсіх»</string>
+    <string name="expanded_desktop_state">Пашыраны экран</string>
+    <string name="expanded_enabled_for_all">Уключыць для ўсіх</string>
+    <string name="expanded_user_configurable">Наладжваецца карыстальнікам</string>
+    <string name="expanded_desktop_style">Рэжым пашыранага экрана</string>
+    <string name="expanded_desktop_style_description">Абраць рэжым пашыранага працоўнага стала па змаўчанні</string>
+    <string name="expanded_desktop_title">Налада рэжыму пашыранага экрана</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Паварот экрана</string>
+    <string name="display_rotation_disabled">Адключана</string>
+    <string name="display_rotation_unit">градусаў</string>
+    <string name="display_rotation_category_title">Рэжымы паварота экрана</string>
+    <string name="display_rotation_0_title">0 градусаў</string>
+    <string name="display_rotation_90_title">90 градусаў</string>
+    <string name="display_rotation_180_title">180 градусаў</string>
+    <string name="display_rotation_270_title">270 градусаў</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Адключэнне гуку, адсутнасць прайгравання мультымедыя</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Уключана (адключэнне гуку, адсутнасць прайгравання мультымедыя)</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Правядзіце пальцам па сканару адбітка пальца налева або направа, каб прыбраць апавяшчэнні</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Каб ачысціць вашыя апавяшчэнні, правядзіце пальцам налева або права па сканару адбітка пальца.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Мелодыя званка - SIM 1</string>
+    <string name="ringtone2_title">Мелодыя званка - SIM 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Зніжэнне яркасці пры выкарыстанні начнога рэжыму</string>
+    <string name="night_auto_value_disabled">Адключана</string>
+    <string name="night_auto_value_min">Мінімальная яркасць</string>
+    <string name="night_bright_low">Нізкая яркасць</string>
+    <string name="night_bright_midlow">Сярэдняя нізкая яркасць</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Стыль плітак хуткіх налад</string>
+    <string name="qs_tile_style_default">Па змаўчанні</string>
+    <string name="qs_tile_style_square">Квадрат</string>
+    <string name="qs_tile_style_rounded_square">Скруглены квадрат</string>
+    <string name="qs_tile_style_squircle">Круглявы квадрат</string>
+    <string name="qs_tile_style_tear_drop">Кропля</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

@@ -64,26 +64,78 @@
     <string name="designer4_description">Extensions graphiques, icones</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
     <string name="designer5_description">Extension pour l\'interface utilisateur, les icônes et le style des horloges</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Nouvelle animation de démarrage</string>
     <string name="maintainers">Mainteneurs</string>
     <string name="maintainers_title">Mainteneurs officiels</string>
     <string name="maintainers_summary">Appareils officiellement compatibles et leurs mainteneurs respectifs.</string>
     <!-- Maintainer section -->
     <string name="maintainer_description">Mainteneur : %1$s</string>
+    <string name="loading_devices">Chargement de la liste des appareils...</string>
+    <string name="loading_devices_failed">Échec du chargement de la liste des appareils</string>
+    <string name="devices_list_empty">La liste est vide, appuyez sur l\'icône pour recharger</string>
+    <string name="reload_list">Rafraîchir</string>
     <!-- Changelog -->
+    <string name="changelog_title">Journal des modifications</string>
+    <string name="changelog_summary">Modifications récentes</string>
+    <string name="changelog_loading">Chargement du journal des modifications\u2026</string>
+    <string name="changelog_error">Impossible de charger le journal des modifications</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les touches lors du déverrouillage</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le code PIN/mot de passe correct est entré</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Allumer lors de la mise en charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">L\'écran s\'allumera si le chargeur est branché ou débranché.</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrations de chargement</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Sons de capture d\'écran</string>
+    <string name="dashboard_conditions_title">Conditions du panneau de configuration</string>
+    <string name="summary_dashboard_conditions_enabled">Les conditions du panneau de configuration sont activées</string>
+    <string name="summary_dashboard_conditions_disabled">Les conditions du panneau de configuration sont désactivées</string>
+    <string name="dashboard_suggestions_title">Suggestions du panneau de configuration</string>
+    <string name="summary_dashboard_suggestions_enabled">Les suggestions du panneau de configuration sont activées</string>
+    <string name="summary_dashboard_suggestions_disabled">Les suggestions du panneau de configuration sont désactivées</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Afficher les infos CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Montrer les infos CPU en superposition d\'écran</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">Notifications ADB</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage est activé</string>
     <!-- Dashboard Category -->
+    <string name="dashboard_category">Options du panneau de configuration</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
+    <string name="proximity_wake_summary">Utilise le capteur de proximité pour allumer l\'écran</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">Réveil de l\'appareil par bouton Accueil</string>
+    <string name="home_wake_button_summary">Activez le bouton Accueil pour réveiller l’écran</string>
     <!-- Themes -->
+    <string name="theme_category_title">Thème du système</string>
+    <string name="system_theme_style_title">Style de l\'interface</string>
+    <string name="system_theme_style_auto">Basé sur le fond d\'écran</string>
+    <string name="system_theme_style_light">Interface claire</string>
+    <string name="system_theme_style_dark">Interface sombre</string>
+    <string name="system_theme_style_black">Interface noire</string>
+    <string name="system_theme_style_extended">Interface Extended</string>
+    <string name="system_theme_style_chocolate">Interface Chocolat</string>
+    <string name="theme_applied_toast">Thème appliqué.</string>
+    <string name="applying_theme_toast">Application du thème, veuillez patienter...</string>
+    <string name="substratum_installed_title">Les thèmes systèmes sont indisponibles car un overlay Substratum est installé. Merci de désinstaller tous les overlays touchant le système Android avant de réessayer.</string>
+    <string name="force_allow_system_themes_title">Permettre aux thèmes du système et aux polices de s\'appliquer en complément de substratum</string>
+    <string name="force_allow_system_themes_summary">Permettre au système d\'utiliser les thèmes et polices même si substratum est installé.</string>
+    <string name="force_theme_warning_title">Attention !</string>
+    <string name="force_theme_warning_message">Cela pourrait entraîner des conflits entre les thèmes de substratum et ceux du système. Nous espérons que vous savez les risques encourus. #DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Réinitialiser les statistiques</string>
+    <string name="battery_stats_message">Les statistiques de batterie vont être réinitialisées</string>
+    <string name="ok_string">Ok</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">Mises à jour d\'AEX</string>
     <string name="aex_ota_summary">Téléchargez la dernière version</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Couleur de la lumière</string>
@@ -131,6 +183,10 @@
     <string name="data_usage_app_restrict_data_summary">Activer l\'utilisation des données mobiles</string>
     <string name="data_usage_app_restrict_wifi">Données Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Activer l\'utilisation des données Wi\u2011Fi</string>
+    <string name="full_gesture_mode_title">Activer le mode geste complet</string>
+    <string name="full_gesture_mode_summary">Ce mode désactive le bouton \"Retour\" et vous pouvez déclencher l\'action du bouton \"Retour\" par un balayage à gauche sur la barre de navigation. Un balayage à droite active la dernière application et le défilement des applications en cours. Pour revenir à l’accueil, appuyer sur n’importe quel espace vide de la barre de navigation, pas seulement sur le bouton accueil. Lorsque le clavier est affiché, appuyez longuement sur la barre de navigation pour déplacer le curseur de texte.</string>
+    <string name="full_gesture_mode_dt2s_title">Activer le double appui pour allumer l\'écran</string>
+    <string name="full_gesture_mode_dt2s_summary">Appuyez sur un espace libre de la barre de navigation, mais pas sur le bouton accueil pour éteindre l’écran.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Bureau étendu</string>
     <string name="expanded_hide_nothing">Ne rien masquer</string>
@@ -141,10 +197,47 @@
     <string name="expanded_desktop_state">Mode étendu</string>
     <string name="expanded_enabled_for_all">Activé pour tout</string>
     <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
+    <string name="expanded_desktop_style">Style du bureau étendu</string>
+    <string name="expanded_desktop_style_description">Sélectionner le style par défaut du bureau étendu</string>
+    <string name="expanded_desktop_title">Options du bureau étendu</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Désactivé</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degré</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Muet, aucun média</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Activé (muet, aucun média)</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Balayer le capteur d\'empreinte à droite ou à gauche pour faire disparaître les notifications</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Pour faire disparaitre vos notifications, balayez vers la gauche ou la droite sur le capteur d\'empreintes digitales situé à l\'arrière de votre téléphone.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Sonnerie du téléphone - SIM 1</string>
+    <string name="ringtone2_title">Sonnerie du téléphone - SIM 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Définir le niveau de luminosité appliqué lorsque \"Éclairage nocturne\" est activé</string>
+    <string name="night_auto_value_disabled">Désactivé</string>
+    <string name="night_auto_value_min">Luminosité minimale</string>
+    <string name="night_bright_low">Luminosité faible</string>
+    <string name="night_bright_midlow">Luminosité mi faible</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Style des tuiles de réglages rapides</string>
+    <string name="qs_tile_style_default">Par défaut</string>
+    <string name="qs_tile_style_square">Carré</string>
+    <string name="qs_tile_style_rounded_square">Carré arrondi</string>
+    <string name="qs_tile_style_squircle">Squircle</string>
+    <string name="qs_tile_style_tear_drop">Larme</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>

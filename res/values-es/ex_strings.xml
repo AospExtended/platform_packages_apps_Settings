@@ -14,41 +14,230 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
+    <string name="extended_version">Versión extendida</string>
+    <string name="extended_version_default">Desconocido</string>
+    <string name="keywords_extended_version">versión aex, versión extendida</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">Fecha de creación</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">fecha de construcción, construir información</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huellas digitales a la izquierda del teléfono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huellas digitales a la derecha del teléfono.</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="nombre_del_paquete">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">Sobre nosotros</string>
+    <string name="aex_about_summary">Nuestra introducción y nuestro equipo</string>
+    <string name="aex_about_info_summary">AospExtended es una rom basada en AOSP que proporciona acciones UI / UX con varias características de personalización junto con el motor de tema Substratum. El proyecto se ha realizado seleccionando varios compromisos de otros proyectos. Al estar basado en AOSP, proporciona una experiencia sin problemas y sin demoras. Intentaremos constantemente agregar más funciones y hacerlo aún mejor en futuras actualizaciones.&#35;BeExtended</string>
+    <string name="dev_info">Acerca de AospExtended</string>
+    <string name="github">GitHub</string>
+    <string name="github_description">Ver nuestro código fuente</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Únete a nuestra comunidad de G+</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Suscríbete a nuestro canal de Telegram</string>
+    <string name="web">Centro de descargas</string>
+    <string name="web_description">Visita nuestro portal de descargas</string>
+    <string name="help_translate">Traducciones</string>
+    <string name="help_translate_description">Traduce a tu idioma, visita nuestro Crowdin</string>
+    <string name="walls">Fondos de pantalla</string>
+    <string name="walls_description">Consigue varios fondos de pantalla hechos por nuestros usuarios</string>
+    <string name="leads">Jefe de equipo</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Dueño/Desarrollador principal</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Desarrollador</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderador y Desarrollador Principiante</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Desarrollador</string>
+    <string name="designers">Diseñadores</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Banners, Logos, fondos de pantalla</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">Logo de Fling/QS</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Fondos de pantalla, Animaciones de arranque</string>
+    <string name="designer_4">Harsh v23</string>
+    <string name="designer4_description">Extensiones UI, Iconos</string>
+    <string name="designer_5">Gaurav (allstargaurav)</string>
+    <string name="designer5_description">Extensiones de interfaz de usuario, iconos y estilos del reloj</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Nueva animación de arranque</string>
+    <string name="maintainers">Mantenedores</string>
+    <string name="maintainers_title">Desarrolladores oficiales</string>
+    <string name="maintainers_summary">Dispositivos soportados oficialmente y sus encargados.</string>
     <!-- Maintainer section -->
+    <string name="maintainer_description">Encargado: %1$s</string>
+    <string name="loading_devices">Cargando lista de dispositivos...</string>
+    <string name="loading_devices_failed">Error al cargar la lista de dispositivos</string>
+    <string name="devices_list_empty">La lista está vacía, toque el icono para refrescar</string>
+    <string name="reload_list">Refrescar</string>
     <!-- Changelog -->
+    <string name="changelog_title">Registro de cambios</string>
+    <string name="changelog_summary">Cambios recientes</string>
+    <string name="changelog_loading">Cargando registro de cambios\u2026</string>
+    <string name="changelog_error">Imposible cargar el registro de cambios</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
+    <string name="unlock_scramble_pin_layout_summary">Cambiar la disposición de los números del PIN para desbloquear el dispositivo</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir correctamente el PIN o la contraseña</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Encender pantalla durante la carga</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Activar el dispositivo si se enchufa/desenchufa el cargador.</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibración al cargar</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
+    <string name="dashboard_conditions_title">Condiciones en el panel de ajustes</string>
+    <string name="summary_dashboard_conditions_enabled">Las condiciones en el panel de ajustes están habilitadas</string>
+    <string name="summary_dashboard_conditions_disabled">Las condiciones en el panel de ajustes están deshabilitadas</string>
+    <string name="dashboard_suggestions_title">Sugerencias del panel de ajustes</string>
+    <string name="summary_dashboard_suggestions_enabled">Panel de sugerencias habilitado</string>
+    <string name="summary_dashboard_suggestions_disabled">Sugerencias de panel desabilitadas</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Mostrar información de la CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Muestra la información actual de la CPU en la pantalla</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">Notificación de ADB</string>
+    <string name="adb_notify_summary">Mostrar una notificación cuando esté activada la depuración USB</string>
     <!-- Dashboard Category -->
+    <string name="dashboard_category">Opciones del panel de ajustes</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevenir encendido accidental</string>
+    <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">Despertar con botón Inicio</string>
+    <string name="home_wake_button_summary">Habilitar el botón de inicio para encender la pantalla</string>
     <!-- Themes -->
+    <string name="theme_category_title">Tema del sistema</string>
+    <string name="system_theme_style_title">Estilo de la Interfaz</string>
+    <string name="system_theme_style_auto">Basado en el Fondo de Pantalla</string>
+    <string name="system_theme_style_light">Interfaz de Usuario Clara</string>
+    <string name="system_theme_style_dark">Interfaz de Usuario Oscura</string>
+    <string name="system_theme_style_black">Interfaz de Usuario Negra</string>
+    <string name="system_theme_style_extended">Interfaz extendida</string>
+    <string name="system_theme_style_chocolate">Interfaz Chocolate</string>
+    <string name="theme_applied_toast">Tema aplicado.</string>
+    <string name="applying_theme_toast">Aplicando tema, por favor espere...</string>
+    <string name="substratum_installed_title">Temas del sistema no están disponibles porque una superposición de pantalla está instalada. Por favor desinstale todas las superposiciones dirigidas al Sistema Android para proceder.</string>
+    <string name="force_allow_system_themes_title">Permite temas del sistema y fuentes junto a sustratum</string>
+    <string name="force_allow_system_themes_summary">Te permite usar las siguientes opciones de temas y fuentes a pesar de tener instalados temas de substratum.</string>
+    <string name="force_theme_warning_title">Atención !</string>
+    <string name="force_theme_warning_message">Esto podría causar conflictos entre los temas de substratum y los temas del sistema. Esperamos que sepas en lo que te estás metiendo. #DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reiniciar estadísticas</string>
+    <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
+    <string name="ok_string">Aceptar</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">Actualizaciones AEX</string>
+    <string name="aex_ota_summary">Conseguir la última versión</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">Color del Led</string>
+    <string name="custom_light_on_time_title">Tiempo de encendido de la luz durante el pulso de led (ms)</string>
+    <string name="custom_light_off_time_title">Tiempo apagado durante el pulso LED (ms)</string>
+    <string name="value_equals_default">por_defecto</string>
+    <string name="show_light_on_zen_title">Usar Led durante No Molestar</string>
     <!-- Density category -->
+    <string name="density_category">Opciones de densidad</string>
     <!-- Selinux -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desactivado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio</string>
     <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> está <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">deshabilitado</string>
+    <string name="sim_missing">ausente o defectuosa</string>
+    <string name="sim_enabler_need_disable_sim">La tarjeta SIM se desactivará. ¿Quieres continuar?</string>
+    <string name="sim_enabler_will_disable_sim_title">Atención</string>
+    <string name="sim_enabler_need_switch_data_service">Esta tarjeta SIM será desactivada y <xliff:g id="slotid">%1$s </xliff:g> sera utilizada para servicios de datos. ¿Estás seguro que deseas continuar?</string>
+    <string name="sim_enabler_airplane_on">No se puede realizar la operación mientras esté activado el modo avión.</string>
+    <string name="sim_enabler_in_call">No se puede realizar la operación mientras haya una llamada en curso.</string>
+    <string name="sim_enabler_both_inactive">No es posible deshabilitar todas las tarjetas SIM</string>
+    <string name="sim_enabler_enabling">Activando\u2026</string>
+    <string name="sim_enabler_disabling">Desctivando\u2026</string>
+    <string name="sub_activate_success">SIM activada.</string>
+    <string name="sub_activate_failed">Activación fallida.</string>
+    <string name="sub_deactivate_success">SIM desactivada.</string>
+    <string name="sub_deactivate_failed">Desactivación fallida.</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">Elije un tamaño de patrón</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar error de patrón</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Mostrar puntos de patrón</string>
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibrar al desbloquear</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Desbloqueo directo</string>
+    <string name="directly_show_lock_summary">Omite el deslizamiento para desbloquear la pantalla e inicia inmediatamente la entrada del pin</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Datos móviles</string>
+    <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Habilitar el uso de datos Wi\u2011Fi</string>
+    <string name="full_gesture_mode_title">Activar modo de gesto completo</string>
+    <string name="full_gesture_mode_summary">Este modo desactivará también el botón de retroceder y serás capaz de realizar una acción de retroceso deslizando hacia la izquierda en la barra de navegación. Un deslizamiento hacia la derecha seguirá llevándote a la última aplicacion, y con un deslizamiento hacia la izquierda para moverte entre las apps. Para ir a inicio, simplemente toca en cualquier espacio vacío de la navbar, no sólo en el botón de inicio. Cuando el teclado se esté nostrando, mantenga presionada la barra de navegación para mover el cursor de texto.</string>
+    <string name="full_gesture_mode_dt2s_title">Activar doble toque para suspender</string>
+    <string name="full_gesture_mode_dt2s_summary">Tocar en un espacio vacío de la barra de la navegación para apagar la pantalla.</string>
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Escritorio extendido</string>
+    <string name="expanded_hide_nothing">No ocultar nada</string>
+    <string name="expanded_hide_status">Ocultar la barra de estado</string>
+    <string name="expanded_hide_navigation">Ocultar la barra de navegación</string>
+    <string name="expanded_hide_both">Ocultar ambas</string>
+    <string name="expanded_nothing_to_show">Para añadir una configuración por aplicación, deshabilita la opción \"Habilitado para todas\"</string>
+    <string name="expanded_desktop_state">Estado del escritorio expandido</string>
+    <string name="expanded_enabled_for_all">Habilitado para todos</string>
+    <string name="expanded_user_configurable">Configurable por el usuario</string>
+    <string name="expanded_desktop_style">Estilo del escritorio extendido</string>
+    <string name="expanded_desktop_style_description">Escoge un estilo de escritorio extendido</string>
+    <string name="expanded_desktop_title">Opciones del escritorio extendido</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotación</string>
+    <string name="display_rotation_disabled">Deshabilitado</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Silenciado, sin sonido multimedia</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Silenciado, sin sonido multimedia</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslice el dedo a la derecha o izquierda para borrar las notificaciones</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para borrar las notificaciones, deslice el dedo a la izquierda o derecha en el lector de huellas de su teléfono.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Tono de llamada - SIM 1</string>
+    <string name="ringtone2_title">Tono de llamada - SIM 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Brillo reducido si hay Luz Nocturna</string>
+    <string name="night_auto_value_disabled">Deshabilitado</string>
+    <string name="night_auto_value_min">Brillo mínimo</string>
+    <string name="night_bright_low">Brillo bajo</string>
+    <string name="night_bright_midlow">Brillo medio-bajo</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Estilo de ajustes rapidos</string>
+    <string name="qs_tile_style_default">Por defecto</string>
+    <string name="qs_tile_style_square">Cuadrado</string>
+    <string name="qs_tile_style_rounded_square">Cuadrado redondeado</string>
+    <string name="qs_tile_style_squircle">Esquinas redondeadas</string>
+    <string name="qs_tile_style_tear_drop">Gota de lagrima</string>
+    <!-- Increasing ring tone volume -->
+    <!-- Volume link notification -->
+    <!-- Font picker -->
+    <!-- Notification log -->
+    <!-- Running services -->
+    <!-- App Ops Categories -->
+    <!-- App ops labels -->
+    <!-- App ops detail -->
+    <!-- App ops menu options -->
 </resources>
