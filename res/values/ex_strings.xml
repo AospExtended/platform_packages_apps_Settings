@@ -416,4 +416,8 @@
     <string name="color_Vermilion_700">Red</string>
     <string name="color_Teal_700">Teal</string>
     <string name="color_Yellow_700">Yellow</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
 </resources>
