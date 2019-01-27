@@ -146,6 +146,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import org.aospextended.extensions.Extensions;
 import org.aospextended.extensions.fragments.HeadsUpSettings;
 import org.aospextended.extensions.fragments.SmartPixels;
+import org.aospextended.extensions.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -280,6 +281,7 @@ public class SettingsGateway {
             PulseSettingsActivity.class.getName(),
             RunningServices.class.getName(),
             SmartPixels.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
