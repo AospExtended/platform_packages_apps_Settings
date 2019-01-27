@@ -3457,6 +3457,20 @@
                 android:value="org.aospextended.extensions.fragments.SmartPixels" />
         </activity>
 
+        <!-- Gaming mode long press activity -->
+        <activity android:name="Settings$GamingSettingsActivity"
+                android:label="@string/gaming_mode_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.aospextended.extensions.fragments.GamingMode" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
