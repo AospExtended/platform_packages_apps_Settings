@@ -28,6 +28,7 @@
 
         <SwitchPreference
             android:key="ambient_display_always_on"
+            android:disableDependentsState="true"
             android:title="@string/doze_always_on_title"
             android:summary="@string/doze_always_on_summary"
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController" />
@@ -43,6 +44,13 @@
             android:title="@string/ambient_display_pickup_title"
             android:fragment="com.android.settings.gestures.PickupGestureSettings"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="doze_on_charge"
+            android:dependency="ambient_display_always_on"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary"
+            android:defaultValue="false" />
 
         <SwitchPreference
             android:key="ambient_display_notification"
