@@ -419,4 +419,8 @@
 
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show time, notification icons, and other info when charging</string>
 </resources>
