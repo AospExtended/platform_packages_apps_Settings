@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Magunkról</string>
     <string name="aex_about_summary">Bemutatkozásunk és a csapatunk</string>
-    <string name="aex_about_info_summary">Az AospExtended egy AOSP alapú ROM, ami gyári kinézetet kínál különféle testreszabási opciókkal és Substratum témamotorral. Más projektekből szemezgetve jött létre ez a projekt. Az AOSP-alapnak köszönhetően már a dobozból kivéve gördülékeny és akadásmentes élményt nyújt. Folyamatosan bővítjük és még jobbá tesszük majd a jövőbeli frissítésekben. &#35;Légy nyitott a terjeszkedésre!</string>
     <string name="dev_info">Az AospExtended-ről</string>
     <string name="github">Github</string>
     <string name="github_description">Itt megnézheti a forráskódunkat</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB-értesítés</string>
     <string name="adb_notify_summary">Értesítés megjelenítése, amikor az android hibakereső engedélyezve van</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">Vezérlőpult-lehetőségek</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">Kerekített sarkú négyzet</string>
     <string name="qs_tile_style_tear_drop">Könnycsepp</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
+    <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
+    <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengő és értesítési hangok összekötése</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Betűtípus</string>
+    <string name="font_picker_progress">Az új betűtípus alkalmazása\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">Értesítések előzménynaplóinak megjelenítése</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">Háttérfolyamatok</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Helyzetmeghatározás</string>
+    <string name="app_ops_cat_personal">Személyes</string>
+    <string name="app_ops_cat_messaging">Üzenetkezelés</string>
+    <string name="app_ops_cat_media">Média</string>
+    <string name="app_ops_cat_device">Készülék</string>
+    <string name="app_ops_cat_bootup">Rendszerindítás</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">kamera</string>
+    <string name="app_ops_access_location">helyzetmeghatározás</string>
+    <string name="app_ops_access_notifications">értesítések</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">automatikus indítás</string>
+    <string name="app_ops_delete_call_log">hívásnaplók törlése</string>
+    <string name="app_ops_delete_contacts">névjegyek törlése</string>
+    <string name="app_ops_delete_mms">MMS törlése</string>
+    <string name="app_ops_delete_sms">SMS törlése</string>
+    <string name="app_ops_draw_on_top">megjelenítés alkalmazások felett</string>
+    <string name="app_ops_get_usage_stats">használati statisztika lekérése</string>
+    <string name="app_ops_keep_device_awake">ébren tartás</string>
+    <string name="app_ops_make_phone_call">híváskezdeményezés</string>
+    <string name="app_ops_modify_calendar">naptárfrissítés</string>
+    <string name="app_ops_modify_call_log">hívásnapló frissítése</string>
+    <string name="app_ops_modify_clipboard">vágólap módosítása</string>
+    <string name="app_ops_modify_contacts">névjegyek frissítése</string>
+    <string name="app_ops_modify_settings">beállítások frissítése</string>
+    <string name="app_ops_mute_unmute_microphone">mikrofon némítása/feloldása</string>
+    <string name="app_ops_play_audio">hang lejátszása</string>
+    <string name="app_ops_post_notification">értesítés küldése</string>
+    <string name="app_ops_project_media">média vetítése</string>
+    <string name="app_ops_read_calendar">naptár olvasása</string>
+    <string name="app_ops_read_call_log">hívásnapló olvasása</string>
+    <string name="app_ops_read_clipboard">vágólap olvasása</string>
+    <string name="app_ops_read_contacts">névjegyek olvasása</string>
+    <string name="app_ops_read_mms">MMS olvasása</string>
+    <string name="app_ops_read_sms">SMS olvasása</string>
+    <string name="app_ops_receive_sms">SMS fogadása</string>
+    <string name="app_ops_record_audio">hangrögzítés</string>
+    <string name="app_ops_send_mms">MMS küldése</string>
+    <string name="app_ops_send_sms">SMS küldése</string>
+    <string name="app_ops_toast_window">üzenetbuborékok</string>
+    <string name="app_ops_use_alarm_volume">ébresztési hangerő</string>
+    <string name="app_ops_use_audio_focus">audiofókusz</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth-hangerő</string>
+    <string name="app_ops_use_master_volume">fő hangerő</string>
+    <string name="app_ops_use_media_buttons">médiagombok</string>
+    <string name="app_ops_use_media_volume">médiahangerő</string>
+    <string name="app_ops_use_notification_volume">értesítési hangerő</string>
+    <string name="app_ops_use_ring_volume">csengőhang erőssége</string>
+    <string name="app_ops_use_vibrate">érintési visszajelzés</string>
+    <string name="app_ops_use_voice_volume">hívás beszédhangereje</string>
+    <string name="app_ops_write_mms">MMS írása</string>
+    <string name="app_ops_write_sms">SMS írása</string>
+    <string name="app_ops_use_fingerprint">ujjlenyomat</string>
+    <string name="app_ops_add_voicemail">hangposta</string>
+    <string name="app_ops_read_phone_state">telefonállapot beolvasása</string>
+    <string name="app_ops_scan_wifi">Wi-Fi-hálózat keresése</string>
+    <string name="app_ops_change_wallpaper">háttérkép-változtatás</string>
+    <string name="app_ops_assist_structure">az asszisztens (segéd) szerkezete</string>
+    <string name="app_ops_assist_screenshot">képernyőmentés</string>
+    <string name="app_ops_use_body_sensors">testérzékelők</string>
+    <string name="app_ops_read_cell_broadcasts">cellán belüli adások</string>
+    <string name="app_ops_mock_location">helyutánzatok</string>
+    <string name="app_ops_read_external_storage">külsőtárhely-olvasás</string>
+    <string name="app_ops_write_external_storage">külsőtárhely-írás</string>
+    <string name="app_ops_turn_on_screen">képernyő-bekapcsolás</string>
+    <string name="app_ops_get_accounts">készülékfiókok</string>
+    <string name="app_ops_run_in_background">futtatás a háttérben</string>
+    <string name="app_ops_accessibility_volume">kisegítő hangerő</string>
+    <string name="app_ops_read_phone_numbers">telefonszám beolvasása</string>
+    <string name="app_ops_request_install_packages">csomagtelepítés</string>
+    <string name="app_ops_picture_in_picture">kép-a-képben</string>
+    <string name="app_ops_app_start_foreground">előtérben indítás</string>
+    <string name="app_ops_answer_phone_calls">hívásofogadás</string>
+    <string name="app_ops_run_any_in_background">háttérben futtatás</string>
+    <string name="app_ops_change_wifi_state">a Wi-Fi-állapot módosítása</string>
+    <string name="app_ops_request_delete_packages">csomagtörlés</string>
+    <string name="app_ops_bind_accessibility_service">hozzáférhetőséghez kapcsolás</string>
+    <string name="app_ops_accept_handover">átadás elfogadása</string>
+    <string name="app_ops_manage_ipsec_tunnels">IP-csatornák kezelése</string>
+    <string name="app_ops_start_foreground">előtérben indítás</string>
+    <string name="app_ops_bluetooth_scan">bluetooth keresés</string>
+    <string name="app_ops_boot_completed">automatikus indítás</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (<xliff:g id="count">%2$s</xliff:g> alkalommal használva)</string>
+    <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g> alkalommal engedélyezve</string>
+    <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g> alkalommal elutasítva</string>
+    <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g> alkalommal engedélyezve, <xliff:g id="count">%2$s</xliff:g> alkalommal elutasítva</string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">A felhasználói alkalmazások megjelenítése</string>
+    <string name="app_ops_show_system_apps">A rendszeralkalmazások megjelenítése</string>
+    <string name="app_ops_reset_counters">Engedő/tiltó számlálók nullázása</string>
+    <string name="app_ops_reset_confirm_title">Számlálótörlés megerősítése</string>
+    <string name="app_ops_reset_confirm_mesg">Biztosan lenullázza a számlálókat?</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

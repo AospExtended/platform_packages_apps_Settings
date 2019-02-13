@@ -14,10 +14,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
+    <string name="extended_version">Versiunea extinsă</string>
+    <string name="extended_version_default">Necunoscut</string>
+    <string name="keywords_extended_version">versiunea aex, versiunea extinsă</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">Data compilării</string>
+    <string name="build_date_default">01-01-2015-0000</string>
+    <string name="keywords_build_date">data compilării, informație despre compilare</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Găsiți senzorul de amprentă pe partea din față a telefonului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Găsiți senzorul de amprentă în partea stângă a telefonului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Găsiți senzorul de amprentă în partea dreaptă a telefonului.</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">Despre noi</string>
     <!-- Maintainer section -->
     <!-- Changelog -->
     <!-- Scramble PIN Layout on Lockscreen -->
@@ -28,6 +39,7 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <!-- ADB debugging notifications -->
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <!-- Proximity wake -->
     <!-- Home button wake -->
@@ -60,4 +72,6 @@
     <!-- App ops labels -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

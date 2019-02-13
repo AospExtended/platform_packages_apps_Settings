@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">A propos de nous</string>
     <string name="aex_about_summary">Notre présentation et notre équipe</string>
-    <string name="aex_about_info_summary">AospExtended est une rom basée sur AOSP et UI/UX d\'origine avec diverses fonctions de personnalisations ainsi que le moteur de thème de Substratum. Le projet a été réalisé par l\'assemblage de différentes validations de divers autres projets. Nous essayerons constamment d’ajouter plus de fonctionnalités et de faire encore mieux pour les futures mises à jour. &#35; BeExtended</string>
     <string name="dev_info">À propos d\'AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Afficher le code source</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Notifications ADB</string>
     <string name="adb_notify_summary">Afficher une notification lorsque le débogage est activé</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">Options du panneau de configuration</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">Squircle</string>
     <string name="qs_tile_style_tear_drop">Larme</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
+    <string name="increasing_ring_ramp_up_time_title">Temps de montée en puissance</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lier le volume de la sonnerie et des notifications</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Police</string>
+    <string name="font_picker_progress">Application de la nouvelle police\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">Montrer l\'historique des notifications</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">Processus d’arrière-plan</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Géolocalisation</string>
+    <string name="app_ops_cat_personal">Personnel</string>
+    <string name="app_ops_cat_messaging">Messagerie</string>
+    <string name="app_ops_cat_media">Média</string>
+    <string name="app_ops_cat_device">Appareil</string>
+    <string name="app_ops_cat_bootup">Démarrage</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">appareil photo</string>
+    <string name="app_ops_access_location">géolocalisation</string>
+    <string name="app_ops_access_notifications">notifications</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">démarrage automatique</string>
+    <string name="app_ops_delete_call_log">supprimer le journal d\'appels</string>
+    <string name="app_ops_delete_contacts">supprimer les contacts</string>
+    <string name="app_ops_delete_mms">supprimer les MMS</string>
+    <string name="app_ops_delete_sms">supprimer les SMS</string>
+    <string name="app_ops_draw_on_top">déplacer au-dessus</string>
+    <string name="app_ops_get_usage_stats">obtenir les statistiques d\'utilisation</string>
+    <string name="app_ops_keep_device_awake">maintenir activé</string>
+    <string name="app_ops_make_phone_call">passer un appel</string>
+    <string name="app_ops_modify_calendar">mettre à jour le calendrier</string>
+    <string name="app_ops_modify_call_log">mettre à jour le journal d\'appels</string>
+    <string name="app_ops_modify_clipboard">modifier le presse-papiers</string>
+    <string name="app_ops_modify_contacts">mise à jour les contacts</string>
+    <string name="app_ops_modify_settings">mettre à jour les paramètres</string>
+    <string name="app_ops_mute_unmute_microphone">activer/désactiver le micro</string>
+    <string name="app_ops_play_audio">lire le fichier audio</string>
+    <string name="app_ops_post_notification">afficher une notification</string>
+    <string name="app_ops_project_media">projet média</string>
+    <string name="app_ops_read_calendar">lire l\'agenda</string>
+    <string name="app_ops_read_call_log">lire le journal d\'appels</string>
+    <string name="app_ops_read_clipboard">lire le Presse-papiers</string>
+    <string name="app_ops_read_contacts">lire les contacts</string>
+    <string name="app_ops_read_mms">lire les MMS</string>
+    <string name="app_ops_read_sms">lire les SMS</string>
+    <string name="app_ops_receive_sms">recevoir des SMS</string>
+    <string name="app_ops_record_audio">enregistrement audio</string>
+    <string name="app_ops_send_mms">envoyer des MMS</string>
+    <string name="app_ops_send_sms">envoyer des SMS</string>
+    <string name="app_ops_toast_window">notifications pop-up</string>
+    <string name="app_ops_use_alarm_volume">volume de l\'alarme</string>
+    <string name="app_ops_use_audio_focus">focus audio</string>
+    <string name="app_ops_use_bluetooth_volume">Volume du Bluetooth</string>
+    <string name="app_ops_use_master_volume">volume principal</string>
+    <string name="app_ops_use_media_buttons">boutons médias</string>
+    <string name="app_ops_use_media_volume">volume médias</string>
+    <string name="app_ops_use_notification_volume">volume notifications</string>
+    <string name="app_ops_use_ring_volume">volume de la sonnerie</string>
+    <string name="app_ops_use_vibrate">retour tactile</string>
+    <string name="app_ops_use_voice_volume">volume de l’appel</string>
+    <string name="app_ops_write_mms">écrire des MMS</string>
+    <string name="app_ops_write_sms">écrire un SMS</string>
+    <string name="app_ops_use_fingerprint">empreinte digitale</string>
+    <string name="app_ops_add_voicemail">messagerie vocale</string>
+    <string name="app_ops_read_phone_state">accéder à l\'état du téléphone</string>
+    <string name="app_ops_scan_wifi">Rechercher les réseaux Wi-Fi</string>
+    <string name="app_ops_change_wallpaper">changer le fond d\'écran</string>
+    <string name="app_ops_assist_structure">assistance à la structure</string>
+    <string name="app_ops_assist_screenshot">capture d\'écran</string>
+    <string name="app_ops_use_body_sensors">capteurs corporels</string>
+    <string name="app_ops_read_cell_broadcasts">diffusions cellulaires</string>
+    <string name="app_ops_mock_location">localisation fictive</string>
+    <string name="app_ops_read_external_storage">lire le stockage externe.</string>
+    <string name="app_ops_write_external_storage">écrire sur le stockage externe.</string>
+    <string name="app_ops_turn_on_screen">allumer l\'écran</string>
+    <string name="app_ops_get_accounts">comptes de l\'appareil</string>
+    <string name="app_ops_run_in_background">exécuter en arrière-plan</string>
+    <string name="app_ops_accessibility_volume">volume de l’accessibilité</string>
+    <string name="app_ops_read_phone_numbers">lire les numéros de téléphone</string>
+    <string name="app_ops_request_install_packages">installer les packages</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">exécuter au premier-plan</string>
+    <string name="app_ops_answer_phone_calls">répondre aux appels</string>
+    <string name="app_ops_run_any_in_background">exécuter en arrière-plan</string>
+    <string name="app_ops_change_wifi_state">changer l\'état du Wi-Fi</string>
+    <string name="app_ops_request_delete_packages">supprimer des packages</string>
+    <string name="app_ops_bind_accessibility_service">lier à l’accessibilité</string>
+    <string name="app_ops_accept_handover">accepter le transfert intercellulaire</string>
+    <string name="app_ops_manage_ipsec_tunnels">gérer les tunnels ipsec</string>
+    <string name="app_ops_start_foreground">exécuter au premier-plan</string>
+    <string name="app_ops_bluetooth_scan">rechercher Bluetooth</string>
+    <string name="app_ops_boot_completed">démarrer automatiquement</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (utilisés <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Autorisé <xliff:g id="count" exemple="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Refusé <xliff:g id="count" exemple="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Autorisé <xliff:g id="count">%1$s</xliff:g>, refusé <xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Afficher les applications personnelles</string>
+    <string name="app_ops_show_system_apps">Afficher les applications système</string>
+    <string name="app_ops_reset_counters">Réinitialiser les compteurs permission / interdiction</string>
+    <string name="app_ops_reset_confirm_title">Confirmer la réinitialisation des compteurs</string>
+    <string name="app_ops_reset_confirm_mesg">Êtes-vous sûr de vouloir réinitialiser les compteurs ?</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

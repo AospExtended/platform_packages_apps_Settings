@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">소개</string>
     <string name="aex_about_summary">우리 팀 소개</string>
-    <string name="aex_about_info_summary">AospExtended는 AOSP 기반 롬이며 기본적인 UI/UX 위에 Substratum 테마 엔진을 통한 다양한 사용자 기능을 제공합니다. 이 프로젝트는 다양한 다른 프로젝트들의 여러 기능 중에서 장점만을 취해서 만들어졌습니다. AOSP를 기반으로 구성되어 부드럽고 버벅임 없는 사용자 경험을 제공합니다. 저희는 지속적으로 보다 많은 기능을 제공하기 위해 노력할 것이며 이를 통해 앞으로 업데이트를 통해 점점 더 좋아질 것입니다. &#35;BeExtended</string>
     <string name="dev_info">AospExtended에 대하여</string>
     <string name="github">Github</string>
     <string name="github_description">소스 코드 보기</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB 알림</string>
     <string name="adb_notify_summary">USB 또는 네트워크 디버깅을 활성화 하면 알림 표시</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">대시보드 설정</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">사각원형</string>
     <string name="qs_tile_style_tear_drop">티어 드롭</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">점점 커지는 벨소리</string>
+    <string name="increasing_ring_min_volume_title">시작 볼륨</string>
+    <string name="increasing_ring_ramp_up_time_title">볼륨 증가 시간</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">벨소리 볼륨과 알림 볼륨 연결</string>
     <!-- Font picker -->
+    <string name="font_picker_title">폰트</string>
+    <string name="font_picker_progress">새 폰트 적용중\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">알림 로그 표시</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">백그라운드 프로세스</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">위치</string>
+    <string name="app_ops_cat_personal">개인</string>
+    <string name="app_ops_cat_messaging">메시지</string>
+    <string name="app_ops_cat_media">미디어</string>
+    <string name="app_ops_cat_device">장치</string>
+    <string name="app_ops_cat_bootup">부팅</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">카메라</string>
+    <string name="app_ops_access_location">위치</string>
+    <string name="app_ops_access_notifications">알림</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start"> 자동 시작</string>
+    <string name="app_ops_delete_call_log">통화 기록 삭제</string>
+    <string name="app_ops_delete_contacts">연락처 삭제</string>
+    <string name="app_ops_delete_mms">MMS 삭제</string>
+    <string name="app_ops_delete_sms">문자 삭제</string>
+    <string name="app_ops_draw_on_top">위에 그리기</string>
+    <string name="app_ops_get_usage_stats">사용 통계 확인</string>
+    <string name="app_ops_keep_device_awake">켜짐 유지</string>
+    <string name="app_ops_make_phone_call">전화 걸기</string>
+    <string name="app_ops_modify_calendar">캘린더 수정</string>
+    <string name="app_ops_modify_call_log">통화 기록 수정</string>
+    <string name="app_ops_modify_clipboard">클립보드 수정</string>
+    <string name="app_ops_modify_contacts">주소록 수정</string>
+    <string name="app_ops_modify_settings">설정 수정</string>
+    <string name="app_ops_mute_unmute_microphone">마이크 음소거/해제</string>
+    <string name="app_ops_play_audio">소리 재생</string>
+    <string name="app_ops_post_notification">알림을 보냄</string>
+    <string name="app_ops_project_media">프로젝터 연결</string>
+    <string name="app_ops_read_calendar">일정 읽기</string>
+    <string name="app_ops_read_call_log">통화 기록 읽기</string>
+    <string name="app_ops_read_clipboard">클립보드 읽기</string>
+    <string name="app_ops_read_contacts">주소록 읽기</string>
+    <string name="app_ops_read_mms">MMS 읽기</string>
+    <string name="app_ops_read_sms">문자 읽기</string>
+    <string name="app_ops_receive_sms">문자 수신</string>
+    <string name="app_ops_record_audio">오디오 녹음</string>
+    <string name="app_ops_send_mms">MMS 보내기</string>
+    <string name="app_ops_send_sms">문자 보내기</string>
+    <string name="app_ops_toast_window">토스트 메세지 보기</string>
+    <string name="app_ops_use_alarm_volume">알람 볼륨</string>
+    <string name="app_ops_use_audio_focus">오디오 포커스</string>
+    <string name="app_ops_use_bluetooth_volume">블루투스 볼륨</string>
+    <string name="app_ops_use_master_volume">마스터 볼륨</string>
+    <string name="app_ops_use_media_buttons">미디어 버튼</string>
+    <string name="app_ops_use_media_volume">미디어 볼륨</string>
+    <string name="app_ops_use_notification_volume">알림 볼륨</string>
+    <string name="app_ops_use_ring_volume">벨소리 볼륨</string>
+    <string name="app_ops_use_vibrate">터치 시 진동</string>
+    <string name="app_ops_use_voice_volume">음성통화 볼륨</string>
+    <string name="app_ops_write_mms">MMS 쓰기</string>
+    <string name="app_ops_write_sms">SMSe 작성</string>
+    <string name="app_ops_use_fingerprint">지문인식</string>
+    <string name="app_ops_add_voicemail">음성 메시지</string>
+    <string name="app_ops_read_phone_state">전화 상태에 접근</string>
+    <string name="app_ops_scan_wifi">Wi-Fi 네트워크 검색</string>
+    <string name="app_ops_change_wallpaper">배경화면 변경</string>
+    <string name="app_ops_assist_structure">구조 지원</string>
+    <string name="app_ops_assist_screenshot">스크린샷</string>
+    <string name="app_ops_use_body_sensors">신체 센서 사용</string>
+    <string name="app_ops_read_cell_broadcasts">셀 브로드캐스트</string>
+    <string name="app_ops_mock_location">모의 위치</string>
+    <string name="app_ops_read_external_storage">외부 저장소 읽기</string>
+    <string name="app_ops_write_external_storage">외부 저장소 쓰기</string>
+    <string name="app_ops_turn_on_screen">화면 켜기</string>
+    <string name="app_ops_get_accounts">기기 계정 읽기</string>
+    <string name="app_ops_run_in_background">백그라운드에서 실행</string>
+    <string name="app_ops_accessibility_volume">접근성 볼륨</string>
+    <string name="app_ops_read_phone_numbers">전화번호 읽기</string>
+    <string name="app_ops_request_install_packages">패키지 설치</string>
+    <string name="app_ops_picture_in_picture">PIP</string>
+    <string name="app_ops_app_start_foreground">포그라운드에서 실행</string>
+    <string name="app_ops_answer_phone_calls">전화 받기</string>
+    <string name="app_ops_run_any_in_background">백그라운드에서 실행</string>
+    <string name="app_ops_change_wifi_state">Wi-Fi 상태 변경</string>
+    <string name="app_ops_request_delete_packages">패키지 삭제</string>
+    <string name="app_ops_bind_accessibility_service">접근성과 연결</string>
+    <string name="app_ops_accept_handover">핸드오버 응답</string>
+    <string name="app_ops_manage_ipsec_tunnels">IP 터널 관리</string>
+    <string name="app_ops_start_foreground">포그라운드에서 실행</string>
+    <string name="app_ops_bluetooth_scan">블루투스 검색</string>
+    <string name="app_ops_boot_completed">자동 시작</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (<xliff:g id="count">%2$s</xliff:g> 사용됨)</string>
+    <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g> 허용</string>
+    <string name="app_ops_ignored_count">거부됨 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g> 허용됨, <xliff:g id="count">%2$s</xliff:g> 거부됨</string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">사용자 애플리케이션 표시</string>
+    <string name="app_ops_show_system_apps">내장 애플리케이션 표시</string>
+    <string name="app_ops_reset_counters">허용/거부 카운터 초기화</string>
+    <string name="app_ops_reset_confirm_title">카운터 초기화 확인</string>
+    <string name="app_ops_reset_confirm_mesg">정말로 카운터를 초기화합니까?</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

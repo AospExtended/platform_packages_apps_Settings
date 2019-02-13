@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">О нас</string>
     <string name="aex_about_summary">Наше введение и команда</string>
-    <string name="aex_about_info_summary">AospExtended - это прошивка на базе AOSP которая использует стандартный интерфейс и настройки, с множеством дополнительных параметров и темами Substratum. Проект был создан после сбора различных коммитов из других проектов. База AOSP, с нашими изменениями даёт плавность и интерфейс без глюков из коробки. Мы будем постоянно пытаться добавить дополнительные функции и сделать их еще лучше в будущих обновлениях. &#35;BeExtended</string>
     <string name="dev_info">О AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Просмотреть исходный код</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Уведомление о включении режима отладки</string>
     <string name="adb_notify_summary">Уведомления при включенной отладке Android</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">Опции меню настроек</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">Округлый квадрат</string>
     <string name="qs_tile_style_tear_drop">Капля</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Шрифт</string>
+    <string name="font_picker_progress">Применение нового шрифта\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">Показать журнал истории уведомлений</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">Фоновые процессы</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Местоположение</string>
+    <string name="app_ops_cat_personal">Личные данные</string>
+    <string name="app_ops_cat_messaging">Сообщения</string>
+    <string name="app_ops_cat_media">Мультимедиа</string>
+    <string name="app_ops_cat_device">Устройство</string>
+    <string name="app_ops_cat_bootup">Загрузка</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">камера</string>
+    <string name="app_ops_access_location">местоположение</string>
+    <string name="app_ops_access_notifications">уведомления</string>
+    <string name="app_ops_activate_vpn">Настройки VPN</string>
+    <string name="app_ops_auto_start">автозапуск</string>
+    <string name="app_ops_delete_call_log">удаление журнала вызовов</string>
+    <string name="app_ops_delete_contacts">удаление контактов</string>
+    <string name="app_ops_delete_mms">удаление MMS</string>
+    <string name="app_ops_delete_sms">удаление SMS</string>
+    <string name="app_ops_draw_on_top">отображение поверх других элементов</string>
+    <string name="app_ops_get_usage_stats">получить статистику использования</string>
+    <string name="app_ops_keep_device_awake">активный режим</string>
+    <string name="app_ops_make_phone_call">осуществление вызова</string>
+    <string name="app_ops_modify_calendar">обновить календарь</string>
+    <string name="app_ops_modify_call_log">обновить журнал вызовов</string>
+    <string name="app_ops_modify_clipboard">изменение буфера обмена</string>
+    <string name="app_ops_modify_contacts">обновить контакты</string>
+    <string name="app_ops_modify_settings">обновить настройки</string>
+    <string name="app_ops_mute_unmute_microphone">включение/выключение микрофона</string>
+    <string name="app_ops_play_audio">воспроизведение аудио</string>
+    <string name="app_ops_post_notification">вывод уведомлений</string>
+    <string name="app_ops_project_media">трансляция медиа</string>
+    <string name="app_ops_read_calendar">чтение данных календаря</string>
+    <string name="app_ops_read_call_log">просмотр журнала вызовов</string>
+    <string name="app_ops_read_clipboard">чтение буфера обмена</string>
+    <string name="app_ops_read_contacts">чтение контактов</string>
+    <string name="app_ops_read_mms">чтение MMS</string>
+    <string name="app_ops_read_sms">чтение SMS</string>
+    <string name="app_ops_receive_sms">получение SMS</string>
+    <string name="app_ops_record_audio">запись аудио</string>
+    <string name="app_ops_send_mms">отправка MMS</string>
+    <string name="app_ops_send_sms">отправка SMS</string>
+    <string name="app_ops_toast_window">всплывающие сообщения</string>
+    <string name="app_ops_use_alarm_volume">громкость будильника</string>
+    <string name="app_ops_use_audio_focus">аудиофокус</string>
+    <string name="app_ops_use_bluetooth_volume">Громкость Bluetooth-устройств</string>
+    <string name="app_ops_use_master_volume">общая громкость</string>
+    <string name="app_ops_use_media_buttons">кнопки мультимедиа</string>
+    <string name="app_ops_use_media_volume">громкость мультимедиа</string>
+    <string name="app_ops_use_notification_volume">громкость уведомлений</string>
+    <string name="app_ops_use_ring_volume">громкость звонка</string>
+    <string name="app_ops_use_vibrate">виброотклик</string>
+    <string name="app_ops_use_voice_volume">громкость при разговоре</string>
+    <string name="app_ops_write_mms">создание MMS</string>
+    <string name="app_ops_write_sms">создание SMS</string>
+    <string name="app_ops_use_fingerprint">отпечаток пальца</string>
+    <string name="app_ops_add_voicemail">голосовая почта</string>
+    <string name="app_ops_read_phone_state">состояние телефона</string>
+    <string name="app_ops_scan_wifi">Поиск Wi-Fi сетей</string>
+    <string name="app_ops_change_wallpaper">изменение обоев</string>
+    <string name="app_ops_assist_structure">структура ассистента</string>
+    <string name="app_ops_assist_screenshot">скриншот</string>
+    <string name="app_ops_use_body_sensors">нательные датчики</string>
+    <string name="app_ops_read_cell_broadcasts">оповещение населения</string>
+    <string name="app_ops_mock_location">фиктивное местоположение</string>
+    <string name="app_ops_read_external_storage">чтение с внеш. носителя.</string>
+    <string name="app_ops_write_external_storage">запись на внеш. носитель.</string>
+    <string name="app_ops_turn_on_screen">включение экрана</string>
+    <string name="app_ops_get_accounts">информация об аккаунтах</string>
+    <string name="app_ops_run_in_background">запуск в фоновом режиме</string>
+    <string name="app_ops_accessibility_volume">громкость спец. возможностей</string>
+    <string name="app_ops_read_phone_numbers">чтение номера телефона</string>
+    <string name="app_ops_request_install_packages">установка приложений</string>
+    <string name="app_ops_picture_in_picture">картинка в картинке</string>
+    <string name="app_ops_app_start_foreground">показать при запуске</string>
+    <string name="app_ops_answer_phone_calls">ответ на звонок</string>
+    <string name="app_ops_run_any_in_background">запуск в фоновом режиме</string>
+    <string name="app_ops_change_wifi_state">изменение статуса WiFi</string>
+    <string name="app_ops_request_delete_packages">удаление пакетов</string>
+    <string name="app_ops_bind_accessibility_service">назначать на спец. возможности</string>
+    <string name="app_ops_accept_handover">менять базовые станции</string>
+    <string name="app_ops_manage_ipsec_tunnels">управлять IPSec туннелями</string>
+    <string name="app_ops_start_foreground">показать при запуске</string>
+    <string name="app_ops_bluetooth_scan">поиск Bluetooth-устройств</string>
+    <string name="app_ops_boot_completed">автозапуск</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (занято <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Разрешено <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Запрещено <xliff:g id="count" example="2 раза">%s</xliff:g></string>
+    <string name="app_ops_both_count">Разрешено <xliff:g id="count">%1$s</xliff:g>, запрещено <xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Показать пользовательские приложения</string>
+    <string name="app_ops_show_system_apps">Показать системные приложения</string>
+    <string name="app_ops_reset_counters">Сбросить счетчики</string>
+    <string name="app_ops_reset_confirm_title">Подтвердите сброс счетчиков</string>
+    <string name="app_ops_reset_confirm_mesg">Вы уверены, что хотите сбросить счетчики?</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

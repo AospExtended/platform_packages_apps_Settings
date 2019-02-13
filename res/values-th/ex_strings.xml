@@ -105,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">การแจ้งเตือนของ ADB</string>
     <string name="adb_notify_summary">แสดงการแจ้งเตือนเมื่อการแก้ไขข้อบกพร่องผ่าน USB เปิดอยู่</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">ตัวเลือกแผงควบคุม</string>
     <!-- Proximity wake -->
@@ -237,4 +238,6 @@
     <!-- App ops labels -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

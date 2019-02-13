@@ -28,6 +28,7 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <!-- ADB debugging notifications -->
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <!-- Proximity wake -->
     <!-- Home button wake -->
@@ -60,4 +61,6 @@
     <!-- App ops labels -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

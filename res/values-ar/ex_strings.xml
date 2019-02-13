@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">من نحن</string>
     <string name="aex_about_summary">مقدمتنا وفريقنا</string>
-    <string name="aex_about_info_summary">AospExtended هو نظام تشغيل مبني على AOSP ، يوفر واجهة استخدام اصلية مع بعض التعديلات والإمكانيات بالإضافة إلى محرك ثيمات Substratum. هذا المشروع قائم على انتقاء العديد من التركيبات من مشروعات أخرى. كونه مبني على AOSP يجعله يقدم تجربة سلسة وخالية من التباطؤ مباشرة فور التثبيت. نحن سوف نحاول بصفة مستمرة إضافة المزيد من المزايا وجعل النظام أفضل في التحديثات القادمة.&#35;Be Extended</string>
     <string name="dev_info">حول AospExtended</string>
     <string name="github">موقع Github</string>
     <string name="github_description">عرض الكود المصدري الخاص بنا</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">إشعار ADB</string>
     <string name="adb_notify_summary">عرض إعلام عند تفعيل تصحيح أخطاء Usb</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">خيارات لوحة التحكم</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">مربع دائري</string>
     <string name="qs_tile_style_tear_drop">دمعي</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">تزايد مستوى صوت الرنين</string>
+    <string name="increasing_ring_min_volume_title">مستوى الصوت البدائي</string>
+    <string name="increasing_ring_ramp_up_time_title">زمن التدرج</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">ربط مستوى صوت نغمة الرنين مع الاشعارات</string>
     <!-- Font picker -->
+    <string name="font_picker_title">الخط</string>
+    <string name="font_picker_progress">تطبيق الخط الجديد</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">إظهار سجل تاريخ الإشعارات</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">العمليات في الخلفية</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">الموقع</string>
+    <string name="app_ops_cat_personal">شخصي</string>
+    <string name="app_ops_cat_messaging">المراسلة</string>
+    <string name="app_ops_cat_media">الوسائط</string>
+    <string name="app_ops_cat_device">الجهاز</string>
+    <string name="app_ops_cat_bootup">التشغيل</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">الكاميرا</string>
+    <string name="app_ops_access_location">الموقع</string>
+    <string name="app_ops_access_notifications">الإشعارات</string>
+    <string name="app_ops_activate_vpn">الشبكة الظاهرية VPN</string>
+    <string name="app_ops_auto_start">تشغيل تلقائي</string>
+    <string name="app_ops_delete_call_log">حذف سجل المكالمات</string>
+    <string name="app_ops_delete_contacts">حذف جهات الاتصال</string>
+    <string name="app_ops_delete_mms">حذف رسائل الوسائط</string>
+    <string name="app_ops_delete_sms">حذف الرسائل القصيرة</string>
+    <string name="app_ops_draw_on_top">الرسم فوق التطبيقات الأخرى</string>
+    <string name="app_ops_get_usage_stats">الحصول على إحصائيات الاستخدام</string>
+    <string name="app_ops_keep_device_awake">إبقاء الهاتف يقظاً</string>
+    <string name="app_ops_make_phone_call">إجراء مكالمة</string>
+    <string name="app_ops_modify_calendar">تحديث التقويم</string>
+    <string name="app_ops_modify_call_log">تحديث سجل المكالمات</string>
+    <string name="app_ops_modify_clipboard">تعديل حافظة المنسوخات</string>
+    <string name="app_ops_modify_contacts">تحديث جهات الاتصال</string>
+    <string name="app_ops_modify_settings">تحديث الإعدادات</string>
+    <string name="app_ops_mute_unmute_microphone">كتم/تفعيل الميكروفون</string>
+    <string name="app_ops_play_audio">تشغيل الصوت</string>
+    <string name="app_ops_post_notification">إصدار إشعار</string>
+    <string name="app_ops_project_media">مشروع الوسائط</string>
+    <string name="app_ops_read_calendar">قراءة التقويم</string>
+    <string name="app_ops_read_call_log">قراءة سجل المكالمات</string>
+    <string name="app_ops_read_clipboard">قراءة الحافظة</string>
+    <string name="app_ops_read_contacts">قراءة جهات الاتصال</string>
+    <string name="app_ops_read_mms">قراءة رسائل الوسائط</string>
+    <string name="app_ops_read_sms">قراءة الرسائل القصيرة</string>
+    <string name="app_ops_receive_sms">استقبال الرسائل القصيرة</string>
+    <string name="app_ops_record_audio">تسجيل الصوت</string>
+    <string name="app_ops_send_mms">إرسال رسائل الوسائط</string>
+    <string name="app_ops_send_sms">إرسال الرسائل القصيرة</string>
+    <string name="app_ops_toast_window">رسائل الملاحظات المنبثقة</string>
+    <string name="app_ops_use_alarm_volume">مستوى صوت المنبه</string>
+    <string name="app_ops_use_audio_focus">تركيز الصوت</string>
+    <string name="app_ops_use_bluetooth_volume">مستوى صوت البلوتوث</string>
+    <string name="app_ops_use_master_volume">مستوى الصوت الرئيسي</string>
+    <string name="app_ops_use_media_buttons">أزرار الوسائط</string>
+    <string name="app_ops_use_media_volume">مستوى صوت الوسائط</string>
+    <string name="app_ops_use_notification_volume">مستوى صوت الإشعارات</string>
+    <string name="app_ops_use_ring_volume">مستـوى صوت نغمة الرنين</string>
+    <string name="app_ops_use_vibrate">إهتزاز عند النقر</string>
+    <string name="app_ops_use_voice_volume">مستوى صوت المكالمـات</string>
+    <string name="app_ops_write_mms">كتابة رسائل الوسائط</string>
+    <string name="app_ops_write_sms">كتابة الرسائل القصيرة</string>
+    <string name="app_ops_use_fingerprint">بصمة الاصبع</string>
+    <string name="app_ops_add_voicemail">البريد الصوتي</string>
+    <string name="app_ops_read_phone_state">الوصول الى حالة الهاتف</string>
+    <string name="app_ops_scan_wifi">البحث عن شبكات WiFi</string>
+    <string name="app_ops_change_wallpaper">تغيير الخلفية</string>
+    <string name="app_ops_assist_structure">تركيبة مساعدة</string>
+    <string name="app_ops_assist_screenshot">لقطة الشاشة</string>
+    <string name="app_ops_use_body_sensors">مستشعرات الجسم</string>
+    <string name="app_ops_read_cell_broadcasts">عمليات البث الخلوي</string>
+    <string name="app_ops_mock_location">موقع زائف</string>
+    <string name="app_ops_read_external_storage">قراءة التخزين الخارجي.</string>
+    <string name="app_ops_write_external_storage">الكتابة على الذاكرة الخارجية.</string>
+    <string name="app_ops_turn_on_screen">تشغيل الشاشة</string>
+    <string name="app_ops_get_accounts">حسابات الجهاز</string>
+    <string name="app_ops_run_in_background">تشغيل في الخلفية</string>
+    <string name="app_ops_accessibility_volume">صوت إمكانية الوصول</string>
+    <string name="app_ops_read_phone_numbers">قراءة رقم الهاتف.</string>
+    <string name="app_ops_request_install_packages">تثبيت الحزم</string>
+    <string name="app_ops_picture_in_picture">صورة داخل صورة</string>
+    <string name="app_ops_app_start_foreground">بدء في المقدمة</string>
+    <string name="app_ops_answer_phone_calls">الرد على المكالمات</string>
+    <string name="app_ops_run_any_in_background">التشغيل في الخلفية</string>
+    <string name="app_ops_change_wifi_state">تغيير حالة الـ Wi-Fi</string>
+    <string name="app_ops_request_delete_packages">حذف الحزم</string>
+    <string name="app_ops_bind_accessibility_service">ربط بامكانية الوصول</string>
+    <string name="app_ops_accept_handover">قبول التسليم</string>
+    <string name="app_ops_manage_ipsec_tunnels">إدارة انقاق ip</string>
+    <string name="app_ops_start_foreground">بدء في المقدمة</string>
+    <string name="app_ops_bluetooth_scan">بحث البلوتوث</string>
+    <string name="app_ops_boot_completed">التشغيل التلقائي</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (مستخدم <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">المسموح <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">مرفوض<xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">مسموح<xliff:g id="count">%1$s</xliff:g>, مرفوض<xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">إظهار تطبيقات المستخدم</string>
+    <string name="app_ops_show_system_apps">إظهار تطبيقات النظام</string>
+    <string name="app_ops_reset_counters">إعادة تعيين عدادات السماح/الرفض</string>
+    <string name="app_ops_reset_confirm_title">تأكيد إعادة تعيين العدادات</string>
+    <string name="app_ops_reset_confirm_mesg">هل أنت متأكد من رغبتك في إعادة تعيين العدادات؟</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

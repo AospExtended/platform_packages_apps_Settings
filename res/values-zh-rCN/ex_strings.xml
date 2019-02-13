@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">AEX 版本</string>
+    <string name="extended_version">Extended 版本</string>
     <string name="extended_version_default">未知</string>
     <string name="keywords_extended_version">AEX 版本、 扩展版本</string>
     <!-- About phone screen, build date -->
@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">关于我们</string>
     <string name="aex_about_summary">了解我们的项目和团队</string>
-    <string name="aex_about_info_summary">AospExtended是一个基于AOSP的开源ROM，此ROM提供了原生的UI和UX，并且包含各种自定义选项以及Substratum主题引擎。本项目是通过cherry-pick以及其他各个项目的各种commit而完成。由于我们的ROM是基于AOSP项目开发，将能给用户提供丝滑无卡顿的安卓体验。并在未来的更新中我们将努力添加更多功能，使其更加完善。&#35;BeExtended</string>
     <string name="dev_info">关于 AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">查看我们的源代码</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB 通知</string>
     <string name="adb_notify_summary">运行 ADB 调试时显示一个通知</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">面板设置</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">圆角矩形</string>
     <string name="qs_tile_style_tear_drop">泪滴</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
+    <string name="increasing_ring_min_volume_title">初始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">铃声渐强时长</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">链接铃声和通知的音量</string>
     <!-- Font picker -->
+    <string name="font_picker_title">字体</string>
+    <string name="font_picker_progress">正在应用新字体\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">显示通知历史记录</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">后台进程</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">地点</string>
+    <string name="app_ops_cat_personal">个人</string>
+    <string name="app_ops_cat_messaging">短信</string>
+    <string name="app_ops_cat_media">媒体</string>
+    <string name="app_ops_cat_device">设备</string>
+    <string name="app_ops_cat_bootup">启动</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">相机</string>
+    <string name="app_ops_access_location">地理位置</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">自动启动</string>
+    <string name="app_ops_delete_call_log">删除通话纪录</string>
+    <string name="app_ops_delete_contacts">删除联系人</string>
+    <string name="app_ops_delete_mms">删除彩信</string>
+    <string name="app_ops_delete_sms">删除短信</string>
+    <string name="app_ops_draw_on_top">在顶部绘制</string>
+    <string name="app_ops_get_usage_stats">获取用量统计</string>
+    <string name="app_ops_keep_device_awake">保持唤醒</string>
+    <string name="app_ops_make_phone_call">拨打电话</string>
+    <string name="app_ops_modify_calendar">更新日历</string>
+    <string name="app_ops_modify_call_log">更新通话记录</string>
+    <string name="app_ops_modify_clipboard">修改剪贴板</string>
+    <string name="app_ops_modify_contacts">修改通讯录信息</string>
+    <string name="app_ops_modify_settings">更新设置</string>
+    <string name="app_ops_mute_unmute_microphone">麦克风静音/取消静音</string>
+    <string name="app_ops_play_audio">播放音频</string>
+    <string name="app_ops_post_notification">发布通知</string>
+    <string name="app_ops_project_media">投影媒体</string>
+    <string name="app_ops_read_calendar">读取日历</string>
+    <string name="app_ops_read_call_log">读取通话记录</string>
+    <string name="app_ops_read_clipboard">读取剪贴板</string>
+    <string name="app_ops_read_contacts">读取联系人</string>
+    <string name="app_ops_read_mms">读取彩信</string>
+    <string name="app_ops_read_sms">读取短信</string>
+    <string name="app_ops_receive_sms">接收短信</string>
+    <string name="app_ops_record_audio">录制音频</string>
+    <string name="app_ops_send_mms">发送彩信</string>
+    <string name="app_ops_send_sms">发送短信</string>
+    <string name="app_ops_toast_window">toast 信息</string>
+    <string name="app_ops_use_alarm_volume">闹钟音量</string>
+    <string name="app_ops_use_audio_focus">音频焦点</string>
+    <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">媒体按键</string>
+    <string name="app_ops_use_media_volume">媒体音量</string>
+    <string name="app_ops_use_notification_volume">通知音量</string>
+    <string name="app_ops_use_ring_volume">铃声音量</string>
+    <string name="app_ops_use_vibrate">触觉反馈</string>
+    <string name="app_ops_use_voice_volume">语音通话音量</string>
+    <string name="app_ops_write_mms">编写彩信</string>
+    <string name="app_ops_write_sms">编写短信</string>
+    <string name="app_ops_use_fingerprint">指纹</string>
+    <string name="app_ops_add_voicemail">语音邮件</string>
+    <string name="app_ops_read_phone_state">访问手机状态</string>
+    <string name="app_ops_scan_wifi">搜寻 WiFi 网络</string>
+    <string name="app_ops_change_wallpaper">更改壁纸</string>
+    <string name="app_ops_assist_structure">协助工具</string>
+    <string name="app_ops_assist_screenshot">屏幕截图</string>
+    <string name="app_ops_use_body_sensors">人体传感器</string>
+    <string name="app_ops_read_cell_broadcasts">小区广播</string>
+    <string name="app_ops_mock_location">模拟位置</string>
+    <string name="app_ops_read_external_storage">读取外置存储卡</string>
+    <string name="app_ops_write_external_storage">写入外置存储卡</string>
+    <string name="app_ops_turn_on_screen">点亮屏幕</string>
+    <string name="app_ops_get_accounts">设备帐号</string>
+    <string name="app_ops_run_in_background">后台运行</string>
+    <string name="app_ops_accessibility_volume">辅助功能</string>
+    <string name="app_ops_read_phone_numbers">读取电话号码</string>
+    <string name="app_ops_request_install_packages">安装软件包</string>
+    <string name="app_ops_picture_in_picture">画中画</string>
+    <string name="app_ops_app_start_foreground">前台启动</string>
+    <string name="app_ops_answer_phone_calls">接听电话</string>
+    <string name="app_ops_run_any_in_background">后台运行</string>
+    <string name="app_ops_change_wifi_state">更改 WiFI 状态</string>
+    <string name="app_ops_request_delete_packages">删除软件包</string>
+    <string name="app_ops_bind_accessibility_service">绑定到可访问性</string>
+    <string name="app_ops_accept_handover">接受切换</string>
+    <string name="app_ops_manage_ipsec_tunnels">管理IP通道</string>
+    <string name="app_ops_start_foreground">前台启动</string>
+    <string name="app_ops_bluetooth_scan">蓝牙扫描</string>
+    <string name="app_ops_boot_completed">自动启动</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (已使用 <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">允许 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">拒绝 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">允许 <xliff:g id="count">%1$s</xliff:g>，拒绝 <xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">显示用户应用</string>
+    <string name="app_ops_show_system_apps">显示内置应用</string>
+    <string name="app_ops_reset_counters">重置允许/拒绝计数器</string>
+    <string name="app_ops_reset_confirm_title">确认重置计数器</string>
+    <string name="app_ops_reset_confirm_mesg">您确定要重置计数器？</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

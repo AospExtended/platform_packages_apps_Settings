@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">За нас</string>
     <string name="aex_about_summary">Нашето представяне и екип</string>
-    <string name="aex_about_info_summary">AospExtended е AOSP базиранa система която използва стандартен интерфейс и настройки в допълнение със Substratum теми. Този проект беше направен, чрез избирателно използване на различни добавки от различни проекти. Поради това, че е базиран на AOSP, предоставя гладкост и без забавяне в интерфейса. Ние постоянно се стараем да добавяме нови функции, за да го направим още по-добър в следващите актуализации.&#35;BeExtended</string>
     <string name="dev_info">За AospExtended</string>
     <string name="github">GitHub</string>
     <string name="github_description">Разгледай изходния код</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB известия</string>
     <string name="adb_notify_summary">Показвай уведомления, когато USB или мрежовото откриване на грешки е активирано</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">Опции на менюто за настройки</string>
     <!-- Proximity wake -->
@@ -240,4 +240,6 @@
     <!-- App ops labels -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

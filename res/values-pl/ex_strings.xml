@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">O nas</string>
     <string name="aex_about_summary">Wprowadzenie i nasz zespół</string>
-    <string name="aex_about_info_summary">AospExtended jest bazujacym na AOSP romem dostarczającym wygląd czystego androida z różnymi opcjami personalizacji i możliwościami w połączeniu z sinikiem Substratum. Projekt został stworzony poprzez łączenie commitów. Bazowanie na czystym androidzie gwarantuje plynność działania i brak spowolnień. Caly czas będziemy się starać wzbogacać nasz rom o nowe możliwosci oraz sprawiać, by AEX stawał się jeszcze lepszy w późniejszych aktualizacjach. &#35; Rozszerz możliwości swojego telefonu</string>
     <string name="dev_info">O AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Zobacz nasz kod źródłowy</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Pokaż powiadomienie o ADB</string>
     <string name="adb_notify_summary">Wyświetl powiadomienie, gdy debugowanie USB jest aktywne</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opcje panelu ustawień</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">Sqircle (Pokemon)</string>
     <string name="qs_tile_style_tear_drop">Łza</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Zwiększanie głośności dzwonka</string>
+    <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
+    <string name="increasing_ring_ramp_up_time_title">Czas pogłaśniania dzwonka</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Czcionka</string>
+    <string name="font_picker_progress">Stosowanie nowej czcionki\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">Pokaż historię powiadomień</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">Procesy pracujące w tle</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Lokalizacja</string>
+    <string name="app_ops_cat_personal">Osobiste</string>
+    <string name="app_ops_cat_messaging">Wiadomości</string>
+    <string name="app_ops_cat_media">Media</string>
+    <string name="app_ops_cat_device">Urządzenie</string>
+    <string name="app_ops_cat_bootup">Rozruch</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">aparat</string>
+    <string name="app_ops_access_location">lokalizacja</string>
+    <string name="app_ops_access_notifications">powiadomienia</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">autostart</string>
+    <string name="app_ops_delete_call_log">usuń rejestr połączeń</string>
+    <string name="app_ops_delete_contacts">usuń kontakty</string>
+    <string name="app_ops_delete_mms">usuń MMS</string>
+    <string name="app_ops_delete_sms">usuń SMS</string>
+    <string name="app_ops_draw_on_top">Narysuj na górze</string>
+    <string name="app_ops_get_usage_stats">uzyskiwanie statystyk użytkowania</string>
+    <string name="app_ops_keep_device_awake">Nie usypiaj</string>
+    <string name="app_ops_make_phone_call">zadzwoń</string>
+    <string name="app_ops_modify_calendar">zaktualizuj kalendarz</string>
+    <string name="app_ops_modify_call_log">zaktaulizuj rejestr połączeń</string>
+    <string name="app_ops_modify_clipboard">modyfikowanie zawartości schowka</string>
+    <string name="app_ops_modify_contacts">aktualizuj kontakty</string>
+    <string name="app_ops_modify_settings">aktualizuj ustawienia</string>
+    <string name="app_ops_mute_unmute_microphone">włącz/wyłącz wyciszenie mikrofonu</string>
+    <string name="app_ops_play_audio">odtwórz dźwięk</string>
+    <string name="app_ops_post_notification">Wysyłanie powiadomienia</string>
+    <string name="app_ops_project_media">Wyświetlanie multimediów</string>
+    <string name="app_ops_read_calendar">odczyt kalendarza</string>
+    <string name="app_ops_read_call_log">odczyt rejestru połączeń</string>
+    <string name="app_ops_read_clipboard">odczyt schowka</string>
+    <string name="app_ops_read_contacts">odczyt kontaktów</string>
+    <string name="app_ops_read_mms">odczyt MMS-ów</string>
+    <string name="app_ops_read_sms">odczyt SMS-ów</string>
+    <string name="app_ops_receive_sms">odbieranie SMS-ów</string>
+    <string name="app_ops_record_audio">nagrywanie dźwięku</string>
+    <string name="app_ops_send_mms">wyślij MMS</string>
+    <string name="app_ops_send_sms">wyślij SMS</string>
+    <string name="app_ops_toast_window">Baner wiadomości</string>
+    <string name="app_ops_use_alarm_volume">głośność alarmu</string>
+    <string name="app_ops_use_audio_focus">Skupianie dźwięku</string>
+    <string name="app_ops_use_bluetooth_volume">głośność Bluetooth</string>
+    <string name="app_ops_use_master_volume">głośność ogólna</string>
+    <string name="app_ops_use_media_buttons">przyciski multimediów</string>
+    <string name="app_ops_use_media_volume">głośność mediów</string>
+    <string name="app_ops_use_notification_volume">głośność powiadomienia</string>
+    <string name="app_ops_use_ring_volume">głośność dzwonka</string>
+    <string name="app_ops_use_vibrate">wibracja przy dotyku</string>
+    <string name="app_ops_use_voice_volume">głośność rozmowy</string>
+    <string name="app_ops_write_mms">napisz MMS</string>
+    <string name="app_ops_write_sms">napisz SMS</string>
+    <string name="app_ops_use_fingerprint">odcisk palca</string>
+    <string name="app_ops_add_voicemail">poczta głosowa</string>
+    <string name="app_ops_read_phone_state">Dostęp do stanu telefonu</string>
+    <string name="app_ops_scan_wifi">Skanuj sieci WiFi</string>
+    <string name="app_ops_change_wallpaper">zmień tapetę</string>
+    <string name="app_ops_assist_structure">Wspomaganie struktury</string>
+    <string name="app_ops_assist_screenshot">zrzut ekranu</string>
+    <string name="app_ops_use_body_sensors">Czujniki na ciele</string>
+    <string name="app_ops_read_cell_broadcasts">transmisje komórkowe</string>
+    <string name="app_ops_mock_location">pozorowanie lokalizacji</string>
+    <string name="app_ops_read_external_storage">Czytaj pamięć zewnętrzną</string>
+    <string name="app_ops_write_external_storage">Zapis na pamięci zewnętrznej</string>
+    <string name="app_ops_turn_on_screen">Włącz ekran</string>
+    <string name="app_ops_get_accounts">Konta urządzenia</string>
+    <string name="app_ops_run_in_background">uruchom w tle</string>
+    <string name="app_ops_accessibility_volume">Ułatwienia dostępu</string>
+    <string name="app_ops_read_phone_numbers">Odczyt numeru telefonu</string>
+    <string name="app_ops_request_install_packages">instaluj pakiet</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">uruchom na pierwszym planie</string>
+    <string name="app_ops_answer_phone_calls">odbieranie połączeń</string>
+    <string name="app_ops_run_any_in_background">uruchom w tle</string>
+    <string name="app_ops_change_wifi_state">zmiana stanu wifi</string>
+    <string name="app_ops_request_delete_packages">Usuń pakiety</string>
+    <string name="app_ops_bind_accessibility_service">Skrót do ułatwień dostępu</string>
+    <string name="app_ops_accept_handover">Akceptuj przekazania</string>
+    <string name="app_ops_manage_ipsec_tunnels">Zarządzanie tunelami ip</string>
+    <string name="app_ops_start_foreground">Uruchom na pierwszym planie</string>
+    <string name="app_ops_bluetooth_scan">skanowanie bluetooth</string>
+    <string name="app_ops_boot_completed">auto start</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (użyty <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Dozwolone <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Odrzucone <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Dozwolone <xliff:g id="count">%1$s</xliff:g>, odrzucone <xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Pokaż aplikacje użytkownika</string>
+    <string name="app_ops_show_system_apps">Pokaż wbudowane aplikacje</string>
+    <string name="app_ops_reset_counters">Zresetuj liczniki zezwoleń/odrzuceń</string>
+    <string name="app_ops_reset_confirm_title">Potwierdź zresetowanie liczników</string>
+    <string name="app_ops_reset_confirm_mesg">Czy na pewno chcesz zresetować liczniki?</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

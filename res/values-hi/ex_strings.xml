@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">हमारे बारे में</string>
     <string name="aex_about_summary">हमारा परिचय और हमारी टीम</string>
-    <string name="aex_about_info_summary">AospExtended एक AOSP आधारित ROM है जो सब्स्ट्रैटम थीम इंजन तथा विभिन्न कस्टमाइज़ेशन सुविधाओं के साथ स्टॉक UI/UX प्रदान करता है। अन्य प्रोजेक्ट्स के बेहतरीन फीचर्स को चुन कर इस प्रोजेक्ट को बनाया गया है। AOSP पर आधारित होने के नाते यह शानदार और तेज अनुभव प्रदान करता है। हम लगातार और अधिक सुविधाओं को जोड़ने तथा भविष्य में इसको और भी बेहतर बनाने की कोशिश करते रहेंगे। &#35;BeExtended</string>
     <string name="dev_info">AospExtended के बारे में</string>
     <string name="github">Github</string>
     <string name="github_description">हमारा स्रोत कोड देखें</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB अधिसूचना</string>
     <string name="adb_notify_summary">एंड्राइड डिबगिंग सक्रिय होने पर सूचना प्रदर्शित करें</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">डैशबोर्ड विकल्प</string>
     <!-- Proximity wake -->
@@ -232,12 +232,64 @@
     <string name="qs_tile_style_squircle">स्क्वेरकल</string>
     <string name="qs_tile_style_tear_drop">टियर ड्रोप</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">बढ़ता हुआ रिंगटोन वोल्यूम</string>
+    <string name="increasing_ring_min_volume_title">स्टार्ट वॉल्यूम</string>
+    <string name="increasing_ring_ramp_up_time_title">रैंप-अप समय</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">रिंगटोन &amp; अधिसूचना वॉल्यूम सम्बद्ध करें</string>
     <!-- Font picker -->
+    <string name="font_picker_title">फ़ॉन्ट</string>
+    <string name="font_picker_progress">नया फ़ॉन्ट लागू हो रहा है\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">नोटिफिकेशन हिस्ट्री लॉग दिखाएं</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">पृष्ठभूमि प्रक्रियाएं</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">लोकेशन</string>
+    <string name="app_ops_cat_personal">व्यक्तिगत</string>
+    <string name="app_ops_cat_messaging">संदेश</string>
+    <string name="app_ops_cat_media">मीडिया</string>
+    <string name="app_ops_cat_device">डिवाइस</string>
+    <string name="app_ops_cat_bootup">बूटअप</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">कैमरा</string>
+    <string name="app_ops_access_location">लोकेशन</string>
+    <string name="app_ops_access_notifications">सूचनाएँ</string>
+    <string name="app_ops_activate_vpn">वीपीएन</string>
+    <string name="app_ops_auto_start">स्वत: आरंभ</string>
+    <string name="app_ops_delete_call_log">कॉल लाग हटाएँ</string>
+    <string name="app_ops_delete_contacts">संपर्क हटाएँ</string>
+    <string name="app_ops_delete_mms">MMS हटाएँ</string>
+    <string name="app_ops_delete_sms">SMS हटाएँ</string>
+    <string name="app_ops_draw_on_top">ऊपर चित्रित करें</string>
+    <string name="app_ops_get_usage_stats">उपयोग आंकड़े प्राप्त करें</string>
+    <string name="app_ops_keep_device_awake">स्क्रीन चालू रखें</string>
+    <string name="app_ops_make_phone_call">कॉल करें</string>
+    <string name="app_ops_modify_calendar">कैलेंडर अद्यतन करें</string>
+    <string name="app_ops_modify_call_log">कॉल लॉग अद्यतन करें</string>
+    <string name="app_ops_modify_clipboard">क्लिपबोर्ड को परिवर्तित करें</string>
+    <string name="app_ops_modify_contacts">संपर्क अद्यतन करें</string>
+    <string name="app_ops_modify_settings">सेटिंग अद्यतन करें</string>
+    <string name="app_ops_mute_unmute_microphone">माइक्रोफोन चालू/बंद करें</string>
+    <string name="app_ops_play_audio">ऑडियो चलाएँ</string>
+    <string name="app_ops_post_notification">अधिसूचना पोस्ट करें</string>
+    <string name="app_ops_project_media">मीडिया प्रक्षेपित करे</string>
+    <string name="app_ops_read_calendar">कैलेंडर पढ़ें</string>
+    <string name="app_ops_read_call_log">कॉल लॉग पढ़ें</string>
+    <string name="app_ops_read_clipboard">क्लिपबोर्ड पढ़ें</string>
+    <string name="app_ops_read_contacts">संपर्क पढ़ें</string>
+    <string name="app_ops_read_mms">MMS पढ़ें</string>
+    <string name="app_ops_read_sms">SMS पढ़ें</string>
+    <string name="app_ops_receive_sms">SMS प्राप्त करें</string>
+    <string name="app_ops_record_audio">ऑडियो रिकॉर्ड करें</string>
+    <string name="app_ops_send_mms">MMS भेजें</string>
+    <string name="app_ops_send_sms">SMS भेजें</string>
+    <string name="app_ops_toast_window">टोस्ट संदेश</string>
+    <string name="app_ops_use_alarm_volume">अलार्म वोल्यूम</string>
+    <string name="app_ops_use_audio_focus">ऑडियो फ़ोकस</string>
+    <string name="app_ops_use_bluetooth_volume">ब्लूटूथ वॉल्यूम</string>
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

@@ -51,7 +51,6 @@ AospExtended பற்றி
 
 aex_about_summary
 கோப்பு: ex_strings. xml</string>
-    <string name="aex_about_info_summary">AospExtended is an AOSP based rom which provides stock UI/UX with various customisations features along with the Substratum theme engine. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.&#35;BeExtended</string>
     <string name="dev_info">AospExtended பற்றி
 
 dev_info
@@ -250,6 +249,7 @@ UI பிழைத்திருத்த அமைப்பு: CPU பயன�
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ஆசிய வளர்ச்சி வங்கி அறிவிப்பு</string>
     <string name="adb_notify_summary">அண்ட்ராய்டு பிழைநீக்கம் இயக்கப்படும்போது ஒரு அறிவிக்கையை காண்பி</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">டாஷ்போர்டு விருப்பங்கள்
 
@@ -462,4 +462,6 @@ alert_on_charged_level_dis
     <!-- App ops labels -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

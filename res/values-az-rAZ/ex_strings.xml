@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Haqqımızda</string>
     <string name="aex_about_summary">Bizim təqdimatımız və komandamız</string>
-    <string name="aex_about_info_summary">AospExtended Substratum tema mühərriki ilə yanaşı, müxtəlif gözəçarpan xüsusiyyətləri ilə UI / UX təmin edən AOSP əsaslı romdur. Layihə, müxtəlif layihələrdən alınan bəzi toplama işləri ilə həyata keçirilmişdir. AOSP-in əsasını qoyaraq, telefonunuzda stabil işləmək və gecikməyən, donmayan və daim irəli gedən sistemlə sizi təmin edir. Biz AOSP-a&#35; daim daha çox funksiya əlavə etməyə və gələcək yeniləmələrdə daha da yaxşılaşdırmağa çalışacağıq.&#35;BeExtended</string>
     <string name="dev_info">AospExtended Haqqında</string>
     <string name="github">Github</string>
     <string name="github_description">Qaynaq kodumuza baxın</string>
@@ -78,6 +77,7 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <!-- ADB debugging notifications -->
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <!-- Proximity wake -->
     <!-- Home button wake -->
@@ -113,4 +113,6 @@
     <!-- App ops labels -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

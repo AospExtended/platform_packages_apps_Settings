@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Over ons</string>
     <string name="aex_about_summary">Onze introductie en ons team</string>
-    <string name="aex_about_info_summary">AospExtended is een AOSP-gebaseerde rom die stock UI/UX biedt met verschillende aanpassingfeatures, samen met de Substratum theme engine. Het project is gemaakt door verschillende commits uit verschillende andere projecten te selecteren. Omdat het gebaseerd is op AOSP, biedt het een vlotte en lagvrije ervaring uit de doos. We zullen constant proberen om meer functies toe te voegen en het nog beter te maken in toekomstige updates.&#35;BeExtended</string>
     <string name="dev_info">Over AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Bekijk onze broncode</string>
@@ -78,6 +77,7 @@
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <!-- ADB debugging notifications -->
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <!-- Proximity wake -->
     <!-- Home button wake -->
@@ -135,4 +135,6 @@
     <!-- App ops labels -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>

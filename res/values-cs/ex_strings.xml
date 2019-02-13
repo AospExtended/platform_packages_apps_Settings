@@ -30,7 +30,6 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">O nás</string>
     <string name="aex_about_summary">Naše představení a náš tým</string>
-    <string name="aex_about_info_summary">AospExtended ROM je založena na AOSP, která poskytuje původní UI/UX s různými funkcemi a přizpůsobením společně se Substratum theme engine. Projekt byl vytvořen sbíráním různých commitů z jiných projektů. Protože je založen na AOSP, tak poskytuje hladký chod bez sekání hned po vybalení z krabice. Budeme se neustále snažit přidávat další funkce a učinit z něj ještě lepší systém v budoucích aktualizací.&#35;BeExtended</string>
     <string name="dev_info">O AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Zobrazit náš zdrojový kód</string>
@@ -106,6 +105,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB oznámení</string>
     <string name="adb_notify_summary">Zobrazit oznámení, když je aktivní ladění systému android</string>
+    <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">Možnosti hlavního panelu</string>
     <!-- Proximity wake -->
@@ -232,12 +232,112 @@
     <string name="qs_tile_style_squircle">Čtverec a kruh</string>
     <string name="qs_tile_style_tear_drop">Slza</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
+    <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
+    <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Spojit hlasitost vyzvánění a oznámení</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Písmo</string>
+    <string name="font_picker_progress">Aplikuji nové písmo\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">Procesy na pozadí</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Poloha</string>
+    <string name="app_ops_cat_personal">Osobní</string>
+    <string name="app_ops_cat_messaging">Zasílání zpráv</string>
+    <string name="app_ops_cat_media">Média</string>
+    <string name="app_ops_cat_device">Zařízení</string>
+    <string name="app_ops_cat_bootup">Při startu</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">fotoaparát</string>
+    <string name="app_ops_access_location">poloha</string>
+    <string name="app_ops_access_notifications">oznámení</string>
+    <string name="app_ops_activate_vpn">Síť VPN</string>
+    <string name="app_ops_auto_start">autom. spouštění</string>
+    <string name="app_ops_delete_call_log">smazat výpis hovorů</string>
+    <string name="app_ops_delete_contacts">smazat kontakty</string>
+    <string name="app_ops_delete_mms">smazat zprávy MMS</string>
+    <string name="app_ops_delete_sms">smazat zprávy SMS</string>
+    <string name="app_ops_draw_on_top">vykreslovat nahoře</string>
+    <string name="app_ops_get_usage_stats">získat statistiky používání</string>
+    <string name="app_ops_keep_device_awake">udržet probuzené</string>
+    <string name="app_ops_make_phone_call">uskutečnit hovor</string>
+    <string name="app_ops_modify_calendar">aktualizovat kalendář</string>
+    <string name="app_ops_modify_call_log">aktualizovat záznam hovorů</string>
+    <string name="app_ops_modify_clipboard">měnit schránku</string>
+    <string name="app_ops_modify_contacts">aktualizovat kontakty</string>
+    <string name="app_ops_modify_settings">aktualizovat nastavení</string>
+    <string name="app_ops_mute_unmute_microphone">ztišit/zesílit mikrofon</string>
+    <string name="app_ops_play_audio">přehrávat zvuk</string>
+    <string name="app_ops_post_notification">zasílat upozornění</string>
+    <string name="app_ops_project_media">promítat média</string>
+    <string name="app_ops_read_calendar">číst kalendář</string>
+    <string name="app_ops_read_call_log">číst seznamu hovorů</string>
+    <string name="app_ops_read_clipboard">číst schránku</string>
+    <string name="app_ops_read_contacts">číst kontakty</string>
+    <string name="app_ops_read_mms">číst MMS</string>
+    <string name="app_ops_read_sms">číst SMS</string>
+    <string name="app_ops_receive_sms">přijímat SMS</string>
+    <string name="app_ops_record_audio">nahrávat zvuk</string>
+    <string name="app_ops_send_mms">poslat MMS</string>
+    <string name="app_ops_send_sms">poslat SMS</string>
+    <string name="app_ops_toast_window">informační text</string>
+    <string name="app_ops_use_alarm_volume">hlasitost budíku</string>
+    <string name="app_ops_use_audio_focus">zvukové zdroje</string>
+    <string name="app_ops_use_bluetooth_volume">Hlasitost Bluetooth</string>
+    <string name="app_ops_use_master_volume">hlavní hlasitost</string>
+    <string name="app_ops_use_media_buttons">tlačítka médií</string>
+    <string name="app_ops_use_media_volume">hlasitost médií</string>
+    <string name="app_ops_use_notification_volume">hlasitost oznámení</string>
+    <string name="app_ops_use_ring_volume">hlasitost vyzvánění</string>
+    <string name="app_ops_use_vibrate">hmatová odezva</string>
+    <string name="app_ops_use_voice_volume">hlasitost hovoru</string>
+    <string name="app_ops_write_mms">vytvořit MMS</string>
+    <string name="app_ops_write_sms">vytvořit SMSe</string>
+    <string name="app_ops_use_fingerprint">otisk prstu</string>
+    <string name="app_ops_add_voicemail">hlasová schránka</string>
+    <string name="app_ops_read_phone_state">přístup ke stavu telefonu</string>
+    <string name="app_ops_scan_wifi">Prohledat WiFi sítě</string>
+    <string name="app_ops_change_wallpaper">změnit tapetu</string>
+    <string name="app_ops_assist_structure">asistenční struktura</string>
+    <string name="app_ops_assist_screenshot">snímek obrazovky</string>
+    <string name="app_ops_use_body_sensors">tělesné senzory</string>
+    <string name="app_ops_read_cell_broadcasts">vysílání buněk</string>
+    <string name="app_ops_mock_location">falešná poloha</string>
+    <string name="app_ops_read_external_storage">číst ext. úložiště</string>
+    <string name="app_ops_write_external_storage">psát do ext. úložiště</string>
+    <string name="app_ops_turn_on_screen">zapnout obrazovku</string>
+    <string name="app_ops_get_accounts">účty zařízení</string>
+    <string name="app_ops_run_in_background">spustit na pozadí</string>
+    <string name="app_ops_accessibility_volume">přístup hlasitosti</string>
+    <string name="app_ops_read_phone_numbers">číst tel. čísla</string>
+    <string name="app_ops_request_install_packages">instalovat balíčky</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">spustit na popředí</string>
+    <string name="app_ops_answer_phone_calls">odpovědět na hovor</string>
+    <string name="app_ops_run_any_in_background">spustit na pozadí</string>
+    <string name="app_ops_change_wifi_state">změnit stav připojení WiFi</string>
+    <string name="app_ops_request_delete_packages">smazat balíčky</string>
+    <string name="app_ops_bind_accessibility_service">vázat na přístupnost</string>
+    <string name="app_ops_accept_handover">přijmout předání</string>
+    <string name="app_ops_manage_ipsec_tunnels">spravovat tunely IP</string>
+    <string name="app_ops_start_foreground">spustit na popředí</string>
+    <string name="app_ops_bluetooth_scan">prohledat Bluetooth</string>
+    <string name="app_ops_boot_completed">spustit při startu</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (použito <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Povoleno <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Zamítnuto <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Povoleno, <xliff:g id="count">%1$s</xliff:g>, zamítnuto <xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Zobr. uživatelské aplikace</string>
+    <string name="app_ops_show_system_apps">Zobr. systémové aplikace</string>
+    <string name="app_ops_reset_counters">Vynulovat čítače povolení/zákazů</string>
+    <string name="app_ops_reset_confirm_title">Potvrdit vynulování čítačů</string>
+    <string name="app_ops_reset_confirm_mesg">Jste si jisti, že chcete vynulovat čítače?</string>
+    <!-- Titles for sim color for multi-sim -->
+    <!-- Battery temp -->
 </resources>
