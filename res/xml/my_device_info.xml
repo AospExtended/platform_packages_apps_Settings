@@ -120,14 +120,6 @@
         settings:keywords="@string/keywords_android_version"
         android:summary="@string/summary_placeholder"/>
 
-    <!-- Extended version --> 
-    <Preference 
-        android:key="extended_version"
-        android:order="32"
-        android:title="@string/extended_version"
-        settings:keywords="@string/keywords_extended_version"
-        android:summary="@string/extended_version_default"/>
-
      <!-- Build date -->
     <Preference 
        android:key="build_date"
