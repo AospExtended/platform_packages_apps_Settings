@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Về chúng tôi</string>
     <string name="aex_about_summary">Giới thiệu và nhóm của chúng tôi</string>
+    <string name="aex_about_info_summary">AOSP mở rộng là một AOSP dựa trên ROM đó cung cấp cho chứng khoán UI/UX kinh nghiệm với các tùy chỉnh hữu ích. Nó được dựa trên AOSP cung cấp một kinh nghiệm mịn. Chúng tôi đã thêm các tùy chỉnh hữu ích từ khác nhau khác mở nguồn dự án và đã cố gắng để giữ cho chúng tôi những điều đơn giản. Bản ROM của người dùng, cho người dùng.&#35;BeExtended</string>
     <string name="dev_info">Giới thiệu về AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Xem mã nguồn code</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Nhà phát triển</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Người điều hành và Nhà phát triển nghiệp dư</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Nhà phát triển</string>
     <string name="designers">Nhà thiết kế</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">ADB thông báo</string>
     <string name="adb_notify_summary">Hiển thị thông báo khi tính năng gỡ lỗi qua Usb hoặc mạng được bật</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB qua mạng</string>
+    <string name="adb_over_network_summary">Bật tính năng gỡ lỗi TCP/IP qua giao diện mạng (mạng Wi\u2011Fi, USB). Thiết lập này sẽ được đặt lại khi khởi động lại máy</string>
+    <string name="adb_over_network_warning">CẢNH BÁO: Khi ADB qua mạng được bật, điện thoại của bạn sẽ có thể bị xâm nhập trên tất cả các mạng kết nối!\n\nChỉ sử dụng tính năng này khi bạn đang kết nối trên các mạng đáng tin cậy.\n\nBạn có thực sự muốn bật chức năng này?</string>
+    <string name="adb_over_network_disallowed_error">LỖI: ADB qua mạng chỉ có thể được kích hoạt khi kết nối với một Wi\u2011Fi hoặc USB mạng!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Bảng điều khiển tùy chọn</string>
     <!-- Proximity wake -->
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">Xác nhận xóa bộ đếm</string>
     <string name="app_ops_reset_confirm_mesg">Bạn có chắc là bạn muốn thiết lập lại bộ đếm?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Màu vàng cam</string>
+    <string name="color_Carbon_700">Than</string>
+    <string name="color_Blue_700">Màu xanh dương</string>
+    <string name="color_Light_Blue_700">Xanh dương nhạt</string>
+    <string name="color_Brown_700">Màu nâu</string>
+    <string name="color_Cyan_700">Màu xanh lá mạ</string>
+    <string name="color_Green_700">Màu xanh lá cây</string>
+    <string name="color_Light_Green_700">Xanh lá cây sáng</string>
+    <string name="color_Grey_700">Màu xám</string>
+    <string name="color_Blue_Grey_700">Màu xanh xám</string>
+    <string name="color_Indigo_700">Màu chàm</string>
+    <string name="color_Lime_700">Màu xanh nhạt</string>
+    <string name="color_Orange_700">Màu cam</string>
+    <string name="color_Deep_Orange_700">Màu cam đậm</string>
+    <string name="color_Pink_700">Màu hồng</string>
+    <string name="color_Purple_700">Màu tím</string>
+    <string name="color_Deep_Purple_700">Màu tím đậm</string>
+    <string name="color_Vermilion_700">Màu đỏ</string>
+    <string name="color_Teal_700">Xanh mòng két</string>
+    <string name="color_Yellow_700">Màu vàng</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Nhiệt độ pin</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Про нас</string>
     <string name="aex_about_summary">Наша команда та місія</string>
+    <string name="aex_about_info_summary">AOSP Extended це прошивка яка базується на AOSP і надає стоковий UI/UX та досвід використання разом з корисними кастомізаціями. Як базована на AOSP ця прошивка дуже приємна в користуванні. Ми додали корисні кастомізації з багатьох різноманітних проектів з відкритим кодом і постаралися зробити їх простими у застосуванні. Прошивка від користувачів для користувачів.&#35;BeExtended</string>
     <string name="dev_info">Про AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Переглянути наш вихідний код</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Розробник</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Модератор та розробник-аматор</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Розробник</string>
     <string name="designers">Дизайнери</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">Сповіщення ADB</string>
     <string name="adb_notify_summary">Відображати сповіщення, коли налагодження увімкнено</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB по мережі</string>
+    <string name="adb_over_network_summary">Увімкнути режим налагодження TCP/IP через мережеві інтерфейси (Wi\u2011Fi та USB мережі). Це налаштування скидається при перезавантаженні</string>
+    <string name="adb_over_network_warning">УВАГА: коли включено налагодження по мережі, пристрій відкритий для неконтрольованого доступу з усіх підключених мереж!\n\nВикористовуйте цю функцію тільки тоді, коли ви підключені до довірених мереж.\n\nВи дійсно хочете увімкнути цю функцію?</string>
+    <string name="adb_over_network_disallowed_error">Помилка: ADB по мережі можна включити тільки при підключенні до мережі Wi\u2011Fi або USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Опціїї меню налаштувань</string>
     <!-- Proximity wake -->
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">Підтвердіть скидання лічильників</string>
     <string name="app_ops_reset_confirm_mesg">Ви впевнені що хочете скинути лічильники?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Бурштиновий</string>
+    <string name="color_Carbon_700">Вуглець</string>
+    <string name="color_Blue_700">Синій</string>
+    <string name="color_Light_Blue_700">Блакитний</string>
+    <string name="color_Brown_700">Коричневий</string>
+    <string name="color_Cyan_700">Бірюзовий</string>
+    <string name="color_Green_700">Зелений</string>
+    <string name="color_Light_Green_700">Світло-зелений</string>
+    <string name="color_Grey_700">Сірий</string>
+    <string name="color_Blue_Grey_700">Синювато-сірий</string>
+    <string name="color_Indigo_700">Індиго</string>
+    <string name="color_Lime_700">Лайм</string>
+    <string name="color_Orange_700">Помаранчевий</string>
+    <string name="color_Deep_Orange_700">Жовтогарячий</string>
+    <string name="color_Pink_700">Рожевий</string>
+    <string name="color_Purple_700">Фіолетовий</string>
+    <string name="color_Deep_Purple_700">Багряний</string>
+    <string name="color_Vermilion_700">Червоний</string>
+    <string name="color_Teal_700">Морський</string>
+    <string name="color_Yellow_700">Жовтий</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Температура батареї</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

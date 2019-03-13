@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">O nas</string>
     <string name="aex_about_summary">Wprowadzenie i nasz zespół</string>
+    <string name="aex_about_info_summary">AOSP Extended to ROM oparty na AOSP, który zapewnia stokowe UI / UX z użytecznymi dostosowaniami. Oparty na AOSP zapewnia płynne działanie. Dodaliśmy przydatne dostosowania z różnych innych projektów open source i staraliśmy się, aby nasze rzeczy były proste. ROM użytkownika, dla użytkownika. # BeExtended</string>
     <string name="dev_info">O AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Zobacz nasz kod źródłowy</string>
@@ -37,7 +38,7 @@
     <string name="gplus_description">Dołącz do nas na Google+</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Zasubskrybuj nasz kanał na Telegramie</string>
-    <string name="web">Pobieralnia</string>
+    <string name="web">Centrum pobierania</string>
     <string name="web_description">Odwiedź nasz portal pobierania</string>
     <string name="help_translate">Tłumaczenie</string>
     <string name="help_translate_description">Chcesz przetłumaczyć AEX na Twój język ? Zobacz nasz Cowdin</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Deweloper</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Moderator i Deweloper początkujący</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Deweloper</string>
     <string name="designers">Projektanci</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">Pokaż powiadomienie o ADB</string>
     <string name="adb_notify_summary">Wyświetl powiadomienie, gdy debugowanie USB jest aktywne</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB przez sieć</string>
+    <string name="adb_over_network_summary">Włącz debugowanie TCP / IP za pośrednictwem interfejsów sieciowych (Wi\u2011Fi, USB networks) To ustawienie jest resetowane przy ponownym uruchomieniu</string>
+    <string name="adb_over_network_warning">Ostrzeżenie: gdy ADB przez sieć jest włączona, telefon jest otwarty dla włamań na wszystkich połączonych sieci!\n\nUżywaj tej funkcji tylko wtedy, gdy jesteś połączony z zaufanymi sieciami.\n\nCzy na pewno chcesz włączyć tę funkcję?</string>
+    <string name="adb_over_network_disallowed_error">BŁĄD: ADB przez sieć można włączyć tylko po podłączeniu do Wi\u2011Fi lub sieć USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opcje panelu ustawień</string>
     <!-- Proximity wake -->
@@ -117,7 +121,7 @@
     <!-- Themes -->
     <string name="theme_category_title">Motyw systemu</string>
     <string name="system_theme_style_title">Styl interfejsu</string>
-    <string name="system_theme_style_auto">Bazujacy na aktualnej tapecie</string>
+    <string name="system_theme_style_auto">Bazujący na aktualnej tapecie</string>
     <string name="system_theme_style_light">Jasny interfejs użytkownika</string>
     <string name="system_theme_style_dark">Ciemny interfejs użytkownika</string>
     <string name="system_theme_style_black">Czarny interfejs użytkownika</string>
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">Potwierdź zresetowanie liczników</string>
     <string name="app_ops_reset_confirm_mesg">Czy na pewno chcesz zresetować liczniki?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Bursztynowy</string>
+    <string name="color_Carbon_700">Karbon</string>
+    <string name="color_Blue_700">Niebieski</string>
+    <string name="color_Light_Blue_700">Jasnoniebieski</string>
+    <string name="color_Brown_700">Brązowy</string>
+    <string name="color_Cyan_700">Błękitny</string>
+    <string name="color_Green_700">Zielony</string>
+    <string name="color_Light_Green_700">Jasno zielony</string>
+    <string name="color_Grey_700">Szary</string>
+    <string name="color_Blue_Grey_700">Niebiesko szary</string>
+    <string name="color_Indigo_700">Indigo</string>
+    <string name="color_Lime_700">Limonka</string>
+    <string name="color_Orange_700">Pomarańczowy</string>
+    <string name="color_Deep_Orange_700">Ciemno pomarańczowy</string>
+    <string name="color_Pink_700">Różowy</string>
+    <string name="color_Purple_700">Fioletowy</string>
+    <string name="color_Deep_Purple_700">Ciemny fiolet</string>
+    <string name="color_Vermilion_700">Czerwony</string>
+    <string name="color_Teal_700">Niebiesko zielony</string>
+    <string name="color_Yellow_700">Żółty</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura akumulatora</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

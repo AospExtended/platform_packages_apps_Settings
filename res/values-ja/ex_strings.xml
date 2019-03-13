@@ -30,13 +30,14 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">私たちについて</string>
     <string name="aex_about_summary">私たちとチームの紹介</string>
+    <string name="aex_about_info_summary">AOSP Extended は AOSP ベースの ROM で, 標準 UI/UX の体験に便利なカスタマイズを提供します。AOSP に基づいているのでスムーズな体験を提供します。私たちは他の様々なオープンソースプロジェクトからの便利なカスタマイズを追加し、私達の ROM を単純にしておくことように試みました。 ユーザーによる、ユーザーのための ROM。&#35;BeExtended</string>
     <string name="dev_info">AOSP Extended について</string>
     <string name="github">GitHub</string>
     <string name="github_description">ソースコードを表示</string>
     <string name="gplus">Google+</string>
-    <string name="gplus_description">Google+コミュニティに参加する</string>
+    <string name="gplus_description">Google+ コミュニティに参加する</string>
     <string name="telegram">Telegram</string>
-    <string name="telegram_description">Telegramチャンネルを購読する</string>
+    <string name="telegram_description">Telegram チャンネルを購読する</string>
     <string name="web">ダウンロードセンター</string>
     <string name="web_description">ダウンロードポータルを表示</string>
     <string name="help_translate">翻訳</string>
@@ -49,27 +50,26 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">開発者</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">モデレーター兼アマチュア開発者</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">開発者</string>
     <string name="designers">デザイナー</string>
     <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
-    <string name="designer1_description">スレッドバーナー、ロゴ、壁紙</string>
+    <string name="designer1_description">スレッドバナー、ロゴ、壁紙</string>
     <string name="designer_2">Savio &#40;Wizper99&#41;</string>
-    <string name="designer2_description">クイック設定/Flingロゴ</string>
+    <string name="designer2_description">クイック設定/Fling ロゴ</string>
     <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
     <string name="designer3_description">壁紙、ブートアニメーション</string>
     <string name="designer_4">Harsh V23</string>
-    <string name="designer4_description">拡張機能、UIアイコン</string>
+    <string name="designer4_description">Extensions UI、アイコン</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">拡張機能UI、アイコン、時計のスタイル</string>
+    <string name="designer5_description">Extensions UI、アイコンや時計のスタイル</string>
     <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
     <string name="designer6_description">新規のブートアニメーション</string>
     <string name="maintainers">メンテナ</string>
     <string name="maintainers_title">公式メンテナ</string>
     <string name="maintainers_summary">正式サポート端末と各メンテナ</string>
     <!-- Maintainer section -->
-    <string name="maintainer_description">メンテナ：%1$s</string>
+    <string name="maintainer_description">メンテナ: %1$s</string>
     <string name="loading_devices">端末リストを読込中...</string>
     <string name="loading_devices_failed">端末リストの読込に失敗しました</string>
     <string name="devices_list_empty">リストが空です。再読込するにはアイコンをタップして下さい。</string>
@@ -81,10 +81,10 @@
     <string name="changelog_error">更新履歴の読込に失敗しました</string>
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
-    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
-    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力された時はロックを自動的に解除する</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">充電時にスリープ解除</string>
     <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時にスリープ解除する</string>
@@ -99,13 +99,17 @@
     <string name="summary_dashboard_suggestions_enabled">ダッシュボードの候補の表示が有効です</string>
     <string name="summary_dashboard_suggestions_disabled">ダッシュボードの候補の表示が無効です</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">CPU情報を表示</string>
+    <string name="show_cpu_info">CPU 情報を表示</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">現在のCPU情報をオーバーレイ表示する</string>
+    <string name="show_cpu_info_summary">現在の CPU 情報をオーバーレイ表示する</string>
     <!-- ADB debugging notifications -->
-    <string name="adb_notify">ADBの通知</string>
-    <string name="adb_notify_summary">Androidデバッグが有効になっている時に通知を表示する</string>
+    <string name="adb_notify">ADB の通知</string>
+    <string name="adb_notify_summary">Android デバッグが有効になっている時に通知を表示する</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ネットワーク経由の ADB</string>
+    <string name="adb_over_network_summary">ネットワークインターフェース (Wi\u2011Fi、USB ネットワーク) 経由での TCP/IP デバッグを有効にします。この設定は再起動時にリセットされます。</string>
+    <string name="adb_over_network_warning">警告: ネットワーク経由での ADB を有効にするとあなたの携帯電話は接続している全てのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続している時にのみ使用して下さい。\n\nこの機能を本当に有効にしますか?</string>
+    <string name="adb_over_network_disallowed_error">エラー: ネットワーク経由の ADB は Wi-Fi または USB ネットワークに接続されている場合にのみ有効にできます</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">ダッシュボードの設定</string>
     <!-- Proximity wake -->
@@ -116,55 +120,55 @@
     <string name="home_wake_button_summary">ホームボタンでの画面のスリープ解除を有効にする</string>
     <!-- Themes -->
     <string name="theme_category_title">システムテーマ</string>
-    <string name="system_theme_style_title">UIのスタイル</string>
+    <string name="system_theme_style_title">UI のスタイル</string>
     <string name="system_theme_style_auto">壁紙ベース</string>
-    <string name="system_theme_style_light">明るいUI</string>
-    <string name="system_theme_style_dark">暗いUI</string>
-    <string name="system_theme_style_black">黒いUI</string>
+    <string name="system_theme_style_light">明るい UI</string>
+    <string name="system_theme_style_dark">暗い UI</string>
+    <string name="system_theme_style_black">黒い UI</string>
     <string name="system_theme_style_extended">Extended UI</string>
-    <string name="system_theme_style_chocolate">チョコレートUI</string>
+    <string name="system_theme_style_chocolate">チョコレート UI</string>
     <string name="theme_applied_toast">テーマが適用されました</string>
     <string name="applying_theme_toast">テーマを適用中です。しばらくお待ち下さい...</string>
-    <string name="substratum_installed_title">Substratumオーバーレイがインストールされているため、システムテーマは使用できません。続行するには、Androidシステムを対象とする全てのオーバーレイをアンインストールして下さい。</string>
-    <string name="force_allow_system_themes_title">Substratumと一緒にシステムのテーマとフォントを許可する</string>
-    <string name="force_allow_system_themes_summary">Substratumのインストールの有無に関わらずのテーマとフォントオプションの使用を許可する</string>
-    <string name="force_theme_warning_title">警告！</string>
-    <string name="force_theme_warning_message">これによりSubstratumテーマとシステムテーマが競合する可能性があります。 この後どうなるかよく考ることを望みます。#DontBlameUsLater :D</string>
+    <string name="substratum_installed_title">Substratum オーバーレイがインストールされているためシステムテーマは使用できません。続行するには Android システムを対象とする全てのオーバーレイをアンインストールして下さい。</string>
+    <string name="force_allow_system_themes_title">Substratum と一緒にシステムのテーマとフォントを許可する</string>
+    <string name="force_allow_system_themes_summary">Substratum のインストールの有無に関わらずのテーマとフォントオプションの使用を許可する</string>
+    <string name="force_theme_warning_title">警告!</string>
+    <string name="force_theme_warning_message">これにより Substratum テーマとシステムテーマが競合する可能性があります。 この後どうなってしまうかよく考ることを望みます。#DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計のリセット</string>
     <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
     <string name="ok_string">OK</string>
     <!-- AEX OTA -->
-    <string name="aex_ota_title">AEXのアップデート</string>
+    <string name="aex_ota_title">AEX のアップデート</string>
     <string name="aex_ota_summary">最新のビルドをダウンロードする</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">LEDの色</string>
-    <string name="custom_light_on_time_title">LED点滅時の光っている時間（ms）</string>
-    <string name="custom_light_off_time_title">LED点滅時の消えている時間（ms）</string>
+    <string name="custom_light_title">LED の色</string>
+    <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ms)</string>
+    <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
     <string name="value_equals_default">既定</string>
     <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
     <!-- Density category -->
     <string name="density_category">解像度オプション</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinuxのステータス</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">SELinux のステータス</string>
+    <string name="selinux_status_disabled">無効</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g> です</string>
     <string name="sim_disabled">無効</string>
-    <string name="sim_missing">挿入されていないか、問題があります。</string>
-    <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続けますか？</string>
+    <string name="sim_missing">未検出または問題が発生しています</string>
+    <string name="sim_enabler_need_disable_sim">SIM カードはアクティベート解除されます。続けますか?</string>
     <string name="sim_enabler_will_disable_sim_title">注意</string>
-    <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータ通信に使用されます。続けますか？</string>
-    <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
+    <string name="sim_enabler_need_switch_data_service">この SIM は無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g> がデータ通信に使用されます。続けますか?</string>
+    <string name="sim_enabler_airplane_on">機内モードが ON になっている間はこの操作を実行することはできません</string>
     <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
-    <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
+    <string name="sim_enabler_both_inactive">全ての SIM カードを無効にはできません</string>
     <string name="sim_enabler_enabling">アクティベート中\u2026</string>
     <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
-    <string name="sub_activate_success">SIMをアクティベートしました</string>
+    <string name="sub_activate_success">SIM をアクティベートしました</string>
     <string name="sub_activate_failed">アクティベーションに失敗しました</string>
-    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sub_deactivate_success">SIM をアクティベート解除しました</string>
     <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択して下さい</string>
@@ -181,8 +185,8 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">モバイルデータ通信量</string>
     <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fiデータ使用量</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fiデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi-Fi データ使用量</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi-Fi データ使用量を有効化する</string>
     <string name="full_gesture_mode_title">全てのジェスチャーモードを有効化</string>
     <string name="full_gesture_mode_summary">このモードでは戻るボタンが無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションを起動しアプリ一覧をスクロールできます。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。キーボード表示時はナビゲーションバー長押しでテキストカーソルに移動します。</string>
     <string name="full_gesture_mode_dt2s_title">ダブルタップでスリープ機能を有効化</string>
@@ -193,9 +197,9 @@
     <string name="expanded_hide_status">ステータスバーを非表示</string>
     <string name="expanded_hide_navigation">ナビゲーションバーを非表示</string>
     <string name="expanded_hide_both">両方を非表示</string>
-    <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」をオフにして下さい</string>
+    <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」を OFF にして下さい</string>
     <string name="expanded_desktop_state">拡張の状態</string>
-    <string name="expanded_enabled_for_all">すべて拡張済</string>
+    <string name="expanded_enabled_for_all">全て拡張済</string>
     <string name="expanded_user_configurable">ユーザー設定</string>
     <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
     <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
@@ -211,7 +215,7 @@
     <string name="display_rotation_270_title">270度</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">ミュート、メディアなし</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">オン（ミュート、メディアなし）</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">ON (ミュート、メディアなし)</string>
     <!-- Swipe fp to dismiss notifications -->
     <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには端末裏側の指紋センサー上で左右にスワイプして下さい</string>
@@ -287,7 +291,7 @@
     <string name="app_ops_toast_window">トーストメッセージ</string>
     <string name="app_ops_use_alarm_volume">アラームの音量</string>
     <string name="app_ops_use_audio_focus">音声フォーカス</string>
-    <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth の音量</string>
     <string name="app_ops_use_master_volume">主音量</string>
     <string name="app_ops_use_media_buttons">メディアボタン</string>
     <string name="app_ops_use_media_volume">メディアの音量</string>
@@ -300,7 +304,7 @@
     <string name="app_ops_use_fingerprint">指紋認証</string>
     <string name="app_ops_add_voicemail">ボイスメール</string>
     <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
-    <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
+    <string name="app_ops_scan_wifi">Wi-Fi ネットワークのスキャン</string>
     <string name="app_ops_change_wallpaper">壁紙の変更</string>
     <string name="app_ops_assist_structure">ストラクチャのアシスト</string>
     <string name="app_ops_assist_screenshot">スクリーンショット</string>
@@ -319,25 +323,48 @@
     <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
     <string name="app_ops_answer_phone_calls">着信への応答</string>
     <string name="app_ops_run_any_in_background">バックグラウンドでの実行</string>
-    <string name="app_ops_change_wifi_state">Wi-Fiの状態の変更</string>
+    <string name="app_ops_change_wifi_state">Wi-Fi の状態の変更</string>
     <string name="app_ops_request_delete_packages">パッケージを削除</string>
     <string name="app_ops_bind_accessibility_service">アクセシビリティに割り当てる</string>
     <string name="app_ops_accept_handover">ハンドオーバーを受容</string>
     <string name="app_ops_manage_ipsec_tunnels">IPトンネルを管理</string>
     <string name="app_ops_start_foreground">フォアグラウンドで起動する</string>
-    <string name="app_ops_bluetooth_scan">Bluetoothのスキャン</string>
+    <string name="app_ops_bluetooth_scan">Bluetooth のスキャン</string>
     <string name="app_ops_boot_completed">自動実行</string>
     <!-- App ops detail -->
-    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g>（<xliff:g id="count">%2$s</xliff:g>使用）</string>
-    <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g>を許可しました</string>
-    <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g>wow拒否しました</string>
-    <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g>を許可、<xliff:g id="count">%2$s</xliff:g>を拒否しました。</string>
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (<xliff:g id="count">%2$s</xliff:g> 使用)</string>
+    <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g> を許可しました</string>
+    <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g> を拒否しました</string>
+    <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g> を許可、<xliff:g id="count">%2$s</xliff:g> を拒否しました</string>
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">ユーザーアプリを表示</string>
     <string name="app_ops_show_system_apps">内蔵アプリを表示</string>
     <string name="app_ops_reset_counters">許可/拒否のカウンターをリセット</string>
     <string name="app_ops_reset_confirm_title">カウンターのリセットの確認</string>
-    <string name="app_ops_reset_confirm_mesg">カウンターをリセットしてもよろしいですか？</string>
+    <string name="app_ops_reset_confirm_mesg">カウンターをリセットしてもよろしいですか?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">アンバー</string>
+    <string name="color_Carbon_700">カーボン</string>
+    <string name="color_Blue_700">ブルー</string>
+    <string name="color_Light_Blue_700">ライトブルー</string>
+    <string name="color_Brown_700">ブラウン</string>
+    <string name="color_Cyan_700">シアン</string>
+    <string name="color_Green_700">グリーン</string>
+    <string name="color_Light_Green_700">ライトグリーン</string>
+    <string name="color_Grey_700">グレー</string>
+    <string name="color_Blue_Grey_700">ブルーグレー</string>
+    <string name="color_Indigo_700">インディゴ</string>
+    <string name="color_Lime_700">ライム</string>
+    <string name="color_Orange_700">オレンジ</string>
+    <string name="color_Deep_Orange_700">ディープオレンジ</string>
+    <string name="color_Pink_700">ピンク</string>
+    <string name="color_Purple_700">パープル</string>
+    <string name="color_Deep_Purple_700">ディープパープル</string>
+    <string name="color_Vermilion_700">レッド</string>
+    <string name="color_Teal_700">ティール</string>
+    <string name="color_Yellow_700">イエロー</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">バッテリー温度</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

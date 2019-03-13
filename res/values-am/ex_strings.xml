@@ -63,4 +63,6 @@
     <!-- App ops menu options -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Über uns</string>
     <string name="aex_about_summary">Unser Team und was wir machen</string>
+    <string name="aex_about_info_summary">AOSP Extended ist eine AOSP-basierte ROM, die eine Bestandsaufnahme/UX-Erfahrung mit nützlichen Anpassungen bietet. Da sie auf AOSP basiert, bietet sie eine glatte Erfahrung. Wir haben nützliche Anpassungen aus verschiedenen anderen Open-Source-Projekten hinzugefügt und versucht, unsere Dinge einfach zu halten. Eine ROM durch einen Benutzer, für einen Benutzer.&#35;BeExtended</string>
     <string name="dev_info">Über AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Sehen Sie sich unseren Quellcode an</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Entwickler</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Moderator und ein Amateur-Entwickler</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Entwickler</string>
     <string name="designers">Designer</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">ADB Benachrichtigung</string>
     <string name="adb_notify_summary">Benachrichtigung anzeigen, wenn USB oder Netzwerk Debugging aktiviert ist</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB über Netzwerk</string>
+    <string name="adb_over_network_summary">TCP/IP-Debugging über Netzwerkschnittstellen (WLAN, USB-Netzwerke) aktivieren. Diese Einstellung wird beim Neustarten zurückgesetzt</string>
+    <string name="adb_over_network_warning">WARNUNG: Wenn ADB übers Netzwerk aktiviert ist, kann auf Ihr Gerät von jedem verbundenen Netzwerk zugegriffen werden!\n\nDiese Funktion sollte nur verwendet werden, wenn Sie sich in einem vertrauenswürdigen Netzwerk befinden.\n\nMöchten Sie diese Funktion trotzdem aktivieren?</string>
+    <string name="adb_over_network_disallowed_error">Fehler: ADB über Netzwerk kann nur aktiviert werden, wenn eine WLAN- oder USB-Netzwerkverbindung besteht!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Dashboard-Optionen</string>
     <!-- Proximity wake -->
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">Zurücksetzen des Zählers bestätigen</string>
     <string name="app_ops_reset_confirm_mesg">Wollen Sie den Zähler wirklich zurücksetzen?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Bernstein</string>
+    <string name="color_Carbon_700">Karbon</string>
+    <string name="color_Blue_700">Blau</string>
+    <string name="color_Light_Blue_700">Hellblau</string>
+    <string name="color_Brown_700">Braun</string>
+    <string name="color_Cyan_700">Cyan</string>
+    <string name="color_Green_700">Grün</string>
+    <string name="color_Light_Green_700">Hellgrün</string>
+    <string name="color_Grey_700">Grau</string>
+    <string name="color_Blue_Grey_700">Blaugrau</string>
+    <string name="color_Indigo_700">Indigo</string>
+    <string name="color_Lime_700">Limette</string>
+    <string name="color_Orange_700">Orange</string>
+    <string name="color_Deep_Orange_700">Dunkles Orange</string>
+    <string name="color_Pink_700">Pink</string>
+    <string name="color_Purple_700">Lila</string>
+    <string name="color_Deep_Purple_700">Dunkles lila</string>
+    <string name="color_Vermilion_700">Rot</string>
+    <string name="color_Teal_700">Teal</string>
+    <string name="color_Yellow_700">Gelb</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Akku Temperatur</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

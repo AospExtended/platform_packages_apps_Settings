@@ -16,29 +16,67 @@
     <!-- About phone screen, Extended version -->
     <!-- About phone screen, build date -->
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Leta reda på fingeravtryckssensorn på framsidan av mobilen.</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">Om oss</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="designer4_description">Tillägg-gränssnitt, ikoner</string>
+    <string name="designer5_description">Tillägg-gränssnitt, stil på ikoner och klockan</string>
     <!-- Maintainer section -->
+    <string name="loading_devices">Laddar enhetslista ...</string>
     <!-- Changelog -->
+    <string name="changelog_title">Ändringslogg</string>
+    <string name="changelog_summary">Senaste ändringar</string>
+    <string name="changelog_loading">Läser in ändringslogg \u2026</string>
+    <string name="changelog_error">Kan inte ladda ändringsloggen</string>
     <!-- Scramble PIN Layout on Lockscreen -->
     <!-- Quick unlock -->
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Vakna vid laddning</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Väck enheten om laddaren är ansluten/urkopplad.</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">Laddningsvibration</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Skärmdumpsljud</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Visa CPU-info</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <!-- ADB debugging notifications -->
     <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Förhindra oavsiktlig väckning</string>
+    <string name="proximity_wake_summary">Kontrollera närhetssensorn innan väckning av skärmen</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">Väck med hemknapp</string>
     <!-- Themes -->
+    <string name="theme_category_title">Systemtema</string>
+    <string name="system_theme_style_title">Gränssnitt</string>
+    <string name="system_theme_style_light">Ljust gränssnitt</string>
+    <string name="system_theme_style_dark">Mörkt gränssnitt</string>
+    <string name="system_theme_style_black">Svart gränssnitt</string>
+    <string name="system_theme_style_extended">Utökat gränssnitt</string>
+    <string name="theme_applied_toast">Temat tillämpades.</string>
+    <string name="applying_theme_toast">Tillämpar tema, var vänlig vänta ...</string>
     <!-- Battery stats reset -->
+    <string name="ok_string">OK</string>
     <!-- AEX OTA -->
     <!-- Custom light color -->
+    <string name="custom_light_on_time_title">Tid PÅ vid blinkande ljus (ms)</string>
+    <string name="custom_light_off_time_title">Tid AV vid blinkande ljus (ms)</string>
+    <string name="value_equals_default">stand.</string>
+    <string name="show_light_on_zen_title">Blinka under Stör ej</string>
     <!-- Density category -->
     <!-- Selinux -->
+    <string name="selinux_status_disabled">Inaktiverad</string>
     <!-- Manual provisioning support -->
+    <string name="sim_disabled">inaktiverad</string>
+    <string name="sim_enabler_enabling">Aktiverar \u2026</string>
+    <string name="sim_enabler_disabling">Inaktiverar \u2026</string>
     <!-- Sizes for pattern lockscreen -->
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
@@ -46,21 +84,57 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <!-- Per-app data restrictions -->
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Utökat skrivbord</string>
+    <string name="expanded_hide_nothing">Dölj ingenting</string>
+    <string name="expanded_hide_status">Dölj statusfält</string>
+    <string name="expanded_hide_navigation">Dölj navigeringsfält</string>
+    <string name="expanded_hide_both">Dölj båda</string>
+    <string name="expanded_enabled_for_all">Aktivera för alla</string>
+    <string name="expanded_user_configurable">Modifierbar</string>
+    <string name="expanded_desktop_title">Utökade skrivbordsalternativ</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotera automatiskt</string>
+    <string name="display_rotation_disabled">Inaktiverad</string>
+    <string name="display_rotation_unit">grader</string>
+    <string name="display_rotation_category_title">Tillåtna vinklar</string>
+    <string name="display_rotation_0_title">0 grader</string>
+    <string name="display_rotation_90_title">90 grader</string>
+    <string name="display_rotation_180_title">180 grader</string>
+    <string name="display_rotation_270_title">270 grader</string>
     <!-- Media gestures -->
     <!-- Swipe fp to dismiss notifications -->
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lägre ljusstyrka om det är nattljus</string>
+    <string name="night_auto_value_disabled">Inaktiverad</string>
+    <string name="night_auto_value_min">Lägsta ljusstyrka</string>
+    <string name="night_bright_low">Låg ljusstyrka</string>
+    <string name="night_bright_midlow">Medel ljusstyrka</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Stil på snabbinställningar</string>
+    <string name="qs_tile_style_default">Standard</string>
+    <string name="qs_tile_style_square">Kvadrat</string>
+    <string name="qs_tile_style_rounded_square">Rundad kvadrat</string>
+    <string name="qs_tile_style_squircle">Kvirkel</string>
+    <string name="qs_tile_style_tear_drop">Droppe</string>
     <!-- Increasing ring tone volume -->
     <!-- Volume link notification -->
     <!-- Font picker -->
+    <string name="font_picker_progress">Tillämpar nytt typsnitt \u2026</string>
     <!-- Notification log -->
     <!-- Running services -->
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Plats</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_location">plats</string>
+    <string name="app_ops_toast_window">toast-meddelanden</string>
+    <string name="app_ops_mock_location">skenplats</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (<xliff:g id="count">%2$s</xliff:g> används)</string>
+    <string name="app_ops_both_count">Tillåtna: <xliff:g id="count">%1$s</xliff:g>, nekade: <xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

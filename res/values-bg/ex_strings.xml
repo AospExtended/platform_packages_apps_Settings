@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">За нас</string>
     <string name="aex_about_summary">Нашето представяне и екип</string>
+    <string name="aex_about_info_summary">AOSP Extended е AOSP базиран ром, който предоставя стоково UI/UX изживяване с полезни персонализации. Бидейки базиран на AOSP предлага гладко изживяване. Вложили сме полезни персонализации от различни други опън проекти с отворен код, опитвайки се да поддържаме нашите неща опростени. Ром от потребители, за потребители.&#35;BeExtended</string>
     <string name="dev_info">За AospExtended</string>
     <string name="github">GitHub</string>
     <string name="github_description">Разгледай изходния код</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Разработчик</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Модератор и един аматьорски разработчик</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Разработчик</string>
     <string name="designers">Дизайнери</string>
@@ -103,17 +103,21 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Овърлей на екрана, показващ текущото CPU състояние</string>
     <!-- ADB debugging notifications -->
-    <string name="adb_notify">ADB известия</string>
+    <string name="adb_notify">Известия в режим на отстраняване на грешки</string>
     <string name="adb_notify_summary">Показвай уведомления, когато USB или мрежовото откриване на грешки е активирано</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">Режим за отстраняване на грешки през мрежата</string>
+    <string name="adb_over_network_summary">Разреши TCP/IP откриване на грешки през мрежови интерфейси (Wi\u2011Fi, USB мрежи). Тази настройка се нулира при рестартиране</string>
+    <string name="adb_over_network_warning">Предупреждение: Когато режима за отстраняване на грешки през мрежата е разрешен, телефонът ви е отворен за проникване от всички свързани мрежи! \n\nИзползвай тази функция, само когато сте свързан с надеждни мрежи.\n\nНаистина ли искате да разрешите тази функция?</string>
+    <string name="adb_over_network_disallowed_error">ГРЕШКА: режим за отстраняване на грешки през мрежата може да бъде разрешен само когато сте свързани с Wi\u2011Fi или USB мрежа!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Опции на менюто за настройки</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Предотвратяване на случайно събуждане</string>
     <string name="proximity_wake_summary">Провери сензора за близост преди събуждане на екрана</string>
     <!-- Home button wake -->
-    <string name="home_wake_button_title">Събуждане с Home бутон</string>
-    <string name="home_wake_button_summary">Разреши на Home бутона да събужда екрана</string>
+    <string name="home_wake_button_title">Събуждане с бутон Начало</string>
+    <string name="home_wake_button_summary">Разреши на бутон Начало да събужда екрана</string>
     <!-- Themes -->
     <string name="theme_category_title">Системна тема</string>
     <string name="system_theme_style_title">Стил на интерфейса</string>
@@ -122,10 +126,10 @@
     <string name="system_theme_style_dark">Тъмен интерфейс</string>
     <string name="system_theme_style_black">Черен интерфейс</string>
     <string name="system_theme_style_extended">Разширен интерфейс</string>
-    <string name="system_theme_style_chocolate">Chocolate UI</string>
+    <string name="system_theme_style_chocolate">Шоколадов интерфейс</string>
     <string name="theme_applied_toast">Темата е приложена.</string>
-    <string name="applying_theme_toast">Темата се прилага, моля почакайте...</string>
-    <string name="substratum_installed_title">Системните теми са недостъпни, защото е инсталиран Substratum overlay. Моля, деинсталирайте всички overlays, насочени към системата Android, за да продължите.</string>
+    <string name="applying_theme_toast">Темата се прилага, моля изчакайте...</string>
+    <string name="substratum_installed_title">Системните теми са недостъпни, защото е инсталиран Субстратум слой. Моля, деинсталирайте всички слоеве, насочени към системата Андроид, за да продължите.</string>
     <string name="force_allow_system_themes_title">Позволи използването на системни теми и шрифтове заедно със субстратум</string>
     <string name="force_allow_system_themes_summary">Позволява ви да използвате следните теми и шрифтове, без значение дали е инсталиран субстратум.</string>
     <string name="force_theme_warning_title">Внимание!</string>
@@ -135,13 +139,13 @@
     <string name="battery_stats_message">Историята за използване на батерията ще бъде изчистена</string>
     <string name="ok_string">Добре</string>
     <!-- AEX OTA -->
-    <string name="aex_ota_title">AEX актуализации</string>
+    <string name="aex_ota_title">AEX Актуализации</string>
     <string name="aex_ota_summary">Свали последната сборка</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Цвят на известието</string>
     <string name="custom_light_on_time_title">Време за светене на светодиода (мс)</string>
     <string name="custom_light_off_time_title">Време на паузата при пулсиране (мс)</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">За глухи</string>
     <string name="show_light_on_zen_title">Пулсиране при включен режим Не безпокойте</string>
     <!-- Density category -->
     <string name="density_category">Опции за плътност</string>
@@ -184,9 +188,9 @@
     <string name="data_usage_app_restrict_wifi">WiFi данни</string>
     <string name="data_usage_app_restrict_wifi_summary">Разреши използването на WiFi</string>
     <string name="full_gesture_mode_title">Разреши използването на жестове</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Разреши двоен тап за заспиване</string>
-    <string name="full_gesture_mode_dt2s_summary">Натиснете върху празно пространство но не върху Home бутона за изключване на екрана.</string>
+    <string name="full_gesture_mode_summary">Тази опция изключва бутона назад и може да използвате като бутон назад плъзването наляво на навигационната лента. Плъзването на дясно все още ще отваря меню скорошни приложението. За да излезете на начален екран може да натиснете на всяко свободно място, не само на началния бутон. Когато клавиатурата е показана продължително натиснете върху навигационната лента за местене на курсора на текста.</string>
+    <string name="full_gesture_mode_dt2s_title">Разреши двукратно докосване за заспиване</string>
+    <string name="full_gesture_mode_dt2s_summary">Натиснете върху празно пространство, но не върху началния бутон за изключване на екрана.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Разширен екран</string>
     <string name="expanded_hide_nothing">Не скривай нищо</string>
@@ -222,8 +226,8 @@
     <string name="night_brightness_value_title">Намалите яркостта, ако е включен режим нощна светлина</string>
     <string name="night_auto_value_disabled">Деактивирано</string>
     <string name="night_auto_value_min">Минимална яркост</string>
-    <string name="night_bright_low">Ниска яркост</string>
-    <string name="night_bright_midlow">Ниска яркост</string>
+    <string name="night_bright_low">Слаба яркост</string>
+    <string name="night_bright_midlow">Средно слаба яркост</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Текст на плочките в бързи настройки</string>
     <string name="qs_tile_style_default">По подразбиране</string>
@@ -232,14 +236,135 @@
     <string name="qs_tile_style_squircle">Комбинация от кръг и квадрат</string>
     <string name="qs_tile_style_tear_drop">Сълза</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Увеличаваща се сила на звука при звънене</string>
+    <string name="increasing_ring_min_volume_title">Начална сила на звука</string>
+    <string name="increasing_ring_ramp_up_time_title">Време на увеличение</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Връзка между сила на звука при звънене&amp; и известия</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Шрифт</string>
+    <string name="font_picker_progress">Прилагане на нов шрифт\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">Показвай регистър на история на известия</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">Процеси на заден план</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Местоположение</string>
+    <string name="app_ops_cat_personal">Лични</string>
+    <string name="app_ops_cat_messaging">Съобщения</string>
+    <string name="app_ops_cat_media">Медия</string>
+    <string name="app_ops_cat_device">Устройство</string>
+    <string name="app_ops_cat_bootup">Зареждане</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">камера</string>
+    <string name="app_ops_access_location">местоположение</string>
+    <string name="app_ops_access_notifications">известия</string>
+    <string name="app_ops_activate_vpn">Виртуална Частна Мрежа (VPN)</string>
+    <string name="app_ops_auto_start">автоматично стартиране</string>
+    <string name="app_ops_delete_call_log">изтриване на списъка с обаждания</string>
+    <string name="app_ops_delete_contacts">изтриване на контакти</string>
+    <string name="app_ops_delete_mms">изтриване на MMS</string>
+    <string name="app_ops_delete_sms">изтриване на SMS</string>
+    <string name="app_ops_draw_on_top">изтегли отгоре</string>
+    <string name="app_ops_get_usage_stats">вземи статистика за използване</string>
+    <string name="app_ops_keep_device_awake">дръж буден</string>
+    <string name="app_ops_make_phone_call">направи обаждане</string>
+    <string name="app_ops_modify_calendar">актуализиране на календара</string>
+    <string name="app_ops_modify_call_log">актуализиране на списъка с обаждания</string>
+    <string name="app_ops_modify_clipboard">промяна на клипборда</string>
+    <string name="app_ops_modify_contacts">актуализиране на контакти</string>
+    <string name="app_ops_modify_settings">актуализиране на настройките</string>
+    <string name="app_ops_mute_unmute_microphone">без/със звук микрофон</string>
+    <string name="app_ops_play_audio">изпълнение на аудио</string>
+    <string name="app_ops_post_notification">публикува известия</string>
+    <string name="app_ops_project_media">проект медия</string>
+    <string name="app_ops_read_calendar">четене на календара</string>
+    <string name="app_ops_read_call_log">четене на списъка с повикванията</string>
+    <string name="app_ops_read_clipboard">четене на клипборда</string>
+    <string name="app_ops_read_contacts">четене на контактите</string>
+    <string name="app_ops_read_mms">четене на MMS</string>
+    <string name="app_ops_read_sms">четене на SMS</string>
+    <string name="app_ops_receive_sms">получаване на SMS</string>
+    <string name="app_ops_record_audio">запис на аудио</string>
+    <string name="app_ops_send_mms">изпращане на MMS</string>
+    <string name="app_ops_send_sms">изпращане на SMS</string>
+    <string name="app_ops_toast_window">съобщения от бюлетина</string>
+    <string name="app_ops_use_alarm_volume">сила на звука на будилника</string>
+    <string name="app_ops_use_audio_focus">аудио фокус</string>
+    <string name="app_ops_use_bluetooth_volume">Сила на звука за блутуут устройства</string>
+    <string name="app_ops_use_master_volume">главен контрол на звука</string>
+    <string name="app_ops_use_media_buttons">мултимедийни бутони</string>
+    <string name="app_ops_use_media_volume">сила на звука за мултимедия</string>
+    <string name="app_ops_use_notification_volume">сила на звука за уведомление</string>
+    <string name="app_ops_use_ring_volume">сила на звука на мелодията</string>
+    <string name="app_ops_use_vibrate">вибрация при докосване (обратна връзка)</string>
+    <string name="app_ops_use_voice_volume">сила на звука при разговор</string>
+    <string name="app_ops_write_mms">напишете MMS</string>
+    <string name="app_ops_write_sms">напиши SMSe</string>
+    <string name="app_ops_use_fingerprint">пръстов отпечатък</string>
+    <string name="app_ops_add_voicemail">гласова поща</string>
+    <string name="app_ops_read_phone_state">достъп до състоянието на телефона</string>
+    <string name="app_ops_scan_wifi">Търсене на безжична мрежа</string>
+    <string name="app_ops_change_wallpaper">промяна на тапета</string>
+    <string name="app_ops_assist_structure">използвайте структура за подпомагане</string>
+    <string name="app_ops_assist_screenshot">снимка на екрана</string>
+    <string name="app_ops_use_body_sensors">сензори за тяло</string>
+    <string name="app_ops_read_cell_broadcasts">регистрирай излъчването на антенна клетка</string>
+    <string name="app_ops_mock_location">мнимо местоположение</string>
+    <string name="app_ops_read_external_storage">прочети външ. хран.</string>
+    <string name="app_ops_write_external_storage">запиши външ. хран.</string>
+    <string name="app_ops_turn_on_screen">включване на екрана</string>
+    <string name="app_ops_get_accounts">акаунти на устройството</string>
+    <string name="app_ops_run_in_background">изпълни на заден план</string>
+    <string name="app_ops_accessibility_volume">достъпност до ниво на звука</string>
+    <string name="app_ops_read_phone_numbers">четене на телефонните номера.</string>
+    <string name="app_ops_request_install_packages">инсталиране на пакети</string>
+    <string name="app_ops_picture_in_picture">картина в картината</string>
+    <string name="app_ops_app_start_foreground">стартиране на преден план</string>
+    <string name="app_ops_answer_phone_calls">отговор на обаждане</string>
+    <string name="app_ops_run_any_in_background">работи на заден план</string>
+    <string name="app_ops_change_wifi_state">променете състоянието на Wi-Fi</string>
+    <string name="app_ops_request_delete_packages">изтриване на пакети</string>
+    <string name="app_ops_bind_accessibility_service">назначаване на съдостъпност</string>
+    <string name="app_ops_accept_handover">приеми предаване</string>
+    <string name="app_ops_manage_ipsec_tunnels">управлявайте Ip тунелите</string>
+    <string name="app_ops_start_foreground">стартиране на преден план</string>
+    <string name="app_ops_bluetooth_scan">сканиране чрез блутуут</string>
+    <string name="app_ops_boot_completed">автоматично стартиране</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s </xliff:g> (използван <xliff:g id="count">%2$s </xliff:g>)</string>
+    <string name="app_ops_allowed_count">Разрешени <xliff:g id="count" example="2 times">%s </xliff:g></string>
+    <string name="app_ops_ignored_count">Забранени <xliff:g id="count" example="2 times">%s </xliff:g></string>
+    <string name="app_ops_both_count">Разрешени <xliff:g id="count">%1$s </xliff:g>, забранени <xliff:g id="count">%2$s </xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Покажи потребителски приложения</string>
+    <string name="app_ops_show_system_apps">Покажи вградените приложения</string>
+    <string name="app_ops_reset_counters">Нулиране на позволи/забрани броячи</string>
+    <string name="app_ops_reset_confirm_title">Потвърдете нулирането на броячите</string>
+    <string name="app_ops_reset_confirm_mesg">Наистина ли желаете да нулирате броячите?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Кехлибар</string>
+    <string name="color_Carbon_700">Карбон</string>
+    <string name="color_Blue_700">Синьо</string>
+    <string name="color_Light_Blue_700">Светло синьо</string>
+    <string name="color_Brown_700">Кафяво</string>
+    <string name="color_Cyan_700">Синьо-зелен</string>
+    <string name="color_Green_700">Зелено</string>
+    <string name="color_Light_Green_700">Светло зелено</string>
+    <string name="color_Grey_700">Сиво</string>
+    <string name="color_Blue_Grey_700">Синьо сиво</string>
+    <string name="color_Indigo_700">Индиго</string>
+    <string name="color_Lime_700">Лайм</string>
+    <string name="color_Orange_700">Оранжево</string>
+    <string name="color_Deep_Orange_700">Тъмно оранжево</string>
+    <string name="color_Pink_700">Розово</string>
+    <string name="color_Purple_700">Лилаво</string>
+    <string name="color_Deep_Purple_700">Тъмно лилаво</string>
+    <string name="color_Vermilion_700">Червено</string>
+    <string name="color_Teal_700">Тъмно синьо-зелен</string>
+    <string name="color_Yellow_700">Жълто</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Температура на батерията</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

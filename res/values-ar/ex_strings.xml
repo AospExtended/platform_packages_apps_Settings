@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">من نحن</string>
     <string name="aex_about_summary">مقدمتنا وفريقنا</string>
+    <string name="aex_about_info_summary">AOSP Extended عبارة عن روم قائم على AOSP والذي يوفر تجربة UI / UX رسمية مع تخصيصات مفيدة. بما انه مبني على AOSP فإنه يوفر تجربة سلسة. لقد أضفنا تخصيصات مفيدة من العديد من المشروعات الأخرى المفتوحة المصدر وحاولنا أن نبقي أشياءنا بسيطة. ROM من قبل المستخدم، للمستخدم.&#35;BeExtended</string>
     <string name="dev_info">حول AospExtended</string>
     <string name="github">موقع Github</string>
     <string name="github_description">عرض الكود المصدري الخاص بنا</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">المطور</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">المشرف والمطور الهاوي</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">المطور</string>
     <string name="designers">المصممين</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">إشعار ADB</string>
     <string name="adb_notify_summary">عرض إعلام عند تفعيل تصحيح أخطاء Usb</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB عبر الشبكة</string>
+    <string name="adb_over_network_summary">تفعيل وضع تصحيح اخطاء TCP/IP عبر واجهات شبكات الاتصال (الشبكة اللاسلكية، USB)، هذا الوضع يعاد تعيينه عند إعادة تشغيل الجهاز</string>
+    <string name="adb_over_network_warning">تحذير: عند تمكين ADB عبر الشبكة، يصبح هاتفك عرضة للتطفل على جميع الشبكات المتصل بها!\n\nاستخدم هذه الميزة فقط عندما تكون متصلاً بشبكات موثوق بها.\n\nهل تريد حقا تمكين هذه الوظيفة؟</string>
+    <string name="adb_over_network_disallowed_error">خطأ: يمكن تمكين ADB عبر الشبكة فقط عند الاتصال بشبكة Wi-Fi أو USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">خيارات لوحة التحكم</string>
     <!-- Proximity wake -->
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">تأكيد إعادة تعيين العدادات</string>
     <string name="app_ops_reset_confirm_mesg">هل أنت متأكد من رغبتك في إعادة تعيين العدادات؟</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">كهرماني</string>
+    <string name="color_Carbon_700">الكربون</string>
+    <string name="color_Blue_700">أزرق</string>
+    <string name="color_Light_Blue_700">أزرق فاتح</string>
+    <string name="color_Brown_700">بني</string>
+    <string name="color_Cyan_700">سماوي</string>
+    <string name="color_Green_700">أخضر</string>
+    <string name="color_Light_Green_700">أخضر فاتح</string>
+    <string name="color_Grey_700">رمادي</string>
+    <string name="color_Blue_Grey_700">أزرق رمادي</string>
+    <string name="color_Indigo_700">نيلي</string>
+    <string name="color_Lime_700">ليموني</string>
+    <string name="color_Orange_700">برتقالي</string>
+    <string name="color_Deep_Orange_700">برتقالي مشبّع</string>
+    <string name="color_Pink_700">وردي</string>
+    <string name="color_Purple_700">أرجواني</string>
+    <string name="color_Deep_Purple_700">أرجواني مشبّع</string>
+    <string name="color_Vermilion_700">أحمر</string>
+    <string name="color_Teal_700">أزرق مخضّر</string>
+    <string name="color_Yellow_700">أصفر</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">درجة حرارة البطارية</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

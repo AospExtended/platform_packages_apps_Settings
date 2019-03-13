@@ -49,7 +49,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">개발자</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">중재자 및 아마추어 개발자</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">개발자</string>
     <string name="designers">디자이너</string>
@@ -340,4 +339,6 @@
     <string name="app_ops_reset_confirm_mesg">정말로 카운터를 초기화합니까?</string>
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

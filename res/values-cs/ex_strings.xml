@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">O nás</string>
     <string name="aex_about_summary">Naše představení a náš tým</string>
+    <string name="aex_about_info_summary">AOSP Extended je ROM založená na AOSP, která poskytuje uživatelské rozhraní UI/UX s užitečnými úpravami. Základem AOSP je poskytnout bezproblémové zážitky. Přidali jsme užitečná přizpůsobení z různých projektů s otevřeným zdrojovým kódem a snažili jsme se udržet jednoduchost. ROM od uživatelů pro uživatele.&#35;BeExtended</string>
     <string name="dev_info">O AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Zobrazit náš zdrojový kód</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Vývojář</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Moderátor a amatérský vývojář</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Vývojář</string>
     <string name="designers">Designéři</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">ADB oznámení</string>
     <string name="adb_notify_summary">Zobrazit oznámení, když je aktivní ladění systému android</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB přes síť</string>
+    <string name="adb_over_network_summary">Povolit ladění přes TCP/IP síťové připojení (např. Wi\u2011Fi nebo USB síť). Toto nastavení bude obnoveno po restartu</string>
+    <string name="adb_over_network_warning">VAROVÁNÍ: Když je ADB přes síť aktivní, váš telefon je otevřen pro vniknutí jakéhokoliv zařízení ze sítě!\n\nPoužívejte tuto funkci jen když jste připojen na důvěryhodné síti.\n\nChcete opravdu zapnout tuto funkci?</string>
+    <string name="adb_over_network_disallowed_error">CHYBA: ADB přes síť může být povoleno pouze při připojení k Wi\u2011Fi nebo USB síti!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Možnosti hlavního panelu</string>
     <!-- Proximity wake -->
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">Potvrdit vynulování čítačů</string>
     <string name="app_ops_reset_confirm_mesg">Jste si jisti, že chcete vynulovat čítače?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Jantarová</string>
+    <string name="color_Carbon_700">Černá</string>
+    <string name="color_Blue_700">Modrá</string>
+    <string name="color_Light_Blue_700">Světle modrá</string>
+    <string name="color_Brown_700">Hnědá</string>
+    <string name="color_Cyan_700">Tyrkysová</string>
+    <string name="color_Green_700">Zelená</string>
+    <string name="color_Light_Green_700">Světle zelená</string>
+    <string name="color_Grey_700">Šedá</string>
+    <string name="color_Blue_Grey_700">Modro šedá</string>
+    <string name="color_Indigo_700">Tmavě modrá</string>
+    <string name="color_Lime_700">Limetková</string>
+    <string name="color_Orange_700">Oranžová</string>
+    <string name="color_Deep_Orange_700">Tmavě oranžová</string>
+    <string name="color_Pink_700">Růžová</string>
+    <string name="color_Purple_700">Fialová</string>
+    <string name="color_Deep_Purple_700">Tmavě fialová</string>
+    <string name="color_Vermilion_700">Červená</string>
+    <string name="color_Teal_700">Modrozelená</string>
+    <string name="color_Yellow_700">Žlutá</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Teplota baterie</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

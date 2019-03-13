@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Sobre nós</string>
     <string name="aex_about_summary">Uma introdução sobre a equipe</string>
+    <string name="aex_about_info_summary">A AOSPExtended é uma ROM baseada no AOSP que fornece uma experiência de UI/UX stock, com personalizações úteis. Sendo baseada no AOSP, a AOSPEx fornece uma experiência suave. Adicionamos várias personalizações de vários outros projetos Open Source e tentamos manter as coisas simples. Uma ROM de utilizadores, para utilizadores.&#35;BeExtended</string>
     <string name="dev_info">Sobre a AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Veja nosso código fonte</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar e FireLord</string>
     <string name="team2_description">Desenvolvedor</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">Moderador e desenvolvedor amador</string>
     <string name="team_4">Henrique Silva e jhenrique09</string>
     <string name="team4_description">Desenvolvedor</string>
     <string name="designers">Designers</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">Notificação ADB</string>
     <string name="adb_notify_summary">Exibir uma notificação quando a depuração do Android estiver ativada</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB pela rede</string>
+    <string name="adb_over_network_summary">Ativar a depuração de TCP/IP através de interfaces de rede (Wi\u2011Fi, redes USB). Esta definição é restaurada na reinicialização</string>
+    <string name="adb_over_network_warning">Aviso: Quando ADB sobre rede estiver ativado, seu telefone está aberto para invasões em todas as redes conectadas! \n\nApenas use esse recurso quando você está conectado em redes confiáveis.\n\nVocê deseja realmente habilitar essa função?</string>
+    <string name="adb_over_network_disallowed_error">ERRO: ADB por rede só pode ser ativado quando conectado a uma rede Wi\u2011Fi ou USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opções do painel de controle</string>
     <!-- Proximity wake -->
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">Confirmar redefinição de contadores</string>
     <string name="app_ops_reset_confirm_mesg">Tem certeza que deseja redefinir os contadores?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Âmbar</string>
+    <string name="color_Carbon_700">Carbono</string>
+    <string name="color_Blue_700">Azul</string>
+    <string name="color_Light_Blue_700">Azul Claro</string>
+    <string name="color_Brown_700">Marrom</string>
+    <string name="color_Cyan_700">Azul-turquesa</string>
+    <string name="color_Green_700">Verde</string>
+    <string name="color_Light_Green_700">Verde claro</string>
+    <string name="color_Grey_700">Cinza</string>
+    <string name="color_Blue_Grey_700">Cinza azulado</string>
+    <string name="color_Indigo_700">Índigo</string>
+    <string name="color_Lime_700">Verde limão</string>
+    <string name="color_Orange_700">Laranja</string>
+    <string name="color_Deep_Orange_700">Laranja Escuro</string>
+    <string name="color_Pink_700">Rosa</string>
+    <string name="color_Purple_700">Roxo</string>
+    <string name="color_Deep_Purple_700">Roxo escuro</string>
+    <string name="color_Vermilion_700">Vermelho</string>
+    <string name="color_Teal_700">Turquesa</string>
+    <string name="color_Yellow_700">Amarelo</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura da bateria</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>

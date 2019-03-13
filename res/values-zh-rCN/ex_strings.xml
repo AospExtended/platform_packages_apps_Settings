@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">Extended 版本</string>
+    <string name="extended_version">AEX 版本</string>
     <string name="extended_version_default">未知</string>
     <string name="keywords_extended_version">AEX 版本、 扩展版本</string>
     <!-- About phone screen, build date -->
@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">关于我们</string>
     <string name="aex_about_summary">了解我们的项目和团队</string>
+    <string name="aex_about_info_summary">AOSP Extended是一个基于AOSP并提供有着原生的界面与用户体验有用的自定义ROM。基于AOSP并且提供了流畅的体验。我们从其他各种各样的开源项目中借鉴了有用的自定义项，并尝试着保持简约。一个用户建造且为用户建造的ROM。BeExtended！</string>
     <string name="dev_info">关于 AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">查看我们的源代码</string>
@@ -49,7 +50,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">开发者</string>
     <string name="team_3">Amol Amrit</string>
-    <string name="team3_description">管理者和业余开发人员</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">开发者</string>
     <string name="designers">设计师</string>
@@ -106,6 +106,10 @@
     <string name="adb_notify">ADB 通知</string>
     <string name="adb_notify_summary">运行 ADB 调试时显示一个通知</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">网络 ADB 调试</string>
+    <string name="adb_over_network_summary">通过网络接口（WiFi，USB网络）启用TCP / IP调试。 此设置在重新启动时重置</string>
+    <string name="adb_over_network_warning">警告：当网络 ADB 调试启用时，您的手机在所有已连接的网络上都可以被入侵！\n\n建议您连接到受信任的网络时，才使用此功能。\n\n您是否真的要启用此功能？</string>
+    <string name="adb_over_network_disallowed_error">错误：网络 ADB 调试只能在连接到 Wi\u2011Fi 或 USB 网络时启用！</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">面板设置</string>
     <!-- Proximity wake -->
@@ -339,5 +343,28 @@
     <string name="app_ops_reset_confirm_title">确认重置计数器</string>
     <string name="app_ops_reset_confirm_mesg">您确定要重置计数器？</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">安珀警报</string>
+    <string name="color_Carbon_700">Carbon</string>
+    <string name="color_Blue_700">蓝色</string>
+    <string name="color_Light_Blue_700">浅蓝</string>
+    <string name="color_Brown_700">棕色</string>
+    <string name="color_Cyan_700">青色</string>
+    <string name="color_Green_700">绿色</string>
+    <string name="color_Light_Green_700">浅绿色</string>
+    <string name="color_Grey_700">灰色</string>
+    <string name="color_Blue_Grey_700">蓝灰色</string>
+    <string name="color_Indigo_700">靛蓝色</string>
+    <string name="color_Lime_700">青柠色</string>
+    <string name="color_Orange_700">橙色</string>
+    <string name="color_Deep_Orange_700">暗橙色</string>
+    <string name="color_Pink_700">粉色</string>
+    <string name="color_Purple_700">紫色</string>
+    <string name="color_Deep_Purple_700">深紫色</string>
+    <string name="color_Vermilion_700">红色</string>
+    <string name="color_Teal_700">鸭绿色</string>
+    <string name="color_Yellow_700">黄色</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">电池温度</string>
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
 </resources>
