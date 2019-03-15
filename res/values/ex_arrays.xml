@@ -31,6 +31,7 @@
         <item>@string/system_theme_style_black</item>
         <item>@string/system_theme_style_extended</item>
         <item>@string/system_theme_style_chocolate</item>
+        <item>@string/system_theme_style_elegant</item>
     </string-array>
 
      <string-array name="system_theme_style_values" translatable="false">
@@ -40,6 +41,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
 
     <!-- Expanded Desktop -->
