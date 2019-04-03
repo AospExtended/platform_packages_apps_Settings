@@ -50,6 +50,12 @@
         android:summary="@string/smart_pixels_summary"
         android:fragment="org.aospextended.extensions.fragments.SmartPixels" />
 
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.AggressiveBatterySettings"
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:summary="@string/aggressive_battery_summary" />
+        
     <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:title="@string/wakeup_when_plugged_unplugged_title"
