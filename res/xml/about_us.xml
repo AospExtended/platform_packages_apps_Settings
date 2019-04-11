@@ -36,15 +36,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </Preference>
 
         <Preference
-            android:title="@string/gplus"
-    android:summary="@string/gplus_description"
-    android:icon="@drawable/ic_gplus" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/communities/106726906578669931141" />
-        </Preference>
-
-        <Preference
             android:title="@string/telegram"
     android:summary="@string/telegram_description"
     android:icon="@drawable/ic_telegram" >
