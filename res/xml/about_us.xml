@@ -23,7 +23,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:summary="@string/aex_about_info_summary" >
             <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/communities/106726906578669931141" />
+               android:data="https://www.aospextended.com/" />
       </Preference>
 
         <Preference
