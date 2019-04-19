@@ -45,7 +45,7 @@ public class ProximityOnWakePreferenceController extends AbstractPreferenceContr
     @Override
     public void updateState(Preference preference) {
         int value = Settings.System.getInt(
-                mContext.getContentResolver(), Settings.System.PROXIMITY_ON_WAKE, 0);
+                mContext.getContentResolver(), Settings.System.PROXIMITY_ON_WAKE, 1);
         ((SwitchPreference) preference).setChecked(value != 0);
     }
 
