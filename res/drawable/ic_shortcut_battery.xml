@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> <!--
   ~ Copyright (C) 2016 The Android Open Source Project
+  ~ Copyright (C) 2019 AospExtended
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -16,17 +17,19 @@
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
     <background android:drawable="@color/shortcut_background"/>
     <foreground>
-        <vector
-          android:width="120dp"
-          android:height="120dp"
-          android:viewportWidth="120.0"
-          android:viewportHeight="120.0">
-            <group android:translateX="13.0" android:translateY="13.0">
-                <path
-                    android:fillColor="@*android:color/accent_device_default_light"
-                    android:pathData="M46.1 55.4l-12.2 0C32 55.4 30.6 54 30.6 52.1l0 -21.2c0 -1.9 1.4 -3.3 3.3 -3.3l1 0 0 -2.9 10.3 0 0 2.9 1 0c1.9 0 3.3 1.7 3.3 3.3l0 21c0 2.1 -1.4 3.5 -3.4 3.5zM33.9 
-30.5c-0.3 0 -0.4 0.3 -0.4 0.4l0 21c0 0.3 0.3 0.4 0.4 0.4l12.2 0c0.3 0 0.4 -0.2 0.4 -0.4l0 -21c0 -0.3 -0.2 -0.4 -0.4 -0.4l-4 0 0 -2.9 -4.3 0 0 2.9 -3.9 0z"/>
-            </group>
+    <vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:name="path"
+        android:pathData="M 15.201 20 L 8.746 20 C 7.741 20 7 19.316 7 18.388 L 7 8.029 C 7 7.101 7.741 6.417 8.746 6.417 L 9.275 6.417 L 9.275 5 L 14.725 5 L 14.725 6.417 L 15.254 6.417 C 16.259 6.417 17 7.248 17 8.029 L 17 18.29 C 17 19.316 16.259 20 15.201 20 Z M 8.746 7.834 C 8.587 7.834 8.534 7.98 8.534 8.029 L 8.534 18.29 C 8.534 18.436 8.693 18.485 8.746 18.485 L 15.201 18.485 C 15.36 18.485 15.413 18.388 15.413 18.29 L 15.413 8.029 C 15.413 7.883 15.307 7.834 15.201 7.834 L 13.085 7.834 L 13.085 6.417 L 10.809 6.417 L 10.809 7.834 L 8.746 7.834 Z"
+        android:fillColor="@*android:color/accent_device_default_light"
+        android:strokeWidth="1"/>
         </vector>
     </foreground> 
 </adaptive-icon>
+
