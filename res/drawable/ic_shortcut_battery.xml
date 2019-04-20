@@ -19,8 +19,8 @@
         <vector
           android:width="120dp"
           android:height="120dp"
-          android:viewportWidth="120.0"
-          android:viewportHeight="120.0">
+          android:viewportWidth="78.0"
+          android:viewportHeight="78.0">
             <group android:translateX="13.0" android:translateY="13.0">
                 <path
                     android:fillColor="@*android:color/accent_device_default_light"
