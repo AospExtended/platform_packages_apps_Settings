@@ -50,6 +50,7 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Razvijalec</string>
     <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderator in razvijalec</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Razvijalec</string>
     <string name="designers">Oblikovalci</string>
@@ -366,5 +367,17 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura akumulatorja</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Vedno vklopljeno med polnjenjem</string>
+    <string name="doze_on_charge_summary">Prikaži čas, ikone obvestil in druge podatke med polnjenjem</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil nadzora temperature</string>
+    <string name="thermal_control_per_app_default">Brez optimizacije</string>
+    <string name="thermal_control_per_app_benchmark">Učinkovitost</string>
+    <string name="thermal_control_per_app_games">Igre</string>
+    <string name="thermal_control_per_app_browser">Brskalnik</string>
+    <string name="thermal_control_per_app_video_playback">Predvajanje videoposnetkov</string>
+    <string name="thermal_control_per_app_dialer">Klicalnik</string>
+    <string name="thermal_control_per_app_camera">Fotoaparat</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <!-- Aggressive battery -->
 </resources>

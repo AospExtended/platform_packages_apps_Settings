@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Πληροφορίες</string>
     <string name="aex_about_summary">Η σύσταση μας και η ομάδα μας</string>
+    <string name="aex_about_info_summary">Η AOSP Extended είναι μία ROM βασισμένη στον κώδικα του AOSP που προσφέρει την εμπειρία του Stock Android με χρήσιμες παραμετροποιήσεις. Αφού βασίζεται στο AOSP προσφέρει μία εμπειρία χωρίς κολλήματα. Έχουμε προσθέσει χρήσιμες παραμετροποιήσεις από διάφορα project ανοιχτού κώδικα και έχουμε προσπαθήσει να διατηρήσουμε τα πράγματα απλά. Μία ROM από τον χρήστη, για τον χρήστη.&#35;BeExtended</string>
     <string name="dev_info">Σχετικά με την Aosp Extended</string>
     <string name="github">Github</string>
     <string name="github_description">Δείτε τον πηγαίο κώδικα</string>
@@ -49,6 +50,7 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Προγραμματιστής</string>
     <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Συντονιστής και Προγραμματιστής</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Προγραμματιστής</string>
     <string name="designers">Σχεδιαστές</string>
@@ -105,6 +107,10 @@
     <string name="adb_notify">Ειδοποίηση ADB</string>
     <string name="adb_notify_summary">Εμφάνιση ειδοποίησης όταν ο εντοπισμός σφαλμάτων είναι ενεργοποιημένος</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB μέσω δικτύου</string>
+    <string name="adb_over_network_summary">Ενεργοποίηση λειτουργίας εντοπισμού σφαλμάτων μέσω TCP/IP πρωτοκόλλων (Wi\u2011, USB δίκτυα). Η ρύθμιση επαναφέρεται κατά την επανεκκίνηση</string>
+    <string name="adb_over_network_warning">ΠΡΟΣΟΧΗ: Όταν ο εντοπισμός σφαλμάτων μέσω δικτύου είναι ενεργοποιημένος, το τηλέφωνό σας είναι ανοικτό για εισβολές σε όλα τα συνδεδεμένα δίκτυα!\n\nΧρησιμοποιήστε αυτή τη λειτουργία μόνο όταν είστε συνδεδεμένοι σε έμπιστα δίκτυα.\n\nΘέλετε πραγματικά να ενεργοποιήσετε αυτή τη λειτουργία;</string>
+    <string name="adb_over_network_disallowed_error">ΣΦΑΛΜΑ: Ο εντοπισμός σφαλμάτων μέσω δικτύου μπορεί να ενεργοποιηθεί μόνο όταν συνδέεστε σε ένα Wi/u2011Fi ή USB δίκτυο!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Ρυθμίσεις ταμπλό</string>
     <!-- Proximity wake -->
@@ -339,7 +345,40 @@
     <string name="app_ops_reset_confirm_title">Επιβεβαίωση επαναφοράς μετρητών</string>
     <string name="app_ops_reset_confirm_mesg">Είστε σίγουρος/η ότι θέλετε να κάνετε επαναφορά των μετρητών;</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Ανοικτό πορτοκαλί</string>
+    <string name="color_Carbon_700">Ανθρακί</string>
+    <string name="color_Blue_700">Μπλε</string>
+    <string name="color_Light_Blue_700">Ανοιχτό Μπλέ</string>
+    <string name="color_Brown_700">Καφέ</string>
+    <string name="color_Cyan_700">Κυανό</string>
+    <string name="color_Green_700">Πράσινο</string>
+    <string name="color_Light_Green_700">Ανοιχτό Πράσινο</string>
+    <string name="color_Grey_700">Γκρι</string>
+    <string name="color_Blue_Grey_700">Μπλέ Γκρι</string>
+    <string name="color_Indigo_700">Λουλακί</string>
+    <string name="color_Lime_700">Κιτρινοπράσινο</string>
+    <string name="color_Orange_700">Πορτοκαλί</string>
+    <string name="color_Deep_Orange_700">Σκούρο πορτοκαλί</string>
+    <string name="color_Pink_700">Ροζ</string>
+    <string name="color_Purple_700">Μωβ</string>
+    <string name="color_Deep_Purple_700">Βαθύ μωβ</string>
+    <string name="color_Vermilion_700">Κόκκινο</string>
+    <string name="color_Teal_700">Τιρκουάζ</string>
+    <string name="color_Yellow_700">Κίτρινο</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Θερμοκρασία μπαταρίας</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Πάντα ενεργό όταν φορτίζει</string>
+    <string name="doze_on_charge_summary">Εμφάνιση ώρας, εικονιδίων ειδοποιήσεων, και άλλων πληροφοριών. Αυξημένη χρήση μπαταρίας</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Προφίλ θερμικού ελέγχου</string>
+    <string name="thermal_control_per_app_default">Χωρίς βελτιστοποίηση</string>
+    <string name="thermal_control_per_app_benchmark">Επιδόσεις</string>
+    <string name="thermal_control_per_app_games">Παιχνίδια</string>
+    <string name="thermal_control_per_app_browser">Πρόγραμμα περιήγησης</string>
+    <string name="thermal_control_per_app_video_playback">Αναπαραγωγή βίντεο</string>
+    <string name="thermal_control_per_app_dialer">Πληκτρολόγιο κλήσης</string>
+    <string name="thermal_control_per_app_camera">Κάμερα</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <!-- Aggressive battery -->
 </resources>

@@ -50,6 +50,7 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Разработчик</string>
     <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Модератор и разработчици</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Разработчик</string>
     <string name="designers">Дизайнери</string>
@@ -366,5 +367,17 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура на батерията</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Винаги включен по време на зареждане</string>
+    <string name="doze_on_charge_summary">Показва време, икони на уведомления и друга информация по време на зареждане</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Профил за термоконтрол</string>
+    <string name="thermal_control_per_app_default">Без оптимизация</string>
+    <string name="thermal_control_per_app_benchmark">Производителност</string>
+    <string name="thermal_control_per_app_games">Игри</string>
+    <string name="thermal_control_per_app_browser">Браузър</string>
+    <string name="thermal_control_per_app_video_playback">Възпроизвеждане на видео</string>
+    <string name="thermal_control_per_app_dialer">Телефон</string>
+    <string name="thermal_control_per_app_camera">Камера</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <!-- Aggressive battery -->
 </resources>

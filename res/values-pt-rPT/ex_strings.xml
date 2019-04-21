@@ -50,6 +50,7 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Programador</string>
     <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderador e desenvolvedor</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Programador</string>
     <string name="designers">Desenhador</string>
@@ -366,5 +367,17 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura da bateria</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Sempre ativo ao carregar</string>
+    <string name="doze_on_charge_summary">Mostrar as horas, ícones de notificação e outras informações ao carregar</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Perfil de controlo térmico</string>
+    <string name="thermal_control_per_app_default">Sem optimização</string>
+    <string name="thermal_control_per_app_benchmark">Performance</string>
+    <string name="thermal_control_per_app_games">Jogos</string>
+    <string name="thermal_control_per_app_browser">Navegador</string>
+    <string name="thermal_control_per_app_video_playback">Reprodutor de vídeo</string>
+    <string name="thermal_control_per_app_dialer">Telefone</string>
+    <string name="thermal_control_per_app_camera">Câmera</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <!-- Aggressive battery -->
 </resources>

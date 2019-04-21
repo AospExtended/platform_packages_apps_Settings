@@ -462,4 +462,6 @@ alert_on_charged_level_dis
     <!-- Battery temp -->
     <!-- Doze on charge -->
     <!-- Thermal control per app -->
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <!-- Aggressive battery -->
 </resources>

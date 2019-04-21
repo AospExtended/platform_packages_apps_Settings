@@ -50,6 +50,7 @@
     <string name="team_2">Aman Kumar &#40; FireLord &#41;</string>
     <string name="team2_description">Pengembang</string>
     <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderator dan Pengembang</string>
     <string name="team_4">Henrique Silva &#40;jhenriqueo9&#41;</string>
     <string name="team4_description">Pengembang</string>
     <string name="designers">Perancang</string>
@@ -366,5 +367,16 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatur baterai</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Selalu nyala saat mengisi</string>
+    <string name="doze_on_charge_summary">Tampilkan waktu, ikon pemberitahuan, dan info lainnya selama mengisi</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app_default">Tidak ada optimisasi</string>
+    <string name="thermal_control_per_app_benchmark">Peforma</string>
+    <string name="thermal_control_per_app_games">Permainan</string>
+    <string name="thermal_control_per_app_browser">Browser</string>
+    <string name="thermal_control_per_app_video_playback">Pemutar Video</string>
+    <string name="thermal_control_per_app_dialer">Panggilan</string>
+    <string name="thermal_control_per_app_camera">Kamera</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <!-- Aggressive battery -->
 </resources>

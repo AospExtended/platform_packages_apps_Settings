@@ -50,6 +50,7 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Deweloper</string>
     <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderator i developer</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Deweloper</string>
     <string name="designers">Projektanci</string>
@@ -62,7 +63,7 @@
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Motyw AEX, ikony</string>
     <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Mituw AEX, ikony i style zegara</string>
+    <string name="designer5_description">Rozszerzenia UI, ikony i style zegara</string>
     <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
     <string name="designer6_description">Nowa animacja uruchamiania</string>
     <string name="maintainers">Opiekunowie</string>
@@ -308,27 +309,27 @@
     <string name="app_ops_change_wallpaper">zmień tapetę</string>
     <string name="app_ops_assist_structure">Wspomaganie struktury</string>
     <string name="app_ops_assist_screenshot">zrzut ekranu</string>
-    <string name="app_ops_use_body_sensors">Czujniki na ciele</string>
+    <string name="app_ops_use_body_sensors">czujniki ciała</string>
     <string name="app_ops_read_cell_broadcasts">transmisje komórkowe</string>
     <string name="app_ops_mock_location">pozorowanie lokalizacji</string>
-    <string name="app_ops_read_external_storage">Czytaj pamięć zewnętrzną</string>
-    <string name="app_ops_write_external_storage">Zapis na pamięci zewnętrznej</string>
-    <string name="app_ops_turn_on_screen">Włącz ekran</string>
-    <string name="app_ops_get_accounts">Konta urządzenia</string>
+    <string name="app_ops_read_external_storage">odczytaj pamięć zew.</string>
+    <string name="app_ops_write_external_storage">zapisz pamięć zew.</string>
+    <string name="app_ops_turn_on_screen">włącz ekran</string>
+    <string name="app_ops_get_accounts">konta urządzenia</string>
     <string name="app_ops_run_in_background">uruchom w tle</string>
-    <string name="app_ops_accessibility_volume">Ułatwienia dostępu</string>
-    <string name="app_ops_read_phone_numbers">Odczyt numeru telefonu</string>
-    <string name="app_ops_request_install_packages">instaluj pakiet</string>
+    <string name="app_ops_accessibility_volume">ułatwienia dostępu</string>
+    <string name="app_ops_read_phone_numbers">odczyt numeru telefonu</string>
+    <string name="app_ops_request_install_packages">instalacja pakietów</string>
     <string name="app_ops_picture_in_picture">pip</string>
     <string name="app_ops_app_start_foreground">uruchom na pierwszym planie</string>
     <string name="app_ops_answer_phone_calls">odbieranie połączeń</string>
     <string name="app_ops_run_any_in_background">uruchom w tle</string>
     <string name="app_ops_change_wifi_state">zmiana stanu wifi</string>
-    <string name="app_ops_request_delete_packages">Usuń pakiety</string>
-    <string name="app_ops_bind_accessibility_service">Skrót do ułatwień dostępu</string>
-    <string name="app_ops_accept_handover">Akceptuj przekazania</string>
-    <string name="app_ops_manage_ipsec_tunnels">Zarządzanie tunelami ip</string>
-    <string name="app_ops_start_foreground">Uruchom na pierwszym planie</string>
+    <string name="app_ops_request_delete_packages">usuwanie pakietów</string>
+    <string name="app_ops_bind_accessibility_service">skrót do ułatwień dostępu</string>
+    <string name="app_ops_accept_handover">akceptuj przekazania</string>
+    <string name="app_ops_manage_ipsec_tunnels">zarządzanie tunelami ip</string>
+    <string name="app_ops_start_foreground">uruchom na pierwszym planie</string>
     <string name="app_ops_bluetooth_scan">skanowanie bluetooth</string>
     <string name="app_ops_boot_completed">auto start</string>
     <!-- App ops detail -->
@@ -364,7 +365,19 @@
     <string name="color_Teal_700">Niebiesko zielony</string>
     <string name="color_Yellow_700">Żółty</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Temperatura akumulatora</string>
+    <string name="battery_temp_title">Temperatura baterii</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Aktywny wyświetlacz podczas ładowania</string>
+    <string name="doze_on_charge_summary">Pokazuj godzinę, ikony powiadomień itd. w trakcie ładowania</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil kontroli temperatury</string>
+    <string name="thermal_control_per_app_default">Brak optymalizacji</string>
+    <string name="thermal_control_per_app_benchmark">Wydajność</string>
+    <string name="thermal_control_per_app_games">Gry</string>
+    <string name="thermal_control_per_app_browser">Przeglądarka</string>
+    <string name="thermal_control_per_app_video_playback">Odtwarzanie wideo</string>
+    <string name="thermal_control_per_app_dialer">Telefon</string>
+    <string name="thermal_control_per_app_camera">Aparat</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <!-- Aggressive battery -->
 </resources>
