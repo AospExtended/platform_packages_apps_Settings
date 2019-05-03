@@ -127,6 +127,9 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
+// LiveDisplay
+import com.android.settings.livedisplay.LiveDisplaySettings;
+
 public class SearchIndexableResourcesImpl implements SearchIndexableResources {
 
     private final Set<Class> sProviders = new HashSet<>();
@@ -242,6 +245,9 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(PulseSettings.class);
         addIndex(SmartbarSettings.class);
         addIndex(NavigationBarSettings.class);
+
+        // LiveDisplay
+        addIndex(LiveDisplaySettings.class);
     }
 
     @Override
