@@ -181,4 +181,8 @@ public class Settings extends SettingsActivity {
     // AospExtended Additions.
     public static class ExtensionsSettingsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
