@@ -164,6 +164,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import org.aospextended.extensions.Extensions;
 import org.aospextended.extensions.fragments.GamingMode;
 
+import com.android.settings.livedisplay.LiveDisplaySettings;
+
 public class SettingsGateway {
 
     /**
@@ -315,7 +317,10 @@ public class SettingsGateway {
             // AEX additions
             Extensions.class.getName(),
             RunningServices.class.getName(),
-            GamingMode.class.getName()
+            GamingMode.class.getName(),
+
+            // LiveDisplay
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
