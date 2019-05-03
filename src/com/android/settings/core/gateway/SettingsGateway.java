@@ -171,6 +171,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.aospextended.extensions.Extensions;
 import org.aospextended.extensions.fragments.HeadsUpSettings;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
 
@@ -331,7 +332,8 @@ public class SettingsGateway {
             // AEX additions
             Extensions.class.getName(),
             RunningServices.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
