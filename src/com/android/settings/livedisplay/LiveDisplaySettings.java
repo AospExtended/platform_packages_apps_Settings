@@ -48,8 +48,8 @@ import com.android.internal.custom.hardware.DisplayMode;
 import com.android.internal.custom.hardware.LiveDisplayConfig;
 import com.android.internal.custom.hardware.LiveDisplayManager;
 
-import com.android.settings.custom.utils.SettingsHelper;
-import com.android.settings.custom.utils.ResourceUtils;
+import org.aospextended.extensions.SettingsHelper;
+import org.aospextended.extensions.ResourceUtils;
 
 import org.aospextended.extensions.preference.CustomDialogPreference;
 
