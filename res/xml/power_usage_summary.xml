@@ -83,4 +83,12 @@
         android:title="@string/battery_temp_title"
         android:selectable="false" />
 
+    <!-- Up time -->
+    <Preference
+        android:key="status_up_time"
+        android:order="43"
+        android:title="@string/status_up_time"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"/>
+
 </PreferenceScreen>
