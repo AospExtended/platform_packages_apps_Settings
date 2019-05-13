@@ -164,8 +164,16 @@
         android:summary="@string/force_allow_system_themes_summary"
         android:defaultValue="false" />
 
+
     <ListPreference
-        android:key="system_theme_style"
+        android:key="dark_ui_mode"
+        android:title="@string/device_theme"
+        android:dialogTitle="@string/device_theme"
+        android:entries="@array/dark_ui_mode_entries"
+        android:entryValues="@array/dark_ui_mode_values" />
+
+    <ListPreference
+        android:key="system_dark_theme_style"
         android:title="@string/system_theme_style_title"
         android:persistent="false"
         android:icon="@drawable/ic_system_theme_style"

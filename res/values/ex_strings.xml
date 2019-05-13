@@ -135,9 +135,7 @@
 
     <!-- Themes -->
     <string name="theme_category_title">System Theme</string>
-    <string name="system_theme_style_title">UI style</string>
-    <string name="system_theme_style_auto">Wallpaper based</string>
-    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_title">Dark theme style</string>
     <string name="system_theme_style_dark">Dark UI</string>
     <string name="system_theme_style_black">Black UI</string>
     <string name="system_theme_style_extended">Extended UI</string>
@@ -636,4 +634,9 @@
 
     <!-- LiveDisplay - Custom theme mode -->
     <string name="systemui_theme_time">Automatic (time of the day)</string>
+
+    <!-- System theme -->
+    <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
+    <string name="system_theme_light">Light</string>
+    <string name="system_theme_dark">Dark</string>
 </resources>
