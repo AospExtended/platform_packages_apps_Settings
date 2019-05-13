@@ -44,6 +44,7 @@ import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.DarkUIPreferenceController;
+import com.android.settings.display.DarkThemeVariantPreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.WallpaperPreferenceController;
@@ -55,7 +56,6 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 
 import java.util.ArrayList;
 import java.util.List;
-import android.util.Log;
 
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
@@ -69,6 +69,7 @@ public class DisplaySettings extends DashboardFragment {
 
     private static AccentPickerPreferenceController mAccentPickerPreference;
     private static DarkUIPreferenceController mUIStylePreference;
+    private static DarkThemeVariantPreferenceController mDarkThemeVariantPreference;
     private static QsTileStylesPreferenceController mQsTileStylesPreference;
 
     private IntentFilter mIntentFilter;
@@ -154,8 +155,9 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
-        controllers.add(mUIStylePreference = new DarkUIPreferenceController(context, lifecycle, fragment));
-        controllers.add(new ForceAllowThemePreferenceController(context, mUIStylePreference, mAccentPickerPreference, mQsTileStylesPreference));
+        controllers.add(mUIStylePreference = new DarkUIPreferenceController(context, lifecycle));
+        controllers.add(mDarkThemeVariantPreference = new DarkThemeVariantPreferenceController(context, lifecycle, fragment));
+        controllers.add(new ForceAllowThemePreferenceController(context, mUIStylePreference, mDarkThemeVariantPreference, mAccentPickerPreference, mQsTileStylesPreference));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
         return controllers;

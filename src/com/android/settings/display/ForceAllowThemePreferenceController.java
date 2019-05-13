@@ -16,15 +16,10 @@ package com.android.settings.display;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.content.res.Resources;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
-import com.android.settings.display.AccentPickerPreferenceController;
-import com.android.settings.display.DarkUIPreferenceController;
-import com.android.settings.display.QsTileStylesPreferenceController;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -35,12 +30,14 @@ PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
     private static final String KEY_FORCE_ALLOW_SYSTEM_THEMES = "force_allow_system_themes";
     private static DarkUIPreferenceController mUIStylePreference;
+    private static DarkThemeVariantPreferenceController mDarkThemeVariantPreference;
     private static AccentPickerPreferenceController mAccentPickerPreference;
     private static QsTileStylesPreferenceController mQsTileStylesPreference;
 
-    public ForceAllowThemePreferenceController(Context context, DarkUIPreferenceController uiStylePreference, AccentPickerPreferenceController accentPickerPreference, QsTileStylesPreferenceController qsTileStylesPreference) {
+    public ForceAllowThemePreferenceController(Context context, DarkUIPreferenceController uiStylePreference, DarkThemeVariantPreferenceController darkThemeVariantPreference, AccentPickerPreferenceController accentPickerPreference, QsTileStylesPreferenceController qsTileStylesPreference) {
         super(context);
         mUIStylePreference = uiStylePreference;
+        mDarkThemeVariantPreference = darkThemeVariantPreference;
         mAccentPickerPreference = accentPickerPreference;
         mQsTileStylesPreference = qsTileStylesPreference;
     }
@@ -77,6 +74,7 @@ PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
                 }
         // Update preferences states
         mUIStylePreference.onResume();
+        mDarkThemeVariantPreference.onResume();
         mAccentPickerPreference.onResume();
         mQsTileStylesPreference.onResume();
         return true;
