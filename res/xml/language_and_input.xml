@@ -20,7 +20,7 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="language_and_input_settings_screen"
     android:title="@string/language_settings"
-    settings:initialExpandedChildrenCount="3">
+    settings:initialExpandedChildrenCount="10">
 
     <Preference
         android:key="phone_language"
