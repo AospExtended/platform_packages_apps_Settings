@@ -132,11 +132,6 @@
         android:title="@string/home_wake_button_title"
         android:summary="@string/home_wake_button_summary" />
 
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="proximity_on_wake"
-        android:title="@string/proximity_wake_title"
-        android:summary="@string/proximity_wake_summary" />
-
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"

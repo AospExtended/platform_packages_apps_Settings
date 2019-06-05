@@ -131,10 +131,6 @@
     <!-- Dashboard Category -->
     <string name="dashboard_category">Dashboard options</string>
 
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-
     <!-- Home button wake -->
     <string name="home_wake_button_title">Home button wake-up</string>
     <string name="home_wake_button_summary">Enable home button to waking up screen</string>
