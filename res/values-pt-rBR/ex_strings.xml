@@ -14,13 +14,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">Versão da Extended</string>
+    <string name="extended_version">Versão estendida</string>
     <string name="extended_version_default">Desconhecido</string>
-    <string name="keywords_extended_version">aex versão, versão extended</string>
+    <string name="keywords_extended_version">versão aex, versão extendida</string>
     <!-- About phone screen, build date -->
     <string name="build_date">Data da compilação</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">data, construir, construir informação</string>
+    <string name="keywords_build_date">data de compilação, informações de compilação</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localize o Sensor de Impressão Digital na Parte Lateral Esquerda de Seu Telefone.</string>
@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">ERRO: ADB por rede só pode ser ativado quando conectado a uma rede Wi\u2011Fi ou USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opções do painel de controle</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Impedir que a tela seja ligada acidentalmente</string>
-    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Acordar com o Botão Home</string>
     <string name="home_wake_button_summary">Ativar botão inicial para ativar a tela</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Telefone</string>
     <string name="thermal_control_per_app_camera">Câmera</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Sono profundo: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Bateria Agressiva</string>
+    <string name="aggressive_battery_summary">Economia de bateria mais rigorosa</string>
+    <string name="aggressive_battery_warning_text">Estes são recursos de economia de energia. Eles podem interferir com os serviços que visam executar em inatividade, como aplicativos de navegação. Você pode definir estes apps de não serem afetados nas configurações de bateria do app.</string>
+    <string name="aggressive_idle_title">Ocioso Agressivo</string>
+    <string name="aggressive_idle_summary">Insira o dispositivo que fica ocioso mais frequentemente e acorde menos</string>
+    <string name="aggressive_standby_title">Standby Agressivo</string>
+    <string name="aggressive_battery_saver_title">Ativar automaticamente na economia de bateria </string>
+    <string name="aggressive_battery_saver_summary">Ativar Bateria Agressiva automaticamente ao usar a economia de bateria</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

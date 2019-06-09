@@ -106,9 +106,6 @@
     <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">تنظیمات داشبورد</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">جلوگیری از روشن شدن اتفاقی صفحه</string>
-    <string name="proximity_wake_summary">برررسی سنسور مجاورت قبل از روشن کردن صفحه</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">بیدار شدن دستگاه با دکمۀ هوم</string>
     <string name="home_wake_button_summary">فعال‌سازی امکان بیدار شدن دستگاه با دکمۀ هوم</string>
@@ -242,4 +239,8 @@
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

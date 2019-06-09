@@ -252,9 +252,6 @@ UI பிழைத்திருத்த அமைப்பு: CPU பயன�
 dashboard_category
 டாஷ்போர்டு வகை
 கோப்பு: ex_strings. xml</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">தற்செயலான விழித்துக்கொள்ள தடுக்க</string>
-    <string name="proximity_wake_summary">அருகாமையில் உணரி துயில் எழுந்து திரை முன் சரிபார்க்கவும்</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">முகப்பு பொத்தானை விழித்துக்கொள்ள</string>
     <string name="home_wake_button_summary">துயில் எழுந்து திரை முகப்பு பொத்தானை செயல்படுத்து</string>
@@ -464,4 +461,8 @@ alert_on_charged_level_dis
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

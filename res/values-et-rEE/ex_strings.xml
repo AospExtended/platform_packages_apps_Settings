@@ -14,57 +14,380 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
+    <string name="extended_version">Laiendatud versioon</string>
+    <string name="extended_version_default">Tundmatu</string>
+    <string name="keywords_extended_version">aex versioon, laiendatud versioon</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">Koostamis kuupäev</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">koostamis kuupäev, info</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Leidke enda telefoni esiküljel olev sõrmejäljeandur.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Leidke enda telefoni vasakul küljel olev sõrmejäljeandur.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Leidke enda telefoni paremal küljel olev sõrmejäljeandur.</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
+    <string name="aex_about_info">Meist</string>
+    <string name="aex_about_summary">Meie tutvustus ja meie meeskond</string>
+    <string name="aex_about_info_summary">AOSP Extended on AOSP-põhine ROM, mis pakub kasulikke kohandusi kasutades varude UI/UX kogemusi. See põhineb AOSP-l, mis tagab sujuva kogemuse. Oleme lisanud kasulikke kohandusi erinevatest avatud lähtekoodiga projektidest ja oleme püüdnud oma asju lihtsustada. Kasutaja poolt kasutaja jaoks mõeldud ROM.&#35;BeExtended</string>
+    <string name="dev_info">AospExtended kohta</string>
+    <string name="github">Github</string>
+    <string name="github_description">Vaadake meie lähtekoodi</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Liituge meie G+ kommuuniga</string>
+    <string name="telegram">Telegramm</string>
+    <string name="telegram_description">Telli meie telegrammikanal</string>
+    <string name="web">Allalaadimiskeskus</string>
+    <string name="web_description">Külasta meie allalaadimisportaali</string>
+    <string name="help_translate">Tõlked</string>
+    <string name="help_translate_description">Tõlgi oma keelde, külastage meie Crowdinit</string>
+    <string name="walls">Taustapildid</string>
+    <string name="walls_description">Hankige erinevate kasutajate taustapilte</string>
+    <string name="leads">Meeskonna juhid</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Omanik / juhtiv arendaja</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Arendaja</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderaator ja arendaja</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Arendaja</string>
+    <string name="designers">Disainerid</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Teema bännerid, logod, taustapildid</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">QS/Fling logod</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Taustapildid, boot animatsioonid</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="designer4_description">Kasutajaliidese, ikoonide laiendused</string>
+    <string name="designer_5">Gaurav (allstargaurav)</string>
+    <string name="designer5_description">Kasutajaliidese, ikoonide ja kellade stiilide laiendused</string>
+    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer6_description">Uus boot animatsioon</string>
+    <string name="maintainers">Arendajad</string>
+    <string name="maintainers_title">Ametlikud arendajad</string>
+    <string name="maintainers_summary">Ametlikult toetatud seadmed ja nende hooldajad.</string>
     <!-- Maintainer section -->
+    <string name="maintainer_description">Hooldus: %1$s</string>
+    <string name="loading_devices">Seadmete loendi laadimine ...</string>
+    <string name="loading_devices_failed">Seadmete loendi laadimine ebaõnnestus</string>
+    <string name="devices_list_empty">Loend on tühi, koputage ikoonile uuesti</string>
+    <string name="reload_list">Lae uuesti</string>
     <!-- Changelog -->
+    <string name="changelog_title">Muudatuste logi</string>
+    <string name="changelog_summary">Viimased muudatused</string>
+    <string name="changelog_loading">Muutuste logi laadimine\u2026</string>
+    <string name="changelog_error">Muudatuste logi ei saanud laadida</string>
     <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Segatud paigutus</string>
+    <string name="unlock_scramble_pin_layout_summary">Sega PIN paigutust seadme lahtilukustamisel</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Kiiravamine</string>
+    <string name="unlock_quick_unlock_control_summary">Ava automaatselt kui õige PIN/parool on sisestatud</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Laadimisel on seade äratatud</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Ärge äratage seadet, kui laadija on ühendatud / lahti ühendatud.</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">Laadimise vibratsioon</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Kuvatõmmise heli</string>
+    <string name="dashboard_conditions_title">Armatuurlaua tingimused</string>
+    <string name="summary_dashboard_conditions_enabled">Armatuurlaua tingimused on lubatud</string>
+    <string name="summary_dashboard_conditions_disabled">Armatuurlaua tingimused on keelatud</string>
+    <string name="dashboard_suggestions_title">Armatuurlaua soovitused</string>
+    <string name="summary_dashboard_suggestions_enabled">Armatuurlaua soovitused on lubatud</string>
+    <string name="summary_dashboard_suggestions_disabled">Armatuurlaua soovitused on keelatud</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Näita CPU informatsiooni</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Praegust CPU-infot kuvav ekraani ülekate</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB teavitus</string>
+    <string name="adb_notify_summary">Kuva teavitus, kui android silumine on lubatud</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB üle võrgu</string>
+    <string name="adb_over_network_summary">Luba TCP/IP silumine üle võrguliideste (Wi\u2011Fi, USB võrgud). Säte lähtestatakse taaskäivitamisel</string>
+    <string name="adb_over_network_warning">HOIATUS: Kui ADB üle võrgu on lubatud, on Teie telefon avatud sissetungimiseks kõikidest ühendatud võrkudest!\n\nKasuta seda võimalust ainult turvalistes võrkudes.\n\nKas sa soovid tõesti selle funktsiooni sisse lülitada?</string>
+    <string name="adb_over_network_disallowed_error">VIGA: ADB üle võrgu saab lubada ainult siis, kui see on ühendatud Wi\u2011Fi või USB võrguga!</string>
     <!-- Dashboard Category -->
-    <!-- Proximity wake -->
+    <string name="dashboard_category">Armatuurlaua valikud</string>
     <!-- Home button wake -->
+    <string name="home_wake_button_title">Avakuva nupu äratamine</string>
+    <string name="home_wake_button_summary">Ekraani ärkamiseks avage avakuvanupp</string>
     <!-- Themes -->
+    <string name="theme_category_title">Süsteemi teema</string>
+    <string name="system_theme_style_title">Kasutajaliidese stiil</string>
+    <string name="system_theme_style_auto">Taustapildi baasil</string>
+    <string name="system_theme_style_light">Hele kasutajaliides</string>
+    <string name="system_theme_style_dark">Tume kasutajaliides</string>
+    <string name="system_theme_style_black">Must kasutajaliides</string>
+    <string name="system_theme_style_extended">Laiendatud kasutajaliides</string>
+    <string name="system_theme_style_chocolate">Šokolaad kasutajaliides</string>
+    <string name="theme_applied_toast">Teema rakendatud.</string>
+    <string name="applying_theme_toast">Rakendan teemat, palun oodake...</string>
+    <string name="substratum_installed_title">Süsteemi teemasid ei ole võimalik kasutada, kuna on paigaldatud alamstruktuuri ülekate. Jätkamiseks eemaldage kõik Android-süsteemi sihtmärgid.</string>
+    <string name="force_allow_system_themes_title">Lubage süsteemi teemad ja fondid aluspinna kõrval</string>
+    <string name="force_allow_system_themes_summary">Võimaldab kasutada järgmisi teemasid ja fonte valikuvõimalusi, hoolimata aluspinnast.</string>
+    <string name="force_theme_warning_title">Hoiatus !</string>
+    <string name="force_theme_warning_message">See võib tekitada vastuolusid aluspinna teemade ja süsteemi teemade vahel. Loodame, et te teate, mida teete. #DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Nulli näidud</string>
+    <string name="battery_stats_message">Akukasutamise ajalugu nullitakse</string>
+    <string name="ok_string">Ok</string>
     <!-- AEX OTA -->
+    <string name="aex_ota_title">AEX uuendused</string>
+    <string name="aex_ota_summary">Hankige uusim ehitus</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">Valguse värv</string>
+    <string name="custom_light_on_time_title">Valguse sisselülitusaeg impulsi ajal (ms)</string>
+    <string name="custom_light_off_time_title">Valguse väljalülitusaeg juhitud impulsi ajal (ms)\"</string>
+    <string name="value_equals_default">vaikimisi</string>
+    <string name="show_light_on_zen_title">Vilkumise ajal mitte häirida</string>
     <!-- Density category -->
+    <string name="density_category">Ekraanitiheduse valikud</string>
     <!-- Selinux -->
+    <string name="selinux_status">SELinux\'i olek</string>
+    <string name="selinux_status_disabled">Keelatud</string>
+    <string name="selinux_status_permissive">Lubav</string>
+    <string name="selinux_status_enforcing">Sundiv</string>
     <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> on <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">keelatud</string>
+    <string name="sim_missing">puuduv või vigane</string>
+    <string name="sim_enabler_need_disable_sim">SIM-kaart muudetakse mitteaktiivseks. Olete kindel?</string>
+    <string name="sim_enabler_will_disable_sim_title">Tähelepanu</string>
+    <string name="sim_enabler_need_switch_data_service">See SIM-kaart blokeeritakse ja andmesideteenuste jaoks hakatakse kasutama SIM-kaarti <xliff:g id="slotid">%1$s</xliff:g>. Kas olete kindel, et soovite jätkata?</string>
+    <string name="sim_enabler_airplane_on">Toimingut ei saa sooritada, kui lennukirežiim on aktiveeritud.</string>
+    <string name="sim_enabler_in_call">Seda toimingut ei saa teostada kõne ajal.</string>
+    <string name="sim_enabler_both_inactive">Kõiki SIM-kaarte ei saa keelata</string>
+    <string name="sim_enabler_enabling">Aktiveerin\u2026</string>
+    <string name="sim_enabler_disabling">Desaktiveerin\u2026</string>
+    <string name="sub_activate_success">SIM on aktiveeritud.</string>
+    <string name="sub_activate_failed">Aktiveerimine ebaõnnestus.</string>
+    <string name="sub_deactivate_success">SIM on desaktiveeritud.</string>
+    <string name="sub_deactivate_failed">Deaktiveerimine ebaõnnestus.</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">Vali mustri suurus</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Näita mustri vigu</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Näita mustri punkte</string>
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Vibreeri</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibreeri lahtilukustamisel</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Vahetu avamine</string>
+    <string name="directly_show_lock_summary">Jäta vahele ekraani lahtilukustamiseks vajalik viibe ning alusta kohe koodi sisestamist</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobiilne andmeside</string>
+    <string name="data_usage_app_restrict_data_summary">Luba mobiilse andmeside kasutus</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi andmeside</string>
+    <string name="data_usage_app_restrict_wifi_summary">Luba Wi\u2011Fi andmeside kasutus</string>
+    <string name="full_gesture_mode_title">Luba täielik žestirežiim</string>
+    <string name="full_gesture_mode_summary">See režiim blokeerib tagasi-nupu ja saate käivitada nuppuklahvi abil vasakpoolse nihutamise nupu tagasi. Parempoolne pühkimine käivitab endiselt viimase rakenduse ja rakenduste kerimise. Kodu juurde minemiseks võite puudutada mis tahes naviriba tühja ruumi, mitte ainult kodu nuppu. Kui klaviatuur kuvatakse, vajutage teksti kursori liigutamiseks pikalt klahvile.</string>
+    <string name="full_gesture_mode_dt2s_title">Luba topeltkoputus uinumiseks</string>
+    <string name="full_gesture_mode_dt2s_summary">Puudutage tühja naviriba, aga mitte avakuva nuppu ekraani väljalülitamiseks.</string>
     <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Laiendatud töölaud</string>
+    <string name="expanded_hide_nothing">Ära peida midagi</string>
+    <string name="expanded_hide_status">Peida olekuriba</string>
+    <string name="expanded_hide_navigation">Peida navigeerimisriba</string>
+    <string name="expanded_hide_both">Peida mõlemad</string>
+    <string name="expanded_nothing_to_show">Kohandatud rakenduse konfiguratsiooni lisamiseks laiendatud olekusse seadke \"Lubatud kõigile\" välja lülitatud asendisse</string>
+    <string name="expanded_desktop_state">Laiendatud olek</string>
+    <string name="expanded_enabled_for_all">Lubatud kõigile</string>
+    <string name="expanded_user_configurable">Kasutaja seadistatav</string>
+    <string name="expanded_desktop_style">Laiendatud töölaua stiil</string>
+    <string name="expanded_desktop_style_description">Valige vaikimisi laiendatud töölaua stiil</string>
+    <string name="expanded_desktop_title">Laiendatud töölaua valikud</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Pööramine</string>
+    <string name="display_rotation_disabled">Keelatud</string>
+    <string name="display_rotation_unit">kraadi</string>
+    <string name="display_rotation_category_title">Pööramisrežiimid</string>
+    <string name="display_rotation_0_title">0 kraadi</string>
+    <string name="display_rotation_90_title">90 kraadi</string>
+    <string name="display_rotation_180_title">180 kraadi</string>
+    <string name="display_rotation_270_title">270 kraadi</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Vaigista, meedia puudub</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Sees (vaigista, meedia puudub)</string>
     <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Pühkige sõrmejälge vasakule või paremale, et teatised tagasi lükata</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Teatiste tagasilükkamiseks libistage sõrme sõrmejälje anduril telefoni tagaküljel vasakule või paremale.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Telefoni helin - SIM 1</string>
+    <string name="ringtone2_title">Telefoni helin - SIM 2</string>
     <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Öövalguse korral vähendage heledust</string>
+    <string name="night_auto_value_disabled">Keelatud</string>
+    <string name="night_auto_value_min">Minimaalne heledus</string>
+    <string name="night_bright_low">Madal heledus</string>
+    <string name="night_bright_midlow">Keskmiselt madal heledus</string>
     <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS plaatide stiil</string>
+    <string name="qs_tile_style_default">Vaikimisi</string>
+    <string name="qs_tile_style_square">Ruut</string>
+    <string name="qs_tile_style_rounded_square">Ümardatud nurkadega ruut</string>
+    <string name="qs_tile_style_squircle">Ümarruut</string>
+    <string name="qs_tile_style_tear_drop">Pisaravool</string>
     <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Kasvav helisemistugevus</string>
+    <string name="increasing_ring_min_volume_title">Lähtevaljusus</string>
+    <string name="increasing_ring_ramp_up_time_title">Käivitamisetapi aeg</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Ühenda helina &amp; teadete helitugevus</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Font</string>
+    <string name="font_picker_progress">Uue fondi kasutamine\u2026</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">Kuva teate ajaloo logi</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">Tausta protsessid</string>
     <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Asukoht</string>
+    <string name="app_ops_cat_personal">Isiklik</string>
+    <string name="app_ops_cat_messaging">Sõnumside</string>
+    <string name="app_ops_cat_media">Meedia</string>
+    <string name="app_ops_cat_device">Seade</string>
+    <string name="app_ops_cat_bootup">Alglaadimine</string>
     <!-- App ops labels -->
+    <string name="app_ops_access_camera">kaamera</string>
+    <string name="app_ops_access_location">asukoht</string>
+    <string name="app_ops_access_notifications">teavitused</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start"> automaatne käivitus</string>
+    <string name="app_ops_delete_call_log">kustutada kõnelogi</string>
+    <string name="app_ops_delete_contacts">kustutada kontakte</string>
+    <string name="app_ops_delete_mms">kustutada MMS\'e</string>
+    <string name="app_ops_delete_sms">kustutada SMS\'e</string>
+    <string name="app_ops_draw_on_top">peale joonistamine</string>
+    <string name="app_ops_get_usage_stats">näha kasutusstatistikat</string>
+    <string name="app_ops_keep_device_awake">hoia ärkvel</string>
+    <string name="app_ops_make_phone_call">teha kõnesid</string>
+    <string name="app_ops_modify_calendar">uuendada kalendrit</string>
+    <string name="app_ops_modify_call_log">uuendada kõnelogi</string>
+    <string name="app_ops_modify_clipboard">lõikelaua muutmine</string>
+    <string name="app_ops_modify_contacts">uuendada kontaktide nimekirja</string>
+    <string name="app_ops_modify_settings">uuenda seadeid</string>
+    <string name="app_ops_mute_unmute_microphone">mikrofoni tööle/kinni panna</string>
+    <string name="app_ops_play_audio">mängida heli</string>
+    <string name="app_ops_post_notification">postitada teavitusi</string>
+    <string name="app_ops_project_media">projekteerida meediat</string>
+    <string name="app_ops_read_calendar">kalendri lugemine</string>
+    <string name="app_ops_read_call_log">kõnelogi lugemine</string>
+    <string name="app_ops_read_clipboard">loe lõikelaualt</string>
+    <string name="app_ops_read_contacts">loe kontakte</string>
+    <string name="app_ops_read_mms">lugeda MMS\'e</string>
+    <string name="app_ops_read_sms">loe SMS</string>
+    <string name="app_ops_receive_sms">SMS-i vastuvõtmine</string>
+    <string name="app_ops_record_audio">salvestada heli</string>
+    <string name="app_ops_send_mms">saada MMS\'e</string>
+    <string name="app_ops_send_sms">saada SMS</string>
+    <string name="app_ops_toast_window">näidata teavitusi</string>
+    <string name="app_ops_use_alarm_volume">äratuse helitugevus</string>
+    <string name="app_ops_use_audio_focus">helifookus</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetoothi helitugevus</string>
+    <string name="app_ops_use_master_volume">põhihelitugevus</string>
+    <string name="app_ops_use_media_buttons">meedia nupud</string>
+    <string name="app_ops_use_media_volume">meedia helitugevus</string>
+    <string name="app_ops_use_notification_volume">märguande helitugevus</string>
+    <string name="app_ops_use_ring_volume">helina tugevust</string>
+    <string name="app_ops_use_vibrate">kompamistagasiside</string>
+    <string name="app_ops_use_voice_volume">kõnede helitugevus</string>
+    <string name="app_ops_write_mms">koostada MMS\'e</string>
+    <string name="app_ops_write_sms">koostada SMS\'e</string>
+    <string name="app_ops_use_fingerprint">sõrmejälg</string>
+    <string name="app_ops_add_voicemail">kõnepost</string>
+    <string name="app_ops_read_phone_state">juurdepääs telefoni olekule</string>
+    <string name="app_ops_scan_wifi">Skännida Wi-Fi võrke</string>
+    <string name="app_ops_change_wallpaper">muuta taustapilti</string>
+    <string name="app_ops_assist_structure">abistruktuur</string>
+    <string name="app_ops_assist_screenshot">kuvatõmmis</string>
+    <string name="app_ops_use_body_sensors">kehaandurid</string>
+    <string name="app_ops_read_cell_broadcasts">telefoni otseülekanne</string>
+    <string name="app_ops_mock_location">tehislik asukoht</string>
+    <string name="app_ops_read_external_storage">lugeda välismälust</string>
+    <string name="app_ops_write_external_storage">salvestada välismällu</string>
+    <string name="app_ops_turn_on_screen">lülitada ekraan sisse</string>
+    <string name="app_ops_get_accounts">seadme kasutajad</string>
+    <string name="app_ops_run_in_background">taustal käitamine</string>
+    <string name="app_ops_accessibility_volume">abistava heli tugevus</string>
+    <string name="app_ops_read_phone_numbers">lugeda telefoninumbreid</string>
+    <string name="app_ops_request_install_packages">pakettide installimine</string>
+    <string name="app_ops_picture_in_picture">pilti pildi sees</string>
+    <string name="app_ops_app_start_foreground">esiplaanil käivitamine</string>
+    <string name="app_ops_answer_phone_calls">vastata kõned</string>
+    <string name="app_ops_run_any_in_background">töötada taustal</string>
+    <string name="app_ops_change_wifi_state">muuta Wi-Fi olekut</string>
+    <string name="app_ops_request_delete_packages">kustutada tarkvarapakette</string>
+    <string name="app_ops_bind_accessibility_service">siduda juurdepääsetavusega</string>
+    <string name="app_ops_accept_handover">nõustuda üleandmisega</string>
+    <string name="app_ops_manage_ipsec_tunnels">ip tunnelite haldamine</string>
+    <string name="app_ops_start_foreground">esiplaanil käivitamine</string>
+    <string name="app_ops_bluetooth_scan">bluetoothi skannimine</string>
+    <string name="app_ops_boot_completed">automaatne käivitus</string>
     <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (kasutatud <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Lubatud <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Keelatud <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Lubatud <xliff:g id="count">%1$s</xliff:g>, keelatud<xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Kuva kasutaja rakendusi</string>
+    <string name="app_ops_show_system_apps">Kuva sisseehitatud rakendused</string>
+    <string name="app_ops_reset_counters">Lähtesta luba/keela loendurid</string>
+    <string name="app_ops_reset_confirm_title">Kinnita loendurite lähetstamine</string>
+    <string name="app_ops_reset_confirm_mesg">Kas sa oled kindel, et soovid loendurid lähtestada?</string>
     <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Merevaigukollane</string>
+    <string name="color_Carbon_700">Süsinik</string>
+    <string name="color_Blue_700">Sinine</string>
+    <string name="color_Light_Blue_700">Helesinine</string>
+    <string name="color_Brown_700">Pruun</string>
+    <string name="color_Cyan_700">Erksinine</string>
+    <string name="color_Green_700">Roheline</string>
+    <string name="color_Light_Green_700">Heleroheline</string>
+    <string name="color_Grey_700">Hall</string>
+    <string name="color_Blue_Grey_700">Sinakashall</string>
+    <string name="color_Indigo_700">Indigosinine</string>
+    <string name="color_Lime_700">Laimi roheline</string>
+    <string name="color_Orange_700">Oranž</string>
+    <string name="color_Deep_Orange_700">Tume oranž</string>
+    <string name="color_Pink_700">Roosa</string>
+    <string name="color_Purple_700">Lilla</string>
+    <string name="color_Deep_Purple_700">Tumelilla</string>
+    <string name="color_Vermilion_700">Punane</string>
+    <string name="color_Teal_700">Sinakasroheline</string>
+    <string name="color_Yellow_700">Kollane</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">Aku temperatuur</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Alati laadimisel</string>
+    <string name="doze_on_charge_summary">Näita aega, teadete ikoone ja muud teavet laadimisel</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Termokontroll profiil</string>
+    <string name="thermal_control_per_app_default">Optimeeritud puudub</string>
+    <string name="thermal_control_per_app_benchmark">Jõudlus</string>
+    <string name="thermal_control_per_app_games">Mängud</string>
+    <string name="thermal_control_per_app_browser">Veebilehitseja</string>
+    <string name="thermal_control_per_app_video_playback">Videode vaatamine</string>
+    <string name="thermal_control_per_app_dialer">Klaviatuur</string>
+    <string name="thermal_control_per_app_camera">Kaamera</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Sügav uni: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agressiivne aku</string>
+    <string name="aggressive_battery_summary">Range aku säästmine</string>
+    <string name="aggressive_battery_warning_text">Need on energiasäästufunktsioonid. Nad võivad segada teenuseid, mis on mõeldud töötama tühikäigul, nagu navigeerimisrakendused. Patare rakenduse seadetes saab neid rakendusi mõjutada.</string>
+    <string name="aggressive_idle_title">Agressiivne ooterežiim</string>
+    <string name="aggressive_idle_summary">Sisestage seade sagedamini tühikäigul ja äratage vähem</string>
+    <string name="aggressive_standby_title">Agressiivne ooterežiim</string>
+    <string name="aggressive_battery_saver_title">Auto-luba akusäästja </string>
+    <string name="aggressive_battery_saver_summary">Aktiveerige aku säästmisel aku automaatselt</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

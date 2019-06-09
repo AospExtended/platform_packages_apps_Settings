@@ -107,9 +107,6 @@
     <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">ตัวเลือกแผงควบคุม</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">ป้องกันการเปิดหน้าจอโดยไม่เจตนา</string>
-    <string name="proximity_wake_summary">ตรวจสอบเซนเซอร์ proximity ก่อนที่จะเปิดหน้าจอ</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">แตะปุ่มโฮมเพื่อเปิดหน้าจอ</string>
     <string name="home_wake_button_summary">เปิดใช้งานปุ่มหลักเพื่อเปิดหน้าจอ</string>
@@ -243,4 +240,8 @@
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

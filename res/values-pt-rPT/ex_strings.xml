@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">ERRO: ADB por rede só pode ser ativado quando conectado a uma rede Wi\u2011Fi ou USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opções do Painel de definições</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Impedir o ecrã de se ligar acidentalmente</string>
-    <string name="proximity_wake_summary">Verifique o sensor de proximidade antes de ligar o ecrã</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Botão Home liga o ecrã</string>
     <string name="home_wake_button_summary">Ativar botão inicial para ativar a tela</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Telefone</string>
     <string name="thermal_control_per_app_camera">Câmera</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Sono profundo: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Poupança de bateria agressiva</string>
+    <string name="aggressive_battery_summary">Economias de bateria mais restritas</string>
+    <string name="aggressive_battery_warning_text">Estas são funcionalidades de poupança de energia. Podem interferir com serviços projetados para serem executados enquanto o dispositivo não está a ser ativamente utilizado, como por exemplo, por aplicações de navegação. Pode adicionar este tipo de aplicações às excepções para que não sejam afetadas, nas definições de bateria da aplicação.</string>
+    <string name="aggressive_idle_title">Inatividade agressiva</string>
+    <string name="aggressive_idle_summary">Colocar o dispositivo em inatividade mais frequentemente e acordá-lo menos vezes</string>
+    <string name="aggressive_standby_title">Hibernação agressiva</string>
+    <string name="aggressive_battery_saver_title">Ativar automaticamente em poupança de bateria </string>
+    <string name="aggressive_battery_saver_summary">Ativar a poupança de bateria agressiva automaticamente quando for ativado o modo de poupança de bateria</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

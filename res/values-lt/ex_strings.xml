@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">KLAIDA: ADB per tinklą galima įjungti tik prijungus prie „Wi2011Fi“ ar USB tinklo!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Prietaisų skydelio parinktys</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Išvengti atsitiktinio pažadinimo</string>
-    <string name="proximity_wake_summary">Patikrinti artumo jutiklio prieš pažadinant ekraną</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Pagrindinis mygtukas pažadina</string>
     <string name="home_wake_button_summary">Įgalinti home mygtuką ir atsibunda ekranas</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Rinkiklis</string>
     <string name="thermal_control_per_app_camera">Fotoaparatas</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Gilus miegas: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresyvi baterija</string>
+    <string name="aggressive_battery_summary">Griežtesnis akumuliatoriaus taupymas</string>
+    <string name="aggressive_battery_warning_text">Tai yra energijos taupymo funkcijos. Šių režimų įjungimas gali trukdyti paslaugoms, skirtoms veikti budėjimo režimu, pvz., Navigacijos programoms. Šias programas galite įtraukti į baltojo sąrašo sąrašą, esantį programos baterijos nustatymuose.</string>
+    <string name="aggressive_idle_title">Agresyvus laukimo režimas</string>
+    <string name="aggressive_idle_summary">Įeiti į laukimo režimą dažniau ir pabusti rečiau</string>
+    <string name="aggressive_standby_title">Agresyvus budėjimo režimas</string>
+    <string name="aggressive_battery_saver_title">Įjunkite automatiškai, taupydami baterijos energiją </string>
+    <string name="aggressive_battery_saver_summary">Automatiškai įjungiamas agresyvus energijos taupymas baterijos taupymo režimu</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

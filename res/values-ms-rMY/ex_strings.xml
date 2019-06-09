@@ -18,6 +18,17 @@
     <!-- Fingerprint location message -->
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About AospExtended -->
+    <string name="aex_about_info">Tentang Kami</string>
+    <string name="dev_info">Mengenai AospExtended</string>
+    <string name="github">Github</string>
+    <string name="web">Pusat Download</string>
+    <string name="help_translate">Terjemahan</string>
+    <string name="help_translate_description">Terjemah ke bahasa anda, lawati Crowdin kami</string>
+    <string name="walls">Kertas dinding</string>
+    <string name="leads">Pemimpin Pasukan</string>
+    <string name="team1_description">Pemilik / Pemimpin Pasukan</string>
+    <string name="team4_description">Pemaju</string>
+    <string name="maintainers_title">Pemelihara rasmi</string>
     <!-- Maintainer section -->
     <!-- Changelog -->
     <!-- Scramble PIN Layout on Lockscreen -->
@@ -30,23 +41,36 @@
     <!-- ADB debugging notifications -->
     <!-- Android debugging over network -->
     <!-- Dashboard Category -->
-    <!-- Proximity wake -->
     <!-- Home button wake -->
     <!-- Themes -->
+    <string name="system_theme_style_black">UI Hitam</string>
+    <string name="system_theme_style_chocolate">UI Coklat</string>
+    <string name="theme_applied_toast">Tema digunakan.</string>
+    <string name="applying_theme_toast">Menerapkan tema, sila tunggu...</string>
+    <string name="force_theme_warning_title">Amaran !</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Set semula statistik</string>
+    <string name="ok_string">Ok</string>
     <!-- AEX OTA -->
     <!-- Custom light color -->
+    <string name="custom_light_title">Warna lampu</string>
     <!-- Density category -->
     <!-- Selinux -->
     <!-- Manual provisioning support -->
+    <string name="sub_activate_success">SIM diaktifkan.</string>
+    <string name="sub_activate_failed">Aktivasi gagal.</string>
+    <string name="sub_deactivate_failed">Aktivasi gagal.</string>
     <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">Pilih saiz tulisan</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Bergetar</string>
     <!-- Whether the keyguard will directly show the lock entry -->
     <!-- Per-app data restrictions -->
     <!-- Expanded desktop -->
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Pusingan</string>
     <!-- Media gestures -->
     <!-- Swipe fp to dismiss notifications -->
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
@@ -67,4 +91,8 @@
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

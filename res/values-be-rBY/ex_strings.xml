@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">Памылка: ADB па сетцы можна ўключыць толькі пры падключэнні да сеткі Wi\u2011Fi або USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Опцыі меню налад</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Прадухіляць выпадковае ўключэнне</string>
-    <string name="proximity_wake_summary">Правяраць датчык набліжэння перад уключэннем экрана</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Абуджэнне кнопкай \"Дадому\"</string>
     <string name="home_wake_button_summary">Дазволіць кнопцы \"Дадому\" уключэнне экрана</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Тэлефон</string>
     <string name="thermal_control_per_app_camera">Камера</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Глыбокі сон: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агрэсіўныя энергазберажэнне</string>
+    <string name="aggressive_battery_summary">Больш строгая эканомія батарэі</string>
+    <string name="aggressive_battery_warning_text">Гэта функцыі энергазберажэння. Уключэнне гэтых рэжымаў можа ствараць перашкоды службам, прызначаным для працы ў рэжыме чакання, напрыклад навігацыйным праграмам. Вы можаце ўключыць гэтыя праграмы ў белы спіс у наладах батарэі праграмы.</string>
+    <string name="aggressive_idle_title">Агрэсіўны рэжым чакання</string>
+    <string name="aggressive_idle_summary">Часцей уваходзіць у рэжым чакання і радзей прачынацца</string>
+    <string name="aggressive_standby_title">Абмежаванне працы ў фоне</string>
+    <string name="aggressive_battery_saver_title">Аўтаматычнае ўключэнне пры энэргазахаванні </string>
+    <string name="aggressive_battery_saver_summary">Аўтаматычна ўключаць агрэсіўнае энергазберажэнне ў рэжыме эканоміі батарэі</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

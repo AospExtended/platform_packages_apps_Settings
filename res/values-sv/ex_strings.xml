@@ -48,9 +48,6 @@
     <!-- ADB debugging notifications -->
     <!-- Android debugging over network -->
     <!-- Dashboard Category -->
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Förhindra oavsiktlig väckning</string>
-    <string name="proximity_wake_summary">Kontrollera närhetssensorn innan väckning av skärmen</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Väck med hemknapp</string>
     <!-- Themes -->
@@ -139,4 +136,8 @@
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

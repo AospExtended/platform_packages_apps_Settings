@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">BŁĄD: ADB przez sieć można włączyć tylko po podłączeniu do Wi\u2011Fi lub sieć USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opcje panelu ustawień</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
-    <string name="proximity_wake_summary">Sprawdzaj czujnik zbliżeniowy przed wybudzaniem ekranu</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Wybudzanie przyciskiem Home</string>
     <string name="home_wake_button_summary">Wybudzaj przyciskiem home</string>
@@ -134,7 +131,7 @@
     <string name="force_allow_system_themes_title">Zezwalaj na systemowe motywy i czcionki obok Substratum</string>
     <string name="force_allow_system_themes_summary">Pozwala ci na użycie systemowych motywów i czcionek mimo zainstalowanego Substratum.</string>
     <string name="force_theme_warning_title">Ostrzeżenie !</string>
-    <string name="force_theme_warning_message">Może to powodować konflikt pomiędzy motywami Substratum i motywami systemu. Mamy nadzieję, że wiesz, co dostajesz. #NieObwiniajNasPóźniej :D</string>
+    <string name="force_theme_warning_message">Może to powodować konflikt pomiędzy motywami Substratum i motywami systemu. Mamy nadzieję, że wiesz w co się pakujesz. #NieObwiniajNasPóźniej :D</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Zresetuj statystyki</string>
     <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Telefon</string>
     <string name="thermal_control_per_app_camera">Aparat</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Głęboki sen: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresywna bateria</string>
+    <string name="aggressive_battery_summary">Bardziej surowe oszczędzanie baterii</string>
+    <string name="aggressive_battery_warning_text">Funkcje oszczędzania energii. Mogą zakłócać działanie usług przeznaczonych do pracy w trybie bezczynności, takich jak aplikacje nawigacyjne. Możesz oznaczyć te aplikacje na białej liście w ustawieniach baterii aplikacji.</string>
+    <string name="aggressive_idle_title">Agresywny tryb bezczynności</string>
+    <string name="aggressive_idle_summary">Wprowadź częściej urządzenie w tryb bezczynności i rzadziej wybudzaj</string>
+    <string name="aggressive_standby_title">Agresywny tryb czuwania</string>
+    <string name="aggressive_battery_saver_title">Automatycznie włącz oszczędzanie energii </string>
+    <string name="aggressive_battery_saver_summary">Włącz Agresywną baterię automatycznie w trybie oszczędzania energii</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

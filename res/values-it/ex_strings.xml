@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">ERRORE: ADB su rete può essere abilitato solo quando connesso a una rete Wi-\u2011o USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opzioni pannello impostazioni</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Previeni risvegli accidentali</string>
-    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Sveglia con il tasto Home</string>
     <string name="home_wake_button_summary">Abilita il pulsante Home per riattivare lo schermo</string>
@@ -228,7 +225,7 @@
     <string name="night_auto_value_disabled">Disabilitato</string>
     <string name="night_auto_value_min">Luminosità minima</string>
     <string name="night_bright_low">Luminosità bassa</string>
-    <string name="night_bright_midlow">Luminosità medio bassa</string>
+    <string name="night_bright_midlow">Luminosità media</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Stile dei tile delle impostazioni rapide</string>
     <string name="qs_tile_style_default">Predefinito</string>
@@ -241,7 +238,7 @@
     <string name="increasing_ring_min_volume_title">Volume iniziale</string>
     <string name="increasing_ring_ramp_up_time_title">Tempo di aumento</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Collega suoneria &amp; volume di notifica</string>
+    <string name="volume_link_notification_title">Collega volume suoneria e notifica</string>
     <!-- Font picker -->
     <string name="font_picker_title">Carattere</string>
     <string name="font_picker_progress">Applicazione del nuovo carattere</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Telefono</string>
     <string name="thermal_control_per_app_camera">Fotocamera</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Sospensione: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Batteria aggressiva</string>
+    <string name="aggressive_battery_summary">Risparmio batteria più rigoroso</string>
+    <string name="aggressive_battery_warning_text">Queste sono funzionalità di risparmio energetico. Possono interferire con i servizi destinati a funzionare in modalità inattiva, ad esempio le app di navigazione. Puoi autorizzare queste app a non influire sulle impostazioni della batteria dell\'app.</string>
+    <string name="aggressive_idle_title">Idle aggressivo</string>
+    <string name="aggressive_idle_summary">Inserisci il dispositivo inattivo più frequentemente e sveglia meno</string>
+    <string name="aggressive_standby_title">Modalità Standby aggressivo</string>
+    <string name="aggressive_battery_saver_title">Attiva automaticamente il risparmio batteria </string>
+    <string name="aggressive_battery_saver_summary">Attiva automaticamente la batteria aggressiva quando si utilizza il risparmio batteria</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

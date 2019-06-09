@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">HIBA: \'ADB a hálózaton keresztül\' módot csak akkor lehet engedélyezni, ha csatlakozva van Wi\u2011Fi vagy USB hálózatra!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Vezérlőpult-lehetőségek</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
-    <string name="proximity_wake_summary">Ellenőrizze a közelségérzékelőt a képernyő felébresztése előtt</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Kezdőoldal-gombbal ébresztés</string>
     <string name="home_wake_button_summary">Engedélyezi a Kezdőképernyő-gombbal való képernyőébresztést</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Tárcsázó</string>
     <string name="thermal_control_per_app_camera">Kamera</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Mélyalvás: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresszív Akkukímélő</string>
+    <string name="aggressive_battery_summary">Még szigorúbb akkumulátorkímélés</string>
+    <string name="aggressive_battery_warning_text">Ezek mind akkukímélő funkciók. Ezek zavarhatják a háttérben futó szolgáltatásokat, például a navigációs alkalmazásokat. Fehérlistázhatja ezeket az alkalmazásokat anélkül, hogy az alkalmazások akkubeállításait érintené.</string>
+    <string name="aggressive_idle_title">Agresszív Üresjárat</string>
+    <string name="aggressive_idle_summary">Gyakrabban lépteti be a készüléket üresjáratba és kevesebbszer ébreszti fel</string>
+    <string name="aggressive_standby_title">Agresszív készenlét</string>
+    <string name="aggressive_battery_saver_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban </string>
+    <string name="aggressive_battery_saver_summary">Automatikusan engedélyezi az Agresszív Akkukímélő-t, ha Ön akkumulátorkímélő-üzemmódot használ</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

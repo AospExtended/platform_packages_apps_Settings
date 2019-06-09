@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">ERREUR : ADB par le réseau ne peut être activé que lorsque vous êtes connecté à un réseau Wi\u2011Fi ou USB !</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Options du panneau de configuration</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
-    <string name="proximity_wake_summary">Utilise le capteur de proximité pour allumer l\'écran</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Réveil de l\'appareil par bouton Accueil</string>
     <string name="home_wake_button_summary">Activez le bouton Accueil pour réveiller l’écran</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Téléphone</string>
     <string name="thermal_control_per_app_camera">Appareil photo</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Sommeil profond : %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Batterie Agressive</string>
+    <string name="aggressive_battery_summary">Économies d\'énergie plus poussées</string>
+    <string name="aggressive_battery_warning_text">Ce sont des fonctionnalités d\'économie d\'énergie. Elle peuvent entrer en conflit avec des services censés fonctionner en arrière-plan, comme des applications de navigation. Vous pouvez exclure certaines applications dans les paramètres de batterie de celles-ci.</string>
+    <string name="aggressive_idle_title">Sommeil agressif</string>
+    <string name="aggressive_idle_summary">Permet à l\'appareil d\'être inacif plus fréquemment et mons se réveiller</string>
+    <string name="aggressive_standby_title">Veille agressive</string>
+    <string name="aggressive_battery_saver_title">Activer avec l\'économiseur d\'énergie </string>
+    <string name="aggressive_battery_saver_summary">Activer Batterie Agressive automatiquement lorsque l\'économiseur d\'énergie est activé</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

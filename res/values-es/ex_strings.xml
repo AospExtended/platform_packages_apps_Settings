@@ -18,9 +18,9 @@
     <string name="extended_version_default">Desconocido</string>
     <string name="keywords_extended_version">versión aex, versión extendida</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Fecha de creación</string>
+    <string name="build_date">Fecha de compilación</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">fecha de construcción, construir información</string>
+    <string name="keywords_build_date">fecha de compilación, información de compilación</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huellas digitales a la izquierda del teléfono.</string>
@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">ERROR: ¡ADB a través de la red sólo se puede activar cuando estés conectado a una red Wi\u2011Fi o por USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opciones del panel de ajustes</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevenir encendido accidental</string>
-    <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Despertar con botón Inicio</string>
     <string name="home_wake_button_summary">Habilitar el botón de inicio para encender la pantalla</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Marcador</string>
     <string name="thermal_control_per_app_camera">Cámara</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Sueño profundo: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Batería agresiva</string>
+    <string name="aggressive_battery_summary">Ahorro de batería más estricto</string>
+    <string name="aggressive_battery_warning_text">Estas son características de ahorro de energía. Pueden interferir con los servicios destinados a funcionar en inactividad, como aplicaciones de navegación. Puedes elegir a estas aplicaciones de ser afectadas en la configuración de la batería de la aplicación.</string>
+    <string name="aggressive_idle_title">Idle agresivo</string>
+    <string name="aggressive_idle_summary">Introduce el dispositivo en modo inactivo más frecuentemente y lo despierta menos</string>
+    <string name="aggressive_standby_title">Standby agresivo</string>
+    <string name="aggressive_battery_saver_title">Activar automáticamente en modo ahorro de batería </string>
+    <string name="aggressive_battery_saver_summary">Activar Batería Agresiva automáticamente al usar el ahorro de batería</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

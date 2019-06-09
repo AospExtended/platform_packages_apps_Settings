@@ -30,6 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">소개</string>
     <string name="aex_about_summary">우리 팀 소개</string>
+    <string name="aex_about_info_summary">AOSP Extended은 순정 UI/UX 및 실용적인 개인화 설정을 제공하는 AOSP 기반의 ROM입니다. AOSP를 기반으로 함으로써 부드러운 경험을 제공하죠. 저희는 다른 오픈 소스 프로젝트와 다른 개인화 설정을 추가했고, 최대한 간단히 하려 합니다. 사용자에 의한 ROM, 사용자를 위한 ROM. &#35;BeExtended</string>
     <string name="dev_info">AospExtended에 대하여</string>
     <string name="github">Github</string>
     <string name="github_description">소스 코드 보기</string>
@@ -105,11 +106,11 @@
     <string name="adb_notify">ADB 알림</string>
     <string name="adb_notify_summary">USB 또는 네트워크 디버깅을 활성화 하면 알림 표시</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">네트워크를 통한 ADB</string>
+    <string name="adb_over_network_summary">네트워크(Wi\u2011Fi, USB 네트워크) 를 통한 TCP/IP 디버깅을 활성화합니다. 이 설정은 기기를 껐다 킬 때마다 재설정됩니다.</string>
+    <string name="adb_over_network_disallowed_error">오류: 네트워크를 통한 ADB는 Wi\u2011Fi나 USB 네트워크에 연결되어 있을 깨만 활성화됩니다!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">대시보드 설정</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
-    <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서 확인</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">홈 버튼 켜기</string>
     <string name="home_wake_button_summary">화면을 켜기 위해 홈 버튼 활성화</string>
@@ -343,4 +344,9 @@
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_saver_title">배터리 세이버 자동 활성화 </string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

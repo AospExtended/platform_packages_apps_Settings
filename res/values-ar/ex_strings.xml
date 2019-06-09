@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">خطأ: يمكن تمكين ADB عبر الشبكة فقط عند الاتصال بشبكة Wi-Fi أو USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">خيارات لوحة التحكم</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">منع الاستيقاظ العرضي</string>
-    <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل إيقاظ الشاشة</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">إيقاظ عبر زر الصفحة الرئيسية</string>
     <string name="home_wake_button_summary">تمكين زر الصفحة الرئيسية لتشغيل الشاشة</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">الهاتف</string>
     <string name="thermal_control_per_app_camera">الكاميرا</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(سبات عميق: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">بطارية قوية</string>
+    <string name="aggressive_battery_summary">توفير بطارية اكثر صرامة</string>
+    <string name="aggressive_battery_warning_text">هذه هي ميزات توفير الطاقة. قد تتداخل مع الخدمات المخصصة للتشغيل في وضع الخمول ، مثل تطبيقات التنقل. يمكنك إدراج هذه التطبيقات في القائمة البيضاء للتأثر في إعدادات البطارية للتطبيق.</string>
+    <string name="aggressive_idle_title">الخمول القوي</string>
+    <string name="aggressive_idle_summary">أدخال الجهاز في وضع الخمول بشكل متكرر وإيقاظ الجهاز بشكل أقل</string>
+    <string name="aggressive_standby_title">الإستعداد القوي</string>
+    <string name="aggressive_battery_saver_title">تشغيل تلقائي في وضع توفير الطاقة </string>
+    <string name="aggressive_battery_saver_summary">تمكين البطارية القوية تلقائياً عند استخدام موفر البطارية</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

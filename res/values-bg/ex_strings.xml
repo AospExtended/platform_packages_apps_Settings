@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">ГРЕШКА: режим за отстраняване на грешки през мрежата може да бъде разрешен само когато сте свързани с Wi\u2011Fi или USB мрежа!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Опции на менюто за настройки</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Предотвратяване на случайно събуждане</string>
-    <string name="proximity_wake_summary">Провери сензора за близост преди събуждане на екрана</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Събуждане с бутон Начало</string>
     <string name="home_wake_button_summary">Разреши на бутон Начало да събужда екрана</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Телефон</string>
     <string name="thermal_control_per_app_camera">Камера</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Дълбок сън: %1$d,%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агресивна батерия</string>
+    <string name="aggressive_battery_summary">По-строги икономии на батерията</string>
+    <string name="aggressive_battery_warning_text">Това са функции за пестене на батерията. Те могат да попречат на услуги, предназначени да работят в режим на изчакване, като например приложения за навигация. Можете да поставите тези приложения в белия списък, за да предотвратите засягането им от ефектите на приложенията за батерия.</string>
+    <string name="aggressive_idle_title">Агресивен режим на изчакване</string>
+    <string name="aggressive_idle_summary">Въвеждайте устройството в режим на готовност по- често и го събуждайте по- малко</string>
+    <string name="aggressive_standby_title">Агресивен режим в готовност</string>
+    <string name="aggressive_battery_saver_title">Автоматично включване при режим на запазване на батерията </string>
+    <string name="aggressive_battery_saver_summary">Разреши режим Агресивна батерия автоматично, когато използвате икономия на батерията</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

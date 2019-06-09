@@ -36,7 +36,7 @@
     <string name="github_description">查看我们的源代码</string>
     <string name="gplus">Google+</string>
     <string name="gplus_description">加入我们的 G+ 社区</string>
-    <string name="telegram">Telegram</string>
+    <string name="telegram">电报</string>
     <string name="telegram_description">订阅我们的 Telegram 频道</string>
     <string name="web">下载中心</string>
     <string name="web_description">访问我们的下载门户</string>
@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">错误：网络 ADB 调试只能在连接到 Wi\u2011Fi 或 USB 网络时启用！</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">面板设置</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">防止意外唤醒</string>
-    <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Home 键唤醒</string>
     <string name="home_wake_button_summary">启用 Home 键唤醒</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">电话</string>
     <string name="thermal_control_per_app_camera">相机</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(深度休眠: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">极限省电</string>
+    <string name="aggressive_battery_summary">更严格的电量节省措施</string>
+    <string name="aggressive_battery_warning_text">这是电量节省特性。它可能会干扰原计划在空闲状态时运行的服务, 如导航应用。你可以将这些应用列入白名单, 使其在应用电池设置中免受影响。</string>
+    <string name="aggressive_idle_title">激进休眠</string>
+    <string name="aggressive_idle_summary">更频繁地进入设备空闲状态并且唤醒更少</string>
+    <string name="aggressive_standby_title">极限待机</string>
+    <string name="aggressive_battery_saver_title">在省电模式自动开启 </string>
+    <string name="aggressive_battery_saver_summary">当使用省电模式时自动开启极限省电</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

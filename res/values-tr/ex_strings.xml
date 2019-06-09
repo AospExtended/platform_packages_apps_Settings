@@ -22,9 +22,9 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">inşa tarihi, inşa bilgisi</string>
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonunuzun sol tarafındaki parmak izi sensörünü bulun.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Telefonunuzun sağ tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonunuzun sol tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Telefonunuzun sağ tarafında bulunan parmak izi sensörünü bulun.</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">Hata: Ağ üzerinden ADB sadece bir Wi\u2011Fi veya USB ağına bağlandığında etkinleştirilebilir!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Ayarlar menüsü</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
-    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Ana ekran tuşu</string>
     <string name="home_wake_button_summary">Ekranı uyandırmak için ana ekran tuşunu etkinleştir</string>
@@ -132,9 +129,9 @@
     <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
     <string name="substratum_installed_title">Substratum teması yüklü olduğu için sistem temaları kullanılamıyor. Devam etmek için lütfen android sistemini hedefleyen tüm temaları kaldırın.</string>
     <string name="force_allow_system_themes_title">Substratum izni</string>
-    <string name="force_allow_system_themes_summary">Substratum kurulu olduğunda tema ve yazı tipleri seçeneklerini kullanmanıza izin verir.</string>
+    <string name="force_allow_system_themes_summary">Substratum kurulu olduğunda tema ve yazı tipi seçeneklerini kullanmanıza izin verir.</string>
     <string name="force_theme_warning_title">Uyarı !</string>
-    <string name="force_theme_warning_message">Bu substratum temaları ve sistem temaları arasındaki çatışmalara neden olabilir. Neler aldığınızı bilmenizi umuyoruz. #DontBlameUsLater :D</string>
+    <string name="force_theme_warning_message">Bu substratum temaları ile sistem temaları arasındaki çatışmalara neden olabilir. Neler aldığınızı bilmenizi umuyoruz. #DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">İstatistikleri sıfırla</string>
     <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak</string>
@@ -243,12 +240,12 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim ses düzeyini bağla</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
+    <string name="font_picker_title">Yazı tipi</string>
     <string name="font_picker_progress">Yeni yazı tipi uygulanıyor\u2026</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
+    <string name="notification_log_summary">Bildirimler geçmişi günlüğünü göster</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Arka plan işlemleri</string>
+    <string name="background_processes_settings_title">Arkaplan işlemleri</string>
     <!-- App Ops Categories -->
     <string name="app_ops_cat_location">Konum</string>
     <string name="app_ops_cat_personal">Kişisel</string>
@@ -357,10 +354,10 @@
     <string name="color_Indigo_700">İndigo</string>
     <string name="color_Lime_700">Limon yeşili</string>
     <string name="color_Orange_700">Turuncu</string>
-    <string name="color_Deep_Orange_700">Derin turuncu</string>
+    <string name="color_Deep_Orange_700">Koyu turuncu</string>
     <string name="color_Pink_700">Pembe</string>
     <string name="color_Purple_700">Mor</string>
-    <string name="color_Deep_Purple_700">Derin mor</string>
+    <string name="color_Deep_Purple_700">Koyu mor</string>
     <string name="color_Vermilion_700">Kırmızı</string>
     <string name="color_Teal_700">Turkuaz</string>
     <string name="color_Yellow_700">Sarı</string>
@@ -368,7 +365,7 @@
     <string name="battery_temp_title">Pil sıcaklığı</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
-    <string name="doze_on_charge_summary">Şarj olurken saati, bildirim simgelerini ve diğer bilgileri gösterin. Pil kullanımını artırır.</string>
+    <string name="doze_on_charge_summary">Şarj olurken saati, bildirim simgelerini ve diğer bilgileri gösterir. Pil kullanımını artırır</string>
     <!-- Thermal control per app -->
     <string name="thermal_control_per_app">Termal kontrol profili</string>
     <string name="thermal_control_per_app_default">Optimizasyon yok</string>
@@ -379,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Çevirici</string>
     <string name="thermal_control_per_app_camera">Kamera</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Derin uyku: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresif pil</string>
+    <string name="aggressive_battery_summary">Daha iyi pil tasarrufu</string>
+    <string name="aggressive_battery_warning_text">Bunlar güç tasarrufu özellikleri. Gezinme çubuğu uygulamaları gibi boşta çalışmayı amaçlayan servislere müdahale edebilirler. Bu uygulamaları, pil ayarlarından etkilenmekten beyaz listeye alabilirsiniz.</string>
+    <string name="aggressive_idle_title">Agresif boşta durumu</string>
+    <string name="aggressive_idle_summary">Cihaz daha sık boşta ve daha az uyanma</string>
+    <string name="aggressive_standby_title">Agresif bekleme</string>
+    <string name="aggressive_battery_saver_title">Pil tasarrufu için otomatik etkinleştir </string>
+    <string name="aggressive_battery_saver_summary">Pil tasarrufunu kullanırken agresif pili otomatik olarak etkinleştirin</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

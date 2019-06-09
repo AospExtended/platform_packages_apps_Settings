@@ -78,7 +78,6 @@
     <!-- ADB debugging notifications -->
     <!-- Android debugging over network -->
     <!-- Dashboard Category -->
-    <!-- Proximity wake -->
     <!-- Home button wake -->
     <!-- Themes -->
     <!-- Battery stats reset -->
@@ -118,4 +117,8 @@
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

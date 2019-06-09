@@ -16,11 +16,11 @@
     <!-- About phone screen, Extended version -->
     <string name="extended_version">Phiên bản mở rộng</string>
     <string name="extended_version_default">Không xác định</string>
-    <string name="keywords_extended_version">phiên bản Aex, bản mở rộng</string>
+    <string name="keywords_extended_version">phiên bản aex, bản mở rộng</string>
     <!-- About phone screen, build date -->
     <string name="build_date">Ngày dựng</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">xây dựng ngày, xây dựng các thông tin</string>
+    <string name="keywords_build_date">ngày xây dựng, thông tin bản dựng</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Xác định vị trí các cảm biến vân tay ở mặt trước của điện thoại của bạn.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Định vị cảm biến vân tay trên cạnh trái điện thoại của bạn.</string>
@@ -30,7 +30,7 @@
     <!-- About AospExtended -->
     <string name="aex_about_info">Về chúng tôi</string>
     <string name="aex_about_summary">Giới thiệu và nhóm của chúng tôi</string>
-    <string name="aex_about_info_summary">AOSP mở rộng là một AOSP dựa trên ROM đó cung cấp cho chứng khoán UI/UX kinh nghiệm với các tùy chỉnh hữu ích. Nó được dựa trên AOSP cung cấp một kinh nghiệm mịn. Chúng tôi đã thêm các tùy chỉnh hữu ích từ khác nhau khác mở nguồn dự án và đã cố gắng để giữ cho chúng tôi những điều đơn giản. Bản ROM của người dùng, cho người dùng.&#35;BeExtended</string>
+    <string name="aex_about_info_summary">AOSP Extended là ROM dựa trên AOSP cung cấp trải nghiệm UI / UX gốc với các tùy chỉnh hữu ích. Vì dựa trên AOSP nên nó cung cấp trải nghiệm mượt mà. Chúng tôi đã thêm các tùy chỉnh hữu ích từ các dự án nguồn mở khác nhau và đã cố gắng giữ mọi thứ đơn giản. ROM của người dùng, cho người dùng.&#35;BeExtended</string>
     <string name="dev_info">Giới thiệu về AospExtended</string>
     <string name="github">Github</string>
     <string name="github_description">Xem mã nguồn code</string>
@@ -50,6 +50,7 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team2_description">Nhà phát triển</string>
     <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Người điều hành và nhà phát triển</string>
     <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
     <string name="team4_description">Nhà phát triển</string>
     <string name="designers">Nhà thiết kế</string>
@@ -66,10 +67,10 @@
     <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
     <string name="designer6_description">Hiệu ứng khởi động mới</string>
     <string name="maintainers">Nhà bảo trì</string>
-    <string name="maintainers_title">Chính thức maintainers</string>
-    <string name="maintainers_summary">Danh sách các thiết bị và người duy trì Rr-Os chính thức.</string>
+    <string name="maintainers_title">Người bảo trì chính thức</string>
+    <string name="maintainers_summary">Danh sách các thiết bị và người duy trì chính thức.</string>
     <!-- Maintainer section -->
-    <string name="maintainer_description">Duy trì: %1$s</string>
+    <string name="maintainer_description">Người duy trì: %1$s</string>
     <string name="loading_devices">Đang tải danh sách thiết bị...</string>
     <string name="loading_devices_failed">Không thể tải danh sách thiết bị</string>
     <string name="devices_list_empty">Danh sách trống, nhấn vào icon để tải lại</string>
@@ -84,7 +85,7 @@
     <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
-    <string name="unlock_quick_unlock_control_summary">Mở khóa tự động khi nhập đúng mật khẩu/PIN</string>
+    <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập đúng mật khẩu/PIN</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Bật màn hình khi sạc</string>
     <string name="wakeup_when_plugged_unplugged_summary">Đánh thức thiết bị nếu nguồn sạc được cắm vào hoặc rút ra.</string>
@@ -92,8 +93,8 @@
     <string name="charging_vibro_title">Hiệu ứng sạc</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
-    <string name="dashboard_conditions_title">Bảng điều khiển đề xuất</string>
-    <string name="summary_dashboard_conditions_enabled">Đề xuất bảng điều khiển được bật</string>
+    <string name="dashboard_conditions_title">Điều kiện bản điều khiển</string>
+    <string name="summary_dashboard_conditions_enabled">Điều kiện bảng điều khiển được bật</string>
     <string name="summary_dashboard_conditions_disabled">Đề xuất bảng điều khiển được tắt</string>
     <string name="dashboard_suggestions_title">Bảng điều khiển đề xuất</string>
     <string name="summary_dashboard_suggestions_enabled">Đề xuất bảng điều khiển được bật</string>
@@ -103,21 +104,18 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Hiển thị thông tin CPU trên màn hình</string>
     <!-- ADB debugging notifications -->
-    <string name="adb_notify">ADB thông báo</string>
-    <string name="adb_notify_summary">Hiển thị thông báo khi tính năng gỡ lỗi qua Usb hoặc mạng được bật</string>
+    <string name="adb_notify">Thông báo ADB</string>
+    <string name="adb_notify_summary">Hiển thị thông báo khi tính năng gỡ lỗi qua USB hoặc mạng được bật</string>
     <!-- Android debugging over network -->
     <string name="adb_over_network">ADB qua mạng</string>
     <string name="adb_over_network_summary">Bật tính năng gỡ lỗi TCP/IP qua giao diện mạng (mạng Wi\u2011Fi, USB). Thiết lập này sẽ được đặt lại khi khởi động lại máy</string>
     <string name="adb_over_network_warning">CẢNH BÁO: Khi ADB qua mạng được bật, điện thoại của bạn sẽ có thể bị xâm nhập trên tất cả các mạng kết nối!\n\nChỉ sử dụng tính năng này khi bạn đang kết nối trên các mạng đáng tin cậy.\n\nBạn có thực sự muốn bật chức năng này?</string>
-    <string name="adb_over_network_disallowed_error">LỖI: ADB qua mạng chỉ có thể được kích hoạt khi kết nối với một Wi\u2011Fi hoặc USB mạng!</string>
+    <string name="adb_over_network_disallowed_error">LỖI: ADB qua mạng chỉ có thể được kích hoạt khi kết nối với một mạng Wi\u2011Fi hoặc USB!</string>
     <!-- Dashboard Category -->
-    <string name="dashboard_category">Bảng điều khiển tùy chọn</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Ngăn tình trạng tình cờ đánh thức thiết bị</string>
-    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
+    <string name="dashboard_category">Tùy chọn bảng điều khiển</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Nút Home đánh thức</string>
-    <string name="home_wake_button_summary">Sử nút home để thức dậy màn hình</string>
+    <string name="home_wake_button_summary">Nhấn nút home để đánh thức màn hình</string>
     <!-- Themes -->
     <string name="theme_category_title">Chủ đề Hệ thống</string>
     <string name="system_theme_style_title">Giao diện người dùng</string>
@@ -126,21 +124,21 @@
     <string name="system_theme_style_dark">Giao diện tối</string>
     <string name="system_theme_style_black">Giao diện đen</string>
     <string name="system_theme_style_extended">Giao diện Extended</string>
-    <string name="system_theme_style_chocolate">Giao diện sô cô la</string>
+    <string name="system_theme_style_chocolate">Giao diện sôcôla</string>
     <string name="theme_applied_toast">Chủ đề đã được áp dụng.</string>
     <string name="applying_theme_toast">Áp dụng chủ đề, xin vui lòng chờ...</string>
     <string name="substratum_installed_title">Tùy chọn giao diện hệ thống không có bởi một giao diện Substratum đã cài đặt. Hãy xoá tất cả những giao diện chỉnh sửa hệ thống để tiếp tục.</string>
     <string name="force_allow_system_themes_title">Cho phép chủ đề và phông chữ hệ thống đi cùng substratum</string>
     <string name="force_allow_system_themes_summary">Cho phép bạn sử dụng những tùy chọn theo chủ đề và các phông chữ sau mặc cho substratum được cài đặt.</string>
     <string name="force_theme_warning_title">Cảnh báo !</string>
-    <string name="force_theme_warning_message">Điều này có thể gây ra xung đột giữa substratum chủ đề và chủ đề của hệ thống. Chúng tôi hy vọng bạn biết những gì bạn đang làm. #DontBlameUsLater :D</string>
+    <string name="force_theme_warning_message">Điều này có thể gây ra xung đột giữa chủ đề substratum và chủ đề của hệ thống. Chúng tôi hy vọng bạn biết những gì bạn đang làm. #DontBlameUsLater :D</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Thiết lập lại thống kê</string>
     <string name="battery_stats_message">Thống kê lịch sử pin sẽ được thiết lập lại</string>
     <string name="ok_string">Đồng ý</string>
     <!-- AEX OTA -->
     <string name="aex_ota_title">Thông tin Cập Nhật AEX</string>
-    <string name="aex_ota_summary">Được xây dựng mới nhất</string>
+    <string name="aex_ota_summary">Nhận bản dựng mới nhất</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Màu sắc đèn</string>
     <string name="custom_light_on_time_title">Thời gian sáng đèn khi nhấp nháy (ms)</string>
@@ -148,15 +146,15 @@
     <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Nhấp nháy khi ở chế độ không làm phiền</string>
     <!-- Density category -->
-    <string name="density_category">Mật độ tùy chọn</string>
+    <string name="density_category">Tùy chọn mật độ</string>
     <!-- Selinux -->
     <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Đã tắt</string>
-    <string name="selinux_status_permissive">Quyền</string>
+    <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">vô hiệu hóa</string>
+    <string name="sim_disabled">đã vô hiệu hóa</string>
     <string name="sim_missing">thiếu hoặc bị lỗi</string>
     <string name="sim_enabler_need_disable_sim">Thẻ SIM sẽ bị huỷ kích hoạt. Bạn có muốn tiếp tục?</string>
     <string name="sim_enabler_will_disable_sim_title">Chú ý</string>
@@ -180,15 +178,15 @@
     <string name="lockscreen_vibrate_enabled_title">Rung</string>
     <string name="lockscreen_vibrate_enabled_head">Rung khi mở khóa</string>
     <!-- Whether the keyguard will directly show the lock entry -->
-    <string name="directly_show_lock">Trực tiếp mở khóa</string>
-    <string name="directly_show_lock_summary">Bỏ qua chế độ trượt để mở khóa và bắt đầu nhập mã Pin ngay lập tức</string>
+    <string name="directly_show_lock">Mở khóa trực tiếp</string>
+    <string name="directly_show_lock_summary">Bỏ qua màn hình trượt để mở khóa và bắt đầu nhập mã Pin ngay lập tức</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Dữ liệu di động</string>
     <string name="data_usage_app_restrict_data_summary">Bật sử dụng dữ liệu di động</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Bật sử dụng dữ liệu Wi\u2011Fi</string>
-    <string name="full_gesture_mode_title">Bật cử chỉ tràng cạnh</string>
-    <string name="full_gesture_mode_summary">Chế độ này vô hiệu hóa nút quay lại và bạn có thể kích hoạt một hành động nút quay lại bởi một vệt trái trên thanh phím. Vệt đúng vẫn gây nên cuối cùng các ứng dụng và các ứng dụng tổng quan về di chuyển. Để đi Trang chủ bạn có thể tap vào thanh phím bất kỳ không gian trống rỗng, không phải chỉ có nút home. Khi bàn phím Hiển thị, bấm giữ trên thanh phím để di chuyển con trỏ văn bản.</string>
+    <string name="full_gesture_mode_title">Bật cử chỉ tràn cạnh</string>
+    <string name="full_gesture_mode_summary">Chế độ này tắt nút quay lại và bạn có thể kích hoạt hành động quay lại bằng cách vuốt trên thanh điều hướng. Vuốt sang phải vẫn kích hoạt màn hình đa nhiệm. Để về màn hình chính bạn có thể chạm vào chỗ trống bất kì trên thanh điều hướng, không chỉ có nút home. Khi bàn phím hiển thị, bấm giữ trên thanh điều hướng để di chuyển con trỏ văn bản.</string>
     <string name="full_gesture_mode_dt2s_title">Bật nhấn đúp để tắt màn hình</string>
     <string name="full_gesture_mode_dt2s_summary">Chạm vào khoảng trống trên thanh điều hướng nhưng không phải nút home để tắt màn hình.</string>
     <!-- Expanded desktop -->
@@ -217,7 +215,7 @@
     <string name="prevent_ringing_option_mute_no_media">Tắt tiếng, không có phương tiện</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Bật (tắt tiếng, không có phương tiện)</string>
     <!-- Swipe fp to dismiss notifications -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Trượt bộ quét vân tay sang trái hoặc phải để loại bỏ thông báo</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Trượt cảm biến vân tay sang trái hoặc phải để loại bỏ thông báo</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Để loại bỏ thông báo của bạn, hãy vuốt sang trái hoặc phải trên cảm biến vân tay ở mặt sau của điện thoại.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <string name="ringtone1_title">Chuông điện thoại - SIM 1</string>
@@ -229,7 +227,7 @@
     <string name="night_bright_low">Độ sáng thấp</string>
     <string name="night_bright_midlow">Độ sáng trung bình</string>
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Tiêu đề ô cài đặt nhanh</string>
+    <string name="qs_tile_style_title">Kiểu ô cài đặt nhanh</string>
     <string name="qs_tile_style_default">Mặc định</string>
     <string name="qs_tile_style_square">Vuông</string>
     <string name="qs_tile_style_rounded_square">Hình vuông bo tròn cạnh</string>
@@ -327,7 +325,7 @@
     <string name="app_ops_request_delete_packages">xóa các gói</string>
     <string name="app_ops_bind_accessibility_service">ràng buộc khả năng truy cập</string>
     <string name="app_ops_accept_handover">chấp nhận bàn giao</string>
-    <string name="app_ops_manage_ipsec_tunnels">quản lý đường hầm ip</string>
+    <string name="app_ops_manage_ipsec_tunnels">quản lý kênh bảo vệ địa chỉ IP</string>
     <string name="app_ops_start_foreground">khởi chạy trong nền</string>
     <string name="app_ops_bluetooth_scan">quét bluetooth</string>
     <string name="app_ops_boot_completed">tự khởi động</string>
@@ -366,7 +364,30 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Nhiệt độ pin</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Luôn bật khi sạc</string>
+    <string name="doze_on_charge_summary">Hiển thị thời gian, biểu tượng thông báo và thông tin khác khi đang sạc</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Hồ sơ kiểm soát nhiệt</string>
+    <string name="thermal_control_per_app_default">Không tối ưu hóa</string>
+    <string name="thermal_control_per_app_benchmark">Hiệu năng</string>
+    <string name="thermal_control_per_app_games">Trò chơi</string>
+    <string name="thermal_control_per_app_browser">Trình duyệt</string>
+    <string name="thermal_control_per_app_video_playback">Phát lại video</string>
+    <string name="thermal_control_per_app_dialer">Trình quay số</string>
+    <string name="thermal_control_per_app_camera">Máy ảnh</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Ngủ sâu: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Chế độ tiết kiệm pin tích cực</string>
+    <string name="aggressive_battery_summary">Thêm tiết kiệm pin</string>
+    <string name="aggressive_battery_warning_text">Đây là các tính năng tiết kiệm năng lượng. Chúng có thể ảnh hưởng đến các dịch vụ nhằm chạy ở chế độ nhàn rỗi, như các ứng dụng điều hướng. Bạn có thể danh sách trắng các ứng dụng này để tránh bị ảnh hưởng trong cài đặt pin của ứng dụng.</string>
+    <string name="aggressive_idle_title">Nhàn rỗi</string>
+    <string name="aggressive_idle_summary">Kích hoạt tăng tần số nhàn rỗi và tự bật màn hình ít hơn</string>
+    <string name="aggressive_standby_title">Chờ đợi tích cực</string>
+    <string name="aggressive_battery_saver_title">Tự động bật cùng trình tiết kiệm pin </string>
+    <string name="aggressive_battery_saver_summary">Tự động bật Pin tích cực khi sử dụng trình tiết kiệm pin</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

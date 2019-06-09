@@ -14,19 +14,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">Versi Extended</string>
+    <string name="extended_version">Versi diperluas</string>
     <string name="extended_version_default">Tidak diketahui</string>
-    <string name="keywords_extended_version">Versi aex, versi extended</string>
+    <string name="keywords_extended_version">versi aex, versi diperluas</string>
     <!-- About phone screen, build date -->
     <string name="build_date">Tanggal Pembuatan</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">tanggal build, info build</string>
+    <string name="keywords_build_date">tanggal pembuatan, info pembuatan</string>
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Tentukan lokasi sensor sidik jari di depan telepon anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Temukan lokasi sensor sidik jari di depan telepon anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Tentukan lokasi sensor sidik jari di samping kiri telepon anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Tentukan lokasi sensor sidik jari di sisi kanan telepon anda.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="nama_paket">%1$s</xliff:g></string>
     <!-- About AospExtended -->
     <string name="aex_about_info">Tentang kami</string>
     <string name="aex_about_summary">Perkenalan kami dan tim kami</string>
@@ -41,7 +41,7 @@
     <string name="web">Pusat unduhan</string>
     <string name="web_description">Kunjungi portal unduhan kami</string>
     <string name="help_translate">Alih Bahasa</string>
-    <string name="help_translate_description">Terjemahkan kebahasa anda, kunjungi Crowdin kami</string>
+    <string name="help_translate_description">Terjemahkan ke bahasa Anda, kunjungi Crowdin kami</string>
     <string name="walls">Gambar latar</string>
     <string name="walls_description">Dapatkan gambar latar yang dikontribusikan oleh berbagai pengguna</string>
     <string name="leads">Pemimpin tim</string>
@@ -113,15 +113,12 @@
     <string name="adb_over_network_disallowed_error">EROR: ADB lewat jaringan hanya akan hidup jika terkoneksi pada Wi\u2011Fi atau jaringan USB!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Opsi dasbor</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
-    <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Tombol beranda untuk membangunkan layar</string>
     <string name="home_wake_button_summary">Aktifkan tombol beranda untuk membangunkan layar</string>
     <!-- Themes -->
     <string name="theme_category_title">Tema sistem</string>
-    <string name="system_theme_style_title">Gaya Antarmuka Pengguna</string>
+    <string name="system_theme_style_title">Gaya UI</string>
     <string name="system_theme_style_auto">Basis wallpaper</string>
     <string name="system_theme_style_light">Antarmuka Terang</string>
     <string name="system_theme_style_dark">Antarmuka Gelap</string>
@@ -130,11 +127,11 @@
     <string name="system_theme_style_chocolate">Chocolate UI</string>
     <string name="theme_applied_toast">Tema diterapkan.</string>
     <string name="applying_theme_toast">Menerapkan tema, harap tunggu...</string>
-    <string name="substratum_installed_title">Tema sistem tidak tersedia karena Substratum overlay terpasang. Silakan hapus semua overlay penargetan sistem Android untuk melanjutkan.</string>
+    <string name="substratum_installed_title">Tema sistem tidak tersedia karena overlay Substratum terpasang. Silakan hapus semua overlay pada sistem Android untuk melanjutkan.</string>
     <string name="force_allow_system_themes_title">Memungkinkan tema dan font sistem bersama substratum</string>
     <string name="force_allow_system_themes_summary">Memungkinkan Anda untuk menggunakan font dan tema pilihan meskipun substratum diinstal.</string>
-    <string name="force_theme_warning_title">Peringatan !</string>
-    <string name="force_theme_warning_message">Hal ini dapat menyebabkan konflik antara tema substratum dan tema sistem. Kami berharap Anda tahu apa yang Anda lakukan. #JanganSalahkanKami xD</string>
+    <string name="force_theme_warning_title">Peringatan!</string>
+    <string name="force_theme_warning_message">Hal ini dapat menyebabkan konflik antara tema substratum dan tema sistem. Kami berharap Anda tahu apa yang Anda lakukan. #JanganSalahkanKami :D</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik</string>
     <string name="battery_stats_message">Statistik penggunaan baterai akan di atur ulang</string>
@@ -153,7 +150,7 @@
     <!-- Selinux -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Matikan</string>
-    <string name="selinux_status_permissive">Tidak Wajib</string>
+    <string name="selinux_status_permissive">Hak akses</string>
     <string name="selinux_status_enforcing">Wajib</string>
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -189,7 +186,7 @@
     <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
     <string name="full_gesture_mode_title">Aktifkan mode penuh gerakan</string>
-    <string name="full_gesture_mode_summary">Mode ini juga akan menonaktifkan tombol kembali dan kamu akan dapat memicu aksi tombol kembali oleh usap kiri pada bilah navigasi. Usap kanan masih akan memicu tindakan aplikasi terakhir dan geseran kiri akan memindahkan aplikasi. Untuk ke beranda, kamu akan dapat mengetuk ruang kosong bilah navigasi, tidak hanya tombol beranda. ketika keyboard muncul, tekan lama bilah navigasi pindah ke kursor teks.</string>
+    <string name="full_gesture_mode_summary">Mode ini akan menonaktifkan tombol kembali dan kamu akan dapat memicu aksi tombol kembali dengan mengusap ke kiri pada bilah navigasi. Mengusap ke kanan masih akan memicu tindakan aplikasi terakhir dan geseran kiri akan memindahkan aplikasi. Untuk ke beranda, kamu dapat mengetuk ruang kosong bilah navigasi, tidak hanya tombol beranda. Ketika keyboard muncul, tekan lama bilah navigasi pindah ke kursor teks.</string>
     <string name="full_gesture_mode_dt2s_title">Aktifkan tap dua kali untuk tidur</string>
     <string name="full_gesture_mode_dt2s_summary">Ketuk ruang bilah navigasi kosong tetapi bukan tombol home untuk mematikan layar.</string>
     <!-- Expanded desktop -->
@@ -300,12 +297,12 @@
     <string name="app_ops_use_ring_volume">volume nada dering</string>
     <string name="app_ops_use_vibrate">getaran</string>
     <string name="app_ops_use_voice_volume">volume suara panggilan</string>
-    <string name="app_ops_write_mms">menulis MMS</string>
-    <string name="app_ops_write_sms">menulis SMS</string>
+    <string name="app_ops_write_mms">tulis MMS</string>
+    <string name="app_ops_write_sms">tulis SMS</string>
     <string name="app_ops_use_fingerprint">sidik jari</string>
-    <string name="app_ops_add_voicemail">menambah Pesan suara</string>
+    <string name="app_ops_add_voicemail">pesan suara</string>
     <string name="app_ops_read_phone_state">mengakses status ponsel</string>
-    <string name="app_ops_scan_wifi">Memindai jaringan Wifi</string>
+    <string name="app_ops_scan_wifi">Memindai jaringan WiFi</string>
     <string name="app_ops_change_wallpaper">mengubah wallpaper</string>
     <string name="app_ops_assist_structure">struktur pembantu</string>
     <string name="app_ops_assist_screenshot">tangkapan layar</string>
@@ -315,7 +312,7 @@
     <string name="app_ops_read_external_storage">baca penyimpanan eksternal.</string>
     <string name="app_ops_write_external_storage">menulis penyimpanan eksternal.</string>
     <string name="app_ops_turn_on_screen">menghidupkan layar</string>
-    <string name="app_ops_get_accounts">dapatkan akun perangkat</string>
+    <string name="app_ops_get_accounts">akun perangkat</string>
     <string name="app_ops_run_in_background">berjalan di latar belakang</string>
     <string name="app_ops_accessibility_volume">volume aksesibilitas</string>
     <string name="app_ops_read_phone_numbers">membaca nomor telepon.</string>
@@ -370,6 +367,7 @@
     <string name="doze_on_charge_title">Selalu nyala saat mengisi</string>
     <string name="doze_on_charge_summary">Tampilkan waktu, ikon pemberitahuan, dan info lainnya selama mengisi</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil pengendalian panas</string>
     <string name="thermal_control_per_app_default">Tidak ada optimisasi</string>
     <string name="thermal_control_per_app_benchmark">Peforma</string>
     <string name="thermal_control_per_app_games">Permainan</string>
@@ -378,5 +376,18 @@
     <string name="thermal_control_per_app_dialer">Panggilan</string>
     <string name="thermal_control_per_app_camera">Kamera</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Tidur nyenyak: %1$d%2$s)</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Baterai agresif</string>
+    <string name="aggressive_battery_summary">Penghematan baterai lebih ketat</string>
+    <string name="aggressive_battery_warning_text">Berikut adalah fitur penghematan baterai. Dapat menganggu layanan yang dimaksudkan untuk berjalan saat diam, seperti aplikasi navigasi. Anda bisa memasukkan aplikasi ke daftar putih dari pengaruh di pengaturan baterai aplikasi.</string>
+    <string name="aggressive_idle_title">Aec agresif</string>
+    <string name="aggressive_idle_summary">Perangkat diam lebih sering dan bangun lebih sedikit</string>
+    <string name="aggressive_standby_title">Siaga agresif</string>
+    <string name="aggressive_battery_saver_title">Hidupkan otomatis mode hemat baterai </string>
+    <string name="aggressive_battery_saver_summary">Nyalakan baterai agresif otomatis saat menggunakan penghemat baterai</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

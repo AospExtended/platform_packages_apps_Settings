@@ -107,9 +107,6 @@
     <!-- Android debugging over network -->
     <!-- Dashboard Category -->
     <string name="dashboard_category">डैशबोर्ड विकल्प</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">ग़लती से जगाए जाने को रोकें</string>
-    <string name="proximity_wake_summary">स्क्रीन जगाने से पहले निकटता सेंसर की जांच करें</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">होम बटन के द्वारा जागना</string>
     <string name="home_wake_button_summary">स्क्रीन जगाने के लिए होम बटन सक्रिय करें</string>
@@ -295,4 +292,8 @@
     <!-- Thermal control per app -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>

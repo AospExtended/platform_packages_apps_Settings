@@ -113,9 +113,6 @@
     <string name="adb_over_network_disallowed_error">NAPAKA: ADB prek omrežja lahko omogočite samo, ko ste povezani v Wi\u2011Fi ali USB omrežje!</string>
     <!-- Dashboard Category -->
     <string name="dashboard_category">Nastavitve nadzorne plošče</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prepreči nenamerno bujenje</string>
-    <string name="proximity_wake_summary">Pred bujenjem zaslona preveri tipalo bližine</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Bujenje z gumbom Domov</string>
     <string name="home_wake_button_summary">Omogoči bujenje zaslona z gumbom Domov</string>
@@ -380,4 +377,8 @@
     <string name="thermal_control_per_app_camera">Fotoaparat</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <!-- Aggressive battery -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- LiveDisplay - Custom theme mode -->
+    <!-- Pocket judge -->
 </resources>
