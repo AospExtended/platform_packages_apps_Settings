@@ -66,10 +66,8 @@
     <string name="designer3_description">Wallpapers, Bootanimations</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Extensions UI, Icons</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Extensions UI, Icons and Clock styles</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">New Bootanimation</string>
+    <string name="designer_5">Edoardo Zullo (Mithrandirx96)</string>
+    <string name="designer5_description">New Bootanimation</string>
     <string name="maintainers">Maintainers</string>
     <string name="maintainers_title">Official maintainers</string>
     <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
