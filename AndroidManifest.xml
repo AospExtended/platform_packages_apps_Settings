@@ -3399,6 +3399,18 @@
             </intent-filter>
         </provider>
 
+        <activity android:name=".Settings$GamingModeActivity"
+            android:label="@string/gaming_mode_title"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.GAMING_MODE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.syberia.settings.fragments.GamingMode" />
+        </activity>
+
         <receiver
             android:name=".slices.SliceBroadcastReceiver"
             android:exported="false">
