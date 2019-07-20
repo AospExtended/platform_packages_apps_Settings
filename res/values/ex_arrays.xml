@@ -72,6 +72,7 @@
 
     <!-- Array of titles for sim color for multi-sim -->
     <string-array name="color_picker">
+	<item>@string/color_Teal_700</item>
         <item>@string/color_Amber_700</item>
         <item>@string/color_Carbon_700</item>
         <item>@string/color_Blue_700</item>
@@ -90,7 +91,6 @@
         <item>@string/color_Purple_700</item>
         <item>@string/color_Deep_Purple_700</item>
         <item>@string/color_Vermilion_700</item>
-        <item>@string/color_Teal_700</item>
         <item>@string/color_Yellow_700</item>
     </string-array>
 
