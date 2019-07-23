@@ -87,10 +87,18 @@
             android:summary="@string/app_notification_override_dnd_summary"
             settings:useAdditionalSummary="true"/>
 
+        <com.android.settings.RestrictedListPreference
+            android:key="sound_timeout"
+            android:order="16"
+            android:title="@string/app_notification_sound_timeout_title"
+            android:entries="@array/app_notification_sound_timeout_entries"
+            android:entryValues="@array/app_notification_sound_timeout_values"
+            android:persistent="false" />
+
         <!-- Lights -->
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="lights"
-            android:order="16"
+            android:order="17"
             android:title="@string/notification_show_lights_title"
             settings:useAdditionalSummary="true"/>
 
@@ -98,14 +106,14 @@
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:dependency="lights"
-            android:order="17"
+            android:order="18"
             android:title="@string/custom_light_title"
             settings:defaultColorValue="0xFFFFFFFF" />
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="show_light_on_zen"
             android:dependency="lights"
-            android:order="18"
+            android:order="19"
             android:title="@string/show_light_on_zen_title"/>
 
         <org.aospextended.extensions.preference.CustomSeekBarPreference
@@ -113,7 +121,7 @@
             android:dependency="lights"
             android:title="@string/custom_light_on_time_title"
             settings:defaultText="@string/value_equals_default"
-            android:order="19"
+            android:order="20"
             settings:min="0"
             android:max="10000"
             settings:interval="100"
@@ -124,7 +132,7 @@
             android:dependency="lights"
             android:title="@string/custom_light_off_time_title"
             settings:defaultText="@string/value_equals_default"
-            android:order="20"
+            android:order="21"
             settings:min="0"
             android:max="10000"
             settings:interval="100"
@@ -132,7 +140,7 @@
 
         <Preference
             android:key="app_link"
-            android:order="21"
+            android:order="22"
             android:title="@string/app_settings_link"
             settings:allowDividerAbove="true"/>
     </PreferenceCategory>
