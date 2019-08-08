@@ -74,7 +74,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/+shubhamsingh" />
+               android:data="https://github.com/ishubhamsingh" />
         </Preference>
 
        <Preference
@@ -83,7 +83,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=6257538" />
+               android:data="https://github.com/FireLord" />
         </Preference>
 
        <Preference
@@ -92,7 +92,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/+AmolAmrit" />
+               android:data="https://github.com/AmolAmrit" />
         </Preference>
 
        <Preference
@@ -101,9 +101,44 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=6519039" />
+               android:data="https://github.com/jhenrique09" />
+      </Preference>
+      
+     <Preference
+            android:title="@string/team_5"
+    android:summary="@string/team5_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/allstargaurav" />
       </Preference>
 
+     <Preference
+            android:title="@string/team_6"
+    android:summary="@string/team6_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/arghyac35" />
+      </Preference>
+
+     <Preference
+            android:title="@string/team_7"
+    android:summary="@string/team7_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/sb6596" />
+      </Preference>
+
+     <Preference
+            android:title="@string/team_8"
+    android:summary="@string/team8_description"
+    android:icon="@drawable/ic_devs">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/theimpulson" />
+      </Preference>
 
 </PreferenceCategory>
 
