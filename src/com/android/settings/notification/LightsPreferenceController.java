@@ -51,7 +51,8 @@ public class LightsPreferenceController extends NotificationPreferenceController
             return false;
         }
         return checkCanBeVisible(NotificationManager.IMPORTANCE_DEFAULT)
-                && canPulseLight();
+                && canPulseLight()
+                && !isDefaultChannel();
     }
 
     public void updateState(Preference preference) {

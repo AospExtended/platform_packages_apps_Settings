@@ -160,13 +160,6 @@
     <string name="aex_ota_title">AEX Updates</string>
     <string name="aex_ota_summary">Get latest build</string>
 
-    <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
-    <string name="value_equals_default">def</string>
-    <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
-
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
