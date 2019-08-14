@@ -60,8 +60,6 @@
     <string name="designer3_description">Achtergronden, Opstartanimaties</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Extensies UI, pictogrammen</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Extensies UI, Iconen en Klokstijlen</string>
     <string name="maintainers">Onderhouders</string>
     <string name="maintainers_title">Officiële onderhouders</string>
     <string name="maintainers_summary">Officieel ondersteunde apparaten en hun respectieve onderhouders.</string>
@@ -130,9 +128,14 @@
     <!-- Notification log -->
     <!-- Running services -->
     <!-- App Ops Categories -->
-    <!-- App ops labels -->
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -141,6 +144,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

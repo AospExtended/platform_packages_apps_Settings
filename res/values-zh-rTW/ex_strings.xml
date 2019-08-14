@@ -62,10 +62,6 @@
     <string name="designer3_description">桌布、開機動畫</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">擴展使用者介面, 圖示</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">擴充 UI, 圖標和時鐘樣式</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">新的開機動畫</string>
     <string name="maintainers">維護人員</string>
     <string name="maintainers_title">官方維護者</string>
     <string name="maintainers_summary">官方支援的裝置及其各自的維護者。</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">黑色使用者介面</string>
     <string name="system_theme_style_extended">延伸使用者介面</string>
     <string name="system_theme_style_chocolate">巧克力使用者介面</string>
+    <string name="system_theme_style_elegant">優雅 UI</string>
     <string name="theme_applied_toast">主題已套用。</string>
     <string name="applying_theme_toast">套用主題中，請稍候...</string>
     <string name="substratum_installed_title">系統主題目前不可用，因為已經安裝了 Substratum 圖層。請解除安裝所有針對 Android 系統的圖層以進行。</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">媒體</string>
     <string name="app_ops_cat_device">裝置</string>
     <string name="app_ops_cat_bootup">啟動</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">相機</string>
-    <string name="app_ops_access_location">位置</string>
-    <string name="app_ops_access_notifications">通知</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">自動啟動</string>
-    <string name="app_ops_delete_call_log">刪除通話紀錄</string>
-    <string name="app_ops_delete_contacts">刪除聯絡人</string>
-    <string name="app_ops_delete_mms">刪除多媒體簡訊</string>
-    <string name="app_ops_delete_sms">刪除簡訊</string>
-    <string name="app_ops_draw_on_top">在最上層繪製</string>
-    <string name="app_ops_get_usage_stats">取得使用統計資訊</string>
-    <string name="app_ops_keep_device_awake">保持喚醒</string>
-    <string name="app_ops_make_phone_call">撥打電話</string>
-    <string name="app_ops_modify_calendar">更新日曆</string>
-    <string name="app_ops_modify_call_log">更新通話記錄</string>
-    <string name="app_ops_modify_clipboard">修改剪貼簿</string>
-    <string name="app_ops_modify_contacts">更新通訊人</string>
-    <string name="app_ops_modify_settings">更新設定</string>
-    <string name="app_ops_mute_unmute_microphone">麥克靜音/取消靜音</string>
-    <string name="app_ops_play_audio">播放音訊</string>
-    <string name="app_ops_post_notification">發佈通知</string>
-    <string name="app_ops_project_media">投放媒體</string>
-    <string name="app_ops_read_calendar">讀取日曆</string>
-    <string name="app_ops_read_call_log">讀取通話記錄</string>
-    <string name="app_ops_read_clipboard">讀取剪貼簿</string>
-    <string name="app_ops_read_contacts">讀取聯絡人</string>
-    <string name="app_ops_read_mms">讀取多媒體簡訊</string>
-    <string name="app_ops_read_sms">讀取簡訊</string>
-    <string name="app_ops_receive_sms">接收簡訊</string>
-    <string name="app_ops_record_audio">錄製音訊</string>
-    <string name="app_ops_send_mms">傳送多媒體簡訊</string>
-    <string name="app_ops_send_sms">傳送簡訊</string>
-    <string name="app_ops_toast_window">提示訊息</string>
-    <string name="app_ops_use_alarm_volume">鬧鐘音量</string>
-    <string name="app_ops_use_audio_focus">音訊焦點</string>
-    <string name="app_ops_use_bluetooth_volume">藍牙音量</string>
-    <string name="app_ops_use_master_volume">主音量</string>
-    <string name="app_ops_use_media_buttons">媒體鍵</string>
-    <string name="app_ops_use_media_volume">媒體音量</string>
-    <string name="app_ops_use_notification_volume">通知音量</string>
-    <string name="app_ops_use_ring_volume">鈴聲音量</string>
-    <string name="app_ops_use_vibrate">觸控震動</string>
-    <string name="app_ops_use_voice_volume">語音通話音量</string>
-    <string name="app_ops_write_mms">撰寫多媒體簡訊</string>
-    <string name="app_ops_write_sms">撰寫簡訊</string>
-    <string name="app_ops_use_fingerprint">指紋</string>
-    <string name="app_ops_add_voicemail">語音信箱</string>
-    <string name="app_ops_read_phone_state">存取手機狀態</string>
-    <string name="app_ops_scan_wifi">掃描 Wi-Fi 網路</string>
-    <string name="app_ops_change_wallpaper">更改桌布</string>
-    <string name="app_ops_assist_structure">協助結構</string>
-    <string name="app_ops_assist_screenshot">擷取螢幕畫面</string>
-    <string name="app_ops_use_body_sensors">身體感應器</string>
-    <string name="app_ops_read_cell_broadcasts">區域廣播</string>
-    <string name="app_ops_mock_location">模擬位置</string>
-    <string name="app_ops_read_external_storage">讀取外部儲存空間</string>
-    <string name="app_ops_write_external_storage">寫入外部儲存空間</string>
-    <string name="app_ops_turn_on_screen">開啟螢幕</string>
-    <string name="app_ops_get_accounts">裝置帳戶</string>
-    <string name="app_ops_run_in_background">在背景執行</string>
-    <string name="app_ops_accessibility_volume">協助工具音量</string>
-    <string name="app_ops_read_phone_numbers">讀取電話號碼</string>
-    <string name="app_ops_request_install_packages">安裝軟體包</string>
-    <string name="app_ops_picture_in_picture">PiP</string>
-    <string name="app_ops_app_start_foreground">在前景執行</string>
-    <string name="app_ops_answer_phone_calls">接聽電話</string>
-    <string name="app_ops_run_any_in_background">在背景中執行</string>
-    <string name="app_ops_change_wifi_state">變更 Wi-Fi 狀態</string>
-    <string name="app_ops_request_delete_packages">刪除軟體包</string>
-    <string name="app_ops_bind_accessibility_service">連接至協助工具</string>
-    <string name="app_ops_accept_handover">接受交換</string>
-    <string name="app_ops_manage_ipsec_tunnels">管理 IP 隧道</string>
-    <string name="app_ops_start_foreground">在前景執行</string>
-    <string name="app_ops_bluetooth_scan">藍牙掃描</string>
-    <string name="app_ops_boot_completed">自動啟動</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (已使用 <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">已允許 <xliff:g id="count" example="2 times">%s</xliff:g></string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">重設允許與拒絕計數器</string>
     <string name="app_ops_reset_confirm_title">確認重設計數器</string>
     <string name="app_ops_reset_confirm_mesg">您確定要重設計數器嗎？</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">琥珀色</string>
     <string name="color_Carbon_700">碳</string>
@@ -384,10 +311,35 @@
     <string name="aggressive_idle_title">激進的閒置模式</string>
     <string name="aggressive_idle_summary">更常進入閒置模式並且較少喚醒</string>
     <string name="aggressive_standby_title">激進的待機</string>
+    <string name="aggressive_standby_summary">限制應用程式在背景中執行</string>
     <string name="aggressive_battery_saver_title">自動啟用省電模式 </string>
     <string name="aggressive_battery_saver_summary">使用省電模式時，自動啟用主動省電</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
+    <string name="live_display_outdoor_mode_summary">自動在陽光下提高亮度和飽和度</string>
+    <string name="live_display_low_power_title">降低耗電</string>
+    <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示即可降低耗電</string>
+    <string name="live_display_enhance_color_title">增強色彩</string>
+    <string name="live_display_color_profile_title">色彩設定檔</string>
+    <string name="live_display_color_profile_standard_title">標準設定</string>
+    <string name="live_display_color_profile_standard_summary">準確的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">現實的色彩和自然的膚色</string>
+    <string name="live_display_color_profile_dynamic_title">動態</string>
+    <string name="live_display_color_profile_dynamic_summary">增強的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">劇院</string>
+    <string name="live_display_color_profile_cinema_summary">完美重現影片色彩</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">深紅色以保護夜間視力</string>
+    <string name="live_display_color_profile_photography_title">攝影</string>
+    <string name="live_display_color_profile_photography_summary">完美重現相片色彩</string>
+    <string name="live_display_color_profile_basic_title">基礎</string>
+    <string name="live_display_color_profile_basic_summary">使用未校正的顯示</string>
+    <string name="live_display_color_profile_adaptive_title">自動調整</string>
+    <string name="live_display_color_profile_adaptive_summary">自動按環境條件調整顏色</string>
+    <string name="live_display_color_profile_reading_title">閱讀</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <string name="pocket_judge_summary">當裝置在口袋中時阻止螢幕和按鈕輸入</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

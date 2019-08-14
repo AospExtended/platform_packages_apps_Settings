@@ -62,10 +62,6 @@
     <string name="designer3_description">Фонові малюнки, Бутанімації</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Інтерфейс доповнень, Іконки</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Розширення інтерфейсу, значки та стилі годинника</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Нова анімація завантаження</string>
     <string name="maintainers">Супроводжуючі</string>
     <string name="maintainers_title">Офіційні супроводжуючі</string>
     <string name="maintainers_summary">Офіційно підтримувані пристрої та їх розробники.</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">Чорний інтерфейс</string>
     <string name="system_theme_style_extended">Інтерфейс Extended</string>
     <string name="system_theme_style_chocolate">Шоколадний інтерфейс</string>
+    <string name="system_theme_style_elegant">Елегантний</string>
     <string name="theme_applied_toast">Тему застосовано.</string>
     <string name="applying_theme_toast">Застосування теми, будь ласка, зачекайте...</string>
     <string name="substratum_installed_title">Системні теми недоступні, оскільки встановлено Substratum. Для продовження видаліть всі сторонні оверлеї.</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">Медіа</string>
     <string name="app_ops_cat_device">Пристрій</string>
     <string name="app_ops_cat_bootup">Завантаження</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">камера</string>
-    <string name="app_ops_access_location">місцезнаходження</string>
-    <string name="app_ops_access_notifications">сповіщення</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">автозапуск</string>
-    <string name="app_ops_delete_call_log">видалення журналу викликів</string>
-    <string name="app_ops_delete_contacts">видалення контактів</string>
-    <string name="app_ops_delete_mms">видалити MMS</string>
-    <string name="app_ops_delete_sms">видалити SMS</string>
-    <string name="app_ops_draw_on_top">відображення поверх інших елементів</string>
-    <string name="app_ops_get_usage_stats">отримувати статистику використання</string>
-    <string name="app_ops_keep_device_awake">активний режим (без засинання)</string>
-    <string name="app_ops_make_phone_call">зробити дзвінок</string>
-    <string name="app_ops_modify_calendar">оновити календар</string>
-    <string name="app_ops_modify_call_log">оновити список викликів</string>
-    <string name="app_ops_modify_clipboard">зміна буферу обміну</string>
-    <string name="app_ops_modify_contacts">оновити контакти</string>
-    <string name="app_ops_modify_settings">оновити налаштування</string>
-    <string name="app_ops_mute_unmute_microphone">вимкнення/увімкнення мікрофону</string>
-    <string name="app_ops_play_audio">відтворювати аудіо</string>
-    <string name="app_ops_post_notification">виводити сповіщення</string>
-    <string name="app_ops_project_media">транслювати медіа</string>
-    <string name="app_ops_read_calendar">читання даних календаря</string>
-    <string name="app_ops_read_call_log">читати журнал викликів</string>
-    <string name="app_ops_read_clipboard">перегляд буферу обміну</string>
-    <string name="app_ops_read_contacts">читання даних контактів</string>
-    <string name="app_ops_read_mms">читання MMS</string>
-    <string name="app_ops_read_sms">читання SMS</string>
-    <string name="app_ops_receive_sms">отримання SMS</string>
-    <string name="app_ops_record_audio">запис аудіо</string>
-    <string name="app_ops_send_mms">надсилання MMS</string>
-    <string name="app_ops_send_sms">надсилання SMS</string>
-    <string name="app_ops_toast_window">спливаючі сповіщення</string>
-    <string name="app_ops_use_alarm_volume">гучність будильника</string>
-    <string name="app_ops_use_audio_focus">аудіофокус</string>
-    <string name="app_ops_use_bluetooth_volume">Гучність Bluetooth</string>
-    <string name="app_ops_use_master_volume">загальна гучність</string>
-    <string name="app_ops_use_media_buttons">кнопки мультимедіа</string>
-    <string name="app_ops_use_media_volume">гучність мультимедіа</string>
-    <string name="app_ops_use_notification_volume">гучність сповіщень</string>
-    <string name="app_ops_use_ring_volume">гучність дзвінка</string>
-    <string name="app_ops_use_vibrate">вібровідгук</string>
-    <string name="app_ops_use_voice_volume">гучність при розмові</string>
-    <string name="app_ops_write_mms">написати MMS</string>
-    <string name="app_ops_write_sms">написати SMS</string>
-    <string name="app_ops_use_fingerprint">відбиток пальця</string>
-    <string name="app_ops_add_voicemail">голосова пошта</string>
-    <string name="app_ops_read_phone_state">доступ до стану телефону</string>
-    <string name="app_ops_scan_wifi">Сканування мереж WiFi</string>
-    <string name="app_ops_change_wallpaper">змінити фоновий малюнок</string>
-    <string name="app_ops_assist_structure">допоміжні структури</string>
-    <string name="app_ops_assist_screenshot">знімок екрану</string>
-    <string name="app_ops_use_body_sensors">датчики на тілі</string>
-    <string name="app_ops_read_cell_broadcasts">передача стільникових оповіщень</string>
-    <string name="app_ops_mock_location">підробляти розташування</string>
-    <string name="app_ops_read_external_storage">читання з зовн. носія</string>
-    <string name="app_ops_write_external_storage">запис на зовн. носій</string>
-    <string name="app_ops_turn_on_screen">вмикати екран</string>
-    <string name="app_ops_get_accounts">облікові записи пристрою</string>
-    <string name="app_ops_run_in_background">працювати у фоновому режимі</string>
-    <string name="app_ops_accessibility_volume">доступ до гучності звуку</string>
-    <string name="app_ops_read_phone_numbers">перегляд номеру телефону</string>
-    <string name="app_ops_request_install_packages">встановлювати пакети</string>
-    <string name="app_ops_picture_in_picture">картинка в картинці</string>
-    <string name="app_ops_app_start_foreground">запускатися на передньому плані</string>
-    <string name="app_ops_answer_phone_calls">відповідати на дзвінки</string>
-    <string name="app_ops_run_any_in_background">запустити у фоновому режимі</string>
-    <string name="app_ops_change_wifi_state">зміна стану WiFI</string>
-    <string name="app_ops_request_delete_packages">Видалити пакети</string>
-    <string name="app_ops_bind_accessibility_service">назначити на спец. можливості</string>
-    <string name="app_ops_accept_handover">міняти базові станції</string>
-    <string name="app_ops_manage_ipsec_tunnels">управляти ip тунелями</string>
-    <string name="app_ops_start_foreground">запускатися на передньому плані</string>
-    <string name="app_ops_bluetooth_scan">шукати пристрої Bluetooth</string>
-    <string name="app_ops_boot_completed">авто запуск</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (використано <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Дозволено <xliff:g id="count" example="2 times">%s</xliff:g></string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">Скинути лічильники дозволу/заборони</string>
     <string name="app_ops_reset_confirm_title">Підтвердіть скидання лічильників</string>
     <string name="app_ops_reset_confirm_mesg">Ви впевнені що хочете скинути лічильники?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Бурштиновий</string>
     <string name="color_Carbon_700">Вуглець</string>
@@ -384,10 +311,55 @@
     <string name="aggressive_idle_title">Агресивний режим очікування</string>
     <string name="aggressive_idle_summary">Частіше входити в режим очікування і рідше прокидатися</string>
     <string name="aggressive_standby_title">Обмеження роботи в фоні</string>
+    <string name="aggressive_standby_summary">Обмежити роботу додатків в фоновому режимі</string>
     <string name="aggressive_battery_saver_title">Автоматичне увімкнення в режимі збереження енергії </string>
     <string name="aggressive_battery_saver_summary">Ввімкнути агресивне енергозбереження автоматично в режимі збереження батареї</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">Автоматичний режим «На вулиці»</string>
+    <string name="live_display_outdoor_mode_summary">Збільшити яскравість та насиченість автоматично при яскравому сонячному світлі</string>
+    <string name="live_display_low_power_title">Зменшення споживання енергії</string>
+    <string name="live_display_low_power_summary">Налаштування дисплея для найнижчого енергоспоживання без псування зображення</string>
+    <string name="live_display_enhance_color_title">Покращені кольори</string>
+    <string name="live_display_enhance_color_summary">Поліпшити соковитість відтінків шкіри, пейзажів та інших зображень</string>
+    <string name="live_display_color_profile_title">Профіль кольорів</string>
+    <string name="live_display_color_profile_standard_title">Стандартний</string>
+    <string name="live_display_color_profile_standard_summary">Точна передача кольору та яскраві білі кольори</string>
+    <string name="live_display_color_profile_natural_title">Натуральний</string>
+    <string name="live_display_color_profile_natural_summary">Реалістичні кольори та відтінки шкіри</string>
+    <string name="live_display_color_profile_dynamic_title">Динамічний</string>
+    <string name="live_display_color_profile_dynamic_summary">Підвищена контрастність та яскравість зображення</string>
+    <string name="live_display_color_profile_cinema_title">Кіно</string>
+    <string name="live_display_color_profile_cinema_summary">Ідеальна передача кольору для відео</string>
+    <string name="live_display_color_profile_astronomy_title">Астрономія</string>
+    <string name="live_display_color_profile_astronomy_summary">Глибокий червоний для збереження видимості вночі</string>
+    <string name="live_display_color_profile_photography_title">Фотографія</string>
+    <string name="live_display_color_profile_photography_summary">Ідеальна передача кольору для фотографій</string>
+    <string name="live_display_color_profile_basic_title">Базовий</string>
+    <string name="live_display_color_profile_basic_summary">Використовувати невідкалібрований екран</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптивний</string>
+    <string name="live_display_color_profile_adaptive_summary">Адаптація кольору до навколишнього середовища</string>
+    <string name="live_display_color_profile_reading_title">Читання</string>
+    <string name="live_display_color_profile_reading_summary">Теплі кольори для зменьшення напруги очей</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Кольори відповідно до простору кольорів sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">Кольорова палітра DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Кольори відповідно до простору кольорів DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим читання</string>
+    <string name="live_display_reading_mode_summary">Режим відтінків сірого для тривалого читання</string>
+    <string name="color_calibration_title">Калібрування кольору</string>
+    <string name="color_calibration_summary">Калібрування кольору на екрані</string>
+    <string name="color_red_title">Червоний</string>
+    <string name="color_green_title">Зелений</string>
+    <string name="color_blue_title">Синій</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">Налаштування зображення</string>
+    <string name="picture_adjustment_summary">Налаштуйте відтінок, насиченість, інтенсивність і контраст</string>
+    <string name="adj_hue_title">Відтінок</string>
+    <string name="adj_saturation_title">Насиченість</string>
+    <string name="adj_intensity_title">Інтенсивність</string>
+    <string name="adj_contrast_title">Контрастність</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Виявлення телефону в кишені</string>
+    <string name="pocket_judge_summary">Заблокувати екран і кнопки, коли пристрій перебуває в кишені</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

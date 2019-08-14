@@ -62,10 +62,6 @@
     <string name="designer3_description">Taustapildid, boot animatsioonid</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Kasutajaliidese, ikoonide laiendused</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Kasutajaliidese, ikoonide ja kellade stiilide laiendused</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Uus boot animatsioon</string>
     <string name="maintainers">Arendajad</string>
     <string name="maintainers_title">Ametlikud arendajad</string>
     <string name="maintainers_summary">Ametlikult toetatud seadmed ja nende hooldajad.</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">Must kasutajaliides</string>
     <string name="system_theme_style_extended">Laiendatud kasutajaliides</string>
     <string name="system_theme_style_chocolate">Šokolaad kasutajaliides</string>
+    <string name="system_theme_style_elegant">Elegantne kasutajaliides</string>
     <string name="theme_applied_toast">Teema rakendatud.</string>
     <string name="applying_theme_toast">Rakendan teemat, palun oodake...</string>
     <string name="substratum_installed_title">Süsteemi teemasid ei ole võimalik kasutada, kuna on paigaldatud alamstruktuuri ülekate. Jätkamiseks eemaldage kõik Android-süsteemi sihtmärgid.</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">Meedia</string>
     <string name="app_ops_cat_device">Seade</string>
     <string name="app_ops_cat_bootup">Alglaadimine</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">kaamera</string>
-    <string name="app_ops_access_location">asukoht</string>
-    <string name="app_ops_access_notifications">teavitused</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start"> automaatne käivitus</string>
-    <string name="app_ops_delete_call_log">kustutada kõnelogi</string>
-    <string name="app_ops_delete_contacts">kustutada kontakte</string>
-    <string name="app_ops_delete_mms">kustutada MMS\'e</string>
-    <string name="app_ops_delete_sms">kustutada SMS\'e</string>
-    <string name="app_ops_draw_on_top">peale joonistamine</string>
-    <string name="app_ops_get_usage_stats">näha kasutusstatistikat</string>
-    <string name="app_ops_keep_device_awake">hoia ärkvel</string>
-    <string name="app_ops_make_phone_call">teha kõnesid</string>
-    <string name="app_ops_modify_calendar">uuendada kalendrit</string>
-    <string name="app_ops_modify_call_log">uuendada kõnelogi</string>
-    <string name="app_ops_modify_clipboard">lõikelaua muutmine</string>
-    <string name="app_ops_modify_contacts">uuendada kontaktide nimekirja</string>
-    <string name="app_ops_modify_settings">uuenda seadeid</string>
-    <string name="app_ops_mute_unmute_microphone">mikrofoni tööle/kinni panna</string>
-    <string name="app_ops_play_audio">mängida heli</string>
-    <string name="app_ops_post_notification">postitada teavitusi</string>
-    <string name="app_ops_project_media">projekteerida meediat</string>
-    <string name="app_ops_read_calendar">kalendri lugemine</string>
-    <string name="app_ops_read_call_log">kõnelogi lugemine</string>
-    <string name="app_ops_read_clipboard">loe lõikelaualt</string>
-    <string name="app_ops_read_contacts">loe kontakte</string>
-    <string name="app_ops_read_mms">lugeda MMS\'e</string>
-    <string name="app_ops_read_sms">loe SMS</string>
-    <string name="app_ops_receive_sms">SMS-i vastuvõtmine</string>
-    <string name="app_ops_record_audio">salvestada heli</string>
-    <string name="app_ops_send_mms">saada MMS\'e</string>
-    <string name="app_ops_send_sms">saada SMS</string>
-    <string name="app_ops_toast_window">näidata teavitusi</string>
-    <string name="app_ops_use_alarm_volume">äratuse helitugevus</string>
-    <string name="app_ops_use_audio_focus">helifookus</string>
-    <string name="app_ops_use_bluetooth_volume">Bluetoothi helitugevus</string>
-    <string name="app_ops_use_master_volume">põhihelitugevus</string>
-    <string name="app_ops_use_media_buttons">meedia nupud</string>
-    <string name="app_ops_use_media_volume">meedia helitugevus</string>
-    <string name="app_ops_use_notification_volume">märguande helitugevus</string>
-    <string name="app_ops_use_ring_volume">helina tugevust</string>
-    <string name="app_ops_use_vibrate">kompamistagasiside</string>
-    <string name="app_ops_use_voice_volume">kõnede helitugevus</string>
-    <string name="app_ops_write_mms">koostada MMS\'e</string>
-    <string name="app_ops_write_sms">koostada SMS\'e</string>
-    <string name="app_ops_use_fingerprint">sõrmejälg</string>
-    <string name="app_ops_add_voicemail">kõnepost</string>
-    <string name="app_ops_read_phone_state">juurdepääs telefoni olekule</string>
-    <string name="app_ops_scan_wifi">Skännida Wi-Fi võrke</string>
-    <string name="app_ops_change_wallpaper">muuta taustapilti</string>
-    <string name="app_ops_assist_structure">abistruktuur</string>
-    <string name="app_ops_assist_screenshot">kuvatõmmis</string>
-    <string name="app_ops_use_body_sensors">kehaandurid</string>
-    <string name="app_ops_read_cell_broadcasts">telefoni otseülekanne</string>
-    <string name="app_ops_mock_location">tehislik asukoht</string>
-    <string name="app_ops_read_external_storage">lugeda välismälust</string>
-    <string name="app_ops_write_external_storage">salvestada välismällu</string>
-    <string name="app_ops_turn_on_screen">lülitada ekraan sisse</string>
-    <string name="app_ops_get_accounts">seadme kasutajad</string>
-    <string name="app_ops_run_in_background">taustal käitamine</string>
-    <string name="app_ops_accessibility_volume">abistava heli tugevus</string>
-    <string name="app_ops_read_phone_numbers">lugeda telefoninumbreid</string>
-    <string name="app_ops_request_install_packages">pakettide installimine</string>
-    <string name="app_ops_picture_in_picture">pilti pildi sees</string>
-    <string name="app_ops_app_start_foreground">esiplaanil käivitamine</string>
-    <string name="app_ops_answer_phone_calls">vastata kõned</string>
-    <string name="app_ops_run_any_in_background">töötada taustal</string>
-    <string name="app_ops_change_wifi_state">muuta Wi-Fi olekut</string>
-    <string name="app_ops_request_delete_packages">kustutada tarkvarapakette</string>
-    <string name="app_ops_bind_accessibility_service">siduda juurdepääsetavusega</string>
-    <string name="app_ops_accept_handover">nõustuda üleandmisega</string>
-    <string name="app_ops_manage_ipsec_tunnels">ip tunnelite haldamine</string>
-    <string name="app_ops_start_foreground">esiplaanil käivitamine</string>
-    <string name="app_ops_bluetooth_scan">bluetoothi skannimine</string>
-    <string name="app_ops_boot_completed">automaatne käivitus</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (kasutatud <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Lubatud <xliff:g id="count" example="2 times">%s</xliff:g></string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">Lähtesta luba/keela loendurid</string>
     <string name="app_ops_reset_confirm_title">Kinnita loendurite lähetstamine</string>
     <string name="app_ops_reset_confirm_mesg">Kas sa oled kindel, et soovid loendurid lähtestada?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Merevaigukollane</string>
     <string name="color_Carbon_700">Süsinik</string>
@@ -384,10 +311,55 @@
     <string name="aggressive_idle_title">Agressiivne ooterežiim</string>
     <string name="aggressive_idle_summary">Sisestage seade sagedamini tühikäigul ja äratage vähem</string>
     <string name="aggressive_standby_title">Agressiivne ooterežiim</string>
+    <string name="aggressive_standby_summary">Piirake rakendusi taustal</string>
     <string name="aggressive_battery_saver_title">Auto-luba akusäästja </string>
     <string name="aggressive_battery_saver_summary">Aktiveerige aku säästmisel aku automaatselt</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">Automaatne õuerežiim</string>
+    <string name="live_display_outdoor_mode_summary">Suurenda ereda päikesevalgusega automaatselt heledust ja küllastust</string>
+    <string name="live_display_low_power_title">Vähenda energiatarbimist</string>
+    <string name="live_display_low_power_summary">Kohanda ekraani madalaimale energiatarbimisele ilma, et see ekraani kahjustaks</string>
+    <string name="live_display_enhance_color_title">Paranda värve</string>
+    <string name="live_display_enhance_color_summary">Paranda värvide erksust keha toonidel, maastikuvaadetel ja muudel piltidel</string>
+    <string name="live_display_color_profile_title">Värviprofiil</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Täpsed värvid ja eredad valged</string>
+    <string name="live_display_color_profile_natural_title">Looduslik</string>
+    <string name="live_display_color_profile_natural_summary">Realistlikud värvid ja nahatoonid</string>
+    <string name="live_display_color_profile_dynamic_title">Dünaamiline</string>
+    <string name="live_display_color_profile_dynamic_summary">Parandatud värvid ja eredad valged</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Video värvide ideaalne taasloomine</string>
+    <string name="live_display_color_profile_astronomy_title">Astronoomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Sügav punane öise nägemise säilitamiseks</string>
+    <string name="live_display_color_profile_photography_title">Fotograafia</string>
+    <string name="live_display_color_profile_photography_summary">Perfektne värvide taasloomine fotode jaoks</string>
+    <string name="live_display_color_profile_basic_title">Põhiline</string>
+    <string name="live_display_color_profile_basic_summary">Kasuta ekraani kalibreerimata</string>
+    <string name="live_display_color_profile_adaptive_title">Kohanduv</string>
+    <string name="live_display_color_profile_adaptive_summary">Värvid kohanevad keskkonnatingimustega</string>
+    <string name="live_display_color_profile_reading_title">Lugemine</string>
+    <string name="live_display_color_profile_reading_summary">Soojemad värvid silmade koormuse vähendamiseks</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Täpsed värvid sRGB värviruumi järgi</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Täpsed värvid DCI-P3 värviruumi järgi</string>
+    <string name="live_display_reading_mode_title">Lugemisrežiim</string>
+    <string name="live_display_reading_mode_summary">Hallskaala režiim pikaajaliseks lugemiseks</string>
+    <string name="color_calibration_title">Värvi kalibreerimine</string>
+    <string name="color_calibration_summary">Kalibreeri ekraani värvid</string>
+    <string name="color_red_title">Punane</string>
+    <string name="color_green_title">Roheline</string>
+    <string name="color_blue_title">Sinine</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">Pildi reguleerimine</string>
+    <string name="picture_adjustment_summary">Reguleerige tooni, küllastust, intensiivsust ja kontrastsust</string>
+    <string name="adj_hue_title">Värvitoon</string>
+    <string name="adj_saturation_title">Küllastus</string>
+    <string name="adj_intensity_title">Intensiivsus</string>
+    <string name="adj_contrast_title">Kontrast</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Tasku tuvastamine</string>
+    <string name="pocket_judge_summary">Blokeeri ekraan ja nupu sisendid, kui seade on taskus</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

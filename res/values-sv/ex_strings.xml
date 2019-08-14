@@ -25,7 +25,6 @@
     <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
     <string name="team_3">Amol Amrit</string>
     <string name="designer4_description">Tillägg-gränssnitt, ikoner</string>
-    <string name="designer5_description">Tillägg-gränssnitt, stil på ikoner och klockan</string>
     <!-- Maintainer section -->
     <string name="loading_devices">Laddar enhetslista ...</string>
     <!-- Changelog -->
@@ -122,14 +121,16 @@
     <!-- Running services -->
     <!-- App Ops Categories -->
     <string name="app_ops_cat_location">Plats</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_location">plats</string>
-    <string name="app_ops_toast_window">toast-meddelanden</string>
-    <string name="app_ops_mock_location">skenplats</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (<xliff:g id="count">%2$s</xliff:g> används)</string>
     <string name="app_ops_both_count">Tillåtna: <xliff:g id="count">%1$s</xliff:g>, nekade: <xliff:g id="count">%2$s</xliff:g></string>
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -138,6 +139,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

@@ -60,9 +60,6 @@
     <string name="designer3_description">تصاویر زمینه، انیمشن بوت شدن</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">افزونه های کاربری، آیکون ها</string>
-    <string name="designer_5">(Gaurav (allstargaurav</string>
-    <string name="designer5_description">طراح آیکون‌ها، رابط کاربری گسترش یافته و استایل ساعت</string>
-    <string name="designer6_description">انیمیشن جدید برای بوت</string>
     <string name="maintainers">نگه‌دارنده‌ها</string>
     <string name="maintainers_title">نگه‌دارنده‌های رسمی</string>
     <string name="maintainers_summary">لیست دستگاه‌ها‌یی که به صورت رسمی پشتیبانی می‌شوند.</string>
@@ -230,9 +227,14 @@
     <!-- Notification log -->
     <!-- Running services -->
     <!-- App Ops Categories -->
-    <!-- App ops labels -->
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -241,6 +243,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

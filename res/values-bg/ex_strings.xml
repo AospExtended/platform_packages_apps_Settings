@@ -62,10 +62,6 @@
     <string name="designer3_description">Тапети, Стартиращи анимации</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Разширения, потребителски интерфейс, икони</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Разширения потребителски интерфейс, икони и стилове на часовника</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Нова Bootanimation</string>
     <string name="maintainers">Отговорници за поддръжа</string>
     <string name="maintainers_title">Официален отговорници</string>
     <string name="maintainers_summary">Списък на поддържаните устройства и техните официални отговорници.</string>
@@ -253,82 +249,8 @@
     <string name="app_ops_cat_media">Медия</string>
     <string name="app_ops_cat_device">Устройство</string>
     <string name="app_ops_cat_bootup">Зареждане</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">камера</string>
-    <string name="app_ops_access_location">местоположение</string>
-    <string name="app_ops_access_notifications">известия</string>
-    <string name="app_ops_activate_vpn">Виртуална Частна Мрежа (VPN)</string>
-    <string name="app_ops_auto_start">автоматично стартиране</string>
-    <string name="app_ops_delete_call_log">изтриване на списъка с обаждания</string>
-    <string name="app_ops_delete_contacts">изтриване на контакти</string>
-    <string name="app_ops_delete_mms">изтриване на MMS</string>
-    <string name="app_ops_delete_sms">изтриване на SMS</string>
-    <string name="app_ops_draw_on_top">изтегли отгоре</string>
-    <string name="app_ops_get_usage_stats">вземи статистика за използване</string>
-    <string name="app_ops_keep_device_awake">дръж буден</string>
-    <string name="app_ops_make_phone_call">направи обаждане</string>
-    <string name="app_ops_modify_calendar">актуализиране на календара</string>
-    <string name="app_ops_modify_call_log">актуализиране на списъка с обаждания</string>
-    <string name="app_ops_modify_clipboard">промяна на клипборда</string>
-    <string name="app_ops_modify_contacts">актуализиране на контакти</string>
-    <string name="app_ops_modify_settings">актуализиране на настройките</string>
-    <string name="app_ops_mute_unmute_microphone">без/със звук микрофон</string>
-    <string name="app_ops_play_audio">изпълнение на аудио</string>
-    <string name="app_ops_post_notification">публикува известия</string>
-    <string name="app_ops_project_media">проект медия</string>
-    <string name="app_ops_read_calendar">четене на календара</string>
-    <string name="app_ops_read_call_log">четене на списъка с повикванията</string>
-    <string name="app_ops_read_clipboard">четене на клипборда</string>
-    <string name="app_ops_read_contacts">четене на контактите</string>
-    <string name="app_ops_read_mms">четене на MMS</string>
-    <string name="app_ops_read_sms">четене на SMS</string>
-    <string name="app_ops_receive_sms">получаване на SMS</string>
-    <string name="app_ops_record_audio">запис на аудио</string>
-    <string name="app_ops_send_mms">изпращане на MMS</string>
-    <string name="app_ops_send_sms">изпращане на SMS</string>
-    <string name="app_ops_toast_window">съобщения от бюлетина</string>
-    <string name="app_ops_use_alarm_volume">сила на звука на будилника</string>
-    <string name="app_ops_use_audio_focus">аудио фокус</string>
-    <string name="app_ops_use_bluetooth_volume">Сила на звука за блутуут устройства</string>
-    <string name="app_ops_use_master_volume">главен контрол на звука</string>
-    <string name="app_ops_use_media_buttons">мултимедийни бутони</string>
-    <string name="app_ops_use_media_volume">сила на звука за мултимедия</string>
-    <string name="app_ops_use_notification_volume">сила на звука за уведомление</string>
-    <string name="app_ops_use_ring_volume">сила на звука на мелодията</string>
-    <string name="app_ops_use_vibrate">вибрация при докосване (обратна връзка)</string>
-    <string name="app_ops_use_voice_volume">сила на звука при разговор</string>
-    <string name="app_ops_write_mms">напишете MMS</string>
-    <string name="app_ops_write_sms">напиши SMSe</string>
-    <string name="app_ops_use_fingerprint">пръстов отпечатък</string>
-    <string name="app_ops_add_voicemail">гласова поща</string>
-    <string name="app_ops_read_phone_state">достъп до състоянието на телефона</string>
-    <string name="app_ops_scan_wifi">Търсене на безжична мрежа</string>
-    <string name="app_ops_change_wallpaper">промяна на тапета</string>
-    <string name="app_ops_assist_structure">използвайте структура за подпомагане</string>
-    <string name="app_ops_assist_screenshot">снимка на екрана</string>
-    <string name="app_ops_use_body_sensors">сензори за тяло</string>
-    <string name="app_ops_read_cell_broadcasts">регистрирай излъчването на антенна клетка</string>
-    <string name="app_ops_mock_location">мнимо местоположение</string>
-    <string name="app_ops_read_external_storage">прочети външ. хран.</string>
-    <string name="app_ops_write_external_storage">запиши външ. хран.</string>
-    <string name="app_ops_turn_on_screen">включване на екрана</string>
-    <string name="app_ops_get_accounts">акаунти на устройството</string>
-    <string name="app_ops_run_in_background">изпълни на заден план</string>
-    <string name="app_ops_accessibility_volume">достъпност до ниво на звука</string>
-    <string name="app_ops_read_phone_numbers">четене на телефонните номера.</string>
-    <string name="app_ops_request_install_packages">инсталиране на пакети</string>
-    <string name="app_ops_picture_in_picture">картина в картината</string>
-    <string name="app_ops_app_start_foreground">стартиране на преден план</string>
-    <string name="app_ops_answer_phone_calls">отговор на обаждане</string>
-    <string name="app_ops_run_any_in_background">работи на заден план</string>
-    <string name="app_ops_change_wifi_state">променете състоянието на Wi-Fi</string>
-    <string name="app_ops_request_delete_packages">изтриване на пакети</string>
-    <string name="app_ops_bind_accessibility_service">назначаване на съдостъпност</string>
-    <string name="app_ops_accept_handover">приеми предаване</string>
-    <string name="app_ops_manage_ipsec_tunnels">управлявайте Ip тунелите</string>
-    <string name="app_ops_start_foreground">стартиране на преден план</string>
-    <string name="app_ops_bluetooth_scan">сканиране чрез блутуут</string>
-    <string name="app_ops_boot_completed">автоматично стартиране</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s </xliff:g> (използван <xliff:g id="count">%2$s </xliff:g>)</string>
     <string name="app_ops_allowed_count">Разрешени <xliff:g id="count" example="2 times">%s </xliff:g></string>
@@ -340,6 +262,10 @@
     <string name="app_ops_reset_counters">Нулиране на позволи/забрани броячи</string>
     <string name="app_ops_reset_confirm_title">Потвърдете нулирането на броячите</string>
     <string name="app_ops_reset_confirm_mesg">Наистина ли желаете да нулирате броячите?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Кехлибар</string>
     <string name="color_Carbon_700">Карбон</string>
@@ -388,6 +314,6 @@
     <string name="aggressive_battery_saver_summary">Разреши режим Агресивна батерия автоматично, когато използвате икономия на батерията</string>
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

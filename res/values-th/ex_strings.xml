@@ -60,10 +60,6 @@
     <string name="designer3_description">ภาพหน้าจอ,ภาพเคลื่อนใหวเริ่มต้น</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">ส่วนขยายของ UI,ไอคอน</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">ส่วนขยายของUI,ไอคอนและรูปแบบของนาฬิกา</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Bootanimation ใหม่</string>
     <string name="maintainers">ผู้ดูแล</string>
     <string name="maintainers_title">ผู้ดูแลอย่างเป็นทางการ</string>
     <string name="maintainers_summary">อุปกรณ์ที่ใด้รับการรับรองอย่างเป็นทางการจากผู้ดูแล</string>
@@ -231,9 +227,14 @@
     <!-- Notification log -->
     <!-- Running services -->
     <!-- App Ops Categories -->
-    <!-- App ops labels -->
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -242,6 +243,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>
