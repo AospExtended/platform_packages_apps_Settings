@@ -62,10 +62,6 @@
     <string name="designer3_description">壁纸、开机动画</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">扩展设置界面、图标</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">扩展设置界面、图标和时钟样式</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">新的开机动画</string>
     <string name="maintainers">维护者</string>
     <string name="maintainers_title">官方维护者</string>
     <string name="maintainers_summary">官方支持的设备及其各自的维护者</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">黑色主题</string>
     <string name="system_theme_style_extended">AEX 主题</string>
     <string name="system_theme_style_chocolate">巧克力主题</string>
+    <string name="system_theme_style_elegant">素雅主题</string>
     <string name="theme_applied_toast">主题已应用</string>
     <string name="applying_theme_toast">正在应用主题，请稍等…</string>
     <string name="substratum_installed_title">系统主题不可用，因为安装了 Substratum 叠加层。请卸载所有应用在 Android 系统上的叠加层以继续。</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">媒体</string>
     <string name="app_ops_cat_device">设备</string>
     <string name="app_ops_cat_bootup">启动</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">相机</string>
-    <string name="app_ops_access_location">地理位置</string>
-    <string name="app_ops_access_notifications">通知</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">自动启动</string>
-    <string name="app_ops_delete_call_log">删除通话纪录</string>
-    <string name="app_ops_delete_contacts">删除联系人</string>
-    <string name="app_ops_delete_mms">删除彩信</string>
-    <string name="app_ops_delete_sms">删除短信</string>
-    <string name="app_ops_draw_on_top">在顶部绘制</string>
-    <string name="app_ops_get_usage_stats">获取用量统计</string>
-    <string name="app_ops_keep_device_awake">保持唤醒</string>
-    <string name="app_ops_make_phone_call">拨打电话</string>
-    <string name="app_ops_modify_calendar">更新日历</string>
-    <string name="app_ops_modify_call_log">更新通话记录</string>
-    <string name="app_ops_modify_clipboard">修改剪贴板</string>
-    <string name="app_ops_modify_contacts">修改通讯录信息</string>
-    <string name="app_ops_modify_settings">更新设置</string>
-    <string name="app_ops_mute_unmute_microphone">麦克风静音/取消静音</string>
-    <string name="app_ops_play_audio">播放音频</string>
-    <string name="app_ops_post_notification">发布通知</string>
-    <string name="app_ops_project_media">投影媒体</string>
-    <string name="app_ops_read_calendar">读取日历</string>
-    <string name="app_ops_read_call_log">读取通话记录</string>
-    <string name="app_ops_read_clipboard">读取剪贴板</string>
-    <string name="app_ops_read_contacts">读取联系人</string>
-    <string name="app_ops_read_mms">读取彩信</string>
-    <string name="app_ops_read_sms">读取短信</string>
-    <string name="app_ops_receive_sms">接收短信</string>
-    <string name="app_ops_record_audio">录制音频</string>
-    <string name="app_ops_send_mms">发送彩信</string>
-    <string name="app_ops_send_sms">发送短信</string>
-    <string name="app_ops_toast_window">toast 信息</string>
-    <string name="app_ops_use_alarm_volume">闹钟音量</string>
-    <string name="app_ops_use_audio_focus">音频焦点</string>
-    <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
-    <string name="app_ops_use_master_volume">主音量</string>
-    <string name="app_ops_use_media_buttons">媒体按键</string>
-    <string name="app_ops_use_media_volume">媒体音量</string>
-    <string name="app_ops_use_notification_volume">通知音量</string>
-    <string name="app_ops_use_ring_volume">铃声音量</string>
-    <string name="app_ops_use_vibrate">触觉反馈</string>
-    <string name="app_ops_use_voice_volume">语音通话音量</string>
-    <string name="app_ops_write_mms">编写彩信</string>
-    <string name="app_ops_write_sms">编写短信</string>
-    <string name="app_ops_use_fingerprint">指纹</string>
-    <string name="app_ops_add_voicemail">语音邮件</string>
-    <string name="app_ops_read_phone_state">访问手机状态</string>
-    <string name="app_ops_scan_wifi">搜寻 WiFi 网络</string>
-    <string name="app_ops_change_wallpaper">更改壁纸</string>
-    <string name="app_ops_assist_structure">协助工具</string>
-    <string name="app_ops_assist_screenshot">屏幕截图</string>
-    <string name="app_ops_use_body_sensors">人体传感器</string>
-    <string name="app_ops_read_cell_broadcasts">小区广播</string>
-    <string name="app_ops_mock_location">模拟位置</string>
-    <string name="app_ops_read_external_storage">读取外置存储卡</string>
-    <string name="app_ops_write_external_storage">写入外置存储卡</string>
-    <string name="app_ops_turn_on_screen">点亮屏幕</string>
-    <string name="app_ops_get_accounts">设备帐号</string>
-    <string name="app_ops_run_in_background">后台运行</string>
-    <string name="app_ops_accessibility_volume">辅助功能</string>
-    <string name="app_ops_read_phone_numbers">读取电话号码</string>
-    <string name="app_ops_request_install_packages">安装软件包</string>
-    <string name="app_ops_picture_in_picture">画中画</string>
-    <string name="app_ops_app_start_foreground">前台启动</string>
-    <string name="app_ops_answer_phone_calls">接听电话</string>
-    <string name="app_ops_run_any_in_background">后台运行</string>
-    <string name="app_ops_change_wifi_state">更改 WiFI 状态</string>
-    <string name="app_ops_request_delete_packages">删除软件包</string>
-    <string name="app_ops_bind_accessibility_service">绑定到可访问性</string>
-    <string name="app_ops_accept_handover">接受切换</string>
-    <string name="app_ops_manage_ipsec_tunnels">管理IP通道</string>
-    <string name="app_ops_start_foreground">前台启动</string>
-    <string name="app_ops_bluetooth_scan">蓝牙扫描</string>
-    <string name="app_ops_boot_completed">自动启动</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (已使用 <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">允许 <xliff:g id="count" example="2 times">%s</xliff:g></string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">重置允许/拒绝计数器</string>
     <string name="app_ops_reset_confirm_title">确认重置计数器</string>
     <string name="app_ops_reset_confirm_mesg">您确定要重置计数器？</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">安珀警报</string>
     <string name="color_Carbon_700">Carbon</string>
@@ -384,10 +311,55 @@
     <string name="aggressive_idle_title">激进休眠</string>
     <string name="aggressive_idle_summary">更频繁地进入设备空闲状态并且唤醒更少</string>
     <string name="aggressive_standby_title">极限待机</string>
+    <string name="aggressive_standby_summary">限制应用程序后台运行</string>
     <string name="aggressive_battery_saver_title">在省电模式自动开启 </string>
     <string name="aggressive_battery_saver_summary">当使用省电模式时自动开启极限省电</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">自动户外模式</string>
+    <string name="live_display_outdoor_mode_summary">在强光下自动增强亮度和饱和度</string>
+    <string name="live_display_low_power_title">降低电量消耗</string>
+    <string name="live_display_low_power_summary">调整显示屏以获得最低功耗，但不削弱显示效果</string>
+    <string name="live_display_enhance_color_title">增强色彩</string>
+    <string name="live_display_enhance_color_summary">为肤色、风景和其他图像提升色彩饱和度</string>
+    <string name="live_display_color_profile_title">颜色配置文件</string>
+    <string name="live_display_color_profile_standard_title">标准</string>
+    <string name="live_display_color_profile_standard_summary">准确的颜色和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">写实的颜色和肤色</string>
+    <string name="live_display_color_profile_dynamic_title">动态</string>
+    <string name="live_display_color_profile_dynamic_summary">增强的颜色和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">电影院</string>
+    <string name="live_display_color_profile_cinema_summary">针对视频的完美色彩重现</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">深红色以保护夜间视力</string>
+    <string name="live_display_color_profile_photography_title">摄影</string>
+    <string name="live_display_color_profile_photography_summary">针对照片的完美色彩重现</string>
+    <string name="live_display_color_profile_basic_title">基础</string>
+    <string name="live_display_color_profile_basic_summary">使用未调校的显示</string>
+    <string name="live_display_color_profile_adaptive_title">自适应</string>
+    <string name="live_display_color_profile_adaptive_summary">颜色根据环境条件自适应</string>
+    <string name="live_display_color_profile_reading_title">阅读</string>
+    <string name="live_display_color_profile_reading_summary">使用暖色调以缓解眼睛疲劳</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">颜色校准到 sRGB 色彩空间</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">颜色校准到 DCI-P3 色彩空间</string>
+    <string name="live_display_reading_mode_title">阅读模式</string>
+    <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
+    <string name="color_calibration_title">颜色校准</string>
+    <string name="color_calibration_summary">校准屏幕颜色</string>
+    <string name="color_red_title">红色</string>
+    <string name="color_green_title">绿色</string>
+    <string name="color_blue_title">蓝色</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">图片调整</string>
+    <string name="picture_adjustment_summary">调整色相、饱和度、亮度和对比度</string>
+    <string name="adj_hue_title">色调</string>
+    <string name="adj_saturation_title">饱和度</string>
+    <string name="adj_intensity_title">亮度</string>
+    <string name="adj_contrast_title">对比度</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

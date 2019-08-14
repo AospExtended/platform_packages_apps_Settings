@@ -62,10 +62,6 @@
     <string name="designer3_description">Hintergrundbilder, Bootanimation</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Erweiterungen Benutzeroberfläche, Symbole</string>
-    <string name="designer_5">Gaurav (Allstargaurav)</string>
-    <string name="designer5_description">Erweiterungen UI, Symbole und Clock-Stil</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Neue Bootanimation</string>
     <string name="maintainers">Betreuer</string>
     <string name="maintainers_title">Offizielle Betreuer</string>
     <string name="maintainers_summary">Offiziell unterstützte Geräte und deren Betreuer.</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">Schwarze Benutzeroberfläche</string>
     <string name="system_theme_style_extended">Extended Benutzeroberfläche</string>
     <string name="system_theme_style_chocolate">Schokoladen Benutzeroberfläche</string>
+    <string name="system_theme_style_elegant">Elegantes UI</string>
     <string name="theme_applied_toast">Thema angewendet.</string>
     <string name="applying_theme_toast">Anwenden des Themas, bitte warten...</string>
     <string name="substratum_installed_title">System Themen sind nicht verfügbar da ein Substratum Overlay installiert ist. Bitte entferne jegliche Android System Overlays um fortzufahren.</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">Medien</string>
     <string name="app_ops_cat_device">Gerät</string>
     <string name="app_ops_cat_bootup">Systemstart</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">Kamera</string>
-    <string name="app_ops_access_location">standort</string>
-    <string name="app_ops_access_notifications">benachrichtigungen</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">autostart</string>
-    <string name="app_ops_delete_call_log">Anrufsliste löschen</string>
-    <string name="app_ops_delete_contacts">kontakte löschen</string>
-    <string name="app_ops_delete_mms">MMS löschen</string>
-    <string name="app_ops_delete_sms">SMS löschen</string>
-    <string name="app_ops_draw_on_top">Über andere Apps einblenden</string>
-    <string name="app_ops_get_usage_stats">Nutzungsstatistiken abrufen</string>
-    <string name="app_ops_keep_device_awake">aktiv lassen</string>
-    <string name="app_ops_make_phone_call">Anruf tätigen</string>
-    <string name="app_ops_modify_calendar">Kalender aktualisieren</string>
-    <string name="app_ops_modify_call_log">Anrufliste aktualisieren</string>
-    <string name="app_ops_modify_clipboard">Zwischenablage ändern</string>
-    <string name="app_ops_modify_contacts">kontakte aktualisieren</string>
-    <string name="app_ops_modify_settings">Einstellungen aktualisieren</string>
-    <string name="app_ops_mute_unmute_microphone">Mikrofon aktivieren/deaktivieren</string>
-    <string name="app_ops_play_audio">Audio wiedergeben</string>
-    <string name="app_ops_post_notification">Benachrichtigung anzeigen</string>
-    <string name="app_ops_project_media">Medienzugriff</string>
-    <string name="app_ops_read_calendar">Kalendereinträge lesen</string>
-    <string name="app_ops_read_call_log">Anrufliste lesen</string>
-    <string name="app_ops_read_clipboard">Zwischenablage lesen</string>
-    <string name="app_ops_read_contacts">Kontakte lesen</string>
-    <string name="app_ops_read_mms">MMS lesen</string>
-    <string name="app_ops_read_sms">SMS lesen</string>
-    <string name="app_ops_receive_sms">SMS empfangen</string>
-    <string name="app_ops_record_audio">Audio aufnehmen</string>
-    <string name="app_ops_send_mms">MMS senden</string>
-    <string name="app_ops_send_sms">SMS senden</string>
-    <string name="app_ops_toast_window">Toast-Benachrichtigung</string>
-    <string name="app_ops_use_alarm_volume">Weckerlautstärke</string>
-    <string name="app_ops_use_audio_focus">Audiofokus</string>
-    <string name="app_ops_use_bluetooth_volume">Lautstärke für Bluetooth</string>
-    <string name="app_ops_use_master_volume">Gesamtlautstärke</string>
-    <string name="app_ops_use_media_buttons">Mediensteuerungstasten</string>
-    <string name="app_ops_use_media_volume">Medienlautstärke</string>
-    <string name="app_ops_use_notification_volume">Benachrichtigungslautstärke</string>
-    <string name="app_ops_use_ring_volume">Klingeltonlautstärke</string>
-    <string name="app_ops_use_vibrate">Vibration</string>
-    <string name="app_ops_use_voice_volume">Anruflautstärke</string>
-    <string name="app_ops_write_mms">MMS schreiben</string>
-    <string name="app_ops_write_sms">SMS schreiben</string>
-    <string name="app_ops_use_fingerprint">Fingerabdruck</string>
-    <string name="app_ops_add_voicemail">Sprachnachricht</string>
-    <string name="app_ops_read_phone_state">Auf Telefonstatus zugreifen</string>
-    <string name="app_ops_scan_wifi">WLAN-Netzwerke scannen</string>
-    <string name="app_ops_change_wallpaper">Hintergrundbild ändern</string>
-    <string name="app_ops_assist_structure">Strukturassistent</string>
-    <string name="app_ops_assist_screenshot">Bildschirmfoto</string>
-    <string name="app_ops_use_body_sensors">Körpersensoren</string>
-    <string name="app_ops_read_cell_broadcasts">Cell-Broadcasts</string>
-    <string name="app_ops_mock_location">Standort simulieren</string>
-    <string name="app_ops_read_external_storage">Externen Speicher lesen</string>
-    <string name="app_ops_write_external_storage">Externen Speicher schreiben</string>
-    <string name="app_ops_turn_on_screen">Bildschirm einschalten</string>
-    <string name="app_ops_get_accounts">Geräte-Konten</string>
-    <string name="app_ops_run_in_background">im Hintergrund auszuführen</string>
-    <string name="app_ops_accessibility_volume">Bedienungshilfen-Lautstärke</string>
-    <string name="app_ops_read_phone_numbers">Telefonnummer lesen</string>
-    <string name="app_ops_request_install_packages">Pakete installieren</string>
-    <string name="app_ops_picture_in_picture">Bild in Bild</string>
-    <string name="app_ops_app_start_foreground">Im Vordergrund starten</string>
-    <string name="app_ops_answer_phone_calls">Anruf annehmen</string>
-    <string name="app_ops_run_any_in_background">Im Hintergrund ausführen</string>
-    <string name="app_ops_change_wifi_state">WLAN-Status ändern</string>
-    <string name="app_ops_request_delete_packages">Pakete löschen</string>
-    <string name="app_ops_bind_accessibility_service">An Bedienhilfen anbinden </string>
-    <string name="app_ops_accept_handover">Übergabe akzeptieren</string>
-    <string name="app_ops_manage_ipsec_tunnels">Verwaltete IP-Tunnel</string>
-    <string name="app_ops_start_foreground">Im Vordergrund starten</string>
-    <string name="app_ops_bluetooth_scan">Bluetooth-Suche</string>
-    <string name="app_ops_boot_completed">Autostart</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (<xliff:g id="count">%2$s</xliff:g> verwendet)</string>
     <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g> erlaubt</string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">Erlaubt-/Verweigert-Zähler zurücksetzen</string>
     <string name="app_ops_reset_confirm_title">Zurücksetzen des Zählers bestätigen</string>
     <string name="app_ops_reset_confirm_mesg">Wollen Sie den Zähler wirklich zurücksetzen?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Bernstein</string>
     <string name="color_Carbon_700">Karbon</string>
@@ -384,10 +311,55 @@
     <string name="aggressive_idle_title">Aggressives Dösen</string>
     <string name="aggressive_idle_summary">Geben Sie das Gerät häufiger in den Leerlauf und wecken Sie weniger</string>
     <string name="aggressive_standby_title">Aggressiver Standby</string>
+    <string name="aggressive_standby_summary">Einschränkung der Ausführung von Anwendungen im Hintergrund</string>
     <string name="aggressive_battery_saver_title">Bei Energiesparmodus automatisch aktivieren </string>
     <string name="aggressive_battery_saver_summary">Aggressive Batterie automatisch aktivieren, wenn Sie den Energiesparmodus verwenden</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">Automatikbetrieb im Freien</string>
+    <string name="live_display_outdoor_mode_summary">Erhöhen der Helligkeit und Sättigung automatisch bei hellem Sonnenlicht</string>
+    <string name="live_display_low_power_title">Stromverbrauch reduzieren</string>
+    <string name="live_display_low_power_summary">Anpassen der Anzeige für den geringsten Akkuverbrauch ohne Beeinträchtigungen</string>
+    <string name="live_display_enhance_color_title">Farben verbessern</string>
+    <string name="live_display_enhance_color_summary">Verbessert die Farben von Hauttönen, Landschaften und von anderen Bildern</string>
+    <string name="live_display_color_profile_title">Farbprofil</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Genaue Farbdarstellung und helle Weißtöne</string>
+    <string name="live_display_color_profile_natural_title">Natürlich</string>
+    <string name="live_display_color_profile_natural_summary">Realistische Farben und Hauttöne</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamisch</string>
+    <string name="live_display_color_profile_dynamic_summary">Verbesserte Farben und helleres Weiß</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Perfekte Farbwiedergabe für Videos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Tiefes Rot für den Erhalt der Nachtsicht</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Perfekte Farbwiedergabe für Fotos</string>
+    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_basic_summary">Display unkalibriert verwenden</string>
+    <string name="live_display_color_profile_adaptive_title">Anpassungsfähig</string>
+    <string name="live_display_color_profile_adaptive_summary">Farben an Umgebungsbedingungen anpassen</string>
+    <string name="live_display_color_profile_reading_title">Lesen</string>
+    <string name="live_display_color_profile_reading_summary">Wärmere Farben für geringere Augenbelastung</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Farben passend zum sRGB-Farbraum</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Farben passend zum DCI-P3-Farbraum</string>
+    <string name="live_display_reading_mode_title">Lesemodus</string>
+    <string name="live_display_reading_mode_summary">Graustufen-Modus zum Langzeit-Lesen</string>
+    <string name="color_calibration_title">Farbkalibrierung</string>
+    <string name="color_calibration_summary">Displayfarben kalibrieren</string>
+    <string name="color_red_title">Rot</string>
+    <string name="color_green_title">Grün</string>
+    <string name="color_blue_title">Blau</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">Bildanpassung</string>
+    <string name="picture_adjustment_summary">Anpassen von Farbton, Sättigung, Intensität und Kontrast</string>
+    <string name="adj_hue_title">Farbton</string>
+    <string name="adj_saturation_title">Sättigung</string>
+    <string name="adj_intensity_title">Intensität</string>
+    <string name="adj_contrast_title">Kontrast</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Hosentaschen-Erkennung</string>
+    <string name="pocket_judge_summary">Blockbildschirm und Tasteneingaben, wenn sich das Gerät in der Hosentasche befindet</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

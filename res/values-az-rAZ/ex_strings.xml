@@ -60,10 +60,6 @@
     <string name="designer3_description">Divar Kağızları, Açılış Animasiyaları</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Əlavələr, nişanlar</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Əlavələr, nişanlar və saat stilləri</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96</string>
-    <string name="designer6_description">Yeni açılış animasiyası</string>
     <string name="maintainers">Cavabdehlər</string>
     <string name="maintainers_title">Rəsmi cavabdehlər</string>
     <!-- Maintainer section -->
@@ -108,9 +104,14 @@
     <!-- Notification log -->
     <!-- Running services -->
     <!-- App Ops Categories -->
-    <!-- App ops labels -->
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -119,6 +120,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

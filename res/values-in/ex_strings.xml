@@ -62,10 +62,6 @@
     <string name="designer3_description">Gambar Latar, Animasi boot</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Ekstensi Antarmuka, ikon</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Ekstensi Antarmuka, ikon dan gaya jam</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Boot animasi</string>
     <string name="maintainers">Pengelola</string>
     <string name="maintainers_title">Pengelola resmi</string>
     <string name="maintainers_summary">Perangkat yang didukung secara resmi oleh pengelola masing-masing.</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">Antarmuka Hitam</string>
     <string name="system_theme_style_extended">Extended UI</string>
     <string name="system_theme_style_chocolate">Chocolate UI</string>
+    <string name="system_theme_style_elegant">UI Elegan</string>
     <string name="theme_applied_toast">Tema diterapkan.</string>
     <string name="applying_theme_toast">Menerapkan tema, harap tunggu...</string>
     <string name="substratum_installed_title">Tema sistem tidak tersedia karena overlay Substratum terpasang. Silakan hapus semua overlay pada sistem Android untuk melanjutkan.</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">Media</string>
     <string name="app_ops_cat_device">Perangkat</string>
     <string name="app_ops_cat_bootup">Bootup</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">kamera</string>
-    <string name="app_ops_access_location">lokasi</string>
-    <string name="app_ops_access_notifications">notifikasi</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">mulai otomatis</string>
-    <string name="app_ops_delete_call_log">hapus daftar panggilan</string>
-    <string name="app_ops_delete_contacts">hapus kontak</string>
-    <string name="app_ops_delete_mms">menghapus MMS</string>
-    <string name="app_ops_delete_sms">menghapus SMS</string>
-    <string name="app_ops_draw_on_top">menampilkan di atas</string>
-    <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
-    <string name="app_ops_keep_device_awake">tetap terjaga</string>
-    <string name="app_ops_make_phone_call">membuat panggilan</string>
-    <string name="app_ops_modify_calendar">memperbarui kalender</string>
-    <string name="app_ops_modify_call_log">memperbarui daftar panggilan</string>
-    <string name="app_ops_modify_clipboard">memodifikasi clipboard</string>
-    <string name="app_ops_modify_contacts">perbarui kontak</string>
-    <string name="app_ops_modify_settings">perbarui setelan</string>
-    <string name="app_ops_mute_unmute_microphone">matikan/hidupkan mikrofon</string>
-    <string name="app_ops_play_audio">mainkan audio</string>
-    <string name="app_ops_post_notification">mengirim notifikasi</string>
-    <string name="app_ops_project_media">menampilkan media</string>
-    <string name="app_ops_read_calendar">membaca kalender</string>
-    <string name="app_ops_read_call_log">membaca catatan panggilan</string>
-    <string name="app_ops_read_clipboard">membaca clipboard</string>
-    <string name="app_ops_read_contacts">membaca kontak</string>
-    <string name="app_ops_read_mms">membaca MMS</string>
-    <string name="app_ops_read_sms">baca SMS</string>
-    <string name="app_ops_receive_sms">menerima SMS</string>
-    <string name="app_ops_record_audio">merekam audio</string>
-    <string name="app_ops_send_mms">mengirim MMS</string>
-    <string name="app_ops_send_sms">mengirim SMS</string>
-    <string name="app_ops_toast_window">pesan toast</string>
-    <string name="app_ops_use_alarm_volume">volume alarm</string>
-    <string name="app_ops_use_audio_focus">fokus suara</string>
-    <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
-    <string name="app_ops_use_master_volume">volume utama</string>
-    <string name="app_ops_use_media_buttons">tombol media</string>
-    <string name="app_ops_use_media_volume">volume media</string>
-    <string name="app_ops_use_notification_volume">volume notifikasi</string>
-    <string name="app_ops_use_ring_volume">volume nada dering</string>
-    <string name="app_ops_use_vibrate">getaran</string>
-    <string name="app_ops_use_voice_volume">volume suara panggilan</string>
-    <string name="app_ops_write_mms">tulis MMS</string>
-    <string name="app_ops_write_sms">tulis SMS</string>
-    <string name="app_ops_use_fingerprint">sidik jari</string>
-    <string name="app_ops_add_voicemail">pesan suara</string>
-    <string name="app_ops_read_phone_state">mengakses status ponsel</string>
-    <string name="app_ops_scan_wifi">Memindai jaringan WiFi</string>
-    <string name="app_ops_change_wallpaper">mengubah wallpaper</string>
-    <string name="app_ops_assist_structure">struktur pembantu</string>
-    <string name="app_ops_assist_screenshot">tangkapan layar</string>
-    <string name="app_ops_use_body_sensors">sensor tubuh</string>
-    <string name="app_ops_read_cell_broadcasts">siaran seluler</string>
-    <string name="app_ops_mock_location">memalsukan lokasi</string>
-    <string name="app_ops_read_external_storage">baca penyimpanan eksternal.</string>
-    <string name="app_ops_write_external_storage">menulis penyimpanan eksternal.</string>
-    <string name="app_ops_turn_on_screen">menghidupkan layar</string>
-    <string name="app_ops_get_accounts">akun perangkat</string>
-    <string name="app_ops_run_in_background">berjalan di latar belakang</string>
-    <string name="app_ops_accessibility_volume">volume aksesibilitas</string>
-    <string name="app_ops_read_phone_numbers">membaca nomor telepon.</string>
-    <string name="app_ops_request_install_packages">memasang paket</string>
-    <string name="app_ops_picture_in_picture">pip</string>
-    <string name="app_ops_app_start_foreground">mulai di latar depan</string>
-    <string name="app_ops_answer_phone_calls">menjawab panggilan</string>
-    <string name="app_ops_run_any_in_background">berjalan di latar belakang</string>
-    <string name="app_ops_change_wifi_state">ubah status Wi-Fi</string>
-    <string name="app_ops_request_delete_packages">menghapus paket</string>
-    <string name="app_ops_bind_accessibility_service">tautkan ke aksesibilitas</string>
-    <string name="app_ops_accept_handover">terima handover</string>
-    <string name="app_ops_manage_ipsec_tunnels">mengatur penghubung ip</string>
-    <string name="app_ops_start_foreground">mulai di latar depan</string>
-    <string name="app_ops_bluetooth_scan">pemindaian bluetooth</string>
-    <string name="app_ops_boot_completed">memulai otamatis</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (menggunakan <xliff:g id="menghitung">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Perbolehkan <xliff:g id="count" example="2 times">%s</xliff:g></string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">Atur ulang hitungan diizinkan/ditolak</string>
     <string name="app_ops_reset_confirm_title">Konfirmasi penghitung ulang</string>
     <string name="app_ops_reset_confirm_mesg">Apakah anda yakin ingin mengatur ulang penghitung?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Amber</string>
     <string name="color_Carbon_700">Karbon</string>
@@ -384,10 +311,55 @@
     <string name="aggressive_idle_title">Aec agresif</string>
     <string name="aggressive_idle_summary">Perangkat diam lebih sering dan bangun lebih sedikit</string>
     <string name="aggressive_standby_title">Siaga agresif</string>
+    <string name="aggressive_standby_summary">Batasi aplikasi agar tidak berjalan di latar belakang</string>
     <string name="aggressive_battery_saver_title">Hidupkan otomatis mode hemat baterai </string>
     <string name="aggressive_battery_saver_summary">Nyalakan baterai agresif otomatis saat menggunakan penghemat baterai</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
+    <string name="live_display_outdoor_mode_summary">Tingkatkan kecerahan dan saturasi secara otomatis di bawah sinar matahari yang cerah</string>
+    <string name="live_display_low_power_title">Kurangi konsumsi daya</string>
+    <string name="live_display_low_power_summary">Sesuaikan tampilan untuk konsumsi daya terendah tanpa degradasi</string>
+    <string name="live_display_enhance_color_title">Tingkatkan warna</string>
+    <string name="live_display_enhance_color_summary">Meningkatkan vibran warna dari corak terang, pemandangan dan gambar lain</string>
+    <string name="live_display_color_profile_title">Profil warna</string>
+    <string name="live_display_color_profile_standard_title">Standar</string>
+    <string name="live_display_color_profile_standard_summary">Warna yang tepat dan putih terang</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Warna realistis dan warna kulit</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamis</string>
+    <string name="live_display_color_profile_dynamic_summary">Peningkatan warna dan putih terang</string>
+    <string name="live_display_color_profile_cinema_title">Sinema</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduksi warna yang sempurna untuk video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Merah gelap untuk mempertahankan penglihatan malam</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Reproduksi warna yang sempurna untuk foto</string>
+    <string name="live_display_color_profile_basic_title">Dasar</string>
+    <string name="live_display_color_profile_basic_summary">Gunakan tampilan yang belum dikalibrasi</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptif</string>
+    <string name="live_display_color_profile_adaptive_summary">Warna beradaptasi dengan kondisi sekitar</string>
+    <string name="live_display_color_profile_reading_title">Membaca</string>
+    <string name="live_display_color_profile_reading_summary">Warna-warna hangat untuk mengurangi kelelahan mata</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Warna akurat ke ruang warna sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Warna akurat ke ruang warna DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mode membaca</string>
+    <string name="live_display_reading_mode_summary">Modus warna abu-abu untuk pembacaan jangka panjang</string>
+    <string name="color_calibration_title">Kalibrasi warna</string>
+    <string name="color_calibration_summary">Kalibrasi warna layar</string>
+    <string name="color_red_title">Merah</string>
+    <string name="color_green_title">Hijau</string>
+    <string name="color_blue_title">Biru</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">Penyesuaian Gambar</string>
+    <string name="picture_adjustment_summary">Sesuaikan warna, saturasi, intensitas, dan kontras</string>
+    <string name="adj_hue_title">Corak</string>
+    <string name="adj_saturation_title">Saturasi</string>
+    <string name="adj_intensity_title">Intensitas</string>
+    <string name="adj_contrast_title">Kontras</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Deteksi saku</string>
+    <string name="pocket_judge_summary">Blokir masukan tombol dan layar saat perangkat berada dalam saku</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

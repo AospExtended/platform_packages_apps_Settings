@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">Phiên bản mở rộng</string>
+    <string name="extended_version">Phiên bản Extended</string>
     <string name="extended_version_default">Không xác định</string>
     <string name="keywords_extended_version">phiên bản aex, bản mở rộng</string>
     <!-- About phone screen, build date -->
@@ -28,7 +28,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About AospExtended -->
-    <string name="aex_about_info">Về chúng tôi</string>
+    <string name="aex_about_info">Giới thiệu</string>
     <string name="aex_about_summary">Giới thiệu và nhóm của chúng tôi</string>
     <string name="aex_about_info_summary">AOSP Extended là ROM dựa trên AOSP cung cấp trải nghiệm UI / UX gốc với các tùy chỉnh hữu ích. Vì dựa trên AOSP nên nó cung cấp trải nghiệm mượt mà. Chúng tôi đã thêm các tùy chỉnh hữu ích từ các dự án nguồn mở khác nhau và đã cố gắng giữ mọi thứ đơn giản. ROM của người dùng, cho người dùng.&#35;BeExtended</string>
     <string name="dev_info">Giới thiệu về AospExtended</string>
@@ -59,13 +59,9 @@
     <string name="designer_2">Savio &#40;Wizper99&#41;</string>
     <string name="designer2_description">QS/Fling logos</string>
     <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
-    <string name="designer3_description">Hình nền, Bootanimations</string>
+    <string name="designer3_description">Hình nền, Hiệu ứng khởi động</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Tiện ích mở rộng giao diện, biểu tượng</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Giao diện mở rộng, Biểu tượng và Kiểu Đồng hồ</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Hiệu ứng khởi động mới</string>
     <string name="maintainers">Nhà bảo trì</string>
     <string name="maintainers_title">Người bảo trì chính thức</string>
     <string name="maintainers_summary">Danh sách các thiết bị và người duy trì chính thức.</string>
@@ -76,8 +72,8 @@
     <string name="devices_list_empty">Danh sách trống, nhấn vào icon để tải lại</string>
     <string name="reload_list">Tải lại</string>
     <!-- Changelog -->
-    <string name="changelog_title">Nhật kí thay đổi</string>
-    <string name="changelog_summary">Thay đổi Gần đây</string>
+    <string name="changelog_title">Thay đổi</string>
+    <string name="changelog_summary">Thay đổi gần đây</string>
     <string name="changelog_loading">Đang nạp các thay đổi\u2026</string>
     <string name="changelog_error">Không thể tải các thay đổi</string>
     <!-- Scramble PIN Layout on Lockscreen -->
@@ -114,17 +110,18 @@
     <!-- Dashboard Category -->
     <string name="dashboard_category">Tùy chọn bảng điều khiển</string>
     <!-- Home button wake -->
-    <string name="home_wake_button_title">Nút Home đánh thức</string>
-    <string name="home_wake_button_summary">Nhấn nút home để đánh thức màn hình</string>
+    <string name="home_wake_button_title">Nút Trang chủ đánh thức</string>
+    <string name="home_wake_button_summary">Nhấn nút Trang chủ để đánh thức màn hình</string>
     <!-- Themes -->
     <string name="theme_category_title">Chủ đề Hệ thống</string>
     <string name="system_theme_style_title">Giao diện người dùng</string>
-    <string name="system_theme_style_auto">Hình nền dựa trên</string>
+    <string name="system_theme_style_auto">Dựa trên hình nền</string>
     <string name="system_theme_style_light">Giao diện sáng</string>
     <string name="system_theme_style_dark">Giao diện tối</string>
     <string name="system_theme_style_black">Giao diện đen</string>
     <string name="system_theme_style_extended">Giao diện Extended</string>
     <string name="system_theme_style_chocolate">Giao diện sôcôla</string>
+    <string name="system_theme_style_elegant">Giao diện Elegant</string>
     <string name="theme_applied_toast">Chủ đề đã được áp dụng.</string>
     <string name="applying_theme_toast">Áp dụng chủ đề, xin vui lòng chờ...</string>
     <string name="substratum_installed_title">Tùy chọn giao diện hệ thống không có bởi một giao diện Substratum đã cài đặt. Hãy xoá tất cả những giao diện chỉnh sửa hệ thống để tiếp tục.</string>
@@ -188,7 +185,7 @@
     <string name="full_gesture_mode_title">Bật cử chỉ tràn cạnh</string>
     <string name="full_gesture_mode_summary">Chế độ này tắt nút quay lại và bạn có thể kích hoạt hành động quay lại bằng cách vuốt trên thanh điều hướng. Vuốt sang phải vẫn kích hoạt màn hình đa nhiệm. Để về màn hình chính bạn có thể chạm vào chỗ trống bất kì trên thanh điều hướng, không chỉ có nút home. Khi bàn phím hiển thị, bấm giữ trên thanh điều hướng để di chuyển con trỏ văn bản.</string>
     <string name="full_gesture_mode_dt2s_title">Bật nhấn đúp để tắt màn hình</string>
-    <string name="full_gesture_mode_dt2s_summary">Chạm vào khoảng trống trên thanh điều hướng nhưng không phải nút home để tắt màn hình.</string>
+    <string name="full_gesture_mode_dt2s_summary">Chạm đúp trên thanh điều hướng (không chạm phím Trang chủ) để tắt màn hình.</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Mở rộng màn hình</string>
     <string name="expanded_hide_nothing">Không ẩn gì</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">Đa phương tiện</string>
     <string name="app_ops_cat_device">Thiết bị</string>
     <string name="app_ops_cat_bootup">Khởi động hệ thống</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">máy ảnh</string>
-    <string name="app_ops_access_location">vị trí</string>
-    <string name="app_ops_access_notifications">thông báo</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">tự khởi động</string>
-    <string name="app_ops_delete_call_log">xóa nhật ký cuộc gọi</string>
-    <string name="app_ops_delete_contacts">xoá liên lạc</string>
-    <string name="app_ops_delete_mms">xóa MMS</string>
-    <string name="app_ops_delete_sms">xóa SMS</string>
-    <string name="app_ops_draw_on_top">vẽ trên cùng</string>
-    <string name="app_ops_get_usage_stats">lấy thống kê sử dụng</string>
-    <string name="app_ops_keep_device_awake">giữ màn hình sáng</string>
-    <string name="app_ops_make_phone_call">thực hiện cuộc gọi</string>
-    <string name="app_ops_modify_calendar">cập nhật lịch</string>
-    <string name="app_ops_modify_call_log">cập nhật nhật ký cuộc gọi</string>
-    <string name="app_ops_modify_clipboard">sửa đổi bảng tạm</string>
-    <string name="app_ops_modify_contacts">cập nhật danh bạ</string>
-    <string name="app_ops_modify_settings">cập nhật cài đặt</string>
-    <string name="app_ops_mute_unmute_microphone">tắt/bật mic</string>
-    <string name="app_ops_play_audio">phát âm thanh</string>
-    <string name="app_ops_post_notification">gửi thông báo</string>
-    <string name="app_ops_project_media">chiếu đa phương tiện</string>
-    <string name="app_ops_read_calendar">đọc lịch</string>
-    <string name="app_ops_read_call_log">đọc nhật ký cuộc gọi</string>
-    <string name="app_ops_read_clipboard">đọc bảng tạm</string>
-    <string name="app_ops_read_contacts">đọc số liên hệ</string>
-    <string name="app_ops_read_mms">đọc MMS</string>
-    <string name="app_ops_read_sms">đọc SMS</string>
-    <string name="app_ops_receive_sms">nhận tin nhắn SMS</string>
-    <string name="app_ops_record_audio">ghi âm</string>
-    <string name="app_ops_send_mms">gửi MMS</string>
-    <string name="app_ops_send_sms">gửi tin nhắn SMS</string>
-    <string name="app_ops_toast_window">thông báo nổi</string>
-    <string name="app_ops_use_alarm_volume">âm lượng báo thức</string>
-    <string name="app_ops_use_audio_focus">âm báo</string>
-    <string name="app_ops_use_bluetooth_volume">Âm lượng Bluetooth</string>
-    <string name="app_ops_use_master_volume">âm lượng tổng thể</string>
-    <string name="app_ops_use_media_buttons">nút đa phương tiện</string>
-    <string name="app_ops_use_media_volume">âm lượng đa phương tiện</string>
-    <string name="app_ops_use_notification_volume">âm lượng thông báo</string>
-    <string name="app_ops_use_ring_volume">âm lượng nhạc chuông</string>
-    <string name="app_ops_use_vibrate">phản hồi rung</string>
-    <string name="app_ops_use_voice_volume">âm lượng cuộc gọi</string>
-    <string name="app_ops_write_mms">viết MMS</string>
-    <string name="app_ops_write_sms">viết tin nhắn SMS</string>
-    <string name="app_ops_use_fingerprint">vân tay</string>
-    <string name="app_ops_add_voicemail">hộp thư thoại</string>
-    <string name="app_ops_read_phone_state">truy nhập tình trạng điện thoại</string>
-    <string name="app_ops_scan_wifi">Quét mạng WiFi</string>
-    <string name="app_ops_change_wallpaper">thay đổi hình nền</string>
-    <string name="app_ops_assist_structure">cấu trúc hỗ trợ</string>
-    <string name="app_ops_assist_screenshot">ảnh chụp màn hình</string>
-    <string name="app_ops_use_body_sensors">cảm biến cơ thể</string>
-    <string name="app_ops_read_cell_broadcasts">phát sóng di động</string>
-    <string name="app_ops_mock_location">giả vị trí</string>
-    <string name="app_ops_read_external_storage">đọc bộ nhớ ngoài.</string>
-    <string name="app_ops_write_external_storage">ghi vào bộ nhớ ngoài.</string>
-    <string name="app_ops_turn_on_screen">bật màn hình</string>
-    <string name="app_ops_get_accounts">tài khoản trên thiết bị</string>
-    <string name="app_ops_run_in_background">chạy trong nền</string>
-    <string name="app_ops_accessibility_volume">âm lượng hỗ trợ</string>
-    <string name="app_ops_read_phone_numbers">đọc số điện thoại.</string>
-    <string name="app_ops_request_install_packages">gói cài đặt</string>
-    <string name="app_ops_picture_in_picture">ảnh trong ảnh</string>
-    <string name="app_ops_app_start_foreground">khởi động trực tiếp</string>
-    <string name="app_ops_answer_phone_calls">trả lời cuộc gọi</string>
-    <string name="app_ops_run_any_in_background">chạy trong nền</string>
-    <string name="app_ops_change_wifi_state">thay đổi trạng thái Wi-Fi</string>
-    <string name="app_ops_request_delete_packages">xóa các gói</string>
-    <string name="app_ops_bind_accessibility_service">ràng buộc khả năng truy cập</string>
-    <string name="app_ops_accept_handover">chấp nhận bàn giao</string>
-    <string name="app_ops_manage_ipsec_tunnels">quản lý kênh bảo vệ địa chỉ IP</string>
-    <string name="app_ops_start_foreground">khởi chạy trong nền</string>
-    <string name="app_ops_bluetooth_scan">quét bluetooth</string>
-    <string name="app_ops_boot_completed">tự khởi động</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (đã sử dụng <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Đã cho phép <xliff:g id="count" example="2 times">%s </xliff:g></string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">Thiết lập lại bộ đếm cho phép/từ chối</string>
     <string name="app_ops_reset_confirm_title">Xác nhận xóa bộ đếm</string>
     <string name="app_ops_reset_confirm_mesg">Bạn có chắc là bạn muốn thiết lập lại bộ đếm?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Màu vàng cam</string>
     <string name="color_Carbon_700">Than</string>
@@ -384,10 +311,55 @@
     <string name="aggressive_idle_title">Nhàn rỗi</string>
     <string name="aggressive_idle_summary">Kích hoạt tăng tần số nhàn rỗi và tự bật màn hình ít hơn</string>
     <string name="aggressive_standby_title">Chờ đợi tích cực</string>
+    <string name="aggressive_standby_summary">Hạn chế ứng dụng chạy nền</string>
     <string name="aggressive_battery_saver_title">Tự động bật cùng trình tiết kiệm pin </string>
     <string name="aggressive_battery_saver_summary">Tự động bật Pin tích cực khi sử dụng trình tiết kiệm pin</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">Tự động điều chỉnh khi ra ngoài trời</string>
+    <string name="live_display_outdoor_mode_summary">Tăng độ sáng và độ bão hòa tự động dưới ánh sáng mặt trời</string>
+    <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
+    <string name="live_display_low_power_summary">Điều chỉnh hiển thị để tiêu thụ pin thấp nhất mà không làm giảm chất lượng</string>
+    <string name="live_display_enhance_color_title">Tăng cường màu sắc</string>
+    <string name="live_display_enhance_color_summary">Cải thiện độ rung màu sắc của màu da, cảnh quan và hình ảnh khác</string>
+    <string name="live_display_color_profile_title">Cấu hình màu</string>
+    <string name="live_display_color_profile_standard_title">Tiêu chuẩn</string>
+    <string name="live_display_color_profile_standard_summary">Màu sắc chính xác và màu trắng sáng</string>
+    <string name="live_display_color_profile_natural_title">Tự nhiên</string>
+    <string name="live_display_color_profile_natural_summary">Màu sắc thực tế và màu da</string>
+    <string name="live_display_color_profile_dynamic_title">Năng động</string>
+    <string name="live_display_color_profile_dynamic_summary">Màu sắc được tăng cường và màu trắng sáng</string>
+    <string name="live_display_color_profile_cinema_title">Rạp chiếu phim</string>
+    <string name="live_display_color_profile_cinema_summary">Tái tạo màu sắc hoàn hảo cho video</string>
+    <string name="live_display_color_profile_astronomy_title">Thiên văn học</string>
+    <string name="live_display_color_profile_astronomy_summary">Đỏ sâu để duy trì tầm nhìn ban đêm</string>
+    <string name="live_display_color_profile_photography_title">Nhiếp ảnh</string>
+    <string name="live_display_color_profile_photography_summary">Tái tạo màu sắc hoàn hảo cho hình ảnh</string>
+    <string name="live_display_color_profile_basic_title">Cơ bản</string>
+    <string name="live_display_color_profile_basic_summary">Dùng hiển thị không hiệu chỉnh</string>
+    <string name="live_display_color_profile_adaptive_title">Thích nghi</string>
+    <string name="live_display_color_profile_adaptive_summary">Màu sắc thích ứng với điều kiện môi trường xung quanh</string>
+    <string name="live_display_color_profile_reading_title">Đọc</string>
+    <string name="live_display_color_profile_reading_summary">Các màu ấm hơn cho mỏi mắt ít hơn</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Màu sắc chính xác cho không gian màu sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Màu sắc chính xác cho khoảng cách màu DCI-P3</string>
+    <string name="live_display_reading_mode_title">Chế độ đọc</string>
+    <string name="live_display_reading_mode_summary">Chế độ màu xám để đọc sách lâu dài</string>
+    <string name="color_calibration_title">Hiệu chỉnh màu sắc</string>
+    <string name="color_calibration_summary">Hiệu chỉnh màu sắc trên màn hình</string>
+    <string name="color_red_title">Đỏ</string>
+    <string name="color_green_title">Xanh lá</string>
+    <string name="color_blue_title">Xanh dương</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">Hiệu chỉnh hình ảnh</string>
+    <string name="picture_adjustment_summary">Hiệu chỉnh tông màu, bão hòa, cường độ và độ tương phản</string>
+    <string name="adj_hue_title">Màu sắc</string>
+    <string name="adj_saturation_title">Độ bão hòa</string>
+    <string name="adj_intensity_title">Cường độ</string>
+    <string name="adj_contrast_title">Độ tương phản</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Phát hiện trong túi</string>
+    <string name="pocket_judge_summary">Chặn màn hình và các nút bấm khi thiết bị ở trong túi</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

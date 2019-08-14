@@ -61,9 +61,6 @@
     <string name="designer3_description">Tapety, spúšťacie animácie</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Rozšírenia UI, ikony</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Rozšírenia UI, ikony a štýly hodín</string>
-    <string name="designer6_description">Spúšťacia animácia</string>
     <string name="maintainers">Správcovia</string>
     <string name="maintainers_title">Oficiálni správcovia</string>
     <string name="maintainers_summary">Zoznam podporovaných zariadení a ich oficiálni správcovia.</string>
@@ -250,80 +247,8 @@
     <string name="app_ops_cat_media">Médiá</string>
     <string name="app_ops_cat_device">Zariadenie</string>
     <string name="app_ops_cat_bootup">Pri štarte</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">fotoaparát</string>
-    <string name="app_ops_access_location">poloha</string>
-    <string name="app_ops_access_notifications">upozornenia</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">automatické spustenie</string>
-    <string name="app_ops_delete_call_log">vymazať denník hovorov</string>
-    <string name="app_ops_delete_contacts">vymazať kontakty</string>
-    <string name="app_ops_delete_mms">vymazať MMS</string>
-    <string name="app_ops_delete_sms">vymazať SMS</string>
-    <string name="app_ops_draw_on_top">vykreslovať do najvyššej vrstvy</string>
-    <string name="app_ops_get_usage_stats">získať štatistiky používania</string>
-    <string name="app_ops_keep_device_awake">zabrániť zariadeniu prejsť do režimu spánku</string>
-    <string name="app_ops_make_phone_call">zavolať</string>
-    <string name="app_ops_modify_calendar">aktualizovať kalendár</string>
-    <string name="app_ops_modify_call_log">aktualizovať záznam hovorov</string>
-    <string name="app_ops_modify_clipboard">meniť údaje v schránke</string>
-    <string name="app_ops_modify_contacts">aktualizovať kontakty</string>
-    <string name="app_ops_modify_settings">aktualizovať nastavenia</string>
-    <string name="app_ops_mute_unmute_microphone">stíšiť/zosiliť mikrofón</string>
-    <string name="app_ops_play_audio">prehrávať zvuk</string>
-    <string name="app_ops_post_notification">posielať upozornenia</string>
-    <string name="app_ops_project_media">premietať médiá</string>
-    <string name="app_ops_read_calendar">čítať údaje z kalendára</string>
-    <string name="app_ops_read_call_log">čítať zoznam hovorov</string>
-    <string name="app_ops_read_clipboard">čítať údaje zo schránky</string>
-    <string name="app_ops_read_contacts">čítať kontakty</string>
-    <string name="app_ops_read_mms">čítať MMS</string>
-    <string name="app_ops_read_sms">čítať SMS</string>
-    <string name="app_ops_receive_sms">prijímať SMS</string>
-    <string name="app_ops_record_audio">nahrávať zvuk</string>
-    <string name="app_ops_send_mms">poslať MMS</string>
-    <string name="app_ops_send_sms">poslať SMS</string>
-    <string name="app_ops_toast_window">vyskakujúce správy</string>
-    <string name="app_ops_use_alarm_volume">hlasitosť budíka</string>
-    <string name="app_ops_use_audio_focus">audio zameranie</string>
-    <string name="app_ops_use_bluetooth_volume">hlasitosť Bluetooth</string>
-    <string name="app_ops_use_master_volume">hlavná hlasitosť</string>
-    <string name="app_ops_use_media_buttons">tlačidlá médií</string>
-    <string name="app_ops_use_media_volume">hlasitosť médií</string>
-    <string name="app_ops_use_notification_volume">hlasitosť upozornení</string>
-    <string name="app_ops_use_ring_volume">hlasitosť zvonenia</string>
-    <string name="app_ops_use_vibrate">hmatová odozva</string>
-    <string name="app_ops_use_voice_volume">hlasitosť hovoru</string>
-    <string name="app_ops_write_mms">vytvoriť MMS</string>
-    <string name="app_ops_write_sms">vytvoriť SMS</string>
-    <string name="app_ops_use_fingerprint">odtlačok prsta</string>
-    <string name="app_ops_add_voicemail">hlasová pošta</string>
-    <string name="app_ops_read_phone_state">čítať stav telefónu</string>
-    <string name="app_ops_scan_wifi">prehľadávať WiFi siete</string>
-    <string name="app_ops_change_wallpaper">zmeniť tapetu</string>
-    <string name="app_ops_assist_structure">používať pomocné štruktúry</string>
-    <string name="app_ops_assist_screenshot">snímka obrazovky</string>
-    <string name="app_ops_use_body_sensors">použiť telové senzory</string>
-    <string name="app_ops_read_cell_broadcasts">vysíelanie buniek</string>
-    <string name="app_ops_mock_location">falšovať polohu</string>
-    <string name="app_ops_read_external_storage">čítať ext. úložisko</string>
-    <string name="app_ops_write_external_storage">zapisovať na ext. úložisko</string>
-    <string name="app_ops_turn_on_screen">zapnúť obrazovku</string>
-    <string name="app_ops_get_accounts">účty na zariadení</string>
-    <string name="app_ops_run_in_background">spustiť na pozadí</string>
-    <string name="app_ops_accessibility_volume">prístup k hlasitosti</string>
-    <string name="app_ops_read_phone_numbers">čítať tel. čísla</string>
-    <string name="app_ops_request_install_packages">inštalovať balíky</string>
-    <string name="app_ops_picture_in_picture">pip</string>
-    <string name="app_ops_app_start_foreground">spustiť na popredí</string>
-    <string name="app_ops_answer_phone_calls">prijať hovor</string>
-    <string name="app_ops_run_any_in_background">spustiť na pozadí</string>
-    <string name="app_ops_change_wifi_state">zmeniť stav Wi-Fi</string>
-    <string name="app_ops_request_delete_packages">Odstrániť balík</string>
-    <string name="app_ops_manage_ipsec_tunnels">spravovať tunely ipsec</string>
-    <string name="app_ops_start_foreground">spustiť na popredí</string>
-    <string name="app_ops_bluetooth_scan">skenovanie Bluetooth</string>
-    <string name="app_ops_boot_completed">spustiť pri štarte</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (použité <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Povolené <xliff:g id="count" example="2 times">%s</xliff:g></string>
@@ -335,6 +260,10 @@
     <string name="app_ops_reset_counters">Vynulovať počty povolení/zakazov</string>
     <string name="app_ops_reset_confirm_title">Potvrdiť vynulovanie počítadiel</string>
     <string name="app_ops_reset_confirm_mesg">Naozaj chcete vynulovať počítadlá?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Jantárová</string>
     <string name="color_Carbon_700">Carbon</string>
@@ -376,6 +305,6 @@
     <string name="aggressive_battery_saver_title">Automatické zapnutie pri spustení šetriča batérie </string>
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

@@ -62,10 +62,6 @@
     <string name="designer3_description">Ταπετσαρίες, γραφικά εκκίνησης</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Επεκτάσεις λειτουργικού, Εικονίδια</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Επεκτάσεις UI, εικονίδια και στυλ εμφάνισης ρολογιού</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Νέο γραφικό στοιχείο εκκίνησης</string>
     <string name="maintainers">Συντηρητές</string>
     <string name="maintainers_title">Επίσημοι συντηρητές</string>
     <string name="maintainers_summary">Επίσημα υποστηριζόμενες συσκευές και οι αντίστοιχοι συντηρητές.</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">Μαύρο UI</string>
     <string name="system_theme_style_extended">Εκτεταμένο UI</string>
     <string name="system_theme_style_chocolate">Σοκολατένιο UI</string>
+    <string name="system_theme_style_elegant">Κομψό UI</string>
     <string name="theme_applied_toast">Το θέμα εφαρμόστηκε.</string>
     <string name="applying_theme_toast">Εφαρμογή θέματος, παρακαλώ περιμένετε...</string>
     <string name="substratum_installed_title">Τα θέματα συστήματος δεν είναι διαθέσιμα γιατί ένα Substratum θέμα είναι ήδη εγκατεστημένο. Παρακαλώ απεγκαταστήστε όλα τα θέματα, στο Συστήμα Android, για να συνεχίσετε.</string>
@@ -254,82 +251,8 @@
     <string name="app_ops_cat_media">Πολυμέσα</string>
     <string name="app_ops_cat_device">Συσκευή</string>
     <string name="app_ops_cat_bootup">Εκκίνηση</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">φωτογραφική μηχανή</string>
-    <string name="app_ops_access_location">τοποθεσία</string>
-    <string name="app_ops_access_notifications">ειδοποιήσεις</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">αυτόματη εκκίνηση</string>
-    <string name="app_ops_delete_call_log">διαγραφή ιστορικού κλήσεων</string>
-    <string name="app_ops_delete_contacts">διαγραφή επαφών</string>
-    <string name="app_ops_delete_mms">διαγραφή MMS</string>
-    <string name="app_ops_delete_sms">διαγραφή SMS</string>
-    <string name="app_ops_draw_on_top">σχεδίαση πάνω από άλλες εφαρμογές</string>
-    <string name="app_ops_get_usage_stats">στατιστικά χρήσης</string>
-    <string name="app_ops_keep_device_awake">διατήρηση λειτουργίας</string>
-    <string name="app_ops_make_phone_call">κάντε κλήση</string>
-    <string name="app_ops_modify_calendar">ενημέρωση του ημερολογίου</string>
-    <string name="app_ops_modify_call_log">ενημέρωση του αρχείου κλήσεων</string>
-    <string name="app_ops_modify_clipboard">τροποποίηση περιεχομένων προχείρου</string>
-    <string name="app_ops_modify_contacts">ενημέρωση επαφών</string>
-    <string name="app_ops_modify_settings">ενημέρωση ρυθμίσεων</string>
-    <string name="app_ops_mute_unmute_microphone">σίγαση/κατάργηση σίγασης μικροφώνου</string>
-    <string name="app_ops_play_audio">αναπαραγωγή ήχου</string>
-    <string name="app_ops_post_notification">εμφάνιση ειδοποίησης</string>
-    <string name="app_ops_project_media">πρόγραμμα πολυμέσων</string>
-    <string name="app_ops_read_calendar">ανάγνωση ημερολογίου</string>
-    <string name="app_ops_read_call_log">ανάγνωση αρχείου καταγραφής κλήσεων</string>
-    <string name="app_ops_read_clipboard">ανάγνωση περιεχόμενων προχείρου</string>
-    <string name="app_ops_read_contacts">ανάγνωση επαφών</string>
-    <string name="app_ops_read_mms">ανάγνωση MMS</string>
-    <string name="app_ops_read_sms">ανάγνωση SMS</string>
-    <string name="app_ops_receive_sms">λήψη SMS</string>
-    <string name="app_ops_record_audio">εγγραφή ήχου</string>
-    <string name="app_ops_send_mms">αποστολή MMS</string>
-    <string name="app_ops_send_sms">αποστολή SMS</string>
-    <string name="app_ops_toast_window">αναδυόμενα Μυνήματα</string>
-    <string name="app_ops_use_alarm_volume">ένταση ήχου ξυπνητηριού</string>
-    <string name="app_ops_use_audio_focus">εστίαση ήχου</string>
-    <string name="app_ops_use_bluetooth_volume">Ένταση ήχου Bluetooth</string>
-    <string name="app_ops_use_master_volume">κύρια ένταση ήχου</string>
-    <string name="app_ops_use_media_buttons">πλήκτρα πολυμέσων</string>
-    <string name="app_ops_use_media_volume">ένταση ήχου πολυμέσων</string>
-    <string name="app_ops_use_notification_volume">ένταση ήχου ειδοποίησης</string>
-    <string name="app_ops_use_ring_volume">ένταση ήχου κλήσης</string>
-    <string name="app_ops_use_vibrate">απτική ανάδραση</string>
-    <string name="app_ops_use_voice_volume">έντασης ήχου φωνής</string>
-    <string name="app_ops_write_mms">σύνταξη MMS</string>
-    <string name="app_ops_write_sms">σύνταξη SMS</string>
-    <string name="app_ops_use_fingerprint">δακτυλικό αποτύπωμα</string>
-    <string name="app_ops_add_voicemail">φωνητικό ταχυδρομείο</string>
-    <string name="app_ops_read_phone_state">πρόσβαση στην κατάσταση τηλεφώνου</string>
-    <string name="app_ops_scan_wifi">Σάρωση για δίκτυα Wi-Fi</string>
-    <string name="app_ops_change_wallpaper">αλλαγή ταπετσαρίας</string>
-    <string name="app_ops_assist_structure">βοηθητική δομή</string>
-    <string name="app_ops_assist_screenshot">στιγμιότυπο οθόνης</string>
-    <string name="app_ops_use_body_sensors">αισθητήρες σώματος</string>
-    <string name="app_ops_read_cell_broadcasts">εκπομπές κινητής τηλεφωνίας</string>
-    <string name="app_ops_mock_location">ψευδής τοποθεσία</string>
-    <string name="app_ops_read_external_storage">ανάγνωση εξ. αποθ. χώρου.</string>
-    <string name="app_ops_write_external_storage">εγγραφή στον εξ. αποθ. χώρο.</string>
-    <string name="app_ops_turn_on_screen">ενεργοποίηση οθόνης</string>
-    <string name="app_ops_get_accounts">ανάγνωση λογαριασμών συσκευής</string>
-    <string name="app_ops_run_in_background">εκτέλεση στο παρασκήνιο</string>
-    <string name="app_ops_accessibility_volume">ένταση ήχου προσβασιμότητας</string>
-    <string name="app_ops_read_phone_numbers">ανάγνωση τηλεφωνικών αριθμών.</string>
-    <string name="app_ops_request_install_packages">εγκατάσταση πακέτων</string>
-    <string name="app_ops_picture_in_picture">εικόνα σε εικόνα</string>
-    <string name="app_ops_app_start_foreground">εκκίνηση σε πρώτο πλάνο</string>
-    <string name="app_ops_answer_phone_calls">απάντηση κλήσεων</string>
-    <string name="app_ops_run_any_in_background">εκτέλεση στο παρασκήνιο</string>
-    <string name="app_ops_change_wifi_state">αλλαγή κατάστασης Wi-Fi</string>
-    <string name="app_ops_request_delete_packages">διαγραφή πακέτων</string>
-    <string name="app_ops_bind_accessibility_service">συνδέονται με την προσβασιμότητα</string>
-    <string name="app_ops_accept_handover">αποδοχη της παράδοσης</string>
-    <string name="app_ops_manage_ipsec_tunnels">διαχείριση ip tunnels</string>
-    <string name="app_ops_start_foreground">εκκίνηση σε πρώτο πλάνο</string>
-    <string name="app_ops_bluetooth_scan">σάρωση Bluetooth</string>
-    <string name="app_ops_boot_completed">αυτόματη εκκίνηση</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (χρησιμοποιήθηκε <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Επιτράπηκε <xliff:g id="count" example="2 φορές">%s</xliff:g></string>
@@ -341,6 +264,10 @@
     <string name="app_ops_reset_counters">Επαναφορά μετρητών \'επιτράπηκε/δεν επιτράπηκε\'</string>
     <string name="app_ops_reset_confirm_title">Επιβεβαίωση επαναφοράς μετρητών</string>
     <string name="app_ops_reset_confirm_mesg">Είστε σίγουρος/η ότι θέλετε να κάνετε επαναφορά των μετρητών;</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Ανοικτό πορτοκαλί</string>
     <string name="color_Carbon_700">Ανθρακί</string>
@@ -385,10 +312,55 @@
     <string name="aggressive_idle_title">Επιθετική αναμονή</string>
     <string name="aggressive_idle_summary">Αφήστε τη συσκευή σε κατάσταση αδράνειας πιο συχνά και λιγότερο ενεργά</string>
     <string name="aggressive_standby_title">Επιθετική κατάσταση αναμονής</string>
+    <string name="aggressive_standby_summary">Περιορισμός εκκίνησης εφαρμογών στο παρασκήνιο</string>
     <string name="aggressive_battery_saver_title">Αυτόματη ενεργοποίηση εξοικονόμησης ενέργειας </string>
     <string name="aggressive_battery_saver_summary">Ενεργοποιήστε την επιθετική μπαταρία αυτόματα, όταν χρησιμοποιείτε τη λειτουργία εξοικονόμησης μπαταρίας</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">Αυτόματη λειτουργία εξωτερικού χώρου</string>
+    <string name="live_display_outdoor_mode_summary">Αυτόματη αύξηση φωτεινότητας και κορεσμού κάτω από έντονο ηλιακό φως</string>
+    <string name="live_display_low_power_title">Μείωση κατανάλωσης ενέργειας</string>
+    <string name="live_display_low_power_summary">Προσαρμογή οθόνης για χαμηλότερη κατανάλωση ισχύος χωρίς υποβάθμιση</string>
+    <string name="live_display_enhance_color_title">Βελτίωση χρωμάτων</string>
+    <string name="live_display_enhance_color_summary">Βελτίωση έντασης χρωμάτων επιδερμίδας, τοπίων, και άλλων εικόνων</string>
+    <string name="live_display_color_profile_title">Προφίλ χρώματος</string>
+    <string name="live_display_color_profile_standard_title">Τυπικό</string>
+    <string name="live_display_color_profile_standard_summary">Ακριβή χρώματα και φωτεινά λευκά</string>
+    <string name="live_display_color_profile_natural_title">Φυσικά</string>
+    <string name="live_display_color_profile_natural_summary">Ρεαλιστικά χρώματα και τόνοι επιδερμίδας</string>
+    <string name="live_display_color_profile_dynamic_title">Δυναμικά</string>
+    <string name="live_display_color_profile_dynamic_summary">Ενισχυμένα χρώματα και φωτεινά λευκά</string>
+    <string name="live_display_color_profile_cinema_title">Σινεμά</string>
+    <string name="live_display_color_profile_cinema_summary">Τέλεια αναπαραγωγή χρώματος για βίντεο</string>
+    <string name="live_display_color_profile_astronomy_title">Αστρονομία</string>
+    <string name="live_display_color_profile_astronomy_summary">Βαθύ κόκκινο για διατήρηση της νυχτερινής όρασης</string>
+    <string name="live_display_color_profile_photography_title">Φωτογραφία</string>
+    <string name="live_display_color_profile_photography_summary">Τέλεια αναπαραγωγή χρώματος για φωτογραφίες</string>
+    <string name="live_display_color_profile_basic_title">Βασικό</string>
+    <string name="live_display_color_profile_basic_summary">Χρήση της οθόνης χωρίς ρύθμιση</string>
+    <string name="live_display_color_profile_adaptive_title">Προσαρμοστική</string>
+    <string name="live_display_color_profile_adaptive_summary">Προσαρμογή χρωμάτων στις συνθήκες περιβάλλοντος</string>
+    <string name="live_display_color_profile_reading_title">Ανάγνωση</string>
+    <string name="live_display_color_profile_reading_summary">Θερμότερα χρώματα για λιγότερη καταπόνηση των ματιών</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Ακριβής απόδοση στον χρωματικό χώρο sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Ακριβής απόδοση στον χρωματικό χώρο DCI-P3</string>
+    <string name="live_display_reading_mode_title">Λειτουργία ανάγνωσης</string>
+    <string name="live_display_reading_mode_summary">Λειτουργία κλίμακας του γκρι για πολύωρη ανάγνωση</string>
+    <string name="color_calibration_title">Βαθμονόμηση χρώματος</string>
+    <string name="color_calibration_summary">Βαθμονόμηση χρωμάτων οθόνης</string>
+    <string name="color_red_title">Κόκκινο</string>
+    <string name="color_green_title">Πράσινο</string>
+    <string name="color_blue_title">Μπλε</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">Προσαρμογή εικόνας</string>
+    <string name="picture_adjustment_summary">Προσαρμογή απόχρωσης, κορεσμού, έντασης και αντίθεσης</string>
+    <string name="adj_hue_title">Απόχρωση</string>
+    <string name="adj_saturation_title">Κορεσμός</string>
+    <string name="adj_intensity_title">Ένταση</string>
+    <string name="adj_contrast_title">Αντίθεση</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Ανίχνευση τσέπης</string>
+    <string name="pocket_judge_summary">Απενεργοποίηση οθόνης και πλήκτρων όταν η συσκευή είναι στην τσέπη</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

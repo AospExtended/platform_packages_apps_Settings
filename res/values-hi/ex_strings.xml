@@ -60,10 +60,6 @@
     <string name="designer3_description">वॉलपेपर, बूट एनीमेशन</string>
     <string name="designer_4">हर्ष वी२३</string>
     <string name="designer4_description">एक्सटेंशन UI, आइकन्स</string>
-    <string name="designer_5">गौरव (allstargaurav)</string>
-    <string name="designer5_description">एक्सटेंशन UI, आइकन्स और घड़ी शैलियां</string>
-    <string name="designer_6">एडुआर्डो ज़ुल्लो (Mithrandirx96)</string>
-    <string name="designer6_description">नया बूट एनीमेशन</string>
     <string name="maintainers">मेंटेनर</string>
     <string name="maintainers_title">आधिकारिक मेंटेनर</string>
     <string name="maintainers_summary">आधिकारिक रूप से समर्थित डिवाइस और उनके मेंटेनर</string>
@@ -247,45 +243,14 @@
     <string name="app_ops_cat_media">मीडिया</string>
     <string name="app_ops_cat_device">डिवाइस</string>
     <string name="app_ops_cat_bootup">बूटअप</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">कैमरा</string>
-    <string name="app_ops_access_location">लोकेशन</string>
-    <string name="app_ops_access_notifications">सूचनाएँ</string>
-    <string name="app_ops_activate_vpn">वीपीएन</string>
-    <string name="app_ops_auto_start">स्वत: आरंभ</string>
-    <string name="app_ops_delete_call_log">कॉल लाग हटाएँ</string>
-    <string name="app_ops_delete_contacts">संपर्क हटाएँ</string>
-    <string name="app_ops_delete_mms">MMS हटाएँ</string>
-    <string name="app_ops_delete_sms">SMS हटाएँ</string>
-    <string name="app_ops_draw_on_top">ऊपर चित्रित करें</string>
-    <string name="app_ops_get_usage_stats">उपयोग आंकड़े प्राप्त करें</string>
-    <string name="app_ops_keep_device_awake">स्क्रीन चालू रखें</string>
-    <string name="app_ops_make_phone_call">कॉल करें</string>
-    <string name="app_ops_modify_calendar">कैलेंडर अद्यतन करें</string>
-    <string name="app_ops_modify_call_log">कॉल लॉग अद्यतन करें</string>
-    <string name="app_ops_modify_clipboard">क्लिपबोर्ड को परिवर्तित करें</string>
-    <string name="app_ops_modify_contacts">संपर्क अद्यतन करें</string>
-    <string name="app_ops_modify_settings">सेटिंग अद्यतन करें</string>
-    <string name="app_ops_mute_unmute_microphone">माइक्रोफोन चालू/बंद करें</string>
-    <string name="app_ops_play_audio">ऑडियो चलाएँ</string>
-    <string name="app_ops_post_notification">अधिसूचना पोस्ट करें</string>
-    <string name="app_ops_project_media">मीडिया प्रक्षेपित करे</string>
-    <string name="app_ops_read_calendar">कैलेंडर पढ़ें</string>
-    <string name="app_ops_read_call_log">कॉल लॉग पढ़ें</string>
-    <string name="app_ops_read_clipboard">क्लिपबोर्ड पढ़ें</string>
-    <string name="app_ops_read_contacts">संपर्क पढ़ें</string>
-    <string name="app_ops_read_mms">MMS पढ़ें</string>
-    <string name="app_ops_read_sms">SMS पढ़ें</string>
-    <string name="app_ops_receive_sms">SMS प्राप्त करें</string>
-    <string name="app_ops_record_audio">ऑडियो रिकॉर्ड करें</string>
-    <string name="app_ops_send_mms">MMS भेजें</string>
-    <string name="app_ops_send_sms">SMS भेजें</string>
-    <string name="app_ops_toast_window">टोस्ट संदेश</string>
-    <string name="app_ops_use_alarm_volume">अलार्म वोल्यूम</string>
-    <string name="app_ops_use_audio_focus">ऑडियो फ़ोकस</string>
-    <string name="app_ops_use_bluetooth_volume">ब्लूटूथ वॉल्यूम</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -294,6 +259,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

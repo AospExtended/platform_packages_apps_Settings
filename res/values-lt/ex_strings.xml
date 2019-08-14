@@ -62,10 +62,6 @@
     <string name="designer3_description">Tapetai, animacijos siuntimas</string>
     <string name="designer_4">Harsh V23</string>
     <string name="designer4_description">Plėtinių UI, piktogramos</string>
-    <string name="designer_5">Gaurav (allstargaurav)</string>
-    <string name="designer5_description">Plėtinių UI, piktogramos ir laikrodžio stilius</string>
-    <string name="designer_6">Edoardo Zullo (Mithrandirx96)</string>
-    <string name="designer6_description">Naujas animacijos parsisiuntimas</string>
     <string name="maintainers">Prižiūrėtojas</string>
     <string name="maintainers_title">Oficialūs prižiūrėtojai</string>
     <string name="maintainers_summary">Oficialiai palaikomi įrenginiai ir jų atitinkami prižiūrėtojai.</string>
@@ -125,6 +121,7 @@
     <string name="system_theme_style_black">Juoda vartotojo sąsaja</string>
     <string name="system_theme_style_extended">Išplėstinė vartotojo sąsaja</string>
     <string name="system_theme_style_chocolate">Šokolado vartotojo sąsaja</string>
+    <string name="system_theme_style_elegant">Elegantiška UI</string>
     <string name="theme_applied_toast">Pritaikyta tema.</string>
     <string name="applying_theme_toast">Taikomos temos, prašome palaukti...</string>
     <string name="substratum_installed_title">Sistemos temos nėra, nes yra substrato sluoksniai. Jei norite tęsti, pašalinkite visus sluoksnius, kurie naudoja \"Android\" sistemos programą.</string>
@@ -253,82 +250,8 @@
     <string name="app_ops_cat_media">Media</string>
     <string name="app_ops_cat_device">Įrenginys</string>
     <string name="app_ops_cat_bootup">Įkrova</string>
-    <!-- App ops labels -->
-    <string name="app_ops_access_camera">fotoaparatas</string>
-    <string name="app_ops_access_location">vietovė</string>
-    <string name="app_ops_access_notifications">pranešimai</string>
-    <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">automatinis paleidimas</string>
-    <string name="app_ops_delete_call_log">ištrinti skambučių žurnalą</string>
-    <string name="app_ops_delete_contacts">ištrinti kontaktus</string>
-    <string name="app_ops_delete_mms">ištrinti MMS</string>
-    <string name="app_ops_delete_sms">ištrinti SMS</string>
-    <string name="app_ops_draw_on_top">piešti viršuje</string>
-    <string name="app_ops_get_usage_stats">gauti naudojimo statistiką</string>
-    <string name="app_ops_keep_device_awake">aktyviuoju režimu</string>
-    <string name="app_ops_make_phone_call">paskambinti</string>
-    <string name="app_ops_modify_calendar">atnaujinti kalendorių</string>
-    <string name="app_ops_modify_call_log">atnaujinti skambučių žurnalą</string>
-    <string name="app_ops_modify_clipboard">keisti iškarpinę</string>
-    <string name="app_ops_modify_contacts">atnaujinti kontaktus</string>
-    <string name="app_ops_modify_settings">atnaujinti nustatymus</string>
-    <string name="app_ops_mute_unmute_microphone">nutildyti/išjungti nutildymą mic</string>
-    <string name="app_ops_play_audio">leisti garso įrašą</string>
-    <string name="app_ops_post_notification">paskelbti pranešimą</string>
-    <string name="app_ops_project_media">medijos projektas</string>
-    <string name="app_ops_read_calendar">skaityti kalendorių</string>
-    <string name="app_ops_read_call_log">skaityti skambučių žurnalą</string>
-    <string name="app_ops_read_clipboard">skaityti iškarpinę</string>
-    <string name="app_ops_read_contacts">skaityti kontaktus</string>
-    <string name="app_ops_read_mms">skaityti MMS</string>
-    <string name="app_ops_read_sms">skaityti SMS</string>
-    <string name="app_ops_receive_sms">gauti SMS</string>
-    <string name="app_ops_record_audio">įrašyti garsą</string>
-    <string name="app_ops_send_mms">siųsti MMS</string>
-    <string name="app_ops_send_sms">siųsti SMS</string>
-    <string name="app_ops_toast_window">iššokantys pranešimai</string>
-    <string name="app_ops_use_alarm_volume">žadintuvo garsumas</string>
-    <string name="app_ops_use_audio_focus">garso fokusavimas</string>
-    <string name="app_ops_use_bluetooth_volume">„Bluetooth“ garsas</string>
-    <string name="app_ops_use_master_volume">pagrindinis garsumas</string>
-    <string name="app_ops_use_media_buttons">medijos mygtukai</string>
-    <string name="app_ops_use_media_volume">medijos garsumas</string>
-    <string name="app_ops_use_notification_volume">pranešimo garsumas</string>
-    <string name="app_ops_use_ring_volume">skambėjimo signalo garsumas</string>
-    <string name="app_ops_use_vibrate">liečiamasis atsiliepimas</string>
-    <string name="app_ops_use_voice_volume">balso skambučio garsumas</string>
-    <string name="app_ops_write_mms">rašyti MMS</string>
-    <string name="app_ops_write_sms">rašyti SMS</string>
-    <string name="app_ops_use_fingerprint">pirštų atspaudas</string>
-    <string name="app_ops_add_voicemail">balso paštas</string>
-    <string name="app_ops_read_phone_state">telefono būsenos prieiga</string>
-    <string name="app_ops_scan_wifi">Skenuoti Wifi tinklus</string>
-    <string name="app_ops_change_wallpaper">keisti darbalaukio foną</string>
-    <string name="app_ops_assist_structure">pagalbinė struktūra</string>
-    <string name="app_ops_assist_screenshot">ekrano nuotrauka</string>
-    <string name="app_ops_use_body_sensors">kūno jutikliai</string>
-    <string name="app_ops_read_cell_broadcasts">skaityti avarines transliacijas</string>
-    <string name="app_ops_mock_location">fiktyvi vieta</string>
-    <string name="app_ops_read_external_storage">skaityti išorinę atmintį.</string>
-    <string name="app_ops_write_external_storage">įrašyti išorinėje atmintyje.</string>
-    <string name="app_ops_turn_on_screen">įjungti ekraną</string>
-    <string name="app_ops_get_accounts">įrenginių paskyros</string>
-    <string name="app_ops_run_in_background">paleisti Fone</string>
-    <string name="app_ops_accessibility_volume">garso pritaikymas neįgaliesiems apimtis</string>
-    <string name="app_ops_read_phone_numbers">skaityti telefono numerius.</string>
-    <string name="app_ops_request_install_packages">įdiegti paketus</string>
-    <string name="app_ops_picture_in_picture">vaizdas vaizde</string>
-    <string name="app_ops_app_start_foreground">paleisti į pirmą planą</string>
-    <string name="app_ops_answer_phone_calls">atsiliepti į skambutį</string>
-    <string name="app_ops_run_any_in_background">paleisti fone</string>
-    <string name="app_ops_change_wifi_state">„WiFi“ būsenos pakeitimas</string>
-    <string name="app_ops_request_delete_packages">ištrinti paketą</string>
-    <string name="app_ops_bind_accessibility_service">jungiasi į pritaikymas neįgaliesiems</string>
-    <string name="app_ops_accept_handover">keisti bazines stotis</string>
-    <string name="app_ops_manage_ipsec_tunnels">valdyti Ip tunelius</string>
-    <string name="app_ops_start_foreground">pradėkite naujoves</string>
-    <string name="app_ops_bluetooth_scan">\"Bluetooth\" nuskaitymo</string>
-    <string name="app_ops_boot_completed">automatinis paleidimas</string>
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g>(naudojamas <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Leidžiama <xliff:g id="count" pavyzdys="2 kartus">%s</xliff:g></string>
@@ -340,6 +263,10 @@
     <string name="app_ops_reset_counters">Atkurti leisti/atmesti skaitiklius</string>
     <string name="app_ops_reset_confirm_title">Patvirtinkite skaitiklių atkūrimą</string>
     <string name="app_ops_reset_confirm_mesg">Ar tikrai norite nustatyti iš naujo skaitiklius?</string>
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <string name="color_Amber_700">Gintarinis</string>
     <string name="color_Carbon_700">Anglies</string>
@@ -384,10 +311,55 @@
     <string name="aggressive_idle_title">Agresyvus laukimo režimas</string>
     <string name="aggressive_idle_summary">Įeiti į laukimo režimą dažniau ir pabusti rečiau</string>
     <string name="aggressive_standby_title">Agresyvus budėjimo režimas</string>
+    <string name="aggressive_standby_summary">Apribokite programas paleisdami fone</string>
     <string name="aggressive_battery_saver_title">Įjunkite automatiškai, taupydami baterijos energiją </string>
     <string name="aggressive_battery_saver_summary">Automatiškai įjungiamas agresyvus energijos taupymas baterijos taupymo režimu</string>
     <!-- LiveDisplay -->
+    <string name="live_display_outdoor_mode_title">Automatinis lauko režimas</string>
+    <string name="live_display_outdoor_mode_summary">Padidinkite ryškumą ir sodrumą ryškioje saulės šviesoje</string>
+    <string name="live_display_low_power_title">Sumažinkite energijos suvartojimą</string>
+    <string name="live_display_low_power_summary">Sureguliuokite ekraną mažiausiam energijos suvartojimui be degradacijos</string>
+    <string name="live_display_enhance_color_title">Patobulinkite spalvas</string>
+    <string name="live_display_enhance_color_summary">Pagerinti spalvos atspalvius, peizažą ir kita</string>
+    <string name="live_display_color_profile_title">Spalvų profilis</string>
+    <string name="live_display_color_profile_standard_title">Įprastinis</string>
+    <string name="live_display_color_profile_standard_summary">Tikslus spalvų perdavimas ir šviesūs balti tonai</string>
+    <string name="live_display_color_profile_natural_title">Natūralus</string>
+    <string name="live_display_color_profile_natural_summary">Realios spalvos ir prisotinti tonai</string>
+    <string name="live_display_color_profile_dynamic_title">Dinaminis</string>
+    <string name="live_display_color_profile_dynamic_summary">Patobulintos spalvos ir ryškiai baltos</string>
+    <string name="live_display_color_profile_cinema_title">Kinas</string>
+    <string name="live_display_color_profile_cinema_summary">Tobula vaizdo spalvų reprodukcija</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomija</string>
+    <string name="live_display_color_profile_astronomy_summary">Tamsiai raudonos spalvos, kad išsaugotumėte naktinį vaizdą</string>
+    <string name="live_display_color_profile_photography_title">Fotografija</string>
+    <string name="live_display_color_profile_photography_summary">Puikus spalvų atkūrimas nuotraukoms</string>
+    <string name="live_display_color_profile_basic_title">Pagrindinės</string>
+    <string name="live_display_color_profile_basic_summary">Naudokite ekraną nekalibruotu</string>
+    <string name="live_display_color_profile_adaptive_title">Prisitaikantis</string>
+    <string name="live_display_color_profile_adaptive_summary">Spalvos prisitaiko prie aplinkos sąlygų</string>
+    <string name="live_display_color_profile_reading_title">Skaitymas</string>
+    <string name="live_display_color_profile_reading_summary">Šiltesnės spalvos, kad sumažintu akių įtampą</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Spalvos tiksliai atitinka sRGB spalvų erdvę</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Spalvos, kurios atitinka DCI-P3 spalvų erdvę</string>
+    <string name="live_display_reading_mode_title">Skaitymo režimas</string>
+    <string name="live_display_reading_mode_summary">Pilkos spalvos režimas ilgalaikiam skaitymui</string>
+    <string name="color_calibration_title">Spalvų kalibravimas</string>
+    <string name="color_calibration_summary">Kalibruokite ekrano spalvas</string>
+    <string name="color_red_title">Raudona</string>
+    <string name="color_green_title">Žalia</string>
+    <string name="color_blue_title">Mėlyna</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
+    <string name="picture_adjustment_title">Nuotraukos koregavimas</string>
+    <string name="picture_adjustment_summary">Sureguliuokite atspalvį, sodrumą, intensyvumą ir kontrastą</string>
+    <string name="adj_hue_title">Atspalvis</string>
+    <string name="adj_saturation_title">Spalvų sodrumas</string>
+    <string name="adj_intensity_title">Intensyvumas</string>
+    <string name="adj_contrast_title">Kontrastas</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">\"Kišenėje\" režimu</string>
+    <string name="pocket_judge_summary">Užrakinkite ekraną ir mygtukus, kai įrenginys yra kišenėje</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

@@ -18,7 +18,13 @@
     <!-- Fingerprint location message -->
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About AospExtended -->
+    <string name="help_translate">अनुवादहरू</string>
+    <string name="maintainers_title">आधिकारिक संरक्षकहरू</string>
     <!-- Maintainer section -->
+    <string name="loading_devices">उपकरण सूची लोड हुँदै...</string>
+    <string name="loading_devices_failed">उपकरण सूची लोड हुन असफल भयो</string>
+    <string name="devices_list_empty">सूची खाली छ, पुन: लोड गर्न आइकॉनमा ट्याप गर्नुहोस्</string>
+    <string name="reload_list">पुन: लोड गर्नुहोस्</string>
     <!-- Changelog -->
     <!-- Scramble PIN Layout on Lockscreen -->
     <!-- Quick unlock -->
@@ -57,9 +63,14 @@
     <!-- Notification log -->
     <!-- Running services -->
     <!-- App Ops Categories -->
-    <!-- App ops labels -->
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -68,6 +79,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>

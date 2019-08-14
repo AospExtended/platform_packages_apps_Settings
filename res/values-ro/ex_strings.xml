@@ -68,9 +68,14 @@
     <!-- Notification log -->
     <!-- Running services -->
     <!-- App Ops Categories -->
-    <!-- App ops labels -->
+    <!-- Privacy Guard -->
+    <!-- App ops permissions -->
     <!-- App ops detail -->
     <!-- App ops menu options -->
+    <!-- Memory -->
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <!-- User display names for app ops codes - extension of AOSP -->
     <!-- Titles for sim color for multi-sim -->
     <!-- Battery temp -->
     <!-- Doze on charge -->
@@ -79,6 +84,6 @@
     <!-- Aggressive battery -->
     <!-- LiveDisplay -->
     <!-- LiveDisplay : Picture Adjustment -->
-    <!-- LiveDisplay - Custom theme mode -->
     <!-- Pocket judge -->
+    <!-- Battery saving mode for Location - GPS will be disabled -->
 </resources>
