@@ -59,8 +59,6 @@ public class AmbientDisplayPreferenceController extends AbstractPreferenceContro
         } else if (dozeOnChargeEnabled) {
             preference.setSummary(R.string.doze_on_charge_summary);
         } else if (mConfig.enabled(MY_USER_ID)) {
-            preference.setSummary(R.string.switch_on_text);
-        } else {
             preference.setSummary(R.string.switch_off_text);
         }
     }
