@@ -325,4 +325,7 @@
     <!-- Immersive Navigation -->
     <string name="immersive_navigation_title">Immersive Navigation</string>
 
+    <!-- Battery -->
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
