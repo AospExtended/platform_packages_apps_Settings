@@ -117,7 +117,6 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
-    <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
 
     <!-- Changelog -->
@@ -126,4 +125,5 @@
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <string name="battery_temp">Battery temperature</string>
 </resources>
