@@ -21,8 +21,8 @@ import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
 import android.net.Uri;
 import android.content.Intent;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 
 import com.android.internal.logging.nano.MetricsProto;
 
