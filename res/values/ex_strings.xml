@@ -118,4 +118,7 @@
     <string name="device_info_protected_single_press">Tap to show info</string>
 
     <string name="battery_temp">Battery temperature</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Close</string>
 </resources>
