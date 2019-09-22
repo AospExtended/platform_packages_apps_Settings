@@ -362,4 +362,10 @@
     <string name="pocket_judge_title">Detección de bolsillo</string>
     <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Alarga la vida útil de tu batería</string>
+    <string name="smart_charging_switch_title">Usa Carga Inteligente</string>
+    <string name="smart_charging_level_title">Nivel de activación de Carga Inteligente</string>
+    <string name="smart_charging_footer">Carga inteligente permite establecer el nivel máximo de carga para alargar la vida útil de tu batería</string>
 </resources>

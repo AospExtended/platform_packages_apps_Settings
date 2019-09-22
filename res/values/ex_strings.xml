@@ -643,4 +643,11 @@
     <!-- Battery saving mode for Location - GPS will be disabled -->
     <string name="location_mode_battery_saving_title">Battery saving mode</string>
     <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart charging</string>
+    <string name="smart_charging_summary">Extend the lifespan of your battery</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Trigger level of Smart charging</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 </resources>
