@@ -3299,11 +3299,9 @@
                   android:label="@string/extensions_title"
                   android:icon="@drawable/ic_homepage_extensions"
                   android:parentActivityName="com.android.settings">
-            <intent-filter android:priority="19">
+            <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.homepage"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="org.aospextended.extensions.Extensions"/>
             <meta-data android:name="com.android.settings.summary"
