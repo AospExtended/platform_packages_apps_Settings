@@ -98,4 +98,10 @@
     <string name="devices_list_empty">List is empty, tap the icon to reload</string>
     <string name="reload_list">Reload</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
 </resources>
