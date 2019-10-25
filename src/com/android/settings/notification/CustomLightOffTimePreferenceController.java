@@ -29,6 +29,7 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import com.android.settings.notification.CustomLightsPreferenceController;
 
 public class CustomLightOffTimePreferenceController extends NotificationPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
@@ -36,6 +37,7 @@ public class CustomLightOffTimePreferenceController extends NotificationPreferen
     private static final String KEY_LIGHTS_OFF_TIME = "custom_light_off_time";
 
     private int mLedColor = 0;
+    private int mLedColorTemp = 0;
 
     public CustomLightOffTimePreferenceController(Context context, NotificationBackend backend) {
         super(context, backend);
@@ -93,12 +95,13 @@ public class CustomLightOffTimePreferenceController extends NotificationPreferen
 
     private void showLedPreview() {
         if (mChannel.shouldShowLights()) {
-            if (mLedColor == 0xFFFFFFFF) {
+			mLedColorTemp = CustomLightsPreferenceController.getLedColorTemp();
+            if (mLedColorTemp == 0xFFFFFFFF) {
                 // i've no idea why atm but this is needed
-                mLedColor = 0xffffff;
+                mLedColorTemp = 0xffffff;
             }
             mNm.forcePulseLedLight(
-                    mLedColor, mChannel.getLightOnTime(), mChannel.getLightOffTime());
+                    mLedColorTemp, mChannel.getLightOnTime(), mChannel.getLightOffTime());
         }
     }
 

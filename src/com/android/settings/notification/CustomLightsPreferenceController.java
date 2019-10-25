@@ -36,6 +36,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
     private static final String KEY_CUSTOM_LIGHT = "custom_light";
 
     private int mLedColor = 0;
+    public static int mLedColorTemp = 0;
 
     public CustomLightsPreferenceController(Context context, NotificationBackend backend) {
         super(context, backend);
@@ -44,6 +45,10 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
     @Override
     public String getPreferenceKey() {
         return KEY_CUSTOM_LIGHT;
+    }
+
+    public static int getLedColorTemp() {
+        return mLedColorTemp;
     }
 
     @Override
@@ -77,6 +82,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
             mChannel.setLightColor(mLedColor);
             saveChannel();
             showLedPreview();
+            mLedColorTemp = mLedColor;
         }
         return true;
     }
