@@ -35,4 +35,7 @@
    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
+    <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
+    <bool name="configShowDeviceSensitiveInfo">false</bool>
+
 </resources>
