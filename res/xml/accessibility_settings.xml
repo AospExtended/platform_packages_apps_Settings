@@ -43,7 +43,7 @@
         android:key="display_category"
         android:persistent="false"
         android:title="@string/display_category_title">
-
+<!--
         <Preference
             android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
             android:key="font_size_preference_screen"
@@ -65,7 +65,7 @@
             android:title="@string/dark_ui_mode"
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:searchable="false"/>
-
+-->
        <Preference
             android:fragment="com.android.settings.accessibility.MagnificationPreferenceFragment"
             android:icon="@drawable/ic_accessibility_magnification"
@@ -105,13 +105,13 @@
             android:persistent="false"
             android:title="@string/accessibility_power_button_ends_call_prerefence_title"
             settings:controller="com.android.settings.accessibility.PowerButtonEndsCallPreferenceController"/>
-
+<!--
         <SwitchPreference
             android:key="toggle_lock_screen_rotation_preference"
             android:persistent="false"
             android:title="@string/accelerometer_title"
             settings:controller="com.android.settings.accessibility.LockScreenRotationPreferenceController"/>
-
+-->
         <ListPreference
             android:entries="@array/long_press_timeout_selector_titles"
             android:entryValues="@array/long_press_timeout_selector_values"
