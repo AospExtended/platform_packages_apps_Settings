@@ -164,9 +164,20 @@
         android:title="@string/theme_customization_category"
         android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
 
-        <ListPreference
+        <SwitchPreference
+            android:key="dark_ui_mode"
+            android:title="@string/dark_ui_mode"
+            settings:keywords="@string/keywords_dark_ui_mode"
+            settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
+
+        <!--ListPreference
             android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/>
+            android:title="@string/theme_customization_accent_color_title"/-->
+
+        <Preference
+            android:key="accent_picker"
+            android:title="@string/theme_accent_picker_title" />
+
         <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_font_title"/>
