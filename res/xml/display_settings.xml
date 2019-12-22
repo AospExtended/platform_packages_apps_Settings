@@ -169,7 +169,7 @@
             android:title="@string/theme_customization_accent_color_title"/>
         <ListPreference
             android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
+            android:title="@string/theme_font_title"/>
         <ListPreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
