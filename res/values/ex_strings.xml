@@ -155,4 +155,7 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 
+    <!-- Themes -->
+    <string name="theme_font_title">Font type</string>
+
 </resources>

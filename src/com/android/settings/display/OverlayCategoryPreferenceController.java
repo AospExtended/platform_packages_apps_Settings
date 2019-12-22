@@ -152,7 +152,7 @@ public class OverlayCategoryPreferenceController extends AbstractPreferenceContr
         final List<String> labels = new ArrayList<>();
 
         String selectedPkg = PACKAGE_DEVICE_DEFAULT;
-        String selectedLabel = mContext.getString(R.string.overlay_option_device_default);
+        String selectedLabel = mContext.getString(R.string.default_theme);
 
         // Add the default package / label before all of the overlays
         pkgs.add(selectedPkg);
