@@ -145,4 +145,7 @@
 
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
+
+    <!-- Themes -->
+    <string name="theme_font_title">Font type</string>
 </resources>
