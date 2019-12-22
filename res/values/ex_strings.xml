@@ -179,4 +179,7 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 
+    <!-- Themes -->
+    <string name="theme_font_title">Font type</string>
+
 </resources>
