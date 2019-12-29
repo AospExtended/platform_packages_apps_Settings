@@ -162,6 +162,12 @@
           android:key="charging_sounds"
           android:title="@string/charging_sounds_title"/>
 
+        <!-- Vibrate on plug -->
+        <SwitchPreference
+          android:key="vibration_on_charge_state_changed"
+          android:title="@string/vibration_on_charge_state_changed_title"
+          android:defaultValue="true" />
+
         <!-- Docking sounds -->
         <SwitchPreference
           android:key="docking_sounds"

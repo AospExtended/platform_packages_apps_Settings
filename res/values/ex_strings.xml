@@ -139,4 +139,7 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
+    <!-- Vibrate on plug -->
+    <string name="vibration_on_charge_state_changed_title">Vibrate on USB plug</string>
+
 </resources>
