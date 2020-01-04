@@ -56,6 +56,7 @@ android_library {
     resource_dirs: [
         "res",
         "Extensions/res",
+        "TouchGestures/res",
     ],
 
     static_libs: [
