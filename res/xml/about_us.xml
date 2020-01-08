@@ -140,6 +140,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="https://github.com/theimpulson" />
       </Preference>
 
+     <Preference
+        android:title="@string/team_9"
+        android:summary="@string/team9_description"
+        android:icon="@drawable/ic_devs">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://github.com/SagarMakhar" />
+     </Preference>
+
 </PreferenceCategory>
 
 <PreferenceCategory
