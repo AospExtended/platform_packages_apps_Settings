@@ -82,8 +82,6 @@ public class DarkUIInfoDialogFragment extends InstrumentedDialogFragment
             Settings.Secure.putInt(context.getContentResolver(),
                     Settings.Secure.DARK_MODE_DIALOG_SEEN,
                     DarkUIPreferenceController.DIALOG_SEEN);
-            context.getSystemService(UiModeManager.class)
-                    .setNightMode(UiModeManager.MODE_NIGHT_YES);
         }
     }
 }
