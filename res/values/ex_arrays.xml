@@ -24,4 +24,17 @@
         <item>@string/security_settings_fingerprint_enroll_find_sensor_message_right</item>
     </string-array>
 
+    <!-- Themes -->
+    <string-array name="theme_type_titles">
+        <item>@string/theme_type_light</item>
+        <item>@string/theme_type_google_dark</item>
+        <item>@string/theme_type_pitch_black</item>
+    </string-array>
+
+    <string-array name="theme_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>
