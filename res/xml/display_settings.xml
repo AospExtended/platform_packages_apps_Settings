@@ -164,15 +164,20 @@
         android:title="@string/theme_customization_category"
         android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
 
-        <SwitchPreference
-            android:key="dark_ui_mode"
-            android:title="@string/dark_ui_mode"
-            settings:keywords="@string/keywords_dark_ui_mode"
-            settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
+    <SwitchPreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        settings:keywords="@string/keywords_dark_ui_mode"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
 
-        <!--ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/-->
+    <ListPreference
+        android:key="theme_switch"
+        android:title="@string/theme_type_title"
+        android:summary="%s"
+        android:dialogTitle="@string/theme_type_summary"
+        android:entries="@array/theme_type_titles"
+        android:entryValues="@array/theme_type_values"
+        android:defaultValue="1"/>
 
         <Preference
             android:key="accent_picker"
@@ -181,12 +186,15 @@
         <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_font_title"/>
+
         <ListPreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
+
         <ListPreference
             android:key="android.theme.customization.icon_pack.android"
             android:title="@string/theme_customization_sysui_icon_title"/>
+
     </PreferenceCategory>
 
     <Preference
