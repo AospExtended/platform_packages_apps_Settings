@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48fc71b3_4807f4d4",
+        "filename": "src/com/android/settings/Themes.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000010
+      },
+      "writtenOn": "2020-02-18T16:38:38Z",
+      "side": 1,
+      "message": "We don\u0027t have this method defined. So, won\u0027t even compile",
+      "revId": "bace6697ef2ebe21b6ba6a724ed14e8766a70018",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "503c0a77_82be83ef",
+        "filename": "src/com/android/settings/Themes.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1000010
+      },
+      "writtenOn": "2020-02-18T16:38:38Z",
+      "side": 1,
+      "message": "Same as above",
+      "revId": "bace6697ef2ebe21b6ba6a724ed14e8766a70018",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "94c5fc9a_f25a2e53",
+        "filename": "src/com/android/settings/Themes.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000010
+      },
+      "writtenOn": "2020-02-18T16:38:38Z",
+      "side": 1,
+      "message": "AEXUtils",
+      "revId": "bace6697ef2ebe21b6ba6a724ed14e8766a70018",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3d62a2f_2681a9d3",
+        "filename": "src/com/android/settings/Themes.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1000010
+      },
+      "writtenOn": "2020-02-18T16:38:38Z",
+      "side": 1,
+      "message": "EXTENSIONS",
+      "revId": "bace6697ef2ebe21b6ba6a724ed14e8766a70018",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    }
+  ]
+}
