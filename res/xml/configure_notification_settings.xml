@@ -105,6 +105,10 @@
         android:order="15"
         settings:initialExpandedChildrenCount="100">
 
+        <Preference
+            android:title="@string/notification_log_title"
+            android:fragment="com.android.settings.notification.history.NotificationStation" />
+
         <SwitchPreference
             android:key="silent_icons"
             android:title="@string/silent_notifications_status_bar"
