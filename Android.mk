@@ -45,6 +45,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     androidx-constraintlayout_constraintlayout-solver \
     androidx.lifecycle_lifecycle-runtime \
     androidx.lifecycle_lifecycle-extensions \
+    faceunlock_utils \
     guava \
     jsr305 \
     settings-contextual-card-protos-lite \
