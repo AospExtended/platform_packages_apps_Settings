@@ -52,17 +52,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     contextualcards \
     settings-logtags \
     zxing-core-1.7 \
-    okhttpcustom \
-    okio \
-    retrofit \
-    converter-gson \
-    rxjava \
-    adapter-rxjava \
-    gson \
-    reactive-streams
-
-LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
-    rxandroid
+    faceunlock_utils
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
