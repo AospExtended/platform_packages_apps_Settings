@@ -43,4 +43,15 @@ public class EmulateDisplayCutoutPreferenceController extends OverlayCategoryPre
     public String getPreferenceKey() {
         return KEY;
     }
+
+	
+    @Override
+	
+    public boolean isAvailable() {
+	
+        return mContext.getResources().getBoolean(
+	
+                com.android.internal.R.bool.config_DisplayCutout);
+	
+    }
 }
