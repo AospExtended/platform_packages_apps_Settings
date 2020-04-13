@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 Paranoid Android
+ * Copyright (C) 2016 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
  * except in compliance with the License. You may obtain a copy of the License at
@@ -14,20 +14,16 @@
 package com.android.settings.display;
 
 import android.content.Context;
-import android.content.Intent;
 import android.provider.Settings;
 import androidx.preference.SwitchPreference;
 import androidx.preference.Preference;
 
-import com.android.settings.DisplaySettings;
-import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
-
-import static android.provider.Settings.System.POCKET_JUDGE;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
+import com.android.settings.core.PreferenceControllerMixin;
 
 public class PocketJudgePreferenceController extends AbstractPreferenceController implements
-        PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
 
     private static final String KEY_POCKET_JUDGE = "pocket_judge";
 
@@ -41,22 +37,22 @@ public class PocketJudgePreferenceController extends AbstractPreferenceControlle
     }
 
     @Override
-    public void updateState(Preference preference) {
-        int pocketJudgeValue = Settings.System.getInt(mContext.getContentResolver(),
-                POCKET_JUDGE, 0);
-        ((SwitchPreference) preference).setChecked(pocketJudgeValue != 0);
+    public boolean isAvailable() {
+        return true;
     }
 
     @Override
-    public boolean isAvailable() {
-        return !mContext.getResources().getString(
-                com.android.internal.R.string.config_pocketBridgeSysfsInpocket).isEmpty();
+    public void updateState(Preference preference) {
+        int value = Settings.System.getInt(
+                mContext.getContentResolver(), Settings.System.POCKET_JUDGE, 0);
+        ((SwitchPreference) preference).setChecked(value != 0);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        boolean pocketJudgeValue = (Boolean) newValue;
-        Settings.System.putInt(mContext.getContentResolver(), POCKET_JUDGE, pocketJudgeValue ? 1 : 0);
+        boolean value = (Boolean) newValue;
+        Settings.System.putInt(
+                mContext.getContentResolver(), Settings.System.POCKET_JUDGE, value ? 1 : 0);
         return true;
     }
 }
