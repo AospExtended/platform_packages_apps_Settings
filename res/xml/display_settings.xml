@@ -135,11 +135,6 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="true" />
 
-    <ListPreference
-        android:key="display_cutout_emulation"
-        android:title="@string/display_cutout_emulation"
-        settings:keywords="@string/display_cutout_emulation_keywords" />
-
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="home_wake_button"
         android:title="@string/home_wake_button_title"
