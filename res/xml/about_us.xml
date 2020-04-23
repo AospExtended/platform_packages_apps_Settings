@@ -201,6 +201,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="https://github.com/allstargaurav" />
      </Preference>
 
+      <Preference
+            android:title="@string/designer_6"
+    android:summary="@string/designer6_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/AndroBuddy" />
+     </Preference>
+
 </PreferenceCategory>
 
 <PreferenceCategory
