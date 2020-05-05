@@ -147,6 +147,13 @@ public class SettingsBaseActivity extends FragmentActivity {
         ((ViewGroup) findViewById(R.id.content_frame)).addView(view, params);
     }
 
+    /**
+     * @return whether or not the activity can be launched from other apps in the pinning screen.
+     */
+    public boolean isLaunchableInTaskModePinned() {
+        return false;
+    }
+
     private void onCategoriesChanged() {
         final int N = mCategoryListeners.size();
         for (int i = 0; i < N; i++) {
