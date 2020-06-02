@@ -289,7 +289,6 @@ public class SettingsGateway {
             // AEX additions
             Extensions.class.getName(),
             RunningServices.class.getName(),
-
             DarkModeSettingsFragment.class.getName()
     };
 
