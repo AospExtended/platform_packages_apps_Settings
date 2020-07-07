@@ -269,7 +269,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         }
         return super.onPreferenceTreeClick(preference);
     }
-
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
