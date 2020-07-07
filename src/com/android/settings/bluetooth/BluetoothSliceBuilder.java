@@ -71,7 +71,7 @@ public class BluetoothSliceBuilder {
      */
     public static Slice getSlice(Context context) {
         final boolean isBluetoothEnabled = isBluetoothEnabled();
-        final CharSequence title = context.getText(R.string.bluetooth_settings);
+        final CharSequence title = context.getText(R.string.switch_on_text);
         final IconCompat icon = IconCompat.createWithResource(context,
                 com.android.internal.R.drawable.ic_settings_bluetooth);
         @ColorInt final int color = com.android.settings.Utils.getColorAccent(
@@ -136,6 +136,6 @@ public class BluetoothSliceBuilder {
         final Intent intent = new Intent(ACTION_BLUETOOTH_SLICE_CHANGED)
                 .setClass(context, SliceBroadcastReceiver.class);
         return PendingIntent.getBroadcast(context, 0 /* requestCode */, intent,
-                PendingIntent.FLAG_CANCEL_CURRENT);
+                PendingIntent.FLAG_UPDATE_CURRENT);
     }
 }

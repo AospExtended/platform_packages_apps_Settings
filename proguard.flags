@@ -7,6 +7,7 @@
 
 # Keep all Fragments in this package, which are used by reflection.
 -keep public class com.android.settings.** extends androidx.fragment.app.Fragment
+-keep class org.aospextended.extensions.**
 
 # Keep all preference controllers needed by slice and DashboardFragment.
 -keep class * extends com.android.settings.core.BasePreferenceController {
@@ -66,3 +67,16 @@
 -keepclasseswithmembers class * extends com.android.settings.slices.SliceBackgroundWorker {
     public <init>(android.content.Context, android.net.Uri);
 }
+
+# Custom rules
+-keep class com.google.android.settings.** { *; }
+
+# Platform calls Class.forName on types which do not exist on Android to determine platform.
+-dontnote retrofit2.Platform
+# Platform used when running on Java 8 VMs. Will not be used at runtime.
+-dontwarn retrofit2.Platform$Java8
+# Retain generic type information for use by reflection by converters and adapters.
+-keepattributes Signature
+# Retain declared checked exceptions for use by a Proxy instance.
+-keepattributes Exceptions
+-dontwarn okio.**

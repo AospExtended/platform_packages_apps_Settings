@@ -4,6 +4,9 @@
         coreApp="true"
         android:sharedUserId="android.uid.system">
 
+    <uses-sdk
+        android:minSdkVersion="28" />
+
     <original-package android:name="com.android.settings" />
 
     <uses-permission android:name="android.permission.REQUEST_NETWORK_SCORES" />
@@ -49,6 +52,7 @@
     <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
     <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.RESET_BATTERY_STATS"/>
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.MOVE_PACKAGE" />
@@ -101,6 +105,10 @@
     <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <!-- LiveDisplay -->
+    <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+    <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
 
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
@@ -936,6 +944,24 @@
         </activity>
 
         <activity
+                android:name="Settings$DarkThemeSettingsActivity"
+                android:label="@string/dark_ui_auto_mode_title"
+                android:enabled="true">
+            <intent-filter android:priority="32">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.DARK_THEME_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.display.darkmode.DarkModeSettingsFragment" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <activity
             android:name="Settings$NightDisplaySuggestionActivity"
             android:enabled="@*android:bool/config_nightDisplayAvailable"
             android:icon="@drawable/ic_suggestion_night_display">
@@ -1160,6 +1186,26 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.manageapplications.ManageApplications" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <!-- Provide direct entry into Dev settings - Running Services -->
+        <activity android:name="Settings$DevRunningServicesActivity"
+            android:label="@string/runningservices_settings_title"
+            android:taskAffinity="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.applications.RunningServices" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.RunningServices" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
@@ -1769,6 +1815,10 @@
             android:exported="false"
             android:label="@string/lockpassword_choose_lock_generic_header"
             android:excludeFromRecents="true" />
+
+        <activity android:name=".password.ChooseLockPatternSize"
+            android:exported="false"
+            android:theme="@style/GlifTheme.Light" />
 
         <activity android:name=".password.SetupChooseLockPattern"
             android:exported="false"
@@ -3145,6 +3195,14 @@
                     <action android:name="android.settings.panel.action.VOLUME" />
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
+                <intent-filter>
+                    <action android:name="android.settings.panel.action.MOBILE_DATA" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="android.settings.panel.action.BLUETOOTH" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
         </activity>
 
         <activity-alias
@@ -3157,6 +3215,20 @@
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
         </activity-alias>
+
+       <!-- LiveDisplay -->
+        <activity
+            android:name="Settings$LiveDisplaySettingsActivity"
+            android:label="@*android:string/live_display_title"
+            android:parentActivityName="Settings"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.LIVEDISPLAY_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.livedisplay.LiveDisplaySettings" />
+        </activity>
 
         <provider android:name=".slices.SettingsSliceProvider"
                   android:authorities="com.android.settings.slices;android.settings.slices"
@@ -3271,5 +3343,37 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- AospExtended additions -->
+        <activity android:name=".Settings$ExtensionsSettingsActivity"
+                  android:label="@string/extensions_title"
+                  android:icon="@drawable/ic_homepage_extensions"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="org.aospextended.extensions.Extensions"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/build_tweaks_summary_title"/>
+        </activity>
+        <receiver android:name="org.aospextended.extensions.fragments.misc.GamingModeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
+                <action android:name="android.intent.action.GAMING_MODE_TURN_ON" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".Settings$GamingModeActivity"
+            android:label="@string/gaming_mode_title"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.GAMING_MODE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.aospextended.extensions.fragments.GamingMode" />
+        </activity>
     </application>
 </manifest>
+

@@ -60,7 +60,6 @@ public class FaceSetupSliceTest {
     public void getSlice_noFaceManager_shouldReturnNull() {
         when(mPackageManager.hasSystemFeature(PackageManager.FEATURE_FACE)).thenReturn(false);
         final FaceSetupSlice setupSlice = new FaceSetupSlice(mContext);
-
         assertThat(setupSlice.getSlice()).isNull();
     }
 

@@ -20,25 +20,33 @@ import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
+import androidx.fragment.app.Fragment;
 
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
-import com.android.settings.display.DarkUIPreferenceController;
+import com.android.settings.display.DeviceThemePreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
+import com.android.settings.display.PocketJudgePreferenceController;
+import com.android.settings.display.LiveDisplayPreferenceController;
 import com.android.settings.display.NightDisplayPreferenceController;
 import com.android.settings.display.NightModePreferenceController;
+import com.android.settings.display.HomeWakeButtonPreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
+import com.android.settings.display.OverlayCategoryPreferenceController;
+import com.android.settings.display.EmulateDisplayCutoutPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
+
+import org.aospextended.extensions.fragments.AccentPickerPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,12 +75,11 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        use(DarkUIPreferenceController.class).setParentFragment(this);
     }
 
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context, getSettingsLifecycle());
+        return buildPreferenceControllers(context, getSettingsLifecycle(), this);
     }
 
     @Override
@@ -81,19 +88,33 @@ public class DisplaySettings extends DashboardFragment {
     }
 
     private static List<AbstractPreferenceController> buildPreferenceControllers(
-            Context context, Lifecycle lifecycle) {
+            Context context, Lifecycle lifecycle, Fragment fragment) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new CameraGesturePreferenceController(context));
         controllers.add(new LiftToWakePreferenceController(context));
+        controllers.add(new PocketJudgePreferenceController(context));
         controllers.add(new NightDisplayPreferenceController(context));
         controllers.add(new NightModePreferenceController(context));
+        controllers.add(new HomeWakeButtonPreferenceController(context));      
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new TapToWakePreferenceController(context));
         controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
+        controllers.add(new DeviceThemePreferenceController(context));
+        controllers.add(new EmulateDisplayCutoutPreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
+        controllers.add(new AccentPickerPreferenceController(context, lifecycle, fragment));
+        //controllers.add(new OverlayCategoryPreferenceController(context,
+        //        "android.theme.customization.accent_color"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.adaptive_icon_shape"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.icon_pack.android"));
+        controllers.add(new LiveDisplayPreferenceController(context));
         return controllers;
     }
 
@@ -113,7 +134,7 @@ public class DisplaySettings extends DashboardFragment {
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(
                         Context context) {
-                    return buildPreferenceControllers(context, null);
+                    return buildPreferenceControllers(context, null, null);
                 }
             };
 }

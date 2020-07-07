@@ -31,6 +31,15 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </com.android.settingslib.RestrictedPreference>
 
+    <com.android.settings.display.darkmode.DarkModePreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+        android:widgetLayout="@null"
+        settings:widgetLayout="@null"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"
+        settings:searchable="false"/>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
@@ -46,6 +55,13 @@
         android:fragment="com.android.settings.display.AutoBrightnessSettings"
         settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
 
+    <Preference
+        android:key="livedisplay"
+        android:title="@*android:string/live_display_title"
+        android:summary="@string/live_display_summary">
+        <intent android:action="com.android.settings.LIVEDISPLAY_SETTINGS" />
+    </Preference>
+
     <com.android.settingslib.RestrictedPreference
         android:key="wallpaper"
         android:title="@string/wallpaper_settings_title"
@@ -53,13 +69,6 @@
         settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.display.WallpaperPreferenceController">
     </com.android.settingslib.RestrictedPreference>
-
-
-    <SwitchPreference
-        android:key="dark_ui_mode"
-        android:title="@string/dark_ui_mode"
-        settings:keywords="@string/keywords_dark_ui_mode"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
 
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
@@ -96,18 +105,6 @@
         android:summary="@string/display_white_balance_summary"
         settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController" />
 
-    <Preference
-        android:key="font_size"
-        android:title="@string/title_font_size"
-        android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
-        settings:controller="com.android.settings.display.FontSizePreferenceController" />
-
-    <com.android.settings.display.ScreenZoomPreference
-        android:key="display_settings_screen_zoom"
-        android:title="@string/screen_zoom_title"
-        android:fragment="com.android.settings.display.ScreenZoomSettings"
-        settings:searchable="false"/>
-
     <SwitchPreference
         android:key="show_operator_name"
         android:title="@string/show_operator_name_title"
@@ -139,6 +136,27 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="wake_when_plugged_or_unplugged"
+        android:title="@string/wake_when_plugged_or_unplugged_title"
+        android:summary="@string/wake_when_plugged_or_unplugged_summary"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="display_cutout_emulation"
+        android:title="@string/display_cutout_emulation"
+        settings:keywords="@string/display_cutout_emulation_keywords" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="home_wake_button"
+        android:title="@string/home_wake_button_title"
+        android:summary="@string/home_wake_button_summary" />
+        
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/pocket_judge_title"
+        android:summary="@string/pocket_judge_summary" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
@@ -148,5 +166,56 @@
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    <PreferenceCategory
+        android:key="density_category"
+        android:title="@string/density_category">
+
+    <PreferenceCategory
+        android:key="theme_customization_category"
+        android:title="@string/theme_customization_category"
+        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
+
+        <ListPreference
+            android:key="system_theme_style"
+            android:title="@string/system_theme_style_title"
+            android:persistent="false"
+            android:entries="@array/system_theme_style_entries"
+            android:entryValues="@array/system_theme_style_values" />
+
+        <Preference
+            android:key="accent_picker"
+            android:title="@string/theme_accent_picker_title" />
+
+        <ListPreference
+            android:key="android.theme.customization.font"
+            android:title="@string/theme_font_title"/>
+
+        <ListPreference
+            android:key="android.theme.customization.adaptive_icon_shape"
+            android:title="@string/theme_customization_icon_shape_title"/>
+
+        <ListPreference
+            android:key="android.theme.customization.icon_pack.android"
+            android:title="@string/theme_customization_sysui_icon_title"/>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="font_size"
+        android:title="@string/title_font_size"
+        android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
+        settings:controller="com.android.settings.display.FontSizePreferenceController" />
+
+    <com.android.settings.display.ScreenZoomPreference
+        android:key="display_settings_screen_zoom"
+        android:title="@string/screen_zoom_title"
+        android:fragment="com.android.settings.display.ScreenZoomSettings"
+        settings:searchable="false"/>
+
+    <com.android.settings.display.DensityPreference
+        android:key="density"
+        android:title="@string/developer_smallest_width" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

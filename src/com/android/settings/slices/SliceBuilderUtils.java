@@ -75,6 +75,8 @@ public class SliceBuilderUtils {
      * {@param sliceData} is an inline controller.
      */
     public static Slice buildSlice(Context context, SliceData sliceData) {
+        // Reload theme for switching dark mode on/off
+        context.getTheme().applyStyle(R.style.Theme_Settings_Home, true /* force */);
         Log.d(TAG, "Creating slice for: " + sliceData.getPreferenceController());
         final BasePreferenceController controller = getPreferenceController(context, sliceData);
         FeatureFactory.getFactory(context).getMetricsFeatureProvider()
@@ -173,7 +175,7 @@ public class SliceBuilderUtils {
                 .putExtra(EXTRA_SLICE_KEY, data.getKey())
                 .putExtra(EXTRA_SLICE_PLATFORM_DEFINED, data.isPlatformDefined());
         return PendingIntent.getBroadcast(context, 0 /* requestCode */, intent,
-                PendingIntent.FLAG_CANCEL_CURRENT);
+                PendingIntent.FLAG_UPDATE_CURRENT);
     }
 
     /**
@@ -238,6 +240,8 @@ public class SliceBuilderUtils {
         searchDestination.putExtra(SettingsActivity.EXTRA_FRAGMENT_ARG_KEY, key)
                 .setAction("com.android.settings.SEARCH_RESULT_TRAMPOLINE")
                 .setComponent(null);
+        searchDestination.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+
         return searchDestination;
     }
 
@@ -313,6 +317,14 @@ public class SliceBuilderUtils {
                 ListBuilder.ICON_IMAGE, sliceData.getTitle());
         final Set<String> keywords = buildSliceKeywords(sliceData);
 
+        int cur = sliderController.getSliderPosition();
+        if (cur < sliderController.getMin()) {
+            cur = sliderController.getMin();
+        }
+        if (cur > sliderController.getMax()) {
+            cur = sliderController.getMax();
+        }
+
         return new ListBuilder(context, sliceData.getUri(), ListBuilder.INFINITY)
                 .setAccentColor(color)
                 .addInputRange(new InputRangeBuilder()
@@ -321,7 +333,7 @@ public class SliceBuilderUtils {
                         .setPrimaryAction(primaryAction)
                         .setMax(sliderController.getMax())
                         .setMin(sliderController.getMin())
-                        .setValue(sliderController.getSliderPosition())
+                        .setValue(cur)
                         .setInputAction(actionIntent))
                 .setKeywords(keywords)
                 .build();

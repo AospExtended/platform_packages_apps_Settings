@@ -414,7 +414,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new PictureColorModePreferenceController(context, lifecycle));
         controllers.add(new WebViewAppPreferenceController(context));
         controllers.add(new CoolColorTemperaturePreferenceController(context));
-        controllers.add(new DisableAutomaticUpdatesPreferenceController(context));
+        //controllers.add(new DisableAutomaticUpdatesPreferenceController(context));
         controllers.add(new AdbPreferenceController(context, fragment));
         controllers.add(new ClearAdbKeysPreferenceController(context, fragment));
         controllers.add(new LocalTerminalPreferenceController(context));
@@ -456,7 +456,6 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new ShowLayoutBoundsPreferenceController(context));
         controllers.add(new RtlLayoutPreferenceController(context));
         controllers.add(new WindowAnimationScalePreferenceController(context));
-        controllers.add(new EmulateDisplayCutoutPreferenceController(context));
         controllers.add(new TransitionAnimationScalePreferenceController(context));
         controllers.add(new AnimatorDurationScalePreferenceController(context));
         controllers.add(new SecondaryDisplayPreferenceController(context));
@@ -489,7 +488,6 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new DefaultLaunchPreferenceController(context, "feature_flags_dashboard"));
         controllers.add(
             new DefaultLaunchPreferenceController(context, "default_usb_configuration"));
-        controllers.add(new DefaultLaunchPreferenceController(context, "density"));
         controllers.add(new DefaultLaunchPreferenceController(context, "background_check"));
         controllers.add(new DefaultLaunchPreferenceController(context, "inactive_apps"));
         controllers.add(new AutofillLoggingLevelPreferenceController(context, lifecycle));

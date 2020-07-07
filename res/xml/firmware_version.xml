@@ -22,6 +22,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+<PreferenceScreen
+    android:layout="@layout/aex_logo"
+    android:key="aex_logo" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -29,6 +33,15 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+
+    <!-- Extended version -->
+    <Preference
+         android:key="extended_version"
+         android:title="@string/extended_version"
+         android:summary="@string/summary_placeholder"
+         settings:enableCopying="true"
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.ExtendedVersionPreferenceController"/>
+
 
     <!-- Security patch -->
     <Preference
@@ -43,6 +56,7 @@
         android:title="@string/module_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
 
     <!-- Baseband -->
@@ -51,7 +65,16 @@
         android:title="@string/baseband_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+
+    <!-- Build date -->
+    <Preference 
+        android:key="build_date"
+        android:title="@string/build_date"
+        android:summary="@string/build_date_default"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
 
     <!-- Kernel -->
     <Preference
@@ -59,6 +82,7 @@
         android:title="@string/kernel_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
     <!-- Build -->
@@ -67,6 +91,7 @@
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
 </PreferenceScreen>

@@ -24,7 +24,7 @@
     <com.android.settingslib.widget.LayoutPreference
         android:key="battery_header"
         android:title="@string/summary_placeholder"
-        android:selectable="false"
+        android:selectable="true"
         android:layout="@layout/battery_header"
         settings:controller="com.android.settings.fuelgauge.BatteryHeaderPreferenceController" />
 
@@ -43,7 +43,7 @@
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
         android:key="smart_battery_manager"
-        android:title="@string/smart_battery_manager_title"
+        android:title="@string/smart_battery_manager_title_custom"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
 
     <SwitchPreference
@@ -62,6 +62,11 @@
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="screen_usage"
         android:title="@string/device_screen_usage"
+        android:selectable="false" />
+		
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp"
         android:selectable="false" />
 
 </PreferenceScreen>

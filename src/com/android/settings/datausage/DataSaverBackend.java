@@ -23,6 +23,7 @@ import android.content.Context;
 import android.net.INetworkPolicyListener;
 import android.net.NetworkPolicyManager;
 import android.os.RemoteException;
+import android.telephony.SubscriptionPlan;
 import android.util.SparseIntArray;
 
 import com.android.settings.overlay.FeatureFactory;
@@ -82,12 +83,15 @@ public class DataSaverBackend {
 
     public void setIsWhitelisted(int uid, String packageName, boolean whitelisted) {
         final int policy = whitelisted ? POLICY_ALLOW_METERED_BACKGROUND : POLICY_NONE;
-        mPolicyManager.setUidPolicy(uid, policy);
         mUidPolicies.put(uid, policy);
         if (whitelisted) {
+            mPolicyManager.addUidPolicy(uid, POLICY_ALLOW_METERED_BACKGROUND);
             mMetricsFeatureProvider.action(
                     mContext, SettingsEnums.ACTION_DATA_SAVER_WHITELIST, packageName);
+        } else {
+            mPolicyManager.removeUidPolicy(uid, POLICY_ALLOW_METERED_BACKGROUND);
         }
+        mPolicyManager.removeUidPolicy(uid, POLICY_REJECT_METERED_BACKGROUND);
     }
 
     public boolean isWhitelisted(int uid) {
@@ -112,12 +116,15 @@ public class DataSaverBackend {
 
     public void setIsBlacklisted(int uid, String packageName, boolean blacklisted) {
         final int policy = blacklisted ? POLICY_REJECT_METERED_BACKGROUND : POLICY_NONE;
-        mPolicyManager.setUidPolicy(uid, policy);
         mUidPolicies.put(uid, policy);
         if (blacklisted) {
+            mPolicyManager.addUidPolicy(uid, POLICY_REJECT_METERED_BACKGROUND);
             mMetricsFeatureProvider.action(
                     mContext, SettingsEnums.ACTION_DATA_SAVER_BLACKLIST, packageName);
+        } else {
+            mPolicyManager.removeUidPolicy(uid, POLICY_REJECT_METERED_BACKGROUND);
         }
+        mPolicyManager.removeUidPolicy(uid, POLICY_ALLOW_METERED_BACKGROUND);
     }
 
     public boolean isBlacklisted(int uid) {
@@ -156,6 +163,9 @@ public class DataSaverBackend {
     private void handleUidPoliciesChanged(int uid, int newPolicy) {
         loadWhitelist();
         loadBlacklist();
+
+        // We only care about allow/reject metered background policy here.
+        newPolicy &= POLICY_ALLOW_METERED_BACKGROUND | POLICY_REJECT_METERED_BACKGROUND;
 
         final int oldPolicy = mUidPolicies.get(uid, POLICY_NONE);
         if (newPolicy == POLICY_NONE) {
@@ -200,6 +210,10 @@ public class DataSaverBackend {
 
         @Override
         public void onSubscriptionOverride(int subId, int overrideMask, int overrideValue) {
+        }
+
+        @Override
+        public void onSubscriptionPlansChanged(int subId, SubscriptionPlan[] plans) {
         }
     };
 

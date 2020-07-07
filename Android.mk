@@ -21,6 +21,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../Extensions/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \
@@ -50,9 +51,26 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-log-bridge-protos-lite \
     contextualcards \
     settings-logtags \
-    zxing-core-1.7
+    zxing-core-1.7 \
+    okhttpcustom \
+    okio \
+    retrofit \
+    converter-gson \
+    rxjava \
+    adapter-rxjava \
+    gson \
+    reactive-streams
+
+LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
+    rxandroid
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+
+LOCAL_AAPT_FLAGS := --auto-add-overlay \
+    --extra-packages org.aospextended.extensions
+
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+    packages/apps/Extensions/res
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
@@ -70,6 +88,21 @@ include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     contextualcards:libs/contextualcards.aar
+include $(BUILD_MULTI_PREBUILT)
+
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+    okhttpcustom:libs/okhttp-3.8.1.jar \
+    okio:libs/okio-1.13.0.jar \
+    retrofit:libs/retrofit-2.4.0.jar \
+    converter-gson:libs/converter-gson-2.4.0.jar \
+    rxjava:libs/rxjava-2.1.11.jar \
+    adapter-rxjava:libs/adapter-rxjava2-2.4.0.jar \
+    rxandroid:libs/rxandroid-2.0.2.aar \
+    gson:libs/gson-2.8.2.jar \
+    reactive-streams:libs/reactive-streams-1.0.2.jar
+
 include $(BUILD_MULTI_PREBUILT)
 
 # Use the following include to make our test apk.
