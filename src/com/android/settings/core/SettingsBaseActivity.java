@@ -63,7 +63,7 @@ public class SettingsBaseActivity extends FragmentActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (isLockTaskModePinned() && !isSettingsRunOnTop()) {
+        if (isLockTaskModePinned() && !isSettingsRunOnTop() && !isLaunchableInTaskModePinned()) {
             Log.w(TAG, "Devices lock task mode pinned.");
             finish();
         }
