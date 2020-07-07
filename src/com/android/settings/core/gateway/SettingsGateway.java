@@ -75,6 +75,7 @@ import com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment;
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings;
 import com.android.settings.deviceinfo.legal.ModuleLicensesDashboard;
 import com.android.settings.display.NightDisplaySettings;
+import com.android.settings.display.darkmode.DarkModeSettingsFragment;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
 import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
@@ -149,6 +150,9 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.aospextended.extensions.Extensions;
+import org.aospextended.extensions.fragments.GamingMode;
+
+import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
 
@@ -287,7 +291,10 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             // AEX additions
             Extensions.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            DarkModeSettingsFragment.class.getName(),
+            GamingMode.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -328,6 +335,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             // AEX additions
             Settings.ExtensionsSettingsActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName()
     };
 }

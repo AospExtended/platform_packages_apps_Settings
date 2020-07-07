@@ -65,7 +65,7 @@
     <!-- Ring volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="ring_volume"
-        android:icon="@drawable/ic_notifications"
+        android:icon="@drawable/ic_audio_ring"
         android:title="@string/ring_volume_option_title"
         android:order="-160"
         settings:controller="com.android.settings.notification.RingVolumePreferenceController"/>
@@ -86,6 +86,14 @@
         android:title="@string/notification_volume_option_title"
         android:order="-140"
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
+
+    <!-- Link ringtone and notification volumes -->
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="volume_link_notification"
+        android:title="@string/volume_link_notification_title"
+        android:defaultValue="true"
+        android:order="-138"
+        settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
     <!-- Also vibrate for calls -->
     <SwitchPreference
@@ -122,6 +130,15 @@
         android:order="-100"
         settings:keywords="@string/sound_settings"/>
 
+    <!-- Phone ringtone for SIM2 -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="ringtone2"
+        android:title="@string/ringtone_title"
+        android:dialogTitle="@string/ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="ringtone"
+        android:order="-90"/>
+
     <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="notification_ringtone"
@@ -129,7 +146,7 @@
         android:dialogTitle="@string/notification_ringtone_title"
         android:summary="@string/summary_placeholder"
         android:ringtoneType="notification"
-        android:order="-90"/>
+        android:order="-80"/>
 
     <!-- Default alarm ringtone -->
     <com.android.settings.DefaultRingtonePreference
@@ -139,7 +156,7 @@
         android:summary="@string/summary_placeholder"
         android:persistent="false"
         android:ringtoneType="alarm"
-        android:order="-80"/>
+        android:order="-70"/>
 
     <!-- Other sounds -->
     <PreferenceCategory

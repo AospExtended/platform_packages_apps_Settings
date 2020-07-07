@@ -86,6 +86,11 @@
         android:order="15"
         settings:initialExpandedChildrenCount="0">
 
+        <Preference
+            android:title="@string/notification_log_title"
+            android:summary="@string/notification_log_summary"
+            android:fragment="com.android.settings.notification.NotificationStation" />
+
         <SwitchPreference
             android:key="show_snooze_options"
             android:title="@string/snooze_options_title"
@@ -117,11 +122,11 @@
             android:summary="@string/summary_placeholder"
             android:ringtoneType="notification"/>
 
-        <Preference
+        <!--Preference
             android:key="gesture_swipe_down_fingerprint_notifications"
             android:title="@string/fingerprint_swipe_for_notifications_title"
             android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
-            settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController"/>
+            settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController"/-->
 
         <com.android.settingslib.RestrictedPreference
             android:key="zen_mode_notifications"

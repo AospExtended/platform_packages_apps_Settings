@@ -141,7 +141,7 @@ public class BatteryEntry {
         switch (sipper.drainType) {
             case IDLE:
                 name = context.getResources().getString(R.string.power_idle);
-                iconId = R.drawable.ic_settings_phone_idle;
+                iconId = R.drawable.ic_settings_phone_idle_new;
                 break;
             case CELL:
                 name = context.getResources().getString(R.string.power_cell);
@@ -149,7 +149,7 @@ public class BatteryEntry {
                 break;
             case PHONE:
                 name = context.getResources().getString(R.string.power_phone);
-                iconId = R.drawable.ic_settings_voice_calls;
+                iconId = R.drawable.ic_settings_voice_calls_new;
                 break;
             case WIFI:
                 name = context.getResources().getString(R.string.power_wifi);
@@ -259,7 +259,7 @@ public class BatteryEntry {
             } else if ("dex2oat".equals(name)) {
                 name = context.getResources().getString(R.string.process_dex2oat_label);
             }
-            iconId = R.drawable.ic_power_system;
+            iconId = R.drawable.ic_power_system_new;
             icon = context.getDrawable(iconId);
         }
 
