@@ -38,4 +38,9 @@
    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
+    <!-- Battery Health -->
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
+    <bool name="config_supportBatteryHealth">false</bool>
+
 </resources>
