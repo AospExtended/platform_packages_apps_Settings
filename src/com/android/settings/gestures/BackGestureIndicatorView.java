@@ -82,9 +82,9 @@ public class BackGestureIndicatorView extends LinearLayout {
         setSystemUiVisibility(visibility);
     }
 
-    public void setIndicatorWidth(int width, boolean leftIndicator) {
+    public void setIndicatorValues(int width, int height, boolean leftIndicator) {
         BackGestureIndicatorDrawable indicator = leftIndicator ? mLeftDrawable : mRightDrawable;
-        indicator.setWidth(width);
+        indicator.setValues(width, height);
     }
 
     public WindowManager.LayoutParams getLayoutParams(
