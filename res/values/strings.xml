@@ -11790,10 +11790,12 @@
     <string name="right_edge">Right edge</string>
 
     <!-- Message for the dialog that explains how increasing sensitivity can affect gestures along the edges. [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message">Higher sensitivity may conflict with any app gestures along the edges of the screen.</string>
+    <string name="back_sensitivity_dialog_message">Higher sensitivity or height may conflict with any app gestures along the edges of the screen.</string>
 
     <!-- Title for the dialog that is shown to adjust the back sensitivity [CHAR LIMIT=60] -->
     <string name="back_sensitivity_dialog_title">Back Sensitivity</string>
+
+    <string name="back_height_dialog_title">Back Height</string>
 
     <!-- Title for the screen to show all the gesture navigation settings [CHAR LIMIT=80] -->
     <string name="gesture_settings_activity_title">Gesture Settings</string>

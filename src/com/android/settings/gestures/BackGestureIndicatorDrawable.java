@@ -38,7 +38,7 @@ public class BackGestureIndicatorDrawable extends Drawable {
 
     private static final String TAG = "BackGestureIndicatorDrawable";
 
-    private static final int MSG_SET_INDICATOR_WIDTH = 1;
+    private static final int MSG_SET_INDICATOR_VALUES = 1;
     private static final int MSG_HIDE_INDICATOR = 3;
 
     private static final long ANIMATION_DURATION_MS = 200L;
@@ -55,23 +55,31 @@ public class BackGestureIndicatorDrawable extends Drawable {
     private float mCurrentWidth;
     private float mWidthChangePerMs;
 
+    private float mFinalHeight;
+    private float mCurrentHeight;
+    private float mHeightChangePerMs;
+	
     private TimeAnimator mTimeAnimator = new TimeAnimator();
 
     private final Handler mHandler = new Handler(Looper.getMainLooper()) {
         @Override
         public void handleMessage(Message msg) {
             switch(msg.what) {
-                case MSG_SET_INDICATOR_WIDTH:
+                case MSG_SET_INDICATOR_VALUES:
                     mTimeAnimator.end();
                     mFinalWidth = msg.arg1;
+                    mFinalHeight = msg.arg2;
                     mWidthChangePerMs = Math.abs(mCurrentWidth - mFinalWidth)
+                            / ANIMATION_DURATION_MS;
+                    mHeightChangePerMs = Math.abs(mCurrentHeight - mFinalHeight)
                             / ANIMATION_DURATION_MS;
                     mTimeAnimator.start();
                     break;
                 case MSG_HIDE_INDICATOR:
                     mCurrentWidth = mFinalWidth;
-                    removeMessages(MSG_SET_INDICATOR_WIDTH);
-                    sendMessageDelayed(obtainMessage(MSG_SET_INDICATOR_WIDTH, 0, 0), HIDE_DELAY_MS);
+                    mCurrentHeight = mFinalHeight;
+                    removeMessages(MSG_SET_INDICATOR_VALUES);
+                    sendMessageDelayed(obtainMessage(MSG_SET_INDICATOR_VALUES, 0, 0), HIDE_DELAY_MS);
                     invalidateSelf();
                     break;
                 default:
@@ -91,6 +99,7 @@ public class BackGestureIndicatorDrawable extends Drawable {
         // Restart the timer whenever a change is detected, so we can shrink/fade the indicators
         mTimeAnimator.setTimeListener((TimeAnimator animation, long totalTime, long deltaTime) -> {
             updateCurrentWidth(totalTime, deltaTime);
+            updateCurrentHeight(totalTime, deltaTime);
             invalidateSelf();
         });
     }
@@ -109,6 +118,20 @@ public class BackGestureIndicatorDrawable extends Drawable {
         }
     }
 
+    private void updateCurrentHeight(long totalTime, long deltaTime) {
+        synchronized (mTimeAnimator) {
+            float step = deltaTime * mHeightChangePerMs;
+            if (totalTime >= ANIMATION_DURATION_MS
+                    || step >= Math.abs(mFinalHeight - mCurrentHeight)) {
+                mCurrentHeight = mFinalHeight;
+                mTimeAnimator.end();
+            } else {
+                float direction = mCurrentHeight < mFinalHeight ? 1 : -1;
+                mCurrentHeight += direction * step;
+            }
+        }
+    }
+
     @Override
     public void draw(@NonNull Canvas canvas) {
 
@@ -116,7 +139,7 @@ public class BackGestureIndicatorDrawable extends Drawable {
         mPaint.setColor(mContext.getResources().getColor(R.color.back_gesture_indicator));
         mPaint.setAlpha(ALPHA_MAX);
 
-        final int top = 0;
+        final int top = canvas.getHeight() - (int) mCurrentHeight;
         final int bottom = canvas.getHeight();
         final int width = (int) mCurrentWidth;
 
@@ -124,7 +147,6 @@ public class BackGestureIndicatorDrawable extends Drawable {
         if (mReversed) {
             rect.offset(canvas.getWidth() - width, 0);
         }
-
         canvas.drawRect(rect, mPaint);
     }
 
@@ -146,11 +168,11 @@ public class BackGestureIndicatorDrawable extends Drawable {
     /**
      * Sets the visible width of the indicator in pixels.
      */
-    public void setWidth(int width) {
-        if (width == 0) {
+    public void setValues(int width, int height) {
+        if (width == 0 && height == 0) {
             mHandler.sendEmptyMessage(MSG_HIDE_INDICATOR);
         } else {
-            mHandler.sendMessage(mHandler.obtainMessage(MSG_SET_INDICATOR_WIDTH, width, 0));
+            mHandler.sendMessage(mHandler.obtainMessage(MSG_SET_INDICATOR_VALUES, width, height));
         }
     }
 

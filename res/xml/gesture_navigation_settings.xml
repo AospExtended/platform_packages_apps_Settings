@@ -43,7 +43,7 @@
         android:title="@string/back_sensitivity_dialog_title">
 
         <com.android.settings.widget.LabeledSeekBarPreference
-            android:key="gesture_left_back_sensitivity"
+            android:key="back_gesture_inset_scale_left"
             android:title="@string/left_edge"
             android:max="2"
             android:selectable="true"
@@ -51,9 +51,31 @@
             settings:textEnd="@string/high_label"/>
 
         <com.android.settings.widget.LabeledSeekBarPreference
-            android:key="gesture_right_back_sensitivity"
+            android:key="back_gesture_inset_scale_right"
             android:title="@string/right_edge"
             android:max="2"
+            android:selectable="true"
+            settings:textStart="@string/low_label"
+            settings:textEnd="@string/high_label"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="back_height_category"
+        android:persistent="false"
+        android:title="@string/back_height_dialog_title">
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="back_gesture_height_left"
+            android:title="@string/left_edge"
+            android:max="3"
+            android:selectable="true"
+            settings:textStart="@string/low_label"
+            settings:textEnd="@string/high_label"/>
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="back_gesture_height_right"
+            android:title="@string/right_edge"
+            android:max="3"
             android:selectable="true"
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
