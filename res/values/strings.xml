@@ -13649,4 +13649,8 @@
     <string name="bluetooth_connect_access_dialog_negative">Don\u2019t connect</string>
     <!-- Strings for Dialog connect button -->
     <string name="bluetooth_connect_access_dialog_positive">Connect</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>
