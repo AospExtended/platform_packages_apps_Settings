@@ -30,7 +30,7 @@
         settings:userRestriction="no_config_brightness">
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </com.android.settingslib.RestrictedPreference>
-
+<!--
     <com.android.settings.display.darkmode.DarkModePreference
         android:key="dark_ui_mode"
         android:title="@string/dark_ui_mode"
@@ -39,7 +39,7 @@
         settings:widgetLayout="@null"
         settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:keywords="@string/keywords_dark_ui_mode"/>
-
+-->
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
