@@ -20,13 +20,14 @@ import android.content.res.Configuration;
 import android.os.PowerManager;
 import android.util.AttributeSet;
 import com.android.settings.R;
-import com.android.settings.widget.MasterSwitchPreference;
+
+import androidx.preference.Preference;
 
 import java.time.LocalTime;
 
 /**
  * component for the display settings dark ui summary*/
-public class DarkModePreference extends MasterSwitchPreference {
+public class DarkModePreference extends Preference {
 
     private UiModeManager mUiModeManager;
     private DarkModeObserver mDarkModeObserver;
@@ -45,7 +46,6 @@ public class DarkModePreference extends MasterSwitchPreference {
             final boolean batterySaver = mPowerManager.isPowerSaveMode();
             final boolean active = (getContext().getResources().getConfiguration().uiMode
                     & Configuration.UI_MODE_NIGHT_YES) != 0;
-            setSwitchEnabled(!batterySaver);
             updateSummary(batterySaver, active);
         };
         mDarkModeObserver.subscribe(mCallback);
