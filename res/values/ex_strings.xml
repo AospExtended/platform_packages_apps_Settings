@@ -167,4 +167,8 @@
    <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Customisation suggestion -->
+    <string name="customisation_suggestion_title">Customise your device!</string>
+    <string name="customisation_suggestion_summary">Change accents, themes, fonts and more.</string>
+
 </resources>

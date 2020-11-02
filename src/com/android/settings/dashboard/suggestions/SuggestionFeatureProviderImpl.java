@@ -23,6 +23,7 @@ import android.content.SharedPreferences;
 
 import androidx.annotation.NonNull;
 
+import com.android.settings.aex.CustomisationSuggestionActivity;
 import com.android.settings.Settings.NightDisplaySuggestionActivity;
 import com.android.settings.biometrics.fingerprint.FingerprintEnrollSuggestionActivity;
 import com.android.settings.biometrics.fingerprint.FingerprintSuggestionActivity;
@@ -61,7 +62,9 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     @Override
     public boolean isSuggestionComplete(Context context, @NonNull ComponentName component) {
         final String className = component.getClassName();
-        if (className.equals(WallpaperSuggestionActivity.class.getName())) {
+        if (className.equals(CustomisationSuggestionActivity.class.getName())) {
+            return CustomisationSuggestionActivity.isSuggestionComplete(context);
+        } else if (className.equals(WallpaperSuggestionActivity.class.getName())) {
             return WallpaperSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(StyleSuggestionActivity.class.getName())) {
             return StyleSuggestionActivity.isSuggestionComplete(context);
