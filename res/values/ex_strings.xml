@@ -322,4 +322,7 @@
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
 
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Immersive Navigation</string>
+
 </resources>
