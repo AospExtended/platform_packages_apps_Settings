@@ -307,4 +307,8 @@
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
 
+    <!-- Hide Gestural Nav -->
+    <string name="show_gestures_navbar_switch_title">Show pill</string>
+    <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
+
 </resources>
