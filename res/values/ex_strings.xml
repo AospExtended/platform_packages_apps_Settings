@@ -388,4 +388,7 @@
     <string name="disabled">Disabled</string>
 
     <string name="volumesteps_title">Volume Steps</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
