@@ -343,4 +343,6 @@
     <string name="always_on_display_schedule_sunrise">Sunrise</string>
     <string name="disabled">Disabled</string>
 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
