@@ -330,4 +330,7 @@
     <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
 </resources>
