@@ -336,4 +336,8 @@
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 
+    <!-- Ambient display battery percentage --> 
+    <string name="ambient_battery_percent_title">Battery level on bottom</string> 
+    <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string>
+
 </resources>
