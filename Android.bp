@@ -75,6 +75,7 @@ android_library {
         "reactive-streams",
         "rxandroid",
         "faceunlock_framework",
+        "vendor.aosp.smartcharge-V1.0-java",
     ],
 
     libs: [
