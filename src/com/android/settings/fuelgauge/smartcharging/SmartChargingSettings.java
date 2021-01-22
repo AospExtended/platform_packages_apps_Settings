@@ -18,6 +18,7 @@ package com.android.settings.fuelgauge.smartcharging;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.RemoteException;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -36,6 +37,9 @@ import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
+
+import vendor.aosp.smartcharge.V1_0.ISmartCharge;
 
 /**
  * Settings screen for Smart charging
@@ -48,17 +52,17 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
     private CustomSeekBarPreference mSmartChargingLevel;
     private CustomSeekBarPreference mSmartChargingResumeLevel;
 
-    private int mSmartChargingLevelDefaultConfig;
-    private int mSmartChargingResumeLevelDefaultConfig;
+    private ISmartCharge mSmartCharge;
+    private int mSmartChargingLevelDefaultConfig = 85;
+    private int mSmartChargingResumeLevelDefaultConfig = 80;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        mSmartChargingLevelDefaultConfig = getResources().getInteger(
-                com.android.internal.R.integer.config_smartChargingBatteryLevel);
-
-        mSmartChargingResumeLevelDefaultConfig = getResources().getInteger(
-                com.android.internal.R.integer.config_smartChargingBatteryResumeLevel);
-
+        mSmartCharge = getSmartCharge();
+        try {
+            mSmartChargingLevelDefaultConfig = mSmartCharge.getSuspendLevel();
+            mSmartChargingResumeLevelDefaultConfig = mSmartCharge.getResumeLevel();
+        } catch (RemoteException ex) { }
         mSmartChargingLevel = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_LEVEL);
         int currentLevel = Settings.System.getInt(getContentResolver(),
             Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
@@ -90,29 +94,49 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        int resumeLevel = Settings.System.getInt(getContentResolver(),
+                 Settings.System.SMART_CHARGING_RESUME_LEVEL, mSmartChargingResumeLevelDefaultConfig);
+        int suspendLevel = Settings.System.getInt(getContentResolver(),
+                 Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
+
         if (preference == mSmartChargingLevel) {
-            int smartChargingLevel = (Integer) objValue;
-            int mChargingResumeLevel = Settings.System.getInt(getContentResolver(),
-                     Settings.System.SMART_CHARGING_RESUME_LEVEL, mSmartChargingResumeLevelDefaultConfig);
+            suspendLevel = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
-                    Settings.System.SMART_CHARGING_LEVEL, smartChargingLevel);
-                mSmartChargingResumeLevel.setMax(smartChargingLevel - 1);
-            if (smartChargingLevel <= mChargingResumeLevel) {
-                mSmartChargingResumeLevel.setValue(smartChargingLevel - 1);
+                    Settings.System.SMART_CHARGING_LEVEL, suspendLevel);
+            mSmartChargingResumeLevel.setMax(suspendLevel - 1);
+            if (suspendLevel <= resumeLevel) {
+                resumeLevel--;
+                mSmartChargingResumeLevel.setValue(suspendLevel -1);
                 Settings.System.putInt(getContentResolver(),
-                    Settings.System.SMART_CHARGING_RESUME_LEVEL, smartChargingLevel - 1);
+                    Settings.System.SMART_CHARGING_RESUME_LEVEL, resumeLevel);
             }
+            try {
+                mSmartCharge.updateBatteryLevels(suspendLevel, resumeLevel);
+            } catch (RemoteException ex) { }
             return true;
         } else if (preference == mSmartChargingResumeLevel) {
-            int smartChargingResumeLevel = (Integer) objValue;
-            int mChargingLevel = Settings.System.getInt(getContentResolver(),
-                     Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
-                mSmartChargingResumeLevel.setMax(mChargingLevel - 1);
-               Settings.System.putInt(getContentResolver(),
-                    Settings.System.SMART_CHARGING_RESUME_LEVEL, smartChargingResumeLevel);
+            resumeLevel = (Integer) objValue;
+            mSmartChargingResumeLevel.setMax(suspendLevel - 1);
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.SMART_CHARGING_RESUME_LEVEL, resumeLevel);
+            try {
+                mSmartCharge.updateBatteryLevels(suspendLevel, resumeLevel);
+            } catch (RemoteException ex) { }
             return true;
         } else {
             return false;
         }
+    }
+
+    private synchronized ISmartCharge getSmartCharge() {
+        try {
+            return ISmartCharge.getService();
+        } catch (RemoteException ex) {
+            ex.printStackTrace();
+        } catch (NoSuchElementException ex) {
+            // service not available
+        }
+
+        return null;
     }
 }
