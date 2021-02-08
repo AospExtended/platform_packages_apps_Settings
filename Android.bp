@@ -74,6 +74,7 @@ android_library {
         "gson",
         "reactive-streams",
         "rxandroid",
+        "faceunlock_framework",
     ],
 
     libs: [
