@@ -143,7 +143,8 @@
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="home_wake_button"
         android:title="@string/home_wake_button_title"
-        android:summary="@string/home_wake_button_summary" />
+        android:summary="@string/home_wake_button_summary"
+        android:defaultValue="true" />
         
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="pocket_judge"
