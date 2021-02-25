@@ -129,7 +129,7 @@
         android:key="lift_to_wake"
         android:title="@string/lift_to_wake_title" />
 
-    <SwitchPreference
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
