@@ -165,6 +165,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import org.aospextended.extensions.Extensions;
 import org.aospextended.extensions.fragments.GamingMode;
 import org.aospextended.extensions.fragments.VolumeStepsFragment;
+import org.aospextended.extensions.fragments.SleepMode;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
@@ -322,9 +323,9 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             GamingMode.class.getName(),
             VolumeStepsFragment.class.getName(),
-
             // LiveDisplay
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            SleepMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -368,6 +369,7 @@ public class SettingsGateway {
             Settings.ExtensionsSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
-            Settings.VolumeStepsFragmentActivity.class.getName()
+            Settings.VolumeStepsFragmentActivity.class.getName(),
+            Settings.SleepModeActivity.class.getName()
     };
 }

@@ -3581,7 +3581,22 @@
                 android:value="org.aospextended.extensions.fragments.VolumeStepsFragment" />
         </activity>
 
-        <!-- This is the longest AndroidManifest.xml ever. -->
+        <!-- Sleep Mode -->
+        <receiver android:name="org.aospextended.extensions.fragments.SleepModeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SLEEP_MODE_TURN_OFF" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="Settings$SleepModeActivity"
+                android:label="@string/sleep_mode_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.aospextended.extensions.fragments.SleepMode" />
+        </activity>
+
     </application>
 </manifest>
 
