@@ -80,6 +80,7 @@
 
         <Preference
             android:key="double_tap"
+            android:dependency="ambient_display_always_on"
             android:fragment="com.android.settings.gestures.DoubleTapAmbientSettings"
             android:title="@string/doze_double_tap_title"
             android:summary="@string/doze_double_tap_summary"
@@ -105,10 +106,11 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
-       <Preference
-          android:key="always_on_display_schedule"
-          android:title="@string/always_on_display_schedule_title"
-          android:fragment="com.android.settings.fragments.AODSchedule" />
+        <Preference
+            android:key="always_on_display_schedule"
+            android:dependency="ambient_display_always_on"
+            android:title="@string/always_on_display_schedule_title"
+            android:fragment="com.android.settings.fragments.AODSchedule" />
 
         <Preference
             android:key="ambient_display_custom"
