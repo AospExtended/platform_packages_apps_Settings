@@ -549,6 +549,6 @@
     <!-- Whether to aggregate for network selection list-->
     <bool name="config_network_selection_list_aggregation_enabled">false</bool>
 
-    <!-- Whether to show min refresh rate in display settings -->
-    <bool name="config_show_min_refresh_rate_switch">false</bool>
+    <!-- Whether to show refresh rate switch in display settings -->
+    <bool name="config_show_refresh_rate_switch">false</bool>
 </resources>
