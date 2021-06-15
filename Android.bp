@@ -74,6 +74,7 @@ android_library {
         "gson",
         "reactive-streams",
         "rxandroid",
+        "glide",
         "faceunlock_framework",
         "vendor.aosp.smartcharge-V1.0-java",
     ],
@@ -156,4 +157,9 @@ java_import {
 java_import {
     name: "reactive-streams",
     jars: ["libs/reactive-streams-1.0.2.jar"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.9.0.aar"],
 }
