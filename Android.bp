@@ -93,6 +93,7 @@ android_library {
         "gson",
         "reactive-streams",
         "rxandroid",
+        "glide",
         "androidx.navigation_navigation-common-ktx",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-runtime-ktx",
@@ -198,4 +199,9 @@ java_import {
 java_import {
     name: "reactive-streams",
     jars: ["libs/reactive-streams-1.0.2.jar"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.9.0.aar"],
 }
