@@ -75,6 +75,7 @@ android_library {
         "gson",
         "reactive-streams",
         "rxandroid",
+        "glide",
         "faceunlock_framework",
         "vendor.aosp.smartcharge-V1.0-java",
         "expandable-bottombar",
@@ -169,4 +170,9 @@ android_library_import {
     name: "expandable-bottombar",
     aars: ["libs/lib-expandablebottombar-release.aar"],
     sdk_version: "current",
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.9.0.aar"],
 }
