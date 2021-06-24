@@ -106,8 +106,7 @@
 
     <PreferenceCategory
         android:key="configure_notifications_advanced"
-        android:order="15"
-        settings:initialExpandedChildrenCount="100">
+        android:order="15">
 
         <Preference
             android:title="@string/notification_log_title"
