@@ -60,14 +60,18 @@ public class SettingsHomepageActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.settings_homepage_container);
+        mContext = getApplicationContext();
+
+        final boolean useNewSearchBar = Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.USE_NEW_SEARCHBAR, 0, UserHandle.USER_CURRENT) != 0;
+
+        setContentView(useNewSearchBar  ? R.layout.settings_homepage_container_a12
+                                        : R.layout.settings_homepage_container);
         final View root = findViewById(R.id.settings_homepage_container);
         root.setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
 
         setHomepageContainerPaddingTop();
-
-        mContext = getApplicationContext();
 
         mUserManager = mContext.getSystemService(UserManager.class);
 
