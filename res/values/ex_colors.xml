@@ -12,4 +12,5 @@
 -->
 <resources>
     <color name="homepage_extensions_background">#FF21EF8B</color>
+    <color name="homepage_container_bg">@android:color/transparent</color>
 </resources>
