@@ -50,6 +50,8 @@ import com.android.settings.overlay.FeatureFactory;
 
 import com.android.settingslib.drawable.CircleFramedDrawable;
 
+import com.google.android.material.appbar.AppBarLayout;
+
 public class SettingsHomepageActivity extends FragmentActivity {
 
     Context mContext;
@@ -71,7 +73,10 @@ public class SettingsHomepageActivity extends FragmentActivity {
         root.setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
 
-        setHomepageContainerPaddingTop();
+        if (useNewSearchBar)
+            setHomepageContainerPaddingTopA12();
+        else
+            setHomepageContainerPaddingTop();
 
         mUserManager = mContext.getSystemService(UserManager.class);
 
@@ -126,6 +131,20 @@ public class SettingsHomepageActivity extends FragmentActivity {
         // The top padding is the height of action bar(48dp) + top/bottom margins(16dp)
         final int paddingTop = searchBarHeight + searchBarMargin * 2;
         view.setPadding(0 /* left */, paddingTop, 0 /* right */, 0 /* bottom */);
+
+        // Prevent inner RecyclerView gets focus and invokes scrolling.
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+    }
+
+    private void setHomepageContainerPaddingTopA12() {
+        final View view = findViewById(R.id.homepage_container);
+        final AppBarLayout appBarLayout = findViewById(R.id.appbar_layout_a12);
+
+        // use appBarLayout's current height
+        appBarLayout.post(() -> {
+            view.setPadding(0, appBarLayout.getMeasuredHeight(), 0, 0);
+        });
 
         // Prevent inner RecyclerView gets focus and invokes scrolling.
         view.setFocusableInTouchMode(true);
