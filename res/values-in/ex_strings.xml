@@ -300,4 +300,5 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <string name="immersive_navigation_title">Navigasi Immersive</string>
 </resources>

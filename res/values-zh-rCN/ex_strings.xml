@@ -158,7 +158,7 @@
     <string name="live_display_day">白天</string>
     <string name="live_display_night">夜晚</string>
     <string name="live_display_outdoor_mode_title">自动户外模式</string>
-    <string name="live_display_outdoor_mode_summary">在强光下自动增强亮度和饱和度</string>
+    <string name="live_display_outdoor_mode_summary">自动</string>
     <string name="live_display_anti_flicker_title">防闪烁</string>
     <string name="live_display_anti_flicker_summary">在低亮度条件下，可防止闪烁并减少眼睛疲劳。 此模式可能降低色彩精度，并影响部分内容的显示效果。</string>
     <string name="live_display_low_power_title">降低电量消耗</string>
@@ -299,4 +299,5 @@
     <string name="legacy_wfd_video_mode_720p_60fps">720P 60FPS</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080P 30FPS</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080P 60FPS</string>
+    <string name="immersive_navigation_title">沉浸式导航栏</string>
 </resources>

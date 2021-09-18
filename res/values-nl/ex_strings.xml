@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Zoek de vingerafdruksensor op de voorkant van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Zoek de vingerafdruksensor op de linker zijkant van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Zoek de vingerafdruksensor op de rechter zijkant van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Zoek de vingerafdrukscanner aan de voorkant van uw apparaat.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Zoek de vingerafdrukscanner aan de linkerkant van uw apparaat.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Zoek de vingerafdruksensor op de rechter zijde van uw toestel.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Gebruik de vingerafdrukscanner op de voorkant van uw tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Zoek de vingerafdruksensor op de linker zijde van uw tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Zoek de vingerafdruksensor op de rechter zijde van uw tablet.</string>
+    <string name="extended_version">Uitgebreide versie</string>
+    <string name="extended_version_default">Onbekend</string>
+    <string name="keywords_extended_version">aex versie, uitgebreide versie</string>
+    <string name="build_date">Bouwdatum</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">bouwdatum, bouw-informatie</string>
+    <string name="aex_about_info">Over ons</string>
+    <string name="aex_about_summary">Onze introductie en ons team</string>
+    <string name="aex_about_info_summary">AospExtended is een AOSP-gebaseerde rom die standaard UI/UX biedt met verschillende aanpassingsopties, samen met de Substratum thema engine. Het project is gemaakt door verschillende elementen uit verschillende andere projecten te selecteren. Omdat het gebaseerd is op AOSP, biedt het een vlotte en vertragingsvrije ervaring. We zullen constant proberen om meer functies toe te voegen en het nog beter te maken in toekomstige updates.#BeExtended</string>
+    <string name="dev_info">Over AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">Bekijk onze broncode</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Word lid van onze G + community</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Abonneer u op ons Telegram-kanaal</string>
+    <string name="web">Downloadcentrum</string>
+    <string name="web_description">Bezoek ons downloadportaal</string>
+    <string name="help_translate">Vertalingen</string>
+    <string name="help_translate_description">Vertalen naar uw taal, bezoek onze Crowdin</string>
+    <string name="walls">Achtergronden</string>
+    <string name="walls_description">Krijg achtergronden bijgedragen door verschillende gebruikers</string>
+    <string name="leads">Teamleiders</string>
+</resources>

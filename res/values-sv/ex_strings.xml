@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="extended_version">Förlängd version</string>
+    <string name="extended_version_default">Okänd</string>
+    <string name="keywords_extended_version">aex-version, förlängd version</string>
+    <string name="build_date">Byggnationsdatum</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="aex_about_info">Om oss</string>
+    <string name="dev_info">Om AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">Visa vår källkod</string>
+    <string name="gplus">Google+</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Prenumerera på vår Telegram-kanal</string>
+    <string name="web">Nerladdningscentral</string>
+    <string name="web_description">Besök vår nerladdningsportal</string>
+    <string name="help_translate">Översättningar</string>
+    <string name="help_translate_description">Översätt till ditt språk, besök vår Crowdin</string>
+    <string name="walls">Bakgrundsbilder</string>
+    <string name="team1_description">Ägare/Ledande utvecklare</string>
+    <string name="team_2">Aman Kumar (FireLord)</string>
+    <string name="team2_description">Utvecklare</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Utvecklare och moderator</string>
+    <string name="team_4">Henrique Silva (jhenrique09)</string>
+    <string name="team4_description">Utvecklare</string>
+    <string name="team_5">Gaurav Singh (allstargaurav)</string>
+    <string name="designer3_description">Bakgrundsbilder, Uppstartsanimationer</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="maintainers">Underhållare</string>
+    <string name="maintainers_title">Officiella underhållare</string>
+    <string name="maintainer_description">Underhållare: %1$s</string>
+    <string name="loading_devices">Laddar enhetslista...</string>
+    <string name="loading_devices_failed">Laddningen av enhetslistan misslyckades</string>
+    <string name="devices_list_empty">Listan är tom, knacka på ikonen för att ladda om</string>
+    <string name="reload_list">Ladda om</string>
+    <string name="selinux_status">Status för SELinux</string>
+    <string name="aex_ota_summary">Hämta senaste byggnationen</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="device_info_protected_single_press">Tryck för att visa info</string>
+    <string name="battery_temp">Batteri-temperatur</string>
+    <string name="suggestion_button_close">Stäng</string>
+    <string name="changelog_title">Ändringslogg</string>
+    <string name="changelog_summary">Senaste ändringar</string>
+    <string name="changelog_loading">Laddar ändringslogg\u2026</string>
+    <string name="changelog_error">Laddningen av ändringsloggen kunde inte genomföras</string>
+    <string name="background_processes_settings_title">Bakgrundsprocesser</string>
+    <string name="tethering_allow_vpn_upstreams_title">Tillåt klienter att använda VPN:er</string>
+    <string name="show_cpu_info">Visa CPU-info</string>
+    <string name="customisation_suggestion_title">Anpassa din enhet!</string>
+    <string name="lock_settings_picker_pattern_size_message">Välj mönsterstorlek</string>
+    <string name="adaptive_playback_screen_title">Adaptiv uppspelning</string>
+    <string name="adaptive_playback_disabled_summary">Av</string>
+    <string name="adaptive_playback_timeout_none">Ingen timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">På (ingen timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekunder</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">På (30 sekunder)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_1_min_summary">På (1 minut)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuter</string>
+    <string name="adaptive_playback_timeout_2_min_summary">På (2 minuter)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuter</string>
+    <string name="adaptive_playback_timeout_5_min_summary">På (5 minuter)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuter</string>
+    <string name="adaptive_playback_timeout_10_min_summary">På (10 minuter)</string>
+    <string name="data_usage_app_restrict_mobile">Mobildata</string>
+    <string name="data_usage_app_restrict_vpn">VPN-data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi-data</string>
+    <string name="live_display_color_temperature_title">Färgtemperatur</string>
+    <string name="live_display_color_temperature_summary">Dag: <xliff:g id="day_temperature">%1$d</xliff:g>K Natt: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_night">Natt</string>
+    <string name="live_display_anti_flicker_title">Anti-flimmer</string>
+    <string name="live_display_low_power_title">Reducera strömförbrukning</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_basic_title">Grundläggande</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+    <string name="live_display_color_profile_reading_title">Läser</string>
+    <string name="live_display_color_profile_reading_summary">Varmare färger för mindre ögonansträngning</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_reading_mode_title">Läs-läge</string>
+    <string name="color_calibration_title">Färg-kalibrering</string>
+    <string name="color_red_title">Röd</string>
+    <string name="color_green_title">Grön</string>
+    <string name="color_blue_title">Blå</string>
+    <string name="picture_adjustment_title">Bildjustering</string>
+    <string name="adj_saturation_title">Mättnad</string>
+    <string name="adj_intensity_title">Intensitet</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <string name="face_redo_confirm_btn">Gör om</string>
+    <string name="face_redo_warning_msg">Vill du ta bort den befintliga ansiktsskanningen och skapa en ny?</string>
+    <string name="duration_less_than_one_minute">Mindre än 1 minut</string>
+    <string name="screen_time_summary_usage_today">%1$s Idag</string>
+    <string name="applock_locked">Låst</string>
+    <string name="applock_unlocked">Upplåst</string>
+    <string name="applock_locked_apps">Låsta appar</string>
+    <string name="applock_unlocked_apps">Upplåsta appar</string>
+    <string name="applock_lock_after_title">Lås app efter</string>
+    <string name="applock_lock_after_instantly">Direkt</string>
+    <string name="applock_lock_after_15_seconds">15 sekunder</string>
+    <string name="applock_lock_after_screen_off">Skärm av</string>
+    <string name="smart_charging_title">Smart laddning</string>
+    <string name="smart_charging_switch_title">Använd smart laddning</string>
+    <string name="wifi_timeout">Stäng av Wi-Fi automatiskt</string>
+    <string name="wifi_timeout_summary">Wi-Fi kommer att stänga av efter<xliff:g id="timeout_description">%1$s</xliff:g> om inget nätverk är anslutet</string>
+    <string name="wifi_timeout_summary2">Inaktiverad</string>
+    <string name="wifi_timeout_summary_never">Aldrig</string>
+    <string name="wifi_timeout_summary_15secs">15 sekunder</string>
+    <string name="wifi_timeout_summary_30secs">30 sekunder</string>
+    <string name="wifi_timeout_summary_1min">1 minut</string>
+    <string name="wifi_timeout_summary_2mins">2 minuter</string>
+    <string name="wifi_timeout_summary_5mins">5 minuter</string>
+    <string name="wifi_timeout_summary_10mins">10 minuter</string>
+    <string name="wifi_timeout_summary_30mins">30 minuter</string>
+    <string name="bluetooth_timeout_summary_never">Aldrig</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekunder</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekunder</string>
+    <string name="bluetooth_timeout_summary_1min">1 minut</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuter</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minuter</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minuter</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minuter</string>
+    <string name="bluetooth_timeout_summary_1hour">1 timme</string>
+    <string name="bluetooth_timeout_summary_2hours">2 timmar</string>
+    <string name="bluetooth_timeout_summary_4hours">4 timmar</string>
+    <string name="bluetooth_timeout_summary_8hours">8 timmar</string>
+    <string name="double_tap_title">Dubbeltryck</string>
+    <string name="doze_double_tap_title">Dubbeltryck för att kolla telefonen</string>
+    <string name="doze_double_tap_summary">Pulsera aviseringar genom att dubbeltrycka</string>
+    <string name="always_on_display_schedule_sunset">Solnedgång</string>
+    <string name="always_on_display_schedule_sunrise">Soluppgång</string>
+    <string name="disabled">Inaktiverad</string>
+    <string name="volumesteps_title">Volymsteg</string>
+    <string name="legacy_wfd_video_mode_title">Video-läge</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+</resources>
