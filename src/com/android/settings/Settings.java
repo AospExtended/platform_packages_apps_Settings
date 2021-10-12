@@ -322,4 +322,8 @@ public class Settings extends SettingsActivity {
      * Activity for AppDashboard.
      */
     public static class AppDashboardActivity extends SettingsActivity {}
+
+    // AospExtended Additions.
+    public static class ExtensionsSettingsActivity extends SettingsActivity {}
+
 }
