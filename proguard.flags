@@ -84,9 +84,3 @@
 -keepattributes Signature
 # Retain declared checked exceptions for use by a Proxy instance.
 -keepattributes Exceptions
-
-# ExpandableBottomBar
--keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBar { *; }
--keep class github.com.st235.lib_expandablebottombar.behavior.ExpandableBottomBarBehavior { *; }
--keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBarMenuItem** { *; }
--keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBarScrollableBehavior { *; }

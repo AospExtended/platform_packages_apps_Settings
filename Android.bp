@@ -49,8 +49,7 @@ android_library {
         "Extensions/src/**/*.java",
     ],
 
-    aaptflags: ["--extra-packages org.aospextended.extensions",
-                "--extra-packages github.com.st235.lib_expandablebottombar",],
+    aaptflags: ["--extra-packages org.aospextended.extensions",],
 
     resource_dirs: [
         "res",
@@ -95,7 +94,6 @@ android_library {
         "gson",
         "reactive-streams",
         "rxandroid",
-        "expandable-bottombar",
         "androidx.navigation_navigation-common-ktx",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-runtime-ktx",
@@ -210,10 +208,4 @@ java_import {
 java_import {
     name: "reactive-streams",
     jars: ["libs/reactive-streams-1.0.2.jar"],
-}
-
-android_library_import {
-    name: "expandable-bottombar",
-    aars: ["libs/lib-expandablebottombar-release.aar"],
-    sdk_version: "current",
 }
