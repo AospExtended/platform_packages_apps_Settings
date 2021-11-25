@@ -181,4 +181,8 @@
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
 
+    <!-- Fullscreen gestures -->
+    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+
 </resources>
