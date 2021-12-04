@@ -100,6 +100,7 @@ android_library {
         "androidx.navigation_navigation-ui-ktx",
         "kotlin-stdlib",
         "powerusagefeaturegoogle",
+        "accountfeatureprovidergoogle",
     ],
 
     libs: [
@@ -210,5 +211,11 @@ android_library_import {
 java_import {
     name: "powerusagefeaturegoogle",
     jars: ["libs/powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "accountfeatureprovidergoogle",
+    jars: ["libs/accountfeatureprovidergoogle.jar"],
     sdk_version: "current",
 }
