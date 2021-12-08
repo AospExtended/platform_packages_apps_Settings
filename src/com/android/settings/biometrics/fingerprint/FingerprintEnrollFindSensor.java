@@ -22,7 +22,6 @@ import android.hardware.fingerprint.FingerprintManager;
 import android.hardware.fingerprint.FingerprintSensorPropertiesInternal;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
@@ -88,6 +87,7 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase implements
             );
         } else {
             setHeaderText(R.string.security_settings_fingerprint_enroll_find_sensor_title);
+            setDescriptionText(R.string.security_settings_fingerprint_enroll_find_sensor_message);
 
             int sensorLocation = getResources().getInteger(R.integer.config_fingerprintSensorLocation);
             if (sensorLocation < SENSOR_LOCATION_BACK || sensorLocation > SENSOR_LOCATION_RIGHT) {
