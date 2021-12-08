@@ -36,8 +36,8 @@ import com.android.settings.fuelgauge.BatteryHistEntry;
 import com.android.settingslib.fuelgauge.Estimate;
 import com.android.settingslib.utils.PowerUtil;
 
-import java.util.ArrayList;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -317,6 +317,11 @@ public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider 
     @Override
     public boolean isChartGraphSlotsEnabled(Context context) {
         return false;
+    }
+
+    @Override
+    public Intent getResumeChargeIntent() {
+        return null;
     }
 
     @Override
