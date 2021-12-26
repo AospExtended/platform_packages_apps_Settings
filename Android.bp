@@ -104,6 +104,7 @@ android_library {
         "vendor.google.google_battery-V1.0-java",
         "vendor.google.google_battery-V1.1-java",
         "accountfeatureprovidergoogle",
+        "gamemode-settingsgoogle",
     ],
 
     libs: [
@@ -238,5 +239,11 @@ java_import {
 java_import {
     name: "accountfeatureprovidergoogle",
     jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "gamemode-settingsgoogle",
+    jars: ["libs/gamemode.jar"],
     sdk_version: "current",
 }

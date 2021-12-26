@@ -235,4 +235,11 @@
     <string name="adaptive_charging_description">Charge steadily overnight to preserve long-term battery life. Uses alarm to completely charge by wakeup.</string>
     <string name="adaptive_charging_time_estimate"> • Full by %1$s</string>
     <string name="keywords_adaptive_charging">charge, charging, smart charging, adaptive charging, battery, battery health</string>
+
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
+    <string name="game_dashboard_always_on_title">Game Dashboard</string>
+    <string name="game_dashboard_dnd_rule_name">Gaming</string>
+    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
+    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
 </resources>
