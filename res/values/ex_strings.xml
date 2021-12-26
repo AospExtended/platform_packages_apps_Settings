@@ -230,4 +230,10 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
+    <string name="game_dashboard_always_on_title">Game Dashboard</string>
+    <string name="game_dashboard_dnd_rule_name">Gaming</string>
+    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
+    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
 </resources>

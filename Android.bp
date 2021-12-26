@@ -101,6 +101,7 @@ android_library {
         "kotlin-stdlib",
         "powerusagefeaturegoogle",
         "accountfeatureprovidergoogle",
+        "gamemode-settingsgoogle",
     ],
 
     libs: [
@@ -217,5 +218,11 @@ java_import {
 java_import {
     name: "accountfeatureprovidergoogle",
     jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "gamemode-settingsgoogle",
+    jars: ["libs/gamemode.jar"],
     sdk_version: "current",
 }
