@@ -43,6 +43,13 @@
         android:key="restricted_app"
         android:title="@string/restricted_app_title"/>
 
+    <SwitchPreference
+        android:title="@string/adaptive_charging"
+        android:key="adaptive_charging"
+        android:summary="@string/adaptive_charging_description"
+        settings:controller="com.google.android.settings.fuelgauge.AdaptiveChargingPreferenceController"
+        settings:keywords="@string/keywords_adaptive_charging" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="smart_battery_detail_footer"
         android:title="@string/smart_battery_footer"

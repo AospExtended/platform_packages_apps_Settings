@@ -82,3 +82,4 @@
 -keepattributes Exceptions
 
 -keep class com.google.android.settings.** { *; }
+-keep class vendor.** { *; }
