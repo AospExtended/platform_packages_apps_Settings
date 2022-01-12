@@ -170,6 +170,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.aospextended.extensions.Extensions;
+import org.aospextended.extensions.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -329,7 +330,8 @@ public class SettingsGateway {
             MediaManagementAppsDetails.class.getName(),
             // AEX additions
             Extensions.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            HeadsUpSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -372,6 +374,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             // AEX additions
             Settings.ExtensionsSettingsActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.HeadsUpSettingsActivity.class.getName()
     };
 }
