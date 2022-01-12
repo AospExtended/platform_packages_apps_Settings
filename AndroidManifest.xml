@@ -3927,6 +3927,14 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/build_tweaks_summary_title"/>
         </activity>
+
+        <activity android:name=".Settings$HeadsUpSettingsActivity"
+            android:label="@string/heads_up_notifications"
+            android:exported="true">
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="org.aospextended.extensions.fragments.HeadsUpSettings"/>
+        </activity>
+
     </application>
 </manifest>
 
