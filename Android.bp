@@ -100,6 +100,7 @@ android_library {
         "androidx.navigation_navigation-ui-ktx",
         "kotlin-stdlib",
         "accountfeatureprovidergoogle",
+        "columbus-settingsgoogle",
     ],
 
     libs: [
@@ -205,6 +206,12 @@ java_import {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.9.0.aar"],
+}
+
+java_import {
+    name: "columbus-settingsgoogle",
+    jars: ["libs/columbus-settings.jar"],
+    sdk_version: "current",
 }
 
 java_import {

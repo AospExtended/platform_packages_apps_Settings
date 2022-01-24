@@ -81,4 +81,4 @@
 # Retain declared checked exceptions for use by a Proxy instance.
 -keepattributes Exceptions
 
--keep class com.google.android.settings.** { *; }
+-keep class com.google.** { *; }
