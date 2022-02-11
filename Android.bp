@@ -103,6 +103,7 @@ android_library {
         "kotlin-stdlib",
         "accountfeatureprovidergoogle",
         "SystemUISharedLib",
+        "faceunlock_framework",
     ],
 
     libs: [
