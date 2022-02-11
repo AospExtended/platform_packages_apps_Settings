@@ -103,6 +103,7 @@ android_library {
         "kotlin-stdlib",
         "accountfeatureprovidergoogle",
         "gamemode-settingsgoogle",
+        "faceunlock_framework",
     ],
 
     libs: [
