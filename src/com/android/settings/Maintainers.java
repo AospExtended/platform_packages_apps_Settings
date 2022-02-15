@@ -60,7 +60,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 
     private final String TAG = this.getClass().getSimpleName();
     private static final String REQUEST_TAG = "loadDeviceList";
-    private static final String URL = "https://aospextended.com/api/getDevices/pie/";
+    private static final String URL = "https://aospextended.com/api/getDevices/s/";
     private static final String DOWNLOAD_WEBSITE = "https://downloads.aospextended.com";
     private static final String SHARED_PREF_NAME = "extended";
     private static final int MENU_RELOAD  = 0;
