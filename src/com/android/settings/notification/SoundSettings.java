@@ -299,6 +299,8 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
                 new EmergencyTonePreferenceController(context, fragment, lifecycle);
         final ScreenshotSoundPreferenceController screenshotSoundPreferenceController =
                 new ScreenshotSoundPreferenceController(context, fragment, lifecycle);
+        final AppVolumePreferenceController appVolumePreferenceController =
+                new AppVolumePreferenceController(context, fragment, lifecycle);
 
         controllers.add(dialPadTonePreferenceController);
         controllers.add(screenLockSoundPreferenceController);
@@ -310,6 +312,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         controllers.add(dockAudioMediaPreferenceController);
         controllers.add(bootSoundPreferenceController);
         controllers.add(emergencyTonePreferenceController);
+        controllers.add(appVolumePreferenceController);
         controllers.add(new PreferenceCategoryController(context,
                 "other_sounds_and_vibrations_category").setChildren(
                 Arrays.asList(dialPadTonePreferenceController,
