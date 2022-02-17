@@ -194,4 +194,10 @@
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 
     <string name="battery_temp">Battery temperature</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+
 </resources>
