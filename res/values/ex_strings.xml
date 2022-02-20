@@ -236,4 +236,6 @@
     </string>
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
 </resources>
