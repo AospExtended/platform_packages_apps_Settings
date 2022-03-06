@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76b4797c_4e834046",
+        "filename": "src/com/android/settings/security/applock/AppLockFragment.java.save",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-03-06T10:43:54Z",
+      "side": 1,
+      "message": "Unused .save file, remove it",
+      "revId": "3c9e647fac5c50aab0523968aecb6dd515a94a9b",
+      "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
+    }
+  ]
+}
