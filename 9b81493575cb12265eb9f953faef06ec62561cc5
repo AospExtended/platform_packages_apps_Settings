@@ -105,6 +105,24 @@
       "parentUuid": "33646b2d_909ba199",
       "revId": "9b81493575cb12265eb9f953faef06ec62561cc5",
       "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "789d23b0_ace423db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000020
+      },
+      "writtenOn": "2022-03-07T12:25:52Z",
+      "side": 1,
+      "message": "The overlay in FWB does not hides the option in settings?",
+      "parentUuid": "80367c72_6ec05668",
+      "revId": "9b81493575cb12265eb9f953faef06ec62561cc5",
+      "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
     }
   ]
 }
