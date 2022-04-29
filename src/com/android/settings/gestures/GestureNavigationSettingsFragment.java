@@ -64,6 +64,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.krypton.overlay.systemui.navbar.gestural";
 
     private static final String NAVIGATION_BAR_HINT_KEY = "navigation_bar_hint";
+    private static final String NAVIGATION_BAR_LENGTH_KEY = "gesture_navbar_length_preference";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
@@ -120,6 +121,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         boolean isTaskbarEnabled = Settings.System.getInt(getContext().getContentResolver(),
                 Settings.System.ENABLE_TASKBAR, isTablet(getContext()) ? 1 : 0) == 1;
         if (isTaskbarEnabled) {
+            getPreferenceScreen().removePreference(
+                    getPreferenceScreen().findPreference(NAVIGATION_BAR_LENGTH_KEY));
             getPreferenceScreen().removePreference(
                     getPreferenceScreen().findPreference(NAVIGATION_BAR_HINT_KEY));
         }
