@@ -102,6 +102,7 @@ android_library {
         "androidx.navigation_navigation-ui-ktx",
         "kotlin-stdlib",
         "accountfeatureprovidergoogle",
+        "SystemUISharedLib",
     ],
 
     libs: [
